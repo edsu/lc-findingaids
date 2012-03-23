@@ -6,14 +6,6 @@ function main() {
   scrape('http://findingaids.loc.gov/source/main', findCollections);
 }
 
-function scrape(url, callback) {
-  jsdom.env(url, ['http://code.jquery.com/jquery-1.5.min.js'],
-    function (errors, window) {
-      callback(window);
-    }
-  );
-}
-
 function findCollections(window) {
   window.$('li em a').each(function (i, coll) {
     var url = 'http://findingaids.loc.gov/source/' + window.$(coll).attr('href');
@@ -42,6 +34,14 @@ function saveXml(url, referer) {
       console.log("ok: " + url);
     }
   });
+}
+
+function scrape(url, callback) {
+  jsdom.env(url, ['http://code.jquery.com/jquery-1.5.min.js'],
+    function (errors, window) {
+      callback(window);
+    }
+  );
 }
 
 main();

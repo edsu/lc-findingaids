@@ -1,0 +1,2695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Mon, 25 April 2011 12:17:04 PM EDT
+URL: http://hdl.loc.gov/loc.mbrsmi/eadmbrsmi.mi007001
+ ===================================== -->
+<!-- 20 August 2007 : corrected eadid/@identifier : by Mike Ferrando -->
+<!-- coded by Ann Mulfort -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd247e5">
+   <eadheader id="mferd247e6" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US" encodinganalog="856$u"
+             identifier="hdl:loc.mbrsmi/eadmbrsmi.mi007001">http://hdl.loc.gov/loc.mbrsmi/eadmbrsmi.mi007001</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Fox Movietone Newsreel Collection - World
+					War II Paper Records</titleproper>
+            <subtitle>A Register of the Records in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Ann Mulfort and Jennifer
+					Snyder</author>
+            <sponsor>This collection was processed with funding provided by the University
+					of South Carolina Newsfilm Library as part of a collaborative project with
+					the Library of Congress</sponsor>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+					          <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:title="Seal of the Library of Congress"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Motion Picture,
+					Broadcasting and<lb/>Recorded Sound Division,<lb/>Library of
+					Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2007" era="ce" calendar="gregorian">2007</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mbrsmi/mbrsmi.contact">http://hdl.loc.gov/loc.mbrsmi/mbrsmi.contact</extref>
+					          </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2007641041" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2007641041</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding Aid encoded by Ann Mulfort, <date normal="2007" era="ce" calendar="gregorian">2007</date>
+			      </creation>
+         <langusage encodinganalog="546">Finding aid written in<language langcode="eng" encodinganalog="041">English</language>
+			      </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change encodinganalog="583">
+            <date normal="2010-03" era="ce" calendar="gregorian" audience="internal">2010
+					March</date>
+            <item audience="internal">Headings shortened for LC XML datastore requirements;
+					geog. controlled access headings corrected; all controlled access headings
+					matched to those in collection-level MARC record; URLs in links updated.
+					Marsha Maguire</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" type="register" relatedencoding="MARC21">
+      <did id="mferd247e58">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Fox Movietone newsreel collection -
+				World War II paper records <unitdate label="Span Dates" type="inclusive" encodinganalog="245$f" normal="1922/1946"
+                      era="ce"
+                      calendar="gregorian">1922-1946</unitdate>
+				        <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1941/1946"
+                      era="ce"
+                      calendar="gregorian">(bulk 1941-1946)</unitdate>
+			      </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">MBRSMI007001</unitid>
+         <origination label="Creator">
+				        <corpname encodinganalog="110" source="lcnaf" role="creator">Twentieth
+					Century-Fox Film Corporation</corpname>
+			      </origination>
+         <physdesc label="Size">
+				        <extent encodinganalog="300">14,000 items</extent>
+				        <extent encodinganalog="300">37 containers plus 7 oversize</extent>
+				        <extent encodinganalog="300">16 linear feet</extent>
+			      </physdesc>
+         <langmaterial label="Language">Collection material predominantly in <language encodinganalog="041" langcode="eng">English; </language>there are some
+				materials in <language encodinganalog="041" langcode="fre">French</language> or
+					<language encodinganalog="041" langcode="spa">Spanish</language>. </langmaterial>
+         <repository label="Location" encodinganalog="852">
+				        <corpname>
+					          <subarea>Motion Picture, Broadcasting and Recorded Sound Division</subarea>
+					Library of Congress</corpname>
+				        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+			      </repository>
+         <abstract label="Summary" encodinganalog="520$a">Cameramen’s dope sheets (detailed
+				notes of stories filmed), continuity sheets (synopses of newsreels distributed
+				to theaters), and turnovers (one sentence descriptions of each story filmed)
+				from this major pioneer in the newsreel industry. Collection also contains
+				other paper materials including telegrams, speeches, photographs, programs, and
+				memoranda that provide details of the newsreels created by Twentieth Century
+				Fox Film Corporation. Although the entire Fox Movietone newsreel collection
+				spans 1916-1963, these materials document the World War II period.</abstract>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd247e112" altrender=":::F005=^20100809155304.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+					collection in the Library's online catalog. They are grouped by name of
+					person or organization, by subject or location, and by occupation and
+					listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd249e12">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Attlee%2C+C.+R.+%28Clement+Richard%29%2C+1883-1967.^">Attlee, C. R. (Clement Richard), 1883-1967.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Chiang%2C+Kai-shek%2C+1887-1975.^">Chiang, Kai-shek, 1887-1975.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Chiang%2C+May-ling+Soong%2C+1897-2003.^">Chiang, May-ling Soong, 1897-2003.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Churchill%2C+Winston%2C+1874-1965.^">Churchill, Winston, 1874-1965.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Eisenhower%2C+Dwight+D.+%28Dwight+David%29%2C+1890-1969.^">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Elizabeth+II%2C+Queen+of+Great+Britain%2C+1926-^">Elizabeth II, Queen of Great Britain, 1926- </persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gaulle%2C+Charles+de%2C+1890-1970.^">Gaulle, Charles de, 1890-1970.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Halsey%2C+William+Frederick%2C+1882-1959.^">Halsey, William Frederick, 1882-1959.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hirohito%2C+Emperor+of+Japan%2C+1901-1989.^">Hirohito, Emperor of Japan, 1901-1989.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hitler%2C+Adolf%2C+1889-1945.^">Hitler, Adolf, 1889-1945.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hull%2C+Cordell%2C+1871-1955.^">Hull, Cordell, 1871-1955.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Laval%2C+Pierre%2C+1883-1945.^">Laval, Pierre, 1883-1945.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lehr%2C+Lew%2C+1895-1950.^">Lehr, Lew, 1895-1950.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^MacArthur%2C+Douglas%2C+1880-1964.^">MacArthur, Douglas, 1880-1964.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Marshall%2C+George+C.+%28George+Catlett%29%2C+1880-1959.^">Marshall, George C. (George Catlett), 1880-1959.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Molotov%2C+Vyacheslav+Mikhaylovich%2C+1890-1986.^">Molotov, Vyacheslav Mikhaylovich, 1890-1986.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Montgomery+of+Alamein%2C+Bernard+Law+Montgomery%2C+Viscount%2C+1887-1976.^">Montgomery of Alamein, Bernard Law Montgomery, Viscount, 1887-1976.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mussolini%2C+Benito%2C+1883-1945.^">Mussolini, Benito, 1883-1945.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nimitz%2C+Chester+W.+%28Chester+William%29%2C+1885-1966.^">Nimitz, Chester W. (Chester William), 1885-1966.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Patton%2C+George+S.+%28George+Smith%29%2C+1885-1945.^">Patton, George S. (George Smith), 1885-1945.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^P%C3%A9tain%2C+Philippe%2C+1856-1951.^">Pétain, Philippe, 1856-1951.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rommel%2C+Erwin%2C+1891-1944.^">Rommel, Erwin, 1891-1944.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Roosevelt%2C+Eleanor%2C+1884-1962.^">Roosevelt, Eleanor, 1884-1962.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Roosevelt%2C+Franklin+D.+%28Franklin+Delano%29%2C+1882-1945.^">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Spellman%2C+Francis%2C+1889-1967.^">Spellman, Francis, 1889-1967.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Stalin%2C+Joseph%2C+1879-1953.^">Stalin, Joseph, 1879-1953.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Stettinius%2C+Edward+R.+%28Edward+Reilly%29%2C+1900-1949.^">Stettinius, Edward R. (Edward Reilly), 1900-1949.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Stimson%2C+Henry+L.+%28Henry+Lewis%29%2C+1867-1950.^">Stimson, Henry L. (Henry Lewis), 1867-1950.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Thomas%2C+Lowell%2C+1892-1981.^">Thomas, Lowell, 1892-1981.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Truman%2C+Harry+S.%2C+1884-1972.^">Truman, Harry S., 1884-1972.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Wainwright%2C+Jonathan+Mayhew%2C+1883-1953.^">Wainwright, Jonathan Mayhew, 1883-1953.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Windsor%2C+Edward%2C+Duke+of%2C+1894-1972.^">Windsor, Edward, Duke of, 1894-1972.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Windsor%2C+Wallis+Warfield%2C+Duchess+of%2C+1896-1986.^">Windsor, Wallis Warfield, Duchess of, 1896-1986.</persname>
+         </controlaccess>
+         <controlaccess id="mferd249e122">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Allied+Forces.^">Allied Forces.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Catholic+Church+Clergy+Appointment%2C+call%2C+and+election.^">Catholic Church--Clergy--Appointment, call, and election.</corpname>
+            <corpname encodinganalog="611" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Conversations+on+International+Organization+%281944+%3A+Washington%2C+D.C.%29^">Conversations on International Organization (1944 : Washington, D.C.)</corpname>
+            <corpname encodinganalog="611" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dumbarton+Oaks+Conference+%281944%29^">Dumbarton Oaks Conference (1944)</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Great+Britain.+Royal+Air+Force.^">Great Britain. <subarea encodinganalog="610$b">Royal Air Force.</subarea>
+            </corpname>
+            <corpname encodinganalog="611" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Malta+Conference+%281945%29^">Malta Conference (1945)</corpname>
+            <corpname encodinganalog="611" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Potsdam+Conference+%281945%29^">Potsdam Conference (1945)</corpname>
+            <corpname encodinganalog="110$a" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Twentieth+Century-Fox+Film+Corporation.^">Twentieth Century-Fox Film Corporation.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+Nations+Relief+and+Rehabilitation+Administration.^">United Nations Relief and Rehabilitation Administration.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+Nations+History.^">United Nations--History.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+Nations.+Charter.^">United Nations. Charter.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States.+Army+Air+Forces.^">United States. <subarea encodinganalog="610$b">Army Air Forces.</subarea>
+            </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States.+Army.^">United States. <subarea encodinganalog="610$b">Army.</subarea>
+            </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States.+Army.+Women%27s+Army+Auxiliary+Corps.^">United States. <subarea encodinganalog="610$b">Army.</subarea> 
+               <subarea encodinganalog="610$b">Women's Army Auxiliary Corps.</subarea>
+            </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States.+Army.+Women%27s+Army+Corps.^">United States. <subarea encodinganalog="610$b">Army.</subarea> 
+               <subarea encodinganalog="610$b">Women's Army Corps.</subarea>
+            </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States.+Coast+Guard.^">United States. <subarea encodinganalog="610$b">Coast Guard.</subarea>
+            </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States.+Marine+Corps.^">United States. <subarea encodinganalog="610$b">Marine Corps.</subarea>
+            </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States.+Navy.^">United States. <subarea encodinganalog="610$b">Navy.</subarea>
+            </corpname>
+            <corpname encodinganalog="611" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^World+Series+%28Baseball%29^">World Series (Baseball)</corpname>
+            <corpname encodinganalog="611" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Yalta+Conference+%281945%29^">Yalta Conference (1945)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd249e221">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Aachen%2C+Battle+of%2C+Aachen%2C+Germany%2C+1944.^">Aachen, Battle of, Aachen, Germany, 1944.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Atomic+bomb.^">Atomic bomb.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Baseball+United+States.^">Baseball--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Bombing%2C+Aerial+Japan.^">Bombing, Aerial--Japan.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Cardinals.^">Cardinals.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^College+sports+United+States.^">College sports--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Concentration+camps.^">Concentration camps.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Dieppe+Raid%2C+1942.^">Dieppe Raid, 1942.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Fashion+History+20th+century.^">Fashion--History--20th century.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Football+United+States.^">Football--United States.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Heroes.^">Heroes.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Holocaust%2C+Jewish+%281939-1945%29^">Holocaust, Jewish (1939-1945)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Hosiery+industry+United+States.^">Hosiery industry--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Iwo+Jima%2C+Battle+of%2C+Japan%2C+1945.^">Iwo Jima, Battle of, Japan, 1945.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Newsreels.^">Newsreels.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Nuremberg+Trial+of+Major+German+War+Criminals%2C+Nuremberg%2C+Germany%2C+1945-1946.^">Nuremberg Trial of Major German War Criminals, Nuremberg, Germany, 1945-1946.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Orphans+Europe.^">Orphans--Europe.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Peace+treaties.^">Peace treaties.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Pearl+Harbor+%28Hawaii%29%2C+Attack+on%2C+1941.^">Pearl Harbor (Hawaii), Attack on, 1941.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Prisoners+of+war.^">Prisoners of war.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Rationing.^">Rationing.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Reconstruction+%281939-1951%29^">Reconstruction (1939-1951)</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Refugees.^">Refugees.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Savings+bonds+United+States.^">Savings bonds--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Shipbuilding+United+States.^">Shipbuilding--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Trials+%28Crimes+against+humanity%29^">Trials (Crimes against humanity)</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^War+films.^">War films.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Warships+United+States.^">Warships--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Aerial+operations%2C+American.^">World War, 1939-1945--Aerial operations, American.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Aerial+operations%2C+British.^">World War, 1939-1945--Aerial operations, British.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Campaigns+Germany.^">World War, 1939-1945--Campaigns--Germany.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Campaigns+Japan+Okinawa+Island.^">World War, 1939-1945--Campaigns--Japan--Okinawa Island.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Campaigns+Japan.^">World War, 1939-1945--Campaigns--Japan.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Campaigns+Philippines.^">World War, 1939-1945--Campaigns--Philippines.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Collaborationists.^">World War, 1939-1945--Collaborationists.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Engineering+and+construction.^">World War, 1939-1945--Engineering and construction.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Occupied+territories.^">World War, 1939-1945--Occupied territories.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Participation%2C+Female.^">World War, 1939-1945--Participation, Female.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Social+aspects+United+States.^">World War, 1939-1945--Social aspects--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+War+work+United+States.^">World War, 1939-1945--War work--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945.^">World War, 1939-1945.</subject>
+         </controlaccess>
+         <controlaccess id="mferd249e358">
+            <head>Places</head>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Hiroshima-shi+%28Japan%29+History+Bombardment%2C+1945.^">Hiroshima-shi (Japan)--History--Bombardment, 1945.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Japan+History+Allied+occupation%2C+1945-1952.^">Japan--History--Allied occupation, 1945-1952.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^United+States+Armed+Forces+Drill+and+tactics.^">United States--Armed Forces--Drill and tactics.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^United+States+Social+life+and+customs+1918-1945.^">United States--Social life and customs--1918-1945.</geogname>
+         </controlaccess>
+         <controlaccess id="mferd249e376">
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc"
+                        altrender=":::PWEBRECON=^Generals+United+States.^">Generals--United States.</occupation>
+            <occupation encodinganalog="656" source="itoamc"
+                        altrender=":::PWEBRECON=^Presidents+United+States.^">Presidents--United States.</occupation>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd247e370" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd247e373" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Twentieth Century Fox Film Corporation deposited the collection at the
+					Library of Congress in 2003.</p>
+         </acqinfo>
+         <processinfo id="mferd247e378" encodinganalog="583">
+            <head>Processing History</head>
+            <p>Some time between 2003 and 2005, Vidipax, a magnetic media restoration
+					company, was hired to rehouse materials from their original storage in
+					steel filing cabinets to acid-free archival document boxes. Presumably at
+					this time, photocopies of some documents throughout the collection were
+					made.</p>
+            <p>Further processing occurred between 2005 and 2007 during a cooperative
+					project between the Library of Congress and the University of South
+					Carolina. The Newsfilm Library of the University of South Carolina owns a
+					discrete portion of the paper records included in this finding aid.
+					Specifically, the dope sheets from approximately August 1942 to January
+					1945 are housed at the University of South Carolina. Please see the Scope
+					and Content Note for more information about these materials.</p>
+            <p>Most story numbers are filed individually. However, an individual story or
+					event could be recorded by multiple cameramen. Therefore, an individual
+					story could be recorded by multiple story numbers. If more than one story
+					number was clipped together when received, they were foldered together when
+					processed. Additionally, if a story had ephemeral material clipped to it,
+					these items were foldered together with the story when processed.</p>
+         </processinfo>
+         <accessrestrict id="mferd247e387" encodinganalog="506">
+            <head>Access</head>
+            <p>Fox Movietone newsreel collection - World War II paper records is housed
+					within the Moving Image Section of the Motion Picture, Broadcasting and
+					Recorded Sound Division of the Library of Congress. For further information
+					and for access to the collection, contact the Reference Desk in the Moving
+					Image Reference Center at (202) 707-8572.</p>
+         </accessrestrict>
+         <userestrict id="mferd247e392" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>Twentieth Century Fox Film Corporation retains the rights governing
+					subsequent use of materials in the collection. For permission to quote or
+					republish materials from the collection, contact Twentieth Century Fox Film
+					Corporation at Fox News in New York, NY.</p>
+         </userestrict>
+         <prefercite id="mferd247e397" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following
+					information: Container number, Fox Movietone newsreel collection - World
+					War II paper records, Motion Picture, Broadcasting and Recorded Sound
+					Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+         <relatedmaterial id="mferd247e402" encodinganalog="544 1">
+            <head>Related Materials</head>
+            <p>The Newsfilm Library at the University of South Carolina in Columbia owns an
+					estimated 11 million feet of Fox News film and paper materials associated
+					with this collection. To access, see: <archref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                        xlink:href="http://www.sc.edu/library/mirc/newsfilm.php"> Records of the Movietone News [MVTN] </archref>.</p>
+            <p>Twentieth Century Fox Film Corporation at Fox News, New York, NY retains
+					portions of this collection.</p>
+            <p>Newsreels described by the paper documentation of this collection can be
+					found in the Moving Image Section of this Division. Contact the <archref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.mbrsmi/mbrsmi.home">
+						Motion Picture &amp; Television Reading Room </archref> for more
+					information. </p>
+            <p>Other moving image collections can also be requested through the <archref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.mbrsmi/mbrsmi.home">
+						Motion Picture &amp; Television Reading Room </archref>. See: <list type="simple">
+                  <item>French Collection</item>
+                  <item>German Collection</item>
+                  <item>Italian Collection</item>
+                  <item>Japanese Collection</item>
+                  <item>Russian Collection</item>
+                  <item>British Information Services Collection</item>
+                  <item>U.S. Government Films Collection</item>
+                  <item>AFI/Cromwell (Victor &amp; Walter) Collection</item>
+                  <item>Armed Forces Radio &amp; Television Service</item>
+               </list>
+				        </p>
+            <p>The Recorded Sound Section of this Division holds related recorded sound
+					collections. To begin a search, consult the World War II finding aid and
+					the Recorded Sound Catalog Supplement through the <archref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.mbrsrs/mbrsrs.home"> Recorded Sound Reference Center </archref>. See also
+					these individual collections: <list type="simple">
+                  <item>NBC Radio Collection</item>
+                  <item>Mary Margaret McBride Collection</item>
+                  <item>Raymond Swing Collection</item>
+                  <item>Marine Corps Combat Recordings</item>
+                  <item>Russian Collection</item>
+                  <item>John Toland Collection</item>
+                  <item>Armed Forces Radio and Television Service Collection or AFRTS
+							Collection</item>
+                  <item>David P. Boder Audio Materials</item>
+                  <item>OWI Collection or OWI Radio Collection</item>
+                  <item>Audioscriptions Collection</item>
+                  <item>American Broadcasting Station in Europe Collection or ABSIE
+							Collection</item>
+                  <item>Separated Nuremberg Trial Recordings from the Robert H. Jackson
+							Papers</item>
+                  <item>Captured German Recordings</item>
+                  <item>NSDAP [Nationalsozialistische Deutsche Arbeiterpartei]</item>
+                  <item>V Disc Collection</item>
+               </list>
+				        </p>
+         </relatedmaterial>
+      </descgrp>
+      <bioghist id="mferd247e480" encodinganalog="545">
+         <head>Historical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1919</date>
+               <event>Fox News first silent theatrical release</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1926</date>
+               <event>Fox News becomes Fox-Movietone News</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1927</date>
+               <event>Sound introduced to silent newsreels</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1930-1934</date>
+               <event>Fox-Movietone News shares film equipment and footage with Hearst
+						Corporation </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1935</date>
+               <event>Fox-Movietone News becomes 20th Century-Fox Movietone News</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1952-1963</date>
+               <event>Association with United Press International creates worldwide
+						television news service</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1963</date>
+               <event>Final newsreel theatrical presentation</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian"/>
+               <event/>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd247e527" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>Although the title of this portion of the Fox Movietone newsreel collection
+				designates World War II records, it is noted that other stories are reported,
+				including sports, fashion, news of the nation, weather disasters, and
+				entertainment. While the war dominated the news reported during this period,
+				the news on the American home front is also well documented in this collection.
+				The finding aid created in 2007 describes the materials in the Fox Movietone
+				newsreel collection documenting the US involvement in World War II, roughly
+				1941-1946. The entire collection includes materials from 1916-1963. It is
+				anticipated that the remainder of the materials will be processed and added to
+				this finding aid in the future. </p>
+         <p>The majority of the materials in this collection were created at a time when the
+				United States had just undergone a surprise attack on Pearl Harbor. The
+				documents were originally created for a limited, private readership, and
+				emotions were not as camouflaged as they might be when considered by current
+				standards. Some of the language found in the collection could be construed as
+				politically incorrect at the time this finding aid was created. No attempt to
+				censor these materials has been made. By making this collection available, it
+				is hoped that researchers will gain a greater insight into the complexities of
+				this period in American history. </p>
+         <p>As stated in the Related Materials and Processing History portions of this
+				finding aid, the Newsfilm Library at the University of South Carolina owns
+				materials associated with this collection. Specifically, the dope sheets from
+				approximately September 1942 to January 1945 are housed at the Newsfilm
+				Library. However, the continuity sheets and turnovers, which provide synopses
+				of the stories, can be found at the Library of Congress. It is anticipated that
+				all of the materials in these two repositories will be digitized in the future
+				for Internet access to researchers.</p>
+         <p>This collection is organized into three series: <ref xlink:type="simple" target="DopeSheets" xlink:show="replace"
+                 xlink:actuate="onRequest">Dope Sheets</ref>,
+					<ref xlink:type="simple" target="ContinuitySheets" xlink:show="replace"
+                 xlink:actuate="onRequest">Continuity Sheets</ref>, and <ref xlink:type="simple" target="Turnovers" xlink:show="replace"
+                 xlink:actuate="onRequest">Turnovers</ref>. The
+				Continuity Sheets Series is organized into two subseries: Lavenders and
+				Summaries.</p>
+         <p> The first series, <ref xlink:type="simple" target="DopeSheets" xlink:show="replace"
+                 xlink:actuate="onRequest">Dope Sheets</ref>, 1922-1946, undated, contains the most
+				detail for all stories filmed. They can include the cameraman's name, his
+				notations of story topic, location where the story was shot, dates surrounding
+				the filming, principal personalities in the story, shot-by-shot descriptions of
+				the story, environmental conditions during filming, length of footage shot, and
+				other details germane to the story and its filming. Ancillary materials may
+				also be found within each story and can include photographs, telegrams, news
+				clippings, speeches, biographies of personalities, and event programs. The Dope
+				sheets are arranged numerically, with each film assigned a unique story number.
+				Prominent figures are frequently featured in these materials. Please see the
+				Selected Search Terms section of this finding aid for a detailed listing.</p>
+         <p> The second series, <ref xlink:type="simple" target="ContinuitySheets" xlink:show="replace"
+                 xlink:actuate="onRequest">Continuity Sheets</ref>, span the
+				dates 1941-1946, and are organized into two subseries: Lavenders and Summaries.
+				Continuity Sheets record the stories that made up the newsreels distributed to
+				theaters, and the dates of distribution. They do not include all stories
+				filmed. They provide synopses of the details included in the Dope Sheets. What
+				differentiates the two subseries is: Lavenders supply the individual story
+				numbers that create the newsreel; Summaries supply the footage length of each
+				finished newsreel segment. Continuity Sheets are arranged in chronological
+				order, with a volume and release number assigned to each distribution date.</p>
+         <p> The third series, <ref xlink:type="simple" target="Turnovers" xlink:show="replace"
+                 xlink:actuate="onRequest">Turnovers</ref>, 1940-1946, is organized by year, then
+				date distributed to theaters, with a volume and release number assigned to each
+				distribution date. For each distribution sheet, a list of story numbers, a
+				one-sentence description for each story number, and the cameraman or creator
+				for each story is listed. In addition, each turnover sheet separates the
+				stories that were included in newsreels from those that were not. Scanning this
+				series for specific stories is a good place for researchers to begin, if one
+				knows the approximate date of the story sought.</p>
+      </scopecontent>
+      <arrangement id="mferd247e562" encodinganalog="351$a">
+         <head>Collection Arrangement</head>
+         <p>The collection is arranged in 3 series:</p>
+         <list type="simple">
+            <item>
+					          <ref xlink:type="simple" target="DopeSheets" xlink:show="replace"
+                    xlink:actuate="onRequest">Dope Sheets</ref>
+				        </item>
+            <item>
+					          <ref xlink:type="simple" target="ContinuitySheets" xlink:show="replace"
+                    xlink:actuate="onRequest">Continuity Sheets</ref>
+				        </item>
+            <item>
+					          <ref xlink:type="simple" target="Turnovers" xlink:show="replace"
+                    xlink:actuate="onRequest">Turnovers</ref>
+				        </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2007641041" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2007641041</extref>
+      </otherfindaid>
+      <dsc id="mferd247e583" type="combined">
+         <head>Container List</head>
+         <thead>
+            <row>
+               <entry>Box</entry>
+               <entry>Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd247e592" level="series">
+            <did>
+               <container type="box">237-254, OV1-OV7</container>
+               <unittitle encodinganalog="245$a" id="DopeSheets">Dope Sheets, <unitdate type="inclusive" normal="1922/1946" encodinganalog="245$f" era="ce"
+                            calendar="gregorian">1922-1946, undated</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Cameramen's details of films shot, including dates, locations, subjects,
+						length of footage. Story numbers may contain ancillary materials
+						including photographs, news clippings, speeches, event programs,
+						telegrams, and biographies.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged numerically by story number assigned to each film created.
+						Separated oversize materials are listed at the end of this series.</p>
+            </arrangement>
+            <c02 id="mferd247e606" level="file">
+               <did>
+                  <container type="box-folder">237/1</container>
+                  <unittitle encodinganalog="245$a">44-600 to 44-650, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							August-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e614" level="file">
+               <did>
+                  <container type="box-folder">237/2</container>
+                  <unittitle encodinganalog="245$a">44-651 to 44-699, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930s-1941
+							September</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>44-698 contains dope sheets from the 1930s, stamped
+								A3309-A3314.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd247e625" level="file">
+               <did>
+                  <container type="box-folder">237/3</container>
+                  <unittitle encodinganalog="245$a">44-700 to 44-750, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							July-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e633" level="file">
+               <did>
+                  <container type="box-folder">237/4</container>
+                  <unittitle encodinganalog="245$a">44-751 to 44-799, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							September-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e641" level="file">
+               <did>
+                  <container type="box-folder">237/5</container>
+                  <unittitle encodinganalog="245$a">44-800 to 44-843, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							August-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e649" level="file">
+               <did>
+                  <container type="box-folder">237/6</container>
+                  <unittitle encodinganalog="245$a">44-844 to 44-899, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							September-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e657" level="file">
+               <did>
+                  <container type="box-folder">237/7</container>
+                  <unittitle encodinganalog="245$a">44-900 to 44-950, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							August-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e665" level="file">
+               <did>
+                  <container type="box-folder">238/1</container>
+                  <unittitle encodinganalog="245$a">44-951 to 44-999, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 July-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e674" level="file">
+               <did>
+                  <container type="box-folder">238/2</container>
+                  <unittitle encodinganalog="245$a">45-1 to 45-50, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>1941 May-October</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e682" level="file">
+               <did>
+                  <container type="box-folder">238/3</container>
+                  <unittitle encodinganalog="245$a">45-51 to 45-99, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>1941
+							September-November</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e690" level="file">
+               <did>
+                  <container type="box-folder">238/4</container>
+                  <unittitle encodinganalog="245$a">45-100 to 45-150, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							August-November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e698" level="file">
+               <did>
+                  <container type="box-folder">238/5</container>
+                  <unittitle encodinganalog="245$a">45-151 to 45-199, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							October-November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e706" level="file">
+               <did>
+                  <container type="box-folder">238/6</container>
+                  <unittitle encodinganalog="245$a">45-200 to 45-250, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							</unitdate>November-December</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e715" level="file">
+               <did>
+                  <container type="box-folder">238/7</container>
+                  <unittitle encodinganalog="245$a">45-251 to 45-299, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>1941
+							April-December</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e723" level="file">
+               <did>
+                  <container type="box-folder">238/8</container>
+                  <unittitle encodinganalog="245$a">45-400 to 45-450, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							September-December</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>No 45-300 to 45-399.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd247e734" level="file">
+               <did>
+                  <container type="box-folder">238B/1</container>
+                  <unittitle encodinganalog="245$a">45-451 to 45-499, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941
+							September-December</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e742" level="file">
+               <did>
+                  <container type="box-folder">238B/2</container>
+                  <unittitle encodinganalog="245$a">45-500 to 45-550, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 November-1942
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e750" level="file">
+               <did>
+                  <container type="box-folder">238B/3</container>
+                  <unittitle encodinganalog="245$a">45-551 to 45-599, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 December-1942
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e758" level="file">
+               <did>
+                  <container type="box-folder">238B/4</container>
+                  <unittitle encodinganalog="245$a">45-600 to 45-650, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 December-1942
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e767" level="file">
+               <did>
+                  <container type="box-folder">238B/5</container>
+                  <unittitle encodinganalog="245$a">45-651 to 45-699, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 September-1942
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e775" level="file">
+               <did>
+                  <container type="box-folder">238B/6</container>
+                  <unittitle encodinganalog="245$a">45-700 to 45-749, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 December-1942
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e783" level="file">
+               <did>
+                  <container type="box-folder">239/1</container>
+                  <unittitle encodinganalog="245$a">45-750 to 45-799, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 December-1942
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e791" level="file">
+               <did>
+                  <container type="box-folder">239/2</container>
+                  <unittitle encodinganalog="245$a">45-800 to 45-849, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 December-1942
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e799" level="file">
+               <did>
+                  <container type="box-folder">239/3</container>
+                  <unittitle encodinganalog="245$a">45-850 to 45-885, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942
+							January-February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e807" level="file">
+               <did>
+                  <container type="box-folder">239/4</container>
+                  <unittitle encodinganalog="245$a">45-886 to 45-927, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942
+							February-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e815" level="file">
+               <did>
+                  <container type="box-folder">239/5</container>
+                  <unittitle encodinganalog="245$a">45-928 to 45-949, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942
+							January-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e823" level="file">
+               <did>
+                  <container type="box-folder">239/6</container>
+                  <unittitle encodinganalog="245$a">45-950 to 45-999, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940 January-1942
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e831" level="file">
+               <did>
+                  <container type="box-folder">239B/1</container>
+                  <unittitle encodinganalog="245$a">46-1 to 46-49, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 October-1942
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e839" level="file">
+               <did>
+                  <container type="box-folder">239B/2</container>
+                  <unittitle encodinganalog="245$a">46-50 to 46-99, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 November-1942
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e847" level="file">
+               <did>
+                  <container type="box-folder">239B/3</container>
+                  <unittitle encodinganalog="245$a">46-100 to 46-149, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 September-1942
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e856" level="file">
+               <did>
+                  <container type="box-folder">239B/4</container>
+                  <unittitle encodinganalog="245$a">46-150 to 46-199, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942
+							February-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e864" level="file">
+               <did>
+                  <container type="box-folder">239B/5</container>
+                  <unittitle encodinganalog="245$a">46-200 to 46-249, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 December-1942
+							April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e872" level="file">
+               <did>
+                  <container type="box-folder">239B/6</container>
+                  <unittitle encodinganalog="245$a">46-250 to 46-299, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 March-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e880" level="file">
+               <did>
+                  <container type="box-folder">240/1</container>
+                  <unittitle encodinganalog="245$a">46-300 to 46-349, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 July-1942
+							April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e888" level="file">
+               <did>
+                  <container type="box-folder">240/2</container>
+                  <unittitle encodinganalog="245$a">46-350 to 46-399, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 March-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e896" level="file">
+               <did>
+                  <container type="box-folder">240/3</container>
+                  <unittitle encodinganalog="245$a">46-400 to 46-449, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 March-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e904" level="file">
+               <did>
+                  <container type="box-folder">240/4</container>
+                  <unittitle encodinganalog="245$a">46-450 to 46-499, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 March-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e912" level="file">
+               <did>
+                  <container type="box-folder">240/5</container>
+                  <unittitle encodinganalog="245$a">46-500 to 46-549, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 March-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e920" level="file">
+               <did>
+                  <container type="box-folder">240B/1</container>
+                  <unittitle encodinganalog="245$a">46-550 to 46-582, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 February-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e928" level="file">
+               <did>
+                  <container type="box-folder">240B/2</container>
+                  <unittitle encodinganalog="245$a">46-583 to 46-599, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e936" level="file">
+               <did>
+                  <container type="box-folder">240B/3</container>
+                  <unittitle encodinganalog="245$a">46-600 to 46-649, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e945" level="file">
+               <did>
+                  <container type="box-folder">240B/4</container>
+                  <unittitle encodinganalog="245$a">46-650 to 46-699, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e953" level="file">
+               <did>
+                  <container type="box-folder">240B/5</container>
+                  <unittitle encodinganalog="245$a">46-700 to 46-749, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 April-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e961" level="file">
+               <did>
+                  <container type="box-folder">241/1</container>
+                  <unittitle encodinganalog="245$a">46-750 to 46-799, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 October-1942
+							June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e969" level="file">
+               <did>
+                  <container type="box-folder">241/2</container>
+                  <unittitle encodinganalog="245$a">46-800 to 46-849, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 March-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e977" level="file">
+               <did>
+                  <container type="box-folder">241/3</container>
+                  <unittitle encodinganalog="245$a">46-850 to 46-883, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e985" level="file">
+               <did>
+                  <container type="box-folder">241/4</container>
+                  <unittitle encodinganalog="245$a">46-884 to 46-912, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 May-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e993" level="file">
+               <did>
+                  <container type="box-folder">241/5</container>
+                  <unittitle encodinganalog="245$a">46-913 to 46-949, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 May-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1001" level="file">
+               <did>
+                  <container type="box-folder">241/6</container>
+                  <unittitle encodinganalog="245$a">46-950 to 46-999, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942
+							February-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1009" level="file">
+               <did>
+                  <container type="box-folder">242/1</container>
+                  <unittitle encodinganalog="245$a">47-1 to 47-45, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 May-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1017" level="file">
+               <did>
+                  <container type="box-folder">242/2</container>
+                  <unittitle encodinganalog="245$a">47-46 to 47-50, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 June-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1025" level="file">
+               <did>
+                  <container type="box-folder">242/3</container>
+                  <unittitle encodinganalog="245$a">47-51 to 47-95, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 April-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1034" level="file">
+               <did>
+                  <container type="box-folder">242/4</container>
+                  <unittitle encodinganalog="245$a">47-96 to 47-99, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1042" level="file">
+               <did>
+                  <container type="box-folder">242/5</container>
+                  <unittitle encodinganalog="245$a">47-100 to 47-132, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 April-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1050" level="file">
+               <did>
+                  <container type="box-folder">242/6</container>
+                  <unittitle encodinganalog="245$a">47-133 to 47-150, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 June-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1058" level="file">
+               <did>
+                  <container type="box-folder">242/7</container>
+                  <unittitle encodinganalog="245$a">47-151 to 47-180, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 May-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1066" level="file">
+               <did>
+                  <container type="box-folder">242/8</container>
+                  <unittitle encodinganalog="245$a">47-181 to 47-199, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 June-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1074" level="file">
+               <did>
+                  <container type="box-folder">242B/1</container>
+                  <unittitle encodinganalog="245$a">47-200 to 47-231, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 May-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1082" level="file">
+               <did>
+                  <container type="box-folder">242B/2</container>
+                  <unittitle encodinganalog="245$a">47-232 to 47-250, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 May-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1090" level="file">
+               <did>
+                  <container type="box-folder">242B/3</container>
+                  <unittitle encodinganalog="245$a">47-251 to 47-276, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 March-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1098" level="file">
+               <did>
+                  <container type="box-folder">242B/4</container>
+                  <unittitle encodinganalog="245$a">47-277 to 47-299, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 July-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1106" level="file">
+               <did>
+                  <container type="box-folder">242B/5</container>
+                  <unittitle encodinganalog="245$a">47-300 to 47-327, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 July-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1114" level="file">
+               <did>
+                  <container type="box-folder">242B/6</container>
+                  <unittitle encodinganalog="245$a">47-328 to 47-350, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 June-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1123" level="file">
+               <did>
+                  <container type="box-folder">243/1</container>
+                  <unittitle encodinganalog="245$a">47-351 to 47-389, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 May-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1131" level="file">
+               <did>
+                  <container type="box-folder">243/2</container>
+                  <unittitle encodinganalog="245$a">47-390 to 47-399, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 June-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1139" level="file">
+               <did>
+                  <container type="box-folder">243/3</container>
+                  <unittitle encodinganalog="245$a">47-400 to 47-418, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1147" level="file">
+               <did>
+                  <container type="box-folder">243/4</container>
+                  <unittitle encodinganalog="245$a">47-419 to 47-441, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942
+							July-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1155" level="file">
+               <did>
+                  <container type="box-folder">243/5</container>
+                  <unittitle encodinganalog="245$a">47-456, 47-459, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1163" level="file">
+               <did>
+                  <container type="box-folder">243/6</container>
+                  <unittitle encodinganalog="245$a">48-931, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1171" level="file">
+               <did>
+                  <container type="box-folder">243/7</container>
+                  <unittitle encodinganalog="245$a">49-770, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1179" level="file">
+               <did>
+                  <container type="box-folder">243/8</container>
+                  <unittitle encodinganalog="245$a">50-315, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1943] September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1187" level="file">
+               <did>
+                  <container type="box-folder">243/9</container>
+                  <unittitle encodinganalog="245$a">54-1 to 54-25A, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 August-1945
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1195" level="file">
+               <did>
+                  <container type="box-folder">243/10</container>
+                  <unittitle encodinganalog="245$a">54-26 to 54-35, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1203" level="file">
+               <did>
+                  <container type="box-folder">243/11</container>
+                  <unittitle encodinganalog="245$a">54-36 to 54-60, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 November-1945
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1212" level="file">
+               <did>
+                  <container type="box-folder">243/12</container>
+                  <unittitle encodinganalog="245$a">54-61 to 54-86, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 November-1945
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1220" level="file">
+               <did>
+                  <container type="box-folder">243B/1</container>
+                  <unittitle encodinganalog="245$a">54-87 to 54-99, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1228" level="file">
+               <did>
+                  <container type="box-folder">243B/2</container>
+                  <unittitle encodinganalog="245$a">54-100 to 54-125, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 August-1945
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1236" level="file">
+               <did>
+                  <container type="box-folder">243B/3</container>
+                  <unittitle encodinganalog="245$a">54-126 to 54-150, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 August-1945
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1244" level="file">
+               <did>
+                  <container type="box-folder">243B/4</container>
+                  <unittitle encodinganalog="245$a">54-151 to 54-180, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 December-1945
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1252" level="file">
+               <did>
+                  <container type="box-folder">243B/5</container>
+                  <unittitle encodinganalog="245$a">54-181 to 54-199, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1260" level="file">
+               <did>
+                  <container type="box-folder">243B/6</container>
+                  <unittitle encodinganalog="245$a">54-200 to 54-226, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 August-1945
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1268" level="file">
+               <did>
+                  <container type="box-folder">243B/7</container>
+                  <unittitle encodinganalog="245$a">54-227 to 54-249, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							February-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1276" level="file">
+               <did>
+                  <container type="box-folder">244/1</container>
+                  <unittitle encodinganalog="245$a">54-250, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1284" level="file">
+               <did>
+                  <container type="box-folder">244/2</container>
+                  <unittitle encodinganalog="245$a">54-251 to 54-282, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1292" level="file">
+               <did>
+                  <container type="box-folder">244/3</container>
+                  <unittitle encodinganalog="245$a">54-283 to 54-299, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1301" level="file">
+               <did>
+                  <container type="box-folder">244/4</container>
+                  <unittitle encodinganalog="245$a">54-300 to 54-322, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1309" level="file">
+               <did>
+                  <container type="box-folder">244/5</container>
+                  <unittitle encodinganalog="245$a">54-323 to 54-349, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 November-1945
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1317" level="file">
+               <did>
+                  <container type="box-folder">244/6</container>
+                  <unittitle encodinganalog="245$a">54-350 to 54-377, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							February-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1325" level="file">
+               <did>
+                  <container type="box-folder">244/7</container>
+                  <unittitle encodinganalog="245$a">54-378 to 54-399, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1333" level="file">
+               <did>
+                  <container type="box-folder">244/8</container>
+                  <unittitle encodinganalog="245$a">54-400 to 54-421, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							February-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1341" level="file">
+               <did>
+                  <container type="box-folder">245/1</container>
+                  <unittitle encodinganalog="245$a">54-422 to 54-449, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							February-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1349" level="file">
+               <did>
+                  <container type="box-folder">245/2</container>
+                  <unittitle encodinganalog="245$a">54-450 to 54-482, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1357" level="file">
+               <did>
+                  <container type="box-folder">245/3</container>
+                  <unittitle encodinganalog="245$a">54-483 to 54-499, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							February-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1365" level="file">
+               <did>
+                  <container type="box-folder">245/4</container>
+                  <unittitle encodinganalog="245$a">54-500 to 54-531, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 August-1945
+							May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1373" level="file">
+               <did>
+                  <container type="box-folder">245/5</container>
+                  <unittitle encodinganalog="245$a">54-532 to 54-550, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1381" level="file">
+               <did>
+                  <container type="box-folder">245/6</container>
+                  <unittitle encodinganalog="245$a">54-551 to 54-568, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1390" level="file">
+               <did>
+                  <container type="box-folder">245/7</container>
+                  <unittitle encodinganalog="245$a">54-569 to 54-599, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							February-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1398" level="file">
+               <did>
+                  <container type="box-folder">245/8</container>
+                  <unittitle encodinganalog="245$a">54-600 to 54-634, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1406" level="file">
+               <did>
+                  <container type="box-folder">245B/1</container>
+                  <unittitle encodinganalog="245$a">54-635 to 54-648, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 March-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1414" level="file">
+               <did>
+                  <container type="box-folder">245B/2</container>
+                  <unittitle encodinganalog="245$a">54-650 to 54-679, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1422" level="file">
+               <did>
+                  <container type="box-folder">245B/3</container>
+                  <unittitle encodinganalog="245$a">54-680 to 54-699, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1430" level="file">
+               <did>
+                  <container type="box-folder">245B/4</container>
+                  <unittitle encodinganalog="245$a">54-700 to 54-724, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1438" level="file">
+               <did>
+                  <container type="box-folder">245B/5</container>
+                  <unittitle encodinganalog="245$a">54-725 to 54-749, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 January-1945
+							May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1446" level="file">
+               <did>
+                  <container type="box-folder">245B/6</container>
+                  <unittitle encodinganalog="245$a">54-750 to 54-768, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1454" level="file">
+               <did>
+                  <container type="box-folder">245B/7</container>
+                  <unittitle encodinganalog="245$a">54-769 to 54-799, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 December-1945
+							May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1462" level="file">
+               <did>
+                  <container type="box-folder">245B/8</container>
+                  <unittitle encodinganalog="245$a">54-800 to 54-833, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 January-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1470" level="file">
+               <did>
+                  <container type="box-folder">246/1</container>
+                  <unittitle encodinganalog="245$a">54-834 to 54-850, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1479" level="file">
+               <did>
+                  <container type="box-folder">246/2</container>
+                  <unittitle encodinganalog="245$a">54-851 to 54-885, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1487" level="file">
+               <did>
+                  <container type="box-folder">246/3</container>
+                  <unittitle encodinganalog="245$a">54-886 to 54-899, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1495" level="file">
+               <did>
+                  <container type="box-folder">246/4</container>
+                  <unittitle encodinganalog="245$a">54-900 to 54-930, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 March-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1503" level="file">
+               <did>
+                  <container type="box-folder">246/5</container>
+                  <unittitle encodinganalog="245$a">54-931 to 54-949, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 March-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1511" level="file">
+               <did>
+                  <container type="box-folder">246/6</container>
+                  <unittitle encodinganalog="245$a">54-950 to 54-999, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 March-1945
+							May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1519" level="file">
+               <did>
+                  <container type="box-folder">246/7</container>
+                  <unittitle encodinganalog="245$a">55-1 to 55-35, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1527" level="file">
+               <did>
+                  <container type="box-folder">246/8</container>
+                  <unittitle encodinganalog="245$a">55-36 to 55-50, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1535" level="file">
+               <did>
+                  <container type="box-folder">247/1</container>
+                  <unittitle encodinganalog="245$a">55-51 to 55-85, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 May-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1543" level="file">
+               <did>
+                  <container type="box-folder">247/2</container>
+                  <unittitle encodinganalog="245$a">55-86 to 55-99, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 May-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1551" level="file">
+               <did>
+                  <container type="box-folder">247/3</container>
+                  <unittitle encodinganalog="245$a">55-100 to 55-128, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1559" level="file">
+               <did>
+                  <container type="box-folder">247/4</container>
+                  <unittitle encodinganalog="245$a">55-129 to 55-150, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1568" level="file">
+               <did>
+                  <container type="box-folder">247/5</container>
+                  <unittitle encodinganalog="245$a">55-151 to 55-181, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1576" level="file">
+               <did>
+                  <container type="box-folder">247/6</container>
+                  <unittitle encodinganalog="245$a">55-182 to 55-199, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1584" level="file">
+               <did>
+                  <container type="box-folder">247/7</container>
+                  <unittitle encodinganalog="245$a">55-200 to 55-230, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 April-June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1592" level="file">
+               <did>
+                  <container type="box-folder">247B/1</container>
+                  <unittitle encodinganalog="245$a">55-231 to 55-250, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1600" level="file">
+               <did>
+                  <container type="box-folder">247B/2</container>
+                  <unittitle encodinganalog="245$a">55-251 to 55-267, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1608" level="file">
+               <did>
+                  <container type="box-folder">247B/3</container>
+                  <unittitle encodinganalog="245$a">55-268 to 55-299, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1616" level="file">
+               <did>
+                  <container type="box-folder">247B/4</container>
+                  <unittitle encodinganalog="245$a">55-300 to 55-345, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 June-1945
+							July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1624" level="file">
+               <did>
+                  <container type="box-folder">247B/5</container>
+                  <unittitle encodinganalog="245$a">55-346 to 55-357, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 May-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1632" level="file">
+               <did>
+                  <container type="box-folder">247B/6</container>
+                  <unittitle encodinganalog="245$a">55-358 to 55-383, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1640" level="file">
+               <did>
+                  <container type="box-folder">247B/7</container>
+                  <unittitle encodinganalog="245$a">55-384 to 55-399, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1648" level="file">
+               <did>
+                  <container type="box-folder">247B/8</container>
+                  <unittitle encodinganalog="245$a">55-400 to 55-433, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1657" level="file">
+               <did>
+                  <container type="box-folder">248/1</container>
+                  <unittitle encodinganalog="245$a">55-434 to 55-450, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 May-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1665" level="file">
+               <did>
+                  <container type="box-folder">248/2</container>
+                  <unittitle encodinganalog="245$a">55-451 to 55-480, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 March-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1673" level="file">
+               <did>
+                  <container type="box-folder">248/3</container>
+                  <unittitle encodinganalog="245$a">55-481 to 55-499, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1681" level="file">
+               <did>
+                  <container type="box-folder">248/4</container>
+                  <unittitle encodinganalog="245$a">55-500 to 55-519, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1689" level="file">
+               <did>
+                  <container type="box-folder">248/5</container>
+                  <unittitle encodinganalog="245$a">55-520 to 55-550, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							June-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1697" level="file">
+               <did>
+                  <container type="box-folder">248/6</container>
+                  <unittitle encodinganalog="245$a">55-554 to 55-572, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							January-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1705" level="file">
+               <did>
+                  <container type="box-folder">248/7</container>
+                  <unittitle encodinganalog="245$a">55-573 to 55-599, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 July-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1713" level="file">
+               <did>
+                  <container type="box-folder">248B/1</container>
+                  <unittitle encodinganalog="245$a">55-600 to 55-620, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 July-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1721" level="file">
+               <did>
+                  <container type="box-folder">248B/2</container>
+                  <unittitle encodinganalog="245$a">55-621 to 55-650, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 June-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1729" level="file">
+               <did>
+                  <container type="box-folder">248B/3</container>
+                  <unittitle encodinganalog="245$a">55-651 to 55-676, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 July-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1737" level="file">
+               <did>
+                  <container type="box-folder">248B/4</container>
+                  <unittitle encodinganalog="245$a">55-677 to 55-699, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 July-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1746" level="file">
+               <did>
+                  <container type="box-folder">248B/5</container>
+                  <unittitle encodinganalog="245$a">55-700 to 55-740, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 July-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1754" level="file">
+               <did>
+                  <container type="box-folder">248B/6</container>
+                  <unittitle encodinganalog="245$a">55-741 to 55-750, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1762" level="file">
+               <did>
+                  <container type="box-folder">248B/7</container>
+                  <unittitle encodinganalog="245$a">55-751 to 55-782, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 July-August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1770" level="file">
+               <did>
+                  <container type="box-folder">249/1</container>
+                  <unittitle encodinganalog="245$a">55-783 to 55-799, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 September-1945
+							August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1778" level="file">
+               <did>
+                  <container type="box-folder">249/2</container>
+                  <unittitle encodinganalog="245$a">55-800 to 55-835, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							August-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1786" level="file">
+               <did>
+                  <container type="box-folder">249/3</container>
+                  <unittitle encodinganalog="245$a">55-836 to 55-851, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1794" level="file">
+               <did>
+                  <container type="box-folder">249/4</container>
+                  <unittitle encodinganalog="245$a">55-852 to 55-874, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							July-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1802" level="file">
+               <did>
+                  <container type="box-folder">249/5</container>
+                  <unittitle encodinganalog="245$a">55-875 to 55-882, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1810" level="file">
+               <did>
+                  <container type="box-folder">249/6</container>
+                  <unittitle encodinganalog="245$a">55-883 to 55-899, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							May-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1818" level="file">
+               <did>
+                  <container type="box-folder">249/7</container>
+                  <unittitle encodinganalog="245$a">55-900 to 55-937, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							August-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1826" level="file">
+               <did>
+                  <container type="box-folder">249/8</container>
+                  <unittitle encodinganalog="245$a">55-938 to 55-950, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1835" level="file">
+               <did>
+                  <container type="box-folder">249B/1</container>
+                  <unittitle encodinganalog="245$a">55-951 to 55-982, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 June-1945
+							September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1843" level="file">
+               <did>
+                  <container type="box-folder">249B/2</container>
+                  <unittitle encodinganalog="245$a">55-983 to 55-999, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1851" level="file">
+               <did>
+                  <container type="box-folder">249B/3</container>
+                  <unittitle encodinganalog="245$a">56-1 to 56-38, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							May-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1859" level="file">
+               <did>
+                  <container type="box-folder">249B/4</container>
+                  <unittitle encodinganalog="245$a">56-39 to 56-72, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							July-September</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1867" level="file">
+               <did>
+                  <container type="box-folder">249B/5</container>
+                  <unittitle encodinganalog="245$a">56-73 to 56-99, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							April-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1875" level="file">
+               <did>
+                  <container type="box-folder">249B/6</container>
+                  <unittitle encodinganalog="245$a">56-100 to 56-133, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 July-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1883" level="file">
+               <did>
+                  <container type="box-folder">250/1</container>
+                  <unittitle encodinganalog="245$a">56-134 to 56-151, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1891" level="file">
+               <did>
+                  <container type="box-folder">250/2</container>
+                  <unittitle encodinganalog="245$a">56-152 to 56-178, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							September-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1899" level="file">
+               <did>
+                  <container type="box-folder">250/3</container>
+                  <unittitle encodinganalog="245$a">56-179 to 56-199, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							September-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1907" level="file">
+               <did>
+                  <container type="box-folder">250/4</container>
+                  <unittitle encodinganalog="245$a">56-200 to 56-232, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							September-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1915" level="file">
+               <did>
+                  <container type="box-folder">250/5</container>
+                  <unittitle encodinganalog="245$a">56-233 to 56-250, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							August-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1924" level="file">
+               <did>
+                  <container type="box-folder">250/6</container>
+                  <unittitle encodinganalog="245$a">56-251 to 56-289, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							August-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1932" level="file">
+               <did>
+                  <container type="box-folder">250/7</container>
+                  <unittitle encodinganalog="245$a">56-290 to 56-299, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1940" level="file">
+               <did>
+                  <container type="box-folder">251/1</container>
+                  <unittitle encodinganalog="245$a">56-300 to 56-316, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							September-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1948" level="file">
+               <did>
+                  <container type="box-folder">251/2</container>
+                  <unittitle encodinganalog="245$a">56-317 to 56-343, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							August-October</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1956" level="file">
+               <did>
+                  <container type="box-folder">251/3</container>
+                  <unittitle encodinganalog="245$a">56-344 to 56-357, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							August-November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1964" level="file">
+               <did>
+                  <container type="box-folder">251/4</container>
+                  <unittitle encodinganalog="245$a">56-358 to 56-384, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							September-November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1972" level="file">
+               <did>
+                  <container type="box-folder">251/5</container>
+                  <unittitle encodinganalog="245$a">56-385 to 56-399, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							October-November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1980" level="file">
+               <did>
+                  <container type="box-folder">251/6</container>
+                  <unittitle encodinganalog="245$a">56-400 to 56-430, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							October-November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1988" level="file">
+               <did>
+                  <container type="box-folder">251/7</container>
+                  <unittitle encodinganalog="245$a">56-431 to 56-450, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e1996" level="file">
+               <did>
+                  <container type="box-folder">251B/1</container>
+                  <unittitle encodinganalog="245$a">56-451 to 56-481, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							August-November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2004" level="file">
+               <did>
+                  <container type="box-folder">251B/2</container>
+                  <unittitle encodinganalog="245$a">56-482 to 56-499, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 October-1946
+							April</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2013" level="file">
+               <did>
+                  <container type="box-folder">251B/3</container>
+                  <unittitle encodinganalog="245$a">56-500 to 56-529, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2021" level="file">
+               <did>
+                  <container type="box-folder">251B/4</container>
+                  <unittitle encodinganalog="245$a">56-530 to 56-549, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2029" level="file">
+               <did>
+                  <container type="box-folder">251B/5</container>
+                  <unittitle encodinganalog="245$a">56-550 to 56-580, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							October-November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2037" level="file">
+               <did>
+                  <container type="box-folder">251B/6</container>
+                  <unittitle encodinganalog="245$a">56-581 to 56-599, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 November</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2045" level="file">
+               <did>
+                  <container type="box-folder">252/1</container>
+                  <unittitle encodinganalog="245$a">56-600 to 56-630, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 December-1945
+							December</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2053" level="file">
+               <did>
+                  <container type="box-folder">252/2</container>
+                  <unittitle encodinganalog="245$a">56-631 to 56-650, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							November-December</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2061" level="file">
+               <did>
+                  <container type="box-folder">252/3</container>
+                  <unittitle encodinganalog="245$a">56-651 to 56-663, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							November-December</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2069" level="file">
+               <did>
+                  <container type="box-folder">252/4</container>
+                  <unittitle encodinganalog="245$a">56-664 to 56-699, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922 April-1945
+							December</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2077" level="file">
+               <did>
+                  <container type="box-folder">252/5</container>
+                  <unittitle encodinganalog="245$a">56-700 to 56-729, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							October-December</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2085" level="file">
+               <did>
+                  <container type="box-folder">252/6</container>
+                  <unittitle encodinganalog="245$a">56-730 to 56-749, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							October-December</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2093" level="file">
+               <did>
+                  <container type="box-folder">252/7</container>
+                  <unittitle encodinganalog="245$a">56-750 to 56-782, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 November-1946
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2102" level="file">
+               <did>
+                  <container type="box-folder">252B/1</container>
+                  <unittitle encodinganalog="245$a">56-783 to 56-799, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+							November-December</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2110" level="file">
+               <did>
+                  <container type="box-folder">252B/2</container>
+                  <unittitle encodinganalog="245$a">56-800 to 56-814, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 December-1946
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2118" level="file">
+               <did>
+                  <container type="box-folder">252B/3</container>
+                  <unittitle encodinganalog="245$a">56-815 to 56-816, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 December-1946
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2126" level="file">
+               <did>
+                  <container type="box-folder">252B/4</container>
+                  <unittitle encodinganalog="245$a">56-817 to 56-850, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 December-1946
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2134" level="file">
+               <did>
+                  <container type="box-folder">252B/5</container>
+                  <unittitle encodinganalog="245$a">56-851 to 56-878, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 November-1946
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2142" level="file">
+               <did>
+                  <container type="box-folder">252B/6</container>
+                  <unittitle encodinganalog="245$a">56-879 to 56-899, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 October-1946
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2150" level="file">
+               <did>
+                  <container type="box-folder">252B/7</container>
+                  <unittitle encodinganalog="245$a">56-900 to 56-949, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 November-1946
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2158" level="file">
+               <did>
+                  <container type="box-folder">253/1</container>
+                  <unittitle encodinganalog="245$a">56-950 to 56-981, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 December-1946
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2166" level="file">
+               <did>
+                  <container type="box-folder">253/2</container>
+                  <unittitle encodinganalog="245$a">56-982 to 56-999, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946 January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2174" level="file">
+               <did>
+                  <container type="box-folder">253/3</container>
+                  <unittitle encodinganalog="245$a">57-1 to 57-50, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 July-1946
+							January</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2182" level="file">
+               <did>
+                  <container type="box-folder">253/4</container>
+                  <unittitle encodinganalog="245$a">57-51 to 57-85, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 December-1946
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2191" level="file">
+               <did>
+                  <container type="box-folder">253/5</container>
+                  <unittitle encodinganalog="245$a">57-86 to 57-99, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+							January-February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2199" level="file">
+               <did>
+                  <container type="box-folder">253/6</container>
+                  <unittitle encodinganalog="245$a">57-100 to 57-144, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+							January-February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2207" level="file">
+               <did>
+                  <container type="box-folder">253/7</container>
+                  <unittitle encodinganalog="245$a">57-145 to 57-182, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 November-1946
+							June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2215" level="file">
+               <did>
+                  <container type="box-folder">253B/1</container>
+                  <unittitle encodinganalog="245$a">57-183 to 57-199, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946 February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2223" level="file">
+               <did>
+                  <container type="box-folder">253B/2</container>
+                  <unittitle encodinganalog="245$a">57-200 to 57-247, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+							January-February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2231" level="file">
+               <did>
+                  <container type="box-folder">253B/3</container>
+                  <unittitle encodinganalog="245$a">57-248 to 57-283, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+							January-February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2239" level="file">
+               <did>
+                  <container type="box-folder">253B/4</container>
+                  <unittitle encodinganalog="245$a">57-284 to 57-299, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946 February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2247" level="file">
+               <did>
+                  <container type="box-folder">253B/5</container>
+                  <unittitle encodinganalog="245$a">57-300 to 57-348, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+							January-February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2255" level="file">
+               <did>
+                  <container type="box-folder">253B/6</container>
+                  <unittitle encodinganalog="245$a">57-349 to 57-370, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946 February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2263" level="file">
+               <did>
+                  <container type="box-folder">253B/7</container>
+                  <unittitle encodinganalog="245$a">57-371 to 57-389, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931 July-1946
+							February</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2271" level="file">
+               <did>
+                  <container type="box-folder">254/1</container>
+                  <unittitle encodinganalog="245$a">57-390 to 57-405, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+							February-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2280" level="file">
+               <did>
+                  <container type="box-folder">254/2</container>
+                  <unittitle encodinganalog="245$a">57-406 to 57-428, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+							February-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2288" level="file">
+               <did>
+                  <container type="box-folder">254/3</container>
+                  <unittitle encodinganalog="245$a">57-429 to 57-450, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+							February-March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2296" level="file">
+               <did>
+                  <container type="box-folder">254/4</container>
+                  <unittitle encodinganalog="245$a">57-451 to 57-499, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 December-1946
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2304" level="file">
+               <did>
+                  <container type="box-folder">254/5</container>
+                  <unittitle encodinganalog="245$a">57-500 to 57-531, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930 May-1946
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2312" level="file">
+               <did>
+                  <container type="box-folder">254/6</container>
+                  <unittitle encodinganalog="245$a">57-532 to 57-555, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928 July-1946
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2320" level="file">
+               <did>
+                  <container type="box-folder">254/7</container>
+                  <unittitle encodinganalog="245$a">57-556 to 57-599, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930 January-1946
+							March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2328" level="file">
+               <did>
+                  <container type="box">OV1</container>
+                  <unittitle encodinganalog="245$a">44-694 to 46-203</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2334" level="file">
+               <did>
+                  <container type="box">OV2</container>
+                  <unittitle encodinganalog="245$a">46-221 to 46-986</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2340" level="file">
+               <did>
+                  <container type="box">OV3</container>
+                  <unittitle encodinganalog="245$a">47-003 to 47-430</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2346" level="file">
+               <did>
+                  <container type="box">OV4</container>
+                  <unittitle encodinganalog="245$a">54-026 to 56-663</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2352" level="file">
+               <did>
+                  <container type="box">OV5</container>
+                  <unittitle encodinganalog="245$a">56-737 to 57-343</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2359" level="file">
+               <did>
+                  <container type="box">OV6</container>
+                  <unittitle encodinganalog="245$a">57-347 to 57-582</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2365" level="file">
+               <did>
+                  <container type="box">OV7</container>
+                  <unittitle encodinganalog="245$a">54-367</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd247e2371" level="series">
+            <did>
+               <container type="box">887-889B</container>
+               <unittitle encodinganalog="245$a" id="ContinuitySheets">Continuity Sheets,
+							<unitdate type="inclusive" normal="1941/1946" encodinganalog="245$f" era="ce"
+                            calendar="gregorian">1941-1946</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Synopses of newsreels distributed to theaters. The boxes and folders
+						that contain the Lavenders subseries of materials are heavy due to
+						enclosing the majority of documents in Mylar for protection.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically, with volume and release numbers.</p>
+            </arrangement>
+            <c02 id="mferd247e2385" level="subseries">
+               <did>
+                  <container type="box">887-889</container>
+                  <unittitle encodinganalog="245$a">Lavenders, <unitdate type="inclusive" normal="1941/1946" encodinganalog="245$f" era="ce"
+                               calendar="gregorian">1941-1946</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Includes individual story number(s) that make up each newsreel.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged chronologically, with volume and release numbers.</p>
+               </arrangement>
+               <c03 id="mferd247e2399" level="file">
+                  <did>
+                     <container type="box-folder">887/1</container>
+                     <unittitle encodinganalog="245$a">24/1 to 24/35, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 [September]-1942 January
+									6</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2407" level="file">
+                  <did>
+                     <container type="box-folder">887/2</container>
+                     <unittitle encodinganalog="245$a">24/36 to 24/51, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 January 8-March
+								3</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2415" level="file">
+                  <did>
+                     <container type="box-folder">887/3</container>
+                     <unittitle encodinganalog="245$a">24/52 to 24/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 March 5-September
+								3</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2423" level="file">
+                  <did>
+                     <container type="box-folder">887/4</container>
+                     <unittitle encodinganalog="245$a">25/1 to 25/33, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 September 8-December
+									29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2431" level="file">
+                  <did>
+                     <container type="box-folder">887/5</container>
+                     <unittitle encodinganalog="245$a">25/34 to 25/51, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 December 30-1943 February
+									26</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2439" level="file">
+                  <did>
+                     <container type="box-folder">887/6</container>
+                     <unittitle encodinganalog="245$a">25/52 to 25/90, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 March 2-July
+								11</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2447" level="file">
+                  <did>
+                     <container type="box-folder">887/7</container>
+                     <unittitle encodinganalog="245$a">25/91 to 25/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 July 16-August
+								30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2455" level="file">
+                  <did>
+                     <container type="box-folder">887/8</container>
+                     <unittitle encodinganalog="245$a">26/1 to 26/55, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 September 3-1944 March
+									10</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2464" level="file">
+                  <did>
+                     <container type="box-folder">888/1</container>
+                     <unittitle encodinganalog="245$a">26/56 to 26/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 March 13-[August]
+								29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2472" level="file">
+                  <did>
+                     <container type="box-folder">888/2</container>
+                     <unittitle encodinganalog="245$a">27/1 to 27/44, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1944 August 31]-1945 January
+									27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2480" level="file">
+                  <did>
+                     <container type="box-folder">888/3</container>
+                     <unittitle encodinganalog="245$a">27/45 to 27/77, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 February 2-May
+								24</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2488" level="file">
+                  <did>
+                     <container type="box-folder">888/4</container>
+                     <unittitle encodinganalog="245$a">27/78 to 27/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 May 27-[August
+								27]</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2496" level="file">
+                  <did>
+                     <container type="box-folder">888/5</container>
+                     <unittitle encodinganalog="245$a">28/1 to 28/54, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1945 August 30]-1946 March
+									5</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2504" level="file">
+                  <did>
+                     <container type="box-folder">888/6</container>
+                     <unittitle encodinganalog="245$a">28/55 to 28/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946 March 8-August
+								26</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2512" level="file">
+                  <did>
+                     <container type="box-folder">889/1</container>
+                     <unittitle encodinganalog="245$a">24/1 to 24/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 [September]-1942 September
+									3</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Photocopies. With MTA numbers.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2523" level="file">
+                  <did>
+                     <container type="box-folder">889/2</container>
+                     <unittitle encodinganalog="245$a">27/1 to 27/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 [August 31]-1945 [August
+									27]</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Photocopies. With MTA numbers.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2534" level="file">
+                  <did>
+                     <container type="box-folder">889/3</container>
+                     <unittitle encodinganalog="245$a">28/1 to 28/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1945 August 30]-[1946 August
+									26]</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Photocopies. With MTA numbers.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd247e2545" level="subseries">
+               <did>
+                  <container type="box">889-889B</container>
+                  <unittitle encodinganalog="245$a">Summaries, <unitdate type="inclusive" normal="1942/1945" encodinganalog="245$f" era="ce"
+                               calendar="gregorian">1942-1945</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Includes length of footage contained on each newsreel.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged chronologically, with volume and release numbers.</p>
+               </arrangement>
+               <c03 id="mferd247e2559" level="file">
+                  <did>
+                     <container type="box-folder">889/4</container>
+                     <unittitle encodinganalog="245$a">24/35 to 25/34, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 January 5-December
+									29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2567" level="file">
+                  <did>
+                     <container type="box-folder">889/5</container>
+                     <unittitle encodinganalog="245$a">25/35 to 25/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 January 4-August
+								30</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2575" level="file">
+                  <did>
+                     <container type="box-folder">889/6</container>
+                     <unittitle encodinganalog="245$a">26/1 to 26/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 September 2-1944 August
+									28</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2583" level="file">
+                  <did>
+                     <container type="box-folder">889/7</container>
+                     <unittitle encodinganalog="245$a">27/1 to 27/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 August 31-1945 August
+									27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2591" level="file">
+                  <did>
+                     <container type="box-folder">889/8</container>
+                     <unittitle encodinganalog="245$a">28/1 to 28/36, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 August 30-December
+									27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2599" level="file">
+                  <did>
+                     <container type="box-folder">889B/1</container>
+                     <unittitle encodinganalog="245$a">25/1 to 25/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 September 7-1943 August
+									30</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Photocopies. With MTA numbers.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2610" level="file">
+                  <did>
+                     <container type="box-folder">889B/2</container>
+                     <unittitle encodinganalog="245$a">26/1 to 26/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 September 2-1944 August
+									28</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Photocopies. With MTA numbers.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd247e2621" level="file">
+                  <did>
+                     <container type="box-folder">889B/3</container>
+                     <unittitle encodinganalog="245$a">27/1 to 27/104, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 August 31-1945 August
+									27</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Photocopies. With MTA numbers.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd247e2632" level="series">
+            <did>
+               <container type="box">80B-81, 871</container>
+               <unittitle encodinganalog="245$a" id="Turnovers">Turnovers, <unitdate type="inclusive" normal="1940/1946" encodinganalog="245$f" era="ce"
+                            calendar="gregorian">1940-1946</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Turnovers provide a one sentence description of each story filmed, and
+						the cameraman or creator who filmed it. They also distinguish which
+						stories were used to create each newsreel, the date the newsreels were
+						distributed to theaters, and which stories were vaulted.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically, with story numbers and volume &amp;
+						release numbers.</p>
+            </arrangement>
+            <processinfo>
+               <p>The original folders were labeled using story numbers. During
+						processing, the archivists added volume and release or issue numbers to
+						the folder titles for clarity. These appear within brackets.</p>
+            </processinfo>
+            <c02 id="mferd247e2649" level="file">
+               <did>
+                  <container type="box-folder">80B/1</container>
+                  <unittitle encodinganalog="245$a">39-571 to 42-612 [22/33 to 23/33],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940 January 2-December
+								31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2657" level="file">
+               <did>
+                  <container type="box-folder">80B/2</container>
+                  <unittitle encodinganalog="245$a">42-613 to 45-516 [23/34 to 24/34],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 January 2-December
+								31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2665" level="file">
+               <did>
+                  <container type="box-folder">80B/3</container>
+                  <unittitle encodinganalog="245$a">45-517 to 48-243 [24/35 to 25/34],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 January 6-December
+								31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2673" level="file">
+               <did>
+                  <container type="box-folder">80B/4</container>
+                  <unittitle encodinganalog="245$a">48-244 to 50-856 [25/35 to 26/35],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 January 5-December
+								31</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2681" level="file">
+               <did>
+                  <container type="box-folder">80B/5</container>
+                  <unittitle encodinganalog="245$a">50-857 to 52-899 [26/36 to 27/5],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 January 4-September
+								15</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2689" level="file">
+               <did>
+                  <container type="box-folder">80B/6</container>
+                  <unittitle encodinganalog="245$a">52-900 to 53-785 [27/6 to 27/36],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 September 20-December
+								30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2697" level="file">
+               <did>
+                  <container type="box-folder">81/1</container>
+                  <unittitle encodinganalog="245$a">53-786 to 56-799 [27/37 to 28/36],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 January 5-December
+								28</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2706" level="file">
+               <did>
+                  <container type="box-folder">81/2</container>
+                  <unittitle encodinganalog="245$a">56-800 to 60-141 [28/37 to 29/36],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946 January 4-December
+								30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd247e2714" level="file">
+               <did>
+                  <container type="box-folder">871/1</container>
+                  <unittitle encodinganalog="245$a">39-571 to 42-612 [22/33 to 23/33],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940 January 2-December
+								31</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Photocopies.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd247e2725" level="file">
+               <did>
+                  <container type="box-folder">871/2</container>
+                  <unittitle encodinganalog="245$a">42-613 to 45-516 [23/34 to 24/34],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941 January 2-December
+								31</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Photocopies.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd247e2736" level="file">
+               <did>
+                  <container type="box-folder">871/3</container>
+                  <unittitle encodinganalog="245$a">45-517 to 48-243 [24/35 to 25/34],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942 January 6-December
+								31</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Photocopies.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd247e2747" level="file">
+               <did>
+                  <container type="box-folder">871/4</container>
+                  <unittitle encodinganalog="245$a">48-244 to 50-856 [25/35 to 26/35],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943 January 5-December
+								31</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Photocopies.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd247e2758" level="file">
+               <did>
+                  <container type="box-folder">871/5</container>
+                  <unittitle encodinganalog="245$a">50-857 to 53-785 [26/36 to 27/36],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944 January 4-December
+								30</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Photocopies.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd247e2769" level="file">
+               <did>
+                  <container type="box-folder">871/6</container>
+                  <unittitle encodinganalog="245$a">53-786 to 56-799 [27/37 to 28/36],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 January 5-December
+								28</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Photocopies.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd247e2780" level="file">
+               <did>
+                  <container type="box-folder">871/7</container>
+                  <unittitle encodinganalog="245$a">56-800 to 60-141 [28/37 to 29/36],
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946 January 4-December
+								30</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Photocopies.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+      <!-- Index here wrap in descgrp/@type='index' element -->
+</archdesc>
+</ead>

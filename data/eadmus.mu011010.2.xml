@@ -1,0 +1,3608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 19 January 2012 03:03:22 PM EST
+URL: http://hdl.loc.gov/loc.music/eadmus.mu011010
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu011010--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu011010--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu011010-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd13e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd13e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu011010"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu011010</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Max Rudolf Papers
+		  </titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c">2011</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2011570506"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2011570506</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2011">2011</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2012-01" era="ce" calendar="gregorian">2012 January</date>
+            <item>George Kipper revised and updated this finding aid to include additional materials.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd13e55">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Max Rudolf Papers
+		  <unitdate label="Span Dates" type="inclusive" normal="1922/1993" encodinganalog="245$f"
+                      datechar="creation">1922-1993</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1945/1992" encodinganalog="245$g"
+                      datechar="creation">(bulk 1945-1992)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.R85</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Rudolf, Max, 1902-1995</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">approximately 4,500 items</extent>
+		          <extent encodinganalog="300">22 containers</extent>
+		          <extent encodinganalog="300">11.5 linear feet</extent>		  
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in<language encodinganalog="041" langcode="eng"> English </language>and<language encodinganalog="041" langcode="ger"> German.</language> 
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Max Rudolf was a German-born American conductor and music educator. He is best known for his work with the Metropolitan Opera, the Cincinnati Symphony Orchestra, and the Curtis Institute of Music. The collection contains Rudolf's extensive correspondence with prominent 20th century musical figures, Metropolitan Opera annual files documenting his years with that organization, and a few photographs.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2011570506.10001"
+                     altrender=":::F005=^20120111022725.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd13e109">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Barber%2C+Samuel%2C+1910-1981+Correspondence.^">Barber, Samuel, 1910-1981--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bing%2C+Rudolf%2C+1902-1997+Correspondence.^">Bing, Rudolf, 1902-1997--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dallapiccola%2C+Luigi%2C+1904-1975+Correspondence.^">Dallapiccola, Luigi, 1904-1975--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dello+Joio%2C+Norman%2C+1913-2008+Correspondence.^">Dello Joio, Norman, 1913-2008--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Diamond%2C+David%2C+1915-2005+Correspondence.^">Diamond, David, 1915-2005--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dorati%2C+Antal+Correspondence.^">Dorati, Antal--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gould%2C+Glenn+Correspondence.^">Gould, Glenn--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Leinsdorf%2C+Erich%2C+1912-1993+Correspondence.^">Leinsdorf, Erich, 1912-1993--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Levin%2C+Ira%2C+1958-+Correspondence.^">Levin, Ira, 1958- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Levine%2C+James%2C+1943-+Correspondence.^">Levine, James, 1943- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Menotti%2C+Gian+Carlo%2C+1911-2007+Correspondence.^">Menotti, Gian Carlo, 1911-2007--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ormandy%2C+Eugene%2C+1899-1985+Correspondence.^">Ormandy, Eugene, 1899-1985--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rudolf%2C+Max%2C+1902-1995+Archives.^">Rudolf, Max, 1902-1995--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rudolf%2C+Max%2C+1902-1995+Correspondence.^">Rudolf, Max, 1902-1995--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rudolf%2C+Max%2C+1902-1995+Photographs.^">Rudolf, Max, 1902-1995--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rudolf%2C+Max%2C+1902-1995.^">Rudolf, Max, 1902-1995.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rudolf%2C+Max%2C+1902-1995.^">Rudolf, Max, 1902-1995.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schuller%2C+Gunther+Correspondence.^">Schuller, Gunther--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schuman%2C+William%2C+1910-1992+Correspondence.^">Schuman, William, 1910-1992--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Serkin%2C+Rudolf%2C+1903-1991+Correspondence.^">Serkin, Rudolf, 1903-1991--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Stern%2C+Isaac%2C+1920-2001+Correspondence.^">Stern, Isaac, 1920-2001--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Szell%2C+George%2C+1897-1970+Correspondence.^">Szell, George, 1897-1970--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Walter%2C+Bruno%2C+1876-1962+Correspondence.^">Walter, Bruno, 1876-1962--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd13e160">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^American+Symphony+Orchestra+League.^">American Symphony Orchestra League.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Curtis+Institute+of+Music.^">Curtis Institute of Music.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Metropolitan+Opera+%28New+York%2C+N.Y.%29^">Metropolitan Opera (New York, N.Y.)</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Metropolitan+Opera+%28New+York%2C+N.Y.%29^">Metropolitan Opera (New York, N.Y.)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd13e171">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Conductors+%28Music%29^">Conductors (Music)</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Music+teachers.^">Music teachers.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+United+States+20th+century.^">Music--United States--20th century.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Opera+companies+New+York+%28State%29+New+York.^">Opera companies--New York (State)--New York.</subject>
+         </controlaccess>
+         <controlaccess id="mferd13e182">
+            <head>Titles</head>
+            <title encodinganalog="246" source="lcnaf"
+                   altrender=":::PWEBRECON=^Max+Rudolf+correspondence%2C+1922-1993^">Max Rudolf correspondence, 1922-1993</title>
+         </controlaccess>
+         <controlaccess id="mferd13e187">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Articles.^">Articles.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Contracts.^">Contracts.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Promotional+materials.^">Promotional materials.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Scripts+%28Documents%29.^">Scripts (Documents).</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd13e206">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd13e209">
+            <head>Provenance</head>
+            <p>Purchase, Music Division, 2009.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd13e214">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd13e219">
+            <head>Processing History</head>
+            <p>The Max Rudolf Papers were processed by George Kipper, Patrick Domico, and Christopher Hartten in 2011. Christopher Hartten coded the finding aid for EAD format in August 2011. George Kipper expanded and revised the finding aid in November 2011 to include additional materials.</p>
+         </processinfo>
+         <relatedmaterial encodinganalog="544 1" id="mferd13e224">
+            <head>Related Material</head>
+            <p>The <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002008">Serge Koussevitzky Archive (ML31.K66)</archref> contains correspondence between Koussevitzky and Rudolf. The <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002011">Nicolas Slonimsky Collection (ML31.S6)</archref> contains a variety of biographical research materials on the conductor.</p>
+         </relatedmaterial>
+         <userestrict encodinganalog="540" id="mferd13e235">
+            <head>Copyright Status</head>
+            <p>Materials from the Max Rudolf Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd13e240">
+            <head>Access and Restrictions</head>
+            <p>The Max Rudolf Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd13e247">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+following information: [item, date, container number], Max Rudolf Papers, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd13e252">
+         <head>Biographical Note</head>
+         <p>Max Rudolf (1902-1995) was born in Frankfurt am Main, Germany, on June 15, 1902. He began musical studies at age seven, learning piano, organ, cello, and trumpet. He began to compose at age eleven, and at thirteen, commenced professional musical studies with Bernard Sekles, remaining with this teacher for the next six years. Rudolf attended Frankfurt University and the Hochschule für Musik from 1921-1922, making his conducting debut in March 1923 at Freiburg in a production of Johann Strauss's opera <title>Die Fledermaus</title>. During the following years 1924-1929, he familiarized himself with standard operatic repertory while holding down posts at the Städtisches Theater (Freiburg) and at Darmstadt. Rudolf then became principal conductor of the German theater in Prague from 1929-1935, where he became acquainted with George Szell. He also appeared as guest conductor with the Berlin Philharmonic Orchestra (1929-1930). From 1935-1940, Rudolf resided in Göteborg, Sweden, while holding positions as choral director for the Orchestral Society and the Swedish Broadcasting Company.</p>
+         <p>He left Europe in October 1940, travelling east across Russia, Japan, and the Hawaiian Islands, finally arriving in San Francisco. He initially secured a position teaching conducting and score reading at the Music Department of the Y.M.C.A. College in Chicago, later moving to New York in December 1943, where he was eventually engaged by the New Opera Company for a production of Offenbach's operetta <title>La Vie Parisienne</title>. Rudolf became a naturalized American citizen in 1945. In the fall of 1945, Rudolf was hired as an assistant conductor with the Metropolitan Opera, his debut being the Gala Program Annual Benefit Concert on January 13, 1946. He served as both a conductor for the organization from 1946 to 1958 and as its assistant manager from 1950-1958. He held the post of music director of the Cincinnati Symphony Orchestra from 1958-1970 and signed on as musical director for the Cincinnati May Festival from 1963-1970.</p>
+         <p>Rudolf joined the faculty of the Curtis Institute of Music in 1970, serving as head of the conducting and opera departments until 1973, after which time he returned to the Metropolitan Opera for an additional two seasons (1973-1975). Earlier, Rudolf had also returned to New York to participate in two historically significant Metropolitan Opera events: the Old Metropolitan Opera House Gala Farewell (April 16, 1966) and Rudolf Bing's Gala Farewell (April 22, 1972).</p>
+         <p>Throughout the 1970s, he served as artistic advisor to the Dallas, Detroit, and New Jersey Symphony Orchestras, and continued to make regular guest appearances with several major American orchestras and opera houses well into his eighties. He rejoined the faculty of the Curtis Institute in 1983 and continued as an emeritus member until his death on February 28, 1995. In addition to his work as conductor and pedagogue, Rudolf recorded extensively and authored the conducting textbook <title>The Grammar of Conducting</title> (1950) that received further revisions in 1969, 1981, and 1995.</p>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd13e272">
+         <head>Scope and Content Note</head>
+         <p>The Max Rudolf Papers span the period 1922-1993, with the majority of materials dating from his professional period in the United States, 1945-1992. The collection is arranged in three series: Correspondence, 1922-1993; Photographs, 1952 and undated; and Metropolitan Opera Annual Files, 1946-1975.</p>
+         <p>Rudolf corresponded with many pre-eminent 20th century composers, conductors, vocalists, instrumentalists, musicologists, music critics, individuals responsible for the management of American orchestras and operatic companies, and many other well-known individuals in non-musical fields. Topics of correspondence include much discussion on the art of conducting, matters of musical interpretation, contemporary composers and their compositions, performers, programming, and other musical matters.</p>
+         <p>The collection contains extensive correspondence with conductors Antal Dorati (15 letters), Rafael Kubelik (7 letters), Erich Leinsdorf (14 letters), Eugene Ormandy (86 letters), George Szell (over 200 letters), Fritz Reiner, Leopold Stokowski, William Steinberg, Bruno Walter, and many others. Rudolf corresponded with prominent composers, including Samuel Barber, Luigi Dallapiccola, David Diamond, Norman Dello Joio, Percy Grainger, Hans Werner Henze, Paul Hindemith, Gian Carlo Menotti, Gunther Schuller, and William Schuman. He also exchanged communications with major performers such as Roberta Peters, Risë Stevens, Richard Tucker, Isaac Stern, Glenn Gould, Byron Janis, Igor Kipnis, Leonard Rose, and Rudolf Serkin. Additional letters with various directors, producers, and administrators of opera companies and orchestras are present as well, highlighted by substantial communications with Metropolitan Opera management, especially Rudolf Bing (39 letters). Rudolf corresponded with musicologists H.C. Robbins Landon and Paul Henry Lang as well. Rudolf's tenure at the Curtis Institute of Music and his affiliation with the American Symphony Orchestra League are also well documented. Many letters are accompanied by carbon copies of Rudolf's replies. Clippings, reviews, and other inserts are often found among the letters, as are occasional photographs enclosed by the correspondent.</p>
+         <p>Rudolf's Metropolitan Opera annual files represent the years he was active with that organization: 1946-1958 and 1973-1975, as well as individual appearances made in 1966 (Gala Metropolitan Opera House Farewell) and 1972 (Rudolf Bing's Gala Farewell). Each annual file includes operatic programs (often annotated by Rudolf), Metropolitan Opera annual publications, contracts, correspondence, itineraries, travel-related expense bills, articles, clippings, radio broadcast scripts, press releases, rehearsal schedules, and other miscellaneous documents. Preservation photocopies of Metropolitan Opera broadside programs (1949-1958 seasons) and original broadsides (1973-1974 season) are filed separately due to format considerations. The Photographs series contains a handful of photographs of Rudolf alone and with other musicians.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd13e283">
+         <head>Organization of the Max Rudolf Papers</head>
+         <p>The Max Rudolf Papers are organized in three series: </p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="corr" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Correspondence, 1922-1993</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="photo" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Photographs, 1952 and undated</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="metop" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Metropolitan Opera Annual Files, 1946-1975</ref>
+			         </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2011570506"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2011570506</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd13e304" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd13e313">
+            <did>
+               <container type="box">1-14</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence,
+			 	<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1922/1993">1922-1993</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with prominent 20th century composers, conductors, performers, musicologists, music critics, managers of major American orchestras and opera companies, and others. Reviews, clippings, photographs, or other material may accompany correspondence.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of individual, organization, or subject, and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file" id="mferd13e327">
+               <did>
+                  <container type="box-folder">1/1-2</container>
+                  <unittitle encodinganalog="245$a">American Symphony Orchestra League,
+				  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1972</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Chiefly correspondence with Helen Thompson, ASOL executive secretary and treasurer</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e338">
+               <did>
+                  <container type="box-folder">1/3-4</container>
+                  <unittitle encodinganalog="245$a">Barber, Elinore, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1980, 1988-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e346">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle encodinganalog="245$a">Barber, Samuel, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946, 1955-1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e354">
+               <did>
+                  <container type="box-folder">1/6-9</container>
+                  <unittitle encodinganalog="245$a">Bing, Rudolf, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1972, 1982-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e362">
+               <did>
+                  <container type="box-folder">1/10</container>
+                  <unittitle encodinganalog="245$a">Böhm, Karl, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930-1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e370">
+               <did>
+                  <container type="box-folder">1/11</container>
+                  <unittitle encodinganalog="245$a">Bräm, Thűring, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e378">
+               <did>
+                  <container type="box-folder">1/12</container>
+                  <unittitle encodinganalog="245$a">Britten, Benjamin, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e386">
+               <did>
+                  <container type="box-folder">1/13</container>
+                  <unittitle encodinganalog="245$a">Brubeck, Dave, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e395">
+               <did>
+                  <container type="box-folder">1/14-17</container>
+                  <unittitle encodinganalog="245$a">Charry, Michael,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e403">
+               <did>
+                  <container type="box-folder">2/1-3</container>
+                  <unittitle encodinganalog="245$a">Charry, Michael, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e411">
+               <did>
+                  <container type="box-folder">2/4</container>
+                  <unittitle encodinganalog="245$a">Copland, Aaron, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e419">
+               <did>
+                  <container type="box-folder">2/5-10</container>
+                  <unittitle encodinganalog="245$a">Curtis Institute of Music,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1968-1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e427">
+               <did>
+                  <container type="box-folder">2/11</container>
+                  <unittitle encodinganalog="245$a">Dallapiccola, Luigi,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971, 1973-1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e435">
+               <did>
+                  <container type="box-folder">2/12</container>
+                  <unittitle encodinganalog="245$a">Dello Joio, Norman,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956, 1958-1988</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e443">
+               <did>
+                  <container type="box-folder">2/13</container>
+                  <unittitle encodinganalog="245$a">Diamond, David,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1964, 1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e451">
+               <did>
+                  <container type="box-folder">2/14</container>
+                  <unittitle encodinganalog="245$a">Dorati, Antal,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e459">
+               <did>
+                  <container type="box-folder">2/15</container>
+                  <unittitle encodinganalog="245$a">Etler, Alvin,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e467">
+               <did>
+                  <container type="box-folder">2/16-19</container>
+                  <unittitle encodinganalog="245$a">Fagan, Arthur, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e475">
+               <did>
+                  <container type="box-folder">2/20</container>
+                  <unittitle encodinganalog="245$a">Frommel, Gerhard, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e484">
+               <did>
+                  <container type="box-folder">2/21</container>
+                  <unittitle encodinganalog="245$a">Goldovsky, Boris,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949, 1959-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e492">
+               <did>
+                  <container type="box-folder">2/22</container>
+                  <unittitle encodinganalog="245$a">Goldschmidt, Berthold,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e500">
+               <did>
+                  <container type="box-folder">2/23</container>
+                  <unittitle encodinganalog="245$a">Gould, Glenn,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1964, 1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e508">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a">Graffman, Gary,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976-1977, 1986-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e516">
+               <did>
+                  <container type="box-folder">3/2</container>
+                  <unittitle encodinganalog="245$a">Grainger, Percy,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e524">
+               <did>
+                  <container type="box-folder">3/3</container>
+                  <unittitle encodinganalog="245$a">Hanson, Howard,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956, 1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e532">
+               <did>
+                  <container type="box-folder">3/4</container>
+                  <unittitle encodinganalog="245$a">Henze, Hans Werner,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e540">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle encodinganalog="245$a">Hindemith, Paul,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e548">
+               <did>
+                  <container type="box-folder">3/6-9</container>
+                  <unittitle encodinganalog="245$a">Horszowski, Mieczyslaw,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e556">
+               <did>
+                  <container type="box-folder">3/10</container>
+                  <unittitle encodinganalog="245$a">Husa, Karel,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1968, 1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e564">
+               <did>
+                  <container type="box-folder">3/11</container>
+                  <unittitle encodinganalog="245$a">Jacobi, Frederick,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1941, 1945</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e573">
+               <did>
+                  <container type="box-folder">3/12-13</container>
+                  <unittitle encodinganalog="245$a">Järvi, Paavo,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e581">
+               <did>
+                  <container type="box-folder">3/14</container>
+                  <unittitle encodinganalog="245$a">Josephs, Wilfred,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1971, 1979-1986</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e589">
+               <did>
+                  <container type="box-folder">3/15-17</container>
+                  <unittitle encodinganalog="245$a">Kalam, Tonu,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e597">
+               <did>
+                  <container type="box-folder">3/18</container>
+                  <unittitle encodinganalog="245$a">Klein, Lothar,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970, 1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e605">
+               <did>
+                  <container type="box-folder">3/19</container>
+                  <unittitle encodinganalog="245$a">Klemperer, Otto,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928, 1935</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e613">
+               <did>
+                  <container type="box-folder">3/20</container>
+                  <unittitle encodinganalog="245$a">Korn, Michael, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985-1986</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e621">
+               <did>
+                  <container type="box-folder">3/21</container>
+                  <unittitle encodinganalog="245$a">Kowalski, Max, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948, 1950-1951</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e629">
+               <did>
+                  <container type="box-folder">3/22</container>
+                  <unittitle encodinganalog="245$a">Kraft, Leo, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1950, 1959-1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e637">
+               <did>
+                  <container type="box-folder">3/23</container>
+                  <unittitle encodinganalog="245$a">Kunzel, Erich,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1962, 1971-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e645">
+               <did>
+                  <container type="box-folder">3/24</container>
+                  <unittitle encodinganalog="245$a">La Violette, Wesley,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e653">
+               <did>
+                  <container type="box-folder">3/25</container>
+                  <unittitle encodinganalog="245$a">Labunski, Felix,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e662">
+               <did>
+                  <container type="box-folder">3/26</container>
+                  <unittitle encodinganalog="245$a">Lees, Benjamin,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970, 1973-1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e670">
+               <did>
+                  <container type="box-folder">3/27</container>
+                  <unittitle encodinganalog="245$a">Leinsdorf, Erich, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e678">
+               <did>
+                  <container type="box-folder">3/28-30</container>
+                  <unittitle encodinganalog="245$a">Levin, Ira, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e686">
+               <did>
+                  <container type="box-folder">4/1</container>
+                  <unittitle encodinganalog="245$a">Levine, James,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1958-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e694">
+               <did>
+                  <container type="box-folder">4/2-6</container>
+                  <unittitle encodinganalog="245$a">Loebel, David,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1978-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e702">
+               <did>
+                  <container type="box-folder">4/7</container>
+                  <unittitle encodinganalog="245$a">Lustgarten, Egon,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e710">
+               <did>
+                  <container type="box-folder">4/8</container>
+                  <unittitle encodinganalog="245$a">Maciejewski, Roman,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e718">
+               <did>
+                  <container type="box-folder">4/9</container>
+                  <unittitle encodinganalog="245$a">Martino, Donald,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1975-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e726">
+               <did>
+                  <container type="box-folder">4/10</container>
+                  <unittitle encodinganalog="245$a">Massarani, Renzo,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e734">
+               <did>
+                  <container type="box-folder">4/11</container>
+                  <unittitle encodinganalog="245$a">Mennin, Peter,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1969-1977, 1980-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e742">
+               <did>
+                  <container type="box-folder">4/12</container>
+                  <unittitle encodinganalog="245$a">Menotti, Gian Carlo,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e751">
+               <did>
+                  <container type="box-folder">4/13</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "A",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e759">
+               <did>
+                  <container type="box-folder">4/14</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "B",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1978, 1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e767">
+               <did>
+                  <container type="box-folder">4/15</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "C-F",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1954, 1972-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e775">
+               <did>
+                  <container type="box-folder">4/16</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "G",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1972, 1979-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e783">
+               <did>
+                  <container type="box-folder">4/17</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "H",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1958-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e791">
+               <did>
+                  <container type="box-folder">4/18</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "I-L",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949, 1956-1964</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e799">
+               <did>
+                  <container type="box-folder">4/19</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "M-P",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1951, 1962-1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e807">
+               <did>
+                  <container type="box-folder">4/20</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "R",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e815">
+               <did>
+                  <container type="box-folder">4/21</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "S",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1941, 1952-1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e823">
+               <did>
+                  <container type="box-folder">4/22</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera Management/Board/Guild, "T-Z",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1958, 1971-1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e831">
+               <did>
+                  <container type="box-folder">5/1</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "A",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1972, 1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e840">
+               <did>
+                  <container type="box-folder">5/2</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "B",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e848">
+               <did>
+                  <container type="box-folder">5/3</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "C",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1963, 1971-1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e856">
+               <did>
+                  <container type="box-folder">5/4</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "D",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1943-1958, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e864">
+               <did>
+                  <container type="box-folder">5/5</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "E-F",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1966, 1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e872">
+               <did>
+                  <container type="box-folder">5/6</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "G",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1952, 1958-1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e880">
+               <did>
+                  <container type="box-folder">5/7</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "H-J",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1965, 1970-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e888">
+               <did>
+                  <container type="box-folder">5/8</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "K-L",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1944-1952, 1960-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e896">
+               <did>
+                  <container type="box-folder">5/9</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "M-O",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1949, 1960-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e904">
+               <did>
+                  <container type="box-folder">5/10</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "P",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1972, 1981-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e912">
+               <did>
+                  <container type="box-folder">5/11</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "R",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1952, 1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e920">
+               <did>
+                  <container type="box-folder">5/12</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "S",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1960, 1974-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e929">
+               <did>
+                  <container type="box-folder">5/13</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "T",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1938-1957, 1968-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e937">
+               <did>
+                  <container type="box-folder">5/14</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "U-V",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1957, 1973-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e945">
+               <did>
+                  <container type="box-folder">5/15</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Opera singers, "W-Z",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950, 1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e953">
+               <did>
+                  <container type="box-folder">5/16</container>
+                  <unittitle encodinganalog="245$a">Mills, Charles,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e961">
+               <did>
+                  <container type="box-folder">5/17-18</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "A",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1965, 1970-1988</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e969">
+               <did>
+                  <container type="box-folder">5/19-21</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "B",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1950, 1957-1967, 1972-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e977">
+               <did>
+                  <container type="box-folder">6/1</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "C",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e985">
+               <did>
+                  <container type="box-folder">6/2-3</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "D",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e993">
+               <did>
+                  <container type="box-folder">6/4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "E",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1001">
+               <did>
+                  <container type="box-folder">6/5</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "F",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1009">
+               <did>
+                  <container type="box-folder">6/6</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "G",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1018">
+               <did>
+                  <container type="box-folder">6/7</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "H",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1943-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1026">
+               <did>
+                  <container type="box-folder">6/8</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "J",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1034">
+               <did>
+                  <container type="box-folder">6/9</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "K",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1042">
+               <did>
+                  <container type="box-folder">6/10</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "L",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1965-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1050">
+               <did>
+                  <container type="box-folder">6/11-12</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "M",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1940-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1058">
+               <did>
+                  <container type="box-folder">6/13</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "N",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1965-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1066">
+               <did>
+                  <container type="box-folder">6/14</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "P",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1074">
+               <did>
+                  <container type="box-folder">6/14-16</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "R",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930-1983, 1993</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1082">
+               <did>
+                  <container type="box-folder">7/1-3</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "S",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1090">
+               <did>
+                  <container type="box-folder">7/4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "T",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1098">
+               <did>
+                  <container type="box-folder">7/5</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "U-V",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932-1948, 1960-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1107">
+               <did>
+                  <container type="box-folder">7/6</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "W",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1934-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1115">
+               <did>
+                  <container type="box-folder">7/7</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous conductors, "Y-Z",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1959-1988</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1123">
+               <did>
+                  <container type="box-folder">7/8</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "A-C",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953, 1962, 1976-1986</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1131">
+               <did>
+                  <container type="box-folder">7/9</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "D-F",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1950, 1964, 1976-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1139">
+               <did>
+                  <container type="box-folder">7/10</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "G-J",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932-1935, 1941-1964, 1970-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1147">
+               <did>
+                  <container type="box-folder">7/11</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "K-L",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1925-1931, 1950-1959, 1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1155">
+               <did>
+                  <container type="box-folder">7/12</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "M",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1939, 1945-1958, 1972-1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1163">
+               <did>
+                  <container type="box-folder">7/13</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "N-R",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1957, 1981-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1171">
+               <did>
+                  <container type="box-folder">7/14</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "S",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1950, 1958-1962, 1981-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1179">
+               <did>
+                  <container type="box-folder">7/15</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "T-W",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1933-1934, 1964, 1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1187">
+               <did>
+                  <container type="box-folder">7/16</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous directors, producers, administrators, "Y-Z",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1958, 1963-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1196">
+               <did>
+                  <container type="box-folder">8/1-2</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous orchestras and opera companies,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1204">
+               <did>
+                  <container type="box-folder">8/3-4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "A",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1212">
+               <did>
+                  <container type="box-folder">8/5-6</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "B",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1959-1968, 1973-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1220">
+               <did>
+                  <container type="box-folder">8/7</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "C",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1228">
+               <did>
+                  <container type="box-folder">8/8</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "D",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1236">
+               <did>
+                  <container type="box-folder">8/9</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "E-F",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1244">
+               <did>
+                  <container type="box-folder">8/10</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "G",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1252">
+               <did>
+                  <container type="box-folder">8/11</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "H-I",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1260">
+               <did>
+                  <container type="box-folder">8/12</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "K",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1268">
+               <did>
+                  <container type="box-folder">8/13</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "L",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949, 1977-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1276">
+               <did>
+                  <container type="box-folder">8/14</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "M",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1974, 1993</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1285">
+               <did>
+                  <container type="box-folder">8/15</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "O-P",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1970, 1981-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1293">
+               <did>
+                  <container type="box-folder">8/16</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "R",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1301">
+               <did>
+                  <container type="box-folder">8/17</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "S",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1309">
+               <did>
+                  <container type="box-folder">8/18</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "T-W",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1941-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1317">
+               <did>
+                  <container type="box-folder">8/19</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous performers, "W",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1325">
+               <did>
+                  <container type="box-folder">9/1</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "A-B",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1936, 1950-1975, 1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1333">
+               <did>
+                  <container type="box-folder">9/2</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "C-E",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1936-1950, 1962-1966, 1971-1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1341">
+               <did>
+                  <container type="box-folder">9/3</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "F",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1349">
+               <did>
+                  <container type="box-folder">9/4</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "G",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1972, 1979, 1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1357">
+               <did>
+                  <container type="box-folder">9/5</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "H",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1939-1958, 1964-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1365">
+               <did>
+                  <container type="box-folder">9/6</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "I-L",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931, 1957-1967, 1970-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1374">
+               <did>
+                  <container type="box-folder">9/7</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "M-O",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1968, 1970-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1382">
+               <did>
+                  <container type="box-folder">9/8</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "P-R",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1941-1964, 1970-1974, 1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1390">
+               <did>
+                  <container type="box-folder">9/9</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "S-U",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1975, 1980-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1398">
+               <did>
+                  <container type="box-folder">9/10</container>
+                  <unittitle encodinganalog="245$a">Music personalities, "V-Z",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1967, 1972-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1406">
+               <did>
+                  <container type="box-folder">9/11</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "A",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1983, 1986</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1414">
+               <did>
+                  <container type="box-folder">9/12</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "B",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1922-1929, 1972-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1422">
+               <did>
+                  <container type="box-folder">9/13</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "C-D",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1979, 1984-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1430">
+               <did>
+                  <container type="box-folder">9/14</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "E-G",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983-1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1438">
+               <did>
+                  <container type="box-folder">10/1</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "H",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974, 1979-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1446">
+               <did>
+                  <container type="box-folder">10/2</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "I-K",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1969-1972, 1979-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1454">
+               <did>
+                  <container type="box-folder">10/3</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "L",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1962, 1972-1977, 1987-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1463">
+               <did>
+                  <container type="box-folder">10/4</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "M",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1973, 1986-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1471">
+               <did>
+                  <container type="box-folder">10/5</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "N-O",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1977, 1986-1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1479">
+               <did>
+                  <container type="box-folder">10/6</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "P-R",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945, 1950, 1979-1986</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1487">
+               <did>
+                  <container type="box-folder">10/7-8</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "S",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1963, 1970-1993</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1495">
+               <did>
+                  <container type="box-folder">10/9</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "T-V",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1978, 1985-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1503">
+               <did>
+                  <container type="box-folder">10/10</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "W",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979-1983, 1989-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1511">
+               <did>
+                  <container type="box-folder">10/11</container>
+                  <unittitle encodinganalog="245$a">Musicologists, "X-Z",
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1975-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1519">
+               <did>
+                  <container type="box-folder">10/12</container>
+                  <unittitle encodinganalog="245$a">Muti, Riccardo,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1527">
+               <did>
+                  <container type="box-folder">10/13</container>
+                  <unittitle encodinganalog="245$a">Nelhybel, Vaclav,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1535">
+               <did>
+                  <container type="box-folder">10/14</container>
+                  <unittitle encodinganalog="245$a">Oltman, Dwight,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1543">
+               <did>
+                  <container type="box-folder">11/1-10</container>
+                  <unittitle encodinganalog="245$a">Ormandy, Eugene,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1552">
+               <did>
+                  <container type="box-folder">11/11-24</container>
+                  <unittitle encodinganalog="245$a">Peinemann, Edith,  
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1962-1992</unitdate>
+                     <lb/>
+                     <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="edison">
+                        <emph render="italic">see also </emph>Box 14, Photographs</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1565">
+               <did>
+                  <container type="box-folder">11/25</container>
+                  <unittitle encodinganalog="245$a">Powers, Maxwell,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942-1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1573">
+               <did>
+                  <container type="box-folder">11/26</container>
+                  <unittitle encodinganalog="245$a">Proto, Frank,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1977-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1581">
+               <did>
+                  <container type="box-folder">11/27</container>
+                  <unittitle encodinganalog="245$a">Rathaus, Karol,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1589">
+               <did>
+                  <container type="box-folder">11/28</container>
+                  <unittitle encodinganalog="245$a">Reiner, Fritz,  
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1953, 1962-1963, 1971-1972</unitdate>
+                     <lb/>
+                     <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="berliner">
+                        <emph render="italic">see also </emph>Box 14, Photographs</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1602">
+               <did>
+                  <container type="box-folder">12/1-2</container>
+                  <unittitle encodinganalog="245$a">Richman, James,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1610">
+               <did>
+                  <container type="box-folder">12/3</container>
+                  <unittitle encodinganalog="245$a">Rogers, Bernard,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1618">
+               <did>
+                  <container type="box-folder">12/4</container>
+                  <unittitle encodinganalog="245$a">Rostropovich, Mstislav,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1626">
+               <did>
+                  <container type="box-folder">12/5</container>
+                  <unittitle encodinganalog="245$a">Rubinstein, Artur,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966, 1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1634">
+               <did>
+                  <container type="box-folder">12/6</container>
+                  <unittitle encodinganalog="245$a">Schippers, Thomas,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1642">
+               <did>
+                  <container type="box-folder">12/7-8</container>
+                  <unittitle encodinganalog="245$a">Schuller, Gunther,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1959-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1651">
+               <did>
+                  <container type="box-folder">12/9</container>
+                  <unittitle encodinganalog="245$a">Schuman, William,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1659">
+               <did>
+                  <container type="box-folder">12/10</container>
+                  <unittitle encodinganalog="245$a">Sekles, Bernhard,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1922-1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1667">
+               <did>
+                  <container type="box-folder">12/11-18</container>
+                  <unittitle encodinganalog="245$a">Serkin, Rudolf,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1675">
+               <did>
+                  <container type="box-folder">12/19-21</container>
+                  <unittitle encodinganalog="245$a">Simmons, Calvin,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1683">
+               <did>
+                  <container type="box-folder">12/22-25</container>
+                  <unittitle encodinganalog="245$a">Smith, Mark,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1691">
+               <did>
+                  <container type="box-folder">13/1-2</container>
+                  <unittitle encodinganalog="245$a">Stern, Isaac,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1959-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1699">
+               <did>
+                  <container type="box-folder">13/3-6</container>
+                  <unittitle encodinganalog="245$a">Stern, Michael,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1981-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1707">
+               <did>
+                  <container type="box-folder">13/7</container>
+                  <unittitle encodinganalog="245$a">Stokowski, Leopold,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1715">
+               <did>
+                  <container type="box-folder">13/8</container>
+                  <unittitle encodinganalog="245$a">Stravinsky, Igor,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1965</unitdate>
+                     <lb/>
+                     <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="berliner">
+                        <emph render="italic">see also </emph>Box 14, Photographs</ref>
+                  </unittitle>
+                  <note>
+                     <p>One notecard.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1731">
+               <did>
+                  <container type="box-folder">13/9</container>
+                  <unittitle encodinganalog="245$a">Suderburg, Robert,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1739">
+               <did>
+                  <container type="box-folder">13/10</container>
+                  <unittitle encodinganalog="245$a">Surinach, Carlos,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1968-1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1748">
+               <did>
+                  <container type="box-folder">13/11-18</container>
+                  <unittitle encodinganalog="245$a">Szell, Georg,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1974, 1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1756">
+               <did>
+                  <container type="box-folder">13/19-24</container>
+                  <unittitle encodinganalog="245$a">Takács, Jenö,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1764">
+               <did>
+                  <container type="box-folder">14/1</container>
+                  <unittitle encodinganalog="245$a">Thorpe, Francis,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1772">
+               <did>
+                  <container type="box-folder">14/2</container>
+                  <unittitle encodinganalog="245$a">Velazco, Emil,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1780">
+               <did>
+                  <container type="box-folder">14/3-10</container>
+                  <unittitle encodinganalog="245$a">Voois, Jacques C.,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1788">
+               <did>
+                  <container type="box-folder">14/11</container>
+                  <unittitle encodinganalog="245$a">Walter, Bruno,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1938-1956</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1796">
+               <did>
+                  <container type="box-folder">14/12</container>
+                  <unittitle encodinganalog="245$a">Watkins, Sara,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983, 1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1804">
+               <did>
+                  <container type="box-folder">14/13</container>
+                  <unittitle encodinganalog="245$a">Waxman, Franz,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1812">
+               <did>
+                  <container type="box-folder">14/14</container>
+                  <unittitle encodinganalog="245$a">Wojeik, Raymond,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1820">
+               <did>
+                  <container type="box-folder">14/15-16</container>
+                  <unittitle encodinganalog="245$a">Yahr, Barbara,
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd13e1828">
+            <did>
+               <container type="box">14</container>
+               <unittitle encodinganalog="245$a" id="photo">Photographs,
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952 and undated</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Miscellaneous images of Rudolf alone or with other people.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by subject.</p>
+            </arrangement>
+            <c02 level="file" id="mferd13e1842">
+               <did>
+                  <container type="box-folder">14/17</container>
+                  <unittitle encodinganalog="245$a">Max Rudolf, alone,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Two photographs.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1853">
+               <did>
+                  <container type="box-folder">14/18</container>
+                  <unittitle encodinganalog="245$a" id="edison">Max Rudolf, with Edith Peinemann,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Two inscribed photographs.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e1864">
+               <did>
+                  <container type="box-folder">14/19</container>
+                  <unittitle encodinganalog="245$a" id="berliner">Max Rudolf, with Fritz Reiner, Igor Stravinsky and George Balanchine,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">December 26, 1952</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Two photographs.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd13e1875">
+            <did>
+               <container type="box">15-22</container>
+               <unittitle encodinganalog="245$a" id="metop">Metropolitan Opera Annual Files, 
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1946/1975">1946-1975</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Metropolitan Opera publications (i.e. brochures, booklets, annual statements of operations, other business reports), articles, clippings, correspondence, miscellaneous documents (contracts, official papers, invitations, etc.), photographs, programs (regular season performances and annual spring tour, often annotated by Rudolf), radio broadcast scripts, press releases, rehearsal schedules, itineraries, and travel-related expense bills. Preservation photocopies of broadside programs covering seasons 1949-1958 and original broadsides for the 1973-1974 season are housed separately in Box 22.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically, and alphabetically by type of material or subject therein.</p>
+            </arrangement>
+            <c02 level="file" id="mferd13e1889">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e1895">
+                  <did>
+                     <container type="box-folder">15/1</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 61st season and the Annual Statement on Operations.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1906">
+                  <did>
+                     <container type="box-folder">15/2</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1914">
+                  <did>
+                     <container type="box-folder">15/3</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1922">
+                  <did>
+                     <container type="box-folder">15/4</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1930">
+                  <did>
+                     <container type="box-folder">15/5</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1938">
+                  <did>
+                     <container type="box-folder">15/6</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1946">
+                  <did>
+                     <container type="box-folder">15/7</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1954">
+                  <did>
+                     <container type="box-folder">15/8</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1962">
+                  <did>
+                     <container type="box-folder">15/9</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e1970">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e1976">
+                  <did>
+                     <container type="box-folder">15/10</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 62nd season and the Annual Statement on Operations.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1987">
+                  <did>
+                     <container type="box-folder">15/11</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e1995">
+                  <did>
+                     <container type="box-folder">15/12</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2003">
+                  <did>
+                     <container type="box-folder">15/13</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2011">
+                  <did>
+                     <container type="box-folder">15/14</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2019">
+                  <did>
+                     <container type="box-folder">15/15</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Laid in: world premiere performance of <title>The Warrior</title> (scene one), January 11, 1947.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2033">
+                  <did>
+                     <container type="box-folder">15/16</container>
+                     <unittitle encodinganalog="245$a">Press releases,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2041">
+                  <did>
+                     <container type="box-folder">15/17</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1947</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Laid in: Rudolf's annotated libretto to <title>The Warrior</title>.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2055">
+                  <did>
+                     <container type="box-folder">15/18</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2063">
+                  <did>
+                     <container type="box-folder">15/19</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2071">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1948</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2077">
+                  <did>
+                     <container type="box-folder">15/20</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1948</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 63rd season and the Annual Statement on Operations.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2088">
+                  <did>
+                     <container type="box-folder">15/21</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2096">
+                  <did>
+                     <container type="box-folder">15/22</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2104">
+                  <did>
+                     <container type="box-folder">15/23</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2112">
+                  <did>
+                     <container type="box-folder">15/24</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2120">
+                  <did>
+                     <container type="box-folder">15/25</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2128">
+                  <did>
+                     <container type="box-folder">15/26</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2136">
+                  <did>
+                     <container type="box-folder">15/27</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2144">
+                  <did>
+                     <container type="box-folder">15/28</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Travel expenses and related bills,	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2152">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2158">
+                  <did>
+                     <container type="box-folder">16/1</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 64th season and the Annual Statement on Operations.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2169">
+                  <did>
+                     <container type="box-folder">16/2</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2177">
+                  <did>
+                     <container type="box-folder">16/3</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2185">
+                  <did>
+                     <container type="box-folder">16/4</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2193">
+                  <did>
+                     <container type="box-folder">16/5</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2201">
+                  <did>
+                     <container type="box-folder">16/6</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2209">
+                  <did>
+                     <container type="box-folder">16/7</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2217">
+                  <did>
+                     <container type="box-folder">16/8</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2225">
+                  <did>
+                     <container type="box-folder">16/9</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Travel expenses and related bills,	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2233">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2239">
+                  <did>
+                     <container type="box-folder">16/10</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 65th season and the Annual Statement on Operations.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2250">
+                  <did>
+                     <container type="box-folder">16/11</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2258">
+                  <did>
+                     <container type="box-folder">16/12</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2266">
+                  <did>
+                     <container type="box-folder">16/13</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2274">
+                  <did>
+                     <container type="box-folder">16/14</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2282">
+                  <did>
+                     <container type="box-folder">16/15</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2290">
+                  <did>
+                     <container type="box-folder">16/16</container>
+                     <unittitle encodinganalog="245$a">Press releases, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2298">
+                  <did>
+                     <container type="box-folder">16/17</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2306">
+                  <did>
+                     <container type="box-folder">16/18</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2314">
+                  <did>
+                     <container type="box-folder">16/19</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2323">
+                  <did>
+                     <container type="box-folder">16/20</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Travel expenses and related bills,	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2331">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2337">
+                  <did>
+                     <container type="box-folder">16/21</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 66th season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2348">
+                  <did>
+                     <container type="box-folder">16/22</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2356">
+                  <did>
+                     <container type="box-folder">16/23</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2364">
+                  <did>
+                     <container type="box-folder">16/24</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2372">
+                  <did>
+                     <container type="box-folder">16/25</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2380">
+                  <did>
+                     <container type="box-folder">16/26</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2388">
+                  <did>
+                     <container type="box-folder">16/27</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2396">
+                  <did>
+                     <container type="box-folder">16/28</container>
+                     <unittitle encodinganalog="245$a">Radio broadcast script,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">March 24, 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2404">
+                  <did>
+                     <container type="box-folder">17/1</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2412">
+                  <did>
+                     <container type="box-folder">17/2</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2420">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2426">
+                  <did>
+                     <container type="box-folder">17/3</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 67th season and the Annual Statement of Operations.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2437">
+                  <did>
+                     <container type="box-folder">17/4</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2445">
+                  <did>
+                     <container type="box-folder">17/5</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2453">
+                  <did>
+                     <container type="box-folder">17/6</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2461">
+                  <did>
+                     <container type="box-folder">17/7</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2469">
+                  <did>
+                     <container type="box-folder">17/8</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2477">
+                  <did>
+                     <container type="box-folder">17/9</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2485">
+                  <did>
+                     <container type="box-folder">17/10</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2493">
+                  <did>
+                     <container type="box-folder">17/11</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2501">
+                  <did>
+                     <container type="box-folder">17/12</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Travel expenses and related bills,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2509">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2515">
+                  <did>
+                     <container type="box-folder">17/13</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 68th season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2526">
+                  <did>
+                     <container type="box-folder">17/14</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2534">
+                  <did>
+                     <container type="box-folder">17/15</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2542">
+                  <did>
+                     <container type="box-folder">17/16</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2550">
+                  <did>
+                     <container type="box-folder">17/17</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2558">
+                  <did>
+                     <container type="box-folder">17/18</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2566">
+                  <did>
+                     <container type="box-folder">17/19</container>
+                     <unittitle encodinganalog="245$a">Press releases, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2574">
+                  <did>
+                     <container type="box-folder">17/20</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2582">
+                  <did>
+                     <container type="box-folder">17/21</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2590">
+                  <did>
+                     <container type="box-folder">17/22</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2599">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2605">
+                  <did>
+                     <container type="box-folder">17/23</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 69th season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2616">
+                  <did>
+                     <container type="box-folder">17/24</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2624">
+                  <did>
+                     <container type="box-folder">17/25</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2632">
+                  <did>
+                     <container type="box-folder">17/26</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2640">
+                  <did>
+                     <container type="box-folder">17/27</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2648">
+                  <did>
+                     <container type="box-folder">17/28</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2656">
+                  <did>
+                     <container type="box-folder">17/29</container>
+                     <unittitle encodinganalog="245$a">Press releases, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2664">
+                  <did>
+                     <container type="box-folder">17/30</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2672">
+                  <did>
+                     <container type="box-folder">18/1</container>
+                     <unittitle encodinganalog="245$a">Radio broadcast scripts,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">January-March 1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2680">
+                  <did>
+                     <container type="box-folder">18/2</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2689">
+                  <did>
+                     <container type="box-folder">18/3</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2697">
+                  <did>
+                     <container type="box-folder">18/4</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Travel expenses and related bills,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2705">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2711">
+                  <did>
+                     <container type="box-folder">18/5</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 70th season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2722">
+                  <did>
+                     <container type="box-folder">18/6</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2730">
+                  <did>
+                     <container type="box-folder">18/7</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2738">
+                  <did>
+                     <container type="box-folder">18/8</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2746">
+                  <did>
+                     <container type="box-folder">18/9</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2754">
+                  <did>
+                     <container type="box-folder">18/10</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2762">
+                  <did>
+                     <container type="box-folder">18/11</container>
+                     <unittitle encodinganalog="245$a">Press releases, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2770">
+                  <did>
+                     <container type="box-folder">18/12</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2778">
+                  <did>
+                     <container type="box-folder">18/13</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2786">
+                  <did>
+                     <container type="box-folder">18/14</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2795">
+                  <did>
+                     <container type="box-folder">18/15</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Travel expenses and related bills,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2803">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2809">
+                  <did>
+                     <container type="box-folder">18/16</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 71st season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2820">
+                  <did>
+                     <container type="box-folder">18/17</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2828">
+                  <did>
+                     <container type="box-folder">18/18</container>
+                     <unittitle encodinganalog="245$a">Central Opera Service. Conference, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">March 16-17, 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2836">
+                  <did>
+                     <container type="box-folder">18/19</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2844">
+                  <did>
+                     <container type="box-folder">18/20</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2852">
+                  <did>
+                     <container type="box-folder">18/21</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2860">
+                  <did>
+                     <container type="box-folder">18/22</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2868">
+                  <did>
+                     <container type="box-folder">18/23</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2876">
+                  <did>
+                     <container type="box-folder">18/24</container>
+                     <unittitle encodinganalog="245$a">Radio broadcast script,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">December 31, 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2884">
+                  <did>
+                     <container type="box-folder">18/25</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2893">
+                  <did>
+                     <container type="box-folder">18/26</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2901">
+                  <did>
+                     <container type="box-folder">18/27</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Travel expenses and related bills,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2909">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e2915">
+                  <did>
+                     <container type="box-folder">18/28</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 72nd season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2926">
+                  <did>
+                     <container type="box-folder">18/29</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2934">
+                  <did>
+                     <container type="box-folder">19/1</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2942">
+                  <did>
+                     <container type="box-folder">19/2</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2950">
+                  <did>
+                     <container type="box-folder">19/3</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2958">
+                  <did>
+                     <container type="box-folder">19/4</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2966">
+                  <did>
+                     <container type="box-folder">19/5</container>
+                     <unittitle encodinganalog="245$a">Press releases,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2974">
+                  <did>
+                     <container type="box-folder">19/6</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2982">
+                  <did>
+                     <container type="box-folder">19/7</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e2990">
+                  <did>
+                     <container type="box-folder">19/8-9</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e2998">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e3004">
+                  <did>
+                     <container type="box-folder">19/10</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 73rd season and the Annual Statement of Operations.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3015">
+                  <did>
+                     <container type="box-folder">19/11</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3023">
+                  <did>
+                     <container type="box-folder">19/12</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3031">
+                  <did>
+                     <container type="box-folder">19/13</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3039">
+                  <did>
+                     <container type="box-folder">19/14</container>
+                     <unittitle encodinganalog="245$a">Farewell party, Colonial Club, New York City,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">March 29, 1958</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Includes annotated guest list.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3050">
+                  <did>
+                     <container type="box-folder">19/15</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3058">
+                  <did>
+                     <container type="box-folder">19/16</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3066">
+                  <did>
+                     <container type="box-folder">19/17</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3074">
+                  <did>
+                     <container type="box-folder">19/18</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3082">
+                  <did>
+                     <container type="box-folder">19/19-20</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e3090">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file. Old Metropolitan Opera House Gala Farewell, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e3096">
+                  <did>
+                     <container type="box-folder">20/1</container>
+                     <unittitle encodinganalog="245$a">Annual publications,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1965-1966</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 81st season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3107">
+                  <did>
+                     <container type="box-folder">20/2</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3115">
+                  <did>
+                     <container type="box-folder">20/3-4</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Includes letters related to the preservation of the Old Metropolitan Opera House.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3126">
+                  <did>
+                     <container type="box-folder">20/5</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3134">
+                  <did>
+                     <container type="box-folder">20/6</container>
+                     <unittitle encodinganalog="245$a">Program,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">April 16, 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e3142">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1967</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e3148">
+                  <did>
+                     <container type="box-folder">20/7</container>
+                     <unittitle encodinganalog="245$a">Annual publications,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1967</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Annual Report (Statement of Operations) for the 82nd season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3159">
+                  <did>
+                     <container type="box-folder">20/8</container>
+                     <unittitle encodinganalog="245$a">Articles, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3167">
+                  <did>
+                     <container type="box-folder">20/9</container>
+                     <unittitle encodinganalog="245$a">Press releases, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3175">
+                  <did>
+                     <container type="box-folder">20/10</container>
+                     <unittitle encodinganalog="245$a">Program (opening night performance),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">September 16, 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e3183">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1968</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e3189">
+                  <did>
+                     <container type="box-folder">20/11</container>
+                     <unittitle encodinganalog="245$a">Annual publications,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1968</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 83rd season.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e3200">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file. Rudolf Bing Gala Farewell, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e3206">
+                  <did>
+                     <container type="box-folder">20/12</container>
+                     <unittitle encodinganalog="245$a">Annual publications,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1972</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Annual Report (Statement of Operations) for the 87th season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3217">
+                  <did>
+                     <container type="box-folder">20/13</container>
+                     <unittitle encodinganalog="245$a">Articles (Rudolf Bing), 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3225">
+                  <did>
+                     <container type="box-folder">20/14</container>
+                     <unittitle encodinganalog="245$a">Clippings (Rudolf Bing), 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3233">
+                  <did>
+                     <container type="box-folder">20/15</container>
+                     <unittitle encodinganalog="245$a">Clippings (Gentele, Chapin, Kubelik, Levine), 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3241">
+                  <did>
+                     <container type="box-folder">20/16</container>
+                     <unittitle encodinganalog="245$a">Contract, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">February 20, 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3249">
+                  <did>
+                     <container type="box-folder">20/17</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3257">
+                  <did>
+                     <container type="box-folder">20/18</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3265">
+                  <did>
+                     <container type="box-folder">20/19</container>
+                     <unittitle encodinganalog="245$a">Photographs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Two group photographs that include: Rudolf Bing, Reginald Allen, John Gutman, Francis Robinson, and Max Rudolf.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3276">
+                  <did>
+                     <container type="box-folder">20/20</container>
+                     <unittitle encodinganalog="245$a">Printed music,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3284">
+                  <did>
+                     <container type="box-folder">20/21-22</container>
+                     <unittitle encodinganalog="245$a">Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">April 22, 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3293">
+                  <did>
+                     <container type="box-folder">20/23</container>
+                     <unittitle encodinganalog="245$a">Rehearsal schedules,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">April 21 , 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e3301">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1973</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e3307">
+                  <did>
+                     <container type="box-folder">20/24</container>
+                     <unittitle encodinganalog="245$a">Annual publications,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1973</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Prospectus for the 88th season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3318">
+                  <did>
+                     <container type="box-folder">20/25</container>
+                     <unittitle encodinganalog="245$a">Correspondence,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1973</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Letters related to preparation of Donizetti's <title>L'Elisir d'amore</title> for the following season.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e3332">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e3338">
+                  <did>
+                     <container type="box-folder">20/26</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>One publication for the 89th season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3349">
+                  <did>
+                     <container type="box-folder">20/27</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3357">
+                  <did>
+                     <container type="box-folder">20/28</container>
+                     <unittitle encodinganalog="245$a">Contract, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3365">
+                  <did>
+                     <container type="box-folder">20/29</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3373">
+                  <did>
+                     <container type="box-folder">29/30</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3381">
+                  <did>
+                     <container type="box-folder">20/31</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3389">
+                  <did>
+                     <container type="box-folder">20/32</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Itineraries,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3397">
+                  <did>
+                     <container type="box-folder">21/1-2</container>
+                     <unittitle encodinganalog="245$a">Spring Tour. Programs,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Spring 1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e3406">
+               <did>
+                  <unittitle encodinganalog="245$a">Annual file, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1975</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd13e3412">
+                  <did>
+                     <container type="box-folder">21/3</container>
+                     <unittitle encodinganalog="245$a">Annual publications and brochures,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1975</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>One publication for the 90th season.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3423">
+                  <did>
+                     <container type="box-folder">21/4</container>
+                     <unittitle encodinganalog="245$a">Clippings, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3431">
+                  <did>
+                     <container type="box-folder">21/5</container>
+                     <unittitle encodinganalog="245$a">Contract, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3439">
+                  <did>
+                     <container type="box-folder">21/6</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3447">
+                  <did>
+                     <container type="box-folder">21/7</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3455">
+                  <did>
+                     <container type="box-folder">21/8-9</container>
+                     <unittitle encodinganalog="245$a">Programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3463">
+                  <did>
+                     <container type="box-folder">21/10</container>
+                     <unittitle encodinganalog="245$a">Rehearsals (pre-season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Summer-Fall 1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd13e3471">
+               <did>
+                  <container type="box">22</container>
+                  <unittitle encodinganalog="245$a">Broadside programs, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1974</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Elongated, multi-performance programs (often annotated by Rudolf) listing upcoming operas, performance date(s), conductor, principal roles and performers.</p>
+                  </note>
+                  <note>
+                     <p>Broadsides for all but the 1973-1974 season are preservation photocopies.</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd13e3485">
+                  <did>
+                     <container type="box-folder">22/1</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3493">
+                  <did>
+                     <container type="box-folder">22/2</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3501">
+                  <did>
+                     <container type="box-folder">22/3</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3509">
+                  <did>
+                     <container type="box-folder">22/4</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3517">
+                  <did>
+                     <container type="box-folder">22/5</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3525">
+                  <did>
+                     <container type="box-folder">22/6</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3533">
+                  <did>
+                     <container type="box-folder">22/7</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3541">
+                  <did>
+                     <container type="box-folder">22/8</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3549">
+                  <did>
+                     <container type="box-folder">22/9</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3557">
+                  <did>
+                     <container type="box-folder">22/10</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3566">
+                  <did>
+                     <container type="box-folder">22/11</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3574">
+                  <did>
+                     <container type="box-folder">22/12</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3582">
+                  <did>
+                     <container type="box-folder">22/13</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1955-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3590">
+                  <did>
+                     <container type="box-folder">22/14</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3598">
+                  <did>
+                     <container type="box-folder">22/15</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3606">
+                  <did>
+                     <container type="box-folder">22/16</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3614">
+                  <did>
+                     <container type="box-folder">22/17</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3622">
+                  <did>
+                     <container type="box-folder">22/18</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3630">
+                  <did>
+                     <container type="box-folder">22/19</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (regular season),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd13e3638">
+                  <did>
+                     <container type="box-folder">22/20</container>
+                     <unittitle encodinganalog="245$a">Broadside programs (Spring Tour),  
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

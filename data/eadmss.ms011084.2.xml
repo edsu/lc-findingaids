@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Thu, 16 February 2012 11:08:49 AM EST
+URL: http://hdl.loc.gov/loc.mss/eadmss.ms011084
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd301e2">
+   <eadheader id="mferd301e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mss/eadmss.ms011084"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.mss/eadmss.ms011084</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>American Rocket Company Records</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Donna Ellis</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c" era="ce" calendar="gregorian">2011</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+				<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/mm2008085410" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/mm2008085410</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Manuscript Division,
+		  
+		  <date normal="2011" era="ce" calendar="gregorian">2011</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd301e41">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">American Rocket Company
+		  Records 
+		  <unitdate label="Span Dates" type="inclusive" normal="1958/1991" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1958-1991</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1981/1984" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1981-1984)</unitdate> 
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS011084</unitid>
+         <origination label="Creator"> 
+		          <corpname encodinganalog="110" source="lcnaf">American Rocket
+			 Company</corpname>
+         </origination>
+         <physdesc label="Extent"> 
+            <extent encodinganalog="300">6,000
+		  items</extent>
+		          <extent encodinganalog="300">17 containers</extent>
+		          <extent encodinganalog="300">6.8 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+		       </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Manuscript Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Space rocket company.
+		  Business plans, correspondence, financial records, legal records, legislative
+		  material, meeting minutes and notes, printed matter, reports, and technical
+		  papers relating to the commercial use of space by a private company.
+		  </abstract>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd301e86" altrender=":::F005=^20110524081921.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject or location, and by occupation and listed
+			 alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd303e12">
+            <head>Organizations</head>
+            <corpname encodinganalog="110$a" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^American+Rocket+Company.^">American Rocket Company.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^ARC+Technologies.^">ARC Technologies. ARC Technologies records. 1961-1984.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Space+Enterprise+Consultants.^">Space Enterprise Consultants. Space Enterprise Consultants records. 1981-1984.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Starstruck+Corporation.^">Starstruck Corporation. Starstruck Corporation records. 1978-1985.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd303e30">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Aeronautics%2C+Commercial.^">Aeronautics, Commercial.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Aeronautics+Safety+measures.^">Aeronautics--Safety measures.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Space+industrialization.^">Space industrialization.</subject>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd301e112" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd301e115" encodinganalog="541">
+            <head>Provenance</head>
+            <p> The records of the American Rocket Company were purchased by the
+		  Library of Congress in 2008. </p>
+         </acqinfo>
+         <userestrict id="mferd301e120" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>Copyright in the unpublished writings of the American Rocket Company
+		  in these papers and in other collections of papers in the custody of the
+		  Library of Congress has been dedicated to the public.</p>
+         </userestrict>
+         <accessrestrict id="mferd301e125" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The records of the American Rocket Company are open to research.
+		  Researchers are advised to contact the Manuscript Reading Room prior to
+		  visiting. Many collections are stored off-site and advance notice is needed to
+		  retrieve these items for research use.</p>
+         </accessrestrict>
+         <prefercite id="mferd301e130" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, American Rocket Company, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <scopecontent id="mferd301e135" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The records of the American Rocket Company span the years 1958-1991,
+		  with the bulk of the material dating from 1981 to 1984. The records are in
+		  English and are organized into the following sections: Space Enterprise
+		  Consultants, ARC Technologies, Starstruck Corporation, American Rocket Company,
+		  legislation, policy development, and miscellany. </p>
+         <p>The American Rocket Company was preceded by a sequence of companies
+		  beginning with Space Enterprise Consultants followed by ARC Technologies and
+		  Starstuck Corporation. These companies developed and launched rockets into
+		  space for commercial purposes. Space Enterprise Consultants, based in
+		  Washington, D.C., existed alongside the other companies and served as a liaison
+		  between them and legislative and military bodies. The companies’ records,
+		  arranged alphabetically by type of material, include business plans,
+		  correspondence, financial records, legal records, meeting minutes and notes,
+		  organizational structure, reports, and technical papers. </p>
+         <p>The officers of the companies regularly engaged in developing a
+		  national policy for the transition from government and military control of
+		  space to private commercial uses. Various legislative bills that were proposed
+		  are arranged alphabetically by the title of the bill. The collection documents
+		  the efforts of numerous government committees and private consultant groups as
+		  they attempted to formulate policies regarding launch safety and insurance,
+		  government agency oversight, licensing procedures, and fair pricing systems,
+		  among other issues. </p>
+         <p>A miscellany section contains conference material, printed matter, and
+		  technical papers.</p>
+      </scopecontent>
+      <arrangement id="mferd301e146" encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged chronologically by the company's
+		  development and therein alphabetically by type of material.</p>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/mm2008085410" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/mm2008085410</extref>
+      </otherfindaid>
+      <dsc id="mferd301e151" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd301e160" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Space Enterprise Consultants
+				</unittitle>
+            </did>
+            <c02 id="mferd301e166" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e174" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Financial records, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e182" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Notes, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e190" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Reports, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e198" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Space policy recommendations, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd301e209" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">ARC Technologies</unittitle>
+            </did>
+            <c02 id="mferd301e215" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Brazilian launch site, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e223" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Briefings, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1982-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e231" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Committees</unittitle>
+               </did>
+               <c03 id="mferd301e237" level="file">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">Budget, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e245" level="file">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">Services definition, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e253" level="file">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">Technical implementation, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1983</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e264" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e275" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Federal Communications
+				  Commission, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e283" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Financial records</unittitle>
+               </did>
+               <c03 id="mferd301e289" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle encodinganalog="245$a">Employee compensation, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e297" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle encodinganalog="245$a">General, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1981-1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e305" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle encodinganalog="245$a">Incentive stock options, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e313" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle encodinganalog="245$a">Stocks, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e321" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Incorporation papers, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e332" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Legal representation, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e340" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Meetings</unittitle>
+               </did>
+               <c03 id="mferd301e346" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">Board of Directors, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1983</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"> (4
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd301e357" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">Managers</unittitle>
+                  </did>
+                  <c04 id="mferd301e363" level="file">
+                     <did>
+                        <container type="box">3</container>
+                        <unittitle encodinganalog="245$a"> 
+						                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd301e371" level="file">
+                        <did>
+                           <container type="box">3</container>
+                           <unittitle encodinganalog="245$a"> 
+						                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Jan.-Nov.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd301e379" level="file">
+                        <did>
+                           <container type="box">4</container>
+                           <unittitle encodinganalog="245$a"> 
+						                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec.</unitdate>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd301e387" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Shareholders, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e395" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Washington, D.C., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e403" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">News clippings, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1977-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e412" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Notes, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e420" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Organization Task
+				  Force</unittitle>
+               </did>
+               <c03 id="mferd301e426" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Business plans, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"> (2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd301e437" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Company structure, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e445" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Emergence strategy, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1981-1982</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd301e456" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Financing, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e464" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Launch planning, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e472" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Notes, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e480" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Personnel</unittitle>
+               </did>
+               <c03 id="mferd301e486" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Biographies, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd301e497" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Contracts, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1982-1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e505" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">General, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e513" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Position descriptions, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e521" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Reports, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1982-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e529" level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">Technical papers, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961, 1972-1982</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (8
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e540" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Vandenberg Air Force Base,
+				  Calif., 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd301e548" level="file">
+            <did>
+               <container type="box">7</container>
+               <unittitle encodinganalog="245$a">Starstruck Corp.</unittitle>
+            </did>
+            <c02 id="mferd301e554" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1985</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e565" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Expendable launch vehicles, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e576" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Financial records, 1983-1984 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Financial records, 1983-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e584" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Incorporation papers, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e592" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Insurance, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1983-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e600" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Marketing strategies, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e608" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Meetings</unittitle>
+               </did>
+               <c03 id="mferd301e614" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Board of Directors, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e622" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Shareholders, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e630" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Space Enterprise Task Force, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e638" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Staff, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e646" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Military cooperation, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e654" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">News clippings, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e662" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Notes, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e671" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Personnel, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e679" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Reports, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1983-1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e690" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Sale of company, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984-1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e698" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Technical papers, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978-1985</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd301e709" level="file">
+            <did>
+               <container type="box">9</container>
+               <unittitle encodinganalog="245$a">American Rocket Co.</unittitle>
+            </did>
+            <c02 id="mferd301e715" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Board of Directors, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1986-1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e723" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Business plans, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985-1989</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e734" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Contractors, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e742" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1986-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e750" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Financial records, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985-1988</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e761" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Incorporation papers, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e769" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Reports, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1989-1991</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd301e780" level="file">
+            <did>
+               <container type="box">10</container>
+               <unittitle encodinganalog="245$a">Legislative material</unittitle>
+            </did>
+            <c02 id="mferd301e786" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Commercial Development of Outer
+				  Space Act, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e794" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Commercial Space Launch Act (H.R.
+				  3942), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e805" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">High Technology Research and
+				  Scientific Education Act (H.R. 4475), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e813" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">International law, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e821" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Investment tax credit limitation,
+				  
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e829" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Joint Research and Development
+				  Act (H.R. 5041), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e837" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Joint Research and Development
+				  Ventures Act (H.R. 1952), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e845" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Land Remote Sensing Satellite
+				  Commercialization Act (H.R. 5155), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e853" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Launch Vehicle Commercialization
+				  Act, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e861" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Miscellany, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e870" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">National Aeronautics and Space
+				  Act, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e878" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">National Aeronautics and Space
+				  Authorization Act</unittitle>
+               </did>
+               <c03 id="mferd301e884" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">S. 1096, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e892" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">H.R. 4797, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e900" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">National Commission on Space Act
+				  (S. 955), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e908" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Private Development of Commercial
+				  Satellite Launch Services Act, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e916" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Private Satellite Launching
+				  Authorization Act (S. 2448), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e924" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Private Space Transportation
+				  Services Act, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e932" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Space Commerce Act,</unittitle>
+                  <unitdate era="ce" calendar="gregorian">1883</unitdate>
+               </did>
+               <c03 id="mferd301e940" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">H.R. 1011</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e946" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">H.R. 7411</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e952" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Space Enterprise Act, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e960" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Space Transportation Services
+				  Act, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e968" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Space Transportation Services
+				  Purchase Act (H.R. 2674), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e976" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Strategic Trade Act, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e985" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Tax Status of Space Act (H.R.
+				  5975), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd301e993" level="file">
+            <did>
+               <container type="box">11</container>
+               <unittitle encodinganalog="245$a">Policy development</unittitle>
+            </did>
+            <c02 id="mferd301e999" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Agreement Governing the
+				  Activities of States on the Moon and Other Celestial Bodies (Moon Treaty), 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962-1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1007" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Cabinet Council on Commerce and
+				  Trade Working Group, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1015" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Citizens Advisory Council on
+				  National Space Policy, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1023" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Commerce Department, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1982-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1031" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Commercial Space Transportation
+				  Advisory Committee</unittitle>
+               </did>
+               <c03 id="mferd301e1037" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978-1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e1045" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1989</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd301e1053" level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle encodinganalog="245$a"> 
+						                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">July-Sept.</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a"> (2
+						folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd301e1064" level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle encodinganalog="245$a"> 
+						                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct.-Dec.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd301e1072" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1990 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e1083" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Congressional committee hearings,
+				  
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (5
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e1094" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Defense Department, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1102" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Industry Task Force, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1110" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Interagency Space Launch Policy
+				  Working Group, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1118" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Licensing process, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1127" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">National Aeronautics and Space
+				  Administration, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958, 1977-1984 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e1138" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">National Coordinating Committee
+				  on Space, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1146" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">News clippings, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1154" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Office of Technology Assessment,
+				  study on space policy, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e1165" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Pricing issues, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1173" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Republican Task Force on High
+				  Technology Initiatives, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1181" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Space Enterprise Project, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"> (2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e1192" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Transportation Department, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1200" level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle encodinganalog="245$a">White House policy on space, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978-1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd301e1211" level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle encodinganalog="245$a">White papers, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1977-1989</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd301e1222" level="file">
+            <did>
+               <container type="box">14</container>
+               <unittitle encodinganalog="245$a">Miscellany</unittitle>
+            </did>
+            <c02 id="mferd301e1228" level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle encodinganalog="245$a">Bennett, James, writings by, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1236" level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle encodinganalog="245$a">Conferences</unittitle>
+               </did>
+               <c03 id="mferd301e1242" level="file">
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1977-1982 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(4
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd301e1253" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1985 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(4
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e1264" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Earthport Project, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1272" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Enterprise zones, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1280" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Federal Aviation Administration, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1288" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Free Zone Authority, Ltd., 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1296" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Japanese space industry, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1304" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">L-5 Society, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1312" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">National Aviation Club, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1320" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Organization for European
+				  Economic Cooperation, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1329" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Payload assist module
+				  development, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1337" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Political campaigns, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1345" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 id="mferd301e1351" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1968-1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e1359" level="file">
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1984 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd301e1370" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Satellite transponder sales, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1378" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Space Data Corp., 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1386" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Space Frontier Society, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1394" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Space Services, Inc., 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd301e1402" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Technical papers</unittitle>
+               </did>
+               <c03 id="mferd301e1408" level="file">
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961-1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd301e1416" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969, 1976-1984, 1991 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(7
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Thu, 16 February 2012 11:08:38 AM EST
+URL: http://hdl.loc.gov/loc.afc/eadafc.af011021
+ ===================================== -->
+<!-- Transformed with viv2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd79e2">
+   <eadheader id="mferd79e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.afc/eadafc.af011021"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.afc/eadafc.af011021</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">1994 Neptune Plaza Concert Series
+			 Collection</titleproper>
+            <subtitle encodinganalog="245$b"> 
+			            <num encodinganalog="090$a">AFC 1994/001</num> 
+            </subtitle>
+            <author encodinganalog="245$c">Prepared by Michelle Forner</author>
+         </titlestmt>
+         <publicationstmt>
+            <date era="ce" calendar="gregorian">August 1995</date>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>American
+			 Folklife Center, Library of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="1995-08" era="ce" calendar="gregorian"/>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to the Collections in the Archive of Folk
+			 Culture</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2004695164" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2004695164</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Encoded by Glenn Gardner, 
+		  <date normal="2011-09" era="ce" calendar="gregorian">September, 2011</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in
+		  <language encodinganalog="041" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date era="ce" calendar="gregorian">February 2012</date>
+            <item> 
+			            <persname>Nora Yeh</persname>
+            </item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc type="register" level="collection" relatedencoding="MARC21">
+      <did id="mferd79e49">
+         <head>Collection Summary</head>
+         <unitid label="Collection Number" encodinganalog="090" countrycode="US"
+                 repositorycode="US-DLC">AFC 1994/001</unitid>
+         <unittitle label="Title" encodinganalog="245$a">1994 Neptune Plaza
+		  Concert Series Collection 
+		  <unitdate label="Inclusive Dates" type="inclusive" encodinganalog="245$f"
+                      normal="1994/1994"
+                      era="ce"
+                      calendar="gregorian">1994</unitdate>
+         </unittitle>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname> 
+               <subarea>Archive of Folk Culture, American Folklife
+			 Center</subarea> Library of Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+		          <extref xlink:type="simple" xlink:href="http://hdl.loc.gov/loc.afc/folklife.home">http://hdl.loc.gov/loc.afc/folklife.home</extref>
+		       </repository>
+         <physdesc label="Extent (Manuscripts)"> 
+            <extent encodinganalog="300">9
+		  folders in 2 boxes (1 linear foot).</extent> 
+         </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent>4 sound tape reels :
+		  analog: 7 1⁄2 ips, 2 track, stereo; 10 inch.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent>3 sound cassettes
+		  (DAT): digital.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>251 photographs :
+		  negatives, contact sheets, black and white.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>124 slides :
+		  color.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>9 photographic
+		  prints : black and white, color; various sizes.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Moving Images)"> 
+            <extent>5 videocassettes
+		  (Hi-8): sound, color.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Moving Images)"> 
+            <extent>3 videocassettes (VHS):
+		  sound, color; 1/2 in.</extent> 
+         </physdesc>
+         <origination label="Creator"> 
+		          <corpname source="lcnaf">American Folklife Center</corpname>
+		       </origination>
+         <langmaterial label="Languages" encodinganalog="546">
+		          <language encodinganalog="041" langcode="eng">English</language>,
+		  <language encodinganalog="041" langcode="iro">Iroquois</language>,
+		  <language encodinganalog="041" langcode="srp">Serbo</language>-<language encodinganalog="041" langcode="hrv">Croatian</language>,
+		  <language encodinganalog="041" langcode="spa">Spanish</language>, and
+		  <language encodinganalog="041" langcode="tib">Tibetan</language>
+         </langmaterial>
+         <abstract label="Summary" encodinganalog="520$a">Manuscript materials,
+		  sound recordings, photographs, and moving images documenting the performance of
+		  Tibetan sacred music and dance; Tamburitza music from the Balkan Peninsula;
+		  Iroquois music; African American rhythm and blues quartet singing; gospel brass
+		  band music; bluegrass music; and Cuban mambo music recorded live outdoors on
+		  Neptune Plaza in front of the Thomas Jefferson Building, Library of Congress,
+		  at concerts from April through September 1994, sponsored by the American
+		  Folklife Center.</abstract>
+      </did>
+      <scopecontent id="mferd79e141" encodinganalog="520">
+         <head>Scope and Content</head>
+         <p>The 1994 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, sound recordings, graphic materials, and moving
+		  images that document the 1994 concert series sponsored by the American Folklife
+		  Center. The annual series, which began in 1977, features the presentation of
+		  folk traditions from many cultures. The concerts take place on the Neptune
+		  Plaza at the front of the Jefferson Building of the Library of Congress between
+		  April and September. Adverse weather conditions sometimes force the concerts
+		  indoors.</p>
+         <p>The 1994 season consisted of the following: 
+		<table>
+               <tgroup cols="4" align="left">
+                  <colspec colnum="1" colname="1" colwidth="15*"/>
+                  <colspec colnum="2" colname="2" colwidth="30*"/>
+                  <colspec colnum="3" colname="3" colwidth="25*"/>
+                  <colspec colnum="4" colname="4" colwidth="30*"/>
+                  <thead valign="bottom">
+                     <row>
+                        <entry morerows="0">Date</entry>
+                        <entry morerows="0">Performers</entry>
+                        <entry morerows="0">Place of Origin</entry>
+                        <entry morerows="0">Subject</entry>
+                     </row>
+                  </thead>
+                  <tbody valign="top">
+                     <row>
+                        <entry morerows="0">April 21</entry>
+                        <entry morerows="0">Lamas of Drepung Loseling Monastery</entry>
+                        <entry morerows="0">Tibet</entry>
+                        <entry morerows="0">Tibetan sacred music and dance</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">May 19</entry>
+                        <entry morerows="0">Sviraj</entry>
+                        <entry morerows="0">Delaware and Pennsylvania</entry>
+                        <entry morerows="0">Tamburitza music of the Balkans</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">June 2</entry>
+                        <entry morerows="0">Six Nations Longhouse Women Singers</entry>
+                        <entry morerows="0">New York and Canada</entry>
+                        <entry morerows="0">Iroquois music</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">June 16</entry>
+                        <entry morerows="0">Legendary Orioles</entry>
+                        <entry morerows="0">Maryland</entry>
+                        <entry morerows="0">Rhythm and blues quartet singing</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">July 21</entry>
+                        <entry morerows="0">Kings of Harmony</entry>
+                        <entry morerows="0">District of Columbia</entry>
+                        <entry morerows="0">Gospel brass band</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">August 18</entry>
+                        <entry morerows="0">Dave McLaughlin and Josh Crowe</entry>
+                        <entry morerows="0">Virginia</entry>
+                        <entry morerows="0">Bluegrass</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">September 15</entry>
+                        <entry morerows="0">Cachao and his Latin All Stars</entry>
+                        <entry morerows="0">New York, Florida, and Puerto Rico</entry>
+                        <entry morerows="0">Cuban mambo</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </scopecontent>
+      <bioghist id="mferd79e228" encodinganalog="545">
+         <head>Administrative History</head>
+         <p>Documentation created and accessioned by the American Folklife Center
+		  in 1994.</p>
+      </bioghist>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd79e233" altrender=":::F005=^20120208012534.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd81e12">
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Cachao%2C^">Cachao, performer.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Crowe%2C+Josh%2C+1957-^">Crowe, Josh, 1957-  performer.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^McLaughlin%2C+David%2C+1958-^">McLaughlin, David, 1958-  performer.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Spottswood%2C+Richard+K.+%28Richard+Keith%29%2C^">Spottswood, Richard K. (Richard Keith), host.</persname>
+         </controlaccess>
+         <controlaccess id="mferd81e30">
+            <head>Organizations</head>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^American+Folklife+Center%2C^">American Folklife Center, collector.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Archive+of+Folk+Culture+%28Library+of+Congress%29%2C^">Archive of Folk Culture (Library of Congress), collector.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kings+of+Harmony+%28Brass+ensemble%29^">Kings of Harmony (Brass ensemble) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Orioles+%28Musical+group%29^">Orioles (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Six+Nations+Women+Singers%2C^">Six Nations Women Singers, performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sviraj+%28Musical+group%29^">Sviraj (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^WAMU-FM+%28Radio+station+%3A+Washington%2C+D.C.%29^">WAMU-FM (Radio station : Washington, D.C.)</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^%CA%BCBras-spu%E1%B9%85s+%28Monastery%29^">ʼBras-spuṅs (Monastery)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd81e61">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^African+Americans+Music.^">African Americans--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Bluegrass+music+1991-2000.^">Bluegrass music--1991-2000.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Bluegrass+music+Virginia.^">Bluegrass music--Virginia.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Brass+band+music.^">Brass band music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Buddhist+chants+China+Tibet.^">Buddhist chants--China--Tibet.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Buddhist+dance+China+Tibet.^">Buddhist dance--China--Tibet.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Croatian+Americans+Pennsylvania+Music.^">Croatian Americans--Pennsylvania--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Cuban+Americans+New+York+%28State%29+New+York+Music.^">Cuban Americans--New York (State)--New York--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Dance+China+Tibet.^">Dance--China--Tibet.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+Balkan+Peninsula.^">Folk music--Balkan Peninsula.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+United+States.^">Folk music--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Gospel+music+Washington+%28D.C.%29^">Gospel music--Washington (D.C.)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Iroquois+Indians+Music.^">Iroquois Indians--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Mambo+%28Dance%29+Cuba.^">Mambo (Dance)--Cuba.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Mambos+%28Music%29^">Mambos (Music)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Puerto+Rico.^">Music--Puerto Rico.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Popular+music+Cuba.^">Popular music--Cuba.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Popular+music+Puerto+Rico.^">Popular music--Puerto Rico.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Rhythm+and+blues+music.^">Rhythm and blues music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Sacred+vocal+music+China+Tibet.^">Sacred vocal music--China--Tibet.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Salsa+%28Music%29^">Salsa (Music)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Serbian+Americans+Pennsylvania+Music.^">Serbian Americans--Pennsylvania--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Slovenian+Americans+Pennsylvania+Music.^">Slovenian Americans--Pennsylvania--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Tambura+%28Fretted+lute%29+music.^">Tambura (Fretted lute) music.</subject>
+         </controlaccess>
+         <controlaccess id="mferd81e144">
+            <head>Titles</head>
+            <title xlink:type="simple" encodinganalog="246" source="lcnaf"
+                   altrender=":::PWEBRECON=^American+Folklife+Center+concert%2C+1994^">American Folklife Center concert, 1994</title>
+            <title xlink:type="simple" encodinganalog="246" source="lcnaf"
+                   altrender=":::PWEBRECON=^Neptune+Plaza+Concert+Series%2C+1994^">Neptune Plaza Concert Series, 1994</title>
+         </controlaccess>
+         <controlaccess id="mferd81e156">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Autographs.^">Autographs.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Color+slides.^">Color slides.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Manuscripts.^">Manuscripts.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Photographs.^">Photographs.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Posters.^">Posters.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Sound+recordings.^">Sound recordings.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Videocassettes.^">Videocassettes.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <accessrestrict id="mferd79e346" encodinganalog="506">
+         <head>Access</head>
+         <p>Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions. Performers may be contacted
+		  through the American Folklife Center administrative office.</p>
+      </accessrestrict>
+      <prefercite id="mferd79e351" encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>1994 Neptune Plaza Concert Series Collection (AFC 1994/001), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.</p>
+      </prefercite>
+      <odd id="mferd79e356" type="add">
+         <head>Collection Concordance by Format</head>
+         <table>
+            <tgroup cols="3" align="left">
+               <colspec colnum="1" colname="1" colwidth="20*"/>
+               <colspec colnum="2" colname="2" colwidth="40*"/>
+               <colspec colnum="3" colname="3" colwidth="40*"/>
+               <thead valign="bottom">
+                  <row>
+                     <entry morerows="0">Quantity</entry>
+                     <entry morerows="0">Physical Extent</entry>
+                     <entry morerows="0">Item Numbers</entry>
+                  </row>
+               </thead>
+               <tbody valign="top">
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Print Materials</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">9</entry>
+                     <entry morerows="0">folders in 2 boxes</entry>
+                     <entry morerows="0">FOLDERS 1, 2, 5, 7, 9, 11, 14, 15-16</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Computer
+					 Diskettes</emph> 
+                     </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">3 1⁄2" diskette</entry>
+                     <entry morerows="0">FOLDER 1</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Sound Recordings</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">4</entry>
+                     <entry morerows="0">10" DT stereo reels at 7.5 ips</entry>
+                     <entry morerows="0">AFC 1994/001:SR1-4</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">3</entry>
+                     <entry morerows="0">120-minute digital audio tape</entry>
+                     <entry morerows="0">AFC 1994/001:SR5-7</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">11</entry>
+                     <entry morerows="0">90-minute audiocassettes (Reference
+					 copies)</entry>
+                     <entry morerows="0">AFC 1994/001:SR1-c1, c2, SR2-c1, SR3-c1,
+					 SR4-c1, SR5-c1, c2, SR6-c1, c2, SR7-c1, c2 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Graphic Materials</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">195</entry>
+                     <entry morerows="0">black-and-white 35 mm negatives</entry>
+                     <entry morerows="0">ENVELOPES 1, 4, 5, 9, 10</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">9</entry>
+                     <entry morerows="0">black-and-white contact sheets</entry>
+                     <entry morerows="0">FOLDERS 3-4, 6, 8, 10, 12-13, 17</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">color contact sheet</entry>
+                     <entry morerows="0">FOLDER 17</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">7</entry>
+                     <entry morerows="0">8 x 10" black-and-white photographic
+					 prints</entry>
+                     <entry morerows="0">FOLDERS 3-4, 6, 12-13</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">5 (incl. 3 duplicates)</entry>
+                     <entry morerows="0">8 x 10" color photographic prints </entry>
+                     <entry morerows="0">FOLDERS 3-4</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">124</entry>
+                     <entry morerows="0">color slides</entry>
+                     <entry morerows="0">ENVELOPES 2-3, 6-8, 11-12</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Moving Image</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">5</entry>
+                     <entry morerows="0">Hi-8 color videocassettes</entry>
+                     <entry morerows="0">AFC 1994/001:V1, V3, V5-6, V8</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">3 </entry>
+                     <entry morerows="0">1/2" VHS color videocassettes masters</entry>
+                     <entry morerows="0">AFC 1994/001:V2, V4, V7 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">3 </entry>
+                     <entry morerows="0">1/2" VHS color videocassettes (Reference
+					 copies)</entry>
+                     <entry morerows="0">AFC 1994/001:V1-v1, V5-v1, V6-v1-2, V7- v1,
+					 V8-v1 </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </odd>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2004695164" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2004695164</extref>
+      </otherfindaid>
+      <dsc id="mferd79e512" type="combined">
+         <head>Collection Inventory</head>
+         <c01 id="mferd79e515" level="series">
+            <did>
+               <unittitle>Series I: PRINT MATERIALS</unittitle>
+            </did>
+            <c02 id="mferd79e519" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Publicity and
+				  Administration</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd79e524" level="file">
+                  <did>
+                     <container type="FOLDER">1</container>
+                     <unittitle>Archive of Folk Culture Administrative
+					 Materials.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>The collection guide (this document), an article describing
+					 the Neptune Plaza Concert Series, and press releases and news clippings on the
+					 1994 concert lineup. Also includes a three and one-half inch computer diskette
+					 containing logs of the concerts (all logs are available in hard copy in the
+					 individual concert folders).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e533" level="file">
+                  <did>
+                     <container type="FOLDER">2</container>
+                     <unittitle>Lamas of Drepung Loseling Monastery,
+					 4-21-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert fliers, news clippings, promotional materials on the
+					 band, and a concert log by Catherine Hiebert Kerst.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e542" level="file">
+                  <did>
+                     <container type="FOLDER">5</container>
+                     <unittitle>Sviraj, 5-19-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Catherine Hiebert Kerst with input from Danilo Yanich, news
+					 clippings, and promotional materials on the band.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e551" level="file">
+                  <did>
+                     <container type="FOLDER">7</container>
+                     <unittitle>Six Nations Longhouse Women Singers,
+					 6-2-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Judith Gray, news clippings, and promotional materials on the
+					 band.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e560" level="file">
+                  <did>
+                     <container type="FOLDER">9</container>
+                     <unittitle>Legendary Orioles, 6-16-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by William Maxwell Derrickson, and promotional materials on the
+					 band.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e569" level="file">
+                  <did>
+                     <container type="FOLDER">11</container>
+                     <unittitle>Kings of Harmony, 7-21-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Catherine Hiebert Kerst, and news clippings.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e578" level="file">
+                  <did>
+                     <container type="FOLDER">14</container>
+                     <unittitle>Dave McLaughlin and Josh Crowe, 8-18-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Catherine Hiebert Kerst, and promotional materials on the
+					 band.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e587" level="file">
+                  <did>
+                     <container type="FOLDERS">15-16</container>
+                     <unittitle>Cachao and his Latin All Stars, 9-15-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert fliers, concert log by Pablo Calvan, press releases,
+					 news clippings, and promotional materials about the band in English and in
+					 Spanish.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd79e596" level="series">
+            <did>
+               <unittitle>Series II: SOUND RECORDINGS</unittitle>
+            </did>
+            <c02 id="mferd79e600" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Reel-to-reels</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd79e605" level="file">
+                  <did>
+                     <container type="AFC">1994/001: SR1</container>
+                     <unittitle>Lamas of Drepung Loseling Monastery,
+					 4-21-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips. Listening copies are available
+					 in the Folklife Reading Room.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e614" level="file">
+                  <did>
+                     <container type="AFC">1994/001: SR2</container>
+                     <unittitle>Sviraj, 5-19-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips. Listening copy is available in
+					 the Folklife Reading Room.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e623" level="file">
+                  <did>
+                     <container type="AFC">1994/001: SR3</container>
+                     <unittitle>Six Nations Longhouse Women Singers,
+					 6-2-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips. Listening copy is available in
+					 the Folklife Reading Room.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e632" level="file">
+                  <did>
+                     <container type="AFC">1994/001: SR4</container>
+                     <unittitle>Legendary Orioles, 6-16-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereoat 7.5 ips. Listening copy is available in
+					 the Folklife Reading Room.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 id="mferd79e641" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Audiocassettes</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd79e646" level="file">
+                  <did>
+                     <container type="AFC">1994/001: SR5</container>
+                     <unittitle>Kings of Harmony, 7-21-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 120-minute digital audio tape. Listening copies are
+					 available in the Folklife Reading Room.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e655" level="file">
+                  <did>
+                     <container type="AFC">1994/001: SR6</container>
+                     <unittitle>Dave McLaughlin and Josh Crowe, 8-18-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 120-minute digital audio tape. Listening copies are
+					 available in the Folklife Reading Room.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e664" level="file">
+                  <did>
+                     <container type="AFC">1994/001: SR7</container>
+                     <unittitle>Cachao and his Latin All Stars, 9-15-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 120-minute digital audio tape. Listening copies are
+					 available in the Folklife Reading Room. </p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd79e673" level="series">
+            <did>
+               <unittitle>Series III: GRAPHIC MATERIALS</unittitle>
+            </did>
+            <c02 id="mferd79e677" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Negatives</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd79e682" level="file">
+                  <did>
+                     <container type="ENVELOPE">1</container>
+                     <unittitle>Lamas of Drepung Loseling Monastery,
+					 4-21-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One sheet of black-and-white 35 mm (36 images). Photographed
+					 by Jim Hardin.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e691" level="file">
+                  <did>
+                     <container type="ENVELOPE">4</container>
+                     <unittitle>Sviraj, 5-19-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One sheet of black-and-white 35 mm (14 images). Photographed
+					 by Jim Hardin.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e700" level="file">
+                  <did>
+                     <container type="ENVELOPE">5</container>
+                     <unittitle>Six Nations Longhouse Women Singers,
+					 6-2-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two sheets of black-and-white 35 mm (51 images) Photographed
+					 by John Gibbs.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e709" level="file">
+                  <did>
+                     <container type="ENVELOPE">9</container>
+                     <unittitle>Legendary Orioles, 6-16-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two sheets of black-and-white 35 mm (57 images). Photographed
+					 by John Gibbs.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e718" level="file">
+                  <did>
+                     <container type="ENVELOPE">10</container>
+                     <unittitle>Cachao and his Latin All Stars, 9-15-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One sheet of black-and-white 35 mm (37 images). Photographed
+					 by Jim Hardin.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 id="mferd79e727" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Photographic
+				  Prints</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd79e732" level="file">
+                  <did>
+                     <container type="FOLDERS">3-4</container>
+                     <unittitle>Lamas of Drepung Loseling Monastery,
+					 4-21-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One black-and-white 35 mm contact sheet (36 images,
+					 photographed by Jim Hardin), one 8 x 10" black-and-white photographic print
+					 (publicity-photographer unknown), two 8 x 10" color photographic prints, and
+					 three duplicate 8 x 10" color photographic prints (photographed by Nikki
+					 Vreeland).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e741" level="file">
+                  <did>
+                     <container type="FOLDER">6</container>
+                     <unittitle>Sviraj, 5-19-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One black-and-white 35 mm contact sheet (14 images,
+					 photographed by Jim Hardin) and one 8 x 10" black-and-white photographic print
+					 (publicity- photographer unknown).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e750" level="file">
+                  <did>
+                     <container type="FOLDER">8</container>
+                     <unittitle>Six Nations Longhouse Women Singers,
+					 6-2-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two black-and-white 35 mm contact sheets (51 images).
+					 Photographed by John Gibbs.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e759" level="file">
+                  <did>
+                     <container type="FOLDER">10</container>
+                     <unittitle>Legendary Orioles, 6-16-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two black-and-white 35 mm contact sheets (57 images).
+					 Photographed by John Gibbs.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e768" level="file">
+                  <did>
+                     <container type="FOLDERS">12-13</container>
+                     <unittitle>Kings of Harmony, 7-21-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two black-and-white 35 mm contact sheets (34 images), and five
+					 8 x 10" black-and-white photographic prints. Photographed by Yusef El-Amin.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e777" level="file">
+                  <did>
+                     <container type="FOLDER">17</container>
+                     <unittitle>Cachao and his Latin All Stars, 9-15-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One black-and-white 35 mm contact sheet (37 images,
+					 photographed by Jim Hardin), and one color 35 mm contact sheet (22 images,
+					 photographer unknown).</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 id="mferd79e786" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Color slides</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd79e791" level="file">
+                  <did>
+                     <container type="ENVELOPES">2-3</container>
+                     <unittitle>Lamas of Drepung Loseling Monastery,
+					 4-21-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two trays containing a total of 36. Photographed by John
+					 Gibbs.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e800" level="file">
+                  <did>
+                     <container type="ENVELOPES">6-8</container>
+                     <unittitle>Six Nations Longhouse Women Singers,
+					 6-2-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Three trays containing a total of 52. Photographed by John
+					 Gibbs.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd79e809" level="file">
+                  <did>
+                     <container type="ENVELOPES">11-12</container>
+                     <unittitle>Cachao and his Latin All Stars, 9-15-94.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two trays containing a total of 36. Photographed by John
+					 Gibbs.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd79e818" level="series">
+            <did>
+               <unittitle>Series IV: MOVING IMAGE</unittitle>
+            </did>
+            <c02 id="mferd79e822" level="file">
+               <did>
+                  <container type="AFC">1994/001: V1</container>
+                  <unittitle>Lamas of Drepung Loseling Monastery,
+				  4-21-94.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One Hi-8 color videotaped by Peter Bartis. Viewing copy is
+				  available in the Folklife Reading Room.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd79e831" level="file">
+               <did>
+                  <container type="AFC">1994/001: V2</container>
+                  <unittitle>Sviraj, 5-19-94.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One 1/2" VHS color. Videotapes by Terrence L. Lisbeth.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd79e840" level="file">
+               <did>
+                  <container type="AFC">1994/001: V3-4</container>
+                  <unittitle>Six Nations Longhouse Women Singers, 6-2-94.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One Hi-8 color and one 1/2" VHS color (recorded
+				  concurrently).</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd79e849" level="file">
+               <did>
+                  <container type="AFC">1994/001: V5</container>
+                  <unittitle>Legendary Orioles, 6-16-94.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One Hi-8 color videotaped by Peter Bartis. Viewing copy is
+				  available in the Folklife Reading Room.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd79e858" level="file">
+               <did>
+                  <container type="AFC">1994/001: V6</container>
+                  <unittitle>Kings of Harmony, 7-21-94.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One Hi-8 color. Viewing copies are available in the Folklife
+				  Reading Room.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd79e867" level="file">
+               <did>
+                  <container type="AFC">1994/001: V7 </container>
+                  <unittitle>Dave McLaughlin and Josh Crowe, 8-18-94.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One 1/2" VHS color. Viewing copy is available in the Folklife
+				  Reading Room.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd79e876" level="file">
+               <did>
+                  <container type="AFC">1994/001: V8</container>
+                  <unittitle>Cachao and his Latin All Stars, 9-15-94.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One Hi-8 color videotaped by Nolyn Mason. Viewing copy is
+				  available in the Folklife Reading Room.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+      </dsc>
+      <odd id="mferd79e885">
+         <head>
+            <emph>Appendix A: Dance Content</emph>
+         </head>
+         <table>
+            <tgroup cols="2" align="left">
+               <colspec colnum="1" colname="1" colwidth="20*"/>
+               <colspec colnum="2" colname="2" colwidth="80*"/>
+               <thead valign="bottom">
+                  <row>
+                     <entry morerows="0">Concert</entry>
+                     <entry morerows="0">Description</entry>
+                  </row>
+               </thead>
+               <tbody valign="top">
+                  <row>
+                     <entry morerows="0">Lamas of Drepung Loseling Monastery</entry>
+                     <entry morerows="0">The lamas present sacred music and dance from
+					 Tibet, including traditional monastic multiphonic singing and masked dances.
+					 Dr. Robert Clark of the University of Virginia narrates the program and
+					 provides background information. Dances include Sha-nak, Dance of the Black
+					 Hat; Kha-dro Ten-zhug Gar-cham, Longevity Dance of the Heavenly Messengers; and
+					 Dur-dak Gar-cham, Dance of the Skeleton Lords. Print material, photographs, and
+					 slides: folders 2-4, envelopes 2-3; sound recording: AFC 1994/001:SR1;
+					 videotape: AFC 1994/001:V1.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </odd>
+   </archdesc>
+</ead>

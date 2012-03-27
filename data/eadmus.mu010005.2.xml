@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 22 September 2011 12:12:13 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010005--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010005--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010005-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd134e3">
+   <eadheader id="mferd134e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu010005"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu010005</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Dorothea Dix Lawrence <lb/>Collection
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2006569269"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2006569269</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in March 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd205e50">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Dorothea Dix Lawrence Collection
+		  <unitdate label="Span Dates" type="inclusive" normal="1856/1980" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1856-1980</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1902/1980" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1902-1980)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.L39</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Lawrence, Dorothea Dix, 1899-1979</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">230 items</extent>
+		          <extent encodinganalog="300">4 containers</extent>
+		          <extent encodinganalog="300">2 linear feet</extent>		  
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Dorothea Dix Lawrence was a successful opera singer in the 1930s and 1940s who later became a recitalist and folklorist. The materials in the collection include correspondence, photographs, clippings and other items that document her career as a singer and interpreter of American folk music. In addition, the collection includes her articles on American folklore that were published in various journals and two copies of her famous <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>. The collection also includes piano-vocal opera scores and a large number of American folk songs.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd205e96" altrender=":::F005=^20100305084807.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd136e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lawrence%2C+Dorothea+Dix%2C+1899-1979+Autographs.^">Lawrence, Dorothea Dix, 1899-1979--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lawrence%2C+Dorothea+Dix%2C+1899-1979+Correspondence.^">Lawrence, Dorothea Dix, 1899-1979--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lawrence%2C+Dorothea+Dix%2C+1899-1979+Photographs.^">Lawrence, Dorothea Dix, 1899-1979--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lawrence%2C+Dorothea+Dix%2C+1899-1979.^">Lawrence, Dorothea Dix, 1899-1979.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lawrence%2C+Dorothea+Dix%2C+1899-1979.^">Lawrence, Dorothea Dix, 1899-1979.</persname>
+         </controlaccess>
+         <controlaccess id="mferd136e20">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+United+States+History+and+criticism.^">Folk music--United States--History and criticism.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+songs%2C+English+United+States.^">Folk songs, English--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Operas+Vocal+scores+with+piano.^">Operas--Vocal scores with piano.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Songs%2C+English+United+States.^">Songs, English--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Sopranos+%28Singers%29+United+States+Correspondence.^">Sopranos (Singers)--United States--Correspondence.</subject>
+         </controlaccess>
+         <controlaccess id="mferd136e33">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28information+artifacts%29.^">Clippings (information artifacts).</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd205e137" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd205e140" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift; Morgan Lawrence, the son of Dorothea Dix Lawrence; 1980.</p>
+         </acqinfo>
+         <accruals id="mferd205e145">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd205e150" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Dorothea Dix Lawrence Collection was
+		  processed by Jonathan Kulp in August 1993. It was coded for EAD by George Kipper in 2010.</p>
+         </processinfo>
+         <separatedmaterial id="mferd205e155" encodinganalog="544 0">
+            <head>Transfers</head>
+            <p>A taped interview with Morgan Lawrence, the son of Dorothea Dix Lawrence, was conducted on July 1, 1980, by Jon Newson, assistant chief of the Library of Congress Music Division. The tape had been sealed until July 1, 2005. It was transferred to  the Library of Congress Motion Picture, Broadcasting and Recorded Sound Division and is now accessible to the public.</p>
+         </separatedmaterial>
+         <userestrict id="mferd205e160" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the Dorothea Dix Lawrence Collection is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd205e165" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Dorothea Dix Lawrence Collection is open to research.
+		Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd205e172" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+		  following information: container number, Dorothea Dix Lawrence Collection, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd205e177" encodinganalog="545">
+         <head>Biographical Sketch</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1899 September 22</date>
+               <event>Born in New York City</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1929</date>
+               <event>Made opera debuts: Montreal, Quebec City, Canada</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1932</date>
+               <eventgrp>
+                  <event>Appeared as Aida with Philadelphia Opera Company, San Carlo Opera Company</event>
+                  <event>Made concert debuts: Studebaker Theatre, Chicago; Jordan Hall, Boston</event>
+                  <event>Produced, directed and performed in weekly radio show <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Twilight Hour</title>, Trenton, New Jersey</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1939</date>
+               <eventgrp>
+                  <event>Appeared in the opening concert of the New York World's Fair</event>
+                  <event>Created <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Primer of American Music</title> for WPEN Philadelphia (27 weekly broadcasts) sponsored by the Board of Education, Philadelphia, Pennsylvania</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1946</date>
+               <eventgrp>
+                  <event>Published <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>
+                  </event>
+                  <event>Produced, directed and starred in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Musicana</title>, an 8-week series on radio station WNYC, New York City</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1949</date>
+               <event>Collaborated with Gloria Swanson in the television production <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Design for Living</title> on WPIX-TV, New York City</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1959</date>
+               <event>Published <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Songs of the United States</title> (collaboration with Walter Rosemont)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1970</date>
+               <event>Retired from public life</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1979 May 23</date>
+               <event>Died in Plainfield, New Jersey</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd205e259" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Dorothea Dix Lawrence Collection consists of the correspondence, photographs, clippings, and writings of this noted operatic singer, recitalist, lecturer, and folklorist. The collection also includes piano-vocal opera scores and a large number of American folk songs.	</p>
+      </scopecontent>
+      <arrangement id="mferd205e264" encodinganalog="351$a">
+         <head>Organization of the Dorothea Dix Lawrence Collection</head>
+         <p>The Dorothea Dix Lawrence Collection is organized into two series: </p>
+         <list>
+            <item>Biographical Materials</item>
+            <item>Music</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2006569269"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2006569269</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd205e274" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd134e305" level="series">
+            <did>
+               <container type="boxes">1, 3</container>
+               <unittitle encodinganalog="245$a">Biographical Materials</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Contains biographical summaries, correspondence, writings, a radio script, clippings, photographs, an award certificate, and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title> (oversize concert poster).</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of material, and chronologically therein.</p>
+            </arrangement>
+            <c02 id="mferd134e320" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Biographical summaries</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e326" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e332" level="file">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle encodinganalog="245$a">Writings: Folklore Society of Great Britain</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e338" level="file">
+               <did>
+                  <container type="box-folder">1/4</container>
+                  <unittitle encodinganalog="245$a">Writings: Thirtieth International Congress of Americanists, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">August 1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e347" level="file">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle encodinganalog="245$a">Writings: Periodicals</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e353" level="file">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a" id="Dorothea">Writings: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>; photocopied collages of clippings and concert programs</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e362" level="file">
+               <did>
+                  <container type="box-folder">1/6</container>
+                  <unittitle encodinganalog="245$a">Radio (script)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e368" level="file">
+               <did>
+                  <container type="box-folder">1/7</container>
+                  <unittitle encodinganalog="245$a">Clippings <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1980</unitdate>
+                     <lb/>
+                     <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="Dorothea">
+                        <emph render="italic">see also</emph> Biographical Materials (Series). Writings: Folklore Music Map of the U. S. [Box-Folder 3/1]</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e386" level="file">
+               <did>
+                  <container type="box-folder">1/8</container>
+                  <unittitle encodinganalog="245$a">Concert programs/advertisements<lb/>
+                     <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="Dorothea">
+                        <emph render="italic">see also</emph> Biographical Materials (Series). Writings: Folklore Music Map of the U. S. [Box-Folder 3/1]</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e400" level="file">
+               <did>
+                  <container type="box-folder">1/9</container>
+                  <unittitle encodinganalog="245$a">Photographs: Portraits</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e406" level="file">
+               <did>
+                  <container type="box-folder">1/10</container>
+                  <unittitle encodinganalog="245$a">Photographs: Miss Lawrence with others</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e412" level="file">
+               <did>
+                  <container type="box-folder">1/11</container>
+                  <unittitle encodinganalog="245$a">Photographs: miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e418" level="file">
+               <did>
+                  <container type="box-folder">3/2</container>
+                  <unittitle encodinganalog="245$a">Photographs: oversize </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e424" level="file">
+               <did>
+                  <container type="box-folder">1/12</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e430" level="file">
+               <did>
+                  <container type="box-folder">3/3</container>
+                  <unittitle encodinganalog="245$a">Award: New York City - - USO - - Joint War Appeal. Certificate of Achievement</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd134e436" level="file">
+               <did>
+                  <container type="box-folder">3/3</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>; oversize concert poster (housed in Map Case, drawer 3)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd134e445" level="series">
+            <did>
+               <container type="boxes">2-4</container>
+               <unittitle encodinganalog="245$a">Music</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Contains piano-vocal opera scores and other operatic vocal collections, various art songs and American folk songs.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged by type of music, and alphabetically by composer therein.</p>
+            </arrangement>
+            <c02 id="mferd134e457" level="series">
+               <did>
+                  <container type="box">2-3</container>
+                  <unittitle encodinganalog="245$a">Opera</unittitle>
+               </did>
+               <c03 id="mferd134e463" level="file">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a">Gounod, Charles<lb/>
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Faust</title>; <imprint>New York: G. Schirmer, 1902</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed piano-vocal score; 323 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500">
+                        <p>Leather-bound, name embossed on cover.</p>
+                     </note>
+                     <note encodinganalog="500">
+                        <p>Annotated.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd134e488" level="file">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a">Puccini, Giacomo<lb/>
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Tosca</title>; <imprint>New York: Boosey and Co., 1905</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed piano-vocal score; 335 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500">
+                        <p>Leather-bound, name embossed on cover.</p>
+                     </note>
+                     <note encodinganalog="500">
+                        <p>Annotated.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd134e513" level="file">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a">Strauss, Richard<lb/>
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Salome</title>; <imprint>London: Boosey &amp; Hawkes, 1943</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed piano-vocal score; 203 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500">
+                        <p>Annotated.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd134e535" level="file">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a">[Various]<lb/>
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Opera songs. The Choicest selection from all of the standard operas new and old. (Old book 1: soprano)</title>; <imprint> Philadelphia: Theodore Presser Co., 1930</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed piano-vocal score; 234 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500">
+                        <p>Leather-bound, name embossed on cover.</p>
+                     </note>
+                     <note encodinganalog="500">
+                        <p>Annotated.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd134e560" level="file">
+                  <did>
+                     <container type="box-folder">2/4</container>
+                     <unittitle encodinganalog="245$a">Verdi, Giuseppe<lb/>
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">La Traviata</title>; <imprint> New York: G. Schirmer, 1926</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed piano-vocal score; 232 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500">
+                        <p>Leather-bound, name embossed on cover.</p>
+                     </note>
+                     <note encodinganalog="500">
+                        <p>Annotated.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd134e585" level="series">
+               <did>
+                  <container type="box">2-4</container>
+                  <unittitle encodinganalog="245$a">Songs</unittitle>
+               </did>
+               <c03 id="mferd134e591" level="file">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a">Anonymous</unittitle>
+                  </did>
+                  <c04 id="mferd134e597" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Barren pines. Scene II </title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ozalid piano-vocal score; pp. 26-28; bound.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>[Used on radio broadcast (?)].</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e612" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bucking broncho; Cowboy Jack</title> 
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 4 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Little America</title>  (broadcast) <unitdate era="ce" calendar="gregorian">Oct. 12, 1940</unitdate>.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e633" level="file">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a">Cadman, Charles Wakefield</unittitle>
+                  </did>
+                  <c04 id="mferd134e639" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Moon drops low</title>.<imprint> New York: Edwin H. Morris, 1909</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 7 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Text by Nelle Richmond Eberhart.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e657" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Spring song of the robin woman</title>.<imprint> New York: White-Smith Music, 1918</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 9 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Text by Nelle Richmond Eberhart.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e675" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Her shadow (Ojibway canoe song)</title>.<imprint> New York: White-Smith Music, 1918</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 5 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Words and music by Frederick R. Burton (rearranged and harmonized by C. Cadman).</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e693" level="file">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">Combs, Josia [ed.]</unittitle>
+                  </did>
+                  <c04 id="mferd134e699" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Schirmer's American folk-song series, Set I: Folk-songs from the Kentucky highlands</title>.<imprint> New York: G. Schirmer, 1939</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 40 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e714" level="file">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a">Endicott, Samuel [arr.]</unittitle>
+                  </did>
+                  <c04 id="mferd134e720" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">He stole my tender heart away</title>.<imprint> New York: G. Schirmer, 1939</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 40 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e735" level="file">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a">Farwell, Arthur</unittitle>
+                  </did>
+                  <c04 id="mferd134e741" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bird song dance</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; [2 p.]</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e753" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Inketunga's Thunder Song</title>. </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 3 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>[Singing exercises written on back page].</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e768" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Sabbath, op. 105, no. 3</title>. </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ozalid piano-vocal score; 3 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Text by Emily Dickinson.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e783" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Song of the Deathless Voice</title>. </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 4 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e795" level="file">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a">Foster, Stephen</unittitle>
+                  </did>
+                  <c04 id="mferd134e801" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Come where my love lies dreaming</title>.<imprint> Boston: Oliver Ditson Company, 1906</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 7 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e816" level="file">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a">Gardner, A. T.</unittitle>
+                  </did>
+                  <c04 id="mferd134e822" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">I know two eyes, two soft brown eyes</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 2 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e834" level="file">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a">Hare, Maude Cuney [arr.]</unittitle>
+                  </did>
+                  <c04 id="mferd134e840" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Six Creole folk songs</title>.<imprint> New York: Carl Fisher, 1921</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 24 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e855" level="file">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">Haubiel, Charles [arr.]</unittitle>
+                  </did>
+                  <c04 id="mferd134e861" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Mother Goose songs. First series</title>.<imprint> New York: The Composers Press, 1939</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 24 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e876" level="file">
+                  <did>
+                     <container type="box-folder">4/17</container>
+                     <unittitle encodinganalog="245$a">Haubiel, Charles [arr.]</unittitle>
+                  </did>
+                  <c04 id="mferd134e882" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Dog and the tramps</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ozalid piano-vocal score; 1 p. [incomplete].</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e894" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Little Bo Peep</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 3 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e906" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Little Boy Blue</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 4 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e918" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Little Jack Horner</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 4 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e930" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Mistress Mary</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 3 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e943" level="file">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a">Hopkinson, Francis</unittitle>
+                  </did>
+                  <c04 id="mferd134e949" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Colonial love lyrics: Six songs by Francis Hopkinson</title>.<imprint> Boston: A.P. Schmidt, 1919</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 29 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Edited and augmented by Harold V. Milligan.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e967" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">O'er the hills</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 6 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Edited and augmented by Harold V. Milligan.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e982" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">My dreams have been so wondrous free</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 3 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Edited and augmented by Harold V. Milligan.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e997" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Songs by Francis Hopkinson: Come fair Rosina, etc.]</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ozalid copies of early printing; 11 leaves [wire brad binding removed]</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1009" level="file">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a">Hopkinson, Francis</unittitle>
+                  </did>
+                  <c04 id="mferd134e1015" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Songs by Francis Hopkinson: The Garland, etc.]</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ozalid copies of early printing; 5 leaves [wire brad binding removed]</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1027" level="file">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a">Huarte, Julian</unittitle>
+                  </did>
+                  <c04 id="mferd134e1033" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Madrigal Español</title>. <imprint> New York: G. Schirmer, 1992</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score, 6 p. [incomplete]</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1048" level="file">
+                  <did>
+                     <container type="box-folder">3/5-6</container>
+                     <unittitle encodinganalog="245$a">Lawrence, Dorothea Dix [compiler]</unittitle>
+                  </did>
+                  <c04 id="mferd134e1054" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore-songs of the United States</title>.<imprint> New York: The Dorothea Dix Lawrence Folklore Society, U.S.A., 1959</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 133 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Arrangements by Walter Rosemont.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1072" level="file">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a">MacDowell, Edward</unittitle>
+                  </did>
+                  <c04 id="mferd134e1078" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Six selected songs</title>. <imprint> Boston: A.P. Schmidt, 1940</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score, 18 p. [incomplete]</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1093" level="file">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a">Nelson, Nils A.</unittitle>
+                  </did>
+                  <c04 id="mferd134e1099" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Passing</title>. <imprint>New York: February 1933</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ozalid copy; 2 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Inscribed to Miss Lawrence by the composer.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1117" level="file">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">Niles, John Jacob [ed.]</unittitle>
+                  </did>
+                  <c04 id="mferd134e1123" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Schirmer's American folk-song series, Set 14: Songs of the hill-folk (twelve ballads from Kentucky, Virginia, and North Carolina)</title>.<imprint> New York: G. Schirmer, 1934</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 25 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e1138" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Schirmer's American folk-song series, Set 16: Ten Christmas carols (from the Southern Appalachian Mountains)</title>.<imprint> New York: G. Schirmer, 1935</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 22 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e1153" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Schirmer's American folk-song series, Set 18: Ballads, carols, and tragic legends (from the Southern Appalachian Mountains)</title>.<imprint> New York: G. Schirmer, 1937</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 22 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1168" level="file">
+                  <did>
+                     <container type="box-folder">4/10</container>
+                     <unittitle encodinganalog="245$a">Rodrigo, Joaquin</unittitle>
+                  </did>
+                  <c04 id="mferd134e1174" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Villancicos</title>.<imprint> Madrid: Edición del autor, 1953</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 7 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Inscribed: "Para Miss Dorothea Dix Lawrence con toda simpatia" [signature illegible, but likely that of the composer].</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1192" level="file">
+                  <did>
+                     <container type="box-folder">4/11</container>
+                     <unittitle encodinganalog="245$a">Rosemont, Walter L.</unittitle>
+                  </did>
+                  <c04 id="mferd134e1198" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ye Olde historic inn</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 3 leaves</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>On title page: "Written especially for Miss Dorothea Dix Lawrence for her broadcasts."</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e1213" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Railroad cars are coming</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 2 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Adapted and arranged by Walter L. Rosemont.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e1228" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">El Zapatero (The Shoemaker)</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 1 leaf</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Adapted and arranged by Walter L. Rosemont.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e1243" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Invocation to the Sun God:  Zuñi Indian mother's prayer, </title> 1950.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ozalid copy; 2 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Adapted and arranged by Walter L. Rosemont.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1258" level="file">
+                  <did>
+                     <container type="box-folder">4/12</container>
+                     <unittitle encodinganalog="245$a">Sullivan, Marian Dix</unittitle>
+                  </did>
+                  <c04 id="mferd134e1264" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">For Lo! The Winter is past.</title> Boston, 1856.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 1 p.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd134e1276" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Star-Spangled Banner</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 2 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Harmonized and arranged by Thomas Grasso for Dorothea D. Lawrence.</p>
+                        </note>
+                        <note encodinganalog="500">
+                           <p>[Both pieces in same binder].</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1294" level="file">
+                  <did>
+                     <container type="box-folder">4/13</container>
+                     <unittitle encodinganalog="245$a">Troyer, Carlos [arr.]</unittitle>
+                  </did>
+                  <c04 id="mferd134e1300" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Traditional songs of the Zuñi Indians</title>.<imprint> Philadelphia: Theo. Presser Co., 1904</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal scores</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Contents:</p>
+                        </note>
+                        <note encodinganalog="500">
+                           <p>The Sunrise Call, or Echo song.</p>
+                        </note>
+                        <note encodinganalog="500">
+                           <p>Incantation upon a sleeping infant.</p>
+                        </note>
+                        <note encodinganalog="500">
+                           <p>Invocation to the Sun God.</p>
+                        </note>
+                        <note encodinganalog="500">
+                           <p>Zuñi lover's wooing.</p>
+                        </note>
+                        <note encodinganalog="500">
+                           <p>Sunset song.</p>
+                        </note>
+                        <note encodinganalog="500">
+                           <p>Hunting song of the Cliff Dwellers.</p>
+                        </note>
+                        <note encodinganalog="500">
+                           <p>Two Zuñian melodies.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1340" level="file">
+                  <did>
+                     <container type="box-folder">4/14</container>
+                     <unittitle encodinganalog="245$a"/>
+                  </did>
+                  <c04 id="mferd134e1345" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Villancicos</title>.<imprint> New York: G. Ricordi &amp; Co., Inc., 1922</imprint>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Printed piano-vocal score; 7 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Text by William Alexander Percy.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd134e1363" level="file">
+                  <did>
+                     <container type="box-folder">4/15</container>
+                     <unittitle encodinganalog="245$a"/>
+                  </did>
+                  <c04 id="mferd134e1368" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Lonesome dove</title>.</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">Ms. piano-vocal score; 4 p.</extent>
+                        </physdesc>
+                        <note encodinganalog="500">
+                           <p>Text by Arnold Sundgaard.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

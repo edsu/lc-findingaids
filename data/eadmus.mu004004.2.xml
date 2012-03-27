@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:26 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu004004--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu004004--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu004004-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd295e5">
+   <eadheader id="mferd295e6" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US" encodinganalog="856$u"
+             identifier="hdl:loc.music/eadmus.mu004004">http://hdl.loc.gov/loc.music/eadmus.mu004004</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">William B. Bradbury Collection</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:title="Seal of the Library of Congress"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2005" era="ce" calendar="gregorian">2005</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+                  <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/95702388"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/95702388</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding Aid encoded by Library of Congress Music Division, <date normal="2005" era="ce" calendar="gregorian">2005</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in<language langcode="eng" encodinganalog="041">English</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in March 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" type="register" relatedencoding="MARC21">
+      <did id="mferd1735e52">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">William B. Bradbury Collection<unitdate label="Span Dates" type="inclusive" encodinganalog="245$f" normal="1846/1928"
+                      era="ce"
+                      calendar="gregorian">1846-1928</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1847/1862"
+                      era="ce"
+                      calendar="gregorian">(bulk 1847-1862)</unitdate>
+         </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.B7</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Bradbury, William B. (William Batchelder), 1816-1868</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">circa 40 items</extent>
+            <extent encodinganalog="300">3 boxes</extent>
+            <extent encodinganalog="300">1 linear foot</extent>
+         </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Music Division</subarea> Library of Congress</corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Bradbury's secular music is represented by published vocal scores, some in photocopy, and probable holograph of Song of the South. Contains an album compiled by Bradbury in Europe (1847-1849) of autograph musical sketches by Franz Abt, Niels Gade, Joseph Joachim, Jenny Lind, Albert Lortzing, Giacomo Meyerbeer, Ignaz Moscheles, Clara Schumann, Robert Schumann, Louis Spohr, Richard Wagner, and others; sketches by Felix Mendelssohn, Walter Damrosch, and Ignace Paderewski added later. Photographs, clippings, printed and ms. music by other composers, correspondence, Bradbury's baton, etc. also are included.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd1735e100" altrender=":::F005=^20091218161949.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd297e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Abt%2C+Franz%2C+1819-1885+Autographs.^">Abt, Franz, 1819-1885--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bradbury%2C+William+B.+%28William+Batchelder%29%2C+1816-1868+Correspondence.^">Bradbury, William B. (William Batchelder), 1816-1868--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bradbury%2C+William+B.+%28William+Batchelder%29%2C+1816-1868.^">Bradbury, William B. (William Batchelder), 1816-1868.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bradbury%2C+William+B.+%28William+Batchelder%29%2C+1816-1868.^">Bradbury, William B. (William Batchelder), 1816-1868.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bradbury%2C+William+B.+%28William+Batchelder%29%2C+1816-1868.^">Bradbury, William B. (William Batchelder), 1816-1868. Song of the south.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Damrosch%2C+Walter%2C+1862-1950+Autographs.^">Damrosch, Walter, 1862-1950--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gade%2C+Niels+W.+%28Niels+Wilhelm%29%2C+1817-1890+Autographs.^">Gade, Niels W. (Niels Wilhelm), 1817-1890--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Joachim%2C+Joseph%2C+1831-1907+Autographs.^">Joachim, Joseph, 1831-1907--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lind%2C+Jenny%2C+1820-1887+Autographs.^">Lind, Jenny, 1820-1887--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lortzing%2C+Albert%2C+1801-1851+Autographs.^">Lortzing, Albert, 1801-1851--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mendelssohn-Bartholdy%2C+Felix%2C+1809-1847+Autographs.^">Mendelssohn-Bartholdy, Felix, 1809-1847--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Meyerbeer%2C+Giacomo%2C+1791-1864+Autographs.^">Meyerbeer, Giacomo, 1791-1864--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Moscheles%2C+Ignaz%2C+1794-1870+Autographs.^">Moscheles, Ignaz, 1794-1870--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Paderewski%2C+Ignace+Jan%2C+1860-1941+Autographs.^">Paderewski, Ignace Jan, 1860-1941--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schumann%2C+Clara%2C+1819-1896+Autographs.^">Schumann, Clara, 1819-1896--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schumann%2C+Robert%2C+1810-1856+Autographs.^">Schumann, Robert, 1810-1856--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Spohr%2C+Louis%2C+1784-1859+Autographs.^">Spohr, Louis, 1784-1859--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Wagner%2C+Richard%2C+1813-1883+Autographs.^">Wagner, Richard, 1813-1883--Autographs.</persname>
+         </controlaccess>
+         <controlaccess id="mferd297e47">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Musical+sketches.^">Musical sketches.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musicians+Autographs.^">Musicians--Autographs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musicians+Correspondence.^">Musicians--Correspondence.</subject>
+         </controlaccess>
+         <controlaccess id="mferd297e56">
+            <head>Titles</head>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                   encodinganalog="246"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^Bradbury+collection%2C+1846-1928^">Bradbury collection, 1846-1928</title>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd1735e160" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd1735e163" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Donated by Joan M. Undeland, the composer's great-great-granddaughter, 1976.</p>
+            <p>Additional materials donated by Joan M. Undeland, the composer's great-great-granddaughter, 2000.</p>
+         </acqinfo>
+         <accruals id="mferd1735e170" encodinganalog="584">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd1735e175" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The William B. Bradbury Collection was processed in 1992/2000 by Robert Saladini with assistance from Gail A. Miller and Michele Millington. The original finding aid was prepared with Corel WordPerfect 8. In 2004 the William B. Bradbury Collection finding aid was coded for EAD format by Michael A. Ferrando.</p>
+         </processinfo>
+         <userestrict id="mferd1735e180" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the William B. Bradbury Collection is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd1735e185" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The William B. Bradbury Collection is open to research. Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd1735e190" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, William B. Bradbury Collection, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd1735e195" encodinganalog="545">
+         <head>Biographical Sketch</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1816 October 6</date>
+               <event>Born William Batchelder Bradbury in York, Maine</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1830</date>
+               <eventgrp>
+                  <event>Family moves to Boston</event>
+                  <event>Bradbury studies with Sumner Hill</event>
+                  <event>Attends Lowell Mason's Boston Academy of Music</event>
+                  <event>Sings in Mason's Boudoin Street Church Choir</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1830s</date>
+               <event>Works as an organist and teacher</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1840</date>
+               <event>Becomes music director of the First Baptist Church in Brooklyn, New York</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1840s</date>
+               <event>Introduces the teaching of singing into New York City public schools</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1841</date>
+               <eventgrp>
+                  <event>Becomes music director of Baptist Tabernacle of New York; begins to teach children's singing in a similar style to that of Mason's school in Boston</event>
+                  <event>
+                     <emph render="italic">The Young Choir</emph> (compiled with Thomas Hastings) is published</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1847-49</date>
+               <event>Studies piano, singing, harmony, and composition in Europe</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1849</date>
+               <event>Returns to United States; continues to teach, compose, and compile collections of hymns</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1854</date>
+               <event>Forms Bradbury Piano Company with his brother, Edward G.Bradbury, and Light and Newton, the German piano manufacturers</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1858</date>
+               <event>Music collection,<emph render="italic"> The Jubilee</emph>, is published, selling over 200,000 copies</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1861</date>
+               <event>Music collection, <emph render="italic">The Golden Chain</emph>, is published, selling 2,000,000 copies</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1867</date>
+               <event>Music collection, <emph render="italic">Fresh Laurels</emph>, is published, selling 1,200,000 copies</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1868 Jan. 7</date>
+               <event>Dies in Montclair, New Jersey</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd1735e292" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The William B. Bradbury Collection was given to the Library of Congress in 1976 and 2000 by Joan M. Undeland, Bradbury's great-great-granddaughter.  These materials complemented a number of Bradbury's holograph and first-edition printed musical scores that were given to the Library of Congress by Hubert P. Main and others earlier in the 20th century.</p>
+         <p>Notable in the collection is an autograph musical sketchbook that Bradbury compiled between 1847 and 1849 when he was studying in Europe.  This sketchbook contains short musical sketches by some of Bradbury's contemporaries, including Franz Abt, Niels Gade, Joseph Joachim, Jenny Lind, Albert Lorzing, Giacomo Meyerbeer, Ignaz Moscheles, Clara Schumann, Robert Schumann, Louis Spohr,  Marianne Spohr, Richard Wagner, and others.  Sketches by Felix Mendelssohn, Walter Damrosch, Ignaz Paderewski and Felix Mendelssohn were added later.  The album also contains two non-musical entries, a watercolor sketch by Susette Hauptmann, and a letter to Bradbury from Felix Mendelssohn that C. F. Becker added to the album in 1849.</p>
+         <p>All of the compositions by Bradbury in the collection are secular, even though he composed over 800 hymn-tunes.  One of these works, Bradbury's <emph render="italic">Song of the south</emph>, may be in his own hand.</p>
+         <p>An unpublished biography entitled "William B. Bradbury, His Life and Times" that was written by his granddaughter, Elma Marvin, and a biographical letter written in 1928 by Bradbury's son are also found in the collection.  A letterpress book in the collection contains correspondence relative to Bradbury's music publications during the early 1860s.</p>
+         <p>Photographs in the collection include those of Bradbury, his wife, Ada Esther Fessender Bradbury, and his piano, which was manufactured by his company, Light, Newton &amp; Bradbury.</p>
+         <p>The status of the literary rights of the unpublished materials in the William B. Bradbury Collection is unknown.</p>
+      </scopecontent>
+      <arrangement id="mferd1735e310" encodinganalog="351$a">
+         <head>Organization of the William B. Bradbury Collection</head>
+         <p>The William B. Bradbury Collection is organized in 7 series:</p>
+         <list>
+            <item>Biographical Materials</item>
+            <item>Music</item>
+            <item>Letterpress Book</item>
+            <item>Album</item>
+            <item>Photographs</item>
+            <item>Clippings</item>
+            <item>Miscellaneous</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/95702388"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/95702388</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd1735e330" type="combined">
+         <head>Container List</head>
+         <thead>
+            <row>
+               <entry>Box</entry>
+               <entry>Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd295e354" level="series">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a" id="CL1001">Biographical Materials</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Biographical Materials series consists of writings about William B. Bradbury, his family, and his music.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is alphabetical by title or subject.</p>
+            </arrangement>
+            <c02 id="mferd295e366" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Anonymous.  Family Recollections.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e372" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Anonymous.  "Notes on a Musical Autograph Collection once Owned by William Batchelder Bradbury."</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e378" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Bradbury, William L. to [?].  Letter dated Sept. 28, 1928.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e384" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Marvin, Elma.  "William B. Bradbury: his life and times."  Unpublished biography, [photocopy]</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e390" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">William B. Bradbury, his life and times and some family history, unpublished biography, compiled by Elma Marvin</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd295e396" level="series">
+            <did>
+               <container type="box">1</container>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a" id="CL1002">Music</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Music series is represented by three subseries: Bradbury as Composer; Brabury as Hymn Writer; Other Composers and Arrangers. The series consists of printed and holograph manuscripts.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangment is alphabetical by composer and title.</p>
+            </arrangement>
+            <c02 id="mferd295e410" level="subseries">
+               <did>
+                  <unittitle encodinganalog="245$a" id="CL10021001">Bradbury as Composer</unittitle>
+               </did>
+               <c03 id="mferd295e414" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Esther, the beautiful queen, a cantata or short oratorio.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Mason Brothers</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1856" era="ce" calendar="gregorian">1856</unitdate>. </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd295e432" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Flag of our union, The.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Firth, Pond, &amp; Co.</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1861" era="ce" calendar="gregorian">1861</unitdate>. </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Words by George P. Morris, Esq.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>"New and Correct Edition"</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd295e461" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Sing to me, mother.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">C. M. Tremaine</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1867" era="ce" calendar="gregorian">1867</unitdate>. </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>"To Mrs. Frank Dodge"</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd295e487" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Song of the south.</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Holograph vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>SATB  </p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd295e504" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">"Tea Party" song, A.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Newman &amp; Ivison</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1852" era="ce" calendar="gregorian">1852</unitdate>. </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed vocal score ; SATB</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd295e527" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">There's a sound among the forest trees.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">[s.n.]</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1864" era="ce" calendar="gregorian">1864</unitdate>. </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Words by Fanny Crosby</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd295e553" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Great convention, or woman's rights, The.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Newman &amp; Ivison</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1852" era="ce" calendar="gregorian">1852</unitdate>. </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed vocal score ; SATB   </extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Arranged from a celebrated German people's song "Words written for this Work by a Lady"</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd295e579" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Jenny Lind mania, The.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Newman &amp; Ivison</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1852" era="ce" calendar="gregorian">1852</unitdate>. </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed vocal score ; SATB</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Arranged from a popular melody</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Words by W. H. C. West</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd295e608" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Star-spangled banner, The.</title> 
+                        <geogname encodinganalog="260$a">[S.l.]</geogname>: <corpname encodinganalog="260$b">Bigelow &amp; Main</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1870" era="ce" calendar="gregorian">1870</unitdate>. </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed vocal score ; SATB</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd295e631" level="subseries">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a" id="CL10021002">Badbury as hymn writer</unittitle>
+               </did>
+               <c03 id="mferd295e637" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">The Bradbury Trio : comprising New Golden Chain, New Golden Shower, and New Golden Censer.</title> 
+                        <geogname encodinganalog="260$a">New York </geogname>: <corpname encodinganalog="260$b">Biglow and Main</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1870" era="ce" calendar="gregorian">1870</unitdate>. </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd295e655" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Bright jewels for the Sunday school ; a new collection of Sunday school songs written expressly for this work ; many of which are the latest compositions of William B. Bradbury / Rob't Lowry ; editor ; assisted by Wm. F. Sherwin and Chester G. Allen.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Biglow &amp; Main</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1869" era="ce" calendar="gregorian">1869</unitdate>. </unittitle>
+                     <note encodinganalog="500$a">
+                        <p>Also publsihed by Ivison, Phinney, Blakeman &amp; Co.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd295e676" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                               render="altrender">Metropolitan Glee Book; or, Alpine Glee Singer, volume second. A new collection of glee choruses, opera choruses, and four-part songs, from the most popular authors, to which is added the most favorite choruses from Handel's oratorio of the Messiah / by William B. Bradbury.</title> 
+                        <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Newman and Ivison</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1852" era="ce" calendar="gregorian">1852</unitdate>. </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd295e694" level="subseries">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a" id="CL10021003">Other Composers and Arrangers</unittitle>
+               </did>
+               <c03 id="mferd295e700" level="subseries">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="CL100210031001">By Composer</unittitle>
+                  </did>
+                  <c04 id="mferd295e706" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <persname encodinganalog="100$a" role="arr" normal="Dyer, S. O.">Dyer, S. O.</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd295e713" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">3</container>
+                           <unittitle encodinganalog="245$a">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                     render="altrender">Spider and the fly, The.</title> 
+                              <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">C. H. Holt</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1847" era="ce" calendar="gregorian">1847</unitdate>. </unittitle>
+                           <physdesc>
+                              <extent encodinganalog="300">Printed piano-vocal score ; SATB</extent>
+                           </physdesc>
+                           <note encodinganalog="500$a">
+                              <p>Words by Jesse Hutchinson, Jr. </p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd295e739" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <persname encodinganalog="100$a" role="cmp" normal="Mendelssohn, Felix">Mendelssohn, Felix</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd295e746" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">3</container>
+                           <unittitle encodinganalog="245$a">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                     render="altrender">[Three motets, op. 69].</title>
+                           </unittitle>
+                           <physdesc>
+                              <extent encodinganalog="300">Ms. vocal score ; SATB</extent>
+                           </physdesc>
+                           <note encodinganalog="505$a">
+                              <p>Includes:</p>
+                              <list>
+                                 <item>No. 1, <emph render="italic">Lord, now lettest Thou thy Servant</emph>
+                                 </item>
+                                 <item>No. 2, <emph render="italic">O be joyful in the Lord</emph>
+                                 </item>
+                                 <item>No. 3, <emph render="italic">My Soul doth magnify the Lord</emph>
+                                 </item>
+                              </list>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd295e779" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">3</container>
+                           <unittitle encodinganalog="245$a">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                     render="altrender">[Volkslied].</title> 
+                              <geogname encodinganalog="260$a">Berlin</geogname>: <corpname encodinganalog="260$b">Schlesinger</corpname>, <unitdate era="ce" calendar="gregorian">n.d.</unitdate> 
+                           </unittitle>
+                           <physdesc>
+                              <extent encodinganalog="300">Printed piano-vocal score ; duet   </extent>
+                           </physdesc>
+                           <note encodinganalog="500$a">
+                              <p>Includes: "Wasserfahrt," No. 3</p>
+                           </note>
+                           <note encodinganalog="500$a">
+                              <p>Pl. S. 2091 (3)</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd295e808" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <persname encodinganalog="100$a" role="cmp" normal="Mozart, W. A.">Mozart, W. A.</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd295e815" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">3</container>
+                           <unittitle encodinganalog="245$a">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                     render="altrender">Eheliche gute Nacht.</title> 
+                              <geogname encodinganalog="260$a">Leipzig</geogname>: <corpname encodinganalog="260$b">Breitkopf</corpname>, <unitdate era="ce" calendar="gregorian">n.d.</unitdate> 
+                           </unittitle>
+                           <physdesc>
+                              <extent encodinganalog="300">Printed piano-vocal score</extent>
+                           </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd295e838" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schubert, Franz">Schubert, Franz</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd295e845" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">3</container>
+                           <unittitle encodinganalog="245$a">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                     render="altrender">[Du bist die Ruh].</title> 
+                              <geogname encodinganalog="260$a">Boston</geogname>: <corpname encodinganalog="260$b">George P. Reed &amp; Co.</corpname>, <unitdate era="ce" calendar="gregorian">n.d.</unitdate> 
+                           </unittitle>
+                           <physdesc>
+                              <extent encodinganalog="300">Printed piano-vocal score</extent>
+                           </physdesc>
+                           <note encodinganalog="500$a">
+                              <p>"Thou Art the Rest," in <emph render="italic">Gems of German Songs</emph>
+                              </p>
+                           </note>
+                           <note encodinganalog="500$a">
+                              <p>J. S. Dwight, trans.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd295e877" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <persname encodinganalog="100$a" role="arr" normal="Wyman, B.">Wyman, B.</persname> and <persname encodinganalog="100$a" role="arr" normal="Newell, G. P.">G. P. Newell</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd295e887" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">3</container>
+                           <unittitle encodinganalog="245$a">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                     render="altrender">[Library of sacred music].</title> 
+                              <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Wyman and Newell</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1846" era="ce" calendar="gregorian">1846</unitdate>. </unittitle>
+                           <physdesc>
+                              <extent encodinganalog="300">Organ-vocal score ; SATB</extent>
+                           </physdesc>
+                           <note encodinganalog="500$a">
+                              <p>Printed anthology of sacred choral music </p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd295e913" level="subseries">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="CL100210031002">By Title</unittitle>
+                  </did>
+                  <c04 id="mferd295e919" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <container type="box">3</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                  render="altrender">Hymns and songs of praise [3 volumes].</title> 
+                           <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Anson D. F. Randolph and Company</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1874" era="ce" calendar="gregorian">1874</unitdate>. </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd295e937" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <container type="box">3</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                  render="altrender">Gospel Hymns, Consolidated.</title> 
+                           <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Biglow and Main</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1883" era="ce" calendar="gregorian">1883</unitdate>. </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd295e955" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <container type="box">3</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" altrender="normal"
+                                  render="altrender">Northfield Hymnal.</title> 
+                           <geogname encodinganalog="260$a">Chicago</geogname>: <corpname encodinganalog="260$b">Biglow and Main</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1904" era="ce" calendar="gregorian">1904</unitdate>. </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd295e973" level="series">
+            <did>
+               <container type="box">1</container>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a" id="CL1003">Letterpress Book, <unitdate encodinganalog="245$f" type="inclusive" normal="1861-02/1862-07" era="ce"
+                            calendar="gregorian">February 1861-July 1862</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Letterpress Book series consists primarly of correspondence relative to Bradbury's music publications during the early 1860s.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is chronological by date.</p>
+            </arrangement>
+            <c02 id="mferd295e990" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Bound holograph letterpress book with business correspondence, Feb. 1861-July 1862</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e996" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Pencil transcriptions of letterpress book in steno notebooks. Typed transcription of six letters from letterpress book</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd295e1002" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a" id="CL1004">Album</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Album series consists of one bound volume containing holograph music sketches, one letter, and signatures of 19th-century composers.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is by format.</p>
+            </arrangement>
+            <c02 id="mferd295e1014" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Album containing holograph music sketches, one letter, and signatures of 19th-century composers and others; includes autographs of:  Franz Abt, C. F. Becker, Ferdinand Böhme, Walter Damrosch, Ferdinand David, Niels W. Gade, Greissiger, Susette Hauptmann, Hermann Huegeli, Joseph Joachim, C. Klingemann, Hermann Langer, Jenny Lind, Albert Lortzing, F. Mendel, Giacomo Meyerbeer, Ignaz Moscheles, Ignacy Jan Paderewski, A. F. Riccius, E. Friedr. Richter, Clara Schumann, Robert Schumann, J. Vogt, Richard Wagner, Ernst Ferdinand Wenzel, Carl Zöllner, and unidentified others. Typed transcription of a letter from Felix Mendelssohn-Bartholdy to Bradbury</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd295e1020" level="series">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a" id="CL1005">Photographs</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Photographs series consists of prints of Bradbury, his wife, Ada Esther Fessender Bradbury, and his piano.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is alphabetical by subject.</p>
+            </arrangement>
+            <c02 id="mferd295e1032" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Photographs of William Bradbury, his wife, Ada Esther Fessender Bradbury, and his piano</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Note: One oversize photoprint located in container labeled: Folio 1.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd295e1041" level="series">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a" id="CL1006">Clippings, <unitdate encodinganalog="245$f" type="inclusive" normal="1962" era="ce"
+                            calendar="gregorian">1962</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Clippings series consists of newspaper and magazine articles referring to Bradbury's piano.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is chronological by date.</p>
+            </arrangement>
+            <c02 id="mferd295e1056" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Newspaper and magazine articles referring to Bradbury's piano</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd295e1062" level="series">
+            <did>
+               <container type="box">1</container>
+               <container type="box">2</container>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a" id="CL1007">Miscellaneous</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Miscellaneous series consists of artifacts and music related materials of various formats.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is alphabetical by subject.</p>
+            </arrangement>
+            <c02 id="mferd295e1078" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">William B. Bradbury's baton</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e1084" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Letter to the editors of <emph render="italic">The Evening Post</emph> by P. T. Barnum referring to expenses paid to Jenny Lind, 1871.  Typed from the newspaper clipping.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e1093" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Adams, John S. <emph render="italic">5000 Musical Terms: Complete Dictionary</emph>. Boston: Oliver Ditson, [1851]</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e1102" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Assorted opera librettos</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd295e1108" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Program, Esther, the Beautiful Queen, Riverside Polytechnic High School, Riverside, CA, 1930</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

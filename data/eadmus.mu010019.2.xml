@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:24 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu010019
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010019--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010019--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010019-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd223e3">
+   <eadheader id="mferd223e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu010019"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu010019</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>George Antheil Correspondence to Stanley Hart
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2010563504"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2010563504</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-08" era="ce" calendar="gregorian">2010 August</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in August 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd1111e49">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">George Antheil Correspondence to Stanley Hart
+		  <unitdate label="Span Dates" type="inclusive" normal="1919/1931" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1919-1931</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1922/1923" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1922-1923)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.A585</unitid>
+         <origination label="Creator"> 
+			         <persname encodinganalog="100" source="lcnaf">Antheil, George, 1900-1959</persname>
+         </origination>
+         <origination label="Collector"> 
+	 		        <persname encodinganalog="700" source="lcnaf">Hart, Stanley</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">approximately 140 items</extent>
+		          <extent encodinganalog="300">1 container</extent>
+		          <extent encodinganalog="300">.25 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Material principally in
+		<language encodinganalog="041" langcode="eng">English</language> 
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">George Antheil was a composer, pianist, author, and inventor. He first gained fame and notoriety in the 1920s for his mechanistic compositions. This collection chiefly consists of letters from George Antheil to friend and writer Stanley Hart. The letters chronicle Antheil's personal and professional exploits during his 1920s European tour.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd1111e98" altrender=":::F005=^20100720021125.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd225e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Antheil%2C+George%2C+1900-1959+Correspondence.^">Antheil, George, 1900-1959--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Antheil%2C+George%2C+1900-1959.^">Antheil, George, 1900-1959.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Antheil%2C+George%2C+1900-1959.^">Antheil, George, 1900-1959.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hart%2C+Stanley+Correspondence.^">Hart, Stanley--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Hart%2C+Stanley.^">Hart, Stanley.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Hart%2C+Stanley.^">Hart, Stanley. George Antheil correspondence to Stanley Hart. 1919-1931.</persname>
+         </controlaccess>
+         <controlaccess id="mferd225e22">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Composers+United+States+Correspondence.^">Composers--United States--Correspondence.</subject>
+         </controlaccess>
+         <controlaccess id="mferd225e27">
+            <head>Titles</head>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                   encodinganalog="246"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^George+Antheil+collection%2C+1919-1931^">George Antheil collection, 1919-1931</title>
+         </controlaccess>
+         <controlaccess id="mferd225e32">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd1111e134" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd1111e137" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift, Mrs. Stanley Hart, 1968.</p>
+         </acqinfo>
+         <accruals id="mferd1111e142">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd1111e147" encodinganalog="583">
+            <head>Processing History</head>
+            <p>George Antheil’s correspondence with Mary Louise Curtis Bok and Stanley Hart was processed in 1992 by Claudia Widgery as a single collection, called the George Antheil Collection, which also included the composer’s music manuscripts received by the Library of Congress between 1964 and 1975. These original and photo-reproduced manuscripts, donated principally by Böske Antheil, were cataloged in ML 96.A723 and ML 96.5.A62, respectively. In 1968, Mrs. Stanley Hart donated approximately 140 letters between her husband and Antheil. These were followed by Mrs. Cary William Bok’s 1975 gift of approximately 500 letters and other items related to Antheil’s relationship with her patron mother-in-law. A finding aid for the George Antheil Collection was publicly available until 2009.</p>
+            <p>The Music Division has since reprocessed these materials to more accurately reflect their original provenances. The George Antheil Collection no longer exists. The cataloged manuscripts have been returned to the general collections under their original ML call numbers. A handful of cataloged letters previously associated with the Bok correspondence, but unrelated, can be found in ML 95.A726. The remaining batches of Bok and Hart correspondence have been processed as two distinct collections, entitled the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu010018">George Antheil Correspondence with Mary Louise Curtis Bok</archref> and this one, the George Antheil Correspondence to Stanley Hart.</p>
+            <p>In 2006 to 2007, the Music Division purchased additional Antheil materials, which have been processed as the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu003010">George and Böske Antheil Papers</archref>. References to the ML 96.A723 scores received between 1964 and 1975 are present in the George and Böske Antheil Papers finding aid in order to convey their shared provenance and to provide researchers with a more comprehensive list of Antheil music manuscripts available at the Library of Congress.</p>
+            <p>The finding aid for the George Antheil Correspondence to Stanley Hart was revised by Meghan Sommers and coded for EAD by Christopher Hartten in 2010.</p>
+         </processinfo>
+         <separatedmaterial id="mferd1111e164" encodinganalog="544 0">
+            <head>Other Repositories</head>
+            <p> Additional materials can be found in the UCLA Performing Arts Special Collections and the New York Public Library.</p>
+         </separatedmaterial>
+         <relatedmaterial id="mferd1111e169" encodinganalog="544 1">
+            <head>Related Material</head>
+            <p>The Music Division holds numerous special collections that contain Antheil correspondence, including the: <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu003010">George and Böske Antheil Papers</archref>; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu010018">George Antheil Correspondence with Mary Louise Curtis Bok</archref>; Elizabeth Sprague Coolidge Collection; Irving Schwerké Collection; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002011">Nicolas Slonimsky Collection</archref>; Percy Aldridge Grainger Collection; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002008">Serge Koussevitzky Archive</archref>; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu998001">Leonard Bernstein Collection</archref>; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002006">Aaron Copland Collection</archref>; Modern Music Archives, and others.  A small quantity of cataloged letters are available in ML 95.A726.</p>
+         </relatedmaterial>
+         <userestrict id="mferd1111e193" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The George Antheil Correspondence to Stanley Hart is governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict id="mferd1111e198" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The George Antheil Correspondence to Stanley Hart is open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd1111e205" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+			following information: [item, date, container number], George Antheil Correspondence to Stanley Hart, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd1111e210" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Little is known about George Antheil's relationship with Stanley Hart (dates unknown), a writer and lecturer in fine arts at Columbia University during the 1920s. Hart was a childhood friend of Antheil's who lived in Trenton, New Jersey and New York City throughout the decade in which they exchanged letters.</p>
+      </bioghist>
+      <scopecontent id="mferd1111e215" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The George Antheil Correspondence to Stanley Hart spans the period 1919-1931, with the majority of materials dating from 1922-1923. Included are letters, postcards, and telegrams from Antheil to Hart, in addition to several letters to Antheil from Mary Hollister, Ethel Leginska, and Annette Williams, and three letters from unidentified authors to Hart. The letters chronicle Antheil’s personal and professional exploits during his European tour, which began in 1922. In addition to commentary on cities he visited, concerts he performed, and musical pieces he was working on, Antheil also confided in Hart details of his personal relationships. The correspondence offers a unique perspective on the life of this influential futurist composer and his acquaintances. </p>
+      </scopecontent>
+      <arrangement id="mferd1111e220" encodinganalog="351$a">
+         <head>Organization of the George Antheil Correspondence to Stanley Hart</head>
+         <p>The George Antheil Correspondence to Stanley Hart is organized in 1 series: </p>
+         <list>
+            <item>Correspondence, 1919-1931</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2010563504"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2010563504</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd1111e228" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd223e258" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1931</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd223e267" level="file">
+               <did>
+                  <container type="box-folder">1/1-10</container>
+                  <unittitle encodinganalog="245$a">Antheil to Hart, 1920-1931, undated<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd223e275" level="file">
+               <did>
+                  <container type="box-folder">1/11</container>
+                  <unittitle encodinganalog="245$a">Antheil to Hart, 1920-1931, undated<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>Envelopes</physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd223e285" level="file">
+               <did>
+                  <container type="box-folder">1/12</container>
+                  <unittitle encodinganalog="245$a">Hollister, Mary to Antheil, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd223e294" level="file">
+               <did>
+                  <container type="box-folder">1/13</container>
+                  <unittitle encodinganalog="245$a">Leginska, Ethel to Antheil, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd223e303" level="file">
+               <did>
+                  <container type="box-folder">1/14</container>
+                  <unittitle encodinganalog="245$a">Williams, Annette to Antheil, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd223e312" level="file">
+               <did>
+                  <container type="box-folder">1/15</container>
+                  <unittitle encodinganalog="245$a">Unidentified to Hart, 1919-1922<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

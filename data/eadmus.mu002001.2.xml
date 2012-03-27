@@ -1,0 +1,3229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:25 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu002001
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu002001--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu002001--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu002001-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd259e5">
+   <eadheader id="mferd259e6" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US" encodinganalog="856$u"
+             identifier="hdl:loc.music/eadmus.mu002001">http://hdl.loc.gov/loc.music/eadmus.mu002001</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Glenn Dillard Gunn Collection</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:title="Seal of the Library of Congress"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2005" era="ce" calendar="gregorian">2005</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+                  <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2010563510"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2010563510</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding Aid encoded by Library of Congress Music Division, <date normal="2005" era="ce" calendar="gregorian">2005</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in<language langcode="eng" encodinganalog="041">English</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in March 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" type="register" relatedencoding="MARC21">
+      <did id="mferd2695e52">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Glenn Dillard Gunn Collection<unitdate label="Span Dates" type="inclusive" encodinganalog="245$f" normal="1874/1961"
+                      era="ce"
+                      calendar="gregorian">1874-1961</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1910/1961"
+                      era="ce"
+                      calendar="gregorian">(bulk 1910-1961)</unitdate>
+         </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.G8</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Gunn, Glenn Dillard, 1874-1963</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">circa 750 items</extent>
+            <extent encodinganalog="300">14 boxes</extent>
+            <extent encodinganalog="300">4.5 linear feet</extent>
+         </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Music Division</subarea> Library of Congress</corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Primarily correspondence from, among others, Ferruccio Busoni, Teresa Careño, Percy Grainger, and Moriz Rosenthal. Also photographs, many with autograph inscriptions including those of Claude Debussy, Victor Herbert, and John McCormack. Music is represented by manuscripts and autographed presentation scores (printed). The ramainder consists of miscellaneous personal papers, programs, and clippings.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd2695e100" altrender=":::F005=^20090604125506.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd261e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Busoni%2C+Ferruccio%2C+1866-1924+Correspondence.^">Busoni, Ferruccio, 1866-1924--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Busoni%2C+Ferruccio%2C+1866-1924.^">Busoni, Ferruccio, 1866-1924.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Carre%C3%B1o%2C+Teresa%2C+1853-1917+Correspondence.^">Carreño, Teresa, 1853-1917--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Carre%C3%B1o%2C+Teresa%2C+1853-1917.^">Carreño, Teresa, 1853-1917.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Debussy%2C+Claude%2C+1862-1918.^">Debussy, Claude, 1862-1918.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grainger%2C+Percy%2C+1882-1961+Correspondence.^">Grainger, Percy, 1882-1961--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grainger%2C+Percy%2C+1882-1961.^">Grainger, Percy, 1882-1961.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gunn%2C+Glenn+Dillard%2C+1874-1963.^">Gunn, Glenn Dillard, 1874-1963.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gunn%2C+Glenn+Dillard%2C+1874-1963.^">Gunn, Glenn Dillard, 1874-1963.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Herbert%2C+Victor%2C+1859-1924.^">Herbert, Victor, 1859-1924.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^McCormack%2C+John%2C+1884-1945.^">McCormack, John, 1884-1945.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenthal%2C+Moriz%2C+1862-1946+Correspondence.^">Rosenthal, Moriz, 1862-1946--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenthal%2C+Moriz%2C+1862-1946.^">Rosenthal, Moriz, 1862-1946.</persname>
+         </controlaccess>
+         <controlaccess id="mferd261e37">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Composers+Autographs.^">Composers--Autographs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musicians+Correspondence.^">Musicians--Correspondence.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musicians+Photographs.^">Musicians--Photographs.</subject>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd2695e145" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd2695e148" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Given to the Library by Gunn's daughters, Janet Gunn McLean and Nancy Stephens in 1971.</p>
+         </acqinfo>
+         <accruals id="mferd2695e153" encodinganalog="584">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd2695e158" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Glenn Dillard Gunn Collection was processed by Timothy Bullard in 1992 under the direction of Claudia Widgery and Robert Saladini. The finding aid was originally created with Word Perfect 5.1 software. In 2002, Michael A. Ferrando prepared and edited the finding aid in order to prepare it for the present EAD format.</p>
+         </processinfo>
+         <userestrict id="mferd2695e163" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the Glenn Dillard Gunn Collection is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd2695e168" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Glenn Dillard Gunn Collection is open to research. Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd2695e173" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, Glenn Dillard Gunn Collection, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd2695e178" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Glenn Dillard Gunn, 1874-1963, music critic and pianist; music critic of Chicago tribune, Chicago herald examiner, and Washington times-herald.</p>
+      </bioghist>
+      <scopecontent id="mferd2695e183" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Glenn Dillard Gunn Collection consists primarily of Correspondence, Photographs, and Music. The range of dates represented in the collection is 1874-1961.</p>
+         <p>Worthy of note in the collection are letters from correspondents such as Ferruccio Busoni, Teresa Carreño, Percy Grainger, and Moriz Rosenthal. There are also numerous photographs with autograph inscriptions to the Gunns, including those of Claude Debussy, Victor Herbert, and John McCormack. The sizable collection of printed music includes a number of autographed presentation scores, such as Eric Delamarter's Suite from The Black Orchid and Symphony no. 3, and Moriz Rosenthal's Zehn CharakterStücke. The manuscript music in Gunn's own hand consists of an arrangement of J. S. Bach's English Suite no. 3 for winds and a transcription of a Bach keyboard concerto for three pianos. A manuscript of several songs from the Gitanjali cycle by John Alden Carpenter, though in the hand of a copyist, does include Carpenter's own pencilled indications of orchestration.</p>
+         <p>The remainder of the collection consists of miscellaneous personal papers, programs and clippings.</p>
+         <p>Claudia Widgery, October 1992</p>
+      </scopecontent>
+      <arrangement id="mferd2695e194" encodinganalog="351$a">
+         <head>Organization of the Glenn Dillard Gunn Collection</head>
+         <p>The Glenn Dillard Gunn Collection is organized in 7 series:</p>
+         <list>
+            <item>Writings of Glenn Dillard Gunn</item>
+            <item>Correspondence</item>
+            <item>Personal Papers</item>
+            <item>Programs &amp; Announcements</item>
+            <item>Clippings</item>
+            <item>Photographs</item>
+            <item>Music</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2010563510"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2010563510</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd2695e214" type="combined">
+         <head>Container List</head>
+         <thead>
+            <row>
+               <entry>Box</entry>
+               <entry>Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd259e238" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a" id="CL1001">Writings of Glenn Dillard Gunn</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Articles for the All-American Youth Orchestra (1940), a Diary , a letter to Lucy Furman (1955), and an undated typescript article.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is by date.</p>
+            </arrangement>
+            <c02 id="mferd259e250" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_WRITINGS_OF_GLENN_DILLARD_GUNN_CL1001_D3_1">Articles for series on the Leopold Stokowski All-American Youth Orchestra tour of South America, July 31 - September 4, 1940, arranged chronologically (typescript drafts)<lb/>   
+                     <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          xlink:show="replace"
+                          target="CL1005">
+                        <emph render="italic">See also:</emph> CLIPPINGS</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e264" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_WRITINGS_OF_GLENN_DILLARD_GUNN_CL1001_D3_2">Diary / Account book, 1893-1897</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e270" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_WRITINGS_OF_GLENN_DILLARD_GUNN_CL1001_D3_3">Letter to Lucy Furman ("Cousin Pearl"), dated June 28, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e276" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_WRITINGS_OF_GLENN_DILLARD_GUNN_CL1001_D3_4">"The Spirit of Chopin: An Article" (typescript)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd259e282" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a" id="CL1002">Correspondence</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters to Glenn Dillard Gunn. The bulk date of these letters is from 1949-1955.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Alphabetically arranged by correspondent.</p>
+            </arrangement>
+            <c02 id="mferd259e294" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_1">
+                     <persname encodinganalog="100$a" role="crp" normal="Albert, Eugène d'">Albert, Eugène d'</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e303" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_2">
+                     <persname encodinganalog="100$a" role="crp" normal="Allen, Lyman Whitney">Allen, Lyman Whitney</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e312" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_3">
+                     <corpname encodinganalog="110$a">American University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e321" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_4">
+                     <persname encodinganalog="100$a" role="crp" normal="Armitage, Albert">Armitage, Albert</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e330" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_5">
+                     <persname encodinganalog="100$a" role="crp" normal="Beesley, Thomas Quinn">Beesley, Thomas Quinn</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e339" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_6">
+                     <persname encodinganalog="100$a" role="crp" normal="Borowski, Felix">Borowski, Felix</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e348" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_7">
+                     <persname encodinganalog="100$a" role="crp" normal="Bos, Coenraad V.">Bos, Coenraad V.</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e357" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_8">
+                     <persname encodinganalog="100$a" role="crp" normal="Busoni, Ferruccio">Busoni, Ferruccio</persname>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Also: Mrs. Busoni</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd259e370" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <persname>Cain, Mrs. James M.</persname>
+                     <lb/>   
+                     <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          xlink:show="replace"
+                          target="mu002001_CORRESPONDENCE_CL1002_D3_32">
+                        <emph render="italic">see:</emph> Macbeth, Florence</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e385" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_10">
+                     <persname encodinganalog="100$a" role="crp" normal="Carreño, Teresa">Carreño, Teresa</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e394" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_11">
+                     <persname encodinganalog="100$a" role="crp" normal="Chicago Symphony Orchestra">Chicago Symphony Orchestra</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e403" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_12">
+                     <corpname encodinganalog="110$a">Cliff Dwellers Club, Chicago</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e412" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_13">
+                     <persname encodinganalog="100$a" role="crp" normal="Coleman, Susan">Coleman, Susan</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e421" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_14">
+                     <persname encodinganalog="100$a" role="crp" normal="Damrosch, Walter">Damrosch, Walter</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e430" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_15">
+                     <persname encodinganalog="100$a" role="crp" normal="Garden, Mary">Garden, Mary</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e439" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_16">
+                     <persname encodinganalog="100$a" role="crp" normal="Garland, Hamlin">Garland, Hamlin</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e448" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_17">
+                     <persname encodinganalog="100$a" role="crp" normal="Göhler, Georg">Göhler, Georg</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e457" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_18">
+                     <persname encodinganalog="100$a" role="crp" normal="Gorudnitzki, Sascha">Gorudnitzki, Sascha</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e466" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_19">
+                     <persname encodinganalog="100$a" role="crp" normal="Grainger, Percy">Grainger, Percy</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e476" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_20">
+                     <persname encodinganalog="100$a" role="crp" normal="Gretchaninoff, Marie">Gretchaninoff, Marie</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e485" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_21">
+                     <persname encodinganalog="100$a" role="crp">Gunn family</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e494" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_22">
+                     <persname encodinganalog="100$a" role="crp" normal="Higgins, May">Higgins, May</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e503" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_23">
+                     <persname encodinganalog="100$a" role="crp" normal="Hinze-Reinhold, Bruno">Hinze-Reinhold, Bruno</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e512" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_24">
+                     <persname encodinganalog="100$a" role="crp" normal="Imaz, Betty">Imaz, Betty</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e521" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_25">
+                     <corpname encodinganalog="110$a">Jewish Theological Seminary of America</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e530" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_26">
+                     <persname encodinganalog="100$a" role="crp" normal="Johansen, Gunnar">Johansen, Gunnar</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e539" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_27">
+                     <persname encodinganalog="100$a" role="crp" normal="Kindler, Hans">Kindler, Hans</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e548" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_28">
+                     <persname encodinganalog="100$a" role="crp" normal="Klein, Arthur G.">Klein, Arthur G.</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e557" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_29">
+                     <persname encodinganalog="100$a" role="crp" normal="Kozeluch, Thaddeus">Kozeluch, Thaddeus</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e566" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_30">
+                     <persname encodinganalog="100$a" role="crp" normal="Leidzen, Erik">Leidzen, Erik</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e576" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_31">
+                     <persname encodinganalog="100$a" role="crp" normal="Luoma, R.">Luoma, R.</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e585" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_32">
+                     <persname encodinganalog="100$a" role="crp" normal="Macbeth, Florence">Macbeth, Florence</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e594" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_33">
+                     <persname encodinganalog="100$a" role="crp" normal="MacMillen, Francis">MacMillen, Francis</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e603" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_34">
+                     <persname encodinganalog="100$a" role="crp" normal="Marsh, Mary Drew">Marsh, Mary Drew</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e612" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_35">
+                     <persname encodinganalog="100$a" role="crp" normal="Mitropoulos, Dimitri">Mitropoulos, Dimitri</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e621" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_36">
+                     <persname encodinganalog="100$a" role="crp" normal="Moore, Helen">Moore, Helen</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e630" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_37">
+                     <persname encodinganalog="100$a" role="crp" normal="Musical Courier">Musical Courier</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e639" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_38">
+                     <persname encodinganalog="100$a" role="crp" normal="Nielsen, Alice">Nielsen, Alice</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e648" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_39">
+                     <persname encodinganalog="100$a" role="crp" normal="Nies-Berger, Edouard">Nies-Berger, Edouard</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e657" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_40">
+                     <persname encodinganalog="100$a" role="crp" normal="Novaes, Guiomar">Novaes, Guiomar</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e666" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_41">
+                     <persname encodinganalog="100$a" role="crp" normal="Parker, H. T.">Parker, H. T.</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e676" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_42">
+                     <persname encodinganalog="100$a" role="crp" normal="Patterson, Eleanor">Patterson, Eleanor</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e685" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_43">
+                     <corpname encodinganalog="110$a">Philadelphia Orchestra</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e694" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_44">
+                     <persname encodinganalog="100$a" role="crp" normal="Prokofieff, Serge">Prokofieff, Serge</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e703" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_45">
+                     <persname encodinganalog="100$a" role="crp" normal="Rosenthal, Moriz">Rosenthal, Moriz</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e712" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_46">
+                     <persname encodinganalog="100$a" role="crp" normal="Samaroff, Olga">Samaroff, Olga</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e721" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_47">
+                     <persname encodinganalog="100$a" role="crp" normal="Schein, Ann">Schein, Ann</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e730" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_48">
+                     <persname encodinganalog="100$a" role="crp" normal="Schiffeler, Curt C.">Schiffeler, Curt C.</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e739" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_49">
+                     <persname encodinganalog="100$a" role="crp" normal="Schulhof, Andrew">Schulhof, Andrew</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e748" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_50">
+                     <persname encodinganalog="100$a" role="crp" normal="Schumann-Heink, Ernestine">Schumann-Heink, Ernestine</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e757" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_51">
+                     <persname encodinganalog="100$a" role="crp" normal="Shepherd, Arthur">Shepherd, Arthur</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e766" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_52">
+                     <persname encodinganalog="100$a" role="crp" normal="Skinner, Ernest M.">Skinner, Ernest M.</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e776" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_53">
+                     <persname encodinganalog="100$a" role="crp" normal="Somach, Beverly">Somach, Beverly</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e785" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_54">
+                     <persname encodinganalog="100$a" role="crp" normal="Stokowski, Leopold">Stokowski, Leopold</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e794" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_55">
+                     <persname encodinganalog="100$a" role="crp" normal="Tagliapietra, A.">Tagliapietra, A.</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e803" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_56">
+                     <persname encodinganalog="100$a" role="crp" normal="Taylor, Deems">Taylor, Deems</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e812" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_57">
+                     <persname encodinganalog="100$a" role="crp" normal="Teichmüller, Robert">Teichmüller, Robert</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e821" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_58">
+                     <persname encodinganalog="100$a" role="crp" normal="Thalberg, Germaine">Thalberg, Germaine</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e830" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_59">
+                     <persname encodinganalog="100$a" role="crp" normal="Thalberg, Marcian">Thalberg, Marcian</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e839" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_60">
+                     <corpname encodinganalog="110$a">United States White House</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e848" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_61">
+                     <corpname encodinganalog="110$a">University of Rochester</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e857" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_62">
+                     <persname encodinganalog="100$a" role="crp" normal="Unschuld, Marie von">Unschuld, Marie von</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e866" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_63">
+                     <persname encodinganalog="100$a" role="crp" normal="Vose, Samuel N.">Vose, Samuel N.</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e876" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_64">
+                     <persname encodinganalog="100$a" role="crp" normal="Wright, Nellie Burt">Wright, Nellie Burt</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e885" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CORRESPONDENCE_CL1002_D3_65">Unidentified</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd259e891" level="series">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a" id="CL1003">Personal Papers</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Miscellaneous personal documents (including school report card, temperance pledges, church tribute, etc.).</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is alphabetical by general description of each item.</p>
+            </arrangement>
+            <c02 id="mferd259e903" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_PERSONAL_PAPERS_CL1003_D3_1">Miscellaneous personal documents (including school report card, temperance pledges, church tribute, etc.)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd259e909" level="series">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a" id="CL1004">Programs &amp; Announcements</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Various programs and announcements from 1874-1943.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is by genre and then by date.</p>
+            </arrangement>
+            <c02 id="mferd259e921" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_PROGRAMS_ANNOUNCEMENTS_CL1004_D3_1">Programs and announcements (1906-1943, undated)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e927" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_PROGRAMS_ANNOUNCEMENTS_CL1004_D3_2">Programmes for the Summer Season, 1874 [by] Theodore Thomas. [Bound volume given by Thomas to Milman Adams on March 12th, 1883; given by Adams to Glenn Dillard Gunn on May 12, 1910]</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd259e933" level="series">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a" id="CL1005">Clippings</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Reviews and articles written by Gunn dated from 1902-1940.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is by date.</p>
+            </arrangement>
+            <c02 id="mferd259e945" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CLIPPINGS_CL1005_D3_1">Reviews by Gunn and press notices on recitals and lectures, 1902-  (in bound scrapbook) </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e951" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CLIPPINGS_CL1005_D3_2">Reviews and articles by Gunn, 1905 (in 3-ring notebook)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e957" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CLIPPINGS_CL1005_D3_3">Reviews written by Gunn (unbound)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e963" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CLIPPINGS_CL1005_D3_4">Reviews of Gunn's performances written by others</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e969" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CLIPPINGS_CL1005_D3_5">Series of articles by Gunn on the Leopold Stokowski All-American Youth Orchestra tour of South America (1940)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd259e975" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="mu002001_CLIPPINGS_CL1005_D3_6">Miscellaneous</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd259e981" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a" id="CL1006">Photographs</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Photographs taken of Glenn Dillard and others. Many of these photographs have inscriptions to Gunn, his wife (Bernya Bracken Gunn) or his daughter (Janet Gunn).</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is alphabetically by name.</p>
+            </arrangement>
+            <c02 id="mferd259e993" level="subseries">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a" id="CL10061001">Photographs of Glenn Dillard Gunn</unittitle>
+               </did>
+               <c03 id="mferd259e999" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu002001_Photographs_of_Glenn_Dillard_Gunn_CL10061001_D3_1">Glenn Dillard Gunn</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1005" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu002001_Photographs_of_Glenn_Dillard_Gunn_CL10061001_D3_2">Glenn Dillard Gunn with others</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd259e1011" level="subseries">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a" id="CL10061002">Photographs of Others</unittitle>
+               </did>
+               <c03 id="mferd259e1017" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_1">Anderson, Marian</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1023" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_2">Bach, Johann Sebastian</unittitle>
+                     <note encodinganalog="500$a">
+                        <p>photo of portrait owned by William F. Scheide</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1032" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_3">Barer, Simon</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1038" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_4">Bauer, Harold</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1044" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_5">Bispham, David</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1050" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_6">Busoni, Ferruccio</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1056" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_7">Caruso, Enrico</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1062" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_8">Chaliapin, Feodor</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1068" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_9">Chopin, Frédéric</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1074" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_10">Debussy, Claude</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1081" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_11">Devries, Herman</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1087" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_12">Dupré, Marcel</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1093" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_13">Flagstad, Kirsten</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1099" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_14">Frantz, Dalies</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1105" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_15">Freund, Etelka</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1111" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_16">Friedheim, Arthur</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1117" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_17">Gadski, Johanna</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1123" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_18">Gallo, Fortune</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1129" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_19">Garden, Mary</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1135" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_20">Gieseking, Walter</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1141" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_21">Gradova, Gitta</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1148" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_22">Heifetz, Jascha</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1154" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_23">Herbert, Victor</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1160" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_24">Hofmann, Josef</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1166" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_25">Jepson, Helen</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1172" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_26">Kreisler, Fritz</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1178" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_27">Kurenko, Maria</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1184" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_28">Lhevinne, Josef</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1190" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_29">Liszt, Franz</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1196" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_30">Mason, Edith</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1202" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_31">McCormack, John</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1208" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_32">Menuhin, Yehudi</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1215" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_33">Middleschulte, Wilhelm</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1221" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_34">Milstein, Nathan</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1227" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_35">Mordkin, Michel</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1233" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_36">Neill, Amy</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1239" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_37">Nielson, Alice</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1245" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_38">Novaes, Guiomar</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1251" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_39">Petrillo, C.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1257" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_40">Piatigorsky, Gregor</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1263" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <persname>Pinto, Mrs. Octavio</persname>
+                        <lb/>   
+                        <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             xlink:show="replace"
+                             target="mu002001_Photographs_of_Others_CL10061002_D3_38">
+                           <emph render="italic">see:</emph> Novaes, Guiomar</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1278" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_42">Polacco, Giorgio</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1284" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <persname>Polacco, Mrs. Giorgio</persname>
+                        <lb/>   
+                        <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             xlink:show="replace"
+                             target="mu002001_Photographs_of_Others_CL10061002_D3_30">
+                           <emph render="italic">see:</emph> Mason, Edith</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1300" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_44">Rachmaninoff, Sergei</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1306" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_45">Rodzinski, Artur</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1312" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_46">Rosenthal, Moriz</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1318" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_47">Saint-Saëns, Camille</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1324" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_48">Samaroff-Stokowski, Olga</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1330" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_49">Schein, Ann</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1336" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_50">Schumann-Heink, Ernestine</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1342" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_51">Spalding, Albert</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1348" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_52">Stock, Frederick A.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1354" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_53">Szigeti, Joseph</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1360" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <persname>Tauscher, Mrs. Hans</persname>
+                        <lb/>   
+                        <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             xlink:show="replace"
+                             target="mu002001_Photographs_of_Others_CL10061002_D3_17">
+                           <emph render="italic">see:</emph> Gadski, Johanna</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1376" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_55">Teichmuller, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1382" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_56">Templeton, Alex (Alec)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1388" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_57">Thomas, John Charles</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1394" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_58">Toscanini, Arturo</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1400" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_59">Wettergren, Gertrud</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd259e1406" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Photographs_of_Others_CL10061002_D3_60">Zeisler, Fannie Bloomfield</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd259e1412" level="subseries">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a" id="CL10061003">Miscellaneous</unittitle>
+               </did>
+               <c03 id="mferd259e1418" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a" id="mu002001_Miscellaneous_CL10061003_D3_1">locations</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd259e1424" level="series">
+            <did>
+               <container type="box">4-14</container>
+               <unittitle encodinganalog="245$a" id="CL1007">Music</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Music series is represented by two subseries. The first subseries is Manuscript music collected by Glenn Dillard Gunn. The second subseries is Printed music collected by Glenn Dillard Gunn.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is genre, composer or arranger and title.</p>
+            </arrangement>
+            <c02 id="mferd259e1436" level="subseries">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a" id="CL10071001">
+                     <emph render="underline">Manuscript music</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd259e1445" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu002001_Manuscript_music_CL10071001_D3_1">
+                        <persname encodinganalog="100$a" role="cmp" normal="Bach, Johann Sebastian">Bach, Johann Sebastian</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd259e1452" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <container type="box">4</container>
+                        <unittitle encodinganalog="245$a" id="mu002001_Manuscript_music_CL10071001_D4_1">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">English suite in G minor</title>
+                        </unittitle>
+                        <note encodinganalog="500$a">
+                           <p>Arranged by Glenn Dillard Gunn for wind choir.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd259e1464" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <container type="box">4</container>
+                        <unittitle encodinganalog="245$a" id="mu002001_Manuscript_music_CL10071001_D4_2">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Konzert für Orchester, no. 3, BWV 1064.</title>
+                        </unittitle>
+                        <note encodinganalog="500$a">
+                           <p>Arranged by Glenn Dillard Gunn for three pianos.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e1476" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu002001_Manuscript_music_CL10071001_D3_2">
+                        <persname encodinganalog="100$a" role="cmp" normal="Carpenter, John Alden">Carpenter, John Alden</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd259e1483" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <container type="box">4</container>
+                        <unittitle encodinganalog="245$a" id="mu002001_Manuscript_music_CL10071001_D4_3">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Gitanjali, no. 57, 60-62, 80, 90</title>
+                        </unittitle>
+                        <note encodinganalog="500$a">
+                           <p>Note: in copyist's hand, with Carpenter's pencilled indications of orchestration</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e1495" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu002001_Manuscript_music_CL10071001_D3_3">
+                        <persname encodinganalog="100$a" role="cmp" normal="Gunn, Glenn Dillard">Gunn, Glenn Dillard</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd259e1502" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <container type="box">4</container>
+                        <unittitle encodinganalog="245$a" id="mu002001_Manuscript_music_CL10071001_D4_4">[Miscellaneous fragments]</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd259e1508" level="subseries">
+               <did>
+                  <container type="box">4-14</container>
+                  <unittitle encodinganalog="245$a" id="CL10071002">
+                     <emph render="underline">Printed music</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd259e1517" level="subseries">
+                  <did>
+                     <container type="box">4-6</container>
+                     <unittitle encodinganalog="245$a" id="CL100710021001">Piano, 2 hands</unittitle>
+                  </did>
+                  <c04 id="mferd259e1523" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_1">
+                           <persname encodinganalog="100$a" role="cmp" normal="Bach, Carl Philipp Emanuel">Bach, Carl Philipp Emanuel</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1530" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">4</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_1">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Solfeggietto</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1539" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_2">
+                           <persname encodinganalog="100$a" role="cmp" normal="Beethoven, Ludwig van">Beethoven, Ludwig van</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1546" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">4</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_2">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Andante in F major</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Immanuel von Faisst, rev. by Sigmund Lebert.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1558" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">4</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_3">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Eccossaisen</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Ferruccio B. Busoni.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1570" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">4</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_4">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sonata, op. 14, no. 2</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Immanuel von Faisst, rev. by Sigmund Lebert.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1582" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">4</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_5">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sonate</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Alfredo Casella.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1594" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_6">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sonate</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Louis Köhler.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1606" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_3">
+                           <persname encodinganalog="100$a" role="cmp" normal="Brahms, Johannes">Brahms, Johannes</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1613" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_7">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Zwei Rhapsodien.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1622" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_4">
+                           <persname encodinganalog="100$a" role="cmp" normal="Busoni, Ferruccio">Busoni, Ferruccio</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1629" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_8">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Elegien</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>[incomplete]</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1641" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_5">
+                           <persname encodinganalog="100$a" role="cmp" normal="Carpenter, John Alden">Carpenter, John Alden</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1648" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_9">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Polonaise américaine</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1657" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_6">
+                           <persname encodinganalog="100$a" role="cmp" normal="Carreño, Teresa">Carreño, Teresa</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1664" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_10">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Kleiner Walzer</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1673" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_7">
+                           <persname encodinganalog="100$a" role="cmp" normal="Chopin, Frédéric">Chopin, Frédéric</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1680" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_11">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Etuden</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Herrmann Scholtz.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1692" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_8">
+                           <persname encodinganalog="100$a" role="cmp" normal="Clementi, Muzio">Clementi, Muzio</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1699" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_12">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Gradus ad Parnassum</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Carl Tausig.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1711" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_9">
+                           <persname encodinganalog="100$a" role="cmp" normal="Crawford, Caroline H.">Crawford, Caroline H.</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1718" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_13">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sur la glace à Sweet Briar</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1727" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_10">
+                           <persname encodinganalog="100$a" role="cmp" normal="Debussy, Claude">Debussy, Claude</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1734" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_14">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Estampes</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1744" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_11">
+                           <persname encodinganalog="100$a" role="cmp" normal="Fernândez, Lorenzo">Fernândez, Lorenzo</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1751" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_15">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Moda</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1760" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_12">
+                           <persname encodinganalog="100$a" role="cmp" normal="Godard, Benjamin">Godard, Benjamin</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1767" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_16">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Au matin</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1776" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_13">
+                           <persname encodinganalog="100$a" role="cmp" normal="Godowsky, Leopold">Godowsky, Leopold</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1783" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">5</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_17">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Suite for the left hand alone</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1792" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_14">
+                           <persname encodinganalog="100$a" role="cmp" normal="Goodell, Walter">Goodell, Walter</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1799" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_18">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Six original piano solos in classic style</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1808" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_15">
+                           <persname encodinganalog="100$a" role="cmp" normal="Granados, E.">Granados, E.</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1815" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_19">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Goyescas</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1824" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_16">
+                           <persname encodinganalog="100$a" role="cmp" normal="Green, Ray">Green, Ray</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1831" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_20">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Festival fugues, an American toccata</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: blueprint copy of holograph</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1843" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_17">
+                           <persname encodinganalog="100$a" role="cmp" normal="Grieg, Edvard">Grieg, Edvard</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1850" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_21">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Lyrische Stücke, Heft II.  Morceaux lyricques, op. 38.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1859" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_18">
+                           <persname encodinganalog="100$a" role="cmp" normal="Liszt, Franz">Liszt, Franz</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1866" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_22">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Années de Pèlerinage : 1ère année : Suisse : V. Orages.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1875" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_23">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Apparition no. 2</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1884" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_24">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Etüden</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by the Franz Liszt Stiftung [autographed by Ferruccio Busoni].</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1896" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_25">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Gnomenreigen</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1905" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_26">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Rhapsodies hongroises</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1914" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_27">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Grandes études de Paganini</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Transcribed for piano.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e1926" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_28">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Soirées de Vienne, no. 6</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>A piece by Franz Liszt in which he adapted 2 or more Schubert's dances.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1938" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_19">
+                           <persname encodinganalog="100$a" role="cmp" normal="MacDowell, Edward A.">MacDowell, Edward A.</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1945" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_29">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">4th Sonata (Keltic)</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1954" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_20">
+                           <persname encodinganalog="100$a" role="cmp" normal="Mason, Rose d'Amore">Mason, Rose d'Amore</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1961" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_30">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Five short pieces for children</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: autographed.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1973" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_21">
+                           <persname encodinganalog="100$a" role="cmp" normal="Phillips, Honor">Phillips, Honor</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e1980" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">4</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_31">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Kingly Classics</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Maisie Aldridge</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e1993" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_22">
+                           <persname encodinganalog="100$a" role="cmp" normal="Pinto, Octavio">Pinto, Octavio</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2000" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_32">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Marcha do Pequeno Polegar</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: autographed.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2012" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_23">
+                           <persname encodinganalog="100$a" role="cmp" normal="Rachmaninoff, Serge">Rachmaninoff, Serge</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2019" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_33">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Neuf études-tableaux, op. 39, no. 3, 5.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2028" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_34">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Prélude, op. 23, no. 9.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2037" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_35">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Prélude, op. 32, no. 10.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2046" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_24">
+                           <persname encodinganalog="100$a" role="cmp" normal="Rameau, Jean Phillippe">Rameau, Jean Phillippe</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2053" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_36">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Rigaudon</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Leopold Godowsky.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2065" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_37">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sarabande</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Leopold Godowsky.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2077" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_25">
+                           <persname encodinganalog="100$a" role="cmp" normal="Ravel, Maurice">Ravel, Maurice</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2084" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_38">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Gaspard de la nuit</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2093" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_39">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Pièce en forme de habanera.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2102" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_26">
+                           <persname encodinganalog="100$a" role="cmp" normal="Rosenthal, Moriz">Rosenthal, Moriz</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2109" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_40">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Zehn Charakterstücke</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: autographed.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2121" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_27">
+                           <persname encodinganalog="100$a" role="cmp" normal="Rubinstein, Anton">Rubinstein, Anton</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2128" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_41">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Barcarolle</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2137" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_28">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schubert, Franz">Schubert, Franz</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2144" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_42">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Militär Marsch</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Carl Tausig.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2156" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_29">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schumann, Robert">Schumann, Robert</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2163" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_43">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Liebeslied</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Transcribed by Franz Liszt.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2175" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_44">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Siciliana, op. 68, no. 11</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2184" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D3_30">
+                           <persname encodinganalog="100$a" role="cmp" normal="Stevens, Everett">Stevens, Everett</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2191" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">6</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_2_hands_CL100710021001_D4_45">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Winter starlight</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: autographed.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e2203" level="subseries">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a" id="CL100710021002">Piano, 4 hands</unittitle>
+                  </did>
+                  <c04 id="mferd259e2209" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D3_1">
+                           <persname encodinganalog="100$a" role="cmp" normal="Albéniz, Isaac">Albéniz, Isaac</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2216" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_1">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Catalonia</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2225" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D3_2">
+                           <persname encodinganalog="100$a" role="cmp" normal="Debussy, Claude">Debussy, Claude</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2232" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_2">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Gigues.  Images pour orchestre, no. 1</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2241" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_3">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">La mer</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2250" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D3_3">
+                           <persname encodinganalog="100$a" role="cmp" normal="Ibert, Jacques">Ibert, Jacques</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2257" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_4">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Escales</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2266" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D3_4">
+                           <persname encodinganalog="100$a" role="cmp" normal="MacDowell, Edward A.">MacDowell, Edward A.</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2273" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_5">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Suite für grosses Orchester, op. 42</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2282" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D3_5">
+                           <persname encodinganalog="100$a" role="cmp" normal="Ravel, Maurice">Ravel, Maurice</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2289" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_6">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Rapsodie espagnole</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2298" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D3_6">
+                           <persname encodinganalog="100$a" role="cmp" normal="Saint-Saëns, Camille">Saint-Saëns, Camille</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2305" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_7">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Le carnaval des animaux</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2314" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D3_7">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schmitt, Florent">Schmitt, Florent</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2321" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_8">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Une semaine du petit elfe ferme-l'oeil</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2330" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D3_8">
+                           <persname encodinganalog="100$a" role="cmp" normal="Weber, Carl Maria von">Weber, Carl Maria von</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2337" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">7</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Piano_4_hands_CL100710021002_D4_9">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sämtliche Ouvertüren</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: incomplete.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e2349" level="subseries">
+                  <did>
+                     <container type="box">8-9</container>
+                     <unittitle encodinganalog="245$a" id="CL100710021003">Two pianos</unittitle>
+                  </did>
+                  <c04 id="mferd259e2355" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_1">
+                           <persname encodinganalog="100$a" role="cmp" normal="Bach, Carl Philipp Emanuel">Bach, Carl Philipp Emanuel</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2362" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_1">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Rondo</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Johannes Doebber.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2374" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_2">
+                           <persname encodinganalog="100$a" role="cmp" normal="Bach, Johann Sebastian">Bach, Johann Sebastian</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2381" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_2">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">D-moll Konzert</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Adolf Ruthardt.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2393" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_3">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Konzert für 3 Klaviere in C dur.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2402" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_3">
+                           <persname encodinganalog="100$a" role="cmp" normal="Bacon, Ernst">Bacon, Ernst</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2409" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_4">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The burr frolic</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2418" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_4">
+                           <persname encodinganalog="100$a" role="cmp" normal="Beethoven, Ludwig van">Beethoven, Ludwig van</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2425" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_5">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Concertos, piano, no. 2, op. 19, B-flat major; arr.]</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Franz Kullak.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2437" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_6">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Concertos, piano, no. 3, op. 37, C minor; arr.]</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Ch. v. Alkan.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2449" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_5">
+                           <persname encodinganalog="100$a" role="cmp" normal="Chaminade, C.">Chaminade, C.</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2456" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_7">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Deux pièces pour orchestre, op. 79.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2465" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_6">
+                           <persname encodinganalog="100$a" role="cmp" normal="Chopin, Frédéric">Chopin, Frédéric</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2472" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_8">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concert für Pianoforte, op. 21</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Ed. Mertke.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2484" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_9">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sonaten, Rondos und Variationen</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Ed. Mertke.</p>
+                           </note>
+                           <note encodinganalog="500$a">
+                              <p>[bound with] Concert für Pianoforte, op. 11.  Arranged by Ed. Mertke.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2499" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_7">
+                           <persname encodinganalog="100$a" role="cmp" normal="Debussy, Claude">Debussy, Claude</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2506" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_10">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Nocturnes</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Maurice Ravel.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2518" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_8">
+                           <persname encodinganalog="100$a" role="cmp" normal="Frank, César">Frank, César</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2525" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_11">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Les Eolides</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2534" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">8</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_12">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Pièce héroique.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2543" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_13">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Variations symphoniques</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: incomplete.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2555" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_9">
+                           <persname encodinganalog="100$a" role="cmp" normal="Liszt, Franz">Liszt, Franz</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2562" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_14">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ungarische fantasie</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Moriz Rosenthal.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2574" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_10">
+                           <persname encodinganalog="100$a" role="cmp" normal="MacDowell, Edward A.">MacDowell, Edward A.</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2581" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_15">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Erstes Konzert, op. 15</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2591" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_11">
+                           <persname encodinganalog="100$a" role="cmp" normal="Mendelssohn, Félix">Mendelssohn, Félix</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2598" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_16">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Capriccio brillant, op. 22</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2607" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_17">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Rondo brillant, op. 29</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2616" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_12">
+                           <persname encodinganalog="100$a" role="cmp" normal="Mozart, Wolfgang Amadeus">Mozart, Wolfgang Amadeus</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2623" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_18">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Claviersonaten</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Edvard Grieg.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2635" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_19">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Konzert in B dur</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged by Bruno Hinze-Reinhold.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2647" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_13">
+                           <persname encodinganalog="100$a" role="cmp" normal="Paderewski, Ignace Jan">Paderewski, Ignace Jan</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2654" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_20">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto, op. 17</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2663" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_14">
+                           <persname encodinganalog="100$a" role="cmp" normal="Prokofieff, Serge">Prokofieff, Serge</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2670" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_21">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Troisième concerto, op. 26</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2679" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_15">
+                           <persname encodinganalog="100$a" role="cmp" normal="Saint-Saëns, Camille">Saint-Saëns, Camille</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2686" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_22">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Deuxième concert, op. 22</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2695" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_23">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Variations sur un thème de Beethoven, op. 35</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2704" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_16">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schubert, Franz">Schubert, Franz</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2711" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_24">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphonie, B minor</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2720" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_17">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schumann, Robert">Schumann, Robert</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2727" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_25">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto, op. 54</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2736" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D3_18">
+                           <persname encodinganalog="100$a" role="cmp" normal="Weber, Carl Maria von">Weber, Carl Maria von</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2743" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">9</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Two_pianos_CL100710021003_D4_26">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concertstücke, op. 79</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e2752" level="subseries">
+                  <did>
+                     <container type="box">10-11</container>
+                     <unittitle encodinganalog="245$a" id="CL100710021004">Orchestra - Full score</unittitle>
+                  </did>
+                  <c04 id="mferd259e2758" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D3_1">
+                           <persname encodinganalog="100$a" role="cmp" normal="Bach, Johann Sebastian">Bach, Johann Sebastian</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2765" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">10</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_1">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto a due cembali, C minor</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2774" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D3_2">
+                           <persname encodinganalog="100$a" role="cmp" normal="Beethoven, Ludwig van">Beethoven, Ludwig van</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2781" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">10</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_2">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Concerto, piano, no. 3, op. 37, C minor]</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2790" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">10</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_3">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Concerto, piano, no. 5, op. 73, E-flat major]</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2799" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">10</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_4">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphony, no. 1, op. 21</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: string parts only.</p>
+                           </note>
+                           <note encodinganalog="500$a">
+                              <p>Note: formerly owned by Theodore Thomas.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2814" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">10</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_5">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphony, no. 2, op. 36</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: full score, v. 1, vc., bs. parts</p>
+                           </note>
+                           <note encodinganalog="500$a">
+                              <p>Note: formerly owned by Theodore Thomas.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2829" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D3_3">
+                           <persname encodinganalog="100$a" role="cmp" normal="Brahms, Johannes">Brahms, Johannes</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2836" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">10</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_6">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphony no. 2, op. 73</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2845" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D3_4">
+                           <persname encodinganalog="100$a" role="cmp" normal="Delamarter, Eric">Delamarter, Eric</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2852" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">11</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_7">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Suite from The black orchid</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: autographed.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2864" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">11</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_8">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphony, no. 3, E minor</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: autographed.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2876" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D3_5">
+                           <persname encodinganalog="100$a" role="cmp" normal="Dvořák, Antonin">Dvořák, Antonin</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2883" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">11</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_9">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphony, no. 5, E minor, op. 95</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2892" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D3_6">
+                           <persname encodinganalog="100$a" role="cmp" normal="Liszt, Franz">Liszt, Franz</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2899" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">11</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_10">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Concerto, piano, no. 1]</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e2908" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">11</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_11">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Zweite ungarische Rhapsodie</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Karl Müller-Berghaus.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2920" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D3_7">
+                           <persname encodinganalog="100$a" role="cmp" normal="Mozart, Wolfgang Amadeus">Mozart, Wolfgang Amadeus</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2927" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">11</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_12">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Concerto, piano, no. 10, E-flat major, K. 365]</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2936" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D3_8">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schumann, Robert">Schumann, Robert</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2943" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">11</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Orchestra_Full_score_CL100710021004_D4_13">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphony, no. 1, B-flat major, op. 38</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e2952" level="subseries">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a" id="CL100710021005">Chamber music</unittitle>
+                  </did>
+                  <c04 id="mferd259e2958" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D3_1">
+                           <persname encodinganalog="100$a" role="cmp" normal="Brahms, Johannes">Brahms, Johannes</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2965" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_1">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Quintet, op. 34</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2974" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D3_2">
+                           <persname encodinganalog="100$a" role="cmp" normal="Grieg, Edvard">Grieg, Edvard</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2981" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_2">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Sonatas, violin &amp; piano, op. 13, op. 14]</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e2990" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D3_3">
+                           <persname encodinganalog="100$a" role="cmp" normal="Haydn, Joseph">Haydn, Joseph</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e2997" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_3">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Quartet, no. 70, op. 76, no. 3</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Reinhold Jockisch.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e3009" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_4">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Trios, violin &amp; piano, no. 13-22]</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3018" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D3_4">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schubert, Franz">Schubert, Franz</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3025" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_5">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Quintet, C major, op. 163</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Ferd. David.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3037" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D3_5">
+                           <persname encodinganalog="100$a" role="cmp" normal="Schumann, Robert">Schumann, Robert</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3044" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_6">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Klavierquartet, E-flat major, op. 47</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Edited by Alfred Dörffel.</p>
+                           </note>
+                        </did>
+                     </c05>
+                     <c05 id="mferd259e3056" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_7">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Quintet, E-flat major, op. 44</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3065" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D3_6">
+                           <persname encodinganalog="100$a" role="cmp" normal="Sinding, Christian">Sinding, Christian</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3072" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_8">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Sonata, violin &amp; piano, op. 27]</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3081" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D3_7">
+                           <persname encodinganalog="100$a" role="cmp" normal="Smetana, Friedrich">Smetana, Friedrich</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3088" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">12</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Chamber_music_CL100710021005_D4_9">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Trio, violin, violincello, &amp; piano, op. 15]</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged. by Richard Kleinmichel for piano, 4 hands.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e3100" level="subseries">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a" id="CL100710021006">Operas and opera excerpts (Piano-vocal scores)</unittitle>
+                  </did>
+                  <c04 id="mferd259e3106" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Operas_and_opera_excerpts_CL100710021006_D3_1">
+                           <persname encodinganalog="100$a" role="cmp" normal="Massenet, Jules">Massenet, Jules</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3113" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">13</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Operas_and_opera_excerpts_CL100710021006_D4_1">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Cendrillon</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3122" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Operas_and_opera_excerpts_CL100710021006_D3_2">
+                           <persname encodinganalog="100$a" role="cmp" normal="Meyerbeer, Giacomo">Meyerbeer, Giacomo</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3129" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">13</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Operas_and_opera_excerpts_CL100710021006_D4_2">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">L'Africana. O paradiso dall'onde uscito</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3138" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Operas_and_opera_excerpts_CL100710021006_D3_3">
+                           <persname encodinganalog="100$a" role="cmp" normal="Mozart, Wolfgang Amadeus">Mozart, Wolfgang Amadeus</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3145" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">13</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Operas_and_opera_excerpts_CL100710021006_D4_3">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Don Giovanni</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3154" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Operas_and_opera_excerpts_CL100710021006_D3_4">
+                           <persname encodinganalog="100$a" role="cmp" normal="Parelli, Attilio">Parelli, Attilio</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3161" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">13</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Operas_and_opera_excerpts_CL100710021006_D4_4">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">I dispettosi amanti</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: I dispettosi amanti =  A lovers' quarrel</p>
+                           </note>
+                           <note encodinganalog="500$a">
+                              <p>Note: autographed.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3176" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Operas_and_opera_excerpts_CL100710021006_D3_5">
+                           <persname encodinganalog="100$a" role="cmp" normal="Puccini, Giacomo">Puccini, Giacomo</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3183" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">13</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Operas_and_opera_excerpts_CL100710021006_D4_5">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Madama Butterfly. Un bel di</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3192" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Operas_and_opera_excerpts_CL100710021006_D3_6">
+                           <persname encodinganalog="100$a" role="cmp" normal="Veracini, Francesco Maria">Veracini, Francesco Maria</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3199" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">13</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Operas_and_opera_excerpts_CL100710021006_D4_6">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Rosalinda. A pastoral</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3208" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Operas_and_opera_excerpts_CL100710021006_D3_7">
+                           <persname encodinganalog="100$a" role="cmp" normal="Wagner, Richard">Wagner, Richard</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3215" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">13</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Operas_and_opera_excerpts_CL100710021006_D4_7">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Das Rheingold</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e3224" level="subseries">
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle encodinganalog="245$a" id="CL100710021007">Other vocal music</unittitle>
+                  </did>
+                  <c04 id="mferd259e3230" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_1">
+                           <persname encodinganalog="100$a" role="cmp" normal="Besly, Maurice">Besly, Maurice</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3237" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_1">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Music, when soft voices die</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3246" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_2">
+                           <persname encodinganalog="100$a" role="cmp" normal="Charpentier, Gustave">Charpentier, Gustave</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3253" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_2">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Louise, a musical romance</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3262" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_3">
+                           <persname encodinganalog="100$a" role="cmp" normal="Debussy, Claude">Debussy, Claude</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3269" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_3">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Il pleure dans ma coeur</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: Il pleure dans ma coeur = It rains in my heart.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3281" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_4">
+                           <persname encodinganalog="100$a" role="cmp" normal="Fontenailles, H. de">Fontenailles, H. de</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3288" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_4">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Steadfast love (Obstination).</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3297" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_5">
+                           <persname encodinganalog="100$a" role="cmp" normal="Foster, Stephen">Foster, Stephen</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3304" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_5">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Stephen Foster melodies</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Arranged and inscribed by Martín Luis Guzmán.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3316" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_6">
+                           <persname encodinganalog="100$a" role="cmp" normal="Fourdrain, Felix">Fourdrain, Felix</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3323" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_6">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">L'Oasis</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3332" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_7">
+                           <persname encodinganalog="100$a" role="cmp" normal="Freer, Eleanor Everest">Freer, Eleanor Everest</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3339" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_7">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Rondel, op. 41, no. 10</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3348" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <persname encodinganalog="100$a" role="arr" normal="Pišek, Vincent">Pišek, Vincent</persname> (compiler)</unittitle>
+                     </did>
+                     <c05 id="mferd259e3355" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_8">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Twenty Bohemian folk-songs</title>
+                           </unittitle>
+                           <note encodinganalog="500$a">
+                              <p>Note: autographed by J. E. S. Vojan.</p>
+                           </note>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3367" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_9">
+                           <persname encodinganalog="100$a" role="cmp" normal="Rimsy-Korsakoff, Nicolai">Rimsy-Korsakoff, Nicolai</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3374" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_9">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Chants nationaux russes</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3383" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D3_10">
+                           <persname encodinganalog="100$a" role="cmp" normal="Saint-Saëns, Camille">Saint-Saëns, Camille</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3390" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a" id="mu002001_Other_vocal_music_CL100710021007_D4_10">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Guitares et mandolines</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 id="mferd259e3399" level="subseries">
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle encodinganalog="245$a" id="CL100710021008">Instructional materials</unittitle>
+                  </did>
+                  <c04 id="mferd259e3405" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Instructional_materials_CL100710021008_D3_1">
+                           <persname encodinganalog="100$a" role="cmp" normal="Cherubini, Luigi">Cherubini, Luigi</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3412" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Instructional_materials_CL100710021008_D4_1">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Theorie des Contrapunktes und der Fuge</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3421" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Instructional_materials_CL100710021008_D3_2">
+                           <persname encodinganalog="100$a" role="cmp" normal="Zwintscher, Bruno">Zwintscher, Bruno</persname>
+                        </unittitle>
+                     </did>
+                     <c05 id="mferd259e3428" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Instructional_materials_CL100710021008_D4_2">
+                              <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Musikalische Verzierungen.  Practische Übungen und theoretische Erläuterungen.</title>
+                           </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 id="mferd259e3437" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <did>
+                        <unittitle encodinganalog="245$a"
+                                   id="mu002001_Instructional_materials_CL100710021008_D3_3">[Unidentified]</unittitle>
+                     </did>
+                     <c05 id="mferd259e3441" level="file" altrender="xsl.fo_pdfspacer_mu">
+                        <did>
+                           <container type="box">14</container>
+                           <unittitle encodinganalog="245$a"
+                                      id="mu002001_Instructional_materials_CL100710021008_D4_3">[fragments]</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

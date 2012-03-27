@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:24 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu010018
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010018--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010018--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010018-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd217e3">
+   <eadheader id="mferd217e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu010018"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu010018</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>George Antheil Correspondence with Mary Louise Curtis Bok
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2010561030"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2010561030</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd3127e43">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">George Antheil Correspondence with Mary Louise Curtis Bok
+		  <unitdate label="Span Dates" type="inclusive" normal="1921/1940" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1921-1940</unitdate> 
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.A59</unitid>
+         <origination label="Creator"> 
+			         <persname encodinganalog="100" source="lcnaf">Antheil, George, 1900-1959</persname>
+         </origination>
+         <origination label="Creator"> 
+	 		        <persname encodinganalog="100" source="lcnaf">Zimbalist, Mary Louise Curtis Bok, 1876-1970</persname>
+         </origination>
+         <physdesc label="Extent">
+			         <extent encodinganalog="300">approximately 500 items</extent>
+		  	       <extent encodinganalog="300">3 containers</extent>
+		  	       <extent encodinganalog="300">2.0 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Material principally in
+		<language encodinganalog="041" langcode="eng">English</language> 
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">George Antheil was a composer, pianist, author, and inventor. He first gained fame and notoriety in the 1920s for his mechanistic compositions. This collection principally consists of letters between George Antheil and his longtime patron, Mary Louise Curtis Bok. Other items include several writings by Antheil, photographs of his staged works, promotional materials, and clippings.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd3127e89" altrender=":::F005=^20100720020446.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd219e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Antheil%2C+George%2C+1900-1959+Correspondence.^">Antheil, George, 1900-1959--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Antheil%2C+George%2C+1900-1959+Criticism+and+interpretation.^">Antheil, George, 1900-1959--Criticism and interpretation.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Antheil%2C+George%2C+1900-1959.^">Antheil, George, 1900-1959.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Antheil%2C+George%2C+1900-1959.^">Antheil, George, 1900-1959.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Antheil%2C+George%2C+1900-1959.^">Antheil, George, 1900-1959. Antheilized notation.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Friede%2C+Donald+Correspondence.^">Friede, Donald--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Pound%2C+Ezra%2C+1885-1972+Correspondence.^">Pound, Ezra, 1885-1972--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sternberg%2C+Constantin+von%2C+1852-1924+Correspondence.^">Sternberg, Constantin von, 1852-1924--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Stravinsky%2C+Igor%2C+1882-1971+Correspondence.^">Stravinsky, Igor, 1882-1971--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Zimbalist%2C+Mary+Louise+Curtis+Bok%2C+1876-1970+Correspondence.^">Zimbalist, Mary Louise Curtis Bok, 1876-1970--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Zimbalist%2C+Mary+Louise+Curtis+Bok%2C+1876-1970.^">Zimbalist, Mary Louise Curtis Bok, 1876-1970.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Zimbalist%2C+Mary+Louise+Curtis+Bok%2C+1876-1970.^">Zimbalist, Mary Louise Curtis Bok, 1876-1970. George Antheil correspondence with Mary Louise Curtis Bok. 1921-1940.</persname>
+         </controlaccess>
+         <controlaccess id="mferd219e35">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Composers+United+States+Correspondence.^">Composers--United States--Correspondence.</subject>
+         </controlaccess>
+         <controlaccess id="mferd219e40">
+            <head>Titles</head>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                   encodinganalog="246"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^George+Antheil+collection%2C+1921-1940^">George Antheil collection, 1921-1940</title>
+         </controlaccess>
+         <controlaccess id="mferd219e45">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd3127e144" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd3127e147" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift, Mrs. Cary William Bok, 1975.</p>
+         </acqinfo>
+         <accruals id="mferd3127e152">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd3127e157" encodinganalog="583">
+            <head>Processing History</head>
+            <p>George Antheil’s correspondence with Mary Louise Curtis Bok and Stanley Hart was processed in 1992 by Claudia Widgery as a single collection, called the George Antheil Collection, which also included the composer’s music manuscripts received by the Library of Congress between 1964 and 1975. These original and photo-reproduced manuscripts, donated principally by Böske Antheil, were cataloged in ML 96.A723 and ML 96.5.A62, respectively. In 1968, Mrs. Stanley Hart donated approximately 140 letters between her husband and Antheil. These were followed by Mrs. Cary William Bok’s 1975 gift of approximately 500 letters and other items related to Antheil’s relationship with her patron mother-in-law. A finding aid for the George Antheil Collection was publicly available until 2009.</p>
+            <p>The Music Division has since reprocessed these materials to more accurately reflect their original provenances. The George Antheil Collection no longer exists. The cataloged manuscripts have been returned to the general collections under their original ML call numbers. A handful of cataloged letters previously associated with the Bok correspondence, but unrelated, can be found in ML 95.A726. The remaining batches of Bok and Hart correspondence have been processed as two distinct collections, this one, the George Antheil Correspondence with Mary Louise Curtis Bok and the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu010019">George Antheil Correspondence to Stanley Hart</archref>.</p>
+            <p>In 2006 to 2007, the Music Division purchased additional Antheil materials, which have been processed as the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu003010">George and Böske Antheil Papers</archref>. References to the ML 96.A723 scores received between 1964 and 1975 are present in the George and Böske Antheil Papers finding aid in order to convey their shared provenance and to provide researchers with a more comprehensive list of Antheil music manuscripts available at the Library of Congress.</p>
+            <p>This finding aid was revised by Meghan Sommers and coded for EAD by Christopher Hartten in 2010. </p>
+         </processinfo>
+         <separatedmaterial id="mferd3127e174" encodinganalog="544 0">
+            <head>Other Repositories</head>
+            <p> Additional materials can be found in the UCLA Performing Arts Special Collections and the New York Public Library.</p>
+         </separatedmaterial>
+         <relatedmaterial id="mferd3127e179" encodinganalog="544 1">
+            <head>Related Material</head>
+            <p>The Music Division holds numerous special collections that contain Antheil correspondence, including the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu003010">George and Böske Antheil Papers</archref>; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu010019">George Antheil Correspondence to Stanley Hart</archref>; Elizabeth Sprague Coolidge Collection; Irving Schwerké Collection;  <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002011">Nicolas Slonimsky Collection</archref>; Percy Aldridge Grainger Collection; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002008">Serge Koussevitzky Archive</archref>; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu998001">Leonard Bernstein Collection</archref>; <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002006">Aaron Copland Collection</archref>; Modern Music Archives, and others. A small quantity of cataloged letters are available in ML 95.A726.</p>
+         </relatedmaterial>
+         <userestrict id="mferd3127e203" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The George Antheil Correspondence with Mary Louise Curtis Bok is governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict id="mferd3127e208" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The George Antheil Correspondence with Mary Louise Curtis Bok is open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd3127e215" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+			following information: [item, date, container number], George Antheil Correspondence with Mary Louise Curtis Bok, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd3127e220" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Mary Louise Curtis Bok, founder of the Curtis Institute of Music, served as patron to George Antheil throughout much of his career. Antheil first made the acquaintance of Bok in 1921 through former theory and composition teacher Constantin von Sternberg. Despite her generous financial support, Bok was not, as she wrote in a letter to Antheil dated April 13, 1931, "in sympathy with the so-called modern trend," and generally disapproved of Antheil's music. Antheil dedicated a number of his musical works to Bok, including <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Night Piece</title>, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Six Little Pieces for String Quartet</title>, and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphonie in Fa</title>.</p>
+      </bioghist>
+      <scopecontent id="mferd3127e234" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The George Antheil Correspondence with Mary Louise Curtis Bok spans the period 1921-1940. The primary series consists chiefly of letters and telegrams between the composer and his patron. Correspondence between Bok and others regarding Antheil, namely Ezra Pound, Donald S. Friede, and Constantin von Sternberg, is arranged alphabetically by correspondent. Clippings and other enclosures are scattered among these materials. Additional items of note include a letter from Pound to Antheil and a telegram from Igor Stravinsky to the composer.</p>
+         <p>"Writings" contains two substantive, titled works by Antheil. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Antheilcized Notation, or, Music for everybody who can tell one from two and two from three</title> provides an explanation of the composer's intriguing "See-Note" method of piano pedagogy. This subject is described at great length in the George and Böske Antheil Papers, as well. The second work, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Many Thoughts to M.L.B. and a Key to My Music (To Be Remembered While Listening to It)</title>, is a reproduction of a lengthy piece enclosed in Antheil's February 1926 letter to Bok. "Miscellany" comprises assorted newspaper clippings, promotional materials, and photographs of the <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Transatlantic</title> sets by Ludwig Sievert. These items are arranged alphabetically by subject. 
+	 		</p>
+      </scopecontent>
+      <arrangement id="mferd3127e250" encodinganalog="351$a">
+         <head>Organization of the George Antheil Correspondence with Mary Louise Curtis Bok</head>
+         <p>The George Antheil Correspondence with Mary Louise Curtis Bok is organized in 3 series: </p>
+         <list>
+            <item>Correspondence, 1921-1940</item>
+            <item>Writings, undated</item>
+            <item>Miscellany, 1927-1930</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2010561030"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2010561030</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd3127e262" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd217e292" level="series">
+            <did>
+               <container type="box">1-2</container>
+               <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921-1940</unitdate>
+               </unittitle>
+            </did>
+            <arrangement>
+               <p>Letters and telegrams with enclosures, sent and received. Arranged alphabetically by name of correspondent and chronologically therein.</p>
+            </arrangement>
+            <c02 id="mferd217e304" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="MLCB01">Antheil, George<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e310" level="file">
+                  <did>
+                     <container type="box-folder">1/1-14</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921-1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd217e319" level="file">
+                  <did>
+                     <container type="box-folder">2/1-13</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e328" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Erskine, John<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e334" level="file">
+                  <did>
+                     <container type="box-folder">2/14</container>
+                     <unittitle encodinganalog="245$a">Erskine to Antheil, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e343" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Friede, Donald S.<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e349" level="file">
+                  <did>
+                     <container type="box-folder">2/15</container>
+                     <unittitle encodinganalog="245$a">Friede to Antheil and Bok, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e358" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Graf, Herbert<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e364" level="file">
+                  <did>
+                     <container type="box-folder">2/16</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e373" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hammer, Mrs. William C.<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e379" level="file">
+                  <did>
+                     <container type="box-folder">2/17</container>
+                     <unittitle encodinganalog="245$a">Hammer to Antheil, Bok, and John Erskine<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932, </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e388" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hanson, Martin H.<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e394" level="file">
+                  <did>
+                     <container type="box-folder">2/18</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922-1929</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e403" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hofmann, Josef<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e409" level="file">
+                  <did>
+                     <container type="box-folder">2/19</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e418" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Konzertdirektion Leonard<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e424" level="file">
+                  <did>
+                     <container type="box-folder">2/20</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1923</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e433" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lucas, Clarence<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e439" level="file">
+                  <did>
+                     <container type="box-folder">2/21</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e449" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pound, Ezra<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e455" level="file">
+                  <did>
+                     <container type="box-folder">2/22</container>
+                     <unittitle encodinganalog="245$a">Pound to Bok and Antheil, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1923-1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e464" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reiner, Fritz<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e470" level="file">
+                  <did>
+                     <container type="box-folder">2/23</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e479" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Robinson, Lennox<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e485" level="file">
+                  <did>
+                     <container type="box-folder">2/24</container>
+                     <unittitle encodinganalog="245$a">Robinson to Antheil, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e494" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sternberg, Constantin von<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e500" level="file">
+                  <did>
+                     <container type="box-folder">2/25</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e509" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stokowski, Leopold<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e515" level="file">
+                  <did>
+                     <container type="box-folder">2/26</container>
+                     <unittitle encodinganalog="245$a">Stokowski to Antheil and Bok, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1929</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd217e524" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stravinsky, Igor<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03 id="mferd217e530" level="file">
+                  <did>
+                     <container type="box-folder">2/27</container>
+                     <unittitle encodinganalog="245$a">Stravinsky to Antheil, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd217e539" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Writings, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd217e548" level="file">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a">Antheilcized notation, or, Music for everybody who can tell one from two and two from three, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <physdesc>Holograph manuscript; [5] p.</physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd217e559" level="file">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a">Many thoughts to M.L.B. and a Key to my music (to be remembered while listening to it), <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <physdesc>Holograph manuscript; [10] p.</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd217e570" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1930</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd217e579" level="file">
+               <did>
+                  <container type="box-folder">3/2</container>
+                  <unittitle encodinganalog="245$a">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd217e588" level="file">
+               <did>
+                  <container type="box-folder">3/3</container>
+                  <unittitle encodinganalog="245$a">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd217e597" level="file">
+               <did>
+                  <container type="box-folder">3/4</container>
+                  <unittitle encodinganalog="245$a">Transatlantic, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <physdesc>4 black and white photographs, 1 negative</physdesc>
+                  <note>
+                     <p>Images by Ludwig Siefert</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

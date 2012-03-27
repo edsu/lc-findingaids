@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Thu, 16 February 2012 11:12:09 AM EST
+URL: http://hdl.loc.gov/loc.mss/eadmss.ms010273
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd4255e2">
+   <eadheader id="mferd4255e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mss/eadmss.ms010273"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.mss/eadmss.ms010273</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>American Association of University Women
+			 Records</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Manuscript Division Staff </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+				<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/mm81010652" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/mm81010652</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Manuscript Division,
+		  
+		  <date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd4255e41">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">American Association of
+		  University Women Records 
+		  <unitdate label="Span Dates" type="inclusive" normal="1937/1946" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1937-1946</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1937/1938" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1937-1938)</unitdate>
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS10652</unitid>
+         <origination label="Creator"> 
+		          <corpname encodinganalog="110" source="lcnaf">American Association of
+			 University Women</corpname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">5,000
+		  items</extent>
+		          <extent encodinganalog="300">18 containers</extent>
+		          <extent encodinganalog="300">6.3 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+		       </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Manuscript Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Women's service
+		  organization. Files of a research project by the organization concerning the
+		  history and state of the arts in various cities and towns of different sizes
+		  and geographical locations in the United States.</abstract>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd4255e84" altrender=":::F005=^20100802111842.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject or location, and by occupation and listed
+			 alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd4257e12">
+            <head>Organizations</head>
+            <corpname encodinganalog="110$a" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^American+Association+of+University+Women.^">American Association of University Women.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd4257e21">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Arts+United+States.^">Arts--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Humanities+United+States.^">Humanities--United States.</subject>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd4255e100" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd4255e103" encodinganalog="541">
+            <head>Provenance</head>
+            <p> The records of the American Association of University Women were
+		  given to the Library of Congress by the association in 1960.</p>
+         </acqinfo>
+         <processinfo id="mferd4255e108" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The records of the American Association of University Women were
+		  arranged and described in 1960. The finding aid was revised in 2010.</p>
+         </processinfo>
+         <userestrict id="mferd4255e113" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright in the unpublished writings of the American
+		  Association of University Women is governed by the Copyright Law of the United
+		  States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd4255e118" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The records of the American Association of University Women are open
+		  to research. Researchers are advised to contact the Manuscript Reading Room
+		  prior to visiting. Many collections are stored off-site and advance notice is
+		  needed to retrieve these items for research use.</p>
+         </accessrestrict>
+         <prefercite id="mferd4255e123" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, American Association of University
+		  Women Records, Manuscript Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd4255e128" encodinganalog="545">
+         <head>Organizational History</head>
+         <p>The American Association of University Women is a nationwide network
+		  founded in 1881 as the Association of Collegiate Alumnae by Ellen H. Richards
+		  and Marion Talbot to promote gender equity for women through programs of
+		  advocacy, education, philanthropy, and research. In 1921, the Southern
+		  Association of College Women merged with the Association of Collegiate Alumnae
+		  to form the American Association of University Women. Under its leadership the
+		  association has formed a wide range of committees throughout the years to
+		  promote its mission including the Educational Foundation, established in 1958,
+		  to provide a source of funding exclusively for graduate women, and in 1981 the
+		  Legal Advisory Fund, a legal defense fund focused on sex discrimination against
+		  women in higher education.</p>
+      </bioghist>
+      <scopecontent id="mferd4255e133" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The records of the American Association of University Women contain
+		  the files of an extensive research project undertaken by the organization's
+		  Arts Resource Center on the history and development of the arts in America. The
+		  surveys were conducted by the association's branches in various cities and
+		  towns and in various locations. While the collection spans the years 1937-1946,
+		  the project was carried out primarily from 1937 to 1938.</p>
+         <p>The survey form employed was devised to reflect the branches' local
+		  art situation as recorded by amateur observers. As a result, the basic and
+		  fragmentary nature of the approximately 150 surveys makes them more valuable
+		  for primary research into the history of the development of art in American
+		  communities than as a complete study in itself.</p>
+      </scopecontent>
+      <arrangement id="mferd4255e140" encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in a general file and state file and
+		  therein alphabetically by type of material or name of state. </p>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/mm81010652" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/mm81010652</extref>
+      </otherfindaid>
+      <dsc id="mferd4255e145" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd4255e154" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">General file </unittitle>
+            </did>
+            <c02 id="mferd4255e160" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">City classification</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e166" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 id="mferd4255e172" level="file">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">Follow-up letters</unittitle>
+                  </did>
+                  <c04 id="mferd4255e178" level="file">
+                     <did>
+                        <container type="box">1</container>
+                        <unittitle encodinganalog="245$a">Cities by population
+						size</unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a"> (6
+						folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd4255e187" level="file">
+                     <did>
+                        <container type="box">1</container>
+                        <unittitle encodinganalog="245$a">South Bend, Ind.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd4255e193" level="file">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e199" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Notes on cities</unittitle>
+               </did>
+               <c03 id="mferd4255e205" level="file">
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle encodinganalog="245$a">By population</unittitle>
+                  </did>
+                  <c04 id="mferd4255e211" level="file">
+                     <did>
+                        <container type="box">1</container>
+                        <unittitle encodinganalog="245$a">2,500 to 100,000</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd4255e217" level="file">
+                     <did>
+                        <container type="box">2</container>
+                        <unittitle encodinganalog="245$a">Over 100,000</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e223" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Notes on organization
+				  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd4255e232" level="file">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">State file</unittitle>
+            </did>
+            <c02 id="mferd4255e238" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Alabama, Montevallo</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e244" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Arkansas</unittitle>
+               </did>
+               <c03 id="mferd4255e250" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">Jonesboro</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e256" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">Little Rock</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e262" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">California</unittitle>
+               </did>
+               <c03 id="mferd4255e268" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">Glendale</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e274" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">Long Beach</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e283" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">Pasadena </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e292" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle encodinganalog="245$a">San Diego</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"> (2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e301" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">San Rafael, Marin
+					 County</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e307" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Santa Monica</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e313" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Santa Rosa</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e319" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Stockton</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e325" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Whittier</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e331" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Colorado</unittitle>
+               </did>
+               <c03 id="mferd4255e337" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Denver</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e343" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Colorado Springs </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e352" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Connecticut</unittitle>
+               </did>
+               <c03 id="mferd4255e358" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Bridgeport </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e367" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Greenwich</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e373" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">New Britain</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e379" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Norwalk</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e385" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Delaware, Wilmington</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e391" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Florida</unittitle>
+               </did>
+               <c03 id="mferd4255e397" level="file">
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle encodinganalog="245$a">Gainesville</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e403" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Pensacola</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e409" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Tallahassee</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e415" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Georgia, Columbus</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e421" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Hawaii, Honolulu</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e427" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Illinois</unittitle>
+               </did>
+               <c03 id="mferd4255e433" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Aurora</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e439" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Bloomington </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e448" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Danville</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e454" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Joliet</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e460" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Oblong, Crawford
+					 County</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e466" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Waukegan</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e473" level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">Indiana</unittitle>
+               </did>
+               <c03 id="mferd4255e479" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">Crawfordsville</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e485" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">Evansville</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e491" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">Lafayette</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e497" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">Logansport</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e503" level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">Iowa</unittitle>
+               </did>
+               <c03 id="mferd4255e509" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">Ackley</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e515" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">Ames</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e521" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">Cedar Falls</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"> (2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e530" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">Charles City</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e536" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Davenport</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e542" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Des Moines </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(4
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e551" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Fairfield</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e557" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Indianola</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e563" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Iowa City</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e569" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Mt. Ayr</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e576" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Mt. Vernon</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e582" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Muscatine</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e588" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Red Oaks</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e594" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Rockford</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e600" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Tipton</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e606" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Vinton </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e615" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Waverly</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e621" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Kansas</unittitle>
+               </did>
+               <c03 id="mferd4255e627" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Baldwin</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e633" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Chanute</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e639" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Pittsburg</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e645" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Kentucky</unittitle>
+               </did>
+               <c03 id="mferd4255e651" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Richmond</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e657" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Wilmore</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e663" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Louisiana</unittitle>
+               </did>
+               <c03 id="mferd4255e669" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Alexandria</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e675" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Natchitoches</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e681" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Maine, Houelon</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e687" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Massachusetts</unittitle>
+               </did>
+               <c03 id="mferd4255e693" level="file">
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle encodinganalog="245$a">Fitchburg</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e699" level="file">
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle encodinganalog="245$a">Taunton</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e705" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Michigan</unittitle>
+               </did>
+               <c03 id="mferd4255e711" level="file">
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle encodinganalog="245$a">Detroit </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e720" level="file">
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle encodinganalog="245$a">Grand Rapids</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e726" level="file">
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle encodinganalog="245$a">Marquette</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e732" level="file">
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle encodinganalog="245$a">Monroe</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e738" level="file">
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle encodinganalog="245$a">Port Huron</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e744" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Minnesota</unittitle>
+               </did>
+               <c03 id="mferd4255e750" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Duluth</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e756" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Mankato</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e762" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Northfield </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e771" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Red Wing</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e777" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">St. Paul</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e783" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Missouri</unittitle>
+               </did>
+               <c03 id="mferd4255e789" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Columbia</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e795" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Fayette</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e801" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Jefferson City</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e807" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Marysville</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e813" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Parkville</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e819" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Rolla</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e825" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Slater</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e831" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Tarkio</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e837" level="file">
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle encodinganalog="245$a">Warrensburg</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e843" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Montana</unittitle>
+               </did>
+               <c03 id="mferd4255e849" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Anaconda</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e855" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Billings</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e861" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Butte</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e867" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Dillon</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e873" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Great Falls</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e879" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Hamilton</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e885" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Havre</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e891" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Lewiston</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e897" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Missoula</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e904" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Nebraska</unittitle>
+               </did>
+               <c03 id="mferd4255e910" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Hastings</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e916" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Lincoln</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e922" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Omaha</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e928" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">New Hampshire, Berlin</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e934" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">New Mexico</unittitle>
+               </did>
+               <c03 id="mferd4255e940" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Clovis</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e946" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Portales</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e952" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">New York</unittitle>
+               </did>
+               <c03 id="mferd4255e958" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a">Albany</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e964" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a">Schenectady</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e970" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a">Syracuse </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e979" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">North Dakota,
+				  Maryville</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e985" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Ohio</unittitle>
+               </did>
+               <c03 id="mferd4255e991" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a">Akron</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"> (2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1000" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a">Athens</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1006" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a">Berea</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1012" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Cincinnati </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1021" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Dayton, 
+					 <unitdate era="ce" calendar="gregorian">1939-1941</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(1
+					 vol.)</extent>
+                     </physdesc>
+                     <container type="box">14</container>
+                     <physdesc>
+                        <extent encodinganalog="300">(2
+					 vols.)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1037" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Mansfield</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1043" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Plainesville</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1049" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Springfield</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1055" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Zanesville</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1061" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Oklahoma</unittitle>
+               </did>
+               <c03 id="mferd4255e1067" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Blackwell</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1073" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Guthrie</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1079" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Hennessy</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1085" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Hobart</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1091" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Oregon, Portland </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd4255e1100" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Pennsylvania</unittitle>
+               </did>
+               <c03 id="mferd4255e1106" level="file">
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle encodinganalog="245$a">Carlisle</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1112" level="file">
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle encodinganalog="245$a">Reading</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1118" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Puerto Rico</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e1124" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">South Carolina, Rock
+				  Hill</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd4255e1131" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">South Dakota</unittitle>
+               </did>
+               <c03 id="mferd4255e1137" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">Black Hills</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1143" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">Brookings</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1149" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">Lead</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1155" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">Madison</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1161" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Tennessee, Nashville </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd4255e1170" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Texas</unittitle>
+               </did>
+               <c03 id="mferd4255e1176" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">Corpus Christi</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1182" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">Wichita Falls </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1191" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Virginia</unittitle>
+               </did>
+               <c03 id="mferd4255e1197" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">Williamsburg</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1203" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">Wyethville</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1209" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Washington</unittitle>
+               </did>
+               <c03 id="mferd4255e1215" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Arlington</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1221" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Cle Elum</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1227" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Forks (Olympic Peninsula
+					 Bridge)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1233" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Palouse</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1239" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Spokane </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1248" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Wenatchee</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1254" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">West Virginia</unittitle>
+               </did>
+               <c03 id="mferd4255e1260" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Charleston</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1266" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Morgantown</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1272" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Parkersburg</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1278" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Wisconsin</unittitle>
+               </did>
+               <c03 id="mferd4255e1284" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Manitowoc</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1290" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Ripon</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1296" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Shepherdstown</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd4255e1302" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Wankesha</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd4255e1308" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Wyoming, Laramie</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 22 September 2011 12:12:15 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010007--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010007--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010007-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd182e3">
+   <eadheader id="mferd182e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu010007"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu010007</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>USIA Artistic Ambassador Program Musical Commissions
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2010561024"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2010561024</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd3325e43">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">USIA Artistic Ambassador Program Musical Commissions
+		  <unitdate label="Span Dates" type="inclusive" normal="1973/1988" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1973-1988</unitdate>
+	 		        <unitdate label="Bulk Dates" type="bulk" normal="1983/1987" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">(bulk 1983-1987)</unitdate> 
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.U72</unitid>
+         <origination label="Creator"> 
+			         <corpname encodinganalog="110" source="lcnaf">United States Information Agency. Artistic Ambassador Program</corpname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">circa 50 items</extent>
+	 		        <extent encodinganalog="300">4 containers</extent>
+	 		        <extent encodinganalog="300">2.60 linear feet</extent>		  	 	
+         </physdesc>
+         <langmaterial label="Language">Collection material principally in
+			<language encodinganalog="041" langcode="eng">English.</language> 
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">This collection consists of works commissioned by the United States Information Agency and other materials related to the organization’s Artistic Ambassador Program. It includes holograph music manuscripts, sketches, performance reviews, biographical materials, and administrative documents.       
+	 	</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd3325e87" altrender=":::F005=^20100408090206.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd184e7">
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bacon%2C+Ernst%2C+1898-1990.^">Bacon, Ernst, 1898-1990.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dello+Joio%2C+Norman%2C+1913-2008.^">Dello Joio, Norman, 1913-2008.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Finney%2C+Ross+Lee%2C+1906-1997.^">Finney, Ross Lee, 1906-1997.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Foss%2C+Lukas%2C+1922-2009.^">Foss, Lukas, 1922-2009.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gould%2C+Morton%2C+1913-1996.^">Gould, Morton, 1913-1996.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Hoiby%2C+Lee.^">Hoiby, Lee.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lees%2C+Benjamin%2C+1924-2010.^">Lees, Benjamin, 1924-2010.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mayer%2C+William%2C+1925-^">Mayer, William, 1925- </persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Muczynski%2C+Robert%2C+1929-2010.^">Muczynski, Robert, 1929-2010.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Perle%2C+George%2C+1915-2009.^">Perle, George, 1915-2009.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Robilette%2C+John.^">Robilette, John.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rochberg%2C+George.^">Rochberg, George.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Siegmeister%2C+Elie%2C+1909-1991.^">Siegmeister, Elie, 1909-1991.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Smit%2C+Leo%2C+1921-1999.^">Smit, Leo, 1921-1999.</persname>
+         </controlaccess>
+         <controlaccess id="mferd184e39">
+            <head>Organizations</head>
+            <corpname encodinganalog="110$a" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States+Information+Agency.+Artistic+Ambassador+Program.^">United States Information Agency. <subarea encodinganalog="110$b">Artistic Ambassador Program.</subarea>
+            </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States+Information+Agency.+Artistic+Ambassador+Program.^">United States Information Agency. <subarea encodinganalog="610$b">Artistic Ambassador Program.</subarea>
+            </corpname>
+         </controlaccess>
+         <controlaccess id="mferd184e52">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Commissioning.^">Music--Commissioning.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
+         </controlaccess>
+         <controlaccess id="mferd184e59">
+            <head>Titles</head>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                   encodinganalog="246"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^United+States+Information+Agency+Artistic+Ambassador+Program+musical+commissions%2C+1973-1988^">United States Information Agency Artistic Ambassador Program musical commissions, 1973-1988</title>
+         </controlaccess>
+         <controlaccess id="mferd184e64">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Press+releases.^">Press releases.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd3325e159" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd3325e162" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Manuscripts commissioned for the USIA Artistic Ambassador Program and related materials were placed on deposit at or donated to the Library of Congress by the contributing composers and John Robilette between 1984 and 1988.</p>
+         </acqinfo>
+         <accruals id="mferd3325e167">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd3325e172" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The USIA Artistic Ambassador Program Musical Commissions were processed in 2010 by Ephraim Schäfli and encoded for EAD by Christopher Hartten.</p>
+         </processinfo>
+         <separatedmaterial id="mferd3325e177" encodinganalog="544 0">
+            <head>Transfers</head>
+            <p>Two sound recordings were transferred to the Library of Congress Motion Picture, Broadcasting and Recorded Sound Division.</p>
+         </separatedmaterial>
+         <userestrict id="mferd3325e182" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the USIA Artistic Ambassador Program Musical Commissions is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd3325e187" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The USIA Artistic Ambassador Program Musical Commissions are open to research. Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd3325e194" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, USIA Artistic Ambassador Program Musical Commissions, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd3325e199" encodinganalog="545">
+         <head>Organizational History</head>
+         <p>The United States Information Agency was established by President Dwight D. Eisenhower in August 1953 and was active until October 1, 1999. Its  basic mandates were the Smith-Mundt Act of 1948 and the Fulbright-Hays Act of 1961. The Agency's stated mission was "to understand, inform, and influence foreign publics in promotion of the U.S. national interest, and to broaden the dialogue between Americans and U.S. institutions, and their counterparts abroad."</p>
+         <p>One aspect of this strategy involved the identification, promotion, and financial support of young, virtuoso American performers as "ambassadors" of international understanding and goodwill. Those who had yet to establish themselves as "big-time" artists were of primary interest. Following the success of a 1982 pilot program that sent pianist Robert Noland to tour France and Germany, USIA director Charles Z. Wick formally launched the Artistic Ambassador Program in April 1983 under the leadership of John Robilette and named pianist Arthur Greene the second Artistic Ambassador.</p>
+         <p>In 1984, four additional pianists were recruited to represent USIA: Michael Caldwell, Dean Kramer, Steve Warzycki, and Nancy Weems. The program continued to expand rapidly, and by the following year, eleven pianists had traveled to 38 countries, including the Soviet Union and China. By 1986 and 1987 respectively, the performance programs had also incorporated violin-piano duos and violoncello-piano duos. Touring efforts continued until the termination of the Program in 1989.</p>
+         <p>In addition to its support of performers, the Program sought commissioned works from eminent American composers, including Norman Dello Joio, Morton Gould, George Rochberg, and others. This marked one of the first dedicated efforts by the federal government to commission musical works for the purpose of promoting American culture abroad. Between 1983 and 1987, a total of 13 works were commissioned by the Program.</p>
+      </bioghist>
+      <scopecontent id="mferd3325e210" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The musical works commissioned for the USIA Artistic Ambassador Program date from 1982-1988. The "Music Manuscripts" series contains holograph manuscripts and/or sketches for all thirteen commissioned pieces, with Bacon's "Gunnison River" being the only exception. Two additional works commissioned by the USIA prior to 1982, but not for the Artistic Ambassador Program, are also included. Lukas Foss’ <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fanfare</title> was commissioned to commemorate the 50th anniversary of the Turkish Republic and was performed by the Presidential Symphony of Ankara in Istanbul with Foss conducting on June 28, 1973. Leo Smit’s <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphony of dances and songs</title> was commissioned to commemorate the 100th anniversary of the establishment of U.S./Serbian diplomatic relations and was performed by the Belgrade Philharmonic with Smit conducting on November 6, 1981.</p>
+         <p>The "Research Materials" series contains memoranda, booklets, reviews, competition brochures, press releases, news clippings, and feature stories about the program’s inception, purpose, and active years. Biographical materials and images of several of the artistic ambassadors are also included.
+	 	</p>
+      </scopecontent>
+      <arrangement id="mferd3325e223" encodinganalog="351$a">
+         <head>Arrangement of the USIA Artistic Ambassador Program Musical Commissions</head>
+         <p>The USIA Artistic Ambassador Program Musical Commissions are organized in 2 series: </p>
+         <list>
+            <item>Music Manuscripts, 1973-1987</item>
+            <item>Research Materials, 1982-1988</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2010561024"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2010561024</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd3325e233" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd182e263" level="series">
+            <did>
+               <container type="box">1-2, OV</container>
+               <unittitle encodinganalog="245$a">Music Manuscripts, 
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973-1987</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd182e272" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Bacon, Ernst<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e284" level="file">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a">The Gunnison River<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                     </unittitle>
+                     <physdesc>Photo-reproduction of manuscript</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e294" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Dello Joio, Norman<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e306" level="file">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a">Introduction and fantasies on a chorale tune<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e315" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Finney, Ralph<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e327" level="file">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a">Narrative in retrospect, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e337" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Foss, Lukas<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e349" level="file">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a">Fanfare, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973</unitdate>
+                     </unittitle>
+                     <physdesc>Printed parts and staging instructions</physdesc>
+                     <note>
+                        <p>Not commissioned for Artistic Ambassador Program</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd182e363" level="file">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a">Central Park reel, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1987</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                     <note>
+                        <p>Program notes and revised musical material on p. 16a/b</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e376" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Gould, Morton<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e388" level="file">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a">Patterns for piano, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e398" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Hoiby, Lee<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e410" level="file">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a">Ballade, op. 41, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e420" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Lees, Benjamin<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e432" level="file">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a">Tableau, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e442" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Mayer, William<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e454" level="file">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a">Abandoned bells, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e464" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Muczynski, Robert<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e476" level="file">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a">Dream cycle : op. 44, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                     <note>
+                        <p>Accompanying cassette tape sent to MBRS</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e489" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Perle, George<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e501" level="file">
+                  <did>
+                     <container type="box-folder">2/4</container>
+                     <unittitle encodinganalog="245$a">Six new etudes, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                     <note>
+                        <p>Laid in: Letter to J. Robilette; [1] p.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e515" level="file">
+               <did>
+                  <container type="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Rochberg, George<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e527" level="file">
+                  <did>
+                     <container type="box-folder">OV 1/1</container>
+                     <unittitle encodinganalog="245$a">Short sonatas, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                     <note>
+                        <p>Accompanying cassette tape sent to MBRS</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e540" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Siegmeister, Elie<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e552" level="file">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">From these shores, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                     <note>
+                        <p>Laid in: Composer's note; [1] p.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd182e565" level="file">
+               <did>
+                  <container type="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Smit, Leo<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent/>
+                  </physdesc>
+               </did>
+               <c03 id="mferd182e577" level="file">
+                  <did>
+                     <container type="box-folder">OV 1/2</container>
+                     <unittitle encodinganalog="245$a">Symphony of dances and songs, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                     <note>
+                        <p>Laid in: Program notes; [5] p.</p>
+                     </note>
+                     <note>
+                        <p>Not commissioned for Artistic Ambassador Program</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd182e593" level="file">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a">Dance card, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985</unitdate>
+                     </unittitle>
+                     <physdesc/>
+                     <note>
+                        <p>Laid in: 2 letters to J. Robilette; [1] p. ea.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd182e606" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Research Materials, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1988 </unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd182e615" level="file">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a">USIA file, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Includes biographies and images of Michael Caldwell, Dean Kramer, Steve Warzycki, and Nancy Weems. In addition, contains clippings, information on the Artistic Ambassador Program and its associated contacts, a list of performers/locations for commissioned works, reviews, press releases, and telegrams regarding Foss’ <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fanfare</title>.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd182e630" level="file">
+               <did>
+                  <container type="box-folder">3/2</container>
+                  <unittitle encodinganalog="245$a">USIA file, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1988</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Includes memoranda, booklets, evaluations, reviews, audition brochures, press releases, and feature articles.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

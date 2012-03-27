@@ -1,0 +1,2734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:19 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu007002
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu007002--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu007002--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu007002-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd115e6">
+   <eadheader id="mferd115e7" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US" encodinganalog="856$u"
+             identifier="hdl:loc.music/eadmus.mu007002">http://hdl.loc.gov/loc.music/eadmus.mu007002</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Damrosch - Tee Van Collection</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:title="Seal of the Library of Congress"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2007" era="ce" calendar="gregorian">2007</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+                  <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2006568217"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2006568217</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding Aid encoded by Library of Congress Music Division, <date normal="2007" era="ce" calendar="gregorian">2007</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in<language langcode="eng" encodinganalog="041">English</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2011-02" era="ce" calendar="gregorian">2011 February</date>
+            <item>Minor editorial revisions made to this finding aid by Nancy Seeger in February 2011.</item>
+         </change>
+         <change>
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in March 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" type="register" relatedencoding="MARC21">
+      <did id="mferd49e58">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Damrosch - Tee Van Collection<unitdate label="Span Dates" type="inclusive" encodinganalog="245$f" normal="1856/1969"
+                      era="ce"
+                      calendar="gregorian">1856-1969</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1870/1939"
+                      era="ce"
+                      calendar="gregorian">(bulk 1870-1939)</unitdate>
+         </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.D34</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Damrosch, Leopold, 1832-1885</persname>
+         </origination>
+         <physdesc label="Size">
+            <extent encodinganalog="300">around 600 items</extent>
+            <extent encodinganalog="300">10 boxes</extent>
+            <extent encodinganalog="300">8 linear feet</extent>
+         </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Music Division</subarea> Library of Congress</corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">The collection includes biographical materials, correspondence, writings, manuscript and printed music, financial and legal papers, programs, scrapbooks, artwork, and photographs. The papers of L. Damrosch consist of correspondence (including a copy of a letter from Liszt), a few examples of writings, four scores (including his piano vocal score of Berlioz Requiem), and biographical materials. A large portion of the Damrosch family papers that included the bulk of their correspondence with Liszt, Wagner, von Bülow, and others was destroyed in a fire in 1887. F. Damrosch and other Damrosch family members were in correspondence with Harold Bauer, Andrew Carnegie, Edward Elgar, Percy Grainger, Josef Hofmann, Gustav Mahler, and Sergei Rachmaninoff.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd49e106" altrender=":::F005=^20090515114436.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd117e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Carnegie%2C+Andrew%2C+1835-1919+Correspondence.^">Carnegie, Andrew, 1835-1919--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Damrosch%2C+Frank%2C+1859-1937+Correspondence.^">Damrosch, Frank, 1859-1937--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Damrosch%2C+Frank%2C+1859-1937.^">Damrosch, Frank, 1859-1937.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Damrosch%2C+Frank%2C+1859-1937.^">Damrosch, Frank, 1859-1937.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Damrosch%2C+Frank%2C+1859-1937.^">Damrosch, Frank, 1859-1937. Damrosch - Tee Van Collection. 1856-1969.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Damrosch%2C+Leopold%2C+1832-1885+Correspondence.^">Damrosch, Leopold, 1832-1885--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Damrosch%2C+Leopold%2C+1832-1885.^">Damrosch, Leopold, 1832-1885.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Damrosch%2C+Leopold%2C+1832-1885.^">Damrosch, Leopold, 1832-1885.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Elgar%2C+Edward%2C+1857-1934+Correspondence.^">Elgar, Edward, 1857-1934--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grainger%2C+Percy%2C+1882-1961+Correspondence.^">Grainger, Percy, 1882-1961--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mahler%2C+Gustav%2C+1860-1911+Correspondence.^">Mahler, Gustav, 1860-1911--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rachmaninoff%2C+Sergei%2C+1873-1943+Correspondence.^">Rachmaninoff, Sergei, 1873-1943--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Tee-Van%2C+Helen+Damrosch%2C+1893-1976.^">Tee-Van, Helen Damrosch, 1893-1976.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Tee-Van%2C+Helen+Damrosch%2C+1893-1976.^">Tee-Van, Helen Damrosch, 1893-1976. Damrosch - Tee Van Collection. 1856-1969.</persname>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd49e144" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd49e147" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift; Helen Tee Van, daughter of Frank Damrosch; 1972.</p>
+         </acqinfo>
+         <accruals id="mferd49e152" encodinganalog="584">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd49e157" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Damrosch - Tee Van Collection was processed in 1994 by Wilda Heiss with assistance from Margaret Collins. The original finding aid was prepared with Corel WordPerfect 5.1. In 2007 the Damrosch - Tee Van Collection finding aid was coded for EAD format by Michael A. Ferrando.</p>
+         </processinfo>
+         <userestrict id="mferd49e162" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the Damrosch - Tee Van Collection is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd49e167" encodinganalog="506">
+            <head>Access and Restrictions</head>
+            <p>The Damrosch - Tee Van Collection is open to research. Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd49e172" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, Damrosch - Tee Van Collection, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd49e177" encodinganalog="545">
+         <head>Biographical Sketch</head>
+         <p>The Damrosch family immigrated to America from Breslau, Germany in 1871.  Leopold Damrosch (1832-1885), the family patriarch, was a violinist, conductor, and composer who was educated in Posen, his native city, and in Berlin.  In 1857, Franz Liszt appointed him lead violinist in the court orchestra at Weimar.  While there, he married the singer Helene von Heimburg.  In 1860, he toured with Hans von Bülow and Karl Tausig and, in 1862, organized the Breslau Philharmonic Society.  He came to America in 1871 to conduct the Arion Society, a men's choral group.  In 1873, he founded the Oratorio Society of New York and, in 1878, the Symphony Society of New York.  He introduced Wagner's operas, Berlioz's <emph render="italic">Damnation of Faust</emph>, and other large choral works to New York audiences; many of these were American premieres.  In 1880, Columbia College conferred on him the Doctor of Music degree.  During the 1884-85 season, he became a manager of the Metropolitan Opera and presented a "German" season which consisted primarily of German operas and some Italian operas sung in German.  Six days before the end of the season, he died and his son, Walter, and the chorusmaster, John Lund, conducted the remaining performances.  Walter conducted the tour of the Damrosch Grand Opera Company which followed the Metropolitan Opera season.</p>
+         <p>Frank Damrosch (1859-1937), the oldest son of Leopold and Helene, was a conductor and teacher.  He began his musical studies as a child in Breslau and continued them in New York City.  Later, he left City College and found work in various non-musical jobs.  In 1879, he went to Denver, Colorado to see what business opportunities existed there; eventually, he abandoned the business world and devoted himself to music.  He became conductor of the Denver Chorus Club, supervisor of music in public schools, and organist and choir director for several churches and a synagogue.  After Leopold's death in 1885, he returned to New York City and served as conductor of the Newark Harmonic Society and chorus master and assistant conductor at the Metropolitan Opera until 1891.  In 1892, he organized and conducted the People's Choral Union for which he published a <emph render="italic">Popular Method of Sight Singing</emph>.  He founded and conducted the Musical Art Society of New York, a small professional chorus.  From 1897 to 1905 he was supervisor of music in the New York City public schools.  He succeeded his brother Walter as conductor of the Oratorio Society from 1898-1912.  In 1904, he received an honorary Doctor of Music degree from Yale University.  In 1905, he founded the Institute of Musical Art and was its director until 1926, when it merged with the Juilliard Graduate School to become the Juilliard School of Music of which he served as dean until 1933.</p>
+         <p>Wilda Heiss, Music Specialist<lb/>Margaret Collins, Library Technician,<lb/>July 1994</p>
+      </bioghist>
+      <scopecontent id="mferd49e196" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Damrosch-Tee Van Collection consists of the papers of Frank and Leopold Damrosch and their families.  The date span of the collection is 1856-1969, with the bulk of the materials dating from the 1870s to the 1930s.  The collection includes biographical materials, correspondence, writings, manuscript and printed music, financial and legal papers, programs, scrapbooks, artwork, and photographs.</p>
+         <p>Included in the collection is a series of biographical materials that relate to various Damrosch family members, chiefly Frank and Leopold Damrosch, and consists of printed articles, manuscript notes, and transcripts of interviews.  One item of interest is an autobiographical essay written by Leopold Damrosch as a graduation thesis from the high school at Posen.</p>
+         <p>The papers of Leopold Damrosch consist of correspondence (including a copy of a letter from Liszt,) a few examples of writings, four scores (including Leopold Damrosch's piano-vocal arrangement of the Berlioz <emph render="italic">Requiem</emph>), programs for concerts he conducted and attended, a scrapbook of clippings, and a few other miscellaneous items.  This section of the collection is quite small, due in part to a fire in 1887 that destroyed many of Leopold's papers, including much of his correspondence with Liszt, Wagner, von Bülow, and others.  Despite this fact, the collection contains important information on Leopold Damrosch.</p>
+         <p>A large part of the collection consists of the papers of Frank Damrosch and other Damrosch family members.  The correspondence comprises several hundred letters, with some of the more important correspondents being Harold Bauer, Andrew Carnegie, Edward Elgar, Percy Grainger, Josef Hofmann, Gustav Mahler, and Sergei Rachmaninov.  Many of the letters of Frank Damrosch to his family were destroyed in the 1887 fire, mentioned above; there are, however, a long series of letters to his wife Hetty from Europe in 1891.  Any letters to or from correspondents who wrote to both Frank Damrosch and other family members are filed together with Frank's correspondence.</p>
+         <p>The correspondence of other Damrosch family includes letters to and from family members.  Included are letters from Georges Barrère, Teresa Carreño, Pablo Casals, Madame Chiang Kai-Shek (regarding John Tee Van's zoo pandas), and John D. Rockefeller.  Many of these are simply condolence letters received after Frank Damrosch's death while others reveal more familiar relationships.</p>
+         <p>The remainder of the papers of Frank Damrosch and other Damrosch family include manuscript and typescript copies of Frank Damrosch's book <emph render="italic">Some Essentials in the Teaching of Music</emph>; a copy of the libretto for Walter Damrosch's <emph render="italic">The Scarlet Letter</emph>; several printed editions of Frank Damrosch's choral music; programs for concerts the Damrosch family attended or that Frank conducted; original artwork by Frank Damrosch; photographs, and other family memorabilia.  Also included are papers of the Institute of Musical Art, the music school which Frank Damrosch founded in 1905.  This part of the collection includes catalogs, programs, and other publications produced by that institution.</p>
+      </scopecontent>
+      <arrangement id="mferd49e220" encodinganalog="351$a">
+         <head>Organization of the Damrosch - Tee Van Collection</head>
+         <p>The Damrosch - Tee Van Collection is organized in 3 series:</p>
+         <list>
+            <item>Biographical Materials</item>
+            <item>Papers of Leopold Damrosch</item>
+            <item>Papers of Frank Damrosch and other Damrosch Family</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2006568217"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2006568217</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd49e232" type="combined">
+         <head>Container List</head>
+         <thead>
+            <row>
+               <entry>Box</entry>
+               <entry>Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd115e256" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a" id="CL1001">Biographical Materials, <unitdate encodinganalog="245$f" type="inclusive" normal="1879/1939" era="ce"
+                            calendar="gregorian">1879-1939, undated</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Biographical Materials series contains manuscript, typewritten and printed biographies and typewritten poem.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by subject of biography, then by author.</p>
+            </arrangement>
+            <c02 id="mferd115e271" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D3_1">Damrosch, Dorothea</unittitle>
+               </did>
+               <c03 id="mferd115e275" level="file">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_1">Damrosch, "Uncle Juju," n.d. (poem)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e281" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D3_2">Damrosch, Frank</unittitle>
+               </did>
+               <c03 id="mferd115e285" level="file">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_2">Damrosch, Frank</unittitle>
+                  </did>
+                  <c04 id="mferd115e291" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_1">Conversation with Randall Thompson, 1937</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e295" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_2">Manuscript notes for autobiographical article, [1934]</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e299" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_3">On leaving the opera, 1891-92</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e303" level="file">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_3">Damrosch, Hetty Mosenthal</unittitle>
+                  </did>
+                  <c04 id="mferd115e309" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_4">Notes about F[rank] D[amrosch], n.d.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e313" level="file">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_4">People's Choral Union</unittitle>
+                  </did>
+                  <c04 id="mferd115e319" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_5">To Frank Damrosch from the People's Choral Union, n.d.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e323" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_6">Frank Damrosch in memoriam, n.d.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e327" level="file">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_5">Rice, Edwin T.</unittitle>
+                  </did>
+                  <c04 id="mferd115e333" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_7">A tribute to Frank Damrosch, n.d.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e337" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_8">A tribute to Frank Damrosch, reprinted from <emph render="italic">The Musical Quarterly</emph>, 1939 Apr.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e344" level="file">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_6">Richardson, A. Madeley</unittitle>
+                  </did>
+                  <c04 id="mferd115e350" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_9">Presentation of the portrait of Dr. Frank Damrosch, 1929 Oct. 22</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e354" level="file">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_7">Unidentified author</unittitle>
+                  </did>
+                  <c04 id="mferd115e360" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_10">Article "Frank Damrosch: A biographical sketch" from <emph render="italic">The Musical Times</emph>, 1904 Dec. 1</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e367" level="file">
+                  <did>
+                     <container type="box-folder">1/8</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_8">Unidentified author, n.d.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e373" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D3_3">Damrosch, Hetty Mosenthal</unittitle>
+               </did>
+               <c03 id="mferd115e377" level="file">
+                  <did>
+                     <container type="box-folder">1/9</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_9">Damrosch, Hetty Mosenthal</unittitle>
+                  </did>
+                  <c04 id="mferd115e383" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_11">Rough notes about summers abroad and elsewhere; also about various activities in New York, etc., n.d.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd115e387" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D3_4">Damrosch, Leopold</unittitle>
+               </did>
+               <c03 id="mferd115e391" level="file">
+                  <did>
+                     <container type="box-folder">1/10</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_10">100th anniversary of birth</unittitle>
+                  </did>
+                  <c04 id="mferd115e397" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_12">Typescript of WOR broadcast, 1932</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e401" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_13">Four newspaper articles, 1932</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e405" level="file">
+                  <did>
+                     <container type="box-folder">1/11</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_11">Damrosch, Frank</unittitle>
+                  </did>
+                  <c04 id="mferd115e411" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_14">Dictations to Helen Tee Van in reply to questions asked about old times, n.d.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e415" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_15">Manuscript in pencil written by Frank Damrosch about various episodes left out of typed story, n.d.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e419" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_16">Short biography of Leopold Damrosch by Frank Damrosch, n.d.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e423" level="file">
+                  <did>
+                     <container type="box-folder">1/12</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_12">Damrosch, Leopold</unittitle>
+                  </did>
+                  <c04 id="mferd115e429" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_17">Autobiography of Leopold Damrosch, written when he was eighteen years old as a graduation thesis from the high school in Posen, n.d. [translation]</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e433" level="file">
+                  <did>
+                     <container type="box-folder">1/13</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_13">Lists of Compositions</unittitle>
+                  </did>
+                  <c04 id="mferd115e439" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_18">Compositions of Dr. Leopold Damrosch, 1879</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e443" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_19">List of the compositions of Dr. Leopold Damrosch for violin, n.d.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e447" level="file">
+                  <did>
+                     <container type="box-folder">1/14</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_14">Rice, Edwin T.</unittitle>
+                  </did>
+                  <c04 id="mferd115e453" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_20">Personal recollections of Dr. Leopold Damrosch, reprinted from <emph render="italic">The Musical Quarterly</emph>, 1942 July</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd115e460" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D3_5">Damrosch, Walter</unittitle>
+               </did>
+               <c03 id="mferd115e464" level="file">
+                  <did>
+                     <container type="box-folder">1/15</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_15">Gilbert, Douglas</unittitle>
+                  </did>
+                  <c04 id="mferd115e470" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D5_21">Three newspaper articles from the <emph render="italic">New York World-Telegram</emph>, 1946</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd115e477" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D3_6">Seymour, Ellie Damrosch</unittitle>
+               </did>
+               <c03 id="mferd115e481" level="file">
+                  <did>
+                     <container type="box-folder">1/16</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_BIOGRAPHICAL_MATERIALS_CL1001_D4_16">Seymour, Ellie Damrosch</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd115e487" level="series">
+            <did>
+               <container type="box">1-2</container>
+               <container type="box">8-10</container>
+               <unittitle encodinganalog="245$a" id="CL1002">Papers of Leopold Damrosch</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Papers of Leopold Damrosch series consist of correspondence (including a copy of a letter from Liszt,) a few examples of writings, four scores (including Leopold Damrosch's piano-vocal arrangement of the Berlioz <emph render="italic">Requiem</emph>), programs for concerts he conducted and attended, a scrapbook of clippings, and a few other miscellaneous items.  This section of the collection is quite small, due in part to a fire in 1887 that destroyed many of Leopold's papers, including much of his correspondence with Liszt, Wagner, von Bülow, and others.  Despite this fact, the collection contains important information on Leopold Damrosch.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement within subseries is as follows:</p>
+               <list type="deflist">
+                  <defitem>
+                     <label>
+                        <emph render="bold">Correspondence</emph>
+                     </label>
+                     <item>Arranged alphabetically by correspondent, then chronologically</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Writings</emph>
+                     </label>
+                     <item>Arranged alphabetically by subject</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Music</emph>
+                     </label>
+                     <item>Arranged alphabetically by composer, then by title</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Financial</emph>
+                     </label>
+                     <item>Arranged chronologically</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Programs</emph>
+                     </label>
+                     <item>Arranged alphabetically by organization or event</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Scrapbooks</emph>
+                     </label>
+                     <item>Arranged alphabetically by subject</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Miscellany</emph>
+                     </label>
+                     <item>Arranged alphabetically by subject</item>
+                  </defitem>
+               </list>
+            </arrangement>
+            <c02 id="mferd115e561" level="subseries">
+               <did>
+                  <container type="box-folder">1/17-26</container>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a" id="CL10021001">Correspondence</unittitle>
+               </did>
+               <c03 id="mferd115e569" level="file">
+                  <did>
+                     <container type="box-folder">1/17</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_1">Beaulieu-Marconnay, Baron von, 1856</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e575" level="file">
+                  <did>
+                     <container type="box-folder">1/18-19</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_2">Heimburg, Marie von, 1874, 1883</unittitle>
+                     <note encodinganalog="500$a">
+                        <p>Note: Also, a letter written by Leopold Damrosch to a "friend" in Breslau, 1872</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd115e584" level="file">
+                  <did>
+                     <container type="box-folder">1/20</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_3">Lichtenberg, Theodor, 1871</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e590" level="file">
+                  <did>
+                     <container type="box-folder">1/21</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_4">Liszt, Franz, 1857 [photographic reproductions and negatives of letter and translation]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e596" level="file">
+                  <did>
+                     <container type="box-folder">1/22</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_5">Miscellaneous, 1856-81 [typewritten transcript of handwritten letters in German; originals filed under author's name]</unittitle>
+                     <note encodinganalog="505$a">
+                        <p>Contents:</p>
+                        <list>
+                           <item>Beaulieu-Marconnay, Baron von, 1856</item>
+                           <item>Lichtenberg, Theodor, 1871</item>
+                           <item>Praller, Friedrich, 1880</item>
+                           <item>Ritter, F. L., 1881</item>
+                           <item>Unidentified [illegible]</item>
+                        </list>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd115e616" level="file">
+                  <did>
+                     <container type="box-folder">8/1</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_6">New York Sun, 1876 [rolled]. Letters from Leopold Damrosch in Bayreuth [facsimiles from <emph render="italic">New York Sun</emph>, dated 1876 Aug. 13, 18, 23, 26, and Sept. 3)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e625" level="file">
+                  <did>
+                     <container type="box-folder">1/23</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_7">Philharmonic Society of New York, 1875-1877, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e631" level="file">
+                  <did>
+                     <container type="box-folder">1/24</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_8">[Praller, Friedrich?], 1870</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e637" level="file">
+                  <did>
+                     <container type="box-folder">1/25</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_9">Ritter, F. L., n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e643" level="file">
+                  <did>
+                     <container type="box-folder">1/26</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Correspondence_CL10021001_D3_10">Unidentified, 1857-1871</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e649" level="subseries">
+               <did>
+                  <container type="box-folder">2/1-2</container>
+                  <unittitle encodinganalog="245$a" id="CL10021002">Writings</unittitle>
+               </did>
+               <c03 id="mferd115e655" level="file">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Writings_CL10021002_D3_1">Manuscript notebook, 1862 [Poetry for possible settings; some notes on music]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e661" level="file">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Writings_CL10021002_D3_2">On Beethoven's <emph render="italic">Egmont</emph> overture, n.d.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e670" level="subseries">
+               <did>
+                  <container type="box-folder">2/3-4</container>
+                  <container type="box-folder">10/1-2</container>
+                  <unittitle encodinganalog="245$a" id="CL10021003">Music</unittitle>
+               </did>
+               <c03 id="mferd115e678" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu007002_Music_CL10021003_D3_1">
+                        <persname encodinganalog="100$a" role="cmp" normal="Berlioz, Hector">Berlioz, Hector</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd115e685" level="file">
+                     <did>
+                        <container type="box-folder">2/3</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10021003_D4_1">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Requiem</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Piano-vocal score with Leopold Damrosch's annotations (G. Schirmer, 1880)</extent>
+                        </physdesc>
+                        <note encodinganalog="500$a">
+                           <p>Arranged by Leopold Damrosch</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e702" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu007002_Music_CL10021003_D3_2">
+                        <persname encodinganalog="100$a" role="cmp" normal="Damrosch, Leopold">Damrosch, Leopold</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd115e709" level="file">
+                     <did>
+                        <container type="box-folder">10/1</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10021003_D4_2">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Bar not up the heart too closely</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Piano-vocal score (G. Schirmer, 1876)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e723" level="file">
+                     <did>
+                        <container type="box-folder">2/4</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10021003_D4_3">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Melodie für Franz</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Holograph sketch, 1869</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e737" level="file">
+                     <did>
+                        <container type="box-folder">10/2</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10021003_D4_4">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Mother dear, this cavalier</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Piano-vocal score (G. Schirmer, 1876)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd115e751" level="subseries">
+               <did>
+                  <container type="box-folder">2/5</container>
+                  <unittitle encodinganalog="245$a" id="CL10021004">Financial</unittitle>
+               </did>
+               <c03 id="mferd115e757" level="file">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Financial_CL10021004_D3_1">Receipts [3 items]</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e763" level="subseries">
+               <did>
+                  <container type="box-folder">2/6-8</container>
+                  <container type="box-folder">10/3</container>
+                  <unittitle encodinganalog="245$a" id="CL10021005">Programs</unittitle>
+               </did>
+               <c03 id="mferd115e771" level="file">
+                  <did>
+                     <container type="box-folder">10/3</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10021005_D3_1">Arion Society of New York, 1879</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e777" level="file">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10021005_D3_2">Beethoven's grosses Musikfest, 1870</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e783" level="file">
+                  <did>
+                     <container type="box-folder">2/7</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10021005_D3_3">Breslauer Orchester, 1871</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e789" level="file">
+                  <did>
+                     <container type="box-folder">2/8</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10021005_D3_4">The Damrosch Concert, St. Joseph Gazette, 1883 May 26</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e795" level="subseries">
+               <did>
+                  <container type="box-folder">2/9</container>
+                  <container type="box-folder">9/1</container>
+                  <unittitle encodinganalog="245$a" id="CL10021006">Scrapbooks</unittitle>
+               </did>
+               <c03 id="mferd115e803" level="file">
+                  <did>
+                     <container type="box-folder">2/9</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Scrapbooks_CL10021006_D3_1">"Nachlass" scrapbook, 1871-1879, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e809" level="file">
+                  <did>
+                     <container type="box-folder">9/1 </container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Scrapbooks_CL10021006_D3_2">Loose clippings from "Nachlass" scrapbook, 1876-1879, n.d.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e815" level="subseries">
+               <did>
+                  <container type="box-folder">2/10</container>
+                  <container type="box-folder">10/4-5</container>
+                  <unittitle encodinganalog="245$a" id="CL10021007">Miscellany</unittitle>
+               </did>
+               <c03 id="mferd115e823" level="file">
+                  <did>
+                     <container type="box-folder">10/4</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Miscellany_CL10021007_D3_1">Envelopes with notes on materials [copies of these are in corresponding folders]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e829" level="file">
+                  <did>
+                     <container type="box-folder">2/10</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Miscellany_CL10021007_D3_2">Lock of Leopold's hair</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e835" level="file">
+                  <did>
+                     <container type="box-folder">10/5</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Miscellany_CL10021007_D3_3">Obituary notice of Leopold Damrosch, 1885</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd115e841" level="series">
+            <did>
+               <container type="box">2-7</container>
+               <container type="box">8</container>
+               <container type="box">10</container>
+               <unittitle encodinganalog="245$a" id="CL1003">Papers of Frank Damrosch and other Damrosch Family</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>A large part of the collection consists of the papers of Frank Damrosch and other Damrosch family members.  The correspondence comprises several hundred letters, with some of the more important correspondents being Harold Bauer, Andrew Carnegie, Edward Elgar, Percy Grainger, Josef Hofmann, Gustav Mahler, and Sergei Rachmaninov.  Many of the letters of Frank Damrosch to his family were destroyed in the 1887 fire, mentioned above; there are, however, a long series of letters to his wife Hetty from Europe in 1891.  Any letters to or from correspondents who wrote to both Frank Damrosch and other family members are filed together with Frank's correspondence.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement within subseries is as follows:</p>
+               <list type="deflist">
+                  <defitem>
+                     <label>
+                        <emph render="bold">Correspondence of Frank Damrosch</emph>
+                     </label>
+                     <item>Arranged alphabetically by correspondent, then chronologically</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Correspondence of other Damrosch Family</emph>
+                     </label>
+                     <item>Arranged alphabetically by author</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Writings</emph>
+                     </label>
+                     <item>Arranged alphabetically by author, then title</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Music</emph>
+                     </label>
+                     <item>Arranged alphabetically by composer, then title</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Financial</emph>
+                     </label>
+                     <item>Arranged chronologically by date</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Legal papers</emph>
+                     </label>
+                     <item>Arranged alphabetically by subject</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Programs</emph>
+                     </label>
+                     <item>Arranged alphabetically by organization or event then chronologically</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Scrapbooks</emph>
+                     </label>
+                     <item>Arranged alphabetically by subject</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Artwork by Frank Damrosch</emph>
+                     </label>
+                     <item>Arranged alphabetically by title then chronologically</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Photographs</emph>
+                     </label>
+                     <item>Arranged alphabetically by subject</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Subject file</emph>
+                     </label>
+                     <item>Arranged alphabetically by subject</item>
+                  </defitem>
+                  <defitem>
+                     <label>
+                        <emph render="bold">Papers of the Institute of Musical Art</emph>
+                     </label>
+                     <item>Arranged alphabetically by subject, then chronologically</item>
+                  </defitem>
+               </list>
+            </arrangement>
+            <c02 id="mferd115e955" level="subseries">
+               <did>
+                  <container type="box">2-5</container>
+                  <unittitle encodinganalog="245$a" id="CL10031001">Correspondence of Frank Damrosch</unittitle>
+               </did>
+               <c03 id="mferd115e961" level="file">
+                  <did>
+                     <container type="box-folder">2/11</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_1">"A-C" miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e967" level="file">
+                  <did>
+                     <container type="box-folder">2/12</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_2">Auer, Leopold, 1927-29</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e973" level="file">
+                  <did>
+                     <container type="box-folder">2/13</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_3">Barrymore, Ethel, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e979" level="file">
+                  <did>
+                     <container type="box-folder">2/14</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_4">Bauer, Harold, 1923-37</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e985" level="file">
+                  <did>
+                     <container type="box-folder">2/15</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_5">Bispham, David, 1901, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e991" level="file">
+                  <did>
+                     <container type="box-folder">2/16</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_6">Bloch, Ernest, 1917.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e997" level="file">
+                  <did>
+                     <container type="box-folder">2/17</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_7">Budanzky, Artur, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1003" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_8">Boericke &amp; Tafel  <emph render="italic">see</emph>  People's Choral Union</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1010" level="file">
+                  <did>
+                     <container type="box-folder">2/18</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_9">Bonci, Alessandro, 1910</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1016" level="file">
+                  <did>
+                     <container type="box-folder">2/19</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_10">Brandt, Marianne, 1889-1921</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1023" level="file">
+                  <did>
+                     <container type="box-folder">2/20</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_11">Brewer, Horatio, 1905</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1029" level="file">
+                  <did>
+                     <container type="box-folder">2/21</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_12">Brockway, Howard, 1912</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1035" level="file">
+                  <did>
+                     <container type="box-folder">2/22</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_13">Bülow, Marie von, 1930</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1041" level="file">
+                  <did>
+                     <container type="box-folder">2/23</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_14">Campanini, Italo, 1888</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1047" level="file">
+                  <did>
+                     <container type="box-folder">2/24</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_15">Carl, William C., 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1053" level="file">
+                  <did>
+                     <container type="box-folder">2/25</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_16">Carnegie, Andrew, 1892-1912, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1059" level="file">
+                  <did>
+                     <container type="box-folder">2/26 </container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_17">Chadwick, George Whitefield, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1065" level="file">
+                  <did>
+                     <container type="box-folder">2/27</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_18">Christians, Rudolph, 1914</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1071" level="file">
+                  <did>
+                     <container type="box-folder">2/28</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_19">Cooper Union, 1893-1900</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1077" level="file">
+                  <did>
+                     <container type="box-folder">3/1</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_20">"D-G" miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1083" level="file">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_21">Dalmores, Charles, 1918</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1090" level="file">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_22">Damrosch, Clara, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1096" level="file">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_23">Damrosch, Helene, 1893-1904</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1102" level="file">
+                  <did>
+                     <container type="box-folder">3/5-11</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_24">Damrosch, Hetty Mosenthal, 1887, 1891, 1901</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1108" level="file">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_25">Damrosch, Jeannette, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1114" level="file">
+                  <did>
+                     <container type="box-folder">3/13</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_26">Damrosch, "Uncle Juju," 1887</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1120" level="file">
+                  <did>
+                     <container type="box-folder">3/14</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_27">Damrosch, Walter, 1936</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1126" level="file">
+                  <did>
+                     <container type="box-folder">3/15</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_28">Dessoff, Margarete, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1132" level="file">
+                  <did>
+                     <container type="box-folder">3/16</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_29">Dickinson, Clarence, 1917</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1138" level="file">
+                  <did>
+                     <container type="box-folder">3/17</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_30">Dippel, A., 1901, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1144" level="file">
+                  <did>
+                     <container type="box-folder">3/18</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_31">[Dunham?], 1913</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1150" level="file">
+                  <did>
+                     <container type="box-folder">3/19</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_32">Elgar, Edward, 1904-17, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1157" level="file">
+                  <did>
+                     <container type="box-folder">3/20</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_33">Elwes, Gervase and Winifred, 1914, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1163" level="file">
+                  <did>
+                     <container type="box-folder">3/21</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_34">Erskine, John, 1935-36</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1169" level="file">
+                  <did>
+                     <container type="box-folder">3/22</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_35">Feurstel, Meta, 1888</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1175" level="file">
+                  <did>
+                     <container type="box-folder">3/23</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_36">Finley, John H., 1907</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1181" level="file">
+                  <did>
+                     <container type="box-folder">3/24</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_37">Fischer, Emil, 1908</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1187" level="file">
+                  <did>
+                     <container type="box-folder">3/25</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_38">Fischer, Karl, 1901</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1193" level="file">
+                  <did>
+                     <container type="box-folder">3/26</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_39">Flagler, Harry Harkness, 1906-42, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1199" level="file">
+                  <did>
+                     <container type="box-folder">3/27</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_40">Friedberg, Carl, 1929-1934</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1205" level="file">
+                  <did>
+                     <container type="box-folder">3/28</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_41">Frohman, Daniel, 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1211" level="file">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_42">Gabrilowitsch, Ossip, 1908-29</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1217" level="file">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_43">Ganz, Rudolph, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1224" level="file">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_44">Gericke, Wilhelm, 1920-25</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1230" level="file">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_45">Gifford, R. Swain, 1897</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1236" level="file">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_46">Glazunov, Alexander, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1242" level="file">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_47">Gluck, Alma, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1248" level="file">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_48">Goetschius, Percy, 1934-37</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1254" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_49">Goodale, John M.  <emph render="italic">see</emph>  People's Choral Union</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1261" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_50">Goodson, Katharine  <emph render="italic">see</emph>  Hinton, Arthur and Katharine</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1268" level="file">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_51">Gordon, Jacques, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1274" level="file">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_52">Gorgoza, Emilio de, 1899</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1280" level="file">
+                  <did>
+                     <container type="box-folder">4/10</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_53">Grainger, Percy, 1914-38, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1286" level="file">
+                  <did>
+                     <container type="box-folder">4/11</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_54">Greene, Plunket, 1901-05</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1293" level="file">
+                  <did>
+                     <container type="box-folder">4/12</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_55">Grenfell, Wilfred, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1299" level="file">
+                  <did>
+                     <container type="box-folder">4/13</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_56">"H-M" miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1305" level="file">
+                  <did>
+                     <container type="box-folder">4/14</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_57">Hadley, Henry, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1311" level="file">
+                  <did>
+                     <container type="box-folder">4/15</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_58">Hadow, William Henry, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1317" level="file">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_59">Hampton, Wade, 1927</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1323" level="file">
+                  <did>
+                     <container type="box-folder">4/17</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_60">Hanna, C. Augustus, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1329" level="file">
+                  <did>
+                     <container type="box-folder">4/18</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_61">Henderson, William James, 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1335" level="file">
+                  <did>
+                     <container type="box-folder">4/19</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_62">Henschel, George, 1905</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1341" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_63">Hewitt, Abram S.  <emph render="italic">see</emph>  Cooper Union</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1348" level="file">
+                  <did>
+                     <container type="box-folder">4/20</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_64">Higginson, Henry L., 1896</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1354" level="file">
+                  <did>
+                     <container type="box-folder">4/21</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_65">Hinton, Arthur and Katharine, 1908-09</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1361" level="file">
+                  <did>
+                     <container type="box-folder">4/22</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_66">Hofmann, Josef, 1908-18</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1367" level="file">
+                  <did>
+                     <container type="box-folder">4/23</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_67">Hoover, Herbert, 1921</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1373" level="file">
+                  <did>
+                     <container type="box-folder">4/24</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_68">Hutcheson, Ernest, 1929-36</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1379" level="file">
+                  <did>
+                     <container type="box-folder">4/25</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_69">Indy, Vincent d', 1921</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1385" level="file">
+                  <did>
+                     <container type="box-folder">4/26</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_70">Joachim, Joseph, 1898, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1391" level="file">
+                  <did>
+                     <container type="box-folder">4/27</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_71">Johnson, Edward, 1935</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1397" level="file">
+                  <did>
+                     <container type="box-folder">4/28</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_72">Juilliard School of Music, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1403" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_73">Kennedy, Edith Wynne  <emph render="italic">see</emph>  Matthison, Edith</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1410" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_74">Kilpatrick, William D.  <emph render="italic">see</emph>  People's Choral Union</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1417" level="file">
+                  <did>
+                     <container type="box-folder">4/29</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_75">Kipling, Rudyard, 1896</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1423" level="file">
+                  <did>
+                     <container type="box-folder">4/30</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_76">Knott, Stuart, 1892, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1430" level="file">
+                  <did>
+                     <container type="box-folder">4/31</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_77">Lehmann, Lilli, 1881-26, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1436" level="file">
+                  <did>
+                     <container type="box-folder">4/32</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_78">Loeb, James, 1900-29</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1442" level="file">
+                  <did>
+                     <container type="box-folder">4/33</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_79">MacDowell, Edward, 1896, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1448" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_80">Mackintosh, Sarah May  <emph render="italic">see</emph>  People's Choral Union</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1455" level="file">
+                  <did>
+                     <container type="box-folder">4/34</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_81">
+                        <emph render="italic">Mail and Express</emph>, 1897-98</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1464" level="file">
+                  <did>
+                     <container type="box-folder">4/35</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_82">Mahler, Gustav, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1470" level="file">
+                  <did>
+                     <container type="box-folder">4/36</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_83">Mannes, David and Clara, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1476" level="file">
+                  <did>
+                     <container type="box-folder">4/37</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_84">Marteaux, Henri, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1482" level="file">
+                  <did>
+                     <container type="box-folder">4/38</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_85">Matthison, Edith Wynne Kennedy, 1917</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1488" level="file">
+                  <did>
+                     <container type="box-folder">4/39</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_86">Melba, Nellie, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1494" level="file">
+                  <did>
+                     <container type="box-folder">4/40</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_87">Mendelssohn Glee Club, N.Y., 1904</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1501" level="file">
+                  <did>
+                     <container type="box-folder">4/41</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_88">Mosenthal, Joseph, 1891</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1507" level="file">
+                  <did>
+                     <container type="box-folder">4/42</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_89">Moszkowski, Moritz, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1513" level="file">
+                  <did>
+                     <container type="box-folder">4/43</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_90">Mottl, Felix, 1903-04</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1519" level="file">
+                  <did>
+                     <container type="box-folder">4/44</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_91">Muck, Karl, 1908</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1525" level="file">
+                  <did>
+                     <container type="box-folder">4/45</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_92">"N-R" miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1531" level="file">
+                  <did>
+                     <container type="box-folder">4/46</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_93">Nansen, Fridtjof, 1917</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1537" level="file">
+                  <did>
+                     <container type="box-folder">4/47</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_94">New York City, 1889-1912</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1543" level="file">
+                  <did>
+                     <container type="box-folder">4/48</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_95">Nikisch, Arthur, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1549" level="file">
+                  <did>
+                     <container type="box-folder">4/49</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_96">Nordica, Lillian, 1898, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1555" level="file">
+                  <did>
+                     <container type="box-folder">4/50</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_97">Parker, Horatio, 1913</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1561" level="file">
+                  <did>
+                     <container type="box-folder">4/51</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_98">Peabody, George Foster, 1900</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1568" level="file">
+                  <did>
+                     <container type="box-folder">4/52</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_99">People's Choral Union, 1895-1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1574" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_100">People's Singing Classes  <emph render="italic">see</emph>  People's Choral Union</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1581" level="file">
+                  <did>
+                     <container type="box-folder">4/53</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_101">Philipp, Isador, 1915</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1587" level="file">
+                  <did>
+                     <container type="box-folder">4/54</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_102">Pierné, Gabriel, 1906-30</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1593" level="file">
+                  <did>
+                     <container type="box-folder">4/55</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_103">Poincaré, Gustave, 1904</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1599" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_104">Prince, Benj[amin]  <emph render="italic">see</emph>  Mendelssohn Glee Club</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1606" level="file">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_105">Rachmaninoff, Sergei, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1612" level="file">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_106">Randolph, Harold, 1905, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1618" level="file">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_107">Riddle, George, 1901</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1624" level="file">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_108">Röntgen, Julius, 1904-05</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1630" level="file">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_109">Rooy, Anton Van, 1906</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1637" level="file">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_110">"S-V" miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1643" level="file">
+                  <did>
+                     <container type="box-folder">5/7</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_111">Safonoff, Wassily, 1905</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1649" level="file">
+                  <did>
+                     <container type="box-folder">5/8</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_112">Schumann-Heink, Ernestine, 1920, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1655" level="file">
+                  <did>
+                     <container type="box-folder">5/9</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_113">Scotti, Antonio, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1661" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_114">Seymour, Charles  <emph render="italic">see</emph>  Yale University</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1668" level="file">
+                  <did>
+                     <container type="box-folder">5/10</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_115">Sgambati, Giovanni, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1674" level="file">
+                  <did>
+                     <container type="box-folder">5/11</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_116">Sousa, John Philip, 1907</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1680" level="file">
+                  <did>
+                     <container type="box-folder">5/12</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_117">Spalding, Albert, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1686" level="file">
+                  <did>
+                     <container type="box-folder">5/13</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_118">Sternberger, Maurice, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1692" level="file">
+                  <did>
+                     <container type="box-folder">5/14</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_119">Stock, Frederick A., 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1698" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_120">Stokes, Anson P.  <emph render="italic">see</emph>  Yale University</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1706" level="file">
+                  <did>
+                     <container type="box-folder">5/15</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_121">Stokowski, Leopold, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1712" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_122">Swift, Samuel  <emph render="italic">see  Mail and Express</emph>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1719" level="file">
+                  <did>
+                     <container type="box-folder">5/16</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_123">Talbot, Horace, 1927</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1725" level="file">
+                  <did>
+                     <container type="box-folder">5/17</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_124">Tee Van, Helen Damrosch, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1731" level="file">
+                  <did>
+                     <container type="box-folder">5/18</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_125">Ternina, Milka, 1910, n.d. (includes etching by A. Siebert, München Alterhof)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1737" level="file">
+                  <did>
+                     <container type="box-folder">5/19</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_126">Thomas, Blanche K., 1928</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1743" level="file">
+                  <did>
+                     <container type="box-folder">5/20</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_127">Thompson, Randall, 1937-42</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1749" level="file">
+                  <did>
+                     <container type="box-folder">5/21</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_128">Thun-Hohenstein, Marie, 1936-37</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1755" level="file">
+                  <did>
+                     <container type="box-folder">5/22</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_129">Tiffany, Louis, 1900</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1761" level="file">
+                  <did>
+                     <container type="box-folder">5/23</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_130">Unidentified</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1767" level="file">
+                  <did>
+                     <container type="box-folder">5/24</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_131">United States, 1910-1934</unittitle>
+                     <note encodinganalog="505$a">
+                        <p>Contents:</p>
+                        <list>
+                           <item>Army Band, 1934</item>
+                           <item>Department of State, 1917</item>
+                           <item>Secretary of the Navy, 1910</item>
+                        </list>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1784" level="file">
+                  <did>
+                     <container type="box-folder">5/25</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_132">"W-Z" miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1790" level="file">
+                  <did>
+                     <container type="box-folder">5/26</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_133">Wanamaker, Thomas B., n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1796" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_134">Warburg, Felix M.  <emph render="italic">see</emph>  Juilliard School of Music</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1803" level="file">
+                  <did>
+                     <container type="box-folder">5/27</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_135">Warburg, Nina, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1809" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_136">Warburg, Paul M.  <emph render="italic">see</emph>  Juilliard School of Music</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1816" level="file">
+                  <did>
+                     <container type="box-folder">5/28</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_137">Washington, Booker T., 1904</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1822" level="file">
+                  <did>
+                     <container type="box-folder">5/29</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_138">Webb, Creighton, 1912</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1828" level="file">
+                  <did>
+                     <container type="box-folder">5/30</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_139">Weir, J. Alden, 1912</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1834" level="file">
+                  <did>
+                     <container type="box-folder">5/31</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_140">Wells, Carolyn, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1840" level="file">
+                  <did>
+                     <container type="box-folder">5/32</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_141">Weiner, Edward F., 1879-81</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1846" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_142">Werle, Katherine  <emph render="italic">see</emph>  People's Choral Union</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1854" level="file">
+                  <did>
+                     <container type="box-folder">5/33</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_143">Wiggin, Kate Douglas, 1909</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1860" level="file">
+                  <did>
+                     <container type="box-folder">5/34</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_144">Wolf-Ferrari, Ermanno, 1908</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1866" level="file">
+                  <did>
+                     <container type="box-folder">5/35</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_145">Wolle, J. Fred, 1900</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1872" level="file">
+                  <did>
+                     <container type="box-folder">5/36</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_146">Wüllner, Franz, 1908</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1878" level="file">
+                  <did>
+                     <container type="box-folder">5/37</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_147">Yale University, 1904-37</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1884" level="file">
+                  <did>
+                     <container type="box-folder">5/38</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_Frank_Damrosch_CL10031001_D3_148">Ysaÿe, Eugène, n.d.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e1890" level="subseries">
+               <did>
+                  <container type="box">5-6</container>
+                  <unittitle encodinganalog="245$a" id="CL10031002">Correspondence of other Damrosch Family</unittitle>
+               </did>
+               <c03 id="mferd115e1896" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_1">Adams, Frank S.  <emph render="italic">see  New York Times</emph>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1903" level="file">
+                  <did>
+                     <container type="box-folder">5/39</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_2">Aiken, Robert, 1919</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1909" level="file">
+                  <did>
+                     <container type="box-folder">5/40</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_3">Aldrich, Markska, 1908</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1915" level="file">
+                  <did>
+                     <container type="box-folder">5/41</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_4">Alten, Bella, 1905</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1921" level="file">
+                  <did>
+                     <container type="box-folder">5/42</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_5">Barrère, Georges, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1927" level="file">
+                  <did>
+                     <container type="box-folder">5/43</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_6">Bornn, Hugo, 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1933" level="file">
+                  <did>
+                     <container type="box-folder">5/44</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_7">Carreño, Teresa, 1910</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1939" level="file">
+                  <did>
+                     <container type="box-folder">5/45</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_8">Casals, Pablo, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1945" level="file">
+                  <did>
+                     <container type="box-folder">5/46</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_9">Chiang Kai-Shek, Madame, 1947</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1951" level="file">
+                  <did>
+                     <container type="box-folder">5/47</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_10">Clark-Kerr, Archibald, 1947</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1958" level="file">
+                  <did>
+                     <container type="box-folder">5/48</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_11">Damrosch, Frank Jr., 1912</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1964" level="file">
+                  <did>
+                     <container type="box-folder">5/49-51</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_12">Damrosch, Helene, 1888, 1889, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1970" level="file">
+                  <did>
+                     <container type="box-folder">5/52</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_13">Damrosch, Hetty Mosenthal, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1976" level="file">
+                  <did>
+                     <container type="box-folder">5/53</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_14">Damrosch, Walter, 1929-34, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1982" level="file">
+                  <did>
+                     <container type="box-folder">5/54</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_15">Dethier, Edouard, 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1988" level="file">
+                  <did>
+                     <container type="box-folder">6/1</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_16">Engel, Carl, 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e1994" level="file">
+                  <did>
+                     <container type="box-folder">6/2</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_17">Fremstad, Olive, 1910, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2000" level="file">
+                  <did>
+                     <container type="box-folder">6/3</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_18">Goodrich, Wallace, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2006" level="file">
+                  <did>
+                     <container type="box-folder">6/4</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_19">Heimburg, Marie von, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2012" level="file">
+                  <did>
+                     <container type="box-folder">6/5</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_20">Koussevitzky, Serge, 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2018" level="file">
+                  <did>
+                     <container type="box-folder">6/6</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_21">Krehbiel, Henry Edward, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2025" level="file">
+                  <did>
+                     <container type="box-folder">6/7</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_22">Leschetizky, Theodore, 1906</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2031" level="file">
+                  <did>
+                     <container type="box-folder">6/8</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_23">Mannes, Clara Damrosch, 1888-89, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2037" level="file">
+                  <did>
+                     <container type="box-folder">6/9</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_24">Mason, Daniel Gregory, 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2043" level="file">
+                  <did>
+                     <container type="box-folder">6/10</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_25">Mitchell, Grant, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2049" level="file">
+                  <did>
+                     <container type="box-folder">6/11</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_26">
+                        <emph render="italic">New York Times</emph>, 1959</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2058" level="file">
+                  <did>
+                     <container type="box-folder">6/12</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_27">Paderewski, Ignacy Jan, 1908</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2064" level="file">
+                  <did>
+                     <container type="box-folder">6/13</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_28">Pendleton, Lillian Blauvelt, 1903</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2070" level="file">
+                  <did>
+                     <container type="box-folder">6/14</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_29">Powell, John, 1915</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2076" level="file">
+                  <did>
+                     <container type="box-folder">6/15</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_30">Pratt, Waldo Selden, 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2082" level="file">
+                  <did>
+                     <container type="box-folder">6/16</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_31">Reese, Gustave, 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2088" level="file">
+                  <did>
+                     <container type="box-folder">6/17</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_32">Reszke, Jean de, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2095" level="file">
+                  <did>
+                     <container type="box-folder">6/18</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_33">Rockefeller, John D. Jr., 1910-37</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2101" level="file">
+                  <did>
+                     <container type="box-folder">6/19</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_34">Rodin, Auguste, 1901</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2107" level="file">
+                  <did>
+                     <container type="box-folder">6/20</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_35">Scharwenka, Xaver, 1910</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2113" level="file">
+                  <did>
+                     <container type="box-folder">6/21</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_36">Schuman, William, 1946</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2119" level="file">
+                  <did>
+                     <container type="box-folder">6/22-23</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_37">Seymour, Elizabeth Damrosch, 1888-89, 1929</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2125" level="file">
+                  <did>
+                     <container type="box-folder">6/24</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_38">Sheridan, Frank 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2131" level="file">
+                  <did>
+                     <container type="box-folder">6/25</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_39">Thompson, Oscar, 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2137" level="file">
+                  <did>
+                     <container type="box-folder">6/26</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_40">Unidentified, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2143" level="file">
+                  <did>
+                     <container type="box-folder">6/27</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_41">Westminster Choir College, 1942</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2149" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Correspondence_of_other_Damrosch_Family_CL10031002_D3_42">Williamson, John Finlay  <emph render="italic">see</emph>  Westminster Choir College</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2156" level="subseries">
+               <did>
+                  <container type="box-folder">6/28-32</container>
+                  <unittitle encodinganalog="245$a" id="CL10031003">Writings</unittitle>
+               </did>
+               <c03 id="mferd115e2162" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu007002_Writings_CL10031003_D3_1">
+                        <persname encodinganalog="100$a" role="aut" normal="Damrosch, Frank">Damrosch, Frank</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd115e2169" level="file">
+                     <did>
+                        <container type="box-folder">6/28</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Writings_CL10031003_D4_1">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Hail orpheus... [poem]</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e2178" level="file">
+                     <did>
+                        <container type="box-folder">6/29-31</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Writings_CL10031003_D4_2">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Some essentials in the teaching of music</title>
+                        </unittitle>
+                        <note encodinganalog="505$a">
+                           <p>Contents:</p>
+                           <list>
+                              <item>Manuscript</item>
+                              <item>Typescript</item>
+                              <item>Untitled poem, n.d. [signed by Frank, Walter and Marie]</item>
+                           </list>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e2197" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu007002_Writings_CL10031003_D3_2">
+                        <persname encodinganalog="100$a" role="aut" normal="Damrosch, Walter">Damrosch, Walter</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd115e2204" level="file">
+                     <did>
+                        <container type="box-folder">6/32</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Writings_CL10031003_D4_3">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Scarlet Letter [libretto] (Transatlantic, 1906)</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2213" level="subseries">
+               <did>
+                  <container type="box-folder">6/33-36</container>
+                  <container type="box-folder">10/6-7</container>
+                  <unittitle encodinganalog="245$a" id="CL10031004">Music</unittitle>
+               </did>
+               <c03 id="mferd115e2221" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu007002_Music_CL10031004_D3_1">
+                        <persname encodinganalog="100$a" role="cmp" normal="Damrosch, Frank">Damrosch, Frank</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd115e2228" level="file">
+                     <did>
+                        <container type="box-folder">10/6</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10031004_D4_1">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Her answer</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Piano-vocal score, holograph, 1887</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e2242" level="file">
+                     <did>
+                        <container type="box-folder">6/33</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10031004_D4_2">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Right makes might (mixed voices, 4 parts)</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Chorus score (G. Schirmer, 1939)</extent>
+                        </physdesc>
+                        <note encodinganalog="500$a">
+                           <p>Arranged by Kenneth Downing</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e2259" level="file">
+                     <did>
+                        <container type="box-folder">6/34</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10031004_D4_3">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Right makes might (women's voices, 3 parts)</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Chorus score (G. Schirmer, 1939)</extent>
+                        </physdesc>
+                        <note encodinganalog="500$a">
+                           <p>Arranged by Kenneth Downing</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e2276" level="file">
+                     <did>
+                        <container type="box-folder">6/35</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10031004_D4_4">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Sea, mountain, and prairie (mixed voices, 4 parts)</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Chorus score (G. Schirmer, 1900)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd115e2290" level="file">
+                     <did>
+                        <container type="box-folder">6/36</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10031004_D4_5">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Song of New York (unison voices, optional second part)</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Chorus score (G. Schirmer, 1903)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd115e2304" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="mu007002_Music_CL10031004_D3_2">
+                        <persname encodinganalog="100$a" role="arr" normal="Guilmant, Alex">Guilmant, Alex</persname>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd115e2311" level="file">
+                     <did>
+                        <container type="box-folder">10/7</container>
+                        <unittitle encodinganalog="245$a" id="mu007002_Music_CL10031004_D4_6">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                                  altrender="normal">Trope ou séquence en l'honneur de Ste. Cecile</title>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">Piano-vocal score, holograph, n.d.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2325" level="subseries">
+               <did>
+                  <container type="box-folder">6/37</container>
+                  <unittitle encodinganalog="245$a" id="CL10031005">Financial</unittitle>
+               </did>
+               <c03 id="mferd115e2331" level="file">
+                  <did>
+                     <container type="box-folder">6/37</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Financial_CL10031005_D3_1">Receipt, Museum of the City of New York (1 item)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2337" level="subseries">
+               <did>
+                  <container type="box-folder">6/38-40</container>
+                  <container type="box-folder">10/8-10</container>
+                  <unittitle encodinganalog="245$a" id="CL10031006">Legal Papers</unittitle>
+               </did>
+               <c03 id="mferd115e2345" level="file">
+                  <did>
+                     <container type="box-folder">6/38</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Legal_Papers_CL10031006_D3_1">Birth certificate, Helene Damrosch, 1836</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2351" level="file">
+                  <did>
+                     <container type="box-folder">10/8</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Legal_Papers_CL10031006_D3_2">Colorado National Guard certificate, 1885</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2357" level="file">
+                  <did>
+                     <container type="box-folder">10/9</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Legal_Papers_CL10031006_D3_3">Passport: Damrosch, Frank, 1897</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2363" level="file">
+                  <did>
+                     <container type="box-folder">6/39</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Legal_Papers_CL10031006_D3_4">Passport: Damrosch, Frank and Walter, 1891</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2369" level="file">
+                  <did>
+                     <container type="box-folder">10/10</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Legal_Papers_CL10031006_D3_5">Passport: Damrosch, Helen, 1914</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2375" level="file">
+                  <did>
+                     <container type="box-folder">6/40</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Legal_Papers_CL10031006_D3_6">Wedding announcement, Frank and Hetty Damrosch, 1888</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2381" level="subseries">
+               <did>
+                  <container type="box-folder">7/1-16</container>
+                  <container type="box-folder">10/11-13</container>
+                  <unittitle encodinganalog="245$a" id="CL10031007">Programs</unittitle>
+               </did>
+               <c03 id="mferd115e2389" level="file">
+                  <did>
+                     <container type="box-folder">7/1</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_1">Chamber Orchestra of Boston, 1931</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2395" level="file">
+                  <did>
+                     <container type="box-folder">7/2</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_2">Walter Damrosch, Golden Jubilee, 1935</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2401" level="file">
+                  <did>
+                     <container type="box-folder">7/3</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_3">Denver Chorus Club, 1883</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2407" level="file">
+                  <did>
+                     <container type="box-folder">7/4</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_4">Dinner given in honor of Signor Giulio Gatti-Casazza and Signor Arturo Toscanini, 1908</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2413" level="file">
+                  <did>
+                     <container type="box-folder">10/11</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_5">Festival of the Trinity Choirs, 1867</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2419" level="file">
+                  <did>
+                     <container type="box-folder">10/12</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_6">Fourth Symphony Concert for Young People, 1906</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2425" level="file">
+                  <did>
+                     <container type="box-folder">7/5</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_7">Kneisel Quartet, 25th anniversary supper, 1885</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2431" level="file">
+                  <did>
+                     <container type="box-folder">7/6</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_8">Kreisler's fiftieth birthday dinner, 1925</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2437" level="file">
+                  <did>
+                     <container type="box-folder">7/7</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_9">Mendelssohn Glee Club, 1906</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2443" level="file">
+                  <did>
+                     <container type="box-folder">7/8</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_10">Metropolitan Opera House, <emph render="italic">The man without a country</emph>, 1937</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2453" level="file">
+                  <did>
+                     <container type="box-folder">7/9</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_11">New York Symphony, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2459" level="file">
+                  <did>
+                     <container type="box-folder">10/13</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_12">Oratorio Society of New York, 90th anniversary dinner, 1963</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2465" level="file">
+                  <did>
+                     <container type="box-folder">7/10-14</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_13">People's Choral Union of New York, 1908, 1917, 1928 [Reunion dinner], 1929, 1941</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2471" level="file">
+                  <did>
+                     <container type="box-folder">7/15</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_14">Seidl, Anton, memorial services, 1898</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2477" level="file">
+                  <did>
+                     <container type="box-folder">7/16</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Programs_CL10031007_D3_15">Sembrich, Marcella, 25th anniversary dinner, 1909</unittitle>
+                     <note encodinganalog="500$a">
+                        <p>Note: Signatures of the following: Caruso, Enrico [signed caricature of Frank Damrosch]; Farrar, Geraldine; Krehbiel, H. E.; Mahler, Gustav; Scotti, Antonio; Sembrich, Marcella</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2486" level="subseries">
+               <did>
+                  <container type="box-folder">9/2-3</container>
+                  <unittitle encodinganalog="245$a" id="CL10031008">Scrapbooks</unittitle>
+               </did>
+               <c03 id="mferd115e2492" level="file">
+                  <did>
+                     <container type="box-folder">9/2</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Scrapbooks_CL10031008_D3_1">Frank Damrosch scrapbook [fragments and loose clippings], 1904-1935, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2498" level="file">
+                  <did>
+                     <container type="box-folder">9/3</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Scrapbooks_CL10031008_D3_2">Obituary scrapbook [fragments and loose clippings], 1937</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2505" level="subseries">
+               <did>
+                  <container type="box-folder">7/17-18</container>
+                  <container type="box-folder">10/14</container>
+                  <unittitle encodinganalog="245$a" id="CL10031009">Artwork by Frank Damrosch</unittitle>
+               </did>
+               <c03 id="mferd115e2513" level="file">
+                  <did>
+                     <container type="box-folder">10/14</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Artwork_by_Frank_Damrosch_CL10031009_D3_1">Central Park, n.d. (pencil sketch)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2519" level="file">
+                  <did>
+                     <container type="box-folder">7/17</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Artwork_by_Frank_Damrosch_CL10031009_D3_2">City of Chicago, n.d. (ink sketch)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2525" level="file">
+                  <did>
+                     <container type="box-folder">7/18</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Artwork_by_Frank_Damrosch_CL10031009_D3_3">Unidentified, 1874 (pencil sketch)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2531" level="subseries">
+               <did>
+                  <container type="box-folder">7/19-30</container>
+                  <container type="box-folder">8/2-3</container>
+                  <container type="box-folder">10/16</container>
+                  <unittitle encodinganalog="245$a" id="CL10031010">Photographs</unittitle>
+               </did>
+               <c03 id="mferd115e2541" level="file">
+                  <did>
+                     <container type="box-folder">7/19</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_1">Adams, Maude, 1906</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2547" level="file">
+                  <did>
+                     <container type="box-folder">8/2</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_2">Bohemians' New York Musician's Club Dinner for Frank Damrosch, 1929 [rolled]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2553" level="file">
+                  <did>
+                     <container type="box-folder">7/20</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_3">Burgstaller, Alois, n.d. (reproduction on postcard)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2559" level="file">
+                  <did>
+                     <container type="box-folder">7/21</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_4">Damrosch, Frank, California, 1895</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2565" level="file">
+                  <did>
+                     <container type="box-folder">7/22</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_5">Damrosch, Frank, Leopold, and Walter, n.d. (reproduction)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2571" level="file">
+                  <did>
+                     <container type="box-folder">7/23</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_6">Damrosch, Frank (portraits), 1884, n.d. [6 items]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2577" level="file">
+                  <did>
+                     <container type="box-folder">7/24</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_7">Damrosch monument, Woodlawn Cemetery, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2583" level="file">
+                  <did>
+                     <container type="box-folder">10/15</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_8">Institute of Musical Art, n.d.</unittitle>
+                     <note encodinganalog="500$a">
+                        <p>Note: Featured: Concert Hall; Dr. Damrosch's Room</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2592" level="file">
+                  <did>
+                     <container type="box-folder">8/3</container>
+                     <container type="box-folder">10/16</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_9">Hofmann, Josef, reception by Frederick T. Steinway, 1925 [rolled]</unittitle>
+                     <note encodinganalog="500$a">
+                        <p>Drawing which identifies by location selected individuals in above photograph located in BOX 10/16.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2603" level="file">
+                  <did>
+                     <container type="box-folder">7/25</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_10">Jever - Einst und jetzt - Schloss und Markplatz mit Hof von Oldenburg, n.d. (reproduction on postcard)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2610" level="file">
+                  <did>
+                     <container type="box-folder">7/26</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_11">Launching of the Liberty Ship <emph render="italic">Leopold Damrosch</emph>, n.d. [3 items]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2619" level="file">
+                  <did>
+                     <container type="box-folder">7/27</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_12">Mozart, n.d. (reproduction on postcard)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2625" level="file">
+                  <did>
+                     <container type="box-folder">7/28</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_13">St. Cecilia dinner, n.d. (positive and negative)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2631" level="file">
+                  <did>
+                     <container type="box-folder">7/29</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_14">Seal Harbor, Maine, n.d. (reproduction on postcard)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2637" level="file">
+                  <did>
+                     <container type="box-folder">7/30</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Photographs_CL10031010_D3_15">Visit to Andrew Carnegie in Scotland, 1891 [3 items]</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2643" level="subseries">
+               <did>
+                  <container type="box-folder">7/31-34</container>
+                  <container type="box-folder">10/17-18</container>
+                  <unittitle encodinganalog="245$a" id="CL10031011">Subject File</unittitle>
+               </did>
+               <c03 id="mferd115e2651" level="file">
+                  <did>
+                     <container type="box-folder">7/31</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Subject_File_CL10031011_D3_1">Calling card, Damrosch, Frank, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2657" level="file">
+                  <did>
+                     <container type="box-folder">7/32</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Subject_File_CL10031011_D3_2">Damrosch Park, dedication, 1959-1969</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2663" level="file">
+                  <did>
+                     <container type="box-folder">7/33</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Subject_File_CL10031011_D3_3">New York Symphony Society, n.d.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2669" level="file">
+                  <did>
+                     <container type="box-folder">7/34</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Subject_File_CL10031011_D3_4">Parnassus Club, 1940</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2675" level="file">
+                  <did>
+                     <container type="box-folder">10/17</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Subject_File_CL10031011_D3_5">Peoples' Singing Classes, article in <emph render="italic">Harper's Weekly</emph>, 1892 Nov. 5</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2684" level="file">
+                  <did>
+                     <container type="box-folder">10/18</container>
+                     <unittitle encodinganalog="245$a" id="mu007002_Subject_File_CL10031011_D3_6">Wagner and our mentors in music, article in <emph render="italic">The Illustrated American</emph>, 1895 Mar. 2</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd115e2693" level="subseries">
+               <did>
+                  <container type="box-folder">7/35-39</container>
+                  <unittitle encodinganalog="245$a" id="CL10031012">Papers of the Institute of Musical Art</unittitle>
+               </did>
+               <c03 id="mferd115e2699" level="file">
+                  <did>
+                     <container type="box-folder">7/35</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Papers_of_the_Institute_of_Musical_Art_CL10031012_D3_1">
+                        <emph render="italic">The Baton</emph>, 1922-30</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2708" level="file">
+                  <did>
+                     <container type="box-folder">7/36</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Papers_of_the_Institute_of_Musical_Art_CL10031012_D3_2">Catalogs, 1906, 1927</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2714" level="file">
+                  <did>
+                     <container type="box-folder">7/37</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Papers_of_the_Institute_of_Musical_Art_CL10031012_D3_3">Dinners, 1926-30</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2720" level="file">
+                  <did>
+                     <container type="box-folder">7/38</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Papers_of_the_Institute_of_Musical_Art_CL10031012_D3_4">Programs, 1937, 1939</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd115e2726" level="file">
+                  <did>
+                     <container type="box-folder">7/39</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu007002_Papers_of_the_Institute_of_Musical_Art_CL10031012_D3_5">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

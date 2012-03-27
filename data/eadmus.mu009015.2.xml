@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 22 September 2011 12:12:11 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu009015
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu009015--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu009015--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu009015-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd98e3">
+   <eadheader id="mferd98e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu009015"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu009015</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Gilbert Miller Collection
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2009" encodinganalog="260$c" era="ce" calendar="gregorian">2009</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2006560744"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2006560744</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2009" era="ce" calendar="gregorian">2009</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in March 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd1021e49">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Gilbert Miller Collection
+		  <unitdate label="Span Dates" type="inclusive" normal="1921/1967" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1921-1967</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1932/1955" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1932-1955)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.M55</unitid>
+         <origination label="Creator"> 
+			         <persname encodinganalog="100" source="lcnaf">Miller, Gilbert</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">4000 items</extent>
+            <extent encodinganalog="300">8
+	 		containers</extent>
+	 		        <extent encodinganalog="300">4.0
+	 			linear feet</extent>
+		  
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+			<language encodinganalog="041" langcode="eng">English</language>, <language encodinganalog="041" langcode="fre">French</language>, <language encodinganalog="041" langcode="ita">Italian</language>, and <language encodinganalog="041" langcode="hun">Hungarian</language> 
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">This collection consists principally of theater production materials related to the life and activities of producer and theater owner Gilbert Miller (1884-1969). It includes correspondence, speeches, scripts, photographs, programs and clippings that convey Miller’s theatrical influences, personal connections, and professional accomplishments.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd1021e101" altrender=":::F005=^20090901095331.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd100e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Abbott%2C+George%2C+1887-1995.^">Abbott, George, 1887-1995.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Adler%2C+Stella.^">Adler, Stella.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Anouilh%2C+Jean%2C+1910-1987.^">Anouilh, Jean, 1910-1987.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Atkinson%2C+Brooks%2C+1894-1984.^">Atkinson, Brooks, 1894-1984.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Beaumont%2C+Hugh%2C+1908-1973.^">Beaumont, Hugh, 1908-1973.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Behrman%2C+S.+N.+%28Samuel+Nathaniel%29%2C+1893-1973.^">Behrman, S. N. (Samuel Nathaniel), 1893-1973.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Berlin%2C+Irving%2C+1888-1989.^">Berlin, Irving, 1888-1989.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bowes%2C+Edward%2C+Major%2C+1874-1946.^">Bowes, Edward, Major, 1874-1946.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Claire%2C+Ina%2C+1892-1985.^">Claire, Ina, 1892-1985.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Coward%2C+Noel%2C+1899-1973.^">Coward, Noel, 1899-1973.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Cronyn%2C+Hume.^">Cronyn, Hume.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dalrymple%2C+Jean.^">Dalrymple, Jean.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Darvas%2C+Lilli%2C+d.+1974.^">Darvas, Lilli, d. 1974.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^De+Liagre%2C+Alfred%2C+1904-1987.^">De Liagre, Alfred, 1904-1987.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^De+Nobili%2C+Lila%2C+1916-2002.^">De Nobili, Lila, 1916-2002.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Deval%2C+Jacques%2C+1890-1972.^">Deval, Jacques, 1890-1972.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gielgud%2C+John%2C+1904-2000.^">Gielgud, John, 1904-2000.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Max%2C+1892-1978.^">Gordon, Max, 1892-1978.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hammerstein%2C+Oscar%2C+1895-1960.^">Hammerstein, Oscar, 1895-1960.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Harrison%2C+Rex.^">Harrison, Rex.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hayes%2C+Helen%2C+1900-1993.^">Hayes, Helen, 1900-1993.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hayward%2C+Leland%2C+1902-1971.^">Hayward, Leland, 1902-1971.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hellman%2C+Lillian%2C+1905-1984.^">Hellman, Lillian, 1905-1984.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Howard%2C+Sidney+Coe%2C+1891-1939.^">Howard, Sidney Coe, 1891-1939.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kaufman%2C+George+S.+%28George+Simon%29%2C+1889-1961.^">Kaufman, George S. (George Simon), 1889-1961.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kazan%2C+Elia.^">Kazan, Elia.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kostelanetz%2C+Andre%2C+1901-1980.^">Kostelanetz, Andre, 1901-1980.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lawrence%2C+Gertrude.^">Lawrence, Gertrude.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lewis%2C+Robert%2C+1909-1997.^">Lewis, Robert, 1909-1997.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Loos%2C+Anita%2C+1893-1981.^">Loos, Anita, 1893-1981.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Merivale%2C+John%2C+1917-1990.^">Merivale, John, 1917-1990.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Merrick%2C+David%2C+1911-2000.^">Merrick, David, 1911-2000.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Miller%2C+Gilbert+Correspondence.^">Miller, Gilbert--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Miller%2C+Gilbert.^">Miller, Gilbert.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Miller%2C+Gilbert.^">Miller, Gilbert.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Morley%2C+Robert.^">Morley, Robert.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nesbitt%2C+Cathleen%2C+1888-1982.^">Nesbitt, Cathleen, 1888-1982.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Olivier%2C+Laurence%2C+1907-1989.^">Olivier, Laurence, 1907-1989.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ratoff%2C+Gregory%2C+1897-1960.^">Ratoff, Gregory, 1897-1960.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Redgrave%2C+Michael%2C+Sir.^">Redgrave, Michael, Sir.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rodgers%2C+Richard%2C+1902-1979.^">Rodgers, Richard, 1902-1979.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schmidt%2C+Lars%2C+1917-2009.^">Schmidt, Lars, 1917-2009.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Shubert%2C+Lee%2C+1873%3F-1953.^">Shubert, Lee, 1873?-1953.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Tandy%2C+Jessica.^">Tandy, Jessica.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Todd%2C+Michael%2C+1909-1958.^">Todd, Michael, 1909-1958.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Whistler%2C+Rex%2C+1905-1944.^">Whistler, Rex, 1905-1944.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Whitehead%2C+Robert%2C+1916-2002.^">Whitehead, Robert, 1916-2002.</persname>
+         </controlaccess>
+         <controlaccess id="mferd100e108">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Actors%27+Equity+Association.^">Actors' Equity Association.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Henry+Miller%27s+Theatre+%28Organization+%3A+New+York%2C+N.Y.%29^">Henry Miller's Theatre (Organization : New York, N.Y.)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd100e115">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Costume.^">Costume.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musical+theater+Production+and+direction.^">Musical theater--Production and direction.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Theater+Production+and+direction.^">Theater--Production and direction.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Theatrical+producers+and+directors+Great+Britain.^">Theatrical producers and directors--Great Britain.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Theatrical+producers+and+directors+United+States.^">Theatrical producers and directors--United States.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Tony+Awards.^">Tony Awards.</subject>
+         </controlaccess>
+         <controlaccess id="mferd100e130">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Drawings+%28Visual+works%29^">Drawings (Visual works)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Floor+plans.^">Floor plans.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Photographs.^">Photographs.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Playbills.^">Playbills.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Scripts+%28Documents%29^">Scripts (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Theater+programs.^">Theater programs.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd1021e247" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd1021e250" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Purchase, from Joseph Robinette, 2004. Additional materials purchased in 2008.</p>
+         </acqinfo>
+         <accruals id="mferd1021e255">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd1021e260" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Gilbert Miller Collection was processed in June 2009 by Alan Balch. The original finding aid was prepared with Microsoft Word 2007 and coded for EAD by Christopher Hartten in August 2009.</p>
+         </processinfo>
+         <userestrict id="mferd1021e265" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the Gilbert Miller Collection is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd1021e270" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Gilbert Miller Collection is open to research.
+	 		Researchers are advised to contact the Performing Arts Reading Room prior to
+	 		visiting. Many collections are stored off-site and advance notice is needed to
+	 		retrieve these items for research use. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd1021e275" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, Gilbert Miller Collection, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd1021e280" encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1884 July 3</date>
+               <event>Born in New York to actor-manager Henry Miller and actress Bijou Heron</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1907</date>
+               <event>Begins theater management career as company manager of Henry Miller’s touring production of <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Great Divide</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1910-1915</date>
+               <event>Manages all of Henry Miller’s American productions</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1916</date>
+               <event>Debuts as producer in London with <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Daddy Long-Legs</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">[ca. 1914-1918]</date>
+               <event>Serves for three years in intelligence as a lieutenant in the U.S. Marine Corps and becomes part of the American Expeditionary Force during the First World War</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1919</date>
+               <event>Opens first New York show, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Monsieur Beacuaire</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1921 June</date>
+               <event>Takes over operation of the Empire Theatre and the Frohman Corporation</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1932 Apr.</date>
+               <event>Leaves Frohman Inc.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">[ca. 1939-1944]</date>
+               <event>Serves as an aircraft technician aboard the aircraft carrier Shangri-La during the Second World War</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1950</date>
+               <event>
+                  <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Cocktail Party</title> wins Tony Award for Best Play </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1958</date>
+               <event>
+                  <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Rope Dancer</title> nominated for Tony Award for Best Play </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1962</date>
+               <event>
+                  <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Caretaker</title> nominated for Tony Award for Best Play </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1965</date>
+               <event>Receives special Tony Award “For having produced 88 plays and musicals and for his perseverance which has helped to keep New York and theatre alive”</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1968</date>
+               <event>Sells Henry Miller’s Theatre</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1969 Jan. 2</date>
+               <event>Dies and is buried in Woodlawn Cemetery, New York </event>
+            </chronitem>
+         </chronlist>
+         <p>PRODUCTIONS: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Polly with a past</title> (1921), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The nervous wreck</title> (1924), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The captive</title> (1926), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Dantons Tod</title> (1927), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Her cardboard lover</title> (1927), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Interference</title> (1927), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Midsummer night’s dream</title> (1927), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Jedermann</title> (1927), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Er ist an allem Schuld [He is to blame for everything]</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Diener zweier Herren [Servant of two masters]</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Kabale und Liebe</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The patriot</title> (1928, Jan. 20, Jan. 29), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Der lebende Leichnam [The living corpse]</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Olympia</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The sacred flame</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Our betters</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Peripherie</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Happy husband</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Paris</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The age of innocence</title> (1928), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Candle-light</title> (1929), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Love duel</title> (1929), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The skyrocket</title> (1929), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Journey’s end</title> (1929), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Hundred years old</title> (1929), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Berkeley Square</title> (1929), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">	Marseilles</title> (1930, Nov. 9, Nov. 18), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">	Petticoat influence</title> (1930), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Journey’s end</title> (1930, Aug. 5, Aug. 24), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The violet</title> (1930), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Tomorrow and tomorrow</title> (1931), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The sex fable</title> (1931, Nov. 15, Nov. 25), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The good fairy</title> (1931), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The animal kingdom</title> (1932, Jan. 3, Jan. 13), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Behold we live</title> (1932), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The late Christopher Bean</title> (1932), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Firebird</title> (1932, Sept. 25, Nov. 22), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">This side idolatry</title> (1933), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Reunion in Vienna</title> (1934), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bride of Torozko</title> (1934, July 10, Sept. 14), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ode to liberty</title> (1934 Dec. 11, Dec. 22), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The petrified forest</title> (1934), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The petrified forest</title> (1935), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Laburnum grove</title> (1935), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">	The ringmaster</title> (1935), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Tovarich</title> (1935), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Libel!</title> (1935, Dec. 3, Dec. 8, Dec. 21), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Victoria Regina</title> (1935, Dec. 13, Dec. 27), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The country wife</title> (1936, Oct. 7, Dec. 2), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Pride and prejudice</title> (1936), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">	Tovarich</title> (1936, Oct. 16, Oct. 25), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Promise</title> (1936), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The amazing Dr. Clitterhouse</title> (1937), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Yes, my darling daughter</title> (1937), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Old music</title> (1937), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">French without tears</title> (1937, Sept. 26, Sept. 29), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Victoria Regina</title> (1937), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Silent knight</title> (1937), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Murder in the cathedral</title> (1938), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Once is enough</title> (1938), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Victoria Regina</title> (1938), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">I have been here before</title> (1938), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ladies and gentlemen</title> (1939), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Geneva</title> (1940), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ladies in retirement</title> (1940), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Delicate story</title> (1940), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Twelfth night</title> (1940, Oct. 18, Oct. 27), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Anne of England</title> (1941), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Lily of the valley</title> (1942), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Heart of a city</title> (1942), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Lifeline</title> (1942), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Flare path</title> (1942), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Harriet</title> (1943, Mar. 4, Mar. 14), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">For keeps</title> (1944), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Harriet</title> (1944), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The rich full life</title> (1945), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Antigone</title> (1946), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Dear Ruth</title> (1946), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Candida</title> (1946), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Play’s the thing</title> (1948, Apr. 29, May 9), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Edward, my son</title> (1948), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Montserrat</title> (1949), 		<title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Cocktail party</title> (1950), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ring around the moon</title> (1950), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Caesar and Cleopatra</title> (1951), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Antony and Cleopatra</title> (1951), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Horses in midstream</title> (1953), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The living room</title> (1954), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Witness for the prosecution</title> (1954), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The reluctant debutante</title> (1956), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The sleeping prince</title> (1956), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Under Milk Wood</title> (1957), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The rope dancer</title> (1957), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Look after Lulu</title> (1959), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Golden fleecing</title> (1959), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The caretaker</title> (1961), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The White House</title> (1964), <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Diamond orchid</title> (1965)</p>
+      </bioghist>
+      <scopecontent id="mferd1021e689" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Gilbert Miller Collection spans the period 1921-1967. The bulk of the materials date from 1932-1955. The collection includes correspondence, contracts, scripts, speeches, scenic floor plans, scenic and costume renderings, clippings, programs, and other materials related to Gilbert Miller’s life and career. As a representation of Miller’s distinguished career, the materials provide insights into his work as a manager, producer, and advocate for the theater.</p>
+      </scopecontent>
+      <arrangement id="mferd1021e694" encodinganalog="351$a">
+         <head>Organization of the Gilbert Miller Collection</head>
+         <p>The Gilbert Miller Collection is organized into 7 series:</p>
+         <list>
+            <item>Correspondence, 1921-1967 (1.75 linear feet)</item>
+            <item>Speeches, 1931, 1955 (1 folder)</item>
+            <item>Scripts (1 folder)</item>
+            <item>Photographs (.75 linear feet)</item>
+            <item>Technical-related Materials, 1937-1953 (.25 linear feet)</item>
+            <item>Programs (.75 linear feet)</item>
+            <item>Miscellaneous (.25 linear feet)</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2006560744"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2006560744</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd1021e714" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd98e751" level="series">
+            <did>
+               <container type="box">1-4</container>
+               <unittitle encodinganalog="245$a">Correspondence,
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921-1967</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Correspondence series consists of business and personal correspondence to and from Miller. It includes contracts, telegraphs, and intra-office memos pertinent to Miller’s endeavors. Prominent correspondents include Jean Anouilh, Helen Hayes, Elia Kazan, Laurence Olivier, Gregory Ratoff, and Lee Shubert.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 id="mferd98e766" level="file">
+               <did>
+                  <container type="box-folder">1/1-5</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921-1925</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e775" level="file">
+               <did>
+                  <container type="box-folder">1/6-12</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1926-1930</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e784" level="file">
+               <did>
+                  <container type="box-folder">1/11-15</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1935</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e793" level="file">
+               <did>
+                  <container type="box-folder">2/1-4</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936-1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e802" level="file">
+               <did>
+                  <container type="box-folder">2/5-8</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1943</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e811" level="file">
+               <did>
+                  <container type="box-folder">3/1-5</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e820" level="file">
+               <did>
+                  <container type="box-folder">3/6-9</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949-1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e829" level="file">
+               <did>
+                  <container type="box-folder">4/1-5</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e839" level="file">
+               <did>
+                  <container type="box-folder">4/6</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e848" level="file">
+               <did>
+                  <container type="box-folder">4/7</container>
+                  <unittitle encodinganalog="245$a">Undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd98e854" level="series">
+            <did>
+               <container type="box">4</container>
+               <unittitle encodinganalog="245$a">Speeches,
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931, 1955</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Speeches series consists of an annotated draft of a 1931 speech on the history of the Empire Theatre as well as a draft of an autobiographical speech commemorating the twentieth anniversary of <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Cue</title> magazine in 1955.</p>
+            </scopecontent>
+            <c02 id="mferd98e869" level="file">
+               <did>
+                  <container type="box-folder">4/8</container>
+                  <unittitle encodinganalog="245$a">Annotated drafts of "Talk on the history of the Empire Theatre, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921-1925"</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e878" level="file">
+               <did>
+                  <container type="box-folder">4/8</container>
+                  <unittitle encodinganalog="245$a">Autobiographical speech commemorating the twentieth anniversary of <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Cue</title> magazine, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd98e890" level="series">
+            <did>
+               <container type="box">4</container>
+               <unittitle encodinganalog="245$a">Scripts
+	 				</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Scripts series contains five script synopses and one draft.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by title.</p>
+            </arrangement>
+            <c02 id="mferd98e902" level="file">
+               <did>
+                  <container type="box-folder">4/9</container>
+                  <unittitle encodinganalog="245$a">Brighton rock</unittitle>
+                  <physdesc>Synopsis</physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd98e910" level="file">
+               <did>
+                  <container type="box-folder">4/9</container>
+                  <unittitle encodinganalog="245$a">L&#146;invitation au chateau  [Ring round the moon] by Jean Anouilh</unittitle>
+                  <physdesc>Annotated draft</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd98e918" level="series">
+            <did>
+               <container type="box">5-6</container>
+               <unittitle encodinganalog="245$a">Photographs
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Photographs series provides images and information that contextualize the written records of Miller’s life and career. It includes production and candid photos.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by show title.</p>
+            </arrangement>
+            <c02 id="mferd98e932" level="subseries">
+               <did>
+                  <container type="box">5-6</container>
+                  <unittitle encodinganalog="245$a">Productions by or related to G. Miller</unittitle>
+               </did>
+               <c03 id="mferd98e938" level="file">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a">Anne of England, <unitdate era="ce" calendar="gregorian">1941</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">45 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e952" level="file">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a">Caesar and Cleopatra, <unitdate era="ce" calendar="gregorian">1951</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">4 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e966" level="file">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a">The cocktail party, <unitdate era="ce" calendar="gregorian">1950</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">12 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e980" level="file">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a">Delicate story, <unitdate era="ce" calendar="gregorian">1940</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">2 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e994" level="file">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a">Edward, my son, <unitdate era="ce" calendar="gregorian">1948</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">16 black and white photographs and 36 black and white proof sheets</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1008" level="file">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a">Flare path, <unitdate era="ce" calendar="gregorian">1942</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">25 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1022" level="file">
+                  <did>
+                     <container type="box-folder">5/7</container>
+                     <unittitle encodinganalog="245$a">Gigi, <unitdate era="ce" calendar="gregorian">1951</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">14 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1036" level="file">
+                  <did>
+                     <container type="box-folder">5/8</container>
+                     <unittitle encodinganalog="245$a">Harriet, <unitdate era="ce" calendar="gregorian">1943/1944</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">1 color and 18 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1050" level="file">
+                  <did>
+                     <container type="box-folder">5/9</container>
+                     <unittitle encodinganalog="245$a">Ladies in retirement, <unitdate era="ce" calendar="gregorian">1940</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">17 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1064" level="file">
+                  <did>
+                     <container type="box-folder">5/10</container>
+                     <unittitle encodinganalog="245$a">Old music, <unitdate era="ce" calendar="gregorian">1937</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">1 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1079" level="file">
+                  <did>
+                     <container type="box-folder">5/11</container>
+                     <unittitle encodinganalog="245$a">Ring round the moon, <unitdate era="ce" calendar="gregorian">1950</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">30 black and white photographs and one page from <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Theatre World</title>, 1950 Mar.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1096" level="file">
+                  <did>
+                     <container type="box-folder">5/12</container>
+                     <unittitle encodinganalog="245$a">The sleeping prince, <unitdate era="ce" calendar="gregorian">1953</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">6 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1110" level="file">
+                  <did>
+                     <container type="box-folder">6/1</container>
+                     <unittitle encodinganalog="245$a">Victoria Regina, <unitdate era="ce" calendar="gregorian">1951</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">1 color and 1 black and white photograph</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1124" level="file">
+                  <did>
+                     <container type="box-folder">6/2</container>
+                     <unittitle encodinganalog="245$a">The voice of the turtle, <unitdate era="ce" calendar="gregorian">1947</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">3 black and white proof sheets</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1138" level="file">
+                  <did>
+                     <container type="box-folder">6/3</container>
+                     <unittitle encodinganalog="245$a">Gilbert Miller, individually or with others</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">1 color and 3 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1149" level="file">
+                  <did>
+                     <container type="box-folder">6/4</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">14 black and white photographs and 1 clipping from the <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Cleveland Plain Dealer</title>, 1944 Mar. 5</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd98e1163" level="subseries">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">Productions not related to G. Miller</unittitle>
+               </did>
+               <c03 id="mferd98e1169" level="file">
+                  <did>
+                     <container type="box-folder">6/5</container>
+                     <unittitle encodinganalog="245$a">An ideal husband, <unitdate era="ce" calendar="gregorian">1944</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">3 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1183" level="file">
+                  <did>
+                     <container type="box-folder">6/6</container>
+                     <unittitle encodinganalog="245$a">My fair lady, <unitdate era="ce" calendar="gregorian">1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">47 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd98e1197" level="series">
+            <did>
+               <container type="box">6</container>
+               <unittitle encodinganalog="245$a">Technical-related Materials, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1953</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Technical-related materials series provides images and information that contextualize the written records of Miller’s life and career. It includes floor plans, paint and fabric samples, and scenic and costume renderings.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by show title.</p>
+            </arrangement>
+            <c02 id="mferd98e1212" level="file">
+               <did>
+                  <container type="box-folder">6/7</container>
+                  <unittitle encodinganalog="245$a">The cocktail party, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1221" level="file">
+               <did>
+                  <container type="box-folder">6/8</container>
+                  <unittitle encodinganalog="245$a">Harriet, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943/1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1230" level="file">
+               <did>
+                  <container type="box-folder">6/9</container>
+                  <unittitle encodinganalog="245$a">Gigi, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1239" level="file">
+               <did>
+                  <container type="box-folder">6/10</container>
+                  <unittitle encodinganalog="245$a">An ideal husband, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1248" level="file">
+               <did>
+                  <container type="box-folder">6/11</container>
+                  <unittitle encodinganalog="245$a">Ring round the moon, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1257" level="file">
+               <did>
+                  <container type="box-folder">6/12</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1265" level="file">
+               <did>
+                  <container type="box-folder">OV 1</container>
+                  <unittitle encodinganalog="245$a">Unidentified scenic rendering<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd98e1273" level="series">
+            <did>
+               <container type="box">6-8</container>
+               <unittitle encodinganalog="245$a">Programs
+	 				</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Programs series consists of 183 programs and playbills, chiefly from Miller productions, that highlight his unique professional relationships with various collaborators, casts, and sponsors.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically.</p>
+            </arrangement>
+            <c02 id="mferd98e1285" level="subseries">
+               <did>
+                  <container type="box">6-7</container>
+                  <unittitle encodinganalog="245$a">Productions by or related to G. Miller, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1954</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd98e1294" level="file">
+                  <did>
+                     <container type="box-folder">6/13</container>
+                     <unittitle encodinganalog="245$a">A-B</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1300" level="file">
+                  <did>
+                     <container type="box-folder">6/14</container>
+                     <unittitle encodinganalog="245$a">C</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1306" level="file">
+                  <did>
+                     <container type="box-folder">7/1</container>
+                     <unittitle encodinganalog="245$a">D-E</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1312" level="file">
+                  <did>
+                     <container type="box-folder">7/2</container>
+                     <unittitle encodinganalog="245$a">F-G</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1318" level="file">
+                  <did>
+                     <container type="box-folder">7/3</container>
+                     <unittitle encodinganalog="245$a">H-K</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1324" level="file">
+                  <did>
+                     <container type="box-folder">7/4</container>
+                     <unittitle encodinganalog="245$a">L</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1330" level="file">
+                  <did>
+                     <container type="box-folder">7/5</container>
+                     <unittitle encodinganalog="245$a">M-Q</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1336" level="file">
+                  <did>
+                     <container type="box-folder">7/6</container>
+                     <unittitle encodinganalog="245$a">R-T</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1342" level="file">
+                  <did>
+                     <container type="box-folder">7/7</container>
+                     <unittitle encodinganalog="245$a">U-V</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1348" level="file">
+                  <did>
+                     <container type="box-folder">7/8</container>
+                     <unittitle encodinganalog="245$a">W-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd98e1354" level="subseries">
+               <did>
+                  <container type="box">7-8</container>
+                  <unittitle encodinganalog="245$a">Productions not related to G. Miller</unittitle>
+               </did>
+               <c03 id="mferd98e1360" level="file">
+                  <did>
+                     <container type="box-folder">7/9</container>
+                     <unittitle encodinganalog="245$a">A-D</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1366" level="file">
+                  <did>
+                     <container type="box-folder">7/10</container>
+                     <unittitle encodinganalog="245$a">E-L</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1372" level="file">
+                  <did>
+                     <container type="box-folder">8/1</container>
+                     <unittitle encodinganalog="245$a">M-R</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd98e1378" level="file">
+                  <did>
+                     <container type="box-folder">8/2</container>
+                     <unittitle encodinganalog="245$a">S-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd98e1384" level="series">
+            <did>
+               <container type="box">8</container>
+               <unittitle encodinganalog="245$a">Miscellaneous
+	 				</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Miscellaneous series is a collection of diverse items that are largely tied to Miller’s theatrical career and business endeavors.  It also contains positive and negative correspondence from various individuals concerning the one-year anniversary party for producer Michael Todd’s film <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Around the World in 80 Days</title>. It is unclear how this material relates directly to Miller.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by topic.</p>
+            </arrangement>
+            <c02 id="mferd98e1399" level="file">
+               <did>
+                  <container type="box-folder">8/3-5</container>
+                  <unittitle encodinganalog="245$a">Around the world in 80 days </unittitle>
+                  <physdesc>Correspondence related to Michael Todd’s one-year anniversary party for the film</physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd98e1407" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Caricature on back of restaurant placemat</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1413" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Dramatist Guild handbook</unittitle>
+                  <physdesc>Inscribed to Miller from George Middleton</physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd98e1421" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Empire Tatler</title>, No. 4, 1929 Aug.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1430" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Harriet, annotated advertisement</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1436" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Lily of the valley “Sonnet to the cast” </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1442" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Louis Jouvet program, <unitdate era="ce" calendar="gregorian">ca. 1951</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1451" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Make it last long (from For Keeps) sheet music</unittitle>
+                  <physdesc>Inscribed to Miller</physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd98e1460" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">My Lord, what a mornin’ sheet music</unittitle>
+                  <physdesc>Inscribed to Miller by H. T. Burleigh? </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd98e1468" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Over land and over sea sheet music</unittitle>
+                  <physdesc>Annotated, with signed letter from Alexander Seversky</physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd98e1476" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Passport, <unitdate era="ce" calendar="gregorian">ca. 1922</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1485" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Passport, <unitdate era="ce" calendar="gregorian">ca. 1924</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1494" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Pocket calendar, <unitdate era="ce" calendar="gregorian">1939 Jan.-Feb.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1503" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Victoria Regina tour booklet</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd98e1509" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">While parents sleep souvenir handkerchief</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

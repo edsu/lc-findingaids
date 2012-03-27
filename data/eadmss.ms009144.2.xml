@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Thu, 16 February 2012 11:09:42 AM EST
+URL: http://hdl.loc.gov/loc.mss/eadmss.ms009144
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd1321e2">
+   <eadheader id="mferd1321e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mss/eadmss.ms009144"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.mss/eadmss.ms009144</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Alfred Adler Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by David Mathisen <lb/>Revised and expanded by
+			 Margaret McAleer</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2009" encodinganalog="260$c" era="ce" calendar="gregorian">2009</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+				<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/mm83082306" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/mm83082306</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Manuscript Division,
+		  
+		  <date normal="2009" era="ce" calendar="gregorian">2009</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-04" era="ce" calendar="gregorian">2010 April</date>
+            <item>Title, controlaccess updated</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd1321e49">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Alfred Adler Papers 
+		  <unitdate label="Span Dates" type="inclusive" normal="1888/1975" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1888-1975</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1928/1937" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1928-1937)</unitdate> 
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS82306</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Adler, Alfred,
+			 1870-1937</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">900 items</extent>
+		          <extent encodinganalog="300">5 containers plus 1 oversize</extent>
+		          <extent encodinganalog="300">2.15 linear feet</extent>
+		          <extent encodinganalog="300">4 microfilm reels</extent>
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language> and
+		<language langcode="ger" encodinganalog="041">German</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Manuscript Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Psychologist. Chiefly
+		  letters written by Adler to his wife and children, including also drafts of a
+		  book, articles, lectures, an appointment book, notes, reports, certificates,
+		  clippings, printed matter, and photographs relating to Adler's career as a
+		  psychologist.</abstract>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd1321e98" altrender=":::F005=^20091022115803.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject or location, and by occupation and listed
+			 alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd1323e12">
+            <head>People</head>
+            <famname encodinganalog="600" role="subject" source="lcnaf"
+                     altrender=":::PWEBRECON=^Adler+family.^">Adler family.</famname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Adler%2C+Alfred%2C+1870-1937.^">Adler, Alfred, 1870-1937.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Adler%2C+Raissa+Epstein+Correspondence.^">Adler, Raissa Epstein--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Allen%2C+G.+Margery+Correspondence.^">Allen, G. Margery--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Einstein%2C+Albert%2C+1879-1955+Correspondence.^">Einstein, Albert, 1879-1955--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Freud%2C+Sigmund%2C+1856-1939.^">Freud, Sigmund, 1856-1939.</persname>
+         </controlaccess>
+         <controlaccess id="mferd1323e37">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Psychology.^">Psychology.</subject>
+         </controlaccess>
+         <controlaccess id="mferd1323e46">
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Psychologists.^">Psychologists.</occupation>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd1321e129" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd1321e132" encodinganalog="541">
+            <head>Provenance</head>
+            <p> The papers of Alfred Adler, psychologist, were given to the Library
+		  of Congress by his son, Kurt A. Adler, and daughter, Alexandra Adler, between
+		  1973 and 1995. Several items were purchased in 1974 and 1999.</p>
+         </acqinfo>
+         <processinfo id="mferd1321e137" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The papers of Alfred Adler were arranged and described in 1984. The
+		  collection was expanded and revised in 1996 and 2001. The finding aid was
+		  revised in 2009.</p>
+         </processinfo>
+         <separatedmaterial id="mferd1321e142" encodinganalog="544 0">
+            <head>Transfers</head>
+            <p>Sigmund Freud's 
+		<title xlink:type="simple">Psychopathologie des Alltagslebens</title>, inscribed by Freud to
+		Adler, has been transferred to the Rare Book and Special Collections Division
+		where it is identified as part of the Alfred Adler Papers.</p>
+         </separatedmaterial>
+         <relatedmaterial id="mferd1321e150" encodinganalog="544 1">
+            <head>Related Material</head>
+            <p>Related collections in the Manuscript Division include the 
+		  <archref xlink:type="simple">Alfred Adler Papers in the Sigmund Freud
+			 Collection</archref>.</p>
+         </relatedmaterial>
+         <userestrict id="mferd1321e158" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>Copyright in the unpublished writings of Alfred Adler in these papers
+		  and in other collections in the custody of the Library of Congress is reserved.
+		  Consult a reference librarian in the Manuscript Division for further
+		  information.</p>
+         </userestrict>
+         <accessrestrict id="mferd1321e163" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The papers of Alfred Adler are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+         </accessrestrict>
+         <altformavail id="mferd1321e168" encodinganalog="530">
+            <head>Microfilm</head>
+            <p>A microfilm edition of part of these papers is available on four
+		  reels. Consult reference staff in the Manuscript Division concerning
+		  availability for purchase or interlibrary loan. To promote preservation of the
+		  originals, researchers are required to consult the microfilm edition as
+		  available.</p>
+         </altformavail>
+         <prefercite id="mferd1321e173" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Alfred Adler Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd1321e178" encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1870, Feb. 7 </date>
+               <event>Born, Vienna, Austria</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1895 </date>
+               <event>Graduated, University of Vienna Medical School, Vienna,
+				Austria</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1895-1897 </date>
+               <event>Gained clinical experience working in the Polyclinic, Vienna,
+				Austria</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1897-1927 </date>
+               <event>Private practice, Vienna, Austria</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1897 </date>
+               <event>Married Raissa Timofeivna Epstein</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1902 </date>
+               <event>Joined Sigmund Freud's Psychological Wednesday Society,
+				Vienna, Austria </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1907 </date>
+               <event>Published 
+				<title xlink:type="simple">Studie über die Minderwertigkeit von Organen</title>.
+				Berlin: Urban &amp; Schwarzenber </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1910 </date>
+               <event>President, Vienna Psychoanalytic Society</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1911 </date>
+               <eventgrp>
+                  <event>Resigned from the Vienna Psychoanalytic Society</event>
+                  <event>Founded the Society for Free Psychoanalytic Study</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1912 </date>
+               <event>Published 
+				<title xlink:type="simple">Über den Nervösen Charakter</title>. Wiesbaden: J. F.
+				Bergmann</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1914 </date>
+               <eventgrp>
+                  <event>Founded the Society for Individual Psychology and its
+				  journal, 
+				  <title xlink:type="simple">Zeitschrift für Individualpsychologie</title>
+                  </event>
+                  <event>Published with Carl Furtmüller 
+				  <title xlink:type="simple">Heilen und Bilden; Ärzlich-Pädagogische Arbeiten des
+					 Vereins für Individualpsychologie</title>. Munich: Ernst Reinhardt</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1916-1918 </date>
+               <event>Served as a physician in the Austrian army</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1920 </date>
+               <eventgrp>
+                  <event>Established a network of child guidance clinics attached to
+				  public schools, Vienna, Austria</event>
+                  <event>Appointed director, Individual Psychological Clinic for
+				  Problem Children, Franz-Josef Ambulatorium, Vienna, Austria</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1924 </date>
+               <event>Published 
+				<title xlink:type="simple"> Praxis und Theorie der Individualpsychologie</title>.
+				Munich: J. F. Bergmann</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1926 </date>
+               <event>First American lecture tour</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1927 </date>
+               <event>Published 
+				<title xlink:type="simple">Menschenkenntnis</title>. Leipzig: Hirzel</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1928 </date>
+               <event>Conducted a course on individual psychology, New School for
+				Social Research, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1929 </date>
+               <event>Published 
+				<title xlink:type="simple">Problems of Neurosis: A Book of Case Histories</title>.
+				London: Kegan Paul, Trench Truebner &amp; Co.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1929-1930 </date>
+               <event>Visiting Professor, University Extension, and director of
+				child-guidance clinic, Columbia University, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1930 </date>
+               <eventgrp>
+                  <event>Resigned from Columbia University and opened the Advisory
+				  Council of Individual Psychology clinic at the Community Church, New York,
+				  N.Y.</event>
+                  <event>Published 
+				  <title xlink:type="simple">Guiding the Children on the Principles of Individual
+					 Psychology</title>. New York: Greenberg</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1932 </date>
+               <eventgrp>
+                  <event>Visiting Professor of Medical Psychology, Long Island
+				  College of Medicine, Brooklyn, N.Y.</event>
+                  <event>Established the Adler Medical Psychology Clinic, Brooklyn,
+				  N.Y.</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1937, May 28 </date>
+               <event>Died, Aberdeen, Scotland</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd1321e337" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Alfred Adler (1870-1937) span the years 1888-1975, with
+		  the bulk of material dating from 1928 to 1937. The papers contain
+		  correspondence, lectures, articles, manuscript of a book, an appointment book,
+		  patient case studies and record books, reports, notes, photographs,
+		  certificates, clippings, and printed matter. The major part of the collection
+		  consists of letters written by Adler to his wife and children between 1897 and
+		  1937 and drafts of lectures and articles, many of which Adler wrote while
+		  residing in the United States. Correspondence with people outside the Adler
+		  family includes a letter written by Albert Einstein in 1937 comparing the
+		  theories of Sigmund Freud and Adler. </p>
+         <p>A small amount of material was added to the collection in 1996 and
+		  2001. The addition includes, among other items, letters from Adler to a former
+		  student, G. Margery Allen, a letter from John Haynes Holmes concerning the
+		  relocation of Adler's clinic to the Community Church in New York City,
+		  congratulatory letters on Adler's sixtieth birthday, drafts of six lectures,
+		  and correspondence concerning Adler's death. An undated note by Adler
+		  concerning a patient and a photograph of Adler were added in 2001.</p>
+         <p> A microfilm edition of the first three containers is available.
+		  Patient record books and material added to the collection in 1996 and 2001 have
+		  not been filmed.</p>
+      </scopecontent>
+      <arrangement id="mferd1321e346" encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged by type of material.</p>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/mm83082306" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/mm83082306</extref>
+      </otherfindaid>
+      <dsc id="mferd1321e351" type="combined">
+         <head>Container List</head>
+         <note>
+            <p>Available on microfilm. Shelf no. 20,322</p>
+         </note>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd1321e363" level="file">
+            <did>
+               <container type="box">1</container>
+               <container type="reel">1</container>
+               <unittitle encodinganalog="245$a">Appointment book, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937
+				  </unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1321e373" level="file">
+            <did>
+               <container type="box">1</container>
+               <container type="reel">1</container>
+               <unittitle encodinganalog="245$a">General correspondence, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1891-1970, undated </unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent encodinganalog="300$a">(10
+				folders)</extent>
+               </physdesc>
+            </did>
+         </c01>
+         <c01 id="mferd1321e386" level="file">
+            <did>
+               <container type="box">1</container>
+               <container type="reel">1</container>
+               <unittitle encodinganalog="245$a">Lectures</unittitle>
+            </did>
+            <c02 id="mferd1321e394" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="reel">1</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e404" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="reel">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1930 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd1321e417" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="reel">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1936, undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd1321e430" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="reel">2</container>
+                  <unittitle encodinganalog="245$a">"Any Marriage Can Succeed: An
+				  Interview with Dr. Alfred Adler," by Helena Huntington Smith, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e440" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="reel">2</container>
+                  <unittitle encodinganalog="245$a">"Aerztekursus im
+				  Urbankrankenhaus," 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd1321e450" level="file">
+            <did>
+               <container type="box">2</container>
+               <container type="reel">2</container>
+               <unittitle encodinganalog="245$a">Writings file</unittitle>
+            </did>
+            <c02 id="mferd1321e458" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="reel">2</container>
+                  <unittitle encodinganalog="245$a">Book, 
+				  <title xlink:type="simple">The General System of Individual Psychology</title>, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd1321e471" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">2</container>
+                     <unittitle encodinganalog="245$a">Chapters 1-7</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e479" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">Chapters 8-13</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd1321e487" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="reel">3</container>
+                  <unittitle encodinganalog="245$a">Articles in English</unittitle>
+               </did>
+               <c03 id="mferd1321e495" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">Bashfulness, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e505" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"A Brief Comparison of
+					 Individual Psychology and Psycho-Analysis," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e515" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">Childhood and youth, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e525" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">Courage, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e535" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"Fortunetelling," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e545" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"Fortunetelling," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e555" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"Homosexuality," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e565" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">Neurosis, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e575" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"Preface" for Waslaw Nijinsky's
+					 autobiography, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated </unitdate> (not used)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e586" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"The Problem of Crime," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e597" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"Psychiatric Aspects Regarding
+					 Individual and Social Disorganization," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e607" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"The Technique of Treatment," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e617" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"Psychological Aspects in a
+					 Time of Economic Crisis," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e627" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="reel">3</container>
+                     <unittitle encodinganalog="245$a">"Seven Men and a House, A Study
+					 of the Inferiority Complex," 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd1321e637" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="reel">3</container>
+                  <unittitle encodinganalog="245$a">Articles and lectures in German, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd1321e650" level="file">
+            <did>
+               <container type="box">3</container>
+               <container type="reel">3</container>
+               <unittitle encodinganalog="245$a">Patient case studies, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1935, undated </unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent encodinganalog="300$a">(2
+				folders)</extent>
+               </physdesc>
+            </did>
+         </c01>
+         <c01 id="mferd1321e663" level="file">
+            <did>
+               <container type="box">3</container>
+               <container type="reel">3</container>
+               <unittitle encodinganalog="245$a">Reports of medical meetings, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1932, undated</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd1321e673" level="file">
+            <did>
+               <container type="box">3</container>
+               <container type="reel">3</container>
+               <unittitle encodinganalog="245$a">Miscellany</unittitle>
+            </did>
+            <c02 id="mferd1321e681" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="reel">3</container>
+                  <unittitle encodinganalog="245$a">Certificates, passport,
+				  photographs, naturalization papers, etc., 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1888-1937, 1950, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e691" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="reel">3</container>
+                  <unittitle encodinganalog="245$a">Notes and memoranda, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897-1938, 1975, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e701" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="reel">3</container>
+                  <unittitle encodinganalog="245$a">Printed matter, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1937, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e711" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="reel">4</container>
+                  <unittitle encodinganalog="245$a">Clippings, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930-1937, 1970, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd1321e721" level="file">
+            <did>
+               <container type="box">4</container>
+               <container label="not filmed"/>
+               <unittitle encodinganalog="245$a">Patient record books, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903-1907 </unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent encodinganalog="300$a">(2
+				vols.)</extent>
+               </physdesc>
+            </did>
+         </c01>
+         <c01 id="mferd1321e735" level="file">
+            <did>
+               <container type="box">5</container>
+               <container label="not filmed"/>
+               <unittitle encodinganalog="245$a">Addition </unittitle>
+            </did>
+            <c02 id="mferd1321e743" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Allen, G. Margery, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930-1937</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e751" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Death of Adler, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e759" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">General correspondence, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930-1938, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e767" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Lectures, 
+				  <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd1321e775" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">"Advice to the
+					 Teacher"</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e781" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">"Children's Case-Histories and
+					 Their Interpretation"</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e787" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">"Compulsion
+					 Neurosis"</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e793" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">"Drunkards and
+					 Drug-Addicts"</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e799" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">"How the Child Selects His
+					 Symptoms"</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e805" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">"The Structure of
+					 Neurosis"</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd1321e811" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Medical licenses, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1937</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e819" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Note by Adler concerning a
+				  patient, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e827" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Photograph of Adler, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e835" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Printed matter, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1966, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd1321e843" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Sixtieth birthday, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd1321e851" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Certificate of honorary
+					 citizenship, Vienna, Austria 
+					 <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                             target="over">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd1321e860" level="file">
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle encodinganalog="245$a">Congratulatory letters 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">(3 folders)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd1321e868" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Stoker, Richard, String Quartet
+				  No. 3, Op. 36 "Adlerian," 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967-1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd1321e876" level="file">
+            <did>
+               <container type="box">OV 1</container>
+               <container label="not filmed"/>
+               <unittitle encodinganalog="245$a" id="over">Oversize</unittitle>
+            </did>
+            <c02 id="mferd1321e884" level="file">
+               <did>
+                  <container type="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Addition</unittitle>
+               </did>
+               <c03 id="mferd1321e890" level="file">
+                  <did>
+                     <container type="box">OV 1</container>
+                     <unittitle encodinganalog="245$a">Sixtieth birthday </unittitle>
+                  </did>
+                  <c04 id="mferd1321e896" level="file">
+                     <did>
+                        <container type="box">OV 1</container>
+                        <unittitle encodinganalog="245$a">Certificate of honorary
+						citizenship, Vienna, Austria, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930 </unitdate>(Container 5)</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

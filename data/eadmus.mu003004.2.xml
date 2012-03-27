@@ -1,0 +1,2200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 22 September 2011 12:12:07 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu003004
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu003004--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu003004--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu003004-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd26e5">
+   <eadheader id="mferd26e6" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US" encodinganalog="856$u"
+             identifier="hdl:loc.music/eadmus.mu003004">http://hdl.loc.gov/loc.music/eadmus.mu003004</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Alberto Nepomuceno  Collection</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:title="Seal of the Library of Congress"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2005" era="ce" calendar="gregorian">2005</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+                  <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2003561026"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2003561026</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding Aid encoded by Library of Congress Music Division, <date normal="2005" era="ce" calendar="gregorian">2005</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in<language langcode="eng" encodinganalog="041">English</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-04" era="ce" calendar="gregorian">2010 April</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in April 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" type="register" relatedencoding="MARC21">
+      <did id="mferd4855e52">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Alberto Nepomuceno Collection<unitdate label="Span Dates" type="inclusive" encodinganalog="245$f" normal="1887/1920"
+                      era="ce"
+                      calendar="gregorian">1887-1920</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1894/1920"
+                      era="ce"
+                      calendar="gregorian">(bulk 1894-1920)</unitdate>
+         </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.N46</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Nepomuceno, Alberto, 1864-1920</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">circa 150 items</extent>
+            <extent encodinganalog="300">6 boxes</extent>
+            <extent encodinganalog="300">13 linear feet</extent>
+         </physdesc>
+         <langmaterial label="Language">Collection material in <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Music Division</subarea> Library of Congress</corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">The collection consists primarily of scores, most of them photocopies of holographs, and printed material, including two operas, nine orchestral and twelve chamber and solo works, as well as about forty songs and other vocal works. In addition, the collection contains a small number of photographs, portraits of the composer and his wife, books, catalogs, and other printed materials.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd4855e100" altrender=":::F005=^20090604130309.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd28e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nepomuceno%2C+Alberto%2C+1864-1920+Manuscripts.^">Nepomuceno, Alberto, 1864-1920--Manuscripts.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nepomuceno%2C+Alberto%2C+1864-1920+Photographs.^">Nepomuceno, Alberto, 1864-1920--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nepomuceno%2C+Alberto%2C+1864-1920.^">Nepomuceno, Alberto, 1864-1920.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Nepomuceno%2C+Alberto%2C+1864-1920.^">Nepomuceno, Alberto, 1864-1920.</persname>
+         </controlaccess>
+         <controlaccess id="mferd28e18">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Composers+Brazil+Photographs.^">Composers--Brazil--Photographs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Manuscripts+Facsimiles.^">Music--Manuscripts--Facsimiles.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd4855e122" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd4855e125" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Bulk; Purchase; Sergio Nepomuceno Alvin Corrêa; 1993.</p>
+         </acqinfo>
+         <accruals id="mferd4855e130" encodinganalog="584">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd4855e135" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Alberto Nepomuceno Collection was processed in 1998 by Susana Salgado with assistance from Rodney T. Todd. This Finding Aid was prepared with Corel WordPerfect 8. In 2003, Michael A. Ferrando coded and edited the finding aid for EAD format with assitance from Susan Salgado.</p>
+         </processinfo>
+         <separatedmaterial id="mferd4855e140" encodinganalog="544 0">
+            <head>Transfers</head>
+            <p>Sound recordings transferred to the Library of Congress Motion Picture, Broadcasting and Recorded Sound Division; Washington DC 20540 USA.</p>
+         </separatedmaterial>
+         <userestrict id="mferd4855e145" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the Alberto Nepomuceno Collection is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd4855e150" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Alberto Nepomuceno Collection is open to research. Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd4855e155" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, Alberto Nepomuceno Collection, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd4855e160" encodinganalog="545">
+         <head>Biographical Sketch</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1864</date>
+               <event>On July 6 Alberto Nepomuceno was born in Fortaleza, Ceará, Brazil to Victor Augusto Nepomuceno (1840-1880), violinist and organist of the Fortaleza's Cathedral, and his wife Maria Virginia de Oliveira Paiva (1846-1892).</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1872</date>
+               <event>His family moved to Recife (Pernambuco). He began his musical studies (piano and violin) with his father.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1880</date>
+               <event>After his father's death, he started to work in a typographical shop to help his mother and sister Emilia. He began studies in harmony with Maestro Euclides Fonseca.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1881</date>
+               <event>Professor Tobias Barreto coached him in his studies of philosophy and German.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1883</date>
+               <event>He played violin in the orchestra of the Santa Isabel Opera House at the premiere of <emph render="italic">Leonor</emph>, an opera composed by his teacher Euclides Fonseca. He actively joined the civic republican and abolitionist movement of the northeast Brazilian region.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1885</date>
+               <event>The Legislative Assembly of Ceará presented a petition to the Imperial Government to re-activate Nepomuceno's scholarship to study in Europe that was initially rescinded due to his political activities. He settled in Rio de Janeiro and for the first time gave a piano concert at the Club Beethoven. Also, he toured the country with cellist Frederico Nascimento.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1886</date>
+               <event>He became a piano teacher at the Club Beethoven and studied harmony with Miguel Cardozo.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1887</date>
+               <event>He composed his first compositions for piano, some songs, and a march for orchestra.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1888</date>
+               <event>In May at The Club Iracema (Fortaleza) he premiered his first major composition <emph render="italic">Dança de negros</emph> which later became his <emph render="italic">Batuque</emph> for orchestra. In August, he traveled to Europe.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1889</date>
+               <event>Nepomuceno enrolled at the Accademia di Santa Cecilia in Rome and began his studies with Eugenio Terziani (harmony), Giovanni Sgambatti (piano), and Cesare de Sanctis.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1890</date>
+               <event>In August he left Rome and enrolled at the Akademische Meister Schulle in Berlin where he began his composition studies with Heinrich von Herzogenberg (1843-1900), a distinguished friend of Brahms.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1891</date>
+               <event>During his vacation, he travelled to Vienna and heard concerts by Brahms and Hans von Bülow. He also attended classes with Theodor Lechetitzky and met the Norwegian pianist Walborg Rendtler Bang, a pupil of Grieg, and Nepomuceno's future wife.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1892</date>
+               <event>He transferred to Berlin's Stern Conservatory to study composition and organ with Arnó Kleffel (1840-1913) and piano with H. Ehrlich (1822-1899) for two years.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1893</date>
+               <event>In July, he travelled to Christiania (Oslo) and married Walborg Rendtler Bang. They had four children: Eivind, Sigurd, Sigrid and Astrid. The couple resided for a time at the Grieg home, in Bergen, where they discussed the idea of creating a Brazilian musical patrimony. He studied with organist Christian Cappelen for three months.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1894</date>
+               <event>At the final examinations at the Stern Conservatory Nepomuceno conducted the Berlin Philharmonic Orchestra performing his own works, <emph render="italic">Scherzo für grosses Orchester</emph> and <emph render="italic">Suite antiga</emph>. In April, he was nominated Professor of Organ "ad absentio" at the National Institute of Music (NIM) in Rio de Janeiro.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1894</date>
+               <event>He went to Paris to attend the Schola Cantorum organ courses with Alexandre Guilmant. There he met and discussed music with Camille Saint-Saëns, Charles Bordes and Vincent D'Indy. Nepomuceno was invited by Sorbone's Professor of Greek Charles Chabault to write the incidental music to Sophocles' <emph render="italic">Electra</emph>.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1895</date>
+               <event>In July, Nepomuceno returned to Rio de Janeiro and gave a historical concert as pianist, organist, and conductor of his works at the NIM.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1896</date>
+               <event>Nepomuceno was nominated Professor of Composition at the NIM, and Conductor at the Associaçao dos Concertos Populares. In two years, he premiered many works of new Brazilian composers.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1897</date>
+               <event>On August 1 the NIM organized a major Festival Alberto Nepomuceno. He conducted the premiere of his major symphonic works: <emph render="italic">Série Brasileira</emph>, Symphony in G minor, and <emph render="italic">As Uyaras</emph> among others.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1898</date>
+               <event>On October 14 Nepomuceno's first opera, <emph render="italic">Artemis,</emph> was premiered at the Teatro São Pedro de Alcântara.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1902</date>
+               <event>On July 12 Nepomuceno is nominated Director of NIM.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1904</date>
+               <event>On October 20 he conducted the premiere of <emph render="italic">O Garatuja</emph>. He was designated by the NIM to welcome Saint-Saëns on his arrival in Brazil.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1908</date>
+               <event>He organized and conducted a 26-concert series, with premieres of major French, Russian, and Brazilian works.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1909</date>
+               <event>He presented a project to the National Congress for the creation of a National Orchestra subsidized by the government.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1910</date>
+               <event>He was sent to Brussels, Geneva, and Paris by the Brazilian Government to conduct Brazilian music. He visited Debussy who presented him with the autograph of <emph render="italic">Pélleas et Mélisande</emph>.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1913</date>
+               <event>On June 30 he traveled to Buenos Aires to attend the world premiere of his opera <emph render="italic">Abul</emph> at the Teatro Coliseo. He conducted a tribute to a Wagner centennial at Rio's Teatro Municipal.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1915</date>
+               <event>On April 15 he attended the European premiere of <emph render="italic">Abul</emph> at Rome's Teatro Costanzi.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1916</date>
+               <event>He made a Portuguese translation of Schönberg's <emph render="italic">Harmonielehre</emph> and tried to force it upon the NIM without success.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1919</date>
+               <event>He conducted his last concerts at the Teatro Municipal and, with the premiere of Villa-Lobos' Concerto for Cello, introduced a new composer to the public. </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1920</date>
+               <event>In February he asked his editor Sampaio Araújo to publish the first of Villa-Lobos' works. In June he was awarded the Gold Medal from King Albert of Belgium for his devotion to Belgian welfare during the war.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1920</date>
+               <event>On September 23 Richard Strauss conducted the Vienna Philharmonic in his<emph render="italic"> O Garatuja.</emph>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1920</date>
+               <event>On October 16 Nepomuceno died at the age of 56 in Rio de Janeiro.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd4855e376" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Alberto Nepomuceno Collection reveals a major composer who was a pioneer among Brazilian musicians and who was recognized as the "father" of musical nationalism in his country. In addition to being the first to incorporate native themes and rhythms into art music in Brazil, he developed a brilliant career as a prominent teacher and theoretician, an orchestra conductor, pianist and organist, and a musical administrator.</p>
+         <p>Nepomuceno, born in the middle of the nineteenth century, received his early musical education in Brazil from his father, a church organist. Later he became highly cultivated during his scholarly years of musical studies in Europe in the best conservatories of that time, such as Rome's Santa Cecilia, Paris' Schola Cantorum and Berlin's Akademische Meister Schulle, among others. He was fluent in five languages and became acquainted with major composers of the twentieth century, among them Debussy, Saint-Saëns, D'Indy, and Richard Strauss, all of whom praised his works.  In addition, his marriage to the distinguished Norwegian pianist Walborg Rendtler Bang allowed him to establish a personal friendship with Edward Grieg.</p>
+         <p>Parallel to a major career in composition and conducting, Nepomuceno's passion was to give his country a better and more advanced musical curricula. As a professor of composition he tried to apply new systems, for example, Schönberg's <emph render="italic">Harmony Treatise</emph>, but was unable to persuade the musicians of his time to change the traditional way of teaching. Nevertheless, thanks to his tireless work for the recognition of Brazilian nationalism and encouragement of young and new composers, he was able, just one year before his death, to conduct and introduce to the public Heitor Villa-Lobos' work.</p>
+         <p>From his stage works to the piano pieces Nepomuceno's eclecticism is the common attribute of his whole output. His style goes from a conventional romantic trend passing through transitional styles to the fiery rhythms of the Afro-Brazilian dances. In the middle of these periods can be found piano works that recreated a harpsichord-like resemblance, such as, the early <emph render="italic">Suite Antiga</emph>, as well as vivacious and spontaneous dance-like urban tunes as the "maxixe" and the "choro" with <emph render="italic">Galhofeira</emph> as its best example.</p>
+         <p>The collection consists primarily of scores, most of them photocopies of holographs, and printed material. Among the printed scores the original rare Portuguese-Italian edition of his opera <emph render="italic">Abul</emph>, in a piano-vocal score, printed by Sonzogno of Milan, in 1913, and also a photocopy of the piano-vocal score of the French-Portuguese version of the opera <emph render="italic">Artemis</emph>. Following in importance is the full score of his <emph render="italic">Série Brasileira</emph> of which the last movement, the famous "Batuque," was the first symphonic undertaking to picture one aspect of the unique Brazilian folk life. This collection also contains the printed full score of the prelude <emph render="italic">O Garatuja</emph>, a work that was conducted and acclaimed by Richard Strauss.</p>
+         <p>The chamber music although small in quantity is quite significant because it contains, among other items, the composer's three major string quartets. The third in D minor "Brasileiro," dated Berlin 1891, is another earlier example of the use of Brazilian thematic rhythms in art music.</p>
+         <p>The vocal music, about seventy piano-vocal scores with German, French, Italian, Swedish and Portuguese texts, illustrates the development of Nepomuceno from his European early style to the works that depict the sometimes melancholic perception of the Brazilian soul. The piano works, with similar characteristics, have a wide range from the aforementioned <emph render="italic">Suite antiga</emph> to the <emph render="italic">Quatro peças lyricas</emph>, written in a romantic style at the beginning, but finishing with the syncopated pattern and the distinctive improvisation of the "choro."</p>
+         <p>Even though the collection is small in size, it contains a variety of works in each genre showing the development of Nepomuceno's musical career, from a strictly European composer to the first Brazilian to achieve stature as the founder of musical nationalism in his country. It encompasses a 33-year period, from his early works in 1887 until his last in 1920. In addition, the collection contains a small amount of photographs, portraits of the composer and his wife, and also books, catalogs and other printed materials published during the last sixty years.</p>
+         <p>Nevertheless his relevance as a creator and his contribution to the Brazilian musical culture goes far beyond. In addition to his career as a major composition teacher and director of the National Institute of Music, he must be remembered as a conductor who not only was the first to lead the symphonic works of his young fellow-citizens, but also the Brazilian premieres of the music of Wagner and all the major French and Russian composers of the first half of the twentieth century.</p>
+         <p>Finally, the collection is complemented with several long playing 33-1/3 rpm records that contain symphonic, choral, vocal, chamber music and piano works, performed and conducted by Brazilian musicians. The record collection is located in the Motion Picture, Broadcasting and Recorded Sound Division.</p>
+         <p>Susana Salgado, 1998</p>
+      </scopecontent>
+      <arrangement id="mferd4855e429" encodinganalog="351$a">
+         <head>Organization of the Alberto Nepomuceno Collection</head>
+         <p>The Alberto Nepomuceno Collection is organized in 3 series:</p>
+         <list>
+            <item>Music</item>
+            <item>Catalogs and Other Printed Matter</item>
+            <item>Photographs</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2003561026"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2003561026</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd4855e441" type="combined">
+         <head>Container List</head>
+         <thead>
+            <row>
+               <entry>Box</entry>
+               <entry>Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd26e465" level="series">
+            <did>
+               <container type="box">1-5</container>
+               <unittitle encodinganalog="245$a" id="CL1001">Music, <unitdate encodinganalog="245$f" type="inclusive" normal="1887/1920" era="ce"
+                            calendar="gregorian">1887-1920</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Music series consists primarily of scores, most of them photocopies of holographs, and printed material.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is by genre and title.</p>
+            </arrangement>
+            <c02 id="mferd26e480" level="subseries">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a" id="CL10011001">Stage</unittitle>
+               </did>
+               <c03 id="mferd26e486" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Stage_CL10011001_D3_1">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Abul, opera in 3 acts</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: libretto by the composer included, photocopies of manuscript full scores of Act 2, Dança Sacra do Véu, and Interludio from Act 3</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: Piano-vocal score dedicated, dated and signed by the composer, "Rio, 29 setembro 1913"</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e506" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Stage_CL10011001_D3_2">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Artémis, episodio lyrico em um acto</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score, photocopy of holograph[?] full score of the Interludio, photocopy of libretto included</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd26e520" level="subseries">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a" id="CL10011002">Orchestral Works</unittitle>
+               </did>
+               <c03 id="mferd26e526" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_1">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Adagio para cordas</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript score in ink</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e540" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_2">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Andante expressivo</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript score in ink</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e554" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_3">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Batuque, danza de negros</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of offset printed full score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: No.4 of Série Brasileira</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e571" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_4">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">O Garatuja, préludio</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed full score</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e585" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_5">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Serenata</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript full score in ink</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e599" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_6">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Série Brasileira, I Alvorada na serra, II Intermédio, III A sesta na rede, IV Batuque</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of offset printed full score</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e613" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_7">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Squerzo (Scherzo)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript score in ink</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e627" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_8">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Suite Antiga, op. 11</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript score in ink</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e641" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/9</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Orchestral_Works_CL10011002_D3_9">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Valses humoristiques pour piano et orchéstre (Valsas humorísticas)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopies of manuscript full score in ink and printed full score (2 copies)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd26e655" level="subseries">
+               <did>
+                  <container type="box-folder">3/1-12</container>
+                  <unittitle encodinganalog="245$a" id="CL10011003">Chamber Music</unittitle>
+               </did>
+               <c03 id="mferd26e661" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_1">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Cançao, Manobra Militar, Minueto</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed guitar score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: guitar transcription by Isaias Savio</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e678" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_2">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Devaneio, 1919</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-violin score and violin part</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e692" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_3">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Erinnerung (Souvenir)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Manuscript score in ink</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: with pencil emendations</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: string quintet</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e712" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_4">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Offertoire</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed organ score</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e726" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_5">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Piano trio, in F sharp minor</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed score</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e740" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_6">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Prece (obra posthuma)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-violin score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: original piano-cello score, arranged for piano-violin by Lambert Ribeiro</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e757" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_7">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Prélude et fugue</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed organ or harmonium score</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e771" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_8">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Romance</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-cello score</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e785" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_9">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">String quartet no.1, in B minor</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopies of holograph score and offset printed parts</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: dated: 1890</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e802" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/10</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_10">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">String quartet no.2, in G minor</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript score in ink</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: includes program of world premiere</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: dated: "Berlin, 1891"</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e823" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/11</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_11">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">String quartet no.3, in D minor, "Brasileiro"</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript score and offset printed parts</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd26e837" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Chamber_Music_CL10011003_D3_12">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Tarantella</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-cello score</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd26e851" level="subseries">
+               <did>
+                  <container type="box-folder">3/13-18</container>
+                  <container type="box-folder">4/1-46</container>
+                  <container type="box-folder">5/1-5</container>
+                  <unittitle encodinganalog="245$a" id="CL10011004">Songs</unittitle>
+               </did>
+               <c03 id="mferd26e861" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/13</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_1">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">2 Cançôes: Coração triste, Philomela (Filomena), op. 18, no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e878" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/14</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_2">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">12 Cançôes: As Uyáras, Medroso de Amor, Madrigal, Coraçao triste,</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-choral and piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e895" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/14</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_3">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Philomela (vol. I only)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-choral and piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e912" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/15</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_4">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">A Jangada, cançao</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e929" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/16</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_5">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Aime-moi</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e946" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/17</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_6">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Antigas modinhas brasileiras</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e963" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/18</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_7">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Ao amanecer, op. 34, no.1, Anoitece, op. 34, no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e980" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_8">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Ave Maria [no.1]</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e997" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_9">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Ave Maria [no.2]</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1014" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_10">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Ave Maria [no.3]</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed chorus-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1032" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_11">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Canção, op. 30, no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed of piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1049" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_12">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Canção da ausencia</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1066" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_13">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Canção de amor (Liebeslied), op. 19, no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1083" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_14">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Cantigas</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1100" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_15">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Cantilena</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1117" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_16">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Canto Nupcial</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1134" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/10</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_17">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Cantos da Salamita</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1151" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/11</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_18">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Coração indeciso, canção, op. 30, no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1168" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/12</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_19">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Cornetas</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: piece for Tambores e cornetas</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1188" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/13</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_20">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Désirs d'hiver</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: signed by Sigrid Nepomuceno</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1208" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/14</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_21">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Desterro</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1226" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/15</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_22">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Dolor supremus, op. 21, no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1243" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_23">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Duas cançoes</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: only Amo-te Muito...</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1263" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/17</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_24">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Duas poesias, op. 26</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1280" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/18</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_25">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Duas poesias, op. 31</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal scores (2 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: one score has a photocopy page</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1300" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/19</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_26">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Duas poesias, Sempre!, Dôr sem consolo, op. 32</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1317" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/20</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_27">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Einklang</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1334" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/21</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_28">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Epithalamio</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1351" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/22</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_29">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Gedicht</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1368" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/23</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_30">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Herbst</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1385" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/24</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_31">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Der Himmel</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of holograph piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: dated "Paris 1894"</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1405" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/25</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_32">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Hino Nacional</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: vocal adaptation by Alberto Nepomuceno</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: Hino Nacional composed by Francisco Manuel de Silva</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1429" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/26</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_33">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Hymno do Ceará</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1446" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/27</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_34">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Ingemisco</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1463" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/28</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_35">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Invoção á Cruz</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1480" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/29</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_36">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Le miracle de la Semence, tragipoëme</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 4 songs</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1500" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/30</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_37">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Le miroir d'or</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1517" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/31</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_38">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Les yeux élus</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: signed by Sigrid Nepomuceno</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1537" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/32</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_39">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Mater Dolorosa, op. 14, no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1554" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/33</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_40">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Morta (Trovas do morte)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1571" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/34</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_41">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Nossa Velhice</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: cover missing</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1591" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/35</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_42">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Numa Concha, Canção</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1608" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/36</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_43">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">O Baile na Flor</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed choral score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1626" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/37</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_44">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Occaso</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1643" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/38</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_45">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Olha-me!</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: signed by Sigrid Nepomuceno</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1663" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/39</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_46">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Oração ao diabo, op. 20, no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1680" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/40</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_47">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Ora dize-me a verdade, op. 12, no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1697" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/41</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_48">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Perché?</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1714" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/42</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_49">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Razão e amor (Obra póstuma)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1731" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/43</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_50">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Soneto, op. 21, no.3</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1748" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/44</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_51">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Sonhei, op. 19, no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1765" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/45</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_52">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Trovas, op. 29, no.1 and no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal scores (2 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1782" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/46</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_53">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Tu és o sol!, op. 14, no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1799" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_54">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Un soneto del Dante</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of holograph piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: text on cover page</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: signed and dated by the composer "Rome, 1887"</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1823" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_55">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Versos (II)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: signed by Sigrid Nepomuceno</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1843" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_56">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Wiege sie sauft</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of holograph piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1860" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_57">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Der wunde Ritter</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript piano-vocal score with lyrics on back</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1877" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Songs_CL10011004_D3_58">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Xácara, op. 20, no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano-vocal score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd26e1894" level="subseries">
+               <did>
+                  <container type="box-folder">5/6-34</container>
+                  <unittitle encodinganalog="245$a" id="CL10011005">Piano Works</unittitle>
+               </did>
+               <c03 id="mferd26e1900" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_1">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">1a. Mazurka</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1917" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_2">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">II Nocturno para piano</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of copyist's manuscript score in ink</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: piece for left hand</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1937" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_3">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">4 Peças lyricas, op. 13, 1. Anhelo, 2. Valsa, 3. Dialogo, 4. Galhofeira</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1954" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/9</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_4">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Batuque, no.4 da Série brasileira</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Piano-conductor score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: piano arrangement by J. Octaviano</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1974" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/10</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_5">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Brasileira</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e1991" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/11</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_6">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Canção, Peças infantís no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2008" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/12</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_7">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Cloches de Noël</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2025" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/13</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_8">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Deux morceaux</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2042" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/14</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_9">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Devaneio, op. 27, no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2059" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/15</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_10">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Five small pieces for left hand for children</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Typescript and manuscript piano score in ink</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2077" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/16</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_11">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Folha d'album no.1</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2094" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/17</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_12">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Folha d'album no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2111" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/18</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_13">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Folha d'album no.3</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2128" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/19</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_14">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Galhofeira, op.13, no.4</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2145" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/20</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_15">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Improviso, op.27, no.2</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2162" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/21</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_16">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Insistência, no.4 Serie peças infantís</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2179" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/22</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_17">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Manobra Militar, marcha</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2196" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/23</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_18">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Melodia (Meia força)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2213" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/24</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_19">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Nocturne for the left hand alone</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2230" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/25</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_20">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Noturno</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2247" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/26</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_21">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">O garatuja, prelúdio</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: piano transcription by Francisco Mignone, 1975</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2268" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/27</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_22">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Peças infantís, no.3 Menuet</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2285" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/28</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_23">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Prece, obra postuma</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: piano arrangement by Barrozo Netto</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2305" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/29</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_24">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Sonata in F minor, op.9</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of manuscript score in ink (2 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2322" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/30</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_25">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Suite antique, op.11</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2339" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/31</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_26">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Thème et variations, op.28</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2356" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/32</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_27">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Une fleur, romance</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2373" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/33</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_28">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Valse-Impromptu</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of manuscript score in ink</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: "revised by Sérgio Nepomuceno A. Corrêa"</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: unpublished work</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd26e2393" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/34</container>
+                     <unittitle encodinganalog="245$a" id="mu003004_Piano_Works_CL10011005_D3_29">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Variations sur un thème original, op.29</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Photocopy of printed piano score</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: 1st edition</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd26e2410" level="series">
+            <did>
+               <container type="box-folder">6/1-9</container>
+               <unittitle encodinganalog="245$a" id="CL1002">Catalogs and Other Printed Matter, <unitdate encodinganalog="245$f" type="inclusive" normal="1864/1920" era="ce"
+                            calendar="gregorian">1864-1920</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Catalogs and Other Printed Matter series consists of books, catalogs and other printed materials published during the last sixty years.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is by author and title.</p>
+            </arrangement>
+            <c02 id="mferd26e2425" level="file">
+               <did>
+                  <container type="box-folder">6/1</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_1">
+                     <emph render="italic">Alberto Nepomuceno, Directeur de l'Institut National de Musique, Rio de Janeiro</emph>.</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Note: Photocopy article on Nepomuceno.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd26e2437" level="file">
+               <did>
+                  <container type="box-folder">6/2</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_2">Alvim Corrêa, Sergio Nepomuceno. <emph render="italic">Alberto Nepomuceno, Catalogo Geral</emph>, Secretaria da Cultura, 1985</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Note: contains pictures</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd26e2449" level="file">
+               <did>
+                  <container type="box-folder">6/3</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_3">Alvim Corrêa, Sergio Nepomuceno. Biography and comment about Nepomuceno's "O Garatuja."</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2455" level="file">
+               <did>
+                  <container type="box-folder">6/4</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_4">Biblioteca Nacional. <emph render="italic">Exposiçao Comemorativa do Centenário do Nascimento de Alberto Nepomuceno</emph>, Rio de Janeiro, 1964.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2464" level="file">
+               <did>
+                  <container type="box-folder">6/5</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_5">Blume, Friedrich, ed. <emph render="italic">Die Musik in Geschichte und Gegenwart</emph>. Entry on Alberto Nepomuceno, Bärenreiter Kassel, Basel, London, New York</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Note: Photocopy of the page (2 copies)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd26e2476" level="file">
+               <did>
+                  <container type="box-folder">6/6</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_6">Conservatório de Música Alberto Nepomuceno. <emph render="italic">Atividades do Ano de 1963</emph>, Fortaleza, Dezembro de 1963</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2485" level="file">
+               <did>
+                  <container type="box-folder">6/7</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_7">De Almeida, Zélia de. <emph render="italic">Perfil Biográfico do Maestro Alberto Nepomuceno</emph>, Niterói, 1964</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2494" level="file">
+               <did>
+                  <container type="box-folder">6/8</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_8">Ministerio Da Cultura. <emph render="italic">Música Brasileira Para Orquestra</emph>, Catálogo Geral, 1988</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2504" level="file">
+               <did>
+                  <container type="box-folder">6/9</container>
+                  <unittitle encodinganalog="245$a"
+                             id="mu003004_CATALOGS_AND_OTHER_PRINTED_MATTER_CL1002_D3_9">Sadie, Stanley, Ed. <emph render="italic">The New Grove Dictionary of Music and Musicians</emph>, Macmillan, London, 1980.</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Note: Photocopy entry on Nepomuceno (2 copies)</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd26e2516" level="series">
+            <did>
+               <container type="box-folder">6/10-17</container>
+               <unittitle encodinganalog="245$a" id="CL1003">Photographs, <unitdate encodinganalog="245$f" type="inclusive" normal="1864/1920" era="ce"
+                            calendar="gregorian">1864-1920</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Photographs series contains portraits of the composer and his wife.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is chronological.</p>
+            </arrangement>
+            <c02 id="mferd26e2531" level="file">
+               <did>
+                  <container type="box-folder">6/10</container>
+                  <unittitle encodinganalog="245$a" id="mu003004_PHOTOGRAPHS_CL1003_D3_1">Portrait : A N, 1898</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2537" level="file">
+               <did>
+                  <container type="box-folder">6/11</container>
+                  <unittitle encodinganalog="245$a" id="mu003004_PHOTOGRAPHS_CL1003_D3_2">Portrait : A N, 1908</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2543" level="file">
+               <did>
+                  <container type="box-folder">6/12</container>
+                  <unittitle encodinganalog="245$a" id="mu003004_PHOTOGRAPHS_CL1003_D3_3">Portrait : A N, in Norway, 1900 (mounted photocopy)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2549" level="file">
+               <did>
+                  <container type="box-folder">6/13</container>
+                  <unittitle encodinganalog="245$a" id="mu003004_PHOTOGRAPHS_CL1003_D3_4">Portrait : A N, 1910</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2555" level="file">
+               <did>
+                  <container type="box-folder">6/14</container>
+                  <unittitle encodinganalog="245$a" id="mu003004_PHOTOGRAPHS_CL1003_D3_5">Portrait : A N, in front of the National Institute of Music (mounted photocopy) [n.d.]</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2561" level="file">
+               <did>
+                  <container type="box-folder">6/15</container>
+                  <unittitle encodinganalog="245$a" id="mu003004_PHOTOGRAPHS_CL1003_D3_6">Portrait : A N, 1918 (mounted photocopy)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2567" level="file">
+               <did>
+                  <container type="box-folder">6/16</container>
+                  <unittitle encodinganalog="245$a" id="mu003004_PHOTOGRAPHS_CL1003_D3_7">Portrait : A N, last photo, 1918 (mounted photocopy)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd26e2573" level="file">
+               <did>
+                  <container type="box-folder">6/17</container>
+                  <unittitle encodinganalog="245$a" id="mu003004_PHOTOGRAPHS_CL1003_D3_8">Portrait : Walborg Reutler Bang (Nepomuceno's wife) (mounted photocopy)</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

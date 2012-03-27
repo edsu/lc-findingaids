@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Fri, 16 December 2011 09:47:03 AM EST
+URL: http://hdl.loc.gov/loc.afc/eadafc.af011018
+ ===================================== -->
+<!-- Transformed with viv2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd43e2">
+   <eadheader id="mferd43e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.afc/eadafc.af011018"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.afc/eadafc.af011018</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">1991 Neptune Plaza Concert Series
+			 Collection</titleproper>
+            <subtitle encodinganalog="245$b"> 
+			            <num encodinganalog="090$a">AFC 1991/012</num> 
+            </subtitle>
+            <author encodinganalog="245$c">Prepared by Michelle Forner</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>American
+			 Folklife Center, Library of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="1995-11" era="ce" calendar="gregorian"/>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to the Collections in the Archive of Folk
+			 Culture</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2004695161" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2004695161</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Encoded by Glenn Gardner, 
+		  <date normal="2011-09" era="ce" calendar="gregorian">September 2011</date>; 
+		  <date era="ce" calendar="gregorian">Revised by Nora Yeh, December 2011</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in
+		  <language encodinganalog="041" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc type="register" level="collection" relatedencoding="MARC21">
+      <did id="mferd43e42">
+         <head>Collection Summary</head>
+         <unitid label="Collection Number" encodinganalog="090" countrycode="US"
+                 repositorycode="US-DLC">AFC 1991/012</unitid>
+         <unittitle label="Title" encodinganalog="245$a">1991 Neptune Plaza
+		  Concert Series Collection 
+		  <unitdate label="Inclusive Dates" type="inclusive" encodinganalog="245$f"
+                      normal="1991/1991"
+                      era="ce"
+                      calendar="gregorian">1991</unitdate>
+         </unittitle>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname> 
+               <subarea>Archive of Folk Culture, American Folklife
+			 Center</subarea> Library of Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+		          <extref xlink:type="simple" xlink:href="http://hdl.loc.gov/loc.afc/folklife.home">http://hdl.loc.gov/loc.afc/folklife.home</extref>
+		       </repository>
+         <physdesc label="Extent (Manuscripts)"> 
+            <extent encodinganalog="300">8
+		  folders.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent>11 sound tape reels
+		  : analog, 7 1/2 ips and 3 3/4 ips, 2 track ; 7 in.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent>6 sound cassettes :
+		  analog.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>503 photographs :
+		  black and white.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>12 photographic
+		  prints : black and white, color ; 8 x 10 in. and smaller.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>3 internegatives :
+		  black and white.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Moving Images)"> 
+            <extent>2 videocassettes (VHS):
+		  sound, color ; 1/2 in.</extent> 
+         </physdesc>
+         <origination label="Creator"> 
+		          <corpname source="lcnaf">American Folklife Center</corpname>
+		       </origination>
+         <langmaterial label="Languages" encodinganalog="546">
+		          <language encodinganalog="041" langcode="bul">Bulgarian</language>,
+		  <language encodinganalog="041" langcode="chi">Chinese</language>,
+		  <language encodinganalog="041" langcode="eng">English</language>,
+		  <language encodinganalog="041" langcode="ger">German</language>, and
+		  <language encodinganalog="041" langcode="jav">Javanese</language>
+         </langmaterial>
+         <abstract label="Summary" encodinganalog="520$a">The collection consists
+		  of manuscript materials, sound recordings, photographs, and moving images
+		  documenting the performance of Peking Opera, Swiss folk music, Bluegrass music,
+		  Bulgarian folk music, Javanese gamelan music and dance, and gospel music
+		  recorded live outdoors on Neptune Plaza in front of the Library of
+		  Congress.</abstract>
+      </did>
+      <scopecontent id="mferd43e125" encodinganalog="520">
+         <head>Scope and Content</head>
+         <p>The 1991 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, sound recordings, graphic materials, and moving
+		  images that document the 1991 concert series sponsored by the American Folklife
+		  Center. The annual series, which began in 1977, features the presentation of
+		  folk traditions from many cultures.</p>
+         <p>The 1991 season consisted of the following: 
+		<table>
+               <tgroup cols="4" align="left">
+                  <colspec colnum="1" colname="1" colwidth="15*"/>
+                  <colspec colnum="2" colname="2" colwidth="30*"/>
+                  <colspec colnum="3" colname="3" colwidth="25*"/>
+                  <colspec colnum="4" colname="4" colwidth="30*"/>
+                  <thead valign="bottom">
+                     <row>
+                        <entry morerows="0">Date</entry>
+                        <entry morerows="0">Performers</entry>
+                        <entry morerows="0">Place of Origin</entry>
+                        <entry morerows="0">Subject</entry>
+                     </row>
+                  </thead>
+                  <tbody valign="top">
+                     <row>
+                        <entry morerows="0">April 18</entry>
+                        <entry morerows="0">Han Sheng Chinese Opera Institute</entry>
+                        <entry morerows="0">District of Columbia</entry>
+                        <entry morerows="0">Peking opera</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">May 16</entry>
+                        <entry morerows="0">The Alder Family</entry>
+                        <entry morerows="0">Switzerland</entry>
+                        <entry morerows="0">Swiss folk music</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">June 20</entry>
+                        <entry morerows="0">Seldom Scene</entry>
+                        <entry morerows="0">Virginia</entry>
+                        <entry morerows="0">Bluegrass music</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">July 18</entry>
+                        <entry morerows="0">Bulgari</entry>
+                        <entry morerows="0">Bulgaria</entry>
+                        <entry morerows="0">Bulgarian folk music</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">August 15</entry>
+                        <entry morerows="0">Ensemble of the Embassy of the Republic of
+					 Indonesia</entry>
+                        <entry morerows="0">District of Columbia</entry>
+                        <entry morerows="0">Javanese gamelan music and dance</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">September 19</entry>
+                        <entry morerows="0">Prophecy: Cops for Christ</entry>
+                        <entry morerows="0">District of Columbia</entry>
+                        <entry morerows="0">Gospel music</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </scopecontent>
+      <bioghist id="mferd43e203" encodinganalog="545">
+         <head>Administrative History</head>
+         <p>Documentation created and accessioned by the American Folklife Center
+		  in 1991.</p>
+      </bioghist>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd43e208" altrender=":::F005=^20111207020201.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd45e12">
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Spottswood%2C+Richard+K.+%28Richard+Keith%29%2C^">Spottswood, Richard K. (Richard Keith), host.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Supartha%2C+I+Gst.+Agung+Ngurah%2C^">Supartha, I Gst. Agung Ngurah, dancer.</persname>
+         </controlaccess>
+         <controlaccess id="mferd45e24">
+            <head>Organizations</head>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Alder+Family+%28Musical+group%29^">Alder Family (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^American+Folklife+Center%2C^">American Folklife Center, collector.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Archive+of+Folk+Culture+%28Library+of+Congress%29%2C^">Archive of Folk Culture (Library of Congress), collector.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bulgari+%28Musical+group%29^">Bulgari (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Han+Sheng+Chinese+Opera+Institute%2C^">Han Sheng Chinese Opera Institute, performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Indonesia.+Kedutaan+Besar+%28U.S.%29^">Indonesia. <subarea encodinganalog="710$b">Kedutaan Besar (U.S.)</subarea>
+            </corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Prophecy%3A+Cops+for+Christ+%28Musical+group%29^">Prophecy: Cops for Christ (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Seldom+Scene+%28Musical+group%29^">Seldom Scene (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^WAMU-FM+%28Radio+station+%3A+Washington%2C+D.C.%29^">WAMU-FM (Radio station : Washington, D.C.)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd45e61">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^African+Americans+Music.^">African Americans--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Bluegrass+music+1991-2000.^">Bluegrass music--1991-2000.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Dance+music+Switzerland.^">Dance music--Switzerland.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Dance+China.^">Dance--China.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Dance+Indonesia.^">Dance--Indonesia.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+Bulgaria.^">Folk music--Bulgaria.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+Switzerland.^">Folk music--Switzerland.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+United+States.^">Folk music--United States.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Gamelan+music.^">Gamelan music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Gospel+music+Washington+%28D.C.%29^">Gospel music--Washington (D.C.)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Jubilee+singers+Washington+%28D.C.%29^">Jubilee singers--Washington (D.C.)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Operas%2C+Chinese+China+Peking.^">Operas, Chinese--China--Peking.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Spirituals+%28Songs%29^">Spirituals (Songs)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Yodels+Switzerland+Appenzell+%28Canton%29^">Yodels--Switzerland--Appenzell (Canton)</subject>
+         </controlaccess>
+         <controlaccess id="mferd45e112">
+            <head>Places</head>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Bulgaria+Music.^">Bulgaria--Music.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Indonesia+Music.^">Indonesia--Music.</geogname>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Switzerland+Appenzell+%28Canton%29+Music.^">Switzerland--Appenzell (Canton)--Music.</geogname>
+         </controlaccess>
+         <controlaccess id="mferd45e127">
+            <head>Titles</head>
+            <title xlink:type="simple" encodinganalog="246" source="lcnaf"
+                   altrender=":::PWEBRECON=^American+Folklife+Center+concert%2C+1991^">American Folklife Center concert, 1991</title>
+            <title xlink:type="simple" encodinganalog="246" source="lcnaf"
+                   altrender=":::PWEBRECON=^Neptune+Plaza+Concert+Series%2C+1991^">Neptune Plaza Concert Series, 1991</title>
+         </controlaccess>
+         <controlaccess id="mferd45e139">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Autographs.^">Autographs.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Manuscripts.^">Manuscripts.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Sound+recordings.^">Sound recordings.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Videocassettes.^">Videocassettes.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <accessrestrict id="mferd43e306" encodinganalog="506">
+         <head>Access</head>
+         <p>Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions.</p>
+      </accessrestrict>
+      <prefercite id="mferd43e311" encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>1991 Neptune Plaza Concert Series Collection (AFC 1991/012), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.</p>
+      </prefercite>
+      <odd id="mferd43e316" type="add">
+         <head>Collection Concordance by Format</head>
+         <table>
+            <tgroup cols="3" align="left">
+               <colspec colnum="1" colname="1" colwidth="20*"/>
+               <colspec colnum="2" colname="2" colwidth="40*"/>
+               <colspec colnum="3" colname="3" colwidth="40*"/>
+               <thead valign="bottom">
+                  <row>
+                     <entry morerows="0">Quantity</entry>
+                     <entry morerows="0">Physical Extent</entry>
+                     <entry morerows="0">Item Numbers</entry>
+                  </row>
+               </thead>
+               <tbody valign="top">
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Print Materials</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">box</entry>
+                     <entry morerows="0">FOLDERS 1, 2-3, 6, 11, 13, 17, 22</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Sound Recordings</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">7" DT mono reel at 3.75 ips </entry>
+                     <entry morerows="0">AFC 1991/012:SR 12 (incomplete)</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">10</entry>
+                     <entry morerows="0">7" DT mono reels at 7.5 ips</entry>
+                     <entry morerows="0">AFC 1991/012:SR 1 (incomplete)<lb/> AFC
+					 1991/012:SR 3-4 (poor recording)<lb/> AFC 1991/012:SR 6-7, 9-10, 14-16</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">6</entry>
+                     <entry morerows="0">90-minute audiocassettes</entry>
+                     <entry morerows="0">AFC 1991/012:SR 2, 5, 8, 11, 13, 17</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Graphic Materials</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">3</entry>
+                     <entry morerows="0">4x5" black-and-white internegatives</entry>
+                     <entry morerows="0">ENVELOPES 1-3 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">20</entry>
+                     <entry morerows="0">black-and-white contact sheets</entry>
+                     <entry morerows="0">FOLDERS 4, 7, 12, 14, 18-21, 23</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">8</entry>
+                     <entry morerows="0">8x10" black-and-white photographic
+					 prints</entry>
+                     <entry morerows="0">FOLDERS 5, 9-10, 16, 21, 24</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">5x7" black-and-white photographic
+					 print</entry>
+                     <entry morerows="0">FOLDER 16 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">5x5" color photographic print</entry>
+                     <entry morerows="0">FOLDER 24 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">4x6" color photographic print</entry>
+                     <entry morerows="0">FOLDER 21 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">4x5" black-and-white photographic
+					 print</entry>
+                     <entry morerows="0">FOLDER 10 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Moving Image</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">2</entry>
+                     <entry morerows="0">1/2" VHS color videocassettes </entry>
+                     <entry morerows="0">AFC 1991/012:V1-2</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </odd>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2004695161" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2004695161</extref>
+      </otherfindaid>
+      <dsc id="mferd43e454" type="combined">
+         <head>Collection Inventory</head>
+         <c01 id="mferd43e457" level="series">
+            <did>
+               <unittitle>Series I: PRINT MATERIALS</unittitle>
+            </did>
+            <c02 id="mferd43e461" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Publicity and
+				  Administration</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd43e466" level="file">
+                  <did>
+                     <container type="FOLDER">1</container>
+                     <unittitle>Archive of Folk Culture Administrative
+					 Materials.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>The collection guide (this document) and an article describing
+					 the Neptune Plaza Concert Series.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e475" level="file">
+                  <did>
+                     <container type="FOLDERS">2-3</container>
+                     <unittitle>Han Sheng Chinese Opera Institute,
+					 4-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 press releases, news clippings, concert programs in English and Chinese, and a
+					 concert log by Elaine Bradtke. Concert held in the Mumford Room, James Madison
+					 Building, Library of Congress.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e484" level="file">
+                  <did>
+                     <container type="FOLDER">6</container>
+                     <unittitle>The Alder Family, 5-16-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 press releases, a concert log by Elaine Bradtke, and miscellaneous
+					 illustrations.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e493" level="file">
+                  <did>
+                     <container type="FOLDER">11</container>
+                     <unittitle>Seldom Scene, 6-20-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 press releases, and a concert log by Elaine Bradtke.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e502" level="file">
+                  <did>
+                     <container type="FOLDER">13</container>
+                     <unittitle>Bulgari, 7-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 press releases, and a concert log by Elaine Bradtke.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e511" level="file">
+                  <did>
+                     <container type="FOLDER">17</container>
+                     <unittitle>Ensemble of the Embassy of the Republic of Indonesia,
+					 8-15-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert fliers, press releases, news clippings, a concert
+					 program, and a concert log by Elaine Bradtke.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e520" level="file">
+                  <did>
+                     <container type="FOLDER">22</container>
+                     <unittitle>Prophecy: Cops for Christ, 9-19-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 press releases, promotional photographs, and a concert log by Elaine
+					 Bradtke.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd43e529" level="series">
+            <did>
+               <unittitle>Series II: SOUND RECORDINGS</unittitle>
+            </did>
+            <c02 id="mferd43e533" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Reel-to-reel Audio
+				  Tapes</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd43e538" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 1</container>
+                     <unittitle>Han Sheng Chinese Opera Institute,
+					 4-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 7" DT mono at 7.5 ips. This recording is incomplete
+					 because it ends after the very beginning of the concert.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e547" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 3-4</container>
+                     <unittitle>The Alder Family, 5-16-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two 7" DT mono at 7.5 ips. The recording is poor quality. The
+					 Alder Family (5-16-91) is recorded in one direction and the Ensemble of the
+					 Embassy of the Republic of Indonesia (8-15-91) is recorded in the opposite
+					 direction. As a result, both recordings are barely audible.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e556" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 6-7</container>
+                     <unittitle>Seldom Scene, 6-20-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two 7" DT mono at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e565" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 9-10</container>
+                     <unittitle> Bulgari, 7-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two 7" DT mono at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e574" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 12</container>
+                     <unittitle>Ensemble of the Embassy of the Republic of Indonesia,
+					 8-15-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 7" DT mono at 3.75 ips. This recording is incomplete.
+					 There should have been a second reel for this concert. On AFC 1991/012:SR 4,
+					 the Alder Family (5-16-91) is recorded in one direction and the Ensemble of the
+					 Embassy of the Republic of Indonesia (8-15-91) is recorded in the opposite
+					 direction. As a result, both recordings are barely audible.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e583" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 14-16</container>
+                     <unittitle>Prophecy: Cops for Christ, 9-19-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Three 7" DT mono at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 id="mferd43e592" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Audio Cassettes</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd43e597" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 2</container>
+                     <unittitle>Han Sheng Chinese Opera Institute,
+					 4-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to-reel).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e606" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 5</container>
+                     <unittitle>The Alder Family, 5-16-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to-reel).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e615" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 8</container>
+                     <unittitle>Seldom Scene, 6-20-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to-reel).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e624" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 11</container>
+                     <unittitle>Bulgari, 7-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to-reel).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e633" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 13</container>
+                     <unittitle>Ensemble of the Embassy of the Republic of Indonesia,
+					 8-15-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to-reel).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e642" level="file">
+                  <did>
+                     <container type="AFC">1991/012: SR 17</container>
+                     <unittitle>Prophecy: Cops for Christ, 9-19-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to-reel).</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd43e651" level="series">
+            <did>
+               <unittitle>Series III: GRAPHIC MATERIALS</unittitle>
+            </did>
+            <c02 id="mferd43e655" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Negatives</emph>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>Note: Additional negatives for photographs shot by Library of
+				  Congress photographers Reid Baker and Jim Higgins may be located in the Public
+				  Affairs Office.</p>
+               </note>
+               <c03 id="mferd43e663" level="file">
+                  <did>
+                     <container type="ENVELOPE">1</container>
+                     <unittitle>The Alder Family, 5-16-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 4 x 5" black-and-white internegative. Photographed by Reid
+					 Baker.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e672" level="file">
+                  <did>
+                     <container type="ENVELOPE">2</container>
+                     <unittitle>Seldom Scene, 6-20-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 4 x 5" black-and-white internegative. Photographed by Greg
+					 Jenkins.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e681" level="file">
+                  <did>
+                     <container type="ENVELOPE">3</container>
+                     <unittitle>Bulgari, 7-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 4 x 5" black-and-white internegative. Photographed by Jim
+					 Higgins.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 id="mferd43e690" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Photographic
+				  Prints</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd43e695" level="file">
+                  <did>
+                     <container type="FOLDERS">4-5</container>
+                     <unittitle>Han Sheng Chinese Opera Institute,
+					 4-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Three black-and-white 35 mm contact sheets (66 images) and
+					 four 8 x 10" black-and-white photographic prints. Photographed by Jim
+					 Higgins.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e704" level="file">
+                  <did>
+                     <container type="FOLDERS">7-10</container>
+                     <unittitle>The Alder Family, 5-16-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Three black-and-white 35 mm contact sheets (64 images), three
+					 duplicate contact sheets, one 8 x 10" black-and-white photographic print and
+					 three duplicates, and one 4 x 5" black-and-white photographic print.
+					 Photographed by Reid Baker.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e713" level="file">
+                  <did>
+                     <container type="FOLDER">12</container>
+                     <unittitle>Seldom Scene, 6-20-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two black-and-white 35 mm contact sheets (60 images).
+					 Photographed by Greg Jenkins.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e722" level="file">
+                  <did>
+                     <container type="FOLDERS">14-16</container>
+                     <unittitle>Bulgari, 7-18-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Three black-and-white 35 mm contact sheets (62 images), one 8
+					 x 10" black-and-white photographic print and two duplicates, and one 5 x 7"
+					 black-and-white photographic print. Photographed by Jim Higgins.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e731" level="file">
+                  <did>
+                     <container type="FOLDERS">18-21</container>
+                     <unittitle>Ensemble of the Embassy of the Republic of Indonesia,
+					 8-15-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Seven black-and-white 35 mm contact sheets (195 images), one 8
+					 x 10" black-and-white photographic print, and one 4 x 6" color photographic
+					 print. Photographed by Yusef El-Amin.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd43e740" level="file">
+                  <did>
+                     <container type="FOLDERS">23-24</container>
+                     <unittitle>Prophecy: Cops for Christ, 9-19-91.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two black-and-white contact sheets (56 images), one 8 x 10"
+					 black-and-white photographic print with two duplicates, and one 5 x 5" color
+					 photographic print. Photographed by Reid Baker.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd43e749" level="series">
+            <did>
+               <unittitle>Series IV: MOVING IMAGE</unittitle>
+            </did>
+            <c02 id="mferd43e753" level="file">
+               <did>
+                  <container type="AFC">1991/012:V1</container>
+                  <unittitle>Ensemble of the Embassy of the Republic of Indonesia,
+				  8-15-91.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One 1/2" VHS videocassette color, sound</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd43e762" level="file">
+               <did>
+                  <container type="AFC">1991/012:V2</container>
+                  <unittitle>Prophecy: Cops for Christ, 9-19-91.</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One 1/2" VHS videocassette color, sound.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+      </dsc>
+      <odd id="mferd43e771">
+         <head>
+            <emph>Appendix A: Dance Content</emph>
+         </head>
+         <table>
+            <tgroup cols="2" align="left">
+               <colspec colnum="1" colname="1" colwidth="20*"/>
+               <colspec colnum="2" colname="2" colwidth="80*"/>
+               <thead valign="bottom">
+                  <row>
+                     <entry morerows="0">Concert</entry>
+                     <entry morerows="0">Description</entry>
+                  </row>
+               </thead>
+               <tbody valign="top">
+                  <row>
+                     <entry morerows="0">Han Sheng Chinese Opera Institute</entry>
+                     <entry morerows="0">Peking Opera (Ching-shi) is an art combining
+					 stories, singing, acting, movement, elaborate costumes and make up, and
+					 instrumental music. The group performs three scenes from larger operas: "Jade
+					 Bracelet," "Heavenly Maiden Scattering Flowers," and "Ch'i Pa and Tang Ma"
+					 (wu-styles). Print material and photographs: FOLDERS 2-5; sound recording: AFC
+					 1991/012:SR 1.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">Ensemble of the Embassy of the Republic of
+					 Indonesia</entry>
+                     <entry morerows="0">Javanese gamelan and dance performance. The
+					 Ensemble presents the following dances: Gambyong, Javanese classical dance;
+					 Satrya, story of a knight; Kuda Kuda, story of horse shepherds; Merak,
+					 classical peacock dance from the highlands of West Java; Gambir Anom,
+					 dance-drama based on the Maha Bharata epic from Central Java; Jaipongan,
+					 popular dance from Sunda West of Jawa Island; and Hanoman-Rahwana, dance-drama
+					 based on the tale of Hanoman from the Ramayana epic. Print material and
+					 photographs: FOLDERS 17-21; sound recordings: AFC 1991/012:SR 12-13; videotape:
+					 AFC 1991/012:V1.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </odd>
+   </archdesc>
+</ead>

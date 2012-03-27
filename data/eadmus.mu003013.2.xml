@@ -1,0 +1,1969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 22 September 2011 12:12:10 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu003013
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu003013--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu003013--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu003013-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd62e5">
+   <eadheader id="mferd62e6" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US" encodinganalog="856$u"
+             identifier="hdl:loc.music/eadmus.mu003013">http://hdl.loc.gov/loc.music/eadmus.mu003013</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Randolph S. Rothschild Collection</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:title="Seal of the Library of Congress"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2006" era="ce" calendar="gregorian">2006</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+                  <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2004718268"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2004718268</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding Aid encoded by Library of Congress Music Division, <date normal="2006" era="ce" calendar="gregorian">2006</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in<language langcode="eng" encodinganalog="041">English</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-07" era="ce" calendar="gregorian">2010 July</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in July 2010.</item>
+         </change>
+         <change>
+            <date normal="2010-04" era="ce" calendar="gregorian">2010 April</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in April 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" type="register" relatedencoding="MARC21">
+      <did id="mferd1033e57">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Randolph S. Rothschild Collection<unitdate label="Span Dates" type="inclusive" encodinganalog="245$f" normal="1942/1992"
+                      era="ce"
+                      calendar="gregorian">1942-1992</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1973/1985"
+                      era="ce"
+                      calendar="gregorian">(bulk 1973-1985)</unitdate>
+         </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.R68</unitid>
+         <origination label="Collector">
+            <persname encodinganalog="100" source="lcnaf">Rothschild, Randolph S., 1909-2003</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">circa 225 items</extent>
+            <extent encodinganalog="300">11 boxes</extent>
+            <extent encodinganalog="300">6 linear feet</extent>
+         </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Music Division</subarea> Library of Congress</corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">The collection consists primarily of music (ms., facsimile, and printed) and accompanying correspondence, programs, and reviews. The majority of the music in the collection comprises facsimile scores of compositions commissioned by the Chamber Music Society of Baltimore and the Baltimore Symphony Orchestra from prominent American composers, such as Dominick Argento, Milton Babbitt, Henry Cowell, Jacob Druckman, Ross Lee Finney, Lukas Foss, Leon Kirchner, Ernst Krenek, Robert Hall Lewis, Lawrence Moss, Roger Reynolds, Christopher Rouse, Gunther Schuller, Ralph Shapey, Hugo Weisgall, and Charles Wuorinen. Many of these scores are inscribed to Mr. Rothschild and signed by their composers. The collection also includes holograph ms. scores by Henry Cowell, Hugo Weisgall, and Brown Benson. Correspondence accompanies the scores by David Epstein, John Huggler, Jean Eichelberger Ivey, Leo Kraft, Lawrence Moss, Roger Reynolds, Ralph Shapey, and Hugo Weisgall. Besides the correspondence, a few scores include programs and reviews of the concerts at which they were performed.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd1033e105" altrender=":::F005=^20090430131732.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd64e7">
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Argento%2C+Dominick.^">Argento, Dominick.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Babbitt%2C+Milton%2C+1916-2011.^">Babbitt, Milton, 1916-2011.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Cowell%2C+Henry%2C+1897-1965.^">Cowell, Henry, 1897-1965.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Druckman%2C+Jacob%2C+1928-1996.^">Druckman, Jacob, 1928-1996.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Epstein%2C+David%2C+1930-2002+Correspondence.^">Epstein, David, 1930-2002--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Finney%2C+Ross+Lee%2C+1906-1997.^">Finney, Ross Lee, 1906-1997.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Foss%2C+Lukas%2C+1922-2009.^">Foss, Lukas, 1922-2009.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Huggler%2C+John+Correspondence.^">Huggler, John--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ivey%2C+Jean+Eichelberger+Correspondence.^">Ivey, Jean Eichelberger--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kirchner%2C+Leon.^">Kirchner, Leon.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kraft%2C+Leo+Correspondence.^">Kraft, Leo--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Krenek%2C+Ernst%2C+1900-1991.^">Krenek, Ernst, 1900-1991.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lewis%2C+Robert+Hall%2C+1926-1996.^">Lewis, Robert Hall, 1926-1996.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Moss%2C+Lawrence+Correspondence.^">Moss, Lawrence--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Moss%2C+Lawrence.^">Moss, Lawrence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Reynolds%2C+Roger%2C+1934-^">Reynolds, Roger, 1934- </persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Reynolds%2C+Roger%2C+1934-+Correspondence.^">Reynolds, Roger, 1934- --Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rothschild%2C+Randolph+S.%2C+1909-2003.^">Rothschild, Randolph S., 1909-2003.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rouse%2C+Christopher%2C+1949-^">Rouse, Christopher, 1949- </persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schuller%2C+Gunther.^">Schuller, Gunther.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Shapey%2C+Ralph%2C+1921-2002+Correspondence.^">Shapey, Ralph, 1921-2002--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Shapey%2C+Ralph%2C+1921-2002.^">Shapey, Ralph, 1921-2002.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Weisgall%2C+Hugo+Correspondence.^">Weisgall, Hugo--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Weisgall%2C+Hugo.^">Weisgall, Hugo.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Wuorinen%2C+Charles.^">Wuorinen, Charles.</persname>
+         </controlaccess>
+         <controlaccess id="mferd64e62">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Baltimore+Symphony+Orchestra+Records+and+correspondence.^">Baltimore Symphony Orchestra--Records and correspondence.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Chamber+Music+Society+of+Baltimore+Records+and+correspondence.^">Chamber Music Society of Baltimore--Records and correspondence.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd64e69">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Chamber+music+20th+century+Scores.^">Chamber music--20th century--Scores.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+20th+century+Manuscripts+Facsimiles.^">Music--20th century--Manuscripts--Facsimiles.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Orchestral+music+20th+century+Scores.^">Orchestral music--20th century--Scores.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Vocal+music+20th+century+Scores.^">Vocal music--20th century--Scores.</subject>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd1033e184" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd1033e187" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift; 1994 December 20.</p>
+         </acqinfo>
+         <accruals id="mferd1033e192" encodinganalog="584">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd1033e197" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Randolph S. Rothschild Collection was processed in 2003 by Wilda Heiss. This Finding Aid was prepared with Corel WordPerfect 8. In 2003, Michael A. Ferrando coded and edited the finding aid for EAD format.</p>
+         </processinfo>
+         <userestrict id="mferd1033e202" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the Randolph S. Rothschild Collection is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd1033e207" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Randolph S. Rothschild Collection is open to research. Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd1033e212" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, Randolph S. Rothschild Collection, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd1033e217" encodinganalog="545">
+         <head>Biographical Sketch</head>
+         <p>Randolph S. Rothschild (1909-2003) spent his life as a champion of new music.  Toward this end, he was involved in the commissioning of an unusually large numbers of new musical works through his presidency of the Chamber Music Society of Baltimore from 1954 to 1993 and his membership on the board of the Baltimore Symphony Orchestra from the 1960s when Peter Herman Adler was the music director and conductor through the directorship of Sergiu Comissiona and David Zinman.</p>
+         <p>Rothschild started piano lessons at the age of eight at the Peabody Preparatory of the Peabody Institute (which is now affiliated with the Johns Hopkins University) with Nellie Wilder Coolidge Robinson Robinson until he was 18.  Afterwards, he attended the Johns Hopkins University for two years where he became a jazz pianist for the Blue Jay Student Jazz Orchestra.  He finished his undergraduate Bachelor of Science degree in Economics at the University of Pennsylvania, Wharton School.  He began his law degree at the University of Pennsylvania, but returned to Baltimore during the depression where he completed the law degree at the University of Maryland.</p>
+         <p>In 1936 he joined the Sun Life Insurance Company of America which was founded in 1890 by his father Solomon and uncle Moses Rothschild.  When the company was sold in 1972, he retired from the posts of vice president and general counsel.</p>
+         <p>During these working years, his involvement in the musical life of Baltimore continued.  From 1954 to 1993 he served as president of the Chamber Music Society of Baltimore, which was co-founded in 1949 by Hugo Weisgall and Richard Goodman.  He was a board member of the Baltimore Symphony Orchestra and served on the committee that suggested contemporary composers for new commissions by the orchestra.  Since 1978, he served on the board of the Peabody Institute and later became a member of the Advisory Council.  He has made generous gifts to Peabody as part of their major campaign in 1980 and endowed the Composition Department to champion new music through the Randolph S. Rothschild Fund which supports scholarships, a visiting professorship for guest composers, and the printing and recording of specially selected student compositions.  In 1992, he was awarded the George Peabody Medal for "outstanding contributions to music in America" by the Peabody Institute.</p>
+         <p>His work on behalf of the Chamber Music Society of Baltimore and the Baltimore Symphony Orchestra to commission works by contemporary composers created his lifetime musical legacy.  He and his wife, Amalie, frequently invited the composers to their home as house guests during their stay in Baltimore.  They also hosted  musical performances at their home.  In the late 1940s, he set up a professional recording studio in his home which overlooked the performing area and which originally had the capacity to cut LPs and 16-inch transcription discs and later switched to open-reel and cassette recordings.  He recorded not only the performances at his home, but also recorded off-the-air performances of world premieres and first performances of newly commissioned works.</p>
+         <p>Rothschild was also well known as a micromineralogist and longtime editor of the International Directory of Micromounters.  He has cut and mounted more than 7,000 crystals which require a microscope to view and appreciate their beauty.</p>
+      </bioghist>
+      <scopecontent id="mferd1033e232" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Randolph S. Rothschild Collections consists primarily of music (manuscript, facsimile, and printed) and accompanying correspondence, programs, and reviews.  The collection spans the years 1942 to 1992, with the bulk of the materials dating from 1973 to 1985.</p>
+         <p>The majority of the music in the collection comprises facsimile scores of compositions commissioned by the Chamber Music Society of Baltimore and the Baltimore Symphony Orchestra from prominent American composers, such as Dominick Argento, Milton Babbitt, Henry Cowell, Jacob Druckman, Ross Lee Finney, Lukas Foss, Leon Kirchner, Ernst Krenek, Robert Hall Lewis, Lawrence Moss, Roger Reynolds, Christopher Rouse, Gunther Schuller, Ralph Shapey, Hugo Weisgall, Charges Wuorinen among others.  Many of these scores are inscribed to Mr. Rothschild and signed by the composer.  The collection also includes holograph manuscript scores by Henry Cowell, Hugo Weisgall, and Brown Benson.  A few scores were sent as a complimentary copy from the publisher to Mr. Randolph.</p>
+         <p>Correspondence accompanies the scores by David Epstein, John Huggler, Jean Eichelberger Ivey, Leo Kraft, Lawrence Moss, Roger Reynolds, Ralph Shapey, and Hugo Weisgall.  Besides the correspondence, a few scores include programs and reviews of the concerts.</p>
+         <p>Wilda Heiss, July 2003</p>
+      </scopecontent>
+      <arrangement id="mferd1033e243" encodinganalog="351$a">
+         <head>Organization of the Randolph S. Rothschild Collection</head>
+         <p>The Randolph S. Rothschild Collection is organized in 1 series:</p>
+         <list>
+            <item>Music</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2004718268"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2004718268</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd1033e251" type="combined">
+         <head>Container List</head>
+         <thead>
+            <row>
+               <entry>Box</entry>
+               <entry>Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd62e275" level="series">
+            <did>
+               <container type="box">1-11</container>
+               <unittitle encodinganalog="245$a" id="CL1001">Music</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The Music series consists primarily of music (manuscript, facsimile, and printed) and accompanying correspondence, programs, and reviews.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is alphabetically by composer and by title.</p>
+            </arrangement>
+            <c02 id="mferd62e287" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_1">
+                     <persname encodinganalog="100$a" role="cmp" normal="Albert, Stephen">Albert, Stephen</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e294" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_1">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for cello and orchestra (1990)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, plastic &amp; paper covers; [1], 140 p. </extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: To Randy Rothschild, With all my thanks for the great opportunity of working with both a great cellist and a great conductor.  The Baltimore Symphony, however, was the indispensable element in this chemistry.  With Respect, [Signed] Stephen Albert</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, inscribed on t.p.: Thank you Randy for this wonderful work. [Signed] David Zinman; To Randy Rothschild, I am deeply grateful to you for giving all of us this wonderful new work. [Signed] Yo Yo Ma</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: [Commissioned by the Baltimore Symphony Orchetra]</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e317" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_2">
+                     <persname encodinganalog="100$a" role="cmp" normal="Argento, Dominick">Argento, Dominick</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e324" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">11/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_2">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Le tombeau d'Edgar Poe: suite for orchestra (1985)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; [3], 80 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: Commissioned by the Baltimore Symphony Orchestra and Dedicated to Randolph S. Rothschild and Joseph Meyerhoff; 1st performance by the Baltimore Symphony Orchestra, February 27, 1986 with David Zinman conducting. [Signed] Dominick Argento, December 10, 1985</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On cover label &amp; p. i: Boosey &amp; Hawkes</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. ii: Commissioned by the Baltimore Symphony Orchestra; David Zinman, music director</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e347" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_3">
+                     <persname encodinganalog="100$a" role="cmp" normal="Babbitt, Milton">Babbitt, Milton</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e354" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_3">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The head of the bed for soprano, flute, clarinet, violin, and violoncello (1981)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; poem by John Hollander; [1], 75 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on p. i: For Randy Rothschild, In great gratitude, from [Signed] Milton Babbitt, 1/27/82</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on p. i: Commissioned by and Dedicated to The Chamber Music Society of Baltimore and its President, Randolph S. Rothschild, and composed for Phyllis Bryn-Julson</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e374" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_4">
+                     <persname encodinganalog="100$a" role="cmp" normal="Benson, Brown">Benson, Brown</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e381" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_4">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Randy's hit tune (1989)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Lead sheet [for guitar], holograph ms. in ink; [1] p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: Commissioned by Jean and Gilbert Benson for Randy's 80th; June 25th 1989</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e398" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_5">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Three years from nowhere for violin and piano (1983)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; 11 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On cover: possibly composer's autograph label</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: [Commissioned by the Chamber Music Society of Baltimore]</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e418" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_5">
+                     <persname encodinganalog="100$a" role="cmp" normal="Braun, Gerhard">Braun, Gerhard</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e425" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_6">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Nachstücke for recorder and piano (c1973)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed (Edition Moeck, no. 5139), unbound, paper cover; [5] p. (2 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Stamped on cover: Complimentary copy</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e442" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_6">
+                     <persname encodinganalog="100$a" role="cmp" normal="Cowell, Henry">Cowell, Henry</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e449" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_7">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Vocalise for madrigal singers (SSATB), clarinet, and keyboard (1956)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score (includes 3 stave vocal, clarinet, and keyboard), facsimile ms., folded; 26 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd62e463" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_8">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Vocalise for madrigal singers (SSATB), clarinet, and keyboard (1956)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Vocal score, holograph ms. in ink with pencil annotations, unbound; 23 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: Written for Hugo Weisgall and Baltimore Chamber Mus[ic] Soc[iety]</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e480" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_9">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Vocalise for madrigal singers (SSATB), clarinet, and keyboard (1956)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Vocal score includes clarinet part, facsimile ms., folded; 23 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: Written for Hugo Weisgall and Baltimore Chamber Mus[ic] Soc[iety]</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e497" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_10">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Vocalise for madrigal singers (SSATB), clarinet, and keyboard (1956)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Incomplete vocal score, facsimile ms. (neg. &amp; pos.); p. 1 only</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e511" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_7">
+                     <persname encodinganalog="100$a" role="cmp" normal="Cyr, Gordon">Cyr, Gordon</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e518" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_11">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Rhombohedra for concert band (1974)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., folded, no covers; [44] p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: To Randy Rothschild In gratitude for all the help he's given me! [Signed] Gordon C. Cyr</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on t.p.: In memoriam Charles E. Ives (1874-1954)</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: program, program notes, photocopy of review (3 copies)</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e541" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_12">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Tetramusic for clarinet, cello, piano and percussion (1976)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; [2], 24 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: To Randy Rothschild a great patron of new music. [Signed] Gordon C. Cyr</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: [Commissioned by the Chamber Music Society of Baltimore]</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e561" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_8">
+                     <persname encodinganalog="100$a" role="cmp" normal="Druckman, Jacob">Druckman, Jacob</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e568" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">11/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_13">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Prism for orchestra (1980)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; [2], 85 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: For Randy &amp; Amalie Rothschild on the occasion of the brilliant first performance of this work with great thanks for having made it all possible [Signed] Warmly, Jacob Druckman, May 1980</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on t.p.: Boosey &amp; Hawkes, Inc.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. ii: Commissioned by the Baltimore Symphony Orchestra and first performed by them with Sergiu Comissiona conducting on May 21, 1980</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: after Marc-Antoine Charpentier</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: photocopy of 2 reviews</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e598" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_9">
+                     <persname encodinganalog="100$a" role="cmp" normal="Epstein, David">Epstein, David</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e605" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_14">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">String quartet (1971)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (Carl Fischer, Inc.), bound, paper covers; [2], 45 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: For the Philadelphia Quartet and The Contemporary Group of the University of Washington</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from David Epstein to Randolph Rothschild, 31 May 1983; 2 p., with promotional brochure on David Epstein</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, laid in: t.l.s.(photocopy), from James Ostryniec to David Epstein, 6 July 1983; 1 p.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e628" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_15">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">String trio for violin, viola, and violoncello (1964)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score and parts, printed (Carl Fischer, Inc.), bound, paper covers; 24 p. (score); 8 p. (each part)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: Commissioned by the Pacific String Trio</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e645" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_10">
+                     <persname encodinganalog="100$a" role="cmp" normal="Ferrari, Luc">Ferrari, Luc</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e652" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_16">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Société II for 4 soloists and 16 instrumentalists (1965/67)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (Edition Moeck, no. 5046), bound, paper covers,; [6], 51 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Complimentary copy</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e669" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_11">
+                     <persname encodinganalog="100$a" role="cmp" normal="Finney, Ross Lee">Finney, Ross Lee</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e676" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_17">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Quartet for oboe, cello, percussion, and piano (1979)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; [2], 47 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: For Randolph S. Rothschild. [Signed] Ross Lee Finney</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on t.p.: Commissioned by the Chamber Music Society of Baltimore</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from Stephen Fisher, Manager, Editorial Department of C. F. Peters Corporation to Randolph Rothschild, 5 November 1979</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, laid in: full score, alternate version of "Interlude"; pp.21-27</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e702" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_18">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Variations on a memory for chamber orchestra (1975)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (Henmar Press Inc.), bound,; [2], 32 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Composed for the Baltimore Chamber Music Society</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: card, With the compliments of C. F. Peters Corporation; incribed on card, Dear Mr. Rothschild This is the original copy.  The published copy will have revisions. [Signed] Ross Lee Finney</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, laid in: paper with "RLF, 2015 Geddes Ave., Ann Arbor, Mich. 48104" [in hand of RSR]</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: for 2 fl., cl., b.cl. or t.sax., 2 hn., tpt., trb., perc., and piano</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e728" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_12">
+                     <persname encodinganalog="100$a" role="cmp" normal="Fontyn, Jacqueline">Fontyn, Jacqueline</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e735" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_19">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Scurochiaro for flute, clarinet, bassoon, violin, violoncello, contrabass, and piano (1989)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; [2], 43 p.(3 copies, one for piano)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: Commissioned by the Chamber Music Society of Baltimore</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e752" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_20">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Scurochiaro for flute, clarinet, bassoon, violin, violoncello, contrabass, and piano (1989)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Part for fl., cl., and bsn, facsimile ms., bound, no covers; 18 p.(3 copies)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd62e766" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_21">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Scurochiaro for flute, clarinet, bassoon, violin, violoncello, contrabass, and piano (1989)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Part for vln., vnc., and cb., facsimile ms., bound, no covers; 18 p.(3 copies)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e780" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_13">
+                     <persname encodinganalog="100$a" role="cmp" normal="Foss, Lukas">Foss, Lukas</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e787" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_22">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folksong for orchestra (1975)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (Editions Salabert), bound, paper covers; [1], 39 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: for Randolph S. Rothschild with profound thanks for his concern and generosity toward new music. [Signed] Lukas Foss, Feb. 6, 1976</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On verso t.p.: composed for the Baltimore Symphony Orchestra, Sergiu Comissiona, music director</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e807" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_14">
+                     <persname encodinganalog="100$a" role="cmp" normal="Gruber, H. K.">Gruber, H. K.</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e814" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_23">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">3 mob pieces for 7 interchangeable instruments and percussion (1977)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score and parts, printed (Boosey &amp; Hawkes, Inc.), each bound, paper cover;  score [2], 22 p.; parts 3 p. except 4 p. for V.-guit/kybd. and VII.-db. </extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: card, With the compliments of Boosey &amp; Hawkes</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: for I. fl./ob./vln, I. cl., II. vln., II. cl./tpt., III. tpt./cl., IV. hn., IV. tbn./bsn./vnc., V. guit./kybd., VI. cl., VI. vln., VII. vnc./bsn., VII. db., perc.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e834" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_15">
+                     <persname encodinganalog="100$a" role="cmp" normal="Hailstork, Adolphus">Hailstork, Adolphus</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e841" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_24">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Festival music for symphony orchestra (1992)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed, bound, paper covers; [2], 52 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: To Randy Rothschild. Thank you very much for your kindness &amp; support.  Best wishes always, [Signed], Adolphus Hailstork</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by the Barlow Endowment for Music Composition at Brigham Young University</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On verso of t.p.: Festival Music was composed for the Baltimore Symphony Orchestra, David Zinman, conductor</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e864" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_16">
+                     <persname encodinganalog="100$a" role="cmp" normal="Huggler, John">Huggler, John</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e871" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_25">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Commemoration: for Randy on the occasion of his seventieth birthday for piano (1978)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms., unbound, folded, no covers; 5 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>At end: (composed - with pleasure - at the request of Amalie Rothschild)</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from John Huggler to Randolph and Amalie Rothschild, 1 April 1979</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e891" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_26">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Serenata per 5 strumenti, op. 80 (1977)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., folded, no covers; [1], 22 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: commissioned by the Baltimore Chamber Music Society for the Boston Musica Viva</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on t.p.: for Randolph S. Rothschild, Robert Hall Lewis, Richard Pittman and Mardean Butler Huggler</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: for flute, clarinet/bass clarinet, violin, viola, violoncello</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e914" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_17">
+                     <persname encodinganalog="100$a" role="cmp" normal="Humel, Gerald">Humel, Gerald</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e921" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">6/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_27">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Winter's ghost: quintet for flute, clarinet, violin, cello and piano (1988)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., unbound, paper cover; [2], 54 p. (2 copies, 1 for piano)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On verso of p. ii: commissioned by the Chamber Music Society of Baltimore</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e938" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">6/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_28">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Winter's ghost: quintet for flute, clarinet, violin, cello and piano (1988)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Parts, facsimile ms., all unbound, paper cover; 10 p. (fl.); 9 p. (cl., vln., vnc.)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e952" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_18">
+                     <persname encodinganalog="100$a" role="cmp" normal="Ivey, Jean Eichelberger">Ivey, Jean Eichelberger</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e959" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">6/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_29">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Notes toward time (1984)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; poem by Josephine Jacobson; [2], 27 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On verso of t.p.: commissioned by the Chamber Music Society of Baltimore in commemoration of the 350th anniversary of the founding of the colony of Maryland in 1634</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: a.l.s., from Jean Eichelberger Ivey to Randolph Rothschild, 8 March 1984</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: for mezzo-soprano, flute/alto flute, harp</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e982" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_19">
+                     <persname encodinganalog="100$a" role="cmp" normal="Kirchner, Leon">Kirchner, Leon</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e989" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">6/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_30">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for violin, cello, 10 winds and percussion (1960)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (Associated Music Publishers, Inc.), bound, paper covers; [1], 42 p., includes separate p. 11 (neg.), p. 19 (neg. &amp; pos.)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by the Chamber Music Society of Baltimore, Md.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>For: solo vln., solo vnc., fl., ob., cl., bsn., c.bsn., hn., 2 tpt. 2 trb., celesta, perc.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1009" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">6/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_31">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for violin, cello, 10 winds and percussion (1960)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (negs.), unbound; [1], 42 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by the Chamber Music Society of Baltimore, Inc.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1026" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/9</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_32">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for violin, cello, 10 winds and percussion (1960)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed (Associated Music Publishers, Inc.), bound, paper covers,; 129 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On cover: study score</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by The Chamber Music Society of Baltimore</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: card; Compliments of AMP and the composer</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1049" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">7/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_33">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for violin, cello, 10 winds and percussion (1960)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Complete parts, copyist's ms. in ink, unbound, each with partial folded cover, includes solo vln., solo vnc., fl., ob., cl., bsn., c-bsn., hn., 1st tpt, 2nd tpt, 1st trb., 2nd trb., celesta, perc.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: possibly autograph notes by composer on folded covers</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1066" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">7/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_34">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for violin, cello, 10 winds and percussion (1960)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Complete parts, facsimile ms., each performance part divided into the work's 2 movements and bound that way, no covers; varied pagination</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: includes solo vln., solo vnc., fl., ob., cl., bsn., c-bsn., hr., 1st tpt (2 copies), 2nd tpt (2 copies), 1st trb. (2 copies), 2nd trb. (2 copies), celesta, perc. (2 copies)</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1083" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">7/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_35">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for violin, cello, 10 winds and percussion (1960)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Complete parts (except solo vln. and solo vnc.), facsimile ms. (Associated Music Publishers), each part bound separately, some with paper covers and others with no covers; varied pagination</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: includes fl., ob., cl., bsn., c-bsn., hn., 1st tpt., 2nd tpt., 1st trb., 2nd trb., celesta, perc. (3 copies)</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1100" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">7/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_36">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for violin, cello, 10 winds and percussion (1960)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Parts for vln. and vnc (2 staves), facsimile ms., unbound</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: p. 1(neg. &amp; pos.); p. 2 (neg. &amp; 2 pos.); p. 3 (neg. &amp; pos.); p. 4 (neg. &amp; pos.); p. 5 (2 pos.); p. 6 (2 pos.); p. 7 (2 pos.); [p. 8] (2 pos.- last meas. missing); varied pagination</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1118" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_20">
+                     <persname encodinganalog="100$a" role="cmp" normal="Kleinsinger, George">Kleinsinger, George</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1125" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/10</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_37">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Pan the piper for orchestra and narrator (c1955)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed (Sam Fox Publishing Company, Inc.), bound, paper covers; story by Paul Wing; [2], 65 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: business card, With the compliments of Sam Fox Publishing Company, Inc.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1142" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_21">
+                     <persname encodinganalog="100$a" role="cmp" normal="Kotonski, Wlodzimierz">Kotonski, Wlodzimierz</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1149" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/11</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_38">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Canto for chamber orchestra (1961)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed (Edition Moeck), bound, paper covers; 23 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: Complimentary copy</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. 4: Commissioned by the City of Darmstadt</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on p. 4: Dedicated to Dr. Wolfgang Steinecke </p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1172" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_22">
+                     <persname encodinganalog="100$a" role="cmp" normal="Kraft, Leo">Kraft, Leo</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1179" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">8/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_39">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Dialectica for flute, clarinet, violin, cello, and tape (1976)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; [1], 36 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: possibly composer's autograph title page</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: Commissioned by the Chamber Music Society of Baltimore</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from Leo Kraft to Randolph Rothschild, 15 February 1977</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1202" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_23">
+                     <persname encodinganalog="100$a" role="cmp" normal="Křenek, Ernst">Křenek, Ernst</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1209" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">8/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_40">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The dissembler: monologue for baritone and chamber orchestra, op. 229 (1978)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; [1], 62 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p. and p. 1: Commissioned by the Chamber Music Society of Baltimore</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on t.p.: Written for Michael Ingham</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: for fl./picc., ob./E.hn., cl.(B-flat, E-flat)/b.cl., bs., tpt., hn., trb., hp., pno., celesta, 2 vln., vla., vnc., d.bs., perc.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1232" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/12</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_41">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sechs Motetten nach Worten von Franz Kafka für gemischten Chor a cappella (1959)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score for SATB, printed (Bärenreiter-Ausgabe 3945), bound, paper covers; [39] p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1246" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">1/13</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_42">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Suite for violoncello solo, op. 84 (c1942)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Part, printed (G. Schirmer, Inc.), unbound, folded, paper covers; 4 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1260" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_43">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Zwei Zeitlieder für mittlere Stimme und Streichquartett, op. 215 (1972)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, one with paper cover; poem by Renata Pandula; [1], 18 p. (5 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Laid in vln. II score: photocopy of p. 12</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in vla. score: photocopy of p. 2, p. 4, and p. 12</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in vnc. score: photocopy of p. 4, p. 12, and p. 16</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1283" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_24">
+                     <persname encodinganalog="100$a" role="cmp" normal="Lazarof, Henri">Lazarof, Henri</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1290" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_44">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Concerto for orchestra (1977)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed (Merion Music, Inc.), bound, paper covers; 69 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On front cover: Study score</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. 2: Commissioned by the Baltimore Symphony Orchestra</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. 3: Dedicated to Sergiu Comissiona</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from Ursula Eastman of Theodore Presser Company to Randolph Rothschild, 23 August 1978</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, laid in: t.l., from [Randolph Rothschild] to Ursula Eastman of Theodore Presser Company, 28 August 1978</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1319" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_45">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Duo-1973 for cello and piano (1973)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed (Merion Music, Inc.), bound, paper covers; 12 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: Commissioned by the Baltimore Chamber Music Society</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1336" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_46">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Duo-1973 for cello and piano (1973)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Part, printed (Merion Music, Inc.), unbound, folded, no covers; 4 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1350" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_25">
+                     <persname encodinganalog="100$a" role="cmp" normal="Lewis, Robert Hall">Lewis, Robert Hall</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1357" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">8/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_47">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Divertimento for six instruments (1969)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, no covers; 31 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on p. 1: To Randy with gratitute. [Signed] Bob Lewis</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on p. 1: Commissioned by Randolph S. Rothschild and the Chamber Music Society of Baltimore on occasion of its twentieth anniversary</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: for flute, clarinet, violin, violoncello, and piano</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1380" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_48">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Monophonie III for B-flat clarinet (c1969)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, printed (Verlag Doblinger), folded, paper cover,; 5 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on cover: to Randy with warmest regards. [Signed] Bob Lewis, March 2, 1969</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. 2: to Christopher Wolfe</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1400" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">8/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_49">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Second string quartet (1961-62)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; 31 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: To Randolph Rothschild and the Chamber Music Society of Baltimore for their support and encouragement. [Signed] Robert Hall Lewis, Jan. 30, 1963</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1417" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_26">
+                     <persname encodinganalog="100$a" role="cmp" normal="Machover, Tod">Machover, Tod</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1424" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">8/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_50">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Soft morning, city! for soprano, double bass and computer generated tape (1980)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (Sté Ame. Editions Ricordi), bound, paper covers,; [2], 23 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. ii: The text for <emph render="underline">Soft Morning, City!</emph> is taken from the final monologue of <emph render="underline">Finnegans Wake</emph> by James Joyce</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on p. 11: <emph render="underline">Soft Morning, City!</emph> was commissioned by the Gulbenkian Foundation</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. 1: for Jane Manning and Barry Guy</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from Judith Finell of Judith Finell Musicservices, Inc. to Randolph Rothschild, 12 November 1981; t.l.s., from Randolph Rothschild to Judith Finell, 20 November 1981; promotional materials on Tod Machover from Judith Finell Musicservices, Inc.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1459" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_51">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Two songs for soprano, flute, clarinet, harp, viola, double bass (1978)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; lyrics by Rose Moss; [27] p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on p. [ii]: To Elliott Carter in honor of his 70th birthday with great respect and admiration</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1476" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_27">
+                     <persname encodinganalog="100$a" role="cmp" normal="Moss, Lawrence">Moss, Lawrence</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1483" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_52">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Quartet for flute, cello, percussion and piano (1992)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile computer-generated ms., bound, paper covers; [2], 60 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on cover: for Randy (see inside) This is a more personal thank-you for one of the outstanding patrons of new music.  Larry 6/4/92</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1500" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_53">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">String quartet no. 2 (1975)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., unbound, folded, paper covers; [2], 38 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by the Chamber Music Society of Baltimore for its 1975-76 Bicentennial Concert Series</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on verso of t.p.: Dear Randy, To paraphrase Schoenberg's dedication of his 4th Quartet, this quartet is dedicated to you "the ideal patron of chamber music" [Signed] Warmly, Larry Moss, Sept. 29, 1975; First performance by The Composers Quartet, January 25, 1976</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1520" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_54">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">String quartet no. 2 (1975)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score and parts, printed (Elkan-Vogel, Inc.), each bound, paper covers and overall paper folder cover ; 38 p. (score), 13 p. (1st violin, 2nd violin, and viola), 11 p. (cello)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on p. 1: for Randy in continued gratitude for his wisdom and generosity in the cause of new music, 11/26/77, [Signed] Larry Moss</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: a.l.s., from Lawrence Moss to Randolph Rothschild, 26 November 1977</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1540" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_28">
+                     <persname encodinganalog="100$a" role="cmp" normal="Poulenc, Francis">Poulenc, Francis</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1547" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_55">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Suite française pour piano d'apres Claude Gervaise (16 siècle) (c1935)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, printed (Durand &amp; Cie.), bound paper covers; [1], 15 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1561" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_29">
+                     <persname encodinganalog="100$a" role="cmp" normal="Raksin, David">Raksin, David</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1568" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">2/9</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_56">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Toy concertino (c1967)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed (Broude Bros. Contemporary Composers, Study Score Series, No. 12), bound, paper covers; [3], 42 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: photocopy, t.l.s., from Irving Broude; Inscribed: Rec'd 3/10/67 R.S.R.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: for 2 fl., ob., 2 cl., bsn., 2 hn., 2 tpt., timp., strs. with concertino of 8 players tin fife, picc. tpt., 2 ocarinas, toy glock., bird warble, toy sn. dr., cuckoo call/toy accdn., concertina, harmonica </p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1588" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_30">
+                     <persname encodinganalog="100$a" role="cmp" normal="Reynolds, Roger">Reynolds, Roger</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1595" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">8/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_57">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Islands from archipelago, I. Summer island (1984) for solo oboe and tape</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (C. F. Peters Corporation), bound, paper covers; [1],11 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on p. 1: for Randolph Rothschild with appreciation and admiration [Signed] Roger Reynolds</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: Commissioned by Randolph S. Rothschild for oboist, James Ostryniec</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: a.l.s., from Reynolds to Rothschild, 2 September 1984</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from Rothschild to Reynolds, 4 September 1984</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: a.l.s., from Reynolds to Rothschild, 8 July 1985</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from Rothschild to Reynolds, 1 August 1985</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Photocopy of score, 11 p.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1631" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_31">
+                     <persname encodinganalog="100$a" role="cmp" normal="Rouse, Christopher">Rouse, Christopher</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1638" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">8/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_58">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Karolju for large SATB chorus and orchestra (1991)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms.(Helicon Music Corp.), bound, paper covers; [2], 118 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: For Randolph and Amalie Rothschild, with admiration, affection, and gratitude. [Signed], Christopher Rouse, 11/7/91</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On verso of t.p.: Commissioned by Baltimore Symphony Orchestra with the assistance of Randolph Rothschild and the Barlow Foundation for Music Composition at Brigham Young University</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: Invitation to pre-concert dinner, 11/8/91; 3 photocopies of review, Baltimore Sun, 11/7/91; 3 photocopies of review, Baltimore Sun, 11/8/91; <emph render="italic">Overture</emph> program and insert, November-December 1991</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1664" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_32">
+                     <persname encodinganalog="100$a" role="cmp" normal="Schuller, Gunther">Schuller, Gunther</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1671" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">11/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_59">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Triplum II: three lyric pieces for instrumental trios and orchestra (1975)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; 75 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on p. 1: To Randy, with affection and gratitude. [Signed] Gunther Schuller</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on p. 1: Dedicated to Sergiu Comissiona and the Baltimore Symphony</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1691" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_33">
+                     <persname encodinganalog="100$a" role="cmp" normal="Shapey, Ralph">Shapey, Ralph</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1698" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">9/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_60">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Three for six (1979)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., one bound, paper covers; [2], 73 p. (2 copies; one for piano, one for conductor)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by Chamber Music Society of Baltimore</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on t.p.: Dedicated to Robert Black &amp; the New York New Music Ensemble</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On front cover: On rental only, Theodore Presser Company</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: a.l.s., from Ralph Shapey to Randolph Rothschild, 11 March 1981</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: scored for fl./picc., cl./b.cl., vln./vla., vnc., pno., perc</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1727" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">9/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_61">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Three for six (1979)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Parts, facsimile ms., each folded, no covers; 8 p. (fl./picc.), 9 p. (cl./b.cl.), 11 p. (vln./vla.), 9 p. (vnc.), 15 p. (perc.)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1741" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_34">
+                     <persname encodinganalog="100$a" role="cmp" normal="Siegmeister, Elie">Siegmeister, Elie</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1748" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">9/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_62">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Symphony no. 5: "Visions of time" (1971)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; [2], 90 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on verso of t.p.: For Randy Rothschild and Amalie Rothschild, warm friends of music and the composer, whose gracious support made this symphony possible.  With cordial greetings, [Signed] Elie Siegmeister</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by The Baltimore Symphony Orchestra, Sergiu Comissiona, conductor, and first performed at the Kennedy Center for the Performing Arts, Washington, D.C., on May 2, 1977</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1768" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_35">
+                     <persname encodinganalog="100$a" role="cmp" normal="Silverman, Faye-Ellen">Silverman, Faye-Ellen</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1775" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_63">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Volcanic songs for solo harp (1983)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms. (Seesaw Music Corp.), bound, paper covers; 11 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on p. 1: For Randy, without whom this work like so many by others over the years would probably not have come into existence. [Signed] Faye-Ellen</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>On p. 11: Commissioned by The Chamber Music Society of Baltimore (for Karen Lindquist)</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1795" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_36">
+                     <persname encodinganalog="100$a" role="cmp" normal="Sprenkle, Elam Ray">Sprenkle, Elam Ray</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1802" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_64">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Three sonnets (on Josquin) for violoncello and piano (1983)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; 22 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by the Chamber Music Society of Baltimore</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1819" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_65">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Three sonnets (on Josquin) for violoncello and piano (1983)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Part for violoncello; facsimile ms., bound, paper covers; 8 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1833" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_37">
+                     <persname encodinganalog="100$a" role="cmp" normal="Thatcher, Howard R.">Thatcher, Howard R.</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1840" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_66">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Children's march for piano (n.d.)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms., unbound, folded, no covers; 3 p. (2 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: possibly composer's autograph title page</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1857" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_67">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Gavotte &amp; Musette for piano (n.d.)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms., unbound, folded, no covers; 3 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: possibly composer's autograph title page</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1874" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_68">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Marionnettes for piano (n.d.)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms., unbound, folded, no covers; 3 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: possibly composer's autograph title page</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1891" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_69">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Romance for piano (n.d.)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms., unbound, folded, no covers; 3 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: possibly composer's autograph title page</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1908" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_70">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Waltz impromptu for piano (n.d.)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms., unbound, folded, no covers; 5 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: possibly composer's autograph title page and incription, To Mrs. Elsi B. CarLiner</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1925" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_71">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Waltz in A for piano (n.d.)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms., unbound, folded, no covers; 5 p. (2 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: possibly composer's autograph title page</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1942" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_38">
+                     <persname encodinganalog="100$a" role="cmp" normal="Thorne, Francis">Thorne, Francis</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1949" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">9/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_72">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The affirming flame: a setting of "September 1, 1939" by W. H. Auden for soprano, flute, clarinet, violin, cello, and percussion (1987)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, covers; [2], 39 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by the Chamber Music Society of Baltimore; Dedicated to Robert Hall Lewis; Written for a first performance by Joan Heller and collage</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e1966" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_39">
+                     <persname encodinganalog="100$a" role="cmp" normal="Weisgall, Hugo">Weisgall, Hugo</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e1973" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">10/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_73">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">End of summer for tenor, oboe and string trio (1973-74)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, holograph ms. in pencil; [2], 30 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On p. ii: to Randolph S. Rothschild with affection; commissioned by the New York Chamber Soloists</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: t.l.s., from Walter Eckard of Theodore Presser Company to Randolph Rothschild, 5 March 1976</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e1993" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">10/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_74">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fancies and inventions for barytone and five instruments(1969-70)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, holograph ms. in pencil on vellum, unbound; from the Hesperides (1648) by Robert Herrick; 54 p. [added measure clipped to end of p. 20]</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: To Randolph S. Rothschild as a [illegible] appreciation for his many years of continued artistic support. [Signed] Hugo Weisgall</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: 2 cards with composer's name and title of work; one manila envelope</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>For: flute, clarinet, viola, violoncello, and piano</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2016" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_75">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fancies and inventions for barytone and five instruments(1969-70)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., unbound; [1], 54 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: (1) photocopy review of 11/1/70 concert; </p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: (2) t.l.s., from Hugo Weisgall to Randolph Rothschild with envelope [Signed] Hugo, 3 Nov. 1970, 1 p.; a.l.s., from Hugo Weisgall to Randolph Rothschild [Signed] N. Weisgall for Hugo, 16 Nov. 1970, 1 p.; t.l., from Randolph Rothschild to Hugo Weisgall [Unsigned], 23 Nov. 1970, 1 p.;</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: (3) a.l.s., in the hand of N. Weisgall from Hugo Weisgall to Randolph Rothschild [Signed] Hugo, 13 Dec. 1970, 1 leaf; program from The Metropolitan Museum of Art Concerts 1970/1971; New York Times review, 12/11/70; New York Times advertisement, 12/6/70 (2 copies);</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: (4) t.l.s., from Randolph Rothschild to Hugo Wesigall [Signed] Randy, 11 Jan. 1971; t.l.s., from Hugo Weisgall to Randolph Rothschild [Signed] Hugo, Jan. 6, 1971, with envelope; review from New York Magazine, 11 Jan. 1971;</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: (5) Peabody News article, re Commencement 1973 in which Hugo Weisgall received honorary degree of Doctor of Music</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2045" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">10/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_76">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fancies and inventions for barytone and five instruments(1969-70)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, alternate version of no. 7 "The voice and the violl," holograph ms. in pencil on vellum, unbound; p. 31-34</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2059" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_77">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fancies and inventions for barytone and five instruments(1969-70)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, no. 7 "The voice and the violl," facsimile ms., unbound; p. 31-34</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: U.S. Postal receipt; U.S. Postal receipt for registered mail; ticket for the Dorian Woodwind Quintet concert, Jan. 28, 1973, presented by The Chamber Music Society of Baltimore, Inc. on verso "Rev #7 - Feb. '72" (possibly in the composer's hand) with address</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2076" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/10</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_78">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fancies and inventions for barytone and five instruments(1969-70)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score sketches, holograph ms. in pencil, unbound, no covers; [68] p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: mailing envelope</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2093" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/11</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_79">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Four birthday cards for piano (1986)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, printed (Theodore Presser Company), bound, paper covers; 8 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Note: includes 1. Billy's Belated Birthday Rag (William Schuman), 2. For Randy at 70 (Randolph S. Rothschild), 3. Valse Oubliée (Arnold Broido), 4. Rückblick (dedicated to Roger Sessions)</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2110" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_80">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Graven images no. 10.  For Randy at 70 for piano (1970)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, holograph ms. in pencil, unbound, no cover; 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: a.l.s., from Hugo Weisgall to Randolph Rothschild, 13 September 1979</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2127" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">11/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_81">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Love's wounded: two songs for baritone and orchestra (1986)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., bound, paper covers; from the Hebrew Judam Halevi, English version by Raymond Scheindlin; [2], 60 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Inscribed on t.p.: To Randy, Old friend and supporter to whom this should have gone in the first place. [Signed] Hugo, 9/19/86, Balto.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on t.p.: Commissioned by the Baltimore Symphony Orchestra, David Zinman, Music Director; This work was first performed by the Baltimore Symphony Orchestra on Sept. 18 and 19, 1986 with David Zinman conducting and David Hamilton, baritone</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: a.l.s., from Martha Batehelor of the Baltimore Symphony Orchestra, to Randolph Rothschild, n.d.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, laid in: program, <emph render="italic">Overture</emph>, Baltimore Symphony Orchestra, vol. 71, no. 1, September 18-November 8, 1986</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2156" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">10/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_82">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sonata for piano (1982)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Score, facsimile ms., folded, no covers; [1], 21 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned for the Baltimore Chamber Music Society Randolph S. Rothschild to whom this work is dedicated with much affection.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2174" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">10/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_83">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Tangents: four episodes for flute and marimba (1985)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms., unbound, no cover; [1], 17 p. (one-sided)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: possibly composer's autograph scribble</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Also, on t.p.: address label for Chamber Music Society of Baltimore</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e2194" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_40">
+                     <persname encodinganalog="100$a" role="cmp" normal="Wernick, Richard">Wernick, Richard</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e2201" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">10/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_84">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Oracle II for soprano, oboe and piano (1985)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (Theodore Presser Company), bound, paper covers; text by Rebbe of Kotzk (translated by Chaim Potok); [2], 21 p. (2 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by, and dedicated to The Chamber Music Society of Baltimore, Randolph S. Rothschild, president</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd62e2218" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D3_41">
+                     <persname encodinganalog="100$a" role="cmp" normal="Wuorinen, Charles">Wuorinen, Charles</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd62e2225" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">3/13</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_85">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Crossfire for orchestra (1984)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, printed (C. F. Peters Corporation), bound, plastic and paper covers; 104 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by the Baltimore Symphony Orchestra and dedicated to Randolph S. Rothschild and Joseph Meyerhoff.  First performed by the Baltimore Symphony Orchestra on May 9, 1985, with David Zinman conducting</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in:  Business card [attached to C. F. Peters Corporation insert] from Ann Goldberg, Music Administrator of the Baltimore Symphony Orchestra</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: Randy, This is for you fr. the publisher. [Signed] Ann</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: "Musical Events: Courtesy, Humanity, Hardiness," <emph render="italic">The New Yorker</emph>, May 27, 1985; p. 85-90</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Laid in: Photocopy reprinted from <emph render="italic">The New Yorker</emph>, "Musical Events: Courtesy, Humanity, Hardiness;" p. 86</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd62e2260" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <did>
+                     <container type="box-folder">10/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003013_MUSIC_CL1001_D4_86">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fantasia for violin and piano (1974)</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">Full score, facsimile ms. (C. F. Peters Corporation), bound, paper covers; [2], 23 p. (2 copies)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On t.p.: Commissioned by the Baltimore Chamber Music Society for its Twenty-fifth Anniversary</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Note: possibly composer's autograph correction of commissioning line on title page, both copies</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

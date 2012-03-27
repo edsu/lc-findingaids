@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Thu, 16 February 2012 11:10:56 AM EST
+URL: http://hdl.loc.gov/loc.mss/eadmss.ms010279
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd2707e2">
+   <eadheader id="mferd2707e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mss/eadmss.ms010279"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.mss/eadmss.ms010279</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Association of Research Libraries Records</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c" era="ce" calendar="gregorian">2011</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+				<extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/mm82054718" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/mm82054718</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Manuscript Division,
+		  
+		  <date normal="2011" era="ce" calendar="gregorian">2011</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd2707e41">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Association of Research
+		  Libraries Records 
+		  <unitdate label="Span Dates" type="inclusive" normal="1932/1979" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1932-1979</unitdate> 
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS54718</unitid>
+         <origination label="Creator"> 
+		          <corpname encodinganalog="110" source="lcnaf">Association of Research
+			 Libraries</corpname>
+         </origination>
+         <physdesc label="Extent"> 
+            <extent encodinganalog="300">11,000
+		  items</extent>
+		          <extent encodinganalog="300">44 containers</extent>
+		          <extent encodinganalog="300">17.6 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+		       </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Manuscript Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Organization of
+		  research libraries in the United States and Canada. Correspondence, memoranda,
+		  minutes of meetings, reports, financial records, printed matter, and
+		  miscellaneous items relating to the association's membership and its assessment
+		  and evaluation projects and services on behalf of client
+		  institutions.</abstract>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd2707e83" altrender=":::F005=^20100809155442.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject or location, and by occupation and listed
+			 alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd2709e12">
+            <head>Organizations</head>
+            <corpname encodinganalog="110$a" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Association+of+Research+Libraries.^">Association of Research Libraries.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Farmington+Plan.^">Farmington Plan.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Library+of+Congress.^">Library of Congress.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^National+Agricultural+Library+%28U.S.%29^">National Agricultural Library (U.S.)</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^National+Library+of+Medicine+%28U.S.%29^">National Library of Medicine (U.S.)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd2709e34">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Academic+libraries.^">Academic libraries.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Acquisition+of+foreign+publications+United+States.^">Acquisition of foreign publications--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Agricultural+libraries.^">Agricultural libraries.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Cooperative+acquisition+of+library+materials.^">Cooperative acquisition of library materials.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Education%2C+Higher.^">Education, Higher.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Libraries+Canada.^">Libraries--Canada.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Libraries+Societies%2C+etc.^">Libraries--Societies, etc.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Libraries+United+States.^">Libraries--United States.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Library+catalogs.^">Library catalogs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Medical+libraries.^">Medical libraries.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^National+libraries.^">National libraries.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Newspapers+on+microfilm.^">Newspapers on microfilm.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Public+libraries.^">Public libraries.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Research+libraries.^">Research libraries.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Research.^">Research.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Special+libraries.^">Special libraries.</subject>
+         </controlaccess>
+         <controlaccess id="mferd2709e90">
+            <head>Titles</head>
+            <title xlink:type="simple" encodinganalog="740"
+                   altrender=":::PWEBRECON=^Public+Law+480+program.^">Public Law 480 program.</title>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd2707e99" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd2707e102" encodinganalog="541">
+            <head>Provenance</head>
+            <p> The records of the Association of Research Libraries were given to
+		  the Library of Congress by the association between 1974 and 1982.</p>
+         </acqinfo>
+         <processinfo id="mferd2707e107" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The records of the Association of Research Libraries were housed and
+		  listed circa 1985. The finding aid was revised in 2011.</p>
+         </processinfo>
+         <userestrict id="mferd2707e112" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright in the unpublished writings in the Association
+		  of Research Libraries is governed by the Copyright Law of the United States
+		  (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd2707e117" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The records of the Association of Research Libraries are open to
+		  research. Researchers are advised to contact the Manuscript Reading Room prior
+		  to visiting. Many collections are stored off-site and advance notice is needed
+		  to retrieve these items for research use.</p>
+         </accessrestrict>
+         <prefercite id="mferd2707e122" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Association of Research Libraries
+		  Records, Manuscript Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd2707e127" encodinganalog="545">
+         <head>Organizational History</head>
+         <p>The Association of Research Libraries was formed in 1932 for the
+		  purpose of improving the collections and services of its member libraries in
+		  support of higher education and research. Its membership consists of larger
+		  university libraries; research libraries in the United States and Canada,
+		  including the three national libraries of the United States: the Library of
+		  Congress, the National Agricultural Library, and the National Library of
+		  Medicine; and public and special libraries with large research collections.</p>
+         <p>The association undertakes a variety of activities, including serving
+		  as a representative for its members in matters relating to the federal
+		  government, international agencies, and other library associations, as well as
+		  engaging in cooperative projects and studies with other academic and research
+		  organizations. Among the more important projects sponsored or supported by the
+		  association are the Farmington Plan, the Public Law 480 program, the National
+		  Program for Acquisitions and Cataloging, the Foreign Newspaper Microfilm
+		  Project, the annual publication of 
+		<title xlink:type="simple">Dissertation Abstracts,</title> and the establishment of the
+		Center for Chinese Research Materials and the Slavic Bibliographic and
+		Documentation Center.</p>
+      </bioghist>
+      <scopecontent id="mferd2707e137" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The records of the Association of Research Libraries span the years
+		  1932-1979 and document the efforts of the association to improve the
+		  collections and services of member research libraries in North America. The
+		  collection consists of correspondence, memoranda, minutes of meetings, reports,
+		  financial records, printed matter, and miscellaneous items concerning the
+		  organizational structure and administration of the association. The records
+		  reflect on membership requirements and admittances, the deliberations of
+		  internal and cooperative committees, relationships with affiliated
+		  organizations, and various projects administered by the association, including
+		  the Farmington Plan, the Public law 480 program, the Foreign Newspaper
+		  Microfilm Project, and the publication of the first Library of Congress catalog
+		  initiated and sponsored by the association.</p>
+      </scopecontent>
+      <arrangement id="mferd2707e142" encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged by subject in the order as the items were
+		  originally described and housed.</p>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/mm82054718" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/mm82054718</extref>
+      </otherfindaid>
+      <dsc id="mferd2707e147" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd2707e156" level="file">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">General </unittitle>
+            </did>
+            <c02 id="mferd2707e162" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e170" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945-1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e178" level="file">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a">General correspondence</unittitle>
+            </did>
+            <c02 id="mferd2707e184" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e192" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949-1951</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e200" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e208" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e216" level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e224" level="file">
+            <did>
+               <container type="box">7</container>
+               <unittitle encodinganalog="245$a">Fiscal records, 
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1962</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd2707e232" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Vouchers and receipts, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1937</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e240" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Dues and membership list, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e248" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e256" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Account 8069</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e262" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Membership dues</unittitle>
+               </did>
+               <c03 id="mferd2707e268" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e276" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e284" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Microcard orders of
+				  minutes</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e290" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Sales</unittitle>
+               </did>
+               <c03 id="mferd2707e296" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Farmington Plan</unittitle>
+                  </did>
+                  <c04 id="mferd2707e302" level="file">
+                     <did>
+                        <container type="box">8</container>
+                        <unittitle encodinganalog="245$a">Final report</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e308" level="file">
+                     <did>
+                        <container type="box">8</container>
+                        <unittitle encodinganalog="245$a">Handbook</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2707e314" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Minutes of meetings</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e320" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Deposits</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e326" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Financial statements</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e332" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Orders sent</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e339" level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle encodinganalog="245$a">Clearinghouse forms, sale
+				  of</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e345" level="file">
+            <did>
+               <container type="box">9</container>
+               <unittitle encodinganalog="245$a">Organization membership</unittitle>
+            </did>
+            <c02 id="mferd2707e351" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Membership and
+				  representation</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e357" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Digest, minutes of
+				  meetings</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e363" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Weber, index to
+				  minutes</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e369" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Use and distribution of
+				  minutes</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e375" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Reorganization, 1946
+				  ballot</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e381" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Admission of John Crerar Library,
+				  Chicago, Ill.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e387" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Admission of Army Medical and
+				  Agriculture</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e393" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Reconstitution of membership
+				  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd2707e402" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Old member</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e408" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Reconstitution of membership, new
+				  nominees</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e415" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Dartmouth, N.H., 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e423" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Membership, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e431" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Potential members, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961-1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e439" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Membership, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e447" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Reorganization</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e453" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Invitations, representatives, and
+				  inaugurations</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e459" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Association list and
+				  general</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e465" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Dix phone calls</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e471" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Executive secretive</unittitle>
+               </did>
+               <c03 id="mferd2707e477" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a">Candidates</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e483" level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle encodinganalog="245$a">General</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e489" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Eugene Power, advisory committee
+				  concerning microfilming operation in Moscow, USSR</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e495" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Press releases</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e502" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Tax exemption
+				  application</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e508" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Constitution, working
+				  papers</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e514" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Incorporation,
+				  correspondence</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e520" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Committee memberships</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e526" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Members</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e532" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Constitutions</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e538" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Reorganization, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961-1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e546" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Meetings</unittitle>
+               </did>
+               <c03 id="mferd2707e552" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Chicago, Ill., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1933</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e563" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Montreal, Canada, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934, June</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e571" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Washington, D.C., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934, Dec.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e579" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Denver, Colo., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e587" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Chicago, Ill., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935, Dec.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e595" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Richmond, Va., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936, May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e603" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Chicago, Ill., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936, Dec.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e611" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">New York, N.Y., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e619" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Chicago, Ill., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937, Dec.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e627" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Kansas, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e636" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Unknown, twelfth
+					 meeting</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e642" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">San Francisco, Calif., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e650" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Chicago, Ill., 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec. 1939</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e658" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Extra copies</unittitle>
+               </did>
+               <c03 id="mferd2707e664" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Circular letters</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e670" level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e676" level="file">
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle encodinganalog="245$a">General</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e682" level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle encodinganalog="245$a">Farmington Plan Advisory
+				  Committee, minutes of meeting, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e690" level="file">
+            <did>
+               <container type="box">15</container>
+               <unittitle encodinganalog="245$a">Miscellaneous projects</unittitle>
+            </did>
+            <c02 id="mferd2707e696" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Wilson Co., service
+				  basis</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd2707e705" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Charge study</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e711" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Price and Raney
+				  reports</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e717" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Doctoral dissertation</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e723" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">List, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e731" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Microfilming of master's
+				  thesis</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e737" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Master's thesis list</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e743" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Committee on Indexing and
+				  Abstracting</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e749" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Doctoral dissertations, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e757" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Committee on the Publication and
+				  Distribution of Thesis, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e766" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Dissertation lists</unittitle>
+               </did>
+               <c03 id="mferd2707e772" level="file">
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle encodinganalog="245$a">Association of Research
+					 Libraries</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e778" level="file">
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle encodinganalog="245$a">Library of Congress,
+					 Washington, D.C.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e784" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Advisory Committee on the
+				  Publication and Recording of Dissertations</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e790" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Modern Language Association
+				  project, Robbins</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e796" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Pastor index</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e802" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Paul, James C. N., Institute of
+				  Legal Research</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e808" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Author index for
+				  Poole</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e814" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Preservation of confidential
+				  material</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e820" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Price</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e826" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Rusk, George Y.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e832" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Silver, Henry</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e838" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Harry Truman Library,
+				  Independence, Mo.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e845" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">National code hearings,
+				  publication</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e851" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Clearinghouse for interlibrary
+				  loans</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e857" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Inter-American Library
+				  meetings</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e863" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Interlibrary loan
+				  code</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e869" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">International Conference on
+				  Cataloging Principles</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e875" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Kraus, Abtailung A.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e881" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Library of Congress, Washington,
+				  D.C.</unittitle>
+               </did>
+               <c03 id="mferd2707e887" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Cooperative purchase of
+					 European books</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e893" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Librarianship</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e899" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">Printing of catalog</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e905" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Librarians Liaison
+				  Committee</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e911" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Code authorities, National
+				  Recovery Administration</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e917" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Durable paper</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e923" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Edwards music
+				  republishing</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e930" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Encyclopedia of SS</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e936" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Florence agreement</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e942" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Evans project</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e948" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Folklore</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e954" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Humphrey, Hubert H.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e960" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">Alien property
+				  custodian</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e966" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">American imprints
+				  inventory</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e972" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">Autonomy of law
+				  libraries</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e978" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">Biological abstracts projects,
+				  service basis charge</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e984" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">Chemical abstracts</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e990" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">Chinese imports, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e999" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">Cost of books index</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1005" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a"> Commerce Department export
+				  regulations</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1011" level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e1017" level="file">
+            <did>
+               <container type="box">21</container>
+               <unittitle encodinganalog="245$a">Committees and projects</unittitle>
+            </did>
+            <c02 id="mferd2707e1023" level="file">
+               <did>
+                  <container type="box">21</container>
+                  <unittitle encodinganalog="245$a">Board on Acquisition of Library
+				  Material</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1029" level="file">
+               <did>
+                  <container type="box">21</container>
+                  <unittitle encodinganalog="245$a">Bibliographical control of
+				  microforms</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1035" level="file">
+               <did>
+                  <container type="box">21</container>
+                  <unittitle encodinganalog="245$a">Committee on
+				  Bibliography</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1041" level="file">
+               <did>
+                  <container type="box">22</container>
+                  <unittitle encodinganalog="245$a">Customs, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946-1954</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1049" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Documentation and Information
+				  Retrieval Committee</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1055" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Committee to Examine Legal
+				  Aspects of Securing Foreign Documents</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1061" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Interm Committee on Export of
+				  Library Material</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1067" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Committee on Foreign Newspapers,
+				  microfilming project</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1073" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Foreign Official Gazette
+				  Committee</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1079" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Committee on the High Cost of
+				  German Books and Periodicals</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1086" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Committee on Library Privileges
+				  and Fees</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1092" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Manuscript accessions</unittitle>
+               </did>
+               <c03 id="mferd2707e1098" level="file">
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle encodinganalog="245$a">General</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1104" level="file">
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle encodinganalog="245$a">List</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1110" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Committee on Cooperative
+				  Microfilm Projects</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1116" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Committee on
+				  Microfilm</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1122" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Cooperation</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1128" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Microphotography</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1134" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Microfilming of
+				  newspapers</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1140" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Newspapers on
+				  microfilm</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1146" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Committee on Microfilm
+				  Lending</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1152" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Committee on Microtext
+				  Standards</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1158" level="file">
+               <did>
+                  <container type="box">25</container>
+                  <unittitle encodinganalog="245$a">Committee on Midwest Group's
+				  Proposal</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1165" level="file">
+               <did>
+                  <container type="box">25</container>
+                  <unittitle encodinganalog="245$a">Index to monograph
+				  series</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1171" level="file">
+               <did>
+                  <container type="box">25</container>
+                  <unittitle encodinganalog="245$a"> National conference</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1177" level="file">
+               <did>
+                  <container type="box">25</container>
+                  <unittitle encodinganalog="245$a">Committee on National Needs in
+				  Time of Crisis</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1183" level="file">
+               <did>
+                  <container type="box">25</container>
+                  <unittitle encodinganalog="245$a">National Union
+				  Catalog</unittitle>
+               </did>
+               <c03 id="mferd2707e1189" level="file">
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle encodinganalog="245$a">Manuscript
+					 collections</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1195" level="file">
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle encodinganalog="245$a">Mechanization</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1201" level="file">
+               <did>
+                  <container type="box">26</container>
+                  <unittitle encodinganalog="245$a">Committee to Prevent Post War
+				  Competition in Books Purchases</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1207" level="file">
+               <did>
+                  <container type="box">26</container>
+                  <unittitle encodinganalog="245$a">Committee on Protection of
+				  Cultural and Scientific Resources</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1213" level="file">
+               <did>
+                  <container type="box">26</container>
+                  <unittitle encodinganalog="245$a">Public law 480</unittitle>
+               </did>
+               <c03 id="mferd2707e1219" level="file">
+                  <did>
+                     <container type="box">26</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1962</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1227" level="file">
+                  <did>
+                     <container type="box">26</container>
+                     <unittitle encodinganalog="245$a">Letters of support to
+					 congressmen</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1233" level="file">
+               <did>
+                  <container type="box">26</container>
+                  <unittitle encodinganalog="245$a">Committee on Reichman
+				  Proposal</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1239" level="file">
+               <did>
+                  <container type="box">26</container>
+                  <unittitle encodinganalog="245$a">Committee on
+				  Reproduction</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1245" level="file">
+               <did>
+                  <container type="box">26</container>
+                  <unittitle encodinganalog="245$a">Reprints, Kaplin</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1251" level="file">
+               <did>
+                  <container type="box">27</container>
+                  <unittitle encodinganalog="245$a">Committee on Research Libraries
+				  and the Library of Congress</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1258" level="file">
+               <did>
+                  <container type="box">27</container>
+                  <unittitle encodinganalog="245$a">Russian Translation
+				  Committee</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1264" level="file">
+               <did>
+                  <container type="box">27</container>
+                  <unittitle encodinganalog="245$a">Committee on Serials in Research
+				  Fields, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1275" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">National Committee on Renaissance
+				  Studies</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1281" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">Statistics</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1287" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">Committee on
+				  Statistics</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1293" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">Transliteration</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1299" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">Committee on Unesco
+				  Affairs</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1305" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">Union list of serials</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1311" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">Joint Committee on Union List of
+				  Serials</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1317" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">Committee on the Use of
+				  Manuscripts by Visiting Scholars</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e1323" level="file">
+            <did>
+               <container type="box">29</container>
+               <unittitle encodinganalog="245$a">Associations, affiliations, and
+				joint committees</unittitle>
+            </did>
+            <c02 id="mferd2707e1329" level="file">
+               <did>
+                  <container type="box">29</container>
+                  <unittitle encodinganalog="245$a">Affiliated
+				  organizations</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1335" level="file">
+               <did>
+                  <container type="box">29</container>
+                  <unittitle encodinganalog="245$a">American Library
+				  Association</unittitle>
+               </did>
+               <c03 id="mferd2707e1341" level="file">
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle encodinganalog="245$a">Committee on Implementation of
+					 National Plans</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1347" level="file">
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle encodinganalog="245$a">Committee on Standardization of
+					 Library Supplies and Equipment, Z85</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1353" level="file">
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle encodinganalog="245$a">Committee Z39</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1359" level="file">
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle encodinganalog="245$a"> Councillor</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1365" level="file">
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle encodinganalog="245$a">General</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1371" level="file">
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle encodinganalog="245$a">Library Education Division
+					 newsletter</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1377" level="file">
+               <did>
+                  <container type="box">29</container>
+                  <unittitle encodinganalog="245$a">American Council of Learned
+				  Societies</unittitle>
+               </did>
+               <c03 id="mferd2707e1383" level="file">
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle encodinganalog="245$a">General</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1389" level="file">
+                  <did>
+                     <container type="box">30</container>
+                     <unittitle encodinganalog="245$a">Project on
+					 microfilm</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1395" level="file">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle encodinganalog="245$a">American Documentation Institute
+				  and Science, Watson Davis</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1401" level="file">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle encodinganalog="245$a">Association of College and
+				  Research Libraries</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1407" level="file">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle encodinganalog="245$a">Conference on American
+				  Library</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1413" level="file">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle encodinganalog="245$a">Resources on southern
+				  Asia</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1419" level="file">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle encodinganalog="245$a">Conference on Science
+				  Manuscripts</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1425" level="file">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle encodinganalog="245$a">Council of Graduate Schools in
+				  the United States</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1431" level="file">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle encodinganalog="245$a">Council on Library
+				  Resources</unittitle>
+               </did>
+               <c03 id="mferd2707e1437" level="file">
+                  <did>
+                     <container type="box">30</container>
+                     <unittitle encodinganalog="245$a">Grant</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1443" level="file">
+                  <did>
+                     <container type="box">31</container>
+                     <unittitle encodinganalog="245$a">Grant request</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1450" level="file">
+               <did>
+                  <container type="box">31</container>
+                  <unittitle encodinganalog="245$a">Council of National Library
+				  Associations</unittitle>
+               </did>
+               <c03 id="mferd2707e1456" level="file">
+                  <did>
+                     <container type="box">31</container>
+                     <unittitle encodinganalog="245$a">General, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952-1962</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1467" level="file">
+                  <did>
+                     <container type="box">31</container>
+                     <unittitle encodinganalog="245$a">Joint committees</unittitle>
+                  </did>
+                  <c04 id="mferd2707e1473" level="file">
+                     <did>
+                        <container type="box">31</container>
+                        <unittitle encodinganalog="245$a">United States libraries and
+						the federal government</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e1479" level="file">
+                     <did>
+                        <container type="box">32</container>
+                        <unittitle encodinganalog="245$a">Safeguarding library
+						material</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e1485" level="file">
+                     <did>
+                        <container type="box">32</container>
+                        <unittitle encodinganalog="245$a">Projects to
+						foundations</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e1491" level="file">
+                     <did>
+                        <container type="box">32</container>
+                        <unittitle encodinganalog="245$a">Visiting foreign
+						libraries</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e1497" level="file">
+                     <did>
+                        <container type="box">32</container>
+                        <unittitle encodinganalog="245$a">Fair use in
+						copying</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1503" level="file">
+               <did>
+                  <container type="box">32</container>
+                  <unittitle encodinganalog="245$a">Joint committees</unittitle>
+               </did>
+               <c03 id="mferd2707e1509" level="file">
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle encodinganalog="245$a">Governments</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1515" level="file">
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle encodinganalog="245$a">Documentation
+					 service</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1521" level="file">
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle encodinganalog="245$a">Increased cost of Library of
+					 Congress cards</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1527" level="file">
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle encodinganalog="245$a">Importation Advisory
+					 Committee</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1533" level="file">
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle encodinganalog="245$a">Indexing and
+					 abstracting</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1539" level="file">
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle encodinganalog="245$a">Library education, minutes of
+					 meeting, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1547" level="file">
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle encodinganalog="245$a">Library work as a
+					 career</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1553" level="file">
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle encodinganalog="245$a">Microcards</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1559" level="file">
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle encodinganalog="245$a">Polibiblon</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1565" level="file">
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle encodinganalog="245$a">Princeton University,
+					 Princeton, N.J.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1572" level="file">
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle encodinganalog="245$a">Reproduction of bibliographic
+					 and reference works</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1578" level="file">
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle encodinganalog="245$a">Reproduction of enemy
+					 publications</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1584" level="file">
+               <did>
+                  <container type="box">33</container>
+                  <unittitle encodinganalog="245$a">Overhead costs</unittitle>
+               </did>
+               <c03 id="mferd2707e1590" level="file">
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle encodinganalog="245$a">Article by Logsdon</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1596" level="file">
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1962</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1604" level="file">
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle encodinganalog="245$a">Library overhead cost, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1964</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd2707e1612" level="file">
+                     <did>
+                        <container type="box">34</container>
+                        <unittitle encodinganalog="245$a">Current material</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e1618" level="file">
+                     <did>
+                        <container type="box">34</container>
+                        <unittitle encodinganalog="245$a"> Institutional reports, file
+						no. 2</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1624" level="file">
+               <did>
+                  <container type="box">34</container>
+                  <unittitle encodinganalog="245$a">National Science
+				  Foundation</unittitle>
+               </did>
+               <c03 id="mferd2707e1630" level="file">
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle encodinganalog="245$a">Grant requests</unittitle>
+                  </did>
+                  <c04 id="mferd2707e1636" level="file">
+                     <did>
+                        <container type="box">34</container>
+                        <unittitle encodinganalog="245$a">Columbia School of Library
+						Science, New York, N.Y.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e1642" level="file">
+                     <did>
+                        <container type="box">34</container>
+                        <unittitle encodinganalog="245$a">Western Reserve University,
+						Cleveland, Ohio</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2707e1648" level="file">
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle encodinganalog="245$a">Grant</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1654" level="file">
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle encodinganalog="245$a">Materials, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1662" level="file">
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle encodinganalog="245$a">Liaison Committee</unittitle>
+                  </did>
+                  <c04 id="mferd2707e1668" level="file">
+                     <did>
+                        <container type="box">34</container>
+                        <unittitle encodinganalog="245$a">Correspondence, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e1676" level="file">
+                     <did>
+                        <container type="box">34</container>
+                        <unittitle encodinganalog="245$a">Meetings, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961-1962</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300">(2
+						folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd2707e1687" level="file">
+                     <did>
+                        <container type="box">35</container>
+                        <unittitle encodinganalog="245$a">Reports</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd2707e1693" level="file">
+                  <did>
+                     <container type="box">35</container>
+                     <unittitle encodinganalog="245$a">Advisory Committee, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1701" level="file">
+               <did>
+                  <container type="box">35</container>
+                  <unittitle encodinganalog="245$a">National Postal Committee for
+				  Educational and Cultural Materials, postal rates</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1707" level="file">
+               <did>
+                  <container type="box">35</container>
+                  <unittitle encodinganalog="245$a">Standard Conference of National
+				  and University Libraries</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1713" level="file">
+               <did>
+                  <container type="box">35</container>
+                  <unittitle encodinganalog="245$a">United States Book
+				  Exchange</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1719" level="file">
+               <did>
+                  <container type="box">36</container>
+                  <unittitle encodinganalog="245$a">Board of Directors</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1725" level="file">
+               <did>
+                  <container type="box">36</container>
+                  <unittitle encodinganalog="245$a">Advisory Committee, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e1733" level="file">
+            <did>
+               <container type="box">37</container>
+               <unittitle encodinganalog="245$a">Meetings</unittitle>
+            </did>
+            <c02 id="mferd2707e1739" level="file">
+               <did>
+                  <container type="box">37</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1943</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1747" level="file">
+               <did>
+                  <container type="box">38</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1954</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1755" level="file">
+               <did>
+                  <container type="box">39</container>
+                  <unittitle encodinganalog="245$a"> 
+				                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955-1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e1763" level="file">
+            <did>
+               <container type="box">40</container>
+               <unittitle encodinganalog="245$a">Legislation</unittitle>
+            </did>
+            <c02 id="mferd2707e1769" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">Legislative matters</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1775" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">Foreign Agents Registration
+				  Act</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1781" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">Congressional
+				  hearings</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1787" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">H.R. 6, Walter's bill</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1793" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">H.R. 7927</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1799" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">H.R. 8900, conference report,
+				  academic bill</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1805" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">H.R. 11823</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1811" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">S. 1726</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd2707e1818" level="file">
+            <did>
+               <container type="box">41</container>
+               <unittitle encodinganalog="245$a">Farmington Plan</unittitle>
+            </did>
+            <c02 id="mferd2707e1824" level="file">
+               <did>
+                  <container type="box">41</container>
+                  <unittitle encodinganalog="245$a">Advisory Committee meeting, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1832" level="file">
+               <did>
+                  <container type="box">41</container>
+                  <unittitle encodinganalog="245$a">General</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1838" level="file">
+               <did>
+                  <container type="box">41</container>
+                  <unittitle encodinganalog="245$a">Handbook</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1844" level="file">
+               <did>
+                  <container type="box">41</container>
+                  <unittitle encodinganalog="245$a">Newsletter</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1850" level="file">
+               <did>
+                  <container type="box">41</container>
+                  <unittitle encodinganalog="245$a">Chronological file</unittitle>
+               </did>
+               <c03 id="mferd2707e1856" level="file">
+                  <did>
+                     <container type="box">41</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959, Sept.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1864" level="file">
+                  <did>
+                     <container type="box">42</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949-1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1872" level="file">
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle encodinganalog="245$a"> 
+					                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd2707e1880" level="file">
+               <did>
+                  <container type="box">43</container>
+                  <unittitle encodinganalog="245$a">Farmington proposal</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1886" level="file">
+               <did>
+                  <container type="box">43</container>
+                  <unittitle encodinganalog="245$a">Princeton meeting, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1894" level="file">
+               <did>
+                  <container type="box">43</container>
+                  <unittitle encodinganalog="245$a">Council on Library Resources
+				  grant, 
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1902" level="file">
+               <did>
+                  <container type="box">44</container>
+                  <unittitle encodinganalog="245$a">Joint Committee on African
+				  Resources</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd2707e1908" level="file">
+               <did>
+                  <container type="box">44</container>
+                  <unittitle encodinganalog="245$a">Sub-Committees</unittitle>
+               </did>
+               <c03 id="mferd2707e1914" level="file">
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle encodinganalog="245$a">Africa</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1920" level="file">
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle encodinganalog="245$a">Far Eastern
+					 resources</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1926" level="file">
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle encodinganalog="245$a">Latin American
+					 resources</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1932" level="file">
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle encodinganalog="245$a">Near and Middle Eastern
+					 resources</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1938" level="file">
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle encodinganalog="245$a">Slavic and East European
+					 library material, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1946" level="file">
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle encodinganalog="245$a">Slavic studies, 
+					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1954" level="file">
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle encodinganalog="245$a">South Asia</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd2707e1960" level="file">
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle encodinganalog="245$a">Western European library
+					 materials</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

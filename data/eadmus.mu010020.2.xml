@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 22 September 2011 12:12:16 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010020--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010020--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010020-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd200e3">
+   <eadheader id="mferd200e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu010020"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu010020</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Ethel L. Voynich Papers
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2010563503"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2010563503</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-08" era="ce" calendar="gregorian">2010 August</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in August 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd6763e49">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Ethel L. Voynich Papers
+		  <unitdate label="Span Dates" type="inclusive" normal="1828/1948" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1828-1948</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1935/1948" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1935-1948)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.V75</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Voynich, E. L. (Ethel Lillian), 1864-1960</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">approximately 800 items</extent>
+		          <extent encodinganalog="300">14 
+		  containers</extent>
+		          <extent encodinganalog="300">6.0 
+		  linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Material principally in
+		<language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Ethel Lillian Voynich (1864-1960) was a social activist, novelist, translator, and composer. Voynich's musical compositions, based principally on sacred or poetic texts, are represented by holograph manuscript scores, sketches, lyric sheets, printed music, and notes. The remaining materials consist of subject files on musicological topics, research materials, and a handful of programs.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd6763e93" altrender=":::F005=^20100707130537.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd202e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Chomi%C5%84ski%2C+J%C3%B3zef+M.^">Chomiński, Józef M.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gurney%2C+Ivor%2C+1890-1937.^">Gurney, Ivor, 1890-1937.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Voynich%2C+E.+L.+%28Ethel+Lillian%29%2C+1864-1960+Archives.^">Voynich, E. L. (Ethel Lillian), 1864-1960--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Voynich%2C+E.+L.+%28Ethel+Lillian%29%2C+1864-1960+Manuscripts.^">Voynich, E. L. (Ethel Lillian), 1864-1960--Manuscripts.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Voynich%2C+E.+L.+%28Ethel+Lillian%29%2C+1864-1960.^">Voynich, E. L. (Ethel Lillian), 1864-1960.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Voynich%2C+E.+L.+%28Ethel+Lillian%29%2C+1864-1960.^">Voynich, E. L. (Ethel Lillian), 1864-1960.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Voynich%2C+E.+L.+%28Ethel+Lillian%29%2C+1864-1960.+Selections.^">Voynich, E. L. (Ethel Lillian), 1864-1960. Musical works. Selections.</persname>
+         </controlaccess>
+         <controlaccess id="mferd202e24">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
+         </controlaccess>
+         <controlaccess id="mferd202e29">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd6763e126" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd6763e129" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift, Anne M. Nill, 1961.</p>
+         </acqinfo>
+         <custodhist id="mferd6763e134" encodinganalog="541">
+            <head>Custodial History</head>
+            <p>Ethel Voynich bequeathed her belongings to Anne M. Nill in 1943, seventeen years prior to her passing. Some sources suggest Anne was manager of Wilfred Voynich's bookstore in Soho Square, London, in the early 1900s. In 1914, Wilfred allegedly brought Anne, then a secretary, to New York to help with a new store that he had established. Ethel remained in England at the time, but later joined them in New York in 1920. Other sources claim that Anne, born in Buffalo, New York in 1894, was an American citizen who made her professional acquaintance with Wilfred Voynich in New York City circa 1921. Anne and Ethel developed a lasting friendship, with Anne providing editorial assistance for Ethel's later writings.</p>
+         </custodhist>
+         <accruals id="mferd6763e139">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd6763e144" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Ethel L. Voynich Papers were processed and the finding aid coded for EAD by Thomas P. Barrick in 2010.</p>
+         </processinfo>
+         <userestrict id="mferd6763e149" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>Materials from the Ethel L. Voynich Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict id="mferd6763e154" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Ethel L. Voynich Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd6763e161" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+			following information: [item, date, container number], Ethel L. Voynich Papers, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd6763e166" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Ethel Lillian Voynich (1864-1960) was a social activist, novelist, translator, and composer. Born May 11, 1864, in County Cork, Ireland, Ethel Lilian Boole was the youngest of the five daughters of George Boole (1815-1864) and Mary Everest Boole (1832-1916). George Boole was an eminent mathematician whose theories (Boolean Logic) were instrumental to the development of modern technologies, including digital recording and the Internet. Mary Boole was an eccentric mathematician, teacher, and writer whose books on teaching mathematics to children became milestones in education. Despite their strong intellectual background, George and Mary lived in acute poverty and sent Ethel to live with her uncle, Charles Boole, in Lancashire. The years of physical abuse from Charles that followed eventually became the basis for her 1901 novel, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Jack Raymond</title>.</p>
+         <p>At the age of eighteen, Ethel traveled to Berlin and enrolled in the Hochschule der Musik in an effort to pursue her childhood love of music. Her studies of piano and composition from 1882-1885, however, were overshadowed by her newfound interest in revolutionary literature and political activism. Inspired by the plight of Russian prisoners under Tzarist rule, Ethel moved to St. Petersburg in 1887, where she made ends meet teaching English and music, dedicating any remaining time to helping suffering prisoners and peasants. After two years of committed charitable, revolutionary activity, Ethel returned to London, where she made the acquaintance of Polish patriot, antiquarian, and bibliophile Wilfred Michael Voynich, then a Russian fugitive. The two lived together and worked on various revolutionary endeavors for many years, eventually marrying in 1902.</p>
+         <p>During this period, Ethel established herself as both a writer and a translator of Russian literature into English. Her first published translation, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Stories from Garshin</title>, was released in 1893, followed by <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The humor of Russia</title> (1985), and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Nihilism as it is</title> (1895). Her most famous novel, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Gadfly</title> (1897), was later made into a film in the Soviet Union with a score by Dmitiri Shostakovich. Ethel remained musically active as well, becoming a member of the Society of Woman Musicians, an organization founded by composer Marion Scott in 1911. Through Scott, she established a close relationship with composer and war poet Ivor Gurney, an inspirational force behind her literary and musical compositions. Following her immigration to New York City around 1920, Ethel began intensive studies in composition and orchestration. These contributed to her creation of a variety of sacred vocal and instrumental works in the 1920s, including <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Babylon</title>, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Jerusalem</title>, and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Epitaph in Ballad Form</title>.</p>
+         <p>In March 1930, husband Wilfred Voynich, by now an established New York bookseller, passed away from respiratory illness. Ethel moved in with his secretary and shop manager Anne M. Nill shortly thereafter, and the pair lived together for nearly thirteen years in Manhattan. Ethel continued to write, translate, and compose. Her last work, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Put Off Thy Shoes</title>, was published in 1945. The remainder of her life was spent reaping the rewards of her signature best-seller, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Gadfly</title>, a work that had, unbeknownst to her at the time, single-handedly established Ethel's reputation as an American literary hero in the Soviet Union. Royalties from the novel and its derivative films enabled her to live a robust intellectual life until her death in 1960 at age ninety-six.</p>
+      </bioghist>
+      <scopecontent id="mferd6763e208" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Ethel L. Voynich Papers span the period 1835 to 1948, with the majority of the materials dating from 1928-1948. Voynich's musical compositions, based principally on sacred or poetic texts, are represented by holograph manuscript scores, sketches, lyric sheets, and notes. Works are arranged alphabetically by title, with sources of texts identified if possible. The remaining materials consist of subject files on musicological topics and a handful of programs. Included is documentation of Voynich's studies with musicologist Josef Chominski, work done at the Pius X School of Liturgical Music in New York, research conducted at the New York Public Library, and her associations with notable Gloucester composer-poet Ivor Gurney.</p>
+      </scopecontent>
+      <arrangement id="mferd6763e213" encodinganalog="351$a">
+         <head>Organization of the Ethel L. Voynich Papers</head>
+         <p>The Ethel L. Voynich Papers are organized in three series: </p>
+         <list>
+            <item>Music, 1916-1948</item>
+            <item>Subject Files, 1937-1941</item>
+            <item>Miscellany, 1835-1946</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2010563503"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2010563503</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd6763e225" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd200e255" level="series">
+            <did>
+               <container type="box">1-12</container>
+               <unittitle encodinganalog="245$a">Music, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1916-1948</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd200e264" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Babylon (voices, chorus, orchestra)</unittitle>
+               </did>
+               <c03 id="mferd200e268" level="file">
+                  <did>
+                     <container type="box-folder">12/1</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e274" level="file">
+                  <did>
+                     <container type="box-folder">7/1</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e280" level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle encodinganalog="245$a">Photocopied manuscript full score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e286" level="file">
+                  <did>
+                     <container type="box-folder">7/2</container>
+                     <unittitle encodinganalog="245$a">Manuscript short score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e292" level="file">
+                  <did>
+                     <container type="box-folder">7/3</container>
+                     <unittitle encodinganalog="245$a">Sketches and notes</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e298" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Blue Bunny's book (voice, piano)</unittitle>
+               </did>
+               <c03 id="mferd200e302" level="file">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a">Manuscript piano-vocal score</unittitle>
+                     <note>
+                        <p>Laid in: sketches and lyric sheets</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e311" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Blue Bunny's influenza blues (voice, piano)</unittitle>
+               </did>
+               <c03 id="mferd200e315" level="file">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a">Manuscript piano-vocal score</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e321" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bunny dance (piano)</unittitle>
+               </did>
+               <c03 id="mferd200e325" level="file">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a">Sketch</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e331" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Come near (voice, piano)</unittitle>
+               </did>
+               <c03 id="mferd200e335" level="file">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a">2 manuscript piano-vocal scores</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e341" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">The crossroads (voices, band)</unittitle>
+               </did>
+               <c03 id="mferd200e345" level="file">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                     <note>
+                        <p>Laid in: sketches and notes</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e354" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cubby lion's childhood (voice, piano)</unittitle>
+               </did>
+               <c03 id="mferd200e358" level="file">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a">3 manuscript piano-vocal scores</unittitle>
+                     <note>
+                        <p>Laid in: sketches</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e367" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Desire in Spring (voice, piano)</unittitle>
+                  <note>
+                     <p>Music: Ivor Gurney; text: Francis Ledwidge</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e374" level="file">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a">Manuscript piano-vocal score in the hand of I. Gurney</unittitle>
+                     <note>
+                        <p>Inscribed from Gurney to Voynich</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e383" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ego sum pastor bonus (voices)</unittitle>
+                  <note>
+                     <p>By Waclaw Szamotulski</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e390" level="file">
+                  <did>
+                     <container type="box-folder">1/8</container>
+                     <unittitle encodinganalog="245$a">Photocopied copyist manuscript vocal score</unittitle>
+                     <note>
+                        <p>Musical analysis in pencil</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e399" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Epitaph in ballad form (voices, orchestra)</unittitle>
+                  <note>
+                     <p>Text: Francois Villon</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e406" level="file">
+                  <did>
+                     <container type="box-folder">8/1</container>
+                     <unittitle encodinganalog="245$a">3 manuscript full scores</unittitle>
+                     <note>
+                        <p>Laid in: sketches and lyric sheets</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e415" level="file">
+                  <did>
+                     <container type="box-folder">8/2</container>
+                     <unittitle encodinganalog="245$a">Photocopied manuscript full score</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e422" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Five Elizabethan songs. Sleep (voice, piano)</unittitle>
+                  <note>
+                     <p>By Ivor Gurney</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e429" level="file">
+                  <did>
+                     <container type="box-folder">1/9</container>
+                     <unittitle encodinganalog="245$a">Printed piano-vocal score</unittitle>
+                     <note>
+                        <p>Inscribed from Gurney to Voynich</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e438" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="geoyh">Give ear, o ye heavens (voices, 8 parts) <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="isoam">
+                        <emph render="italic">see also </emph>I sing of a maiden</ref>
+                  </unittitle>
+                  <note>
+                     <p>Text: Deuteronomy 32:1,2</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e451" level="file">
+                  <did>
+                     <container type="box-folder">1/10</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
+                     <note>
+                        <p>Laid in: sketches</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e460" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="tgn">The golden net (voices) <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="wit">
+                        <emph render="italic"> see also </emph>Who is this?</ref>
+                  </unittitle>
+                  <note>
+                     <p>Text: William Blake</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e473" level="file">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a">4 manuscript vocal scores</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e479" level="file">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a">3 photocopied manuscript vocal scores</unittitle>
+                     <note>
+                        <p>Laid in: lyric sheets</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e488" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="isoam">I sing of a maiden (women's voices, 8 parts) <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="geoyh">
+                        <emph render="italic">see also </emph>Give ear, o ye heavens</ref>
+                  </unittitle>
+                  <note>
+                     <p>Text: traditional, 15th century</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e501" level="file">
+                  <did>
+                     <container type="box-folder">8/3</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
+                     <note>
+                        <p>Laid in: sketches</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e510" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">I sing of a maiden (women's voices, 16 parts) <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="geoyh">
+                        <emph render="italic"> see also </emph>Give ear, o ye heavens</ref>
+                  </unittitle>
+                  <note>
+                     <p>Text: traditional, 15th century</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e523" level="file">
+                  <did>
+                     <container type="box-folder">8/3</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
+                     <note>
+                        <p>Laid in: lyric sheet</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e532" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Jerusalem (voices, chorus, orchestra)</unittitle>
+                  <note>
+                     <p>Text: traditional hymn</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e539" level="file">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e545" level="file">
+                  <did>
+                     <container type="box-folder">9/1</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                     <note>
+                        <p>Laid in: lyric sheets and notes</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e554" level="file">
+                  <did>
+                     <container type="box-folder">2/4</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                     <note>
+                        <p>Movements I and II only</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e563" level="file">
+                  <did>
+                     <container type="box-folder">9/2</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                     <note>
+                        <p>Movement V only</p>
+                     </note>
+                     <note>
+                        <p>On cover: Re-written 1923</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e575" level="file">
+                  <did>
+                     <container type="box-folder">9/3</container>
+                     <unittitle encodinganalog="245$a">Photocopied manuscript full score</unittitle>
+                     <note>
+                        <p>Annotations</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e584" level="file">
+                  <did>
+                     <container type="box-folder">9/4</container>
+                     <unittitle encodinganalog="245$a">Photocopied manuscript full score</unittitle>
+                     <note>
+                        <p>Annotations</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e593" level="file">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">Manuscript short score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e599" level="file">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a">Manuscript piano-vocal score</unittitle>
+                     <note>
+                        <p>Miscellaneous movements</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e608" level="file">
+                  <did>
+                     <container type="box-folder">2/7</container>
+                     <unittitle encodinganalog="245$a">Sketches</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e614" level="file">
+                  <did>
+                     <container type="box-folder">3/1</container>
+                     <unittitle encodinganalog="245$a">Sketches</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e620" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Jerusalem (women's voices, orchestra)</unittitle>
+                  <note>
+                     <p>Text: traditional hymn</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e627" level="file">
+                  <did>
+                     <container type="box-folder">2/8</container>
+                     <unittitle encodinganalog="245$a">Manuscript short score</unittitle>
+                     <note>
+                        <p>On title page: Piano and vocal score</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e636" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lenten is come (women's voices, piano)</unittitle>
+                  <note>
+                     <p>Text: traditional</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e643" level="file">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a">Printed piano-vocal score proof</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e649" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Little lamb (voice, piano)</unittitle>
+                  <note>
+                     <p>Music: Mary Wilkes; text: William Blake</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e656" level="file">
+                  <did>
+                     <container type="box-folder">9/5</container>
+                     <unittitle encodinganalog="245$a">Photocopied manuscript piano-vocal score</unittitle>
+                     <note>
+                        <p>Laid in: notes</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e665" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Little suite (woodwinds, harp)</unittitle>
+               </did>
+               <c03 id="mferd200e669" level="file">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a">Manuscript score and parts</unittitle>
+                     <note>
+                        <p>Laid in: sketches</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e678" level="file">
+                  <did>
+                     <container type="box-folder">9/6</container>
+                     <unittitle encodinganalog="245$a">Manuscript score</unittitle>
+                     <note>
+                        <p>Laid in: notes</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e687" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Man octapartite (voices, double chorus, strings)</unittitle>
+                  <note>
+                     <p>Text: Irish traditional</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e694" level="file">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a">Sketches and lyric sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e701" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mass in B Minor</unittitle>
+                  <note>
+                     <p>By J.S. Bach</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e708" level="file">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a">Printed score</unittitle>
+                     <note>
+                        <p>Annotations</p>
+                     </note>
+                     <note>
+                        <p>Bound, personalized copy</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e720" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">O mortal folk (chorus)</unittitle>
+                  <note>
+                     <p>Text: Stephen Hawkes</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e727" level="file">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e733" level="file">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
+                     <note>
+                        <p>Laid in: lyric sheets</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e742" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">On Wenlock Edge (voice, strings, piano)</unittitle>
+                  <note>
+                     <p>Music: Ralph Vaughan Williams; text: Alfred Edward Houseman</p>
+                  </note>
+                  <note>
+                     <p>Transcribed by Ivor Gurney</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e752" level="file">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score in the hand of I. Gurney</unittitle>
+                     <note>
+                        <p>Unfinished</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e761" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Our lady sings (double chorus)</unittitle>
+                  <note>
+                     <p>Text: Jerusalem, my happy home</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e768" level="file">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a">Printed vocal score</unittitle>
+                     <note>
+                        <p>Annotations</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e777" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pinky's Declaration of Independence (song for the 4th of July)</unittitle>
+               </did>
+               <c03 id="mferd200e781" level="file">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a">Manuscript lead sheet</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e787" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">The riders: symphonic cantata in 4 movements</unittitle>
+               </did>
+               <c03 id="mferd200e791" level="file">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e797" level="file">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e803" level="file">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a">Parts</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e809" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Saltaire tunes</unittitle>
+               </did>
+               <c03 id="mferd200e813" level="file">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a">Manuscript lead sheets</unittitle>
+                     <note>
+                        <p>Laid in: postcard and crayon drawing from 1937 September 4-8 visit to Saltaire, NY</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e822" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">So shuts the marigold (voices)</unittitle>
+                  <note>
+                     <p>Text: William Browne of Tavistock</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e829" level="file">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a">3 manuscript vocal scores</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e835" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">The submerged city: cantata for solo baritone, mixed choir, and orchestra</unittitle>
+                  <note>
+                     <p>Text: Aleksey Stepanovich Khomyakov</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e842" level="file">
+                  <did>
+                     <container type="box-folder">10/1</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                     <note>
+                        <p>Laid in: sketches and lyric sheet</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e851" level="file">
+                  <did>
+                     <container type="box-folder">10/2</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e857" level="file">
+                  <did>
+                     <container type="box-folder">10/3</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e863" level="file">
+                  <did>
+                     <container type="box-folder">10/4</container>
+                     <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
+                     <note>
+                        <p>Incomplete</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd200e872" level="file">
+                  <did>
+                     <container type="box-folder">10/5</container>
+                     <unittitle encodinganalog="245$a">Manuscript short score</unittitle>
+                     <note>
+                        <p>On cover: Piano score</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e881" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tollite portas (Lift up your heads) (voices)</unittitle>
+                  <note>
+                     <p>Text: William Byrd</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e888" level="file">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score (English)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e894" level="file">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score (French)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e900" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Unwelcome (voice, piano)</unittitle>
+                  <note>
+                     <p>Text: Mary Coleridge</p>
+                  </note>
+               </did>
+               <c03 id="mferd200e907" level="file">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a">2 manuscript piano-vocal scores</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e914" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Victimae paschali laudes (voices, organ)</unittitle>
+               </did>
+               <c03 id="mferd200e918" level="file">
+                  <did>
+                     <container type="box-folder">5/7</container>
+                     <unittitle encodinganalog="245$a">Manuscript score for voice and organ</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e924" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wilfred's birthday song</unittitle>
+               </did>
+               <c03 id="mferd200e928" level="file">
+                  <did>
+                     <container type="box-folder">5/8</container>
+                     <unittitle encodinganalog="245$a">Manuscript lead sheet</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e934" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="wit">Who is this? <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="tgn">
+                        <emph render="italic">see also </emph>The golden net</ref>
+                  </unittitle>
+               </did>
+               <c03 id="mferd200e944" level="file">
+                  <did>
+                     <container type="box-folder">5/9</container>
+                     <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
+                     <note>
+                        <p>Laid in: lyric sheet</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd200e953" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Unidentified</unittitle>
+               </did>
+               <c03 id="mferd200e957" level="file">
+                  <did>
+                     <container type="box-folder">5/10</container>
+                     <unittitle encodinganalog="245$a">Sketches</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd200e963" level="series">
+            <did>
+               <container type="box">6, 13-14</container>
+               <unittitle encodinganalog="245$a">Subject Files, <unitdate era="ce" calendar="gregorian">1937-1941</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd200e972" level="file">
+               <did>
+                  <container type="box-folder">6/1</container>
+                  <unittitle encodinganalog="245$a">Chominski, Josef Michal, <unitdate era="ce" calendar="gregorian">1937-1941</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>E.L. Voynich's notes from studies with Chominski</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd200e984" level="file">
+               <did>
+                  <container type="box-folder">13/1</container>
+                  <unittitle encodinganalog="245$a">Folk songs: Czeck</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e990" level="file">
+               <did>
+                  <container type="box-folder">13/2</container>
+                  <unittitle encodinganalog="245$a">Folk songs: Polish</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e996" level="file">
+               <did>
+                  <container type="box-folder">13/3</container>
+                  <unittitle encodinganalog="245$a">Folk songs: Russian</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1002" level="file">
+               <did>
+                  <container type="box-folder">13/4</container>
+                  <unittitle encodinganalog="245$a">Folk songs: Ukranian</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1008" level="file">
+               <did>
+                  <container type="box-folder">13/5</container>
+                  <unittitle encodinganalog="245$a">Folk songs: other than Slavonic</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1014" level="file">
+               <did>
+                  <container type="box-folder">13/6</container>
+                  <unittitle encodinganalog="245$a">Military music</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1020" level="file">
+               <did>
+                  <container type="box-folder">6/2</container>
+                  <unittitle encodinganalog="245$a">Musical diagrams: relationships to intervals</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1026" level="file">
+               <did>
+                  <container type="box-folder">14/1-2</container>
+                  <unittitle encodinganalog="245$a">Pius X School of Liturgical Music</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1032" level="file">
+               <did>
+                  <container type="box-folder">14/3</container>
+                  <unittitle encodinganalog="245$a">Polyphony: evolution of</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1039" level="file">
+               <did>
+                  <container type="box-folder">14/4</container>
+                  <unittitle encodinganalog="245$a">Polyphony: France, Netherlands, Germany, Spain</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1045" level="file">
+               <did>
+                  <container type="box-folder">6/3</container>
+                  <unittitle encodinganalog="245$a">Primitive, exotic, ancient music</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd200e1051" level="file">
+               <did>
+                  <container type="box-folder">14/5</container>
+                  <unittitle encodinganalog="245$a">Theoretical studies, nature, primitive</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd200e1057" level="series">
+            <did>
+               <container type="box">6, 14</container>
+               <unittitle encodinganalog="245$a">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1835-1946</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd200e1066" level="file">
+               <did>
+                  <container type="box-folder">14/6</container>
+                  <unittitle encodinganalog="245$a">Gurney, Ivor</unittitle>
+                  <note>
+                     <p>Clippings</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd200e1075" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Programs</unittitle>
+               </did>
+               <c03 id="mferd200e1079" level="file">
+                  <did>
+                     <container type="box-folder">14/7</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous programs, <unitdate era="ce" calendar="gregorian">1932-1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd200e1088" level="file">
+                  <did>
+                     <container type="box-folder">6/4</container>
+                     <unittitle encodinganalog="245$a">Theatre Royal, Covent Garden, 1835 July 3</unittitle>
+                     <note>
+                        <p>Performers include Maria Taglioni, Guilietta Grisi, and others</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

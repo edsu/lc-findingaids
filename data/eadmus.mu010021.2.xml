@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:20 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010021--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010021--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010021-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd145e3">
+   <eadheader id="mferd145e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu010021"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu010021</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Harriet Winslow Collection of Nadia Boulanger Materials
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="1999" encodinganalog="260$c" era="ce" calendar="gregorian">1999</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2006569273"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2006569273</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-08" era="ce" calendar="gregorian">2010 August</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in August 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd3775e49">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Harriet Winslow Collection of Nadia Boulanger Materials
+		  <unitdate label="Span Dates" type="inclusive" normal="1956/1964" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1956-1964</unitdate> 
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.W56</unitid>
+         <origination label="Creator"> 
+	 		        <persname encodinganalog="700" source="lcnaf">Boulanger, Nadia</persname>
+         </origination>
+         <origination label="Collector"> 
+		          <persname encodinganalog="100" source="lcnaf">Winslow, Harriet</persname>
+         </origination>
+         <physdesc label="Extent">
+			         <extent encodinganalog="300">95 items</extent>
+		  	       <extent encodinganalog="300">1 container</extent>
+		  	       <extent encodinganalog="300">.25 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Material in
+		<language encodinganalog="041" langcode="eng">English</language> 
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Little is known about Mrs. Cameron (Harriet) Winslow or how she became acquainted with the influential French composer, conductor, and teacher, Nadia Boulanger. This collection consists of photographs, concert programs, and clippings related to Boulanger's career that Mrs. Winslow received from 1956 to 1964. Most of the items are signed, dated and contain simple messages from Boulanger.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd3775e95" altrender=":::F005=^20100707104714.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd147e7">
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Blitzstein%2C+Marc.^">Blitzstein, Marc.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Boulanger%2C+Lili%2C+1893-1918.^">Boulanger, Lili, 1893-1918.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Boulanger%2C+Nadia+Photographs.^">Boulanger, Nadia--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Boulanger%2C+Nadia.^">Boulanger, Nadia.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Boulanger%2C+Nadia.^">Boulanger, Nadia.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Boulanger%2C+Nadia.^">Boulanger, Nadia. Harriet Winslow collection of Nadia Boulanger materials. 1956-1964.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Winslow%2C+Harriet.^">Winslow, Harriet.</persname>
+         </controlaccess>
+         <controlaccess id="mferd147e24">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Conservatoire+am%C3%A9ricain+de+Fontainebleau.^">Conservatoire américain de Fontainebleau.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd147e29">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Concert+programs.^">Concert programs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+teachers+France.^">Music teachers--France.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Women+conductors+%28Music%29+France.^">Women conductors (Music)--France.</subject>
+         </controlaccess>
+         <controlaccess id="mferd147e38">
+            <head>Titles</head>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                   encodinganalog="246"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^Winslow+%2F+Boulanger+collection%2C+1956-1964^">Winslow / Boulanger collection, 1956-1964</title>
+         </controlaccess>
+         <controlaccess id="mferd147e43">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd3775e144" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd3775e147" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift, Mrs. Cameron (Harriet) Winslow, July 26, 1977.</p>
+         </acqinfo>
+         <accruals id="mferd3775e152">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd3775e157" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Harriet Winslow Collection of Nadia Boulanger Materials was processed by Wilda M. Heiss in 1999. The finding aid was coded for EAD by Thomas Barrick in 2010.</p>
+         </processinfo>
+         <userestrict id="mferd3775e162" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The Harriet Winslow Collection of Nadia Boulanger Materials is governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict id="mferd3775e167" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Harriet Winslow Collection of Nadia Boulanger Materials is open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd3775e174" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the	following information: [item, date, container number], Harriet Winslow Collection of Nadia Boulanger Materials, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd3775e179" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Little is known about Mrs. Cameron (Harriet) Winslow and her relationship with Nadia Boulanger. From 1956-1964, Winslow, then a resident of Washington, DC, received a variety of programs, clippings, and photographs from Boulanger, most signed and dated with simple messages, such as, "Pour Harriet de tout coeur." These items suggest that the two may have been friends, although reference sources on Boulanger bear no mention of her relationship with Winslow.</p>
+      </bioghist>
+      <scopecontent id="mferd3775e184" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Harriet Winslow Collection of Nadia Boulanger Materials spans the period 1956 to 1964 and consists of photographs, concert programs, and clippings related to the influential French composer, conductor, and teacher. All photographs are inscribed with notes or short greetings that identify the depicted individuals and places. Most portray Boulanger alone or with others, in her apartment, at the Conservatoire américain de Fontainebleau, or while traveling. The majority of the programs are from the Conservatoire américain de Fontainebleau and document performances by faculty members, students, and visiting ensembles. The remaining programs are from Boulanger's visits to the United States in 1958 and 1962 and from her visits to other countries between these dates. These special appearances, usually as conductor, performer, or teacher, are covered in greater detail in the clippings file. Also included is a record review by Marc Blitzstein about compositions by Lili Boulanger, sister of Nadia, who died at the age of twenty-four.</p>
+      </scopecontent>
+      <arrangement id="mferd3775e189" encodinganalog="351$a">
+         <head>Organization of the Harriet Winslow Collection of Nadia Boulanger Materials</head>
+         <p>The Harriet Winslow Collection of Nadia Boulanger Materials is organized in three series: </p>
+         <list>
+            <item>Photographs, 1958-1964</item>
+            <item>Programs, 1956-1962</item>
+            <item>Clippings, 1957-1963</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2006569273"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2006569273</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd3775e201" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd145e233" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Photographs,
+				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1964</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd145e242" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Nadia Boulanger, alone,
+				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1960</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">4 photographs</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd145e256" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Nadia Boulanger, with others,
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1964</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">7 photographs</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd145e270" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Organ in Nadia Boulanger's apartment,
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">2 photographs</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd145e284" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Prince Rainier and Princess Grace of Monaco with children,
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">1 photograph</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd145e298" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Souzay, Gérard  <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="wb1">
+                        <emph render="italic">see</emph> Conservatoire américain de Fontainebleau</ref>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd145e308" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Programs,
+  				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1962</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd145e317" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">American Guild of Organists, Boston Chapter,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e326" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Association des concerts Lamoureux,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e335" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Bath Festival,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e344" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Composers' Showcase,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e353" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a" id="wb1">Conservatoire américain de Fontainebleau,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e362" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Dumbarton Oaks,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e371" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Festival Yehudi Menuhin,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e380" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Fondation Singer-Polignac,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957, 1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e389" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Fontainebleau Schools (music and fine arts)
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e398" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">King's Chapel, Boston,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e408" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Pine Manor Junior College,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e417" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Riyaseticumhur Senfoni Orkestrasi,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e426" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Tri-State Orchestral Composers Symposium,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd145e435" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Union Interalliée,
+  					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd145e444" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Clippings,
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1963, undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd145e453" level="file">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle encodinganalog="245$a">
+	 					              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1963, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

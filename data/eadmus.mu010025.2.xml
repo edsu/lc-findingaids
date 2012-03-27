@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:25 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010025--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010025--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010025-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd265e3">
+   <eadheader id="mferd265e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu010025"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu010025</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Franko Goldman Family Papers
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2010563515"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2010563515</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd5713e42">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Franko Goldman Family Papers
+		  <unitdate label="Span Dates" type="inclusive" normal="1886/1972" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">circa 1886-1972</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1931/1963" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1931-1963)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.G63</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Goldman, Richard Franko, 1910-1980</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">314 items </extent>
+		          <extent encodinganalog="300">4 containers</extent>
+		          <extent encodinganalog="300">2 linear feet</extent>		  
+		       </physdesc>
+         <langmaterial label="Language">
+		  Collection material in <language encodinganalog="041" langcode="eng">English and </language>
+            <language encodinganalog="041" langcode="ger">German</language>
+		       </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">The Franko Goldman Family Papers are primarily related to the professional lives of brothers Sam (1857-1937) and Nahan Franko (1861-1930), their nephew Edwin Franko Goldman (1878-1956), and his son Richard Franko Goldman (1910-1980). Sam and Nahan were violinists and conductors; Edwin was a bandmaster and band composer; and Richard was a bandmaster, composer, educator, and music critic. The materials include correspondence from prominent musicians, composers and conductors; a selection of writings, including a typescript of the unpublished autobiography of Edwin Franko Goldman and several articles by Richard Franko Goldman; photographs of Richard Franko Goldman, the Goldman Band, and various composers and musicians; and six scrapbooks belonging to Sam Franko that contain manuscript notes and commentaries and other ephemera relating to his life and career. In addition, the collection includes an autograph book compiled by Richard Franko Goldman's great-aunt Lybia Franko, which contains seventy-four inscriptions and autographs of prominent musical and theatrical figures.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd5713e89" altrender=":::F005=^20100928152225.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd267e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ch%C3%A1vez%2C+Carlos%2C+1899-1978+Photographs.^">Chávez, Carlos, 1899-1978--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Copland%2C+Aaron%2C+1900-1990+Correspondence.^">Copland, Aaron, 1900-1990--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Cowell%2C+Henry%2C+1897-1965+Correspondence.^">Cowell, Henry, 1897-1965--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Elman%2C+Mischa%2C+1891-1967+Photographs.^">Elman, Mischa, 1891-1967--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Franko%2C+Nahan+Correspondence.^">Franko, Nahan--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Franko%2C+Nahan.^">Franko, Nahan.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Franko%2C+Nahan.^">Franko, Nahan. Franko Goldman family papers. 1886-1972.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Franko%2C+Sam%2C+1857-1937+Correspondence.^">Franko, Sam, 1857-1937--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Franko%2C+Sam%2C+1857-1937.^">Franko, Sam, 1857-1937.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Franko%2C+Sam%2C+1857-1937.^">Franko, Sam, 1857-1937.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Franko%2C+Sam%2C+1857-1937.^">Franko, Sam, 1857-1937. Franko Goldman family papers. 1886-1972.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goldman%2C+Edwin+Franko%2C+1878-1956+Correspondence.^">Goldman, Edwin Franko, 1878-1956--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goldman%2C+Edwin+Franko%2C+1878-1956.^">Goldman, Edwin Franko, 1878-1956.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goldman%2C+Edwin+Franko%2C+1878-1956.^">Goldman, Edwin Franko, 1878-1956.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goldman%2C+Edwin+Franko%2C+1878-1956.^">Goldman, Edwin Franko, 1878-1956. Franko Goldman family papers. 1886-1972.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goldman%2C+Richard+Franko%2C+1910-1980+Correspondence.^">Goldman, Richard Franko, 1910-1980--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goldman%2C+Richard+Franko%2C+1910-1980+Photographs.^">Goldman, Richard Franko, 1910-1980--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goldman%2C+Richard+Franko%2C+1910-1980.^">Goldman, Richard Franko, 1910-1980.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goldman%2C+Richard+Franko%2C+1910-1980.^">Goldman, Richard Franko, 1910-1980.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grainger%2C+Percy%2C+1882-1961+Correspondence.^">Grainger, Percy, 1882-1961--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Menuhin%2C+Yehudi%2C+1916-1999+Correspondence.^">Menuhin, Yehudi, 1916-1999--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Menuhin%2C+Yehudi%2C+1916-1999+Photographs.^">Menuhin, Yehudi, 1916-1999--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Milhaud%2C+Darius%2C+1892-1974+Correspondence.^">Milhaud, Darius, 1892-1974--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Moore%2C+Douglas%2C+1893-1969+Correspondence.^">Moore, Douglas, 1893-1969--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Moszkowski%2C+Moritz%2C+1854-1925+Photographs.^">Moszkowski, Moritz, 1854-1925--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rachmaninoff%2C+Sergei%2C+1873-1943+Photographs.^">Rachmaninoff, Sergei, 1873-1943--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Respighi%2C+Ottorino%2C+1879-1936+Photographs.^">Respighi, Ottorino, 1879-1936--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Riegger%2C+Wallingford%2C+1885-1961+Correspondence.^">Riegger, Wallingford, 1885-1961--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sowerby%2C+Leo%2C+1895-1968+Correspondence.^">Sowerby, Leo, 1895-1968--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Var%C3%A8se%2C+Edgard%2C+1883-1965+Correspondence.^">Varèse, Edgard, 1883-1965--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd267e72">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Edwin+Franko+Goldman+Band.^">Edwin Franko Goldman Band.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd267e77">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Band+directors+United+States.^">Band directors--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Composers+United+States.^">Composers--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Conductors+United+States.^">Conductors--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Violinists+United+States.^">Violinists--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd267e88">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Autograph+albums.^">Autograph albums.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd5713e187" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd5713e190" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift; Richard Franko Goldman; 1975</p>
+         </acqinfo>
+         <accruals id="mferd5713e195">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd5713e200" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Franko Goldman correspondence was originally called the Richard Franko Goldman Collection, processed, and shelved under ML94.G64. In 2010, the correspondence was merged with the other Franko Goldman materials and a finding aid was created for the collection as a whole. Nancy Seeger coded the finding aid for EAD format in 2010.</p>
+         </processinfo>
+         <separatedmaterial id="mferd5713e205" encodinganalog="544 0">
+            <head>Other Repositories</head>
+            <p>Sam Franko donated his music collection and scrapbooks to the New York Public Library. The Michelle Smith Performing Arts Library of the University of Maryland contains the Edwin Franko Goldman Collection in the American Bandmasters Association Research Center. This collection contains program books for the Goldman Band's annual summer concerts, press books, newspaper clippings, and other materials. The Edwin Franko Goldman Autograph Collection is held at the Bentley Historical Library at the University of Michigan. It contains a collection of autographs, letters, photographs, and musical scores of many musical celebrities from Goldman's lifetime and before. The manuscripts and scores used by the Goldman Band are in the music library of the University of Iowa.</p>
+         </separatedmaterial>
+         <relatedmaterial id="mferd5713e210" encodinganalog="544 1">
+            <head>Related Material</head>
+            <p>The manuscript and printed music that came with this collection have been disbursed into the general collections of the Library of Congress Music Division. A list of this material is maintained in the acquisitions files of the division.</p>
+         </relatedmaterial>
+         <userestrict id="mferd5713e215" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The Franko Goldman Family Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict id="mferd5713e220" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Franko Goldman Family Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd5713e227" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Franko Goldman Family Papers, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd5713e232" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Violinist and conductor Sam Franko was born January 20, 1857 in New Orleans and died May 6, 1937 in New York. His parents were German Jews who immigrated to New Orleans where Sam's father, Hamman Franko, worked as a jeweler. When the Union Army occupied New Orleans in 1862, the family fled to Germany where all eleven of the Franko children received musical training. Sam studied violin with several teachers including Joseph Joachim. Upon returning to America, several of the Franko children, Sam, Nahan, Selma, Jeanne, and Rachel caused a sensation by performing as the Franko Family on September 17, 1869 at Steinway Hall in New York.  The concert was repeated in several cities, including Washington, D.C. where a young John Philip Sousa heard them and would later recall his admiration of their talent. By 1880 Sam was playing in orchestras in New York under Theodore Thomas and Walter Damrosch. He founded the New York String Quartet in 1881. In the mid-1880s he played violin with several different organizations and from 1891-1897 he played viola for the New York Philharmonic Society.  Franko began conducting in 1891. He founded the American Symphony Orchestra in 1894, in order to demonstrate that non-Europeans could be good musicians.  Between 1900 and 1914 he conducted a program both at home and abroad entitled ‘Orchestral Concerts of Old Music.’  Upon returning to America in 1915, he became involved in several endeavors, including teaching the violin, leading the orchestra for the Ballets Russes tour, and conducting his ‘Old Music’ concerts. He arranged numerous orchestral works and composed works for piano and for violin and piano.</p>
+         <p>Nahan Franko, also a conductor and violinist, was Sam’s brother. He was born July 23, 1861 in New Orleans, Louisiana and died May 7, 1930 in Amityville, New York.  He made his debut in 1869 at the age of eight and later toured the world as a child prodigy with Adelina Patti. After playing the violin for leading American and European orchestras, he was made concertmaster of the Metropolitan Opera Orchestra. He held this position from 1883 to 1907. On November 30, 1904, he made his conducting debut with the company in a production of <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Le Nozze di Figaro—</title> making him the first American-born conductor of the Metropolitan Opera Orchestra. Frank started his own orchestra in 1908 and was famous for his open-air concerts in Central Park. He stayed with the orchestra for almost two decades. He died at the age of 68. Pallbearers included Theodore Steinway and John Philip Sousa.
+	 	</p>
+         <p>Bandmaster and composer Edwin Franko Goldman was born January 1, 1878 in Louisville, Kentucky and died February 21, 1956 in New York. He was the son of Selma Franko (Sam and Nahan's sister) and her first cousin David Henry Goldman, who was a fine amateur violinist. Beginning at the age eight, Goldman studied cornet and composition (with Dvořák) at the National Conservatory of Music in New York. From 1899 to 1909 he was solo cornetist with the Metropolitan Opera Orchestra. He formed his own band (the New York Military Band, later known as the Goldman Band), in 1911 and was known for championing new and forgotten band music. They played all over New York and were heard regularly on the radio. Goldman composed over 100 marches, including <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">On the Mall</title> and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Kentucky March</title>. In addition, he founded the American Bandmasters Association. His band had a continuous history of performance under his name from 1918 until 1979 and was known for musical proficiency and the breadth of its repertoire.  In addition, Goldman was a teacher and writer of the following books:  <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Foundation to Cornet or Trumpet Playing</title>, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Band Betterment</title>, and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Goldman Band System</title>.</p>
+         <p>Edwin Franko Goldman’s son, Richard Franko Goldman, was born on December 7, 1910 in New York and died January 19, 1980 in Baltimore. He was a bandmaster, composer, educator, music critic and writer. He graduated from Columbia University in 1930 and studied music privately with Nadia Boulanger, Wallingford Riegger and others. In 1937 he became associate conductor (under his father) of the Goldman Band; eventually succeeding Edwin as conductor after his death in 1956. During Goldman’s tenure with the band, he commissioned and performed from among the foremost American composers and restored many historic band works from the 18th and 19th centuries to the active band repertory. He disbanded the ensemble and retired its name in 1979. Goldman was on the faculty of the Juilliard School from 1947 to 1960. In 1968 he was appointed director of the Peabody Conservatory and in 1969 he became president of the Peabody Institute in Baltimore. He held both positions until his retirement in 1977.  As principal New York critic for the <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Musical Quarterly</title> from 1948 to 1968, he was quite influential, particularly in his early recognition of such composers as Henry Cowell, Elliott Carter, and Riegger. Goldman composed vocal and chamber music, one orchestral work, and several works for band. He received numerous honors, including the Juilliard Music Foundation award (1955) and the Alice M. Ditson Award (1961). 
+	 	</p>
+      </bioghist>
+      <scopecontent id="mferd5713e264" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Franko Goldman Family Papers are chiefly related to the professional lives of brothers Sam and Nahan Franko, their nephew Edwin Franko Goldman and his son Richard Franko Goldman. The Correspondence series is the largest portion of the collection and includes letters to and from Percy Grainger, Henry Cowell, including several letters he wrote from San Quentin, Wallingford Riegger, Yehudi Menuhin, Aaron Copland, Darius Milhaud, Douglas Moore, Leo Sowerby, and Edgard Varèse. The Writings series includes a typescript of the unpublished autobiography of Edwin Franko Goldman, two holograph manuscripts written by Edwin on building band programs and starting a band school, and several articles by Richard Franko Goldman. The Photographs series contains photographs of Richard Franko Goldman, the Goldman Band, and various composers and musicians. Many in this latter category are inscribed to members of the Franko Goldman family and include the following individuals: Sergei Rachmaninoff, Moritz Moszkowski, Mischa Elman, Ottorino Respighi, Yehudi Menuhin, and Carlos Chávez. The Scrapbook series contains six scrapbooks belonging to Sam Franko that contain manuscript notes and commentaries, programs, clippings, letters, photographs and other ephemera relating to his life and career. The Autograph Book is a velvet-coated album compiled by Richard Franko Goldman's great-aunt Lybia Franko, and contains seventy-four inscriptions and autographs of prominent musical and theatrical figures.</p>
+      </scopecontent>
+      <arrangement id="mferd5713e269" encodinganalog="351$a">
+         <head>Organization of the Franko Goldman Family Papers</head>
+         <p>The Franko Goldman Family Papers are organized into five series: </p>
+         <list>
+            <item>Correspondence, 1920-1972</item>
+            <item>Writings, 1932-1972</item>
+            <item>Photographs, 1887-circa 1950</item>
+            <item>Scrapbooks, 1902-1937</item>
+            <item>Autograph Book, 1886-1900</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2010563515"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2010563515</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd5713e285" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd265e314" level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence, 
+			 	<unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1920/1972">1920-1972</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd265e323" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Bořkovec, Pavel
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e329" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Conrad, Heinrich
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e335" level="file">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle encodinganalog="245$a">Copland, Aaron
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e341" level="file">
+               <did>
+                  <container type="box-folder">1/4</container>
+                  <unittitle encodinganalog="245$a">Cowell, Henry, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1940 March</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e350" level="file">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle encodinganalog="245$a">Cowell, Henry, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940 July-1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e359" level="file">
+               <did>
+                  <container type="box-folder">1/6</container>
+                  <unittitle encodinganalog="245$a">Cowell, Henry, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e368" level="file">
+               <did>
+                  <container type="box-folder">1/7</container>
+                  <unittitle encodinganalog="245$a">Dallapiccola, Luigi
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e374" level="file">
+               <did>
+                  <container type="box-folder">1/8</container>
+                  <unittitle encodinganalog="245$a">Damrosch, Walter
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e380" level="file">
+               <did>
+                  <container type="box-folder">1/9</container>
+                  <unittitle encodinganalog="245$a">Falk, Richard
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e386" level="file">
+               <did>
+                  <container type="box-folder">1/10</container>
+                  <unittitle encodinganalog="245$a">Franko, Nahan
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e393" level="file">
+               <did>
+                  <container type="box-folder">1/11</container>
+                  <unittitle encodinganalog="245$a">Golschmann, Vladimir
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e399" level="file">
+               <did>
+                  <container type="box-folder">1/12</container>
+                  <unittitle encodinganalog="245$a">Gould, Morton
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e405" level="file">
+               <did>
+                  <container type="box-folder">1/13</container>
+                  <unittitle encodinganalog="245$a">Grainger, Percy, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1938</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e414" level="file">
+               <did>
+                  <container type="box-folder">1/14</container>
+                  <unittitle encodinganalog="245$a">Grainger, Percy, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939-1940</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e423" level="file">
+               <did>
+                  <container type="box-folder">1/15</container>
+                  <unittitle encodinganalog="245$a">Grainger, Percy, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e432" level="file">
+               <did>
+                  <container type="box-folder">1/16</container>
+                  <unittitle encodinganalog="245$a">Grainger, Percy, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946-1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e441" level="file">
+               <did>
+                  <container type="box-folder">1/17</container>
+                  <unittitle encodinganalog="245$a">Grainger, Percy, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948-1955</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e450" level="file">
+               <did>
+                  <container type="box-folder">1/18</container>
+                  <unittitle encodinganalog="245$a">Grainger, Percy, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e459" level="file">
+               <did>
+                  <container type="box-folder">1/19</container>
+                  <unittitle encodinganalog="245$a">Grainger, Percy, holograph envelopes
+						</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e465" level="file">
+               <did>
+                  <container type="box-folder">1/20</container>
+                  <unittitle encodinganalog="245$a">Hadley, Henry
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e473" level="file">
+               <did>
+                  <container type="box-folder">1/21</container>
+                  <unittitle encodinganalog="245$a">Herbert, Victor
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e482" level="file">
+               <did>
+                  <container type="box-folder">1/22</container>
+                  <unittitle encodinganalog="245$a">Holst, Gustav
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e490" level="file">
+               <did>
+                  <container type="box-folder">1/23</container>
+                  <unittitle encodinganalog="245$a">Kindler, Hans
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e498" level="file">
+               <did>
+                  <container type="box-folder">1/24</container>
+                  <unittitle encodinganalog="245$a">Kreisler, Fritz
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e506" level="file">
+               <did>
+                  <container type="box-folder">1/25</container>
+                  <unittitle encodinganalog="245$a">McArthur, Edwin D.
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e514" level="file">
+               <did>
+                  <container type="box-folder">1/26</container>
+                  <unittitle encodinganalog="245$a">Mason, Daniel Gregory
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e522" level="file">
+               <did>
+                  <container type="box-folder">1/27</container>
+                  <unittitle encodinganalog="245$a">Menuhin, Yehudi
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e530" level="file">
+               <did>
+                  <container type="box-folder">1/28</container>
+                  <unittitle encodinganalog="245$a">Milhaud, Darius
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e538" level="file">
+               <did>
+                  <container type="box-folder">1/29</container>
+                  <unittitle encodinganalog="245$a">Moore, Douglas
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e546" level="file">
+               <did>
+                  <container type="box-folder">1/30</container>
+                  <unittitle encodinganalog="245$a">Moszkowski, Moritz
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e554" level="file">
+               <did>
+                  <container type="box-folder">1/31</container>
+                  <unittitle encodinganalog="245$a">Paur, Emil
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e562" level="file">
+               <did>
+                  <container type="box-folder">1/32</container>
+                  <unittitle encodinganalog="245$a">Riegger, Wallingford
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e571" level="file">
+               <did>
+                  <container type="box-folder">1/33</container>
+                  <unittitle encodinganalog="245$a">Rodzinski, Artur
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e579" level="file">
+               <did>
+                  <container type="box-folder">1/34</container>
+                  <unittitle encodinganalog="245$a">Rudhyar, Dane
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e587" level="file">
+               <did>
+                  <container type="box-folder">1/35</container>
+                  <unittitle encodinganalog="245$a">Scott, Cyril
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e595" level="file">
+               <did>
+                  <container type="box-folder">1/36</container>
+                  <unittitle encodinganalog="245$a">Sevitzky, Fabien
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e603" level="file">
+               <did>
+                  <container type="box-folder">1/37</container>
+                  <unittitle encodinganalog="245$a">Sousa, John Philip
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e611" level="file">
+               <did>
+                  <container type="box-folder">1/38</container>
+                  <unittitle encodinganalog="245$a">Sowerby, Leo
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e619" level="file">
+               <did>
+                  <container type="box-folder">1/39</container>
+                  <unittitle encodinganalog="245$a">Stoessel, Albert
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e627" level="file">
+               <did>
+                  <container type="box-folder">1/40</container>
+                  <unittitle encodinganalog="245$a">Varèse, Edgar
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e635" level="file">
+               <did>
+                  <container type="box-folder">1/41</container>
+                  <unittitle encodinganalog="245$a">Volpe, Arnold
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd265e643" level="file">
+               <did>
+                  <container type="box-folder">1/42</container>
+                  <unittitle encodinganalog="245$a">unidentified
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd265e651" level="series">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a">Writings, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1932/1972">1932-1972</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd265e660" level="file">
+               <did>
+                  <container type="box-folder">2/1</container>
+                  <unittitle encodinganalog="245$a">Article on building band programs by Edwin Franko Goldman</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Holograph manuscript; 15 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd265e671" level="file">
+               <did>
+                  <container type="box-folder">2/2</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Athaliah</title>, libretto for an opera in two parts, by Richard Franko Goldman,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963-1964</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Typescript; 29 p.</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Accompanied by performance program and review.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd265e691" level="file">
+               <did>
+                  <container type="box-folder">2/3-7</container>
+                  <unittitle encodinganalog="245$a">"Facing the music" by Edwin Franko Goldman
+	 				</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Contains holograph notes by the author.</p>
+                  </note>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Typescript of unpublished autobiography; 290 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd265e705" level="file">
+               <did>
+                  <container type="box-folder">2/8</container>
+                  <unittitle encodinganalog="245$a">"History, information, and art," 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1966</unitdate>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Written by Richard Franko Goldman.</p>
+                  </note>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Typescript; 35 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd265e722" level="file">
+               <did>
+                  <container type="box-folder">2/9</container>
+                  <unittitle encodinganalog="245$a">Ideas for band clinics and a band school
+	 				</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>By Edwin Franko Goldman.</p>
+                  </note>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Holograph manuscript; 12 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd265e736" level="file">
+               <did>
+                  <container type="box-folder">2/10</container>
+                  <unittitle encodinganalog="245$a">"Jacques Barzun" by Richard Franko Goldman
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1972</unitdate>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Reprinted from <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The American Scholar</title>, vol. 42, no. 1, Winter 1972-1973.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd265e751" level="file">
+               <did>
+                  <container type="box-folder">2/11</container>
+                  <unittitle encodinganalog="245$a">L&amp;M XX [class notes], 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954</unitdate>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>By Richard Franko Goldman.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd265e763" level="file">
+               <did>
+                  <container type="box-folder">2/12</container>
+                  <unittitle encodinganalog="245$a">Poetry, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1970</unitdate>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Contains translations by Richard Franko Goldman.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd265e775" level="file">
+               <did>
+                  <container type="box-folder">2/13</container>
+                  <unittitle encodinganalog="245$a">Portugal onward: an exchange,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1962 </unitdate>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Exchange of letters by Richard Franko Goldman and others in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Columbia University Forum</title>, Summer, 1962.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd265e790" level="file">
+               <did>
+                  <container type="box-folder">2/14</container>
+                  <unittitle encodinganalog="245$a">"The seven deadly arts," 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963</unitdate>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>By Richard Franko Goldman.</p>
+                  </note>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Typescript; 28 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd265e807" level="series">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a">Photographs, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1887/1950">1887-circa 1950</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd265e816" level="file">
+               <did>
+                  <container type="box-folder">2/15</container>
+                  <unittitle encodinganalog="245$a">Photographs of Richard Franko Goldman and the Goldman Band</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">4 photographs</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd265e827" level="file">
+               <did>
+                  <container type="box-folder">2/16</container>
+                  <unittitle encodinganalog="245$a">Photographs of various composers and musicians</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">9 photographs</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd265e838" level="series">
+            <did>
+               <container type="box">3-4</container>
+               <unittitle encodinganalog="245$a">Scrapbooks, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1902/1937">1902-1937</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="$a520">
+               <p>The Scrapbook series contains six scrapbooks belonging to Sam Franko that contain manuscript notes and commentaries, programs, clippings, letters, photographs and other ephemera relating to his life and career.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd265e850" level="series">
+            <did>
+               <container type="box">4</container>
+               <unittitle encodinganalog="245$a">Autograph Book, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1886/1900">1886-1900</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="$a520">
+               <p> The autograph book is a velvet-coated album compiled by Richard Franko Goldman's great-aunt Lybia Franko, which contains seventy-four inscriptions and autographs of prominent musical and theatrical figures.</p>
+            </scopecontent>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

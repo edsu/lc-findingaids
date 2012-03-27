@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Thu, 16 February 2012 11:08:34 AM EST
+URL: http://hdl.loc.gov/loc.afc/eadafc.af011019
+ ===================================== -->
+<!-- Transformed with viv2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd13e2">
+   <eadheader id="mferd13e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.afc/eadafc.af011019"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.afc/eadafc.af011019</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">1992 Neptune Plaza Concert Series
+			 Collection</titleproper>
+            <subtitle encodinganalog="245$b"> 
+			            <num encodinganalog="090$a">AFC 1992/001</num> 
+            </subtitle>
+            <author encodinganalog="245$c">Prepared by Michelle Forner</author>
+         </titlestmt>
+         <publicationstmt>
+            <date era="ce" calendar="gregorian">December 1995</date>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>American
+			 Folklife Center, Library of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="1995-12" era="ce" calendar="gregorian"/>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to the Collections in the Archive of Folk
+			 Culture</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2004695162" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2004695162</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Encoded by Glenn Gardner, 
+		  <date normal="2011-09" era="ce" calendar="gregorian">September, 2011</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in
+		  <language encodinganalog="041" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date era="ce" calendar="gregorian">February 2012</date>
+            <item> 
+			            <persname>Nora Yeh</persname>
+            </item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc type="register" level="collection" relatedencoding="MARC21">
+      <did id="mferd13e49">
+         <head>Collection Summary</head>
+         <unitid label="Collection Number" encodinganalog="090" countrycode="US"
+                 repositorycode="US-DLC">AFC 1992/001</unitid>
+         <unittitle label="Title" encodinganalog="245$a">1992 Neptune Plaza
+		  Concert Series Collection 
+		  <unitdate label="Inclusive Dates" type="inclusive" encodinganalog="245$f"
+                      normal="1992/1992"
+                      era="ce"
+                      calendar="gregorian">1992</unitdate>
+         </unittitle>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname> 
+               <subarea>Archive of Folk Culture, American Folklife
+			 Center</subarea> Library of Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+		          <extref xlink:type="simple" xlink:href="http://hdl.loc.gov/loc.afc/folklife.home">http://hdl.loc.gov/loc.afc/folklife.home</extref>
+		       </repository>
+         <physdesc label="Extent (Manuscripts)"> 
+            <extent encodinganalog="300">8
+		  folders in 2 boxes (1 linear foot).</extent> 
+         </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent>7 sound tape reels :
+		  analog: 7 1⁄2 ips, 2 track, stereo; 10 in.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent>1 sound tape reel :
+		  analog: 7 1⁄2 ips, 2 track, stereo; 7 in.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent>3 sound cassettes
+		  (270 minutes): analog.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>41 negatives; black
+		  and white.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>28 photographic
+		  prints : black and white, color ; 8x10 in. and smaller.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>49 slides :
+		  color</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Materials)"> 
+            <extent>516 photographs: on
+		  23 contact sheets, black and white.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Moving Images)"> 
+            <extent>7 videocassettes (VHS):
+		  sound, color; 1/2 inch.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Electronic Media)"> 
+            <extent encodinganalog="300">1 computer disk; 3 1⁄2 in.</extent> 
+         </physdesc>
+         <origination label="Creator"> 
+		          <corpname source="lcnaf">American Folklife Center</corpname>
+		       </origination>
+         <langmaterial label="Languages" encodinganalog="546">
+		          <language encodinganalog="041" langcode="eng">English</language>,
+		  <language encodinganalog="041" langcode="spa">Spanish</language>, and
+		  <language encodinganalog="041" langcode="cai">Tewa</language>
+         </langmaterial>
+         <abstract label="Summary" encodinganalog="520$a">Manuscript materials,
+		  sound recordings, photographs, and moving images documenting the performance of
+		  Puerto Rican folk music; Tennesse old-time music; folk music from Veracruz,
+		  Mexico; dances of the Tewa Indians from the Santa Clara Pueblo; Irish folk
+		  dance and music; gospel music; and bluegrass music recorded live outdoors on
+		  Neptune Plaza in front of the Thomas Jefferson Building, Library of Congress,
+		  at concerts from April through September 1992, sponsored by the American
+		  Folklife Center. Some concerts were recorded for broadcast on WAMU-FM, hosted
+		  by Dick Spottswood. Manuscripts include some correspondence and program flyers
+		  autographed by the performers.</abstract>
+      </did>
+      <scopecontent id="mferd13e141" encodinganalog="520">
+         <head>Scope and Content</head>
+         <p>The 1992 Neptune Plaza Concert Series Collection consists of
+		  manuscript and print materials, sound recordings, graphic materials, and moving
+		  images that document the 1992 concert series sponsored by the American Folklife
+		  Center. The annual series, which began in 1977, features the presentation of
+		  folk traditions from many cultures. The concerts take place on the Neptune
+		  Plaza at the front of the Jefferson Building of the Library of Congress between
+		  April and September. Adverse weather conditions sometimes force the concerts
+		  indoors. </p>
+         <p>The 1992 season consisted of the following: 
+		<table>
+               <tgroup cols="4" align="left">
+                  <colspec colnum="1" colname="1" colwidth="15*"/>
+                  <colspec colnum="2" colname="2" colwidth="30*"/>
+                  <colspec colnum="3" colname="3" colwidth="25*"/>
+                  <colspec colnum="4" colname="4" colwidth="30*"/>
+                  <thead valign="bottom">
+                     <row>
+                        <entry morerows="0">Date</entry>
+                        <entry morerows="0">Performers</entry>
+                        <entry morerows="0">Place of Origin</entry>
+                        <entry morerows="0">Subject</entry>
+                     </row>
+                  </thead>
+                  <tbody valign="top">
+                     <row>
+                        <entry morerows="0">April 23</entry>
+                        <entry morerows="0">Edwin Colón Zayas y su Taller
+					 Campesino</entry>
+                        <entry morerows="0">Puerto Rico</entry>
+                        <entry morerows="0">Puerto Rican traditional string music</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">May 21</entry>
+                        <entry morerows="0">Ralph Blizard and the New Southern
+					 Ramblers</entry>
+                        <entry morerows="0">Tennessee</entry>
+                        <entry morerows="0">Old-time music and step dancing</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">June 5</entry>
+                        <entry morerows="0">Los Pregoneros del Puerto</entry>
+                        <entry morerows="0">California</entry>
+                        <entry morerows="0">Veracruz harp music</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">June 25</entry>
+                        <entry morerows="0">Santa Clara Pueblo Dancers</entry>
+                        <entry morerows="0">New Mexico</entry>
+                        <entry morerows="0">Tewa music and dance</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">July 16</entry>
+                        <entry morerows="0">Donna Long and Brendan Mulvihill</entry>
+                        <entry morerows="0">Maryland and Ireland</entry>
+                        <entry morerows="0">Irish Traditional music and dance</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">August 20</entry>
+                        <entry morerows="0">Helen Smith and the Angels of Faith</entry>
+                        <entry morerows="0">District of Columbia</entry>
+                        <entry morerows="0">Gospel music</entry>
+                     </row>
+                     <row>
+                        <entry morerows="0">September 10</entry>
+                        <entry morerows="0">Everett Lilly and Clear Creek
+					 Crossin'</entry>
+                        <entry morerows="0">West Virginia</entry>
+                        <entry morerows="0">Bluegrass music</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </scopecontent>
+      <bioghist id="mferd13e228" encodinganalog="545">
+         <head>Administrative History</head>
+         <p>Documentation created and accessioned by the American Folklife Center
+		  in 1992.</p>
+      </bioghist>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd13e233" altrender=":::F005=^20120203192706.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd15e12">
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Blizard%2C+Ralph%2C+1918-2004%2C^">Blizard, Ralph, 1918-2004, performer.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Harte%2C+Frank%2C^">Harte, Frank, performer.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jamison%2C+Phil%2C^">Jamison, Phil, performer.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lilly%2C+Everett%2C+1924-^">Lilly, Everett, 1924-  performer.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Long%2C+Donna%2C^">Long, Donna, performer.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mulvihill%2C+Brendan%2C+1954-^">Mulvihill, Brendan, 1954-  performer.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Spottswood%2C+Richard+K.+%28Richard+Keith%29%2C^">Spottswood, Richard K. (Richard Keith), interviewer.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Wick%2C+Regan%2C^">Wick, Regan, dancer.</persname>
+         </controlaccess>
+         <controlaccess id="mferd15e43">
+            <head>Organizations</head>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^American+Folklife+Center%2C^">American Folklife Center, collector.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Angels+of+Faith+%28Musical+group%29^">Angels of Faith (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Archive+of+Folk+Culture+%28Library+of+Congress%29%2C^">Archive of Folk Culture (Library of Congress), collector.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Clear+Creek+Crossin%27+%28Musical+group%29^">Clear Creek Crossin' (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Edwin+Col%C3%B3n+Zayas+y+su+Taller+Campesino+%28Musical+group%29^">Edwin Colón Zayas y su Taller Campesino (Musical group) performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^New+Southern+Ramblers^">New Southern Ramblers performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Pregoneros+del+Puerto%2C^">Pregoneros del Puerto, performer.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^WAMU-FM+%28Radio+station+%3A+Washington%2C+D.C.%29^">WAMU-FM (Radio station : Washington, D.C.)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd15e74">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^African+Americans+Music.^">African Americans--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Ballads%2C+English+Ireland.^">Ballads, English--Ireland.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Bluegrass+music+1991-2000.^">Bluegrass music--1991-2000.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Clog-dancing+Appalachian+Region.^">Clog-dancing--Appalachian Region.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Country+music+West+Virginia.^">Country music--West Virginia.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Decimas%2C+Puerto+Rican.^">Decimas, Puerto Rican.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Fiddle+tunes+Tennessee.^">Fiddle tunes--Tennessee.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+dancing%2C+Irish.^">Folk dancing, Irish.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+Ireland.^">Folk music--Ireland.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+Mexico+Veracruz-Llave+%28State%29^">Folk music--Mexico--Veracruz-Llave (State)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+Puerto+Rico.^">Folk music--Puerto Rico.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+United+States.^">Folk music--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+songs%2C+English+Irleand.^">Folk songs, English--Irleand.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+songs%2C+Spanish+Mexico+Veracruz-Llave+%28State%29^">Folk songs, Spanish--Mexico--Veracruz-Llave (State)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Gospel+music+Washington+%28D.C.%29^">Gospel music--Washington (D.C.)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Hornpipe+%28Dance%29+Ireland.^">Hornpipe (Dance)--Ireland.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Irish+Americans+Music.^">Irish Americans--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Jig+%28Dance%29+Ireland.^">Jig (Dance)--Ireland.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Mexicans+Veracruz-Llave+%28State%29+Music.^">Mexicans--Veracruz-Llave (State)--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Old-time+music+Tennessee.^">Old-time music--Tennessee.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Popular+music+Mexico+Veracruz-Llave+%28State%29^">Popular music--Mexico--Veracruz-Llave (State)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Puerto+Ricans+Music.^">Puerto Ricans--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Step+dancing+Ireland.^">Step dancing--Ireland.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^String+band+music+Appalachian+Region.^">String band music--Appalachian Region.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^String+band+music+Puerto+Rico.^">String band music--Puerto Rico.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Tewa+dance.^">Tewa dance.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Tewa+Indians+Music.^">Tewa Indians--Music.</subject>
+         </controlaccess>
+         <controlaccess id="mferd15e166">
+            <head>Places</head>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^Puerto+Rico+Music.^">Puerto Rico--Music.</geogname>
+         </controlaccess>
+         <controlaccess id="mferd15e175">
+            <head>Titles</head>
+            <title xlink:type="simple" encodinganalog="246" source="lcnaf"
+                   altrender=":::PWEBRECON=^American+Folklife+Center+concert%2C+1992^">American Folklife Center concert, 1992</title>
+            <title xlink:type="simple" encodinganalog="246" source="lcnaf"
+                   altrender=":::PWEBRECON=^Neptune+Plaza+Concert+Series%2C+1992^">Neptune Plaza Concert Series, 1992</title>
+         </controlaccess>
+         <controlaccess id="mferd15e187">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Autographs.^">Autographs.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Color+slides.^">Color slides.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Interviews.^">Interviews.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Manuscripts.^">Manuscripts.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Sound+recordings.^">Sound recordings.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Videocassettes.^">Videocassettes.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <accessrestrict id="mferd13e359" encodinganalog="506">
+         <head>Access</head>
+         <p>Listening and viewing access to the collection is unrestricted.
+		  Duplication of the materials requires prior permission of the Center and may be
+		  governed by copyright and other restrictions. </p>
+      </accessrestrict>
+      <prefercite id="mferd13e364" encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>1992 Neptune Plaza Concert Series Collection (AFC 1992/001), Archive
+		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
+		  D.C.</p>
+      </prefercite>
+      <odd id="mferd13e369" type="add">
+         <head>Collection Concordance by Format</head>
+         <table>
+            <tgroup cols="3" align="left">
+               <colspec colnum="1" colname="1" colwidth="20*"/>
+               <colspec colnum="2" colname="2" colwidth="40*"/>
+               <colspec colnum="3" colname="3" colwidth="40*"/>
+               <thead valign="bottom">
+                  <row>
+                     <entry morerows="0">Quantity</entry>
+                     <entry morerows="0">Physical Extent</entry>
+                     <entry morerows="0">Item Numbers</entry>
+                  </row>
+               </thead>
+               <tbody valign="top">
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Print Materials</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">8</entry>
+                     <entry morerows="0">folders in 2 boxes</entry>
+                     <entry morerows="0">FOLDERS 1-2, 6, 10, 15, 20, 23, 26</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Computer
+					 diskettes</emph> 
+                     </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">3 1⁄2" diskette</entry>
+                     <entry morerows="0">FOLDER 1</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Sound Recordings</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">7</entry>
+                     <entry morerows="0">10" DT stereo reels at 7.5 ips</entry>
+                     <entry morerows="0">AFC 1992/001:SR1, 4, 6-8, 10-11</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">7" DT stereo reel at 7.5 ips</entry>
+                     <entry morerows="0">AFC 1992/001:SR2</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">3</entry>
+                     <entry morerows="0">90-minute audiocassettes</entry>
+                     <entry morerows="0">AFC 1992/001:SR3, 5, 9</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Graphic Materials</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">41</entry>
+                     <entry morerows="0">black-and-white negatives, incl.
+					 8x10"</entry>
+                     <entry morerows="0">ENVELOPES 1, 2, 5, 8, 9, 10 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">23 (516 photographs)</entry>
+                     <entry morerows="0">black-and-white contact sheets</entry>
+                     <entry morerows="0">FOLDERS 3, 7, 11, 16-17, 21, 24, 27</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">28</entry>
+                     <entry morerows="0">8x10" black-and-white photographic
+					 prints</entry>
+                     <entry morerows="0">ENVELOPES 1, 2, 4, 8, 9, 10; FOLDERS 3-5, 9,
+					 12-14, 18-19, 22, 25</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">5x7" black-and-white photographic
+					 print</entry>
+                     <entry morerows="0">FOLDER 22</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">4</entry>
+                     <entry morerows="0">8x10" color photographic prints</entry>
+                     <entry morerows="0">FOLDERS 5, 25, 28</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">49</entry>
+                     <entry morerows="0">color slides</entry>
+                     <entry morerows="0">ENVELOPES 3-4, 6, 7</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Moving Image</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">7</entry>
+                     <entry morerows="0">1/2" VHS color videocassettes
+					 (originals)</entry>
+                     <entry morerows="0">AFC 1992/001:V1-7 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">2</entry>
+                     <entry morerows="0">1/2" VHS color videocassettes (Reference
+					 copies)</entry>
+                     <entry morerows="0">AFC 1992/001:V3-v1-2 </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </odd>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2004695162" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2004695162</extref>
+      </otherfindaid>
+      <dsc id="mferd13e518" type="combined">
+         <head>Collection Inventory</head>
+         <c01 id="mferd13e521" level="series">
+            <did>
+               <unittitle>Series I: PRINT MATERIALS</unittitle>
+            </did>
+            <c02 id="mferd13e525" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Publicity and
+				  Administration</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd13e530" level="file">
+                  <did>
+                     <container type="FOLDER">1</container>
+                     <unittitle>Archive of Folk Culture Administrative
+					 Materials.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>The collection guide (this document), an article describing
+					 the Neptune Plaza Concert Series, press releases on the 1992 concert lineup,
+					 and a three and one-half inch computer diskette containing logs of the concerts
+					 (all logs are available in hard copy in the individual concert folders).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e539" level="file">
+                  <did>
+                     <container type="FOLDER">2</container>
+                     <unittitle>Edwin Colón Zayas y su Taller Campesino,
+					 4-23-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 press releases, promotional materials on the band in English and in Spanish,
+					 and a concert log by Catherine Hiebert Kerst.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e548" level="file">
+                  <did>
+                     <container type="FOLDER">6</container>
+                     <unittitle>Ralph Blizard and the New Southern Ramblers,
+					 5-21-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Catherine Hiebert Kerst, press releases, news clippings,
+					 correspondence from Phil Jamison, and promotional materials on the band.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e557" level="file">
+                  <did>
+                     <container type="FOLDER">10</container>
+                     <unittitle>Los Pregoneros del Puerto, 6-5-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Catherine Hiebert Kerst, news clippings, and promotional
+					 materials including information on the band.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e566" level="file">
+                  <did>
+                     <container type="FOLDER">15</container>
+                     <unittitle>Santa Clara Pueblo Dancers, 6-25-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 and news clippings.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e575" level="file">
+                  <did>
+                     <container type="FOLDER">20</container>
+                     <unittitle>Donna Long and Brendan Mulvihill, 7-16-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Catherine Hiebert Kerst, and news clippings.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e584" level="file">
+                  <did>
+                     <container type="FOLDER">23</container>
+                     <unittitle>Helen Smith and the Angels of Faith,
+					 8-20-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Catherine Hiebert Kerst, and news clippings.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e593" level="file">
+                  <did>
+                     <container type="FOLDER">26</container>
+                     <unittitle>Everett Lilly and Clear Creek Crossin',
+					 9-10-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Concert flier autographed by the performers, unsigned fliers,
+					 concert log by Catherine Hiebert Kerst, news clippings, promotional materials
+					 about the band, and photocopies of photographic prints of individual band
+					 members and of the group as a whole.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd13e602" level="series">
+            <did>
+               <unittitle>Series II: SOUND RECORDINGS</unittitle>
+            </did>
+            <c02 id="mferd13e606" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Reel-to-reel Audio
+				  Tapes</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd13e611" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR1-2</container>
+                     <unittitle>Edwin Colón Zayas y su Taller Campesino,
+					 4-23-92</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips and one 7" DT stereo at 7.5
+					 ips.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e620" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR4</container>
+                     <unittitle>Ralph Blizard and the New Southern Ramblers,
+					 5-21-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e629" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR6</container>
+                     <unittitle>Los Pregoneros del Puerto, 6-5-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e638" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR7</container>
+                     <unittitle>Santa Clara Pueblo Dancers, 6-25-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e647" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR8</container>
+                     <unittitle>Donna Long and Brendan Mulvihill, 7-16-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One SR8 10" DT stereo at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e656" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR10</container>
+                     <unittitle>Helen Smith and the Angels of Faith,
+					 8-20-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e665" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR11</container>
+                     <unittitle>Everett Lilly and Clear Creek Crossin',
+					 9-10-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 10" DT stereo at 7.5 ips.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 id="mferd13e674" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Audio Cassettes</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd13e679" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR3</container>
+                     <unittitle>Edwin Colón Zayas y su Taller Campesino,
+					 4-23-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to-reel).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e688" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR5</container>
+                     <unittitle>Ralph Blizard and the New Southern Ramblers,
+					 5-21-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to-reel).</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e697" level="file">
+                  <did>
+                     <container type="AFC">1992/001: SR9 </container>
+                     <unittitle>Donna Long and Brendan Mulvihill, 7-16-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 90-minute (recorded concurrently with reel-to- reel).</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd13e706" level="series">
+            <did>
+               <unittitle>Series III: GRAPHIC MATERIALS</unittitle>
+            </did>
+            <note>
+               <p>Note: negatives for photographs shot by Library of Congress
+				photographers Reid Baker and Jim Higgins may be in the Public Affairs
+				Office.</p>
+            </note>
+            <c02 id="mferd13e713" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Negatives</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd13e718" level="file">
+                  <did>
+                     <container type="ENVELOPE">1</container>
+                     <unittitle>Edwin Colón Zayas y su Taller Campesino,
+					 4-23-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 8 x 10" black and white (publicity). Photographer
+					 unknown.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e727" level="file">
+                  <did>
+                     <container type="ENVELOPE">2</container>
+                     <unittitle>Ralph Blizard and the New Southern Ramblers,
+					 5-21-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One sheet of black-and-white 35 mm (35 images) and one 8 x 10"
+					 black and white. Photographed by Jim Higgins.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e736" level="file">
+                  <did>
+                     <container type="ENVELOPE">5</container>
+                     <unittitle>Los Pregoneros del Puerto, 6-5-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One one-row sheet of 35 mm black and white (1 image).
+					 Photographed by Dan Sheehy of the National Endowment for the Arts.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e745" level="file">
+                  <did>
+                     <container type="ENVELOPE">8</container>
+                     <unittitle>Donna Long and Brendan Mulvihill, 7-16-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 8 x 10" black and white (publicity). Photographer
+					 unknown.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e754" level="file">
+                  <did>
+                     <container type="ENVELOPE">9</container>
+                     <unittitle>Helen Smith and the Angels of Faith,
+					 8-20-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 8 x 10" black and white (publicity). Photographer
+					 unknown.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e763" level="file">
+                  <did>
+                     <container type="ENVELOPE">10</container>
+                     <unittitle>Everett Lilly and Clear Creek Crossin',
+					 9-10-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 8 x 10" black and white (publicity). Photographer
+					 unknown.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 id="mferd13e772" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Photographic
+				  Prints</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd13e777" level="file">
+                  <did>
+                     <container type="FOLDERS">3-5</container>
+                     <unittitle>Edwin Colón Zayas y su Taller Campesino,
+					 4-23-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two black-and-white 35 mm contact sheets (47 images), four 8 x
+					 10" black-and-white photographic prints, and one 8 x 10" color photographic
+					 print. Photographed by Reid Baker.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e786" level="file">
+                  <did>
+                     <container type="FOLDERS">7-9</container>
+                     <unittitle>Ralph Blizard and the New Southern Ramblers, 5-21-
+					 92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Six black-and-white 35 mm contact sheets (148 images) and two
+					 8 x 10" black-and-white photographic prints (publicity). Photographed by Jim
+					 Higgins and an unknown photographer.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e795" level="file">
+                  <did>
+                     <container type="FOLDERS">11-14 </container>
+                     <unittitle>Los Pregoneros del Puerto, 6-5-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Three black-and-white 35 mm contact sheets (49 images) and
+					 seven 8 x 10" black-and-white photographic prints. Photographed by Dan Sheehy
+					 of the NEA and Jim Higgins.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e804" level="file">
+                  <did>
+                     <container type="FOLDERS">16-19</container>
+                     <unittitle>Santa Clara Pueblo Dancers, 6-25-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Four black-and-white 35 mm contact sheets (76 images) and
+					 seven 8 x 10" black-and-white photographic prints. Photographed by Reid Baker
+					 and possibly Yusef El-Amin.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e813" level="file">
+                  <did>
+                     <container type="FOLDERS">21-22</container>
+                     <unittitle>Donna Long and Brendan Mulvihill, 7-16-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Three black-and-white 35 mm contact sheets (66 images,
+					 photographed by Jim Higgins), two 8 x 10" black-and-white photographic prints
+					 and one 5 x 7" black-and-white photographic print. Photographed by Jim
+					 Higgins.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e822" level="file">
+                  <did>
+                     <container type="FOLDERS">24-25</container>
+                     <unittitle>Helen Smith and the Angels of Faith,
+					 8-20-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Three black-and-white 35 mm contact sheets (76 images), one 8
+					 x 10" black-and-white photographic print, and one 8 x 10" color photographic
+					 print. Photographed by Reid Baker.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e831" level="file">
+                  <did>
+                     <container type="FOLDERS">27-28</container>
+                     <unittitle>Everett Lilly and Clear Creek Crossin',
+					 9-10-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two black-and-white 35 mm contact sheets (54 images,
+					 photographed by Yusef El-Amin), and two 8 x 10" color photographic prints
+					 (publicity-photographer unknown).</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 id="mferd13e840" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Color slides</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd13e845" level="file">
+                  <did>
+                     <container type="ENVELOPES">3-4</container>
+                     <unittitle>Ralph Blizard and the New Southern Ramblers, 5-21-
+					 92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Two trays containing a total of 38. Photographed by John
+					 Gibbs. </p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e854" level="file">
+                  <did>
+                     <container type="ENVELOPE">6</container>
+                     <unittitle>Los Pregoneros del Puerto, 6-5-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One mylar sleeve containing one. Photographed by Dan Sheehy of
+					 the NEA. </p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e863" level="file">
+                  <did>
+                     <container type="ENVELOPE">7</container>
+                     <unittitle>Santa Clara Pueblo Dancers, 6-25-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One tray containing 10. Photographer unknown. </p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd13e872" level="series">
+            <did>
+               <unittitle>Series IV: MOVING IMAGE</unittitle>
+            </did>
+            <c02 id="mferd13e876" level="file">
+               <did>
+                  <unittitle>
+                     <emph render="bold">Videocassettes</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd13e881" level="file">
+                  <did>
+                     <container type="AFC">1992/001: V1</container>
+                     <unittitle>Edwin Colón Zayas y su Taller Campesino,
+					 4-23-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 1/2" VHS color.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e890" level="file">
+                  <did>
+                     <container type="AFC">1992/001: V2 </container>
+                     <unittitle>Ralph Blizard and the New Southern Ramblers,
+					 5-21-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p> One 1/2" VHS color.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e899" level="file">
+                  <did>
+                     <container type="AFC">1992/001: V3</container>
+                     <unittitle>Los Pregoneros del Puerto, 6-5-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 1/2" VHS color. Viewing copies are available in the
+					 Folklife Reading Room.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e908" level="file">
+                  <did>
+                     <container type="AFC">1992/001: V4</container>
+                     <unittitle>Donna Long and Brendan Mulvihill, 7-16-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 1/2" VHS color.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e917" level="file">
+                  <did>
+                     <container type="AFC">1992/001: V5</container>
+                     <unittitle>Helen Smith and the Angels of Faith,
+					 8-20-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 1/2" VHS color.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e926" level="file">
+                  <did>
+                     <container type="AFC">1992/001: V6</container>
+                     <unittitle>Everett Lilly and Clear Creek Crossin',
+					 9-10-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 1/2" VHS color.</p>
+                  </scopecontent>
+               </c03>
+               <c03 id="mferd13e935" level="file">
+                  <did>
+                     <container type="AFC">1992/001: V7</container>
+                     <unittitle>Santa Clara Pueblo Dancers, 6-25-92.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>One 1/2" VHS color copy.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+      <odd id="mferd13e944">
+         <head>
+            <emph>Appendix A: Dance Content</emph>
+         </head>
+         <table>
+            <tgroup cols="2" align="left">
+               <colspec colnum="1" colname="1" colwidth="20*"/>
+               <colspec colnum="2" colname="2" colwidth="80*"/>
+               <thead valign="bottom">
+                  <row>
+                     <entry morerows="0">Concert</entry>
+                     <entry morerows="0">Description</entry>
+                  </row>
+               </thead>
+               <tbody valign="top">
+                  <row>
+                     <entry morerows="0">Santa Clara Pueblo Dancers</entry>
+                     <entry morerows="0">The Tewa people from the Santa Clara Pueblo
+					 in New Mexico present the Buffalo dance. Background and narration provided by
+					 the governor of the pueblo, Walter Dasheno. Print material, photographs, and
+					 slides: folders 15-17, envelope 7; sound recording: AFC 1992/001:SR7;
+					 videotape: AFC 1992/001:V7.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> Donna Long and Brendan Mulvihill</entry>
+                     <entry morerows="0">Irish music and dance presented by Donna
+					 Long, Brendan Mulvihill, and Regan Wick. Wick, a champion step dancer, performs
+					 a set dance, a reel, and a hornpipe, as well as an a cappella piece. Print
+					 material and photographs: folders 20-22, envelope 8; sound recordings: AFC
+					 1992/001:SR8-9; videotape: AFC 1992/001:V4.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">Ralph Blizard and the New Southern
+					 Ramblers</entry>
+                     <entry morerows="0">Long-time fiddler Ralph Blizard, known for
+					 his unique fiddling style called "Tennessee Long Bow," presents Appalachian
+					 music with members of the New Southern Ramblers, Phil Jamison and John Lilly.
+					 Jamison and Lilly, both former members of the Green Grass Cloggers, demonstrate
+					 individual clogging styles. Print material and photographs: folders 6-9; sound
+					 recordings: AFC 1992/001:SR4-5; videotape: AFC 1992/001:V2.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </odd>
+   </archdesc>
+</ead>

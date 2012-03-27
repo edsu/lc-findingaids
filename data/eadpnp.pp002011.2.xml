@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Mon, 20 December 2010 12:01:29 PM EST
+URL: http://hdl.loc.gov/loc.pnp/eadpnp.pp002011
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd3595e2">
+   <eadheader id="mferd3595e3" repositoryencoding="iso15511" relatedencoding="Dublin Core"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid countrycode="US" mainagencycode="US-DLC"
+             identifier="hdl:loc.pnp/eadpnp.pp002011"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.pnp/eadpnp.pp002011</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="Title">Visual Materials from the Records of the National Woman's Party</titleproper>
+            <subtitle>A Finding Aid in the Library of Congress</subtitle>
+            <author encodinganalog="Creator">Prepared by Prints &amp; Photographs Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="Publisher">
+               <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Prints &amp; Photographs Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. 20540</addressline>
+            </address>
+            <date normal="2002" encodinganalog="Date" era="ce" calendar="gregorian">2002</date>
+         </publicationstmt>
+         <notestmt>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2001696350" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2001696350</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid converted by Prints &amp; Photographs Division staff
+		  <date era="ce" calendar="gregorian">July, 2002</date>
+         </creation>
+      </profiledesc>
+      <revisiondesc>
+         <change encodinganalog="583">
+            <date normal="2004-06-10" era="ce" calendar="gregorian">2004-06-10</date>
+            <item>converted from EAD 1.0 to EAD 2002 </item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc type="register" level="collection">
+      <did id="mferd3595e37">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Visual Materials from the Records of the National Woman's Party
+		  <unitdate label="Dates" type="inclusive" normal="1884/1965" encodinganalog="260$c"
+                      era="ce"
+                      calendar="gregorian">1884-ca. 1965</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" normal="1920/1960" encodinganalog="260$c"
+                      era="ce"
+                      calendar="gregorian">bulk 1920-1960</unitdate>
+         </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">Guide Record</unitid>
+         <physdesc label="Physical Description" encodinganalog="300">
+            <extent>ca. 450 items</extent>
+         </physdesc>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Prints &amp; Photographs Division</subarea>Library of Congress</corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520">These photographs are primarily portraits of persons involved in the National Woman's Party.</abstract>
+         <note label="Note" encodinganalog="500$a">
+            <p>For information about Prints and Photographs Division collections and services, see the
+			 <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                       xlink:href="http://hdl.loc.gov/loc.pnp/pnpweb.000001">Prints &amp; Photographs Division's Reading Room Home Page.</extref>
+            </p>
+         </note>
+         <langmaterial label="Language">Collection material in <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd3595e80" altrender=":::F005=^20090729081710.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd3597e12">
+            <head>Organizations</head>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^National+Woman%27s+Party%2C^">National Woman's Party, collector.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="unspecified"
+                      altrender=":::PWEBRECON=^National+Woman%27s+Party+1880-1970.^">National Woman's Party--1880-1970.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd3597e24">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lctgm"
+                     altrender=":::PWEBRECON=^Women%27s+suffrage+1880-1970.^">Women's suffrage--1880-1970.</subject>
+            <subject encodinganalog="650" source="lctgm"
+                     altrender=":::PWEBRECON=^Women+Civil+rights+1920-1970.^">Women--Civil rights--1920-1970.</subject>
+            <subject encodinganalog="650" source="lctgm"
+                     altrender=":::PWEBRECON=^Women+Organizations+1920-1970.^">Women--Organizations--1920-1970.</subject>
+            <subject encodinganalog="650" source="lctgm"
+                     altrender=":::PWEBRECON=^Women+Political+activity+1920-1970.^">Women--Political activity--1920-1970.</subject>
+         </controlaccess>
+         <controlaccess id="mferd3597e42">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Group+portraits+1880-1970.^">Group portraits--1880-1970.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Negatives+1920-1970.^">Negatives--1920-1970.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Photographic+prints+1880-1970.^">Photographic prints--1880-1970.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Photomechanical+prints+1880-1940.^">Photomechanical prints--1880-1940.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Portrait+photographs+1880-1970.^">Portrait photographs--1880-1970.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Postcards+1880-1970.^">Postcards--1880-1970.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Printing+plates+1920-1970.^">Printing plates--1920-1970.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Proofs+1920-1970.^">Proofs--1920-1970.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Protest+posters+1910-1940.^">Protest posters--1910-1940.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Slides+1880-1970.^">Slides--1880-1970.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Tintypes+1880-1930.^">Tintypes--1880-1930.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd3595e130" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd3595e133" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Transfer; Manuscript Division (Records of the National Woman's Party); 1986 (DLC/PP-1986:212)</p>
+         </acqinfo>
+         <userestrict id="mferd3595e138" encodinganalog="540">
+            <head>Restrictions </head>
+            <p>No known donor restrictions. Rights status of individual images not evaluated. For more information see reference aid:
+			 <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                       xlink:href="http://lcweb.loc.gov/rr/print/195_copr.html">Copyright and Other Restrictions Which Apply to Publication and Other Forms of Distribution of Images: Sources of Information.</extref>
+            </p>
+         </userestrict>
+         <altformavail id="mferd3595e146" encodinganalog="530">
+            <head>Additional form available</head>
+            <p>Digitized images of some items in the collection and their associated identifying information are available through the
+			 <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                       xlink:href="http://lcweb.loc.gov/rr/print/catalog.html">Prints &amp; Photographs Online Catalog,</extref> by searching using the call number (or title), "[input call number or title]"</p>
+         </altformavail>
+         <prefercite id="mferd3595e154" encodinganalog="524">
+            <head>Preferred Citation </head>
+            <p>Researchers wishing to cite this collection should include the following information:  Visual Materials from the Records of the National Woman's Party, Prints &amp; Photographs Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <scopecontent id="mferd3595e159" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>Includes primarily portraits of National Woman's Party (NWP) officers, suffragists, politicians and business women; NWP meetings and formal gatherings; women delegates at United Nations sessions on human and civil rights; views of the organization's headquarters at Washington, D.C.; postcards depicting women's suffrage slogans; anti-war posters from the National Council for Prevention of War, the American Friends Service Committee, and the Women's International League.</p>
+      </scopecontent>
+      <arrangement id="mferd3595e164" encodinganalog="351$a">
+         <head>Organization of the Collection</head>
+         <p>Organized by subject and by format into the following filing series which serve as call number designations: LOT 13445 (photographs and prints); POS U.S. (Posters); Supplementary Archives (Printing plates); LC-MISC (negatives and transparencies).</p>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2001696350" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2001696350</extref>
+      </otherfindaid>
+      <dsc id="mferd3595e169" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Call no.</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd3595e178" level="series">
+            <did>
+               <unitid>LOT 13445</unitid>
+               <unittitle>People and activities of the National Woman's Party
+				<unitdate type="inclusive" normal="1884/1965" era="ce" calendar="gregorian">1884-ca. 1965</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Includes primarily portraits of National Woman's Party (NWP) officers; suffragists; and other women in politics and business; NWP meetings and formal gatherings, including Susan B. Anthony celebrations; the NWP Detroit Convention of 1940; women delegates at United Nations sessions dealing with women's rights issues. Also includes the organization's headquarters in Washington, D.C. (Sewall-Belmont House); views of suffragist Alva Belmont's home at Port Washington, Long Island; a few photographs of NWP founder, Alice Paul's home in Vermont. Also postcards depicting women's suffrage slogans, a 1913 suffrage parade in Washington, D.C., and President Wilson's inauguration and parade at Washington, D.C.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Organized roughly by subject.</p>
+            </arrangement>
+         </c01>
+         <c01 id="mferd3595e193" level="series">
+            <did>
+               <unitid/>
+               <unittitle>Printing plates</unittitle>
+            </did>
+            <scopecontent>
+               <p>Four printing plates are in the Supplementary Archives (Suppl. Archiv.) filing series.  Two depict a woman on a horse and the slogan "forward into light"; a third reproduces the "jailhouse door" commemorative pin designed by Alice Paul in 1917; the fourth is a half-tone plate depicting a portrait of an unidentified woman.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd3595e201" level="series">
+            <did>
+               <unittitle>Posters
+				<unitdate type="inclusive" normal="1910/1940" era="ce" calendar="gregorian">ca. 1910-ca. 1940</unitdate>
+               </unittitle>
+            </did>
+            <c02 id="mferd3595e208" level="file">
+               <did>
+                  <unittitle>World peace. Before another Christmas still less of armanent and none of war</unittitle>
+                  <unitid>POS U.S. R618, no. 1 (B size)</unitid>
+                  <origination>
+                     <persname>Rochon-Hoover, artist</persname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1918" era="ce" calendar="gregorian">[1918?]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) : color ; 49 x 32 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e226" level="file">
+               <did>
+                  <unittitle>The whole earth is everychild's home. No matter where his home is, the whole earth today is everychild's treasure chest and workshop and playroom</unittitle>
+                  <unitid>POS U.S. R618, no. 2 (C size)</unitid>
+                  <origination>
+                     <persname>Rochon-Hoover, artist</persname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster): color ; 45 x 30 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e244" level="file">
+               <did>
+                  <unittitle>Labor fights wars and then pays for them. Organize for peace.</unittitle>
+                  <unitid>U.S. N372, no, 2 (C size)</unitid>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 78 x 53 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e262" level="file">
+               <did>
+                  <unittitle>Disputes will continue to arise between nations. Do you want them settled by reason or poison gas? By a world court or world war?</unittitle>
+                  <unitid>U.S. N372, no. 3 (C size)</unitid>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 63 x 47 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e280" level="file">
+               <did>
+                  <unittitle>General pact for the renunciation of war. . .</unittitle>
+                  <unitid>U.S. N372, no. 4 (C size)</unitid>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1929" era="ce" calendar="gregorian">1929</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) : color ; 110 x 68 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e298" level="file">
+               <did>
+                  <unittitle>U.S. presidents for 30 years have favored a world court! Write your 2 senators. We must join now.</unittitle>
+                  <unitid>U.S. N372, no. 5 (C size)</unitid>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1931" era="ce" calendar="gregorian">1931</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 55 x 41 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e316" level="file">
+               <did>
+                  <unittitle>Remove a cause of war. Provide access for all nations to the world's resources and markets. Will you pay this price for peace?</unittitle>
+                  <unitid>U.S. N372, no. 6 (C size)</unitid>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <origination>
+                     <corpname>American Friends Service Committee, funder/sponsor</corpname>
+                  </origination>
+                  <origination>
+                     <corpname>Women's International League, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 55 x 41 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e344" level="file">
+               <did>
+                  <unittitle>Law not war</unittitle>
+                  <unitid>U.S. N372, no. 7 (C size)</unitid>
+                  <origination>
+                     <persname>Rochon Hoover, artist</persname>
+                  </origination>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 61 x 46 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e367" level="file">
+               <did>
+                  <unittitle>Betraying humanity! Private trading in armaments knows no frontier, no patriotism, no humantiy. The government must prevent it.</unittitle>
+                  <unitid>U.S. N372, no. 8 (C size)</unitid>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <origination>
+                     <corpname>American Friends Service Committee, funder/sponsor</corpname>
+                  </origination>
+                  <origination>
+                     <corpname>Women's International League, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 55 x 42 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e395" level="file">
+               <did>
+                  <unittitle>The world must choose at the world disarmament conference</unittitle>
+                  <unitid>U.S. N 372, no. 9 (C size)</unitid>
+                  <origination>
+                     <persname>Talburt, Harold M., 1895-1966, artist (attributed)</persname>
+                  </origination>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 56 x 44 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e419" level="file">
+               <did>
+                  <unittitle>The sermon on the mount. Poverty or peace? Armaments or bread? World disarmament conference</unittitle>
+                  <unitid>U.S. N372, no. 10 (C size)</unitid>
+                  <origination>
+                     <persname>Talburt, Harold M., 1895-1966, artist (attributed)</persname>
+                  </origination>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 56 x 44 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd3595e442" level="file">
+               <did>
+                  <unittitle>Machine massacre. War the world's enemy. Support disarmament conference.</unittitle>
+                  <unitid>U.S. N372, no. 11 (C size)</unitid>
+                  <origination>
+                     <corpname>National Council for Prevention of War, funder/sponsor</corpname>
+                  </origination>
+                  <unitdate type="inclusive" normal="1930" era="ce" calendar="gregorian">[193-]</unitdate>
+                  <physdesc>
+                     <extent>1 print (poster) ; 56 x 38 cm.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

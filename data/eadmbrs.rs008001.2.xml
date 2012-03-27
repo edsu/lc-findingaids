@@ -1,0 +1,2183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Fri, 19 August 2011 12:04:23 PM EDT
+URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs008001
+ ===================================== -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd445e3">
+   <eadheader id="mferd445e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mbrsrs/eadmbrs.rs008001"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs008001</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Jack Kapp Collection</titleproper>
+            <author encodinganalog="245$c"> Author: Karen Fishman, with contributions from
+					Samuel Brylawski and Marsha Maguire</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+					          <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Motion Picture, Broadcasting and Recorded Sound Division, Library
+					of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" era="ce" calendar="gregorian" normal="2008">2008</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mbrsrs/mbrsrs.contact">http://hdl.loc.gov/loc.mbrsrs/mbrsrs.contact</extref>
+					          </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2008647477" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2008647477</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Encoded by Marsha Maguire, <date era="ce" calendar="gregorian" normal="2008">2008</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041" langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid prepared using DACS ( <title xlink:type="simple" render="italic">Describing
+					Archives: A Content Standard</title>)</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change encodinganalog="583">
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item audience="internal">Controlled access headings matched to coll-level MARC
+					record headings; finding aid head elements shortened to conform to LC XML
+					datastore requirements; M. Maguire</item>
+         </change>
+         <change encodinganalog="583">
+            <date normal="2009-11" era="ce" calendar="gregorian">2009 November</date>
+            <item audience="internal">Shelf nos. affixed to boxes, finding aid and MARC
+					record updated; M. Maguire</item>
+         </change>
+         <change encodinganalog="583">
+            <date normal="2008-11" era="ce" calendar="gregorian">2008 November</date>
+            <item audience="internal">Wrote biographical and scope/content notes based on
+					Sam Brylawski article on the collection in Library of Congress Quarterly
+					Journal, Summer 1981, with his permission; examined the drawings and made
+					item-level corrections and additions; added Oklahoma award and Box 10
+					original mats and photocopies; encoded in EAD. M. Maguire</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc type="register" level="collection" relatedencoding="MARC21">
+      <did id="mferd445e61">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Jack Kapp Collection <unitdate label="Inclusive Dates" type="inclusive" encodinganalog="245$f"
+                      normal="1900/1949"
+                      era="ce"
+                      calendar="gregorian"
+                      certainty="approximate">circa 1900-1949</unitdate>
+				        <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1942/1948"
+                      era="ce"
+                      calendar="gregorian">1942-1948</unitdate>
+			      </unittitle>
+         <origination label="Creator">
+				        <persname encodinganalog="100" role="collector" source="lcsh">Kapp, Jack,
+					1901-1949</persname>
+			      </origination>
+         <physdesc label="Extent">
+				        <extent encodinganalog="300$a">69 items, including 63 drawings and 6
+					prints</extent>
+				        <physfacet encodinganalog="300$b"> : mounted in mat board folders</physfacet>
+			      </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection materials are in
+					<language encodinganalog="041" langcode="eng">English</language>
+			      </langmaterial>
+         <repository label="Location" encodinganalog="852">
+				        <corpname>
+               <subarea>Recorded Sound Reference Center, Motion Picture,
+						Broadcasting and Recorded Sound Division</subarea> Library of
+					Congress</corpname>
+				        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+			      </repository>
+         <abstract label="Summary" encodinganalog="520$a">Collection of mostly original
+				cartoon drawings, one framed album cover, and some correspondence assembled by
+				American Decca Records founder and president Jack Kapp. The drawings provide
+				historical commentary on the issues of the phonograph industry, particularly
+				the American Federation of Musicians recording ban of 1942-1944, and the place
+				of the phonograph in American life.</abstract>
+         <physloc label="Location" encodinganalog="852$z">RPC 00011-00012 (boxes 1-2); RPD
+				00012-00017 (boxes 3-6, 10-11); RPE 00001-00002 (boxes 7-8); RPU 00001 (box
+				9)</physloc>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd445e105" altrender=":::F005=^20100325164849.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+					collection in the Library's online catalog. They are grouped by name of
+					person or organization, by subject or location, and by occupation and
+					listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd447e12">
+            <head>People</head>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kapp%2C+Jack%2C+1901-1949.^">Kapp, Jack, 1901-1949.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Petrillo%2C+James+C.+%28James+Caesar%29%2C+1892-1984+Caricatures+and+cartoons.^">Petrillo, James C. (James Caesar), 1892-1984--Caricatures and cartoons.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Roosevelt%2C+Franklin+D.+%28Franklin+Delano%29%2C+1882-1945+Caricatures+and+cartoons.^">Roosevelt, Franklin D. (Franklin Delano), 1882-1945--Caricatures and cartoons.</persname>
+         </controlaccess>
+         <controlaccess id="mferd447e27">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^American+Federation+of+Musicians.^">American Federation of Musicians.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd447e36">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^American+wit+and+humor%2C+Pictorial.^">American wit and humor, Pictorial.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Phonograph+Caricatures+and+cartoons.^">Phonograph--Caricatures and cartoons.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Sound+recording+industry+United+States.^">Sound recording industry--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Sound+recordings+Caricatures+and+cartoons.^">Sound recordings--Caricatures and cartoons.</subject>
+         </controlaccess>
+         <controlaccess id="mferd447e55">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Cartoons+%28Humorous+images%29.^">Cartoons (Humorous images).</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Drawings+%28Visual+works%29.^">Drawings (Visual works).</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Letters+%28Correspondence%29.^">Letters (Correspondence).</genreform>
+         </controlaccess>
+         <controlaccess id="mferd447e70">
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="lcsh"
+                        altrender=":::PWEBRECON=^Labor+leaders+United+States+Caricatures+and+cartoons.^">Labor leaders--United States--Caricatures and cartoons.</occupation>
+            <occupation encodinganalog="656" source="lcsh"
+                        altrender=":::PWEBRECON=^Musicians+Labor+unions+United+States.^">Musicians--Labor unions--United States.</occupation>
+            <occupation encodinganalog="656" source="lcsh"
+                        altrender=":::PWEBRECON=^Sound+recording+executives+and+producers+United+States+Caricatures+and+cartoons.^">Sound recording executives and producers--United States--Caricatures and cartoons.</occupation>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd445e154" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd445e157" encodinganalog="541">
+            <head>Collection Acquisition</head>
+            <p>Gift of Mrs. Jack Kapp, the widow of Jack Kapp, in 1950.</p>
+         </acqinfo>
+         <accruals id="mferd445e162" encodinganalog="584">
+            <head>Additions</head>
+            <p>No further additions to the collection are expected.</p>
+         </accruals>
+         <processinfo id="mferd445e167" encodinganalog="583">
+            <head>Processing Information</head>
+            <p>The drawings were rehoused and inventoried in 2006. As part of the matting
+					and rehousing process, the reverse sides of some the drawings were
+					photocopied in order to retain intellectual access to original publisher's
+					markings, dates, and other information. The photocopies, along with some
+					original mats, have been placed in one oversize, flat box (Box 10) and are
+					available for viewing by appointment in the Recorded Sound Reference
+					Center, Motion Picture, Broadcasting and Recorded Sound Division, Library
+					of Congress, Washington, DC, 20540-4690; (202) 707-7833.</p>
+         </processinfo>
+         <userestrict id="mferd445e172" encodinganalog="540">
+            <head>Use Restrictions</head>
+            <p>Restrictions may exist on copying, quoting, or publishing materials included
+					in the collection. For additional information, contact a reference
+					librarian in the Recorded Sound Reference Center, Motion Picture,
+					Broadcasting and Recorded Sound Division, Library of Congress, Washington,
+					DC, 20540-4690; (202) 707-7833.</p>
+         </userestrict>
+         <accessrestrict id="mferd445e177" encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>The Jack Kapp Collection is open for research. Advance notice is required;
+					contact a reference librarian in the Recorded Sound Reference Center,
+					Motion Picture, Broadcasting and Recorded Sound Division, Library of
+					Congress, Washington, DC, 20540-4690; (202) 707-7833.</p>
+         </accessrestrict>
+         <prefercite id="mferd445e182" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following
+					information: [Container number, eg., Box 3], Jack Kapp Collection, Motion
+					Picture, Broadcasting and Recorded Sound Division, Library of Congress.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd445e187" encodinganalog="5450">
+         <head>Biographical Note</head>
+         <p>Born in Chicago in 1901, Jack Kapp began his phonograph industry career at the
+				age of fourteen by working as a part-time shipping clerk for Columbia Records.
+				Later he oversaw artists and repertoire for Brunswick, and in 1934, backed by
+				the owner of British Decca, Ltd., he founded the American Decca Records
+				Company. By substantially lowering the price of popular records on his Decca
+				label and selecting artists and repertoire to maximize sales, Kapp made
+				American Decca the second largest record company in the U.S. by 1938 and helped
+				the industry pull out of a slump attributed to radio broadcasting and the Great
+				Depression. Decca artists included immensely popular performers such as Bing
+				Crosby, the Boswell Sisters, the Andrews Sisters, the Ink Spots, Ted Lewis, and
+				the Guy Lombardo Orchestra. Decca innovations included the first mass marketed
+				American "original cast recording" (for <title xlink:type="simple" render="italic">Oklahoma!</title>) and the "album" record package containing notes and
+				promotional information.</p>
+         <p>During the 1940s, American recording companies, including Kapp's label,
+				struggled against new challenges, such as the 1942-1944 recording ban of the
+				American Federation of Musicians. The ban was rooted in the concern of
+				professional musicians that they lost jobs due to sound films and did not
+				benefit economically from the growth of the recording and broadcasting
+				industries. In 1940, they elected as president of the American Federation of
+				Musicians (AFM) a trumpeter named James Caesar Petrillo. His aggressive actions
+				to counter the loss of musicians' jobs due to the prevalence of the jukebox and
+				the recorded motion picture soundtrack made Petrillo one of the most famous and
+				highly paid union leaders in American history and led to depictions of him in
+				the press as a Mussolini-like character often called "Little Caesar."</p>
+         <p>In 1942, led by Petrillo, the AFM banned its members from performing for the
+				record industry. Petrillo was undeterred by the efforts of such government
+				agencies as the Office of War Information and the National War Labor Board to
+				end the ban; he even refused President Franklin Roosevelt's request to order
+				the musicians back to work. Jack Kapp's Decca Records, followed by most other
+				American record and radio transcription companies, agreed to pay royalties to
+				the AFM in 1943, but for Columbia and RCA Records, which refused to settle, the
+				ban continued. In late 1944, those two companies also came to an agreement with
+				the union and the ban ended completely; however, the 1946 passage of the Lea
+				Act (often called the "Anti-Petrillo Act") and the 1947 Taft-Hartley Act
+				severely weakened the terms of the agreement between the musicians union and
+				the recording industry. A new recording ban was put into effect in early 1948,
+				but toward the end of the year it was lifted. During the following decade, the
+				industry grew both financially and technologically. Petrillo's retirement from
+				the AFM in 1958 brought an end to the publicity the union had received during
+				the 1940s.</p>
+         <p>Jack Kapp died in 1949. His brother Dave succeeded him at Decca.</p>
+      </bioghist>
+      <scopecontent id="mferd445e201" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>Assembled by American Decca Records founder and president Jack Kapp, the
+				collection consists of mostly original drawings by various magazine and
+				newspaper cartoonists, such as Rube Goldberg, H. T. Webster, Gluyas Williams,
+				L. M. Glackens, Burt Thomas, Fred Packer, Clifford Berryman, James Berryman,
+				Jack Markow, and David Breger. The drawings, chiefly editorial cartoons,
+				reflect the role of the phonograph in American life and offer historical
+				commentary on the internal issues of the American phonograph industry,
+				particularly the American Federation of Musicians recording ban of 1942-1944.
+				The collection also features a framed album cover for the 1943 Decca Records
+				cast recording of the musical, <title xlink:type="simple" render="italic">Oklahoma!</title> The
+				cast recording became a standard product category for record companies due to
+				the immense success of this album.</p>
+         <p>Some Jack Kapp correspondence is included in the collection; it is stored in the
+				Recorded Sound Reference Center subject files. For more information or to view
+				the correspondence, contact a reference librarian in the Recorded Sound
+				Reference Center, Library of Congress.</p>
+      </scopecontent>
+      <arrangement id="mferd445e211" encodinganalog="351">
+         <head>Collection Arrangement</head>
+         <p>The collection is arranged in a single series.</p>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2008647477" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2008647477</extref>
+      </otherfindaid>
+      <dsc id="mferd445e216" type="combined">
+         <head>Container List</head>
+         <c01 id="mferd445e219" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #1</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Sally's sallies</title>. "I'll take the smaller
+						record. We live in such a cute little apartment," <unitdate era="ce" calendar="gregorian">1945
+							November 3</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Scott, R. J.</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1945, King Features Syndicate, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>The cartoon shows a woman purchasing records.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e251" level="item">
+            <did>
+               <container type="box">7</container>
+               <unitid>Cartoon #2</unitid>
+               <unittitle>"Darling, Je Vous Aime Beaucoup, but there's lots of work to
+						do," <unitdate era="ce" calendar="gregorian">circa 1944 September</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Artist unknown</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink with green wash</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Domestic employees, including a maid dancing by a record player, ignore
+						their work.</p>
+            </scopecontent>
+            <note>
+               <p>Published in <title xlink:type="simple" render="italic">Good Housekeeping
+						</title>magazine.</p>
+               <p>"Darling, Je Vous Aime Beaucoup," words and music by Anna Sosenko, was
+						written in 1935 and became popular as sung by cabaret performer
+						Hildegarde.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e288" level="item">
+            <did>
+               <container type="box">3</container>
+               <unitid>Cartoon #3</unitid>
+               <unittitle>Parrot listening to a phonograph, <unitdate era="ce" calendar="gregorian">circa
+							1910</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Baker, B.</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>The words "Blankety ... D--n!" float out of the horn.</p>
+            </scopecontent>
+            <note>
+               <p>Signed monogram at lower left: BB (the first B is a backwards mirror
+						image of the second B).</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e320" level="item">
+            <did>
+               <container type="box">3</container>
+               <unitid>Cartoon #4</unitid>
+               <unittitle>"So they'll speak correctly,"
+						<unitdate era="ce" calendar="gregorian">1910</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Baker, B.</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, pencil, white paint</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Caption continues: "More work by the Society for Improving the Condition
+						of Animals in Captivity." </p>
+               <p>A parrot listens to a phonograph labeled "S.I.C.A. Lessons in Grammar"
+						while a bespectacled man looks on. Out of the horn comes the sentence,
+						"A verb must agree with its subject in number and person."</p>
+               <p>The original handwritten caption is crossed out: "The Society for the
+						Improvement of Animals in Captivity, 'Phonographs for Parrots.'"</p>
+            </scopecontent>
+            <note>
+               <p>Possibly published in <title xlink:type="simple" render="italic">Puck </title>magazine in
+						January or February, 1910.</p>
+               <p>Signed at lower left: B Baker (the first name initial B is a backwards
+						mirror image of the B in Baker).</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e361" level="item">
+            <did>
+               <container type="box">3</container>
+               <unitid>Cartoon #5</unitid>
+               <unittitle>"My how that takes me back,"
+						<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Barlow, Perry, 1892-1977</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Two children listening to a record player.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e390" level="item">
+            <did>
+               <container type="box">9</container>
+               <unitid>Cartoon #6</unitid>
+               <unittitle>"Send the boys some records,"
+						<unitdate era="ce" calendar="gregorian">1943</unitdate>
+               </unittitle>
+               <origination>
+						            <persname rules="aacr2">Batchelor, S. E.</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>marker, pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A soldier stands in front of a record player.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "For Mr. Jack Kapp, with cordial best wishes
+						of this cartoonist."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e422" level="item">
+            <did>
+               <container type="box">3</container>
+               <unitid>Cartoon #7</unitid>
+               <unittitle>Uncle Sam and Franklin Delano Roosevelt discuss James C.
+						Petrillo, who is eating a record, <unitdate era="ce" calendar="gregorian">1944 October
+						12</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Berryman, Clifford Kennedy,
+							1869-1949</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <bioghist>
+               <p>C. K. Berryman, 1869-1949, created the "Teddy Bear" mascot for Theodore
+						Roosevelt in 1902. He was awarded the Pulitzer Prize for Editorial
+						Cartooning in 1944.</p>
+            </bioghist>
+            <scopecontent>
+               <p>In this cartoon, Petrillo is depicted as Julius Caesar, who has
+						apparently taken a bite out of a record. Uncle Sam asks, "Upon what
+						meat doth this our Caesar feed, that he is grown so great?" FDR
+						replies, "Must be phonograph records."</p>
+            </scopecontent>
+            <note>
+               <p>Published in the <title xlink:type="simple" render="italic">Washington Star</title>.</p>
+               <p>Autographed by the artist: "To my good friend, Jack Kapp, with cordial
+						good wishes, C. K. Berryman."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e459" level="item">
+            <did>
+               <container type="box">3</container>
+               <unitid>Cartoon #8</unitid>
+               <unittitle>"And the music comes out here," <unitdate era="ce" calendar="gregorian">circa
+						1942</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Berryman, James Thomas, 1902-1971</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, blue pencil</physfacet>
+					          </physdesc>
+            </did>
+            <bioghist>
+               <p>James Berryman, 1902-1971, was the son of cartoonist C. K. Berryman. He
+						won the Pulitzer Prize for Editorial Cartooning in 1950.</p>
+            </bioghist>
+            <scopecontent>
+               <p>A man representing the recording industry blows money from a tuba
+						towards James C. Petrillo, who catches it in a sack labeled "American
+						Federation of Musicians."</p>
+            </scopecontent>
+            <note>
+               <p>Published in the <title xlink:type="simple" render="italic">Washington Star</title>.</p>
+               <p>Autographed by the artist: "Jim Berryman. With kind regards to Jack
+						Kapp."</p>
+               <p>The Hodgson-Riley song, "The Music Goes Round and Round," recorded in
+						1935, was Decca Records' first hit, putting Kapp's company in the black
+						for the first time. The song is paraphrased in this cartoon to
+						illustrate the exchanges between the National War Labor Board, its
+						panel, and President Franklin D. Roosevelt over the 1942 recording ban.
+						Ultimately, Roosevelt's request of James C. Petrillo to halt the 1942
+						recording ban was ignored by the union leader.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e498" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #9</unitid>
+               <unittitle>"And now, in response to the requests of thousands of music
+						lovers...," <unitdate era="ce" calendar="gregorian">1949 January 19</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Breger, David, 1908-</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1949, King Features Syndicate, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A WZZX disc jockey throws records out the window.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "Best wishes to Jack Kapp and Decca, from
+						Dave Breger, 1949."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e530" level="item">
+            <did>
+               <container type="box">7</container>
+               <unitid>Cartoon #10</unitid>
+               <unittitle>"A New Jersey man is giving afternoon musical programs,"
+							<unitdate era="ce" calendar="gregorian">[between 1930 and 1939?]</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Denison, Harold, 1887-1940</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A chicken farmer plays a phonograph for his chickens. A partially
+						obscured sign to his right states "... O-Day Special. ... Hero Girl's
+						Dream. [Ca]rmen. Devil's Dream. [Blue] Danube Waltz." Other words are
+						hidden by the farmer's leg.</p>
+            </scopecontent>
+            <note>
+               <p>Handwritten in pencil, bottom center: "Illustration for 'Coddling
+						Biddy.'"</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e563" level="item">
+            <did>
+               <container type="box">7</container>
+               <unitid>Cartoon #11</unitid>
+               <unittitle>A farmer plays a phonograph to make chickens lay eggs,
+							<unitdate era="ce" calendar="gregorian">1910 or 1911</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Denison, Harold, 1887-1940</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, white paint</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A chicken farmer happily shows a full basket of eggs to a gentleman
+						while a phonograph "clucks" in the hen house behind him.</p>
+            </scopecontent>
+            <note>
+               <p>Stamp on reverse: "Keppler &amp; Schwartzmann, 'Puck,' Nov. 22,
+						1910, New York." "Overlay Dept." stamp, also on reverse, gives a date
+						of "P.M. Mon., Apr. 10, 1911."</p>
+               <p>Signed at lower right.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e597" level="item">
+            <did>
+               <container type="box">9</container>
+               <unitid>Cartoon #12</unitid>
+               <unittitle>"He wants to call the tune," <unitdate era="ce" calendar="gregorian">between 1942 and
+							1950</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Evans, Ray J. R.</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A man holds a giant record bearing a "Petrillo Records" label that is
+						illustrated with a picture of James C. Petrillo. The song on the record
+						is called "Gimmie, Gimmie, Gimmie." </p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e626" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #13</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Mickey Mouse</title>. "Magic melody" and "An
+						unwelcome gigolo," <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>2 prints on 1 mat board : </extent>
+						            <physfacet>lithograph on newsprint</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright by Walter E. Disney, Great Britain.</p>
+            </userestrict>
+            <scopecontent>
+               <p>The first strip, entitled "Magic Melody," dated "8-26," pictures Mickey
+						Mouse and Horace Horsecollar attempting to soothe some bears that have
+						appeared near Clarabelle Cow's tent with the music of a phonograph. In
+						the second strip, entitled "An Unwelcome Gigolo," dated "8-27," the
+						bears, who turn out to be trained, are dancing to the music, but when
+						one of them grabs Clarabelle as his dancing partner, she slaps him.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e653" level="item">
+            <did>
+               <container type="box">3</container>
+               <unitid>Cartoon #14</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Toonerville folks</title>. "The
+						Terrible-Tempered Mr. Bang," <unitdate era="ce" calendar="gregorian">1940</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Fox, Fontaine, 1884-1964</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1940, by Fontaine Fox.</p>
+            </userestrict>
+            <scopecontent>
+               <p>As regular <title xlink:type="simple" render="italic">Toonerville Folks</title> character
+						Mr. Bang throws a record into the street, an onlooker says to his
+						friend, "Wanna bet even money it ain't that 'Oh! Johnny, Oh!' record?"
+					</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "To Mr. Jack Kapp, with the compliments of
+						Fontaine Fox."</p>
+               <p>
+						            <title xlink:type="simple" render="italic">Toonerville Folks</title> (sometimes known as
+							<title xlink:type="simple" render="italic">Toonerville Trolley</title>) was a
+						single-panel newspaper cartoon, 1908-1955. It was syndicated by, among
+						others, the McNaught Syndicate.</p>
+               <p>"Oh Johnny, Oh Johnny, Oh!" written in 1917 by Ed Rose and Abe Olman,
+						became a huge hit in 1939 as performed on a Columbia release by the
+						Orrin Tucker orchestra, with vocals by Wee Bonnie Baker.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e701" level="item">
+            <did>
+               <container type="box">3</container>
+               <unitid>Cartoon #15</unitid>
+               <unittitle>Minister with a "choir" of phonographs behind him,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Glackens, L. M. (Louis M.),
+							1866-1933</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <bioghist>
+               <p>Louis M. Glackens, 1866-1933, drew for <title xlink:type="simple" render="italic">Puck</title> until 1914.</p>
+            </bioghist>
+         </c01>
+         <c01 id="mferd445e733" level="item">
+            <did>
+               <container type="box">4</container>
+               <unitid>Cartoon #16</unitid>
+               <unittitle>A dog labeled "Tariff made monopolies" standing over a
+						phonograph labeled "Taft's providence speech," <unitdate era="ce" calendar="gregorian">circa 1911
+							June 26</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Glackens, L. M. (Louis M.),
+							1866-1933</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>The dog scowls while listening to "Taft's providence speech," spoken by
+						the head of William Howard Taft as it spins on the turntable: "Before
+						an industry receives protection, now it must demonstrate the need of
+						that protection, and it must not ask for more protection than it
+						needs." </p>
+            </scopecontent>
+            <note>
+               <p>Stamp on reverse: "Keppler &amp; Schwartzmann, 'Puck,' June 26,
+						1911, New York."</p>
+               <p>Signed by the artist, lower left.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e767" level="item">
+            <did>
+               <container type="box">4</container>
+               <unitid>Cartoon #17</unitid>
+               <unittitle>"Government by request -- not by law," <unitdate era="ce" calendar="gregorian">1944 October
+							11</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Goldberg, Rube, 1883-1970</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>The cartoon shows President Franklin D. Roosevelt sitting on top of a
+						prostrate businessman and pleading with "King" James C. Petrillo:
+						"Please, Petrillo, lift your ban on recordings." </p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "With a cordial 'Hello' to my friend, Jack
+						Kapp. Rube Goldberg, Oct. 11, 1944." Also signed by the artist at lower
+						left.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e799" level="item">
+            <did>
+               <container type="box">7</container>
+               <unitid>Cartoon #18</unitid>
+               <unittitle>"Can't they shut that thing off?"
+						<unitdate era="ce" calendar="gregorian">1943</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Goldberg, Rube, 1883-1970</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, [with crayon?]</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A broken record with the face of labor leader John L. Lewis repeats the
+						word, "Threat," as it spins on the turntable.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "Best of everything to Jack Kapp. Rube
+						Goldberg, July 8, 1943."</p>
+               <p>Handwritten on reverse: "Wednesday June 16."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e833" level="item">
+            <did>
+               <container type="box">7</container>
+               <unitid>Cartoon #19</unitid>
+               <unittitle>"We've changed our tune," <unitdate era="ce" calendar="gregorian">1945 February
+						8</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Goldberg, Rube, 1883-1970</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, charcoal</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A broken record labeled "Over Optimism" sits on a table near a playing
+						record with "Patience" engraved in the grooves. "War Outlook" is
+						printed on the label of the playing record.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "To Jack Kapp, my most insistant [sic]
+						collector. Rube Goldberg."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e865" level="item">
+            <did>
+               <container type="box">7</container>
+               <unitid>Cartoon #20</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Our Bill</title>, <unitdate era="ce" calendar="gregorian">1944 April
+							2</unitdate>
+               </unittitle>
+               <origination>
+						            <persname rules="aacr2">Haenigsen, Harry</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1944, N.Y. Tribune Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>In this <title xlink:type="simple" render="italic">Our Bill</title> strip, teenage Bill and
+						his girlfriend reminisce while playing "old" records ("This one is
+						nearly two years old!"). His girlfriend, who has happy memories, sighs,
+						"There's nothing like the old songs to bring back memories!" Bill,
+						however, is reminded of only bad experiences and replies, "Yeah! Thank
+						creepers for that!"</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "To Jack Kapp with very best wishes.
+						Haenigsen."</p>
+               <p>Harry Haenigsen was best known for his long-running comic strip, <title xlink:type="simple" render="italic">Penny</title>, which began in 1943. His strip
+							<title xlink:type="simple" render="italic">Our Bill</title>, which also ran in the
+							<title xlink:type="simple" render="italic">New York Herald Tribune</title>, appeared
+						from 1939 to 1943.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e914" level="item">
+            <did>
+               <container type="box">4</container>
+               <unitid>Cartoon #21</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">They'll do it every time</title>. "He not only
+						heard it in A minor...," <unitdate era="ce" calendar="gregorian">1947 January
+						31</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Hatlo, Jimmy, 1898-1963</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1947, King Features Syndicate, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>In the first frame, a man at the "Records" desk [in a library?] asks to
+						hear "Popoffski's 'Prelude to the Afternoon of a Penguin' in A minor."
+						The second frame shows him in his listening booth covering his ears as
+						the young couple in the next booth dances to the loud strains of the
+						"Boogie-Woogey Blim-blam Blues." The text states: "He not only heard it
+						in A minor, he heard a couple of other minors as well--"</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e947" level="item">
+            <did>
+               <container type="box">4</container>
+               <unitid>Cartoon #22</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Room and board</title>. "And the judge is
+						looking over the lost and found column on rewards," <unitdate era="ce" calendar="gregorian">1942 May
+							20</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Ahern, Gene, 1895-1960</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1942, King Features Syndicate, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>In this drawing from Gene Ahern's syndicated single-panel daily, <title xlink:type="simple" render="italic">Room and Board</title>, Judge Puffle refuses to
+						help another boarder collect old phonograph records for the government
+						during World War II. Holding a stack of records, the boarder thinks to
+						himself, "Glad now I didn't tell him I'll get 5 cents a pound for old
+						records so they can reclaim the shellac!" Federal rationing of shellac
+						during the war curtailed record production but probably increased the
+						value of the discs that were not sold to the government.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e982" level="item">
+            <did>
+               <container type="box">4</container>
+               <unitid>Cartoon #23</unitid>
+               <unittitle>"You say you've been working on it with utter absorption for 40
+						years," <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>[Jarmane, Louis?]</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, blue wash</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Two men, one holding a phonograph, sit in a patent attorney's
+						office.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1011" level="item">
+            <did>
+               <container type="box">4</container>
+               <unitid>Cartoon #24</unitid>
+               <unittitle>"His master's voice!" <unitdate era="ce" calendar="gregorian">1913 January
+						25</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Kemble, E. W. (Edward Windsor),
+							1861-1933</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, white paint</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A phonograph labeled "From the people" proclaims, "Land thief,
+						unfaithful servant, you must go!" to a dog identified as Sen. [Francis
+						E.?] Warren of Wyoming.</p>
+            </scopecontent>
+            <note>
+               <p>Possibly published in <title xlink:type="simple" render="italic">Collier's</title>.</p>
+               <p>Autographed by the artist: "With some apologies &amp; some
+						liberties, Kemble."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1048" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #25</unitid>
+               <unittitle> "Lets not be too hasty about swapping our ivory for that...,"
+							<unitdate era="ce" calendar="gregorian">undated </unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Keate, Jeff</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Explorers play a record for two natives, one of whom whispers, "Lets not
+						be too hasty about swapping our ivory for that -- I think first we
+						should hear what's on the other side."</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1077" level="item">
+            <did>
+               <container type="box">4</container>
+               <unitid>Cartoon #26</unitid>
+               <unittitle>"You'll love this. 'Bye Baby Bunting' done by Stokowski, Nelson
+						Eddy and the Westminster Choir," <unitdate era="ce" calendar="gregorian">circa
+						1946</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Key, Ted</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, blue wash</physfacet>
+					          </physdesc>
+            </did>
+            <scopecontent>
+               <p>A child plays a record for his friends.</p>
+            </scopecontent>
+            <note>
+               <p>Appeared in <title xlink:type="simple" render="italic">Collier's</title>, possibly December
+						21, 1946.</p>
+               <p>Signed by the artist, bottom center.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1111" level="item">
+            <did>
+               <container type="box">9</container>
+               <unitid>Cartoon #27</unitid>
+               <unittitle>"Professional jealousy : what happened when a Mary Garden record
+						met a Tetrazzini record on the library table," <unitdate era="ce" calendar="gregorian">1910 March
+							30</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Levering, Albert, 1869-1929</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <scopecontent>
+               <p>Two records representing opera singers Luisa Tetrazzini and Mary Garden
+						fight next to a phonograph on a library table .</p>
+            </scopecontent>
+            <note>
+               <p>Published in <title xlink:type="simple" render="italic">Puck </title>magazine.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1143" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #28</unitid>
+               <unittitle>"No talking machines! No moving pictures! No electric lights! Do
+						you want to put people out of work?"
+						<unitdate era="ce" calendar="gregorian">1948</unitdate>
+               </unittitle>
+               <origination>
+						            <persname rules="aacr2">Lewis, K. A.</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Coyright 1948, Sun and Times Co.</p>
+            </userestrict>
+            <scopecontent>
+               <p>James C. Petrillo with an axe, standing over Thomas Edison.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1172" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #29</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Grin and bear it</title>. "Psst -- Joe sent us
+						-- said we could make a recording here!"
+						<unitdate era="ce" calendar="gregorian">1948</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Lichty, George Maurice, 1905-1983</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, charcoal</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1948, Sun and Times Co.</p>
+            </userestrict>
+            <bioghist>
+               <p>George Lichtenstein, "Lichty," drew the <title xlink:type="simple" render="italic">Grin and
+							Bear It</title> strip from 1932 to 1974.</p>
+            </bioghist>
+            <scopecontent>
+               <p>Musicians, disregarding the recording ban of 1948, knock on a basement
+						door.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1210" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #30</unitid>
+               <unittitle>"You've seen our laundry machine that washes dishes, but wait
+						'til you see what our new record changer can do!"
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Luchsinger, Chuck</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, blue pencil</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A man holding a baby in a diaper shows off his record player to his
+						friend.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "To Jack Kapp with Best Regards! Chas.
+						Luchsinger."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1242" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #31</unitid>
+               <unittitle>"-- and now Bing Crosby is coming into the studio -- coming into
+						the studio -- coming into the studio," <unitdate era="ce" calendar="gregorian">circa
+						1947</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Markow, Jack, 1905-</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>In a radio station, a man runs toward a skipping record as worried
+						employees look on.</p>
+            </scopecontent>
+            <note>
+               <p>Bing Crosby's <title xlink:type="simple" render="italic">Philco Radio Hour</title> was the
+						first major network radio program to be broadcast from transcription
+						discs rather than live.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1277" level="item">
+            <did>
+               <container type="box">8</container>
+               <unitid>Cartoon #32</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Bringing up father</title>, <unitdate era="ce" calendar="gregorian">1946 April
+							1</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">McManus, George, 1884-1954</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1946, King Features Syndicate, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Four-frame strip in which Jiggs tries to prevent his wife, Maggie, from
+						playing the piano by putting on a record. The music, however, reminds
+						her that she needs to buy a new Easter hat, and she asks him for
+						shopping money.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "Greetings to Jack Kapp from Geo
+						McManus."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1313" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #33</unitid>
+               <unittitle>"Marines listen to recorded jive on way to assault Guam,"
+							<unitdate era="ce" calendar="gregorian">1944</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>McDermott, J. R.</persname> (USMC)</origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Soldiers listen to a record player.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1342" level="item">
+            <did>
+               <container type="box">5</container>
+               <unitid>Cartoon #34</unitid>
+               <unittitle>"For pity's sake -- all the latest song hits,"
+							<unitdate era="ce" calendar="gregorian">1948</unitdate>
+               </unittitle>
+               <origination>
+						            <persname rules="aacr2">Normant, John</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A woman looks through a pile of records in the attic.</p>
+            </scopecontent>
+            <note>
+               <p>Published in <title xlink:type="simple" render="italic">Collier's</title>.</p>
+               <p>Because of the American Federation of Musicians recording bans of 1942
+						and 1948, record companies reissued many discs from their back
+						catalogs.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1379" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #35</unitid>
+               <unittitle>[ <title xlink:type="simple" render="italic">Life's like that</title>?]. "Dry the
+						dishes! Dry the dishes!! Do I ever ask you to dust off my records,"
+							<unitdate era="ce" calendar="gregorian">1945 November 21</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Neher, Fred, 1903-2001</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <bioghist>
+               <p>Fred Neher drew the weekly single-panel cartoon <title xlink:type="simple" render="italic">Life's Like That</title> from 1935 to 1941 and from 1945 to
+						1977.</p>
+            </bioghist>
+            <scopecontent>
+               <p>Standing by a record player, a teenage girl complains to her mother.</p>
+            </scopecontent>
+            <note>
+               <p>"Released by Consolidated News Features."</p>
+               <p>Autographed by the artist: "To Jack Kapp with best wishes! Fred
+						Neher."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1419" level="item">
+            <did>
+               <container type="box">8</container>
+               <unitid>Cartoon #36</unitid>
+               <unittitle>"Salome Petrillo" with the "heads" of Colombia and Victor
+						Records, <unitdate era="ce" calendar="gregorian">circa 1944</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Packer, Fred Little, 1886-1956</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, pencil</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>James C. Petrillo, dressed as Salome, spins a record on which rest the
+						"heads" of Colombia and Victor Records.</p>
+            </scopecontent>
+            <note>
+               <p>Published in the <title xlink:type="simple" render="italic">New York Mirror</title>.</p>
+               <p>Autographed by the artist: "With kindest personal regards to -- Jack
+						Kapp. From -- Packer."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1456" level="item">
+            <did>
+               <container type="box">5</container>
+               <unitid>Cartoon #37</unitid>
+               <unittitle>James C. Petrillo running on a turntable, <unitdate era="ce" calendar="gregorian">circa
+							1946</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Packer, Fred Little, 1886-1956</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, charcoal, white paint</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>As Petrillo runs on the turntable, a needle labeled "Congress" is poised
+						to stick him in the rear.</p>
+            </scopecontent>
+            <note>
+               <p>Published in the <title xlink:type="simple" render="italic">New York Mirror</title>.</p>
+               <p>Autographed by the artist: "To Jack Kapp. Very sincerely, Fred L.
+						Packer."</p>
+               <p>Also signed by the artist, lower right: "Packer."</p>
+               <p>The Lea, or "Anti-Petrillo," Act of 1946 was enacted by Congress to
+						prohibit Petrillo's standby rules for radio.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1497" level="item">
+            <did>
+               <container type="box">1</container>
+               <unitid>Cartoon #38</unitid>
+               <unittitle>"Here, Frankie -- see if Beethoven's '5th' fits any better,"
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Peters, Eric</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, with blue and red paint</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Boys attempt to replace a missing wagon wheel with records, breaking
+						several of them.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1526" level="item">
+            <did>
+               <container type="box">8</container>
+               <unitid>Cartoon #39</unitid>
+               <unittitle>"The missing link supplied,"
+						<unitdate era="ce" calendar="gregorian">1908</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Pughe, J. S. (John S.), 1870-1909</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Men stand before a phonograph to which a hand is attached. To one side
+						are cylinders labeled "Bryan" and "Taft." </p>
+            </scopecontent>
+            <note>
+               <p> Published in <title xlink:type="simple" render="italic">Puck</title> magazine in 1908,
+						during the presidential race between William Howard Taft and William
+						Jennings Bryan. The hand outstretched for shaking is the missing link
+						that would make personal appearances by campaigning politicians
+						obsolete.</p>
+               <p>Stamp on reverse: "Keppler &amp; Schwartzmann, 'Puck,' Sep. 23,
+						1908, New York."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1563" level="item">
+            <did>
+               <container type="box">8</container>
+               <unitid>Cartoon #40</unitid>
+               <unittitle>"His master's voice," <unitdate era="ce" calendar="gregorian">circa
+						1918</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Racey, A. G.</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <bioghist>
+               <p>Racey was a cartoonist for the <title xlink:type="simple" render="italic">Montreal Star
+						</title> from 1899 to 1941, the year of his death.</p>
+            </bioghist>
+            <scopecontent>
+               <p>A phonograph horn in the shape of a cannon labeled "the Allies ... Foch"
+						points at a sweating, quaking hound representing Kaiser Wilhelm. The
+						words "unconditional surrender" come from the cannon.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "A.G. Racey. With apologies to the
+						'Victor.'"</p>
+               <p>Ferdinand Foch was supreme commander of the Allied armies in November of
+						1918, when Germany requested an armistice.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1603" level="item">
+            <did>
+               <container type="box">5</container>
+               <unitid>Cartoon #41</unitid>
+               <unittitle>"Due to conditions beyond our control, we now present Harry
+						Harris," <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>[Ramerno?]</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, blue wash</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A man in a radio studio speaks into a microphone as another man
+						apparently prepares to speak.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1632" level="item">
+            <did>
+               <container type="box">5</container>
+               <unitid>Cartoon #42</unitid>
+               <unittitle>"Well I followed your advice. I turned the lights down low and
+						played romantic music!" <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Reckas, George</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, blue wash</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A young woman complains to her mother while a sailor snores on the
+						couch, oblivious to the records she's been playing.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1661" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #43</unitid>
+               <unittitle>"Shyness compels Mr. Winterbottom to deliver his speech from a
+						home recording," <unitdate era="ce" calendar="gregorian">1948 January 26</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Reed, Ed</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>At a board meeting, the arms of a man hidden behind the table place a
+						record on a turntable.</p>
+            </scopecontent>
+            <note>
+               <p>"1948, the Register and Tribune Syndicate."</p>
+               <p>Autographed by the artist: "All best wishes, To Jack Kapp -- Ed Reed --
+						"Off the Record."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1696" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #44</unitid>
+               <unittitle>A cobra transfixed by music from a record player,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Richter, Mischa, 1910-</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, white paint</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <note>
+               <p>Autographed by the artist: "To Mr. Kapp -- Mischa Richter."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1725" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #45</unitid>
+               <unittitle>"It's nice of you to contribute your phonograph records to the
+						canteen, Ethel -- even if they are all nursery rhymes," <unitdate era="ce" calendar="gregorian">1943
+							February 6</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Coe, Roland, 1906-1954</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, charcoal</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>The image shows girl scouts carrying records.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1754" level="item">
+            <did>
+               <container type="box">8</container>
+               <unitid>Cartoon #46</unitid>
+               <unittitle> "Open this package, Jack," <unitdate era="ce" calendar="gregorian">circa 1947 January
+							29</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Russell, Bruce, 1903-1963</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink on brown kraft paper</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>On paper used to wrap a package that was mailed in 1947 (at top right
+						are canceled stamps dated January 29, 1947), Russell has drawn a record
+						labeled "Decca Records," that includes the address of the record
+						company owned by Jack Kapp. The "song" on the record is entitled "Open
+						this package, Jack," and the "songwriter" is "Kapp." Along the bottom
+						of the "record label" are musical notes surrounded by the words "Office
+						of the president." At upper right is the return address: "From Bruce
+						Russell, Los Angeles Times."</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1783" level="item">
+            <did>
+               <container type="box">8</container>
+               <unitid>Cartoon #47</unitid>
+               <unittitle>"Martial music," <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Russell, Bruce, 1903-1963</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>The cartoon shows a broken record labeled "China peace."</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "To Jack Kapp with best wishes. Bruce
+						Russell."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1815" level="item">
+            <did>
+               <container type="box">5</container>
+               <unitid>#48</unitid>
+               <unittitle>"Nothing like this in Nazi Germany," <unitdate era="ce" calendar="gregorian">1942 November
+							4</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Seibel, Fred O. (Fred Otto),
+							1886-1969</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A speaking head identified as "U.S. voters" rests on the turntable of a
+						phonograph labeled "ballot box." Emanating from the horn are the words
+						"voice of the people."</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "To Jack Kapp with my compliments. Fred O.
+						Seibel."</p>
+               <p>The drawing is also signed by the artist, lower right. Handwritten under
+						the autograph is: "Richmond Times-Dispatch, November 4, 1942."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1849" level="item">
+            <did>
+               <container type="box">5</container>
+               <unitid>Cartoon #49</unitid>
+               <unittitle>David and Goliath, <unitdate era="ce" calendar="gregorian">1948 January
+						3</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Seibel, Fred O. (Fred Otto),
+							1886-1969</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Armed with a sword and shielded by a record, a huge robot is
+						nevertheless hit in the head with a rock flung from a slingshot by
+						James C. Petrillo. The robot is labeled "machine age," and the words
+						"Ban on recording" appear at the top of the cartoon.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "To Jack Kapp with my best wishes. Fred O.
+						Siebel."</p>
+               <p>The drawing is also signed by the artist, lower right.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1883" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #50</unitid>
+               <unittitle>"Acme Second Hand Phonograph Record Company, Good morning, good
+						morning, good morning, good ...,"
+						<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Soglow, Otto, 1900-1975</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A switchboard operator speaks into a receiver.</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist, lower left: "O. Soglow."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e1915" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #51</unitid>
+               <unittitle>"I can't figger it out at all -- no tubes or batteries!"
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Spaar, William</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Several natives comment on a playing phonograph while a pipe-smoking man
+						in a safari outfit stands by.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1944" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #52</unitid>
+               <unittitle>"Don't bother Junior now. He's listening to his homework,"
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Strauss, Charles</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A boy listens to a record as his parents look on.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e1973" level="item">
+            <did>
+               <container type="box">5</container>
+               <unitid>Cartoon #53</unitid>
+               <unittitle>"Swelling the chorus!" <unitdate era="ce" calendar="gregorian">circa
+						1948</unitdate>
+               </unittitle>
+               <origination>
+						            <persname rules="aacr2">Talburt, Harold M., 1895-1966</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p> "John L." (probably John L. Lewis, president of the United Mine Workers
+						of America, 1920-1960) sings "Brother, can you spare a dime?" while a
+						phonograph labeled "[James C.] Petrillo's royalty racket" plays. The
+						musical notes floating from the phonograph have dollar signs on them,
+						and Lewis holds a sign that states, "Demand of 10 cents a ton royalty
+						for miner's union."</p>
+            </scopecontent>
+            <note>
+               <p>Autographed by the artist: "To Jack Kapp with best wishes. H. M.
+						Talburt."</p>
+               <p>The drawing is also signed "Talburt" at lower left.</p>
+               <p>In 1948, the year of the second American Federation of Musicians
+						recording ban, the UMWA under president John L. Lewis won health and
+						pension benefits for miners, financed partially by a royalty on every
+						ton of coal mined.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2009" level="item">
+            <did>
+               <container type="box">6</container>
+               <unitid>Cartoon #54</unitid>
+               <unittitle>"The music goes round and round -- but it don't come out here!"
+							<unitdate era="ce" calendar="gregorian">between 1940 and 1950</unitdate>
+               </unittitle>
+               <origination>
+						            <persname rules="aacr2">Talburt, Harold M., 1895-1966</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 print : </extent>
+						            <physfacet>lithograph, crayon</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p> While a record spins on the turntable, James C. Petrillo sits in the
+						horn of a phonograph, blocking the sound.</p>
+            </scopecontent>
+            <note>
+               <p>The Hodgson-Riley song, "The Music Goes Round and Round," recorded in
+						1935, was Decca Records' first hit, putting Jack Kapp's company in the
+						black for the first time.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2042" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #55</unitid>
+               <unittitle>"The super juke box," <unitdate era="ce" calendar="gregorian">1942</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Thomas, Burt</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <scopecontent>
+               <p>Uncle Sam stands in front of a jukebox on which sits James C. Petrillo's
+						head (bearing a definite resemblance to Italian dictator Benito
+						Mussolini). A hand reaches out from the jukebox, which is labeled, "Pay
+						me."</p>
+            </scopecontent>
+            <note>
+               <p>Published in the <title xlink:type="simple" render="italic">Detroit News</title>.</p>
+            </note>
+            <note>
+               <p>Autographed by the artist: "To Jack Kapp with compliments of B.
+						Thomas."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2077" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #56</unitid>
+               <unittitle>A man looks through a pile of records as guests wait,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Tobin, Don</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <scopecontent>
+               <p>One of the guests says, "Really, Charley, I didn't mean for you to go to
+						all that trouble. We can hear 'Sugar Blues' some other time."</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e2103" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #57</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Jelly Bean Jones</title>. "Gee I never really
+						appreciated symphonies before -- they scale better than anything,"
+							<unitdate era="ce" calendar="gregorian">1948 March 10</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Walter, Frank</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <scopecontent>
+               <p>Two children are throwing records.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e2132" level="item">
+            <did>
+               <container type="box">2</container>
+               <unitid>Cartoon #58</unitid>
+               <unittitle>
+						            <title xlink:type="simple" render="italic">Jelly Bean Jones</title>. "Look, Pop -- I've
+						just invented a new game," <unitdate era="ce" calendar="gregorian">1948 January
+						14</unitdate>
+               </unittitle>
+               <origination>
+						            <persname>Walter, Frank</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>King Features Syndicate, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A child jumps onto a record player as his father walks in.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e2164" level="item">
+            <did>
+               <container type="box">6</container>
+               <unitid>Cartoon #59</unitid>
+               <unittitle>"The timid soul," <unitdate era="ce" calendar="gregorian">1946 September
+						2</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Webster, Harold Tucker, 1885-1952</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p> Copyright 1946, New York Tribune, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Standing near a record player and holding a record, Casper Milquetoast
+						says, "Perhaps I'd better employ a couple of musicians to play this
+						record for me. I don't want to offend the union and have them denounce
+						me as a labor baiter, or a stooge for the capitalists, or a
+						fascist."</p>
+            </scopecontent>
+            <note>
+               <p>Signed by the artist, lower right.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2196" level="item">
+            <did>
+               <container type="box">6</container>
+               <unitid>Cartoon #60</unitid>
+               <unittitle>"The thrill that comes once in a lifetime," <unitdate era="ce" calendar="gregorian">1944
+							October 25</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Webster, Harold Tucker, 1885-1952</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p> Copyright 1944, New York Tribune, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A mother listens to the voice of her son on a record from the U.S.O.: "A
+						-- hem -- uh -- ah -- er -- Well, -- ah -- gosh! I don't know what to
+						say -- uh...." The mother, smiling, says, "Now, isn't that cute?"</p>
+            </scopecontent>
+            <note>
+               <p>Signed by the artist, lower right.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2228" level="item">
+            <did>
+               <container type="box">6</container>
+               <unitid>Cartoon #61</unitid>
+               <unittitle>Two fairies near a bell-shaped flower,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Wheelan, Albertine Randall</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <bioghist>
+               <p>A. R. Wheelan was a nineteenth-century cartoonist known for his <title xlink:type="simple" render="italic">Dumbunnies</title> newspaper series.</p>
+            </bioghist>
+            <scopecontent>
+               <p>Handwritten caption under the first panel: "Adventuros [sic] fairy: 'Why
+						this must be a phonograph! Doesn't that Bumble Bee's voice sound
+						natural?'" Caption under the second panel: "Bee, appearing from within
+						flower: 'Good morning ladies! This is my busy day. Aren't you out
+						rather late?'"</p>
+            </scopecontent>
+            <note>
+               <p>Signed by the artist, first panel, lower right.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2263" level="item">
+            <did>
+               <container type="box">6</container>
+               <unitid>Cartoon #62</unitid>
+               <unittitle>Woman reading album notes, <unitdate era="ce" calendar="gregorian">1942</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Williams, Gluyas, 1888-1982</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, blue pencil</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1942, 1970, The New Yorker Magazine, Inc.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A woman looks puzzled as she reads the pretentious program notes
+						accompanying the record she holds.</p>
+            </scopecontent>
+            <note>
+               <p>Published in the <title xlink:type="simple" render="italic">New Yorker</title>.</p>
+               <p>Signed by the artist, lower left.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2300" level="item">
+            <did>
+               <unitid>Cartoon #63</unitid>
+               <unittitle>A woman listens to her husband singing "Pistol Packin' Mama" in
+						the shower, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname rules="aacr2">Chenoweth, Hugh</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <note>
+               <p>Not on shelf.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2324" level="item">
+            <did>
+               <unitid>Cartoon #64</unitid>
+               <unittitle>"Maestro Petrillo versus the law,"
+						<unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">[Kay?]</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink, charcoal</physfacet>
+					          </physdesc>
+            </did>
+            <scopecontent>
+               <p>James C. Petrillo on a phonograph; a hand is jutting into the picture
+						holding an injunction.</p>
+            </scopecontent>
+            <note>
+               <p>Not on shelf.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2351" level="item">
+            <did>
+               <container type="box">9</container>
+               <unitid>Cartoon #65</unitid>
+               <unittitle>The Goodrich Rubber Man's vacation, <unitdate era="ce" calendar="gregorian">circa
+							1900</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>1 print (poster)</extent>
+					          </physdesc>
+            </did>
+            <scopecontent>
+               <p>This promotional poster, printed for the Buffalo-Pan American Exposition
+						of 1900 and 1901, was intended for distribution to Goodrich's
+						wholesalers. The photographs of the salesmen-musicians superimposed
+						over the drawing are of actual Goodrich Rubber Company employees.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd445e2370" level="item">
+            <did>
+               <container type="box">6</container>
+               <unitid>Cartoon #66</unitid>
+               <unittitle>"Round 2," <unitdate era="ce" calendar="gregorian">1944 October</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Berryman, James Thomas, 1902-1971</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <scopecontent>
+               <p>Uncle Sam, standing in the middle of a boxing ring, holds up a card that
+						says “Round 2.” In one corner, Frank Sinatra sings into a microphone
+						for sitting boxer FDR, and in the other, Bing Crosby croons into a
+						microphone for Thomas Dewey.</p>
+            </scopecontent>
+            <note>
+               <p>Published in the <title xlink:type="simple" render="italic">Washington Evening
+						Star</title>.</p>
+               <p>Autographed by the artist: "Jim Berryman. With my best to my friend ...
+						and everybody's friend, Bing!"</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2404" level="item">
+            <did>
+               <container type="box">6</container>
+               <unitid>Cartoon #67</unitid>
+               <unittitle>"In full bloom," <unitdate era="ce" calendar="gregorian">1907 February
+						6</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Glackens, L. M. (Louis M.),
+							1866-1933</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 print : </extent>
+						            <physfacet>lithograph, color</physfacet>
+					          </physdesc>
+               <physdesc>
+						            <extent>1 print : </extent>
+						            <physfacet>lithograph, black and white</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>An inebriated man ("Mr. Talksome") stands in front of a window display
+						of phonographs and declares, "Hones' fact, itsh the finesht display er
+						mornin' glories ever shaw in m'life!"</p>
+               <p>A black and white print matted on the reverse of the color print is the
+						same image but includes the hand-written caption and editorial
+						markings.</p>
+            </scopecontent>
+            <note>
+               <p>Probably published in <title xlink:type="simple" render="italic">Puck</title> magazine.</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2449" level="item">
+            <did>
+               <container type="box">6</container>
+               <unitid>Cartoon #68</unitid>
+               <unittitle>"In the jungle," <unitdate era="ce" calendar="gregorian">1894</unitdate>
+               </unittitle>
+               <origination>
+						            <persname source="lcnaf">Glackens, L. M. (Louis M.),
+							1866-1933</persname>
+					          </origination>
+               <physdesc>
+						            <extent>1 drawing : </extent>
+						            <physfacet>pen and ink</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>No copyright notice found with item.</p>
+            </userestrict>
+            <scopecontent>
+               <p>A professor wearing a safari hat plays a phonograph from inside a zoo
+						cage labeled "Prof. Monk, the scientist." Monkeys, some wearing human
+						clothing, listen from outside the cage.</p>
+            </scopecontent>
+            <note>
+               <p>Handwritten in pencil on reverse: "In the jungle. May 16, 1894."</p>
+               <p>Stamp on reverse: "Keppler &amp; Schwartzmann, 'Puck,' April 17,
+						1894, New York."</p>
+            </note>
+         </c01>
+         <c01 id="mferd445e2483" level="item">
+            <did>
+               <container type="box">11</container>
+               <unittitle>Framed album cover of <title xlink:type="simple" render="italic">Oklahoma!</title>
+						            <unitdate era="ce" calendar="gregorian">1946</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>1 photomechanical print : </extent>
+						            <physfacet>in wooden frame</physfacet>
+					          </physdesc>
+            </did>
+            <userestrict>
+               <p>Copyright 1943, Decca Records.</p>
+            </userestrict>
+            <scopecontent>
+               <p>Cover of the 1943 cast album, <title xlink:type="simple" render="italic">Selections from the
+							Theatre Guild Musical Play Oklahoma!</title>, featuring members of
+						the original New York production. Decca album no. 359, 23M, Personality
+						series.</p>
+            </scopecontent>
+            <note>
+               <p>Inscription on the small metal plaque attached to the center of the
+						album cover: "For Jack. This 500,001st album from Dick and [Deen?].
+						Feb. 3, 1946."</p>
+            </note>
+         </c01>
+      </dsc>
+      <descgrp type="add">
+         <bibliography>
+            <p>For more information about the collection, as well as Jack Kapp, James C.
+					Petrillo, and the American recording industry in the first half of the 20th
+					century, see Samuel Brylawski, "Cartoons for the Record: the Jack Kapp
+					Collection," <title xlink:type="simple" render="italic">Quarterly Journal of the Library of
+						Congress</title>, volume 38, number 3 (summer 1981), pages 180-195.</p>
+         </bibliography>
+      </descgrp>
+   </archdesc>
+</ead>

@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:08 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu003007
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu003007--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu003007--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu003007-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd19e5">
+   <eadheader id="mferd19e6" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US" encodinganalog="856$u"
+             identifier="hdl:loc.music/eadmus.mu003007">http://hdl.loc.gov/loc.music/eadmus.mu003007</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Dallapiccola/Dwight Collection</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:title="Seal of the Library of Congress"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2005" era="ce" calendar="gregorian">2005</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+                  <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2003561020"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2003561020</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding Aid encoded by Library of Congress Music Division, <date normal="2005" era="ce" calendar="gregorian">2005</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in<language langcode="eng" encodinganalog="041">English</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2011-03" era="ce" calendar="gregorian">2011 March</date>
+            <item>More explicit restrictions added by Nancy Seeger in March 2011.</item>
+         </change>
+         <change>
+            <date normal="2010-07" era="ce" calendar="gregorian">2010 July</date>
+            <item>Call number was corrected by Nancy Seeger in July 2010.</item>
+         </change>
+         <change>
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in March 2010.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" type="register" relatedencoding="MARC21">
+      <did id="mferd931e57">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Dallapiccola/Dwight Collection<unitdate label="Span Dates" type="inclusive" encodinganalog="245$f" normal="1951/1989"
+                      era="ce"
+                      calendar="gregorian">1951-1989</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1951/1975"
+                      era="ce"
+                      calendar="gregorian">(bulk 1951-1975)</unitdate>
+         </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.D33</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">Dallapiccola, Luigi, 1904-1975</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">around 750 items</extent>
+            <extent encodinganalog="300">13 boxes</extent>
+            <extent encodinganalog="300">8 linear feet</extent>
+         </physdesc>
+         <langmaterial label="Language">Collection material in <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Music Division</subarea> Library of Congress</corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Luigi Dallappiccola was an Italian composer. The collection contains Dallapiccola's correspondence with Peggie Dwight, including over 300 letters (written mostly in French) and various postcards and telegrams. In addition, there are over 200 articles and programs relating to Dallapiccola's career, mostly collected during those years. The collection also includes a few of Dallapiccola's holograph music manuscripts, most notably his opera <title>Ulysses</title>, as well as short excerpts or sketches of his works. There are also printed editions of two full scores for <title>Requiescant</title> and <title>Sex Carmina Alcaei</title>.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd931e105" altrender=":::F005=^20091014093119.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd21e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dallapiccola%2C+Luigi%2C+1904-1975+Autographs.^">Dallapiccola, Luigi, 1904-1975--Autographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dallapiccola%2C+Luigi%2C+1904-1975+Correspondence.^">Dallapiccola, Luigi, 1904-1975--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dallapiccola%2C+Luigi%2C+1904-1975.^">Dallapiccola, Luigi, 1904-1975.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dallapiccola%2C+Luigi%2C+1904-1975.^">Dallapiccola, Luigi, 1904-1975.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dallapiccola%2C+Luigi%2C+1904-1975.^">Dallapiccola, Luigi, 1904-1975. Ulisse.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dwight%2C+Margaret+Correspondence.^">Dwight, Margaret--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dwight%2C+Margaret.^">Dwight, Margaret.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dwight%2C+Margaret.^">Dwight, Margaret. Dallapiccola/Dwight collection. 1951-1989.</persname>
+         </controlaccess>
+         <controlaccess id="mferd21e26">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Composers+Italy+Correspondence.^">Composers--Italy--Correspondence.</subject>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd931e135" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd931e138" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift; Margaret Dwight; January 1990.</p>
+         </acqinfo>
+         <accruals id="mferd931e143" encodinganalog="584">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd931e148" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Luigi Dallapiccola/ Margaret (Peggie) Dwight Collection was processed in 1995 by the Library of Congress. This Finding Aid was prepared with Corel WordPerfect 8. In 2003, Michael A. Ferrando coded and edited the finding aid for EAD format.</p>
+         </processinfo>
+         <separatedmaterial id="mferd931e153" encodinganalog="544 0">
+            <head>Transfers</head>
+            <p>An audio tape was transferred to the Library of Congress Motion Picture, Broadcasting and Recorded Sound Division.</p>
+         </separatedmaterial>
+         <userestrict id="mferd931e158" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the Dallapiccola/Dwight Collection is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd931e163" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>Commentary prepared by the donor and all correspondence are sealed until 2025 or until  the death of Luigi Dallapiccola's daughter Annalibera. The rest of the Dallapiccola/Dwight Collection is open to research. Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd931e168" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, Dallapiccola/Dwight Collection, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd931e173" encodinganalog="545">
+         <head>Biographical Sketch</head>
+         <p>Luigi Dallapiccola was born in Italy on February 3, 1904.  During his youth, Dallapiccola gained diplomas in both piano and composition from the Cherubini Conservatory in Florence.  He began his career as a piano teacher at the Conservatory, where he remained until his retirement in 1967.  He also taught music courses at several American colleges and summer music programs.</p>
+         <p>As a composer, Dallapiccola was greatly influenced by the music of the 2nd Viennese School, evident in his use of serial methods.  His output encompassed dramatic works (operas and ballet) as well as choral, solo vocal and instrumental compositions.  Several of his vocal works were considered to be "protest pieces," relating to his ever-present concern with the political situations of his time.</p>
+         <p>Margaret (Peggie) Dwight is an American artist currently living in Paris.  She had a correspondence with Dallapiccola from the time she met him at Tanglewood in 1951 where she was a student, until his death in 1975.</p>
+      </bioghist>
+      <scopecontent id="mferd931e182" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The bulk of this collection represents Dallapiccola's correspondence with Margaret (Peggie) Dwight during the years of their association, from 1951 to 1975.  This correspondence includes over 300 letters (written mostly in French), as well as various postcards and telegrams.  In addition, there are over two hundred articles and programs relating to Dallapiccola's career, mostly collected during those years.</p>
+         <p>The collection also includes a few of Dallapiccola's holograph music manuscripts, most notably his opera <emph render="underline">Ulysses</emph>, as well as short excerpts or sketches of his works.  Printed editions of two full scores are included, namely <emph render="underline">Requiescant</emph> and <emph render="underline">Sex Carmina Alcaei</emph>.</p>
+         <p>The writings in this collection consist mainly of 200 pages of "Recollections" written by Margaret (Peggie) Dwight which chronicles her 24-year friendship with Dallapiccola.  It is divided into sections by year, and contains references to various letters and other materials in the collection.  There are also several speeches and other miscellaneous notes written by Dallapiccola.</p>
+      </scopecontent>
+      <arrangement id="mferd931e200" encodinganalog="351$a">
+         <head>Organization of the Dallapiccola/Dwight Collection</head>
+         <p>The Dallapiccola/Dwight Collection is organized in 7 series:</p>
+         <list>
+            <item>Correspondence</item>
+            <item>Music</item>
+            <item>Programs &amp; Clippings</item>
+            <item>Writings</item>
+            <item>Photographs</item>
+            <item>Books</item>
+            <item>Miscellaneous</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2003561020"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2003561020</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd931e220" type="combined">
+         <head>Container List</head>
+         <thead>
+            <row>
+               <entry>Box</entry>
+               <entry>Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd19e258" level="series">
+            <did>
+               <container type="box">1-3</container>
+               <unittitle encodinganalog="245$a" id="CL1001">Correspondence, <unitdate encodinganalog="245$f" type="inclusive" normal="1951/1974" era="ce"
+                            calendar="gregorian">1951-1974</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with Margaret (Peggie) Dwight during the years of their association, from 1951 to 1975.  This correspondence includes over 300 letters (written mostly in French), as well as various postcards and telegrams. Please note: access may be restricted, refer to "Access and Restrictions" in the Administrative Information section for additional information.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically by date</p>
+            </arrangement>
+            <c02 id="mferd19e273" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_1">1951-1958</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e279" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_2">1960</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e285" level="file">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_3">1961</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e291" level="file">
+               <did>
+                  <container type="box-folder">1/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_4">1962 Jan.-Aug.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e297" level="file">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_5">1962 Sept.-Oct.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e303" level="file">
+               <did>
+                  <container type="box-folder">1/6</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_6">1963</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e309" level="file">
+               <did>
+                  <container type="box-folder">1/7</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_7">1964 Jan.-July</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e315" level="file">
+               <did>
+                  <container type="box-folder">1/8</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_8">1964 Aug.-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e322" level="file">
+               <did>
+                  <container type="box-folder">1/9</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_9">1965 Jan.-Apr.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e328" level="file">
+               <did>
+                  <container type="box-folder">1/10</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_10">1965 May-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e334" level="file">
+               <did>
+                  <container type="box-folder">2/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_11">1966 Jan.-May</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e340" level="file">
+               <did>
+                  <container type="box-folder">2/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_12">1966 June-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e346" level="file">
+               <did>
+                  <container type="box-folder">2/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_13">1967 Jan.-May</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e352" level="file">
+               <did>
+                  <container type="box-folder">2/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_14">1967 June-July</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e358" level="file">
+               <did>
+                  <container type="box-folder">2/5</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_15">1967 Aug.-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e364" level="file">
+               <did>
+                  <container type="box-folder">2/6</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_16">1968 Jan.-July</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e370" level="file">
+               <did>
+                  <container type="box-folder">2/7</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_17">1968 Aug.-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e376" level="file">
+               <did>
+                  <container type="box-folder">2/8</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_18">1969 Jan.-June</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e382" level="file">
+               <did>
+                  <container type="box-folder">2/9</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_19">1969 July-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e389" level="file">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_20">1970 Jan.-May</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e395" level="file">
+               <did>
+                  <container type="box-folder">3/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_21">1970 June-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e401" level="file">
+               <did>
+                  <container type="box-folder">3/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_22">1971 Jan.-July</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e407" level="file">
+               <did>
+                  <container type="box-folder">3/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_23">1971 Aug.-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e413" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_24">1972 Jan.-Apr.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e419" level="file">
+               <did>
+                  <container type="box-folder">3/6</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_25">1972 May-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e425" level="file">
+               <did>
+                  <container type="box-folder">3/7</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_26">1973 Jan.-June</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e431" level="file">
+               <did>
+                  <container type="box-folder">3/8</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_27">1973 July-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e437" level="file">
+               <did>
+                  <container type="box-folder">3/9</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_CORRESPONDENCE_CL1001_D3_28">1974 Jan.-1975 Feb.</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd19e443" level="series">
+            <did>
+               <container type="box-folder">4/1-14</container>
+               <container type="box-folder">12/1-2</container>
+               <unittitle encodinganalog="245$a" id="CL1002">Music, <unitdate encodinganalog="245$f" type="inclusive" normal="1943/1970" era="ce"
+                            calendar="gregorian">1943-1970</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Holographs of Dallapiccola music manuscripts, short excerpts or sketches, and printed editions.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by title.</p>
+            </arrangement>
+            <c02 id="mferd19e460" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_1">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Cinque Canti, Song no. 4, 1956</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph full score in pencil, [5 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e474" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_2">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Commiato, 1972</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph piano-vocal score in pencil, 10 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e488" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_3">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Requiescant, Milan, Zerboni, 1958</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Printed full score, 57 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e502" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_4">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Requiescant, Milan, Zerboni, 1958</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Printed, piano-vocal score, autographed, 47 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e516" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_5">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Sex Carmina Alcaei, Milan, Zerboni, 1943</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Printed full score, 32 p.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e530" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/5</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_6">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Sicut Umbra, sketch, (1969-70)</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph ms. in pencil, [2 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e544" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/12</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_7">[Sketch leaf, 1956]</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph ms. in pencil, [1 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e555" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/13</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_8">[Sketchbook 1957-58]</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Bound holograph sketches in pencil, [22 p.]</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Includes Requiescent and Ulysses</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd19e570" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/14</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_9">[Sketches, 1968]</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph ms. in pencil, [2 p.]</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Includes Ulysses and Michaelangelo the Younger</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd19e584" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/6</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_10">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">12-Tone Demonstration, sketch</title>
+                     <lb/>   
+                     <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          xlink:show="replace"
+                          target="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_2">
+                        <emph render="italic">See also:</emph> "Recollections" p. 45</ref>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph ms. in ink, [1 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e606" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/7</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_11">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Ulysses, Act I scene 3, sketches, 1968</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph ms. in pencil and ink, [2 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e620" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/8</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_12">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Ulysses, Act II scene 3, 1967</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph condensed score in pencil, [10 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e634" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/9</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_13">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Ulysses, Calypso scene, sketch</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph piano-vocal score in ink, [1 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e648" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/10</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_14">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Ulysses, Nausica Scene, 1966</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph condensed score in ink, [2 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e662" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">4/11</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_15">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Ulysses, Scene de l'Enfer, 1962</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph score in pencil, [2 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e676" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">12/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_16">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Ulysses, Act I, 1966</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph full score in ink, autographed, [1 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd19e690" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <did>
+                  <container type="box-folder">12/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MUSIC_CL1002_D3_17">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                            altrender="normal">Ulysses, Prologue, Calypso Scene, sketch, 1968</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Holograph condensed score in pencil, [2 p.]</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd19e704" level="series">
+            <did>
+               <container type="box-folder">12/3</container>
+               <container type="box">5-9</container>
+               <unittitle encodinganalog="245$a" id="CL1003">Programs &amp; Clippings, <unitdate encodinganalog="245$f" type="inclusive" normal="1951/1989" era="ce"
+                            calendar="gregorian">1951-1989</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Programs and clippings of Dallapiccola.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically by date</p>
+            </arrangement>
+            <c02 id="mferd19e721" level="file">
+               <did>
+                  <container type="box-folder">5/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_1">1951-59</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e727" level="file">
+               <did>
+                  <container type="box-folder">5/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_2">1960</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e733" level="file">
+               <did>
+                  <container type="box-folder">5/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_3">1961 Jan.-Feb.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e739" level="file">
+               <did>
+                  <container type="box-folder">5/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_4">1961 Mar.-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e745" level="file">
+               <did>
+                  <container type="box-folder">5/5</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_5">1962</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e751" level="file">
+               <did>
+                  <container type="box-folder">5/6</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_6">1963</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e757" level="file">
+               <did>
+                  <container type="box-folder">6/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_7">1964 Jan.-Oct.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e763" level="file">
+               <did>
+                  <container type="box-folder">6/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_8">1964 Aug.-Oct.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e770" level="file">
+               <did>
+                  <container type="box-folder">6/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_9">1964 Nov.-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e776" level="file">
+               <did>
+                  <container type="box-folder">6/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_10">1965</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e782" level="file">
+               <did>
+                  <container type="box-folder">6/5</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_11">1966</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e788" level="file">
+               <did>
+                  <container type="box-folder">12/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_12">1966 May 5th</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e794" level="file">
+               <did>
+                  <container type="box-folder">6/6</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_13">1967</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e800" level="file">
+               <did>
+                  <container type="box-folder">7/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_14">1968 Mar.-Aug.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e806" level="file">
+               <did>
+                  <container type="box-folder">7/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_15">1968 Sept.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e812" level="file">
+               <did>
+                  <container type="box-folder">7/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_16">1968 Oct.-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e818" level="file">
+               <did>
+                  <container type="box-folder">7/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_17">1969 Feb.-Aug.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e824" level="file">
+               <did>
+                  <container type="box-folder">7/5</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_18">1969 Oct.-Dec.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e830" level="file">
+               <did>
+                  <container type="box-folder">7/6</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_19">1970</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e837" level="file">
+               <did>
+                  <container type="box-folder">7/7</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_20">1971</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e843" level="file">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_21">1972</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e849" level="file">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_22">1973-74</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e855" level="file">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_23">1975</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e861" level="file">
+               <did>
+                  <container type="box-folder">8/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_24">1975</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Obituaries</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd19e870" level="file">
+               <did>
+                  <container type="box-folder">8/5</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_25">1976-79</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e876" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_26">1980-82</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e882" level="file">
+               <did>
+                  <container type="box-folder">8/7</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PROGRAMS_AND_CLIPPINGS_CL1003_D3_27">1984-89</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd19e888" level="series">
+            <did>
+               <container type="box-folder">10/2-5</container>
+               <container type="box-folder">14/1</container>
+               <container type="box">9</container>
+               <unittitle encodinganalog="245$a" id="CL1004">Writings, <unitdate encodinganalog="245$f" type="inclusive" normal="1951/1976" era="ce"
+                            calendar="gregorian">1951-1976</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>The writings in this collection consist mainly of 200 pages of "Recollections" written by Margaret (Peggie) Dwight which chronicles her 24-year friendship with Dallapiccola. Please note: access may be restricted, refer to "Access and Restrictions" in the Administrative Information section for additional information.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged into two subseries by author and chronologically.</p>
+            </arrangement>
+            <c02 id="mferd19e907" level="subseries">
+               <did>
+                  <container type="box-folder">14/1</container>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a" id="CL10041001">Writings by Margaret (Peggie) Dwight</unittitle>
+               </did>
+               <c03 id="mferd19e915" level="file">
+                  <did>
+                     <container type="box-folder">9/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_1">Recollections, 1951-58, p. 1-28</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e921" level="file">
+                  <did>
+                     <container type="box-folder">9/2</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_2">Recollections, 1959-61, p. 29-55</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e927" level="file">
+                  <did>
+                     <container type="box-folder">9/3</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_3">Recollections, 1962-63, p. 56-84</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e933" level="file">
+                  <did>
+                     <container type="box-folder">9/4</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_4">Recollections, 1963-65, p. 85-117</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e939" level="file">
+                  <did>
+                     <container type="box-folder">9/5</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_5">Recollections, 1966-67, p. 118-156</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e945" level="file">
+                  <did>
+                     <container type="box-folder">9/6</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_6">Recollections, 1968-70, p. 157-201</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e951" level="file">
+                  <did>
+                     <container type="box-folder">9/7</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_7">Recollections, 1971-76, p. 202-end</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e957" level="file">
+                  <did>
+                     <container type="box-folder">9/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_8">Recollections, Notes, 8 p.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e963" level="file">
+                  <did>
+                     <container type="box-folder">9/8</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_9">Collection contents list, [2 p.]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e969" level="file">
+                  <did>
+                     <container type="box-folder">14/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_Writings_by_Peggie_Dwight_CL10041001_D3_10">Recollections (revised), 227 p.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd19e975" level="subseries">
+               <did>
+                  <container type="box-folder">10/2-5</container>
+                  <unittitle encodinganalog="245$a" id="CL10041002">Writings by Luigi Dallapiccola</unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Libretti and notes by Dallapiccola</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged by title</p>
+               </arrangement>
+               <c03 id="mferd19e987" level="file">
+                  <did>
+                     <container type="box-folder">10/2</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu003007_Writings_by_Luigi_Dallapiccola_CL10041002_D3_1">Lecture, L. Dallapiccola, "Birth of Libretto," 25 p.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e993" level="file">
+                  <did>
+                     <container type="box-folder">10/3</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu003007_Writings_by_Luigi_Dallapiccola_CL10041002_D3_2">L. Dallapiccola, "Ulysses," typed libretto, 24 p.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd19e999" level="file">
+                  <did>
+                     <container type="box-folder">10/4</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu003007_Writings_by_Luigi_Dallapiccola_CL10041002_D3_3">L. Dallapiccola, Notes</unittitle>
+                     <note encodinganalog="500$a">
+                        <p>Includes "Goethe Lieder," "Greek Songs" and "Prisoner," [5 p.]</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 id="mferd19e1008" level="file">
+                  <did>
+                     <container type="box-folder">10/5</container>
+                     <unittitle encodinganalog="245$a"
+                                id="mu003007_Writings_by_Luigi_Dallapiccola_CL10041002_D3_4">L. Dallapiccola, Misc. Notes, [2 p.]</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd19e1014" level="series">
+            <did>
+               <container type="box-folder">11/3</container>
+               <unittitle encodinganalog="245$a" id="CL1005">Photographs</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Photographic prints of Ulysses production dated 1968.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arrangement is by subject.</p>
+            </arrangement>
+            <c02 id="mferd19e1026" level="file">
+               <did>
+                  <container type="box-folder">11/3</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_PHOTOGRAPHS_CL1005_D3_1">Ulysses. Photographs, Berlin production, 1968</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd19e1032" level="series">
+            <did>
+               <container type="box-folder">10/1</container>
+               <unittitle encodinganalog="245$a" id="CL1006">Books</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Book by Franco Nencini</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by author</p>
+            </arrangement>
+            <c02 id="mferd19e1044" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="mu003007_BOOKS_CL1006_D3_1">
+                     <persname encodinganalog="100$a" role="aut" normal="Nencini, Franco">Nencini, Franco</persname>
+                  </unittitle>
+               </did>
+               <c03 id="mferd19e1051" level="file">
+                  <did>
+                     <container type="box-folder">10/1</container>
+                     <unittitle encodinganalog="245$a" id="mu003007_BOOKS_CL1006_D4_1">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
+                               altrender="normal">Firenze i giorni del diluvio</title>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd19e1060" level="series">
+            <did>
+               <container type="box-folder">11/1-2</container>
+               <container type="box-folder">11/4</container>
+               <container type="box-folder">13/1</container>
+               <unittitle encodinganalog="245$a" id="CL1007">Miscellaneous</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Miscellaneous materials</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by format</p>
+            </arrangement>
+            <c02 id="mferd19e1076" level="file">
+               <did>
+                  <container type="box-folder">11/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MISCELLANEOUS_CL1007_D3_1">McDonald, Calum; Luigi Dallapiccola, A Complete Catalogue, 21 p.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e1082" level="file">
+               <did>
+                  <container type="box-folder">11/2</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MISCELLANEOUS_CL1007_D3_2">Program, New York Philharmonic, April 29, 1936</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Autographed by Arturo Toscanini</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 id="mferd19e1091" level="file">
+               <did>
+                  <container type="box-folder">11/4</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MISCELLANEOUS_CL1007_D3_3">Champagne cork, autographed, 1969</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd19e1097" level="file">
+               <did>
+                  <container type="box-folder">13/1</container>
+                  <unittitle encodinganalog="245$a" id="mu003007_MISCELLANEOUS_CL1007_D3_4">Poster, 1979</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Concert in honor of Dallapiccola given by Maggio Musicale, Florence</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

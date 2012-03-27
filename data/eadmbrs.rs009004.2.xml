@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Thu, 19 January 2012 02:48:48 PM EST
+URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs009004
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd121e4">
+   <eadheader id="mferd121e5" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mbrsrs/eadmbrs.rs009004"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs009004</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Allen Prescott Collection</titleproper>
+            <author>Author: Karen Fishman, with assistance from Callie Holmes and Marsha
+                    Maguire</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                    <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Motion
+                    Picture, Broadcasting and Recorded Sound Division, Library of
+                    Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2009" encodinganalog="260$c" era="ce" calendar="gregorian">2009</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mbrsrs/mbrsrs.contact">http://hdl.loc.gov/loc.mbrsrs/mbrsrs.contact</extref>
+                    </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2009600303" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2009600303</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Marsha Maguire, <date era="ce" calendar="gregorian" normal="2009">2009</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041" langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid prepared using DACS ( <title xlink:type="simple" render="italic">Describing
+                    Archives: A Content Standard</title>)</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change encodinganalog="583">
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item audience="internal">Controlled access headings matched to coll-level MARC
+                    record headings; finding aid head elements shortened to conform to LC XML
+                    datastore requirements; M. Maguire</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd121e52">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Allen Prescott collection <unitdate label="Inclusive Dates" type="inclusive" normal="1930/1968"
+                      encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1930-1968</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" normal="1933/1948" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">1933-1948</unitdate>
+         </unittitle>
+         <origination label="Creator">
+                <persname encodinganalog="100" source="lcnaf" role="creator">Prescott,
+                    Allen</persname>
+            </origination>
+         <physdesc label="Extent (Textual Materials)">
+                <extent encodinganalog="300">3.5 linear feet (4 boxes)</extent>
+            </physdesc>
+         <physdesc label="Extent (Photographs)">
+                <extent encodinganalog="300">63 photographic prints</extent>
+            </physdesc>
+         <physdesc label="Extent (Sound Recordings)">
+                <extent encodinganalog="300">6 sound tape reels</extent>
+            </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection materials are in
+                    <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                <corpname>
+               <subarea>Recorded Sound Reference Center, Motion Picture,
+                        Broadcasting and Recorded Sound Division</subarea> Library of
+                    Congress</corpname>
+                <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            </repository>
+         <abstract label="Summary" encodinganalog="520$a">The Allen Prescott Collection
+                consists of sound recordings, photographs, and printed materials pertaining to
+                Prescott’s career as a radio personality during the early 1930s to
+                1970.</abstract>
+         <physloc label="Location of Textual and Graphic Materials" encodinganalog="852$z">RPA 00323-00324 (boxes 1-2); RPC 00007 (box 4); RPD 00011 (box 3)</physloc>
+         <physloc label="Location of Sound Recordings">RXA 2480–2485</physloc>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd121e102" altrender=":::F005=^20100604081227.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+                    collection in the Library's online catalog. They are grouped by name of
+                    person or organization, by subject or location, and by occupation and
+                    listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd123e12">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Prescott%2C+Allen+Archives.^">Prescott, Allen--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Prescott%2C+Allen+Photographs.^">Prescott, Allen--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Prescott%2C+Allen.^">Prescott, Allen.</persname>
+         </controlaccess>
+         <controlaccess id="mferd123e27">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Home+economics.^">Home economics.</subject>
+         </controlaccess>
+         <controlaccess id="mferd123e36">
+            <head>Titles</head>
+            <title xlink:type="simple" encodinganalog="730" source="lcnaf"
+                   altrender=":::PWEBRECON=^Wife+saver+%28Radio+program%29^">Wife saver (Radio program)</title>
+         </controlaccess>
+         <controlaccess id="mferd123e46">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Audiotapes.^">Audiotapes.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Letters+%28Correspondence%29^">Letters (Correspondence)</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="gmgpc"
+                       altrender=":::PWEBRECON=^Publicity+photographs.^">Publicity photographs.</genreform>
+            <genreform encodinganalog="655" source="lcgft"
+                       altrender=":::PWEBRECON=^Radio+commercials.^">Radio commercials.</genreform>
+            <genreform encodinganalog="655" source="lcgft" altrender=":::PWEBRECON=^Radio+programs.^">Radio programs.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Radio+scripts.^">Radio scripts.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Writings+%28Document+genre%29^">Writings (Document genre)</genreform>
+         </controlaccess>
+         <controlaccess id="mferd123e83">
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="lcsh"
+                        altrender=":::PWEBRECON=^Housewives+Life+skills+guides.^">Housewives--Life skills guides.</occupation>
+            <occupation encodinganalog="656" source="lcsh"
+                        altrender=":::PWEBRECON=^Radio+journalists+Photographs.^">Radio journalists--Photographs.</occupation>
+            <occupation encodinganalog="656" source="lcsh"
+                        altrender=":::PWEBRECON=^Radio+journalists.^">Radio journalists.</occupation>
+            <occupation encodinganalog="656" source="lcsh"
+                        altrender=":::PWEBRECON=^Radio+personalities+Photographs.^">Radio personalities--Photographs.</occupation>
+            <occupation encodinganalog="656" source="lcsh"
+                        altrender=":::PWEBRECON=^Radio+personalities.^">Radio personalities.</occupation>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd121e163" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd121e166" encodinganalog="541">
+            <head>Collection Acquisition</head>
+            <p>The collection was donated to the Library of Congress by Raymond A. Mann in
+                    1980.</p>
+         </acqinfo>
+         <accruals id="mferd121e171" encodinganalog="584">
+            <head>Additions</head>
+            <p>No further additions to the collection are expected.</p>
+         </accruals>
+         <processinfo id="mferd121e176" encodinganalog="583">
+            <head>Processing Information</head>
+            <p>The collection was processed by Karen Fishman in November, 2009.</p>
+         </processinfo>
+         <userestrict id="mferd121e181" encodinganalog="540">
+            <head>Use Restrictions</head>
+            <p>Restrictions may exist on copying, quoting, or publishing materials included
+                    in the collection. For additional information, contact a reference
+                    librarian in the Recorded Sound Reference Center, Motion Picture,
+                    Broadcasting and Recorded Sound Division, Library of Congress, Washington,
+                    DC, 20540-4690; (202) 707-7833.</p>
+         </userestrict>
+         <accessrestrict id="mferd121e186" encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>The Allen Prescott Collection is open for research.</p>
+         </accessrestrict>
+         <prefercite id="mferd121e191" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following
+                    information: [Container number, eg., Box 3] or [Audio tape number, eg., RXA
+                    2480], Allen Prescott Collection, Motion Picture, Broadcasting and Recorded
+                    Sound Division, Library of Congress.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd121e196" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Allen Prescott (1904-1978) was host of the radio program, <title xlink:type="simple" render="italic">The Wife Saver</title>, a program offering household hints to housewives
+                several mornings and afternoons a week. His cheery introduction, “Hello,
+                girls,” opened the program, and his signature sign-off, “Mrs. Housewife, I hope
+                there’s nothing burning,” characterized the show’s light and breezy style.
+                Listeners from all over the country sent him hundreds of letters a week with
+                household tips in hopes of Prescott reading them on the air.</p>
+         <p>
+            <title xlink:type="simple" render="italic">The Wife Saver</title> aired on New York radio stations
+                WINS and WABC in 1929, moving to NBC’s Blue Network in 1932, where it was
+                broadcast for 15 minutes, thrice weekly. In 1933 the show could be heard on
+                early morning time slots. By 1941 the program’s name and format changed to
+                    <title xlink:type="simple" render="italic">Prescott Presents</title> and the show aired
+                weekdays for 30 minutes until 1943. In addition to hosting his radio program,
+                Prescott wrote two books, <title xlink:type="simple" render="italic">The Wife-Saver’s Candy
+                    Recipes</title> and <title xlink:type="simple" render="italic">Aunt Harriet’s Household
+                    Hints</title>.</p>
+         <p>Allen Prescott began his radio career as a newscaster. According to Thomas
+                DeLong’s <title xlink:type="simple" render="italic">Radio Stars</title>, Prescott was “working as a
+                    <title xlink:type="simple" render="italic">New York Mirror</title> reporter in 1929, appearing
+                on a WMCA news program with Walter Winchell. By 1931 Prescott was on the air as
+                a WINS newsman, covering special events such as aerial maneuvers over Manhattan
+                and polo matches from Governors Island.” In later years he would host other
+                radio programs, <title xlink:type="simple" render="italic">New York Tonight</title>, <title xlink:type="simple" render="italic">Say It with Words</title> and <title xlink:type="simple" render="italic">Crossword Quiz</title>, taking them with him when he made the transition
+                to television. He also appeared periodically on <title xlink:type="simple" render="italic">For Men
+                    Only</title>, <title xlink:type="simple" render="italic">Mile O’Dimes</title>, <title xlink:type="simple" render="italic">Uncle Jim’s Question Bee</title>, <title xlink:type="simple" render="italic">Hemisphere Revue</title>, and a public affairs program, <title xlink:type="simple" render="italic">Once in Every Family</title>.</p>
+         <p>His work in television included a six-week run of <title xlink:type="simple" render="italic">The
+                    Wife Saver</title> on NBC in 1947 and as emcee for the locally produced ABC
+                show, <title xlink:type="simple" render="italic">Quizzing the News</title>, from 1948 to 1949.</p>
+         <p>Born in St. Louis, Prescott moved to New York at an early age and graduated from
+                the New York Military Academy and the University of Pennsylvania. He served for
+                two years during World War II in the naval air service.</p>
+         <p>Allen Prescott died January 28, 1978, from a heart attack and left no
+                survivors.</p>
+      </bioghist>
+      <scopecontent id="mferd121e262" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Allen Prescott Collection consists of sound recordings, photographs, and
+                printed materials pertaining to Prescott’s career as a radio personality during
+                the early 1930s to 1970.</p>
+         <p>Included in the collection are recordings from Prescott’s radio programs,
+                manuscript materials, publicity photographs, and two 16mm films (which were
+                    <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                 target="separatedmat">transferred
+                    to the Moving Image Section</ref> of the Motion Picture, Broadcasting and
+                Recorded Sound Division).</p>
+         <p>The paper materials date from 1930 to 1968, with the bulk of the materials
+                dating from 1933 to 1948. The collection contains correspondence, fan mail,
+                radio scripts, newspaper clippings, and scrapbooks. It also includes an
+                unpublished novel, short stories, manuscript submissions to publishers, and an
+                interview with Steve Allen, the entertainer.</p>
+      </scopecontent>
+      <arrangement id="mferd121e274" encodinganalog="351">
+         <head>Collection Arrangement</head>
+         <p>The collection has been arranged into eight series:</p>
+         <list type="simple">
+            <item>Series 1: Radio Scripts, 1933-1948, and undated</item>
+            <item>Series 2: Household Hints, 1953-1954, and undated</item>
+            <item>Series 3: Correspondence and Fan Mail, 1930, 1932, 1936-1937, 1968, and
+                    undated</item>
+            <item>Series 4: Newspaper Clippings, 1932, 1938</item>
+            <item>Series 5: Writings, undated</item>
+            <item>Series 6: Photographs, 1930, 1932, 1949, 1953, and undated</item>
+            <item>Series 7: Scrapbooks, 1930-1932, 1939</item>
+            <item>Series 8: Sound Recordings, 1965, and undated</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2009600303" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2009600303</extref>
+      </otherfindaid>
+      <dsc id="mferd121e296" type="combined">
+         <head>Container List</head>
+         <c01 level="series" id="series1">
+            <did>
+               <unittitle>Series 1. Radio Scripts, <unitdate normal="1933/1948" calendar="gregorian" era="ce">1933-1948</unitdate>, and
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <physdesc>
+                        <extent>8 folders</extent>
+                    </physdesc>
+               <physloc>RPA 00323 (box 1)</physloc>
+            </did>
+            <scopecontent>
+               <p>Series 1 contains scripts of Prescott’s radio programs, <title xlink:type="simple" render="italic">The Wife Saver</title> and <title xlink:type="simple" render="italic">New York Tonight</title>, as well as scripts for commercials. The
+                            <title xlink:type="simple" render="italic">Wife Saver</title> scripts date from 1933 to
+                        1945, and the five <title xlink:type="simple" render="italic">New York Tonight</title>
+                        scripts are from June, 1948. Commercials are for A.E. Staley Mfg.
+                        Company and Martinson’s Coffee. The miscellaneous scripts folder
+                        includes commercials for the Detroit Motor Company, the Girard Company
+                        (makers of Dagger Blades), the Gillette Company (maker of Sun Up
+                        aftershave), Sta-Puf fabric softener, and Mohawk carpets.</p>
+            </scopecontent>
+            <c02 id="mferd121e330" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>,
+                                <unitdate era="ce" calendar="gregorian">1933-1935, 1938-1939, 1940</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e340" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>,
+                                <unitdate era="ce" calendar="gregorian">1941, 1945</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e350" level="file">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e360" level="file">
+               <did>
+                  <container type="box-folder">1/4</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>, A.E. Staley
+                            Mfg. Company commercials, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e370" level="file">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle>Martinson’s Coffee commercials,
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e378" level="file">
+               <did>
+                  <container type="box-folder">1/6</container>
+                  <unittitle>Miscellaneous commercials,
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e386" level="file">
+               <did>
+                  <container type="box-folder">1/7</container>
+                  <unittitle>Miscellaneous scripts and sample shows,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e394" level="file">
+               <did>
+                  <container type="box-folder">1/8</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">New York Tonight</title>,
+                                <unitdate era="ce" calendar="gregorian">1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series2">
+            <did>
+               <unittitle>Series 2. Household Hints, <unitdate calendar="gregorian" normal="1953/1954" era="ce">1953-1954</unitdate>, and
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <physdesc>
+                        <extent>2 folders</extent>
+                    </physdesc>
+               <physloc>RPA 00323 (box 1)</physloc>
+            </did>
+            <scopecontent>
+               <p>
+                  <title xlink:type="simple" render="italic">The Wife Saver</title> radio program gave
+                        housewives helpful advice, much of it that had been sent in from
+                        listeners all over the United States. This series contains letters and
+                        postcards dating from 1953 and 1954. Memos from station WFIL in
+                        Philadelphia, Pennsylvania, also contain many recommendations used by
+                        Prescott. A booklet, the <title xlink:type="simple" render="italic">Wife Saver Handy
+                            Book</title>, a collection of household hints published by the Blue
+                        Network of NBC in 1950, and one folder of miscellaneous material are
+                        included in this series as well.</p>
+            </scopecontent>
+            <c02 id="mferd121e428" level="file">
+               <did>
+                  <container type="box-folder">1/9</container>
+                  <unittitle>Household hints used on program, <unitdate era="ce" calendar="gregorian">1953-1954, and
+                                undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e436" level="file">
+               <did>
+                  <container type="box-folder">1/10</container>
+                  <unittitle>Miscellaneous household hints,
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series3">
+            <did>
+               <unittitle>Series 3. Correspondence and Fan Mail, <unitdate calendar="gregorian" normal="1930" era="ce">1930</unitdate>, <unitdate calendar="gregorian" normal="1932" era="ce">1932</unitdate>, <unitdate calendar="gregorian" normal="1936/1937" era="ce">1936-1937</unitdate>,
+                            <unitdate calendar="gregorian" normal="1968" era="ce">1968</unitdate>, and
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <physdesc>
+                        <extent> 1 folder</extent>
+                    </physdesc>
+               <physloc>RPA 00323 (box 1)</physloc>
+            </did>
+            <scopecontent>
+               <p>This small series contains correspondence with a listener, as well as
+                        letters from radio personalities such as Ted Husing and A.L. Alexander,
+                        NBC management, publishers, and his mother, Mrs. J.A. Prescott (one
+                        letter). Business invoices are also included.</p>
+            </scopecontent>
+            <c02 id="mferd121e472" level="file">
+               <did>
+                  <container type="box-folder">1/11</container>
+                  <unittitle>Correspondence and fan mail, <unitdate era="ce" calendar="gregorian">1930, 1932,
+                                1936-1937, 1968, and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series4">
+            <did>
+               <unittitle>Series 4. Newspaper Clippings, <unitdate calendar="gregorian" normal="1932" era="ce">1932</unitdate>, <unitdate normal="1938" era="ce" calendar="gregorian">1938</unitdate>
+               </unittitle>
+               <physdesc>
+                        <extent>1 folder</extent>
+                    </physdesc>
+               <physloc>RPA 00323 (box 1)</physloc>
+            </did>
+            <scopecontent>
+               <p>The majority of clippings in this series is from 1938, when Prescott was
+                        mentioned in many newspaper columns, including “In New York,” “Radio
+                        Dial Log,” “Dialing with Doyle,” and “Walter Winchell on Broadway.”
+                        Most newspaper clippings in this series have been photocopied onto acid
+                        free paper. Many more newspaper articles about Prescott will be found
+                        in his scrapbooks in Series 7.</p>
+            </scopecontent>
+            <c02 id="mferd121e499" level="file">
+               <did>
+                  <container type="box-folder">1/12</container>
+                  <unittitle>Newspaper clippings, <unitdate era="ce" calendar="gregorian">1932,
+                            1938</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series5">
+            <did>
+               <unittitle>Series 5. Writings, <unitdate calendar="gregorian" era="ce">undated</unitdate>
+               </unittitle>
+               <physdesc>
+                        <extent>8 folders</extent>
+                    </physdesc>
+               <physloc>RPA 00324 (box 2)</physloc>
+            </did>
+            <scopecontent>
+               <p>This series contains typescripts of unpublished novels and short
+                        stories. Included are nine chapters from an unpublished novel, <title xlink:type="simple" render="italic">The Corinthian Class</title>, four chapters and a
+                        synopsis from another novel, <title xlink:type="simple" render="italic">Goode
+                            Knight</title>, and synopses from short stories, “Don’t Just Do
+                        Something; Sit There,” “Stay in Your Own Bed,” and “Mama Bear, Papa
+                        Bear and Baby Bear.” There is also one folder of an interview Prescott
+                        conducted with entertainer Steve Allen and another folder of material
+                        for an unpublished book, <title xlink:type="simple" render="italic">The Wife saver, a
+                            Household Hand Book and Wives’ Companion</title>.</p>
+            </scopecontent>
+            <c02 id="mferd121e532" level="file">
+               <did>
+                  <container type="box-folder">2/1</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>, additional
+                            sections, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e542" level="file">
+               <did>
+                  <container type="box-folder">2/2</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Corinthian Class</title>,
+                            chapters I-V, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e552" level="file">
+               <did>
+                  <container type="box-folder">2/3</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Corinthian Class</title>,
+                            chapters VI-IX, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e562" level="file">
+               <did>
+                  <container type="box-folder">2/4</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">Goode Knight</title>,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e572" level="file">
+               <did>
+                  <container type="box-folder">2/5</container>
+                  <unittitle>“Don’t Just Do Something; Sit There,”
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e580" level="file">
+               <did>
+                  <container type="box-folder">2/6</container>
+                  <unittitle>"Mama Bear, Papa Bear and Baby Bear,"
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e588" level="file">
+               <did>
+                  <container type="box-folder">2/7</container>
+                  <unittitle>"Stay in Your Own Bed,"
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e596" level="file">
+               <did>
+                  <container type="box-folder">2/8</container>
+                  <unittitle>Interview with Steve Allen,
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series6">
+            <did>
+               <unittitle>Series 6. Photographs, <unitdate calendar="gregorian" normal="1930" era="ce">1930</unitdate>, <unitdate normal="1932" era="ce" calendar="gregorian">1932</unitdate>, <unitdate normal="1949" era="ce" calendar="gregorian">1949</unitdate>,
+                            <unitdate normal="1953" era="ce" calendar="gregorian">1953</unitdate>, and
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <physdesc>
+                        <extent>63 photographic prints (2 folders, 1 oversize box)</extent> ;
+                            <dimensions>11 x 14 inches or smaller</dimensions>
+                    </physdesc>
+               <physloc>RPA 00324 (box 2); RPD 00011 (box 3)</physloc>
+            </did>
+            <scopecontent>
+               <p>This series contains 63 photographs. Prescott appears in studio
+                        portraits as well as publicity photos, both alone and with other radio
+                        personalities and work associates. Personalities include Fran Allison,
+                        Rex Stout, Graham McNamee, Ted Husing, and Ace Pancoast. There are also
+                        six photos from Prescott’s military service during World War II, when
+                        he was attached to Fleet Air Wing 4 and stationed in the Aleutian
+                        Islands. Photographs located in the oversize box include portraits, two
+                        photographs of Prescott and his mother, and many photographs of
+                        Prescott posing with unidentified colleagues. Most of the photographs
+                        are undated and unidentified.</p>
+            </scopecontent>
+            <c02 id="mferd121e635" level="file">
+               <did>
+                  <container type="box-folder">2/9</container>
+                  <unittitle>Photographs, <unitdate era="ce" calendar="gregorian">1932 and
+                            undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd121e643" level="file">
+               <did>
+                  <container type="box-folder">2/10</container>
+                  <unittitle>Photographs, <unitdate era="ce" calendar="gregorian">1930, 1949, 1953, and
+                                undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd121e651" level="item">
+                  <did>
+                     <container type="box-folder">2/10</container>
+                     <unittitle>Allen Prescott publicity photograph, <unitdate era="ce" calendar="gregorian">between
+                                    1930 and 1939</unitdate>
+                     </unittitle>
+                     <physdesc>
+                                <extent>1 photographic print</extent> ; <dimensions>10 x 8
+                                    inches</dimensions>
+                            </physdesc>
+                     <daogrp xlink:type="extended">
+                        <daoloc xlink:type="locator" xlink:href="http://hdl.loc.gov/loc.mbrsrs/ppmsca.02992">
+                           <daodesc>
+                              <p>View digital image</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd121e672" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Oversize photographs,
+                            <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series7">
+            <did>
+               <unittitle>Series 7. Scrapbooks, <unitdate calendar="gregorian" normal="1930/1932" era="ce">1930-1932</unitdate>, <unitdate normal="1939" era="ce" calendar="gregorian">1939 </unitdate>
+               </unittitle>
+               <physdesc>
+                        <extent>1 oversize box</extent>
+                    </physdesc>
+               <physloc>RPC 00007 (box 4)</physloc>
+            </did>
+            <scopecontent>
+               <p>This series includes two scrapbooks containing newspaper clippings,
+                        magazine articles, photographs, and other ephemera. The larger of the
+                        two scrapbooks is made from a promotional magazine published by the
+                        Studebaker Car Company that has newspaper clippings, magazine articles,
+                        and photographs pasted onto its pages. The other scrapbook consists of
+                        newspaper clippings from 1939. Both are in very poor condition.</p>
+            </scopecontent>
+            <c02 id="mferd121e699" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Scrapbooks, <unitdate era="ce" calendar="gregorian">1930-1932, 1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series8">
+            <did>
+               <unittitle>Series 8. Sound Recordings, <unitdate calendar="gregorian" normal="1965" era="ce">1965</unitdate>, and
+                        <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>6 sound tape reels</extent> : <physfacet>analog, 7 1/2
+                            inches per second, full track, mono</physfacet> ;
+                            <dimensions>7-inch</dimensions>
+               </physdesc>
+               <physloc>RXA 2480–2485</physloc>
+            </did>
+            <altformavail id="mferd121e727" encodinganalog="530">
+               <head>Digital Format</head>
+               <p>A digital version of the audiotapes is available for listening in the
+                        Recorded Sound Reference Center, Motion Picture, Broadcasting and
+                        Recorded Sound Division, Library of Congress, Washington, DC,
+                        20540-4690; (202) 707-7833. Format of access copy: Broadcast Wave
+                        (BWF), 44.1 kHz, 16 bits per sample (made from preservation copy:
+                        Broadcast Wave (BWF), 96 kHz, 24 bits per sample).</p>
+            </altformavail>
+            <scopecontent>
+               <p>This series consists of six sound recordings on 7-inch reels. Included
+                        are undated <title xlink:type="simple" render="italic">Wife Saver</title> radio programs
+                        and brief announcements, experimental spots, and audition pieces for a
+                        program called <title xlink:type="simple" render="italic">As a Matter of Fact</title>.</p>
+            </scopecontent>
+            <c02 id="mferd121e741" level="item">
+               <did>
+                  <container type="reel">RXA 2480</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <origination>
+                            <persname role="announcer" source="LCNAF">Prescott,
+                                Allen</persname>
+                        </origination>
+                  <physdesc>
+                     <extent>1 sound tape reel (20 minutes, 40 seconds)</extent> :
+                                <physfacet>analog, 7 1/2 inches per second, full track,
+                                mono</physfacet> ; <dimensions>7-inch</dimensions>
+                  </physdesc>
+                  <note>
+                     <p>Title on original container: "Monitor-The Wifesaver."</p>
+                  </note>
+               </did>
+               <scopecontent>
+                  <p>Consists of a series of household hint "talks," each about one
+                            minute long, delivered by Allen Prescott. Every piece begins with
+                            the sound of a ringing doorbell and the introductory line, "Hello,
+                            girls, this is Allen Prescott, the Wife Saver," and ends with,
+                            "Mrs. Housewife, I hope there's nothing burning." No guests and no
+                            music are featured, just Prescott delivering household hints with a
+                            touch of humor.</p>
+               </scopecontent>
+               <note>
+                  <p>Handwritten description on original container: "About 15 one-minute
+                            talks."</p>
+               </note>
+            </c02>
+            <c02 id="mferd121e774" level="item">
+               <did>
+                  <container type="reel">RXA 2481</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">As a Matter of Fact</title>,
+                                <unitdate era="ce" calendar="gregorian">1965-03-16</unitdate>
+                  </unittitle>
+                  <origination>
+                            <persname role="announcer" source="LCNAF">Prescott,
+                                Allen</persname>
+                        </origination>
+                  <physdesc>
+                     <extent>1 sound tape reel (2 minutes, 36 seconds)</extent> :
+                                <physfacet>analog, 7 1/2 inches per second, full track,
+                                mono</physfacet> ; <dimensions>7-inch</dimensions>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Allen Prescott introduces himself and announces an Everlasting
+                            Dagger Blades commercial that includes descriptions of several
+                            historical and technological phenomena, each introduced by the
+                            phrase, "As a matter of fact...." In the next track, Prescott
+                            introduces himself and delivers a Rock of Ages Bank and Trust Co.
+                            commercial that includes descriptions of several historical and
+                            technological phenomena, each introduced by the phrase, "As a
+                            matter of fact...." The third track consists of a very brief,
+                            unidentified segment of an unaccompanied choral performance.</p>
+               </scopecontent>
+               <note>
+                  <p>Description on original container: "4 one minute audition (?)
+                            talks."</p>
+               </note>
+            </c02>
+            <c02 id="mferd121e804" level="item">
+               <did>
+                  <container type="reel">RXA 2482</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <origination>
+                            <persname role="announcer" source="LCNAF">Prescott,
+                                Allen</persname>
+                        </origination>
+                  <physdesc>
+                     <extent>on 1 sound tape reel (3 minutes, 44 seconds)</extent>
+                            : <physfacet>analog, 7 1/2 inches per second, full track,
+                                mono</physfacet> ; <dimensions>7-inch</dimensions>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Four brief <title xlink:type="simple" render="italic">Wife Saver</title> pieces, with a
+                            total duration of 03:44.</p>
+                  <p>
+                     <title xlink:type="simple" render="italic">Wife Saver</title> pieces (about one minute
+                            each in duration) each begin with the introduction, "Hello, this is
+                            Allen Prescott, the Wife Saver." Household hints, interspersed with
+                            wry comments, include suggested methods for keeping "baby" safe
+                            while "parked" on the sofa, opening bottles of soda water, hanging
+                            wallpaper, and deterring moles.</p>
+                  <p>The <title xlink:type="simple" render="italic">Wife Saver</title> material is followed
+                            on the tape by two examples of a proposed series entitled <title xlink:type="simple" render="italic">As a Matter of Fact</title>.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd121e846" level="item">
+               <did>
+                  <container type="reel">RXA 2482</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">As a Matter of Fact</title>,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <origination>
+                            <persname role="announcer" source="LCNAF">Prescott,
+                                Allen</persname>
+                        </origination>
+                  <physdesc>
+                     <extent>on 1 sound tape reel (2 minutes, 29 seconds)</extent>
+                            : <physfacet>analog, 7 1/2 inches per second, full track,
+                                mono</physfacet> ; <dimensions>7-inch</dimensions>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Allen Prescott introduces an idea for "a series of fillers" entitled
+                                <title xlink:type="simple" render="italic">As a Matter of Fact</title>. Similar to
+                            the light, comedic treatment of useful information that
+                            characterizes his <title xlink:type="simple" render="italic">Wife Saver</title>
+                            program, Prescott remarks that <title xlink:type="simple" render="italic">As a Matter
+                                of Fact</title> expands "from the household to a broader
+                            field." Two sample pieces include brief descriptions of the use of
+                            feathers for money, an ancient game, connecting rods, the secret
+                            ballot, and the oldest known fossils of beetles. Both pieces end
+                            with the phrase "...as a matter of fact."</p>
+                  <p>The <title xlink:type="simple" render="italic">As a Matter of Fact</title> material is
+                            preceded on the tape by four brief <title xlink:type="simple" render="italic">Wife
+                                Saver</title> pieces.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd121e890" level="item">
+               <did>
+                  <container type="reel">RXA 2483</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <origination>
+                            <persname role="announcer" source="LCNAF">Prescott,
+                                Allen</persname>
+                        </origination>
+                  <physdesc>
+                     <extent>on 1 sound tape reel (3 minutes, 44 seconds)</extent>
+                            : <physfacet>analog, 7 1/2 inches per second, full track,
+                                mono</physfacet> ; <dimensions>7-inch</dimensions>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>The content is identical to <title xlink:type="simple" render="italic">The Wife
+                                Saver</title> material on the preceding tape, RXA 2482.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd121e920" level="item">
+               <did>
+                  <container type="reel">RXA 2483</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">As a Matter of Fact</title>,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <origination>
+                            <persname role="announcer" source="LCNAF">Prescott,
+                                Allen</persname>
+                        </origination>
+                  <physdesc>
+                     <extent>on 1 sound tape reel (2 minutes, 29 seconds)</extent>
+                            : <physfacet>analog, 7 1/2 inches per second, full track,
+                                mono</physfacet> ; <dimensions>7-inch</dimensions>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>The content is identical to <title xlink:type="simple" render="italic">As a Matter of
+                                Fact</title> material on the preceding tape, RXA 2482.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd121e950" level="item">
+               <did>
+                  <container type="reel">RXA 2484</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title>,
+                                <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <origination>
+                            <persname role="announcer" source="LCNAF">Prescott,
+                                Allen</persname>
+                        </origination>
+                  <physdesc>
+                     <extent>1 sound tape reel (9 minutes, 31 seconds)</extent> :
+                                <physfacet>analog, 7 1/2 inches per second, full track,
+                                mono</physfacet> ; <dimensions>7-inch</dimensions>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>In the first of two brief <title xlink:type="simple" render="italic">Wife Saver</title>
+                            programs, announcer Allen Prescott offers a number of household
+                            hints, such as how to freshen a black silk dress, freezing nylon
+                            stockings for longer wear, whipping cream, and removing lime
+                            deposits from tea kettles; also included are commercials for
+                            General Electric coffee makers and toasters. In the second program,
+                            Prescott offers household hints concerning "our war with inanimate
+                            objects," such as coping with "vacuum cleaner fuddle," wearing clip
+                            earrings, peeling oranges with a spoon, keeping slacks in shape,
+                            keeping "baby" safe when "parked" on the sofa, and serving mussels;
+                            commercials are for General Electric portable vacuum cleaners,
+                            toasters, and coffee makers.</p>
+               </scopecontent>
+               <note>
+                  <p>Description on original container: "2 five-minute shows for General
+                            Electric."</p>
+               </note>
+            </c02>
+            <c02 id="mferd121e983" level="item">
+               <did>
+                  <container type="reel">RXA 2485</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic">The Wife Saver</title> experimental
+                            spots, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+                  <origination>
+                            <persname role="host" source="LCNAF">Prescott, Allen</persname>
+                        </origination>
+                  <physdesc>
+                     <extent>1 sound tape reel (15 minutes, 40 seconds)</extent> :
+                                <physfacet>analog, 7 1/2 inches per second, full track,
+                                mono</physfacet> ; <dimensions>7-inch</dimensions>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>The tape contains four <title xlink:type="simple" render="italic">Wife Saver</title>
+                            programs, each less than five minutes in duration, and a separately
+                            presented commercial. At the beginning of each program, announcer
+                            Allen Prescott introduces himself as the Wife Saver. In the first
+                            program, he makes suggestions to use moleskin to make clip earrings
+                            more comfortable, peel oranges with a spoon, hang slacks by the
+                            pockets to dry, keep "baby" safe when "parked" on the sofa, and
+                            button cuffs to the front of a shirt before washing; commercials
+                            are for Sta-Puf fabric softener and Sta-Flow spray starch. In the
+                            second program, he provides tips on adding hot soup to a cold meal,
+                            making a slip-free tie rack, reducing the amount of luggage needed
+                            for overseas travel, using eyeliner, peeling cooked eggs, and
+                            cleaning a dirty oven with a towel soaked in ammonia; commercials
+                            are for Sta-Flow and Sta-Puf.</p>
+                  <p>In the third program, Prescott offers hints on freshening a black
+                            silk dress, freezing nylon stockings for longer wear, keeping
+                            rabbits away from the garden, whipping cream, removing lime
+                            deposits from tea kettles, grating chocolate safely, and keeping
+                            moths away from stored yarn; commercials are for Sta-Flow and Blue
+                            Raindrops water softener. In the fourth program, which is several
+                            minutes shorter than the first three, Prescott offers a household
+                            tip on stopping squeaks in doors and delivers a Sta-Flow
+                            commercial. The fifth track, not a program, is a 30-second
+                            commercial for Sta-Flow.</p>
+               </scopecontent>
+               <note>
+                  <p>Description on original container: "15 minutes, audition (?)
+                            recording for A.E. Staley" (maker of Sta-Puf and Sta-Flow laundry
+                            products, and sponsor of the program).</p>
+               </note>
+            </c02>
+         </c01>
+      </dsc>
+      <descgrp type="add">
+         <separatedmaterial id="mferd121e1019" encodinganalog="544 0">
+            <head>Transferred Materials</head>
+            <p id="separatedmat">Two 16mm films were transferred to the Moving Image
+                    Section of the Motion Picture, Broadcasting and Recorded Sound Division
+                    (MBRS) in 2009. One of the films is a half-hour program from the series,
+                        <title xlink:type="simple" render="italic">Directions</title>, a Sunday morning ABC
+                    television program that Prescott narrated in 1969, and the other is an
+                    undated five-minute promotional film for his show <title xlink:type="simple" render="italic">The Wife Saver</title>. </p>
+         </separatedmaterial>
+      </descgrp>
+   </archdesc>
+</ead>

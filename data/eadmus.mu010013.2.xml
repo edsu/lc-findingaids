@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Mon, 20 June 2011 03:21:54 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu010013
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010013--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010013--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010013-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd103e3">
+   <eadheader id="mferd103e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu010013"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu010013</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Harriet Hoctor Collection
+		  </titleproper>
+            <author>Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2007" encodinganalog="260$c" era="ce" calendar="gregorian">2007</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2006568178"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2006568178</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd745e43">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Harriet Hoctor Collection
+		  <unitdate label="Span Dates" type="inclusive" normal="1917/1972" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1917-1972</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1923/1937" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1923-1937)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.H58</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Hoctor, Harriet</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">1,700 items</extent>
+		          <extent encodinganalog="300">12 containers</extent>
+		          <extent encodinganalog="300">10 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language">Material in
+		<language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Harriet Hoctor (1905-1977) was a dancer in vaudeville, on Broadway, and in films during the 1920s, 1930s and 1940s. The collection contains materials that document her professional life in all of these venues. It also contains items related to her early dance training at the Louis H. Chalif Normal School of Dancing in New York and the founding of the Harriet Hoctor Ballet School in Boston in 1945. Materials include correspondence from various notables, including Mary Pickford, Ted Shawn, Walter Winchell, Billy Rose, Milton Berle, and Florenz Ziegfeld; a scrapbook; clippings; contracts; photographs; programs; posters; reviews; publicity materials from various periods of her performing career; choreographic notes; music; personal papers; and costume designs.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd745e87" altrender=":::F005=^20100525012532.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd105e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Berle%2C+Milton+Correspondence.^">Berle, Milton--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hoctor%2C+Harriet+Archives.^">Hoctor, Harriet--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hoctor%2C+Harriet+Correspondence.^">Hoctor, Harriet--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hoctor%2C+Harriet+Photographs.^">Hoctor, Harriet--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hoctor%2C+Harriet.^">Hoctor, Harriet.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hoctor%2C+Harriet.^">Hoctor, Harriet.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Pickford%2C+Mary%2C+1892-1979+Correspondence.^">Pickford, Mary, 1892-1979--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rose%2C+Billy%2C+1899-1966+Correspondence.^">Rose, Billy, 1899-1966--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Shawn%2C+Ted%2C+1891-1972+Correspondence.^">Shawn, Ted, 1891-1972--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Winchell%2C+Walter%2C+1897-1972+Correspondence.^">Winchell, Walter, 1897-1972--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ziegfeld%2C+Flo%2C+1869-1932+Correspondence.^">Ziegfeld, Flo, 1869-1932--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd105e33">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Choreography+United+States.^">Choreography--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Costume+design+United+States.^">Costume design--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Dance+in+motion+pictures%2C+television%2C+etc.+United+States.^">Dance in motion pictures, television, etc.--United States.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Dance+music.^">Dance music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Dance+schools+United+States.^">Dance schools--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Dance+United+States.^">Dance--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musical+theater+United+States.^">Musical theater--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Vaudeville+United+States.^">Vaudeville--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Women+dancers+United+States.^">Women dancers--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd105e54">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd745e153" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd745e156" encodinganalog="541">
+            <head>Provenance</head>
+            <p>The material was donated to the Library in <date era="ce" calendar="gregorian">2000</date> by Hoctor's niece, Harriet Hoctor Groeschel.</p>
+         </acqinfo>
+         <accruals id="mferd745e164">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo id="mferd745e169" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Harriet Hoctor collection was processed by Elizabeth Aldrich in <date era="ce" calendar="gregorian">2007</date>. The finding aid was coded for EAD by Janet McKinney in <date era="ce" calendar="gregorian">2010</date>.</p>
+         </processinfo>
+         <userestrict id="mferd745e180" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>Materials from the Harriet Hoctor Collection are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict id="mferd745e185" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Harriet Hoctor Collection is open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd745e192" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+		  following information: [item, date, container number], Harriet Hoctor Collection, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd745e197" encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1905, Sept. 25</date>
+               <event>Born in Hoosick Falls, New York, to Timothy and Elizabeth Kearny Hoctor.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1917</date>
+               <event>Hoctor moves to New York City to live with her Aunt Annie Kearney and to study dance at the
+					Louis H. Chalif Normal School of Dancing. Later she studies with Ballets Russes member Ivan
+					Tarasov, as well as with notable ballet stars Anton Dolan and Nicholas Legat.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1918</date>
+               <event>Hoctor appears in minstrel shows in her hometown of Hoosick Falls.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1920</date>
+               <event>Makes her Broadway debut in the chorus of <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sally</title> (music by Jerome Kern; ballet music by Victor Herbert; produced by Florenz Ziegfeld; and starring Marilyn Miller).</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1922</date>
+               <event>Hoctor begins to work in vaudeville on the Keith and Orpheum Circuits. She also begins to study with
+					dancer, teacher, and choreographer Merriel Abbot, who would choreograph many of Hoctor's
+					specialty acts.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1923</date>
+               <event>Hoctor is hired by vaudeville superstars Vivian and Rosetta Duncan (known as the Duncan
+					Sisters) to dance in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Topsy and Eva</title> (music and lyrics by Vivian and Rosetta Duncan), the
+					Sisters's musical comedy adaptation of Harriet Beecher Stowe's novel <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Uncle Tom's Cabin</title>. The show previews in San Francisco, Los Angeles, Chicago, Detroit, and Cincinnati.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1924</date>
+               <event>While in Chicago, Hoctor choreographs her first show, a Chicago Junior League production of
+					<title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Wizard of Oz</title>. She also performs three solos as part of the Chicago Theatre's "Mighty Twin
+					Organ" concerts.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1924</date>
+               <event>
+                  <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Topsy and Eva</title> opens in New York City on 23 December at the Sam H. Harris Theatre and plays for twenty weeks.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1925</date>
+               <event>
+                  <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Topsy and Eva</title> tours in Boston and Chicago.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1926</date>
+               <event>Hoctor returns to San Francisco to perform vaudeville on the Orpheum Circuit and begins a
+					life-long dance partnership with William Holbrook, whom she meets at Ivan Tarasov's ballet
+					studio.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1927</date>
+               <event>After tryouts in Boston, the Broadway revue <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">A La Carte</title> opens in New York City's Martin Beck Theatre (music and lyrics by Herman Hupfeld, Louis Alter, Norma Gregg, and others; dances and ensembles staged by Sam Rose; special ballet direction by Theodore Bekeli; produced by Rosalie Stewart). Critics say that "Harriet Hoctor is the only member of the cast who is certain to be pleasantly remembered." After <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">A La Carte</title> closes, Hoctor returns to vaudeville.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1928</date>
+               <event>Hoctor stars in Florenz Ziegfeld's Broadway musical, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Three Musketeers</title> (music by Rudolf Friml; lyrics by P.G. Wodehouse and Clifford Grey; choreography by Albertina Rasch), which previews in Washington D.C. and Boston, opening in New York City at the Lyric Theatre.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1928</date>
+               <event>In the spring of 1928, Hoctor presents a series of Sunday evening recitals and includes her interpretation of Debussy's "Claire de Lune" and "The Raven," based on Edgar Allen Poe's poem. She also receives permission from Ziegfeld to dance in a series of Sunday night entertainments at the Selwyn Theatre.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1928</date>
+               <event>Hoctor is selected as leading prima ballerina on the American stage.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1929</date>
+               <event>Hoctor opens in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Show Girl</title>, produced by Florenz Ziegfeld (music by George Gershwin; lyrics by Ira Gershwin and Gus Kahn; dances staged by Beth Connell and ballets created by Albertina Rasch). Harriet Hoctor becomes the first dancer to dance to Gershwin's "American in Paris."</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1930</date>
+               <event>Hoctor opens in the Broadway musical, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Simple Simon</title> (music by Richard Rodgers; lyrics by Lorenz Hart; book by Ed Wynn and Guy Bolton; sets by Joseph Urban; produced by Florenz Ziegfeld).</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1932</date>
+               <event>Hoctor arrives in England to star in the musical revue, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bow Bells</title>. One critic noted "the audience gave her an ovation such as London's representatives only give to artistes of the very front rank."</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1932</date>
+               <event>Hoctor opens in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Earl Carroll's Vanities</title> (music by Harold Arlen; lyrics by Ted Koehler; costumes created by Vincent Minnelli; ballets created by Gluck Sandor, other dances by Ned McGurn; production conceived and produced by Earl Carroll).</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1933</date>
+               <event>Hoctor opens in New York City's RKO Music Hall Stage with her work, "The Nightingale and the Rose," based on a work by Oscar Wilde. New York critics hail the work as "an awe-inspiring performance which one cannot forget."</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1933</date>
+               <event>Hoctor appears in previews for <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Hold Your Horses</title> (music and lyrics by [Robert] Russell Bennett and others; scene and costume design by Russell Patterson; ballets created and staged by Harriet Hoctor; produced under the supervision of John Shubert). After previews in Boston and Pittsburgh, the show opens at the Winter Garden on 25 September 1933. Even though the show survives a mere eleven weeks, Hoctor receives the best reviews: "Except for Miss Hoctor's really lovely dancing, there isn't much about <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Hold Your Horses</title> to recommend it to your attention."</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1934</date>
+               <event>A revamped and pared down <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Hold Your Horses</title> tours Chicago and Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1934</date>
+               <event>The <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Harriet Hoctor Ballet Revue</title> opens in New York City's Belasco Theatre. Hoctor presents six new ballets of her own creation.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1935</date>
+               <event>Columnist Louella O. Parsons announces in the <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">New York American</title> that the noted dance team of Fred Astaire and Ginger Rogers are to split and Hoctor is to star in Astaire's next film, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Shall We Dance</title> (1937). Regrettably for Hoctor, Rogers decides to appear in the film. Hoctor is given a ballet at the end of the film.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Hoctor opens in Florenz Ziegfeld's <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Ziegfeld Follies of 1936</title> (music by Vernon Duke; lyrics by Ira Gershwin; scenery and costumes by Vincent Minnelli; dances by Robert Alton and George Balanchine). Reviews consistently praise the show's three stars: Josephine Baker, Fannie Brice, and Harriet Hoctor.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Hoctor appears as herself in the Hollywood film, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Great Ziegfeld</title> (directed by Robert Z. Leonard; music by Walter Donaldson, starring Myrna Loy and William Powell).</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Hoctor signs as premier ballerina for the tenth edition of <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Earl Carroll's Vanities</title> and spends the summer in St. Louis dancing in productions of Mark Twain's <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">A Connecticut Yankee</title> and Noel Coward's <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bitter Sweet</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1937</date>
+               <event>Hoctor stars in Billy Rose's musical revue, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Casa Manaña</title>, in Fort Worth, Texas. More than 10,000 attend the show's four performances. One critic declares "The ballerina does her exquisite toe work so lightly it actually looks as though the breeze were blowing a slim boneless body from side to side."</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1937</date>
+               <event>Hoctor appears in the musical revue <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Chez Paree Revue</title> with orchestra leader Vincent Lopez.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1937</date>
+               <event>The <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">New York Times</title> announces that Hoctor is to be Fred Astaire's leading lady in RKO's film <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Damsel in Distress</title> (1937). The part eventually goes to Joan Fontaine.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1937-1941</date>
+               <event>Hoctor appears in stage shows that preview movies, often with her own company.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1941</date>
+               <event>Hoctor is billed as "Favorite Ziegfeld Ballerina" at the Latin Quarter in Boston and appears in a solo recital at the Malden (MA) Auditorium.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1942</date>
+               <event>Hoctor appears in Billy Rose's Diamond Horseshoe revue, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Mrs. Astor's Pet Horse</title>, New York City.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1943</date>
+               <event>Hoctor performs in Beverly Hills in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">All American Revue</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1945</date>
+               <event>Hoctor choreographs the dances and performs in Billy Rose's Diamond Horseshoe revue, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Toast of the Town</title>.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1945</date>
+               <event>Hoctor opens a ballet school in Boston and devotes herself full-time to teaching.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1974</date>
+               <event>Hoctor retires and moves to Lorton, Virginia.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1977, June 9</date>
+               <event>Harriet Hoctor dies in Arlington, Virginia.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd745e485" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Harriet Hoctor Collection is comprised of materials that document her professional life as a vaudeville, Broadway, and film dancer. The collection contains materials that span her early dance
+ training at the Louis H. Chalif Normal School of Dancing in New York in <date era="ce" calendar="gregorian">1917</date> to the founding of the Harriet Hoctor Ballet School in Boston in <date era="ce" calendar="gregorian">1945</date>.</p>
+         <p>Some of the highlights of the collection are correspondence (letters, cards, and telegrams) and
+	 		contracts. Represented in the correspondence sent to Harriet Hoctor are Mary Pickford, Ted Shawn, Walter
+	 		Winchell, Billy Rose, Milton Berle, and Florenz Ziegfeld.</p>
+         <p>The collection also contains one scrapbook, which includes articles, clippings, photographs, and
+	 		posters, detailing the early career of Hoctor (<date era="ce" calendar="gregorian">1923-1925</date>) as well as programs, posters, and publicity materials. A few of Hoctor's choreographic notes are in the collection, including sketches for the "Hurdle
+	 		Ballet," which was originally staged by Seymour Felix for Hoctor in Ziegfeld's <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Simple Simon</title>.</p>
+      </scopecontent>
+      <arrangement id="mferd745e506" encodinganalog="351$a">
+         <head>Organization of the Harriet Hoctor Collection</head>
+         <p>The Harriet Hoctor Collection is organized into ten series: </p>
+         <list>
+            <item>Photographs</item>
+            <item>Scrapbook (<date era="ce" calendar="gregorian">1923-1925</date>)</item>
+            <item>Clippings</item>
+            <item>Posters, Programs, and Publicity Materials</item>
+            <item>Choreographic Notes</item>
+            <item>Monographs and Poems</item>
+            <item>Correspondence</item>
+            <item>Music</item>
+            <item>Magazine Articles about Harriet Hoctor</item>
+            <item>Personal Papers, Magazines, Costume Designs</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2006568178"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2006568178</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd745e535" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd103e567" level="series">
+            <did>
+               <container type="box">1-2, 7</container>
+               <unittitle encodinganalog="245$a">Photographs</unittitle>
+            </did>
+            <c02 id="mferd103e573" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Harriet Hoctor Alone</unittitle>
+               </did>
+               <c03 id="mferd103e577" level="file">
+                  <did>
+                     <container type="box-folder">1/1, 7/1</container>
+                     <unittitle encodinganalog="245$a">Hoctor, dancing as a child</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e583" level="file">
+                  <did>
+                     <container type="box-folder">1/2, 7/2</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Topsy and Eva</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e592" level="file">
+                  <did>
+                     <container type="box-folder">1/3, 7/3</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">A La Carte</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e601" level="file">
+                  <did>
+                     <container type="box-folder">1/4, 7/4</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Three Musketeers</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e610" level="file">
+                  <did>
+                     <container type="box-folder">1/5, 7/5</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Simple Simon</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e619" level="file">
+                  <did>
+                     <container type="box-folder">1/6, 7/6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Hold Your Horses</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e628" level="file">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a">"The Raven" from <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ziegfeld Follies of 1936</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e637" level="file">
+                  <did>
+                     <container type="box-folder">1/8</container>
+                     <unittitle encodinganalog="245$a">Billy Rose's <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Diamond Horseshoe</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e646" level="file">
+                  <did>
+                     <container type="box-folder">1/9</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Show Girl</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e655" level="file">
+                  <did>
+                     <container type="box-folder">1/10</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Shall We Dance</title> (RKO Film)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e665" level="file">
+                  <did>
+                     <container type="box-folder">1/11</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Great Ziegfeld</title> (Universal)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e674" level="file">
+                  <did>
+                     <container type="box-folder">1/12, 7/7</container>
+                     <unittitle encodinganalog="245$a">Unidentified photographs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e680" level="file">
+                  <did>
+                     <container type="box-folder">1/13</container>
+                     <unittitle encodinganalog="245$a">Publicity photographs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e686" level="file">
+                  <did>
+                     <container type="box-folder">1/14</container>
+                     <unittitle encodinganalog="245$a">Negatives</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e692" level="file">
+                  <did>
+                     <container type="box-folder">1/15</container>
+                     <unittitle encodinganalog="245$a">Photograph of portrait of Harriet Hoctor by Abram Poole</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e698" level="file">
+                  <did>
+                     <container type="box-folder">1/16, 7/8</container>
+                     <unittitle encodinganalog="245$a">Headshots</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd103e704" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Harriet Hoctor with Others</unittitle>
+               </did>
+               <c03 id="mferd103e708" level="file">
+                  <did>
+                     <container type="box-folder">1/17</container>
+                     <unittitle encodinganalog="245$a">Hoctor, dancing as a child</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e714" level="file">
+                  <did>
+                     <container type="box-folder">1/18</container>
+                     <unittitle encodinganalog="245$a">Hoctor and Edward Chalif at Chalif's dancing school, New York</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e720" level="file">
+                  <did>
+                     <container type="box-folder">1/19</container>
+                     <unittitle encodinganalog="245$a">Hoctor and Chalif's dancing school</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e726" level="file">
+                  <did>
+                     <container type="box-folder">1/20</container>
+                     <unittitle encodinganalog="245$a">Hoctor and others (unidentified)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e732" level="file">
+                  <did>
+                     <container type="box-folder">1/21</container>
+                     <unittitle encodinganalog="245$a">Hoctor and others at London's Hippodrome</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e738" level="file">
+                  <did>
+                     <container type="box-folder">1/22</container>
+                     <unittitle encodinganalog="245$a">Hoctor and sculptor Jacob Epstein</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e744" level="file">
+                  <did>
+                     <container type="box-folder">7/9</container>
+                     <unittitle encodinganalog="245$a">Hoctor and William Holbrook in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">A La Carte</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e753" level="file">
+                  <did>
+                     <container type="box-folder">7/10</container>
+                     <unittitle encodinganalog="245$a">Hoctor and unidentified partner in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Three Musketeers</title>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd103e762" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Locations</unittitle>
+               </did>
+               <c03 id="mferd103e766" level="file">
+                  <did>
+                     <container type="box-folder">1/23</container>
+                     <unittitle encodinganalog="245$a">Hoctor's New York City apartment</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e772" level="file">
+                  <did>
+                     <container type="box-folder">1/24</container>
+                     <unittitle encodinganalog="245$a">Unidentified set locations</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd103e778" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hoctor Family Members</unittitle>
+               </did>
+               <c03 id="mferd103e782" level="file">
+                  <did>
+                     <container type="box-folder">2/1-2</container>
+                     <unittitle encodinganalog="245$a">Unidentified Hoctor family members</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e788" level="file">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a">Identified Hoctor family members, including
+						<lb/>Anna Carney
+						<lb/>Elizabeth Kearney Hoctor (grandmother)
+						<lb/>Eloise Hoctor (sister)
+						<lb/>Frank Hoctor (brother)
+						<lb/>Frank Hoctor's children (Elizabeth, Frances, and Harriet)
+						<lb/>Fred Hoctor (nephew)
+						<lb/>John Hoctor (brother)
+						<lb/>Tim and Elizabeth (Libby) Hoctor (parents)
+						<lb/>Pat Kearney (uncle)
+						<lb/>Marguerite Sage Oetjen (niece)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e815" level="file">
+                  <did>
+                     <container type="box-folder">2/4</container>
+                     <unittitle encodinganalog="245$a">Harriet Hoctor's students and dance school</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e821" level="file">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">Students and dance school (negatives, slides, and contact sheets)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e827" level="file">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a">Others-Identified, including
+						<lb/>The Bennetts
+						<lb/>Tom Chatterton
+						<lb/>Dennis King
+						<lb/>Anna Ludmila (a.k.a. Jean Marie Gee)
+						<lb/>Mario and Desha
+						<lb/>Alicia Markova
+						<lb/>Edwin Tyler
+						<lb/>Walter Winchell</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e850" level="file">
+                  <did>
+                     <container type="box-folder">2/7, 2/12</container>
+                     <unittitle encodinganalog="245$a">Others-Unidentified</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e856" level="file">
+                  <did>
+                     <container type="box-folder">2/11</container>
+                     <unittitle encodinganalog="245$a">Others-Identified, including
+						<lb/>Lester Allen
+						<lb/>Edwin Booth
+						<lb/>Clarence Derwent
+						<lb/>Jimmy Durante
+						<lb/>Leon Errol
+						<lb/>Ruth Etting
+						<lb/>Rupert Hughes
+						<lb/>Marilyn Miller
+						<lb/>Wendy Toye</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd103e881" level="series">
+            <did>
+               <container type="box">6</container>
+               <unittitle encodinganalog="245$a">Scrapbook</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e892" level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1923-1925</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd103e901" level="series">
+            <did>
+               <container type="box">10-12</container>
+               <unittitle encodinganalog="245$a">Clippings</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e912" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e921" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e930" level="file">
+               <did>
+                  <container type="box-folder">12/1</container>
+                  <unittitle encodinganalog="245$a">
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940s; 1970s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e939" level="file">
+               <did>
+                  <container type="box-folder">12/2</container>
+                  <unittitle encodinganalog="245$a">Undated clippings</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e945" level="file">
+               <did>
+                  <container type="box-folder">12/3</container>
+                  <unittitle encodinganalog="245$a">Harriet Hoctor Ballet School</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e951" level="file">
+               <did>
+                  <container type="box-folder">12/4</container>
+                  <unittitle encodinganalog="245$a">Fred Hoctor and John Hoctor</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e957" level="file">
+               <did>
+                  <container type="box-folder">12/5</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous typed reviews</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd103e963" level="series">
+            <did>
+               <container type="box">4</container>
+               <unittitle encodinganalog="245$a">Posters, Programs, and Publicity Materials</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e974" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Posters</unittitle>
+               </did>
+               <c03 id="mferd103e978" level="file">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a">Ballet Revue preview to W.C. Fields's film <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">It's a Gift</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e987" level="file">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a">The Manchester Hippodrome, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e996" level="file">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a">Leo Litwin and his Concert Orchestra, with the Harriet Hoctor Dancers, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1002" level="file">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Three Musketeers</title>, Lyric Theatre, New York, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd103e1014" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Programs</unittitle>
+               </did>
+               <c03 id="mferd103e1018" level="file">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a">Souvenir program: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ziegfeld Follies</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1030" level="file">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a">Harriet Hoctor presents <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Dollies' Follies</title>, Boston Opera House, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1042" level="file">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a">Harriet Hoctor Ballet (Dance Recitals), <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1051" level="file">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a">The Boston Ballet Company, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Nutcracker</title> [choreography and costumes for "Candy Canes" by Harriet Hoctor]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1060" level="file">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Simple Simon</title>, Majestic Theatre, New York City, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1072" level="file">
+                  <did>
+                     <container type="box-folder">4/10</container>
+                     <unittitle encodinganalog="245$a">Harriet Hoctor and her Ballet Revue, Belasco Theatre, Los Angeles, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1078" level="file">
+                  <did>
+                     <container type="box-folder">4/11</container>
+                     <unittitle encodinganalog="245$a">Souvenir program: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Great Ziegfeld</title> (MGM, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936</unitdate>)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1090" level="file">
+                  <did>
+                     <container type="box-folder">4/12</container>
+                     <unittitle encodinganalog="245$a">Second Twilight Concert Benefit Building Fund, The University of the American Theatre, East Hampton, L.I., New York, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1096" level="file">
+                  <did>
+                     <container type="box-folder">4/13</container>
+                     <unittitle encodinganalog="245$a">Unique Sunday Night Divertissements, Selwyn Theatre, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1105" level="file">
+                  <did>
+                     <container type="box-folder">4/14</container>
+                     <unittitle encodinganalog="245$a">Flyer: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ziegfeld Follies</title> [<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936</unitdate>]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1118" level="file">
+                  <did>
+                     <container type="box-folder">4/15</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Topsy and Eva</title>, Sam H. Harris Theatre, New York City, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1130" level="file">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Three Musketeers</title>, Lyric Theatre, New York City, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd103e1142" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Other Publicity Materials</unittitle>
+               </did>
+               <c03 id="mferd103e1146" level="file">
+                  <did>
+                     <container type="box-folder">4/17</container>
+                     <unittitle encodinganalog="245$a">Postcards: The Manchester Hippodrome, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1155" level="file">
+                  <did>
+                     <container type="box-folder">4/18</container>
+                     <unittitle encodinganalog="245$a">Mail order application: Belasco Theatre, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1161" level="file">
+                  <did>
+                     <container type="box-folder">4/19</container>
+                     <unittitle encodinganalog="245$a">Flyer: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Three Musketeers</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1173" level="file">
+                  <did>
+                     <container type="box-folder">4/20</container>
+                     <unittitle encodinganalog="245$a">Farewell supper in honor of the Duncan Sisters, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1923</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1182" level="file">
+                  <did>
+                     <container type="box-folder">4/21</container>
+                     <unittitle encodinganalog="245$a">Flyer: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Three Musketeers</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1194" level="file">
+                  <did>
+                     <container type="box-folder">4/22</container>
+                     <unittitle encodinganalog="245$a">Sample stationery: Harriet Hoctor's Boston Ballet School, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1200" level="file">
+                  <did>
+                     <container type="box-folder">4/23</container>
+                     <unittitle encodinganalog="245$a">Publicity materials, Harriet Hoctor School of Ballet, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969-1970; 1970-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1209" level="file">
+                  <did>
+                     <container type="box-folder">4/24</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous items: students, Harriet Hoctor Ballet School</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd103e1215" level="series">
+            <did>
+               <container type="box">4</container>
+               <unittitle encodinganalog="245$a">Choreographic Notes</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e1226" level="file">
+               <did>
+                  <container type="box-folder">4/25</container>
+                  <unittitle encodinganalog="245$a">Notes for <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Blue Danube Ballet</title> and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Hurdle Ballet</title>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd103e1238" level="series">
+            <did>
+               <container type="box">4</container>
+               <unittitle encodinganalog="245$a">Monographs and Poems</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e1249" level="file">
+               <did>
+                  <container type="box-folder">4/26</container>
+                  <unittitle encodinganalog="245$a">Poem: "To Harriet Hoctor Dancing"</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1255" level="file">
+               <did>
+                  <container type="box-folder">4/27</container>
+                  <unittitle encodinganalog="245$a">Poem: "Dancer" by Jack Walsh</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1261" level="file">
+               <did>
+                  <container type="box-folder">4/28</container>
+                  <unittitle encodinganalog="245$a">Poem: "A Ballade to Harriet Hoctor"</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1267" level="file">
+               <did>
+                  <container type="box-folder">4/29</container>
+                  <unittitle encodinganalog="245$a">"Ballet is Magic: Harriet Hoctor," by Walter Ware</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1273" level="file">
+               <did>
+                  <container type="box-folder">4/30</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Ballet in England</title> (<date era="ce" calendar="gregorian">1932</date>) "Dedicated to Harriet Hoctor," by Arnold L. Haskell</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1285" level="file">
+               <did>
+                  <container type="box-folder">4/31</container>
+                  <unittitle encodinganalog="245$a">Unidentified</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd103e1291" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Correspondence to and from Harriet Hoctor</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e1302" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Family Members</unittitle>
+               </did>
+               <c03 id="mferd103e1306" level="file">
+                  <did>
+                     <container type="box-folder">3/1</container>
+                     <unittitle encodinganalog="245$a">Harriet [Hoctor Groeschel] (niece)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1312" level="file">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a">Eloise [Hoctor] (sister)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1318" level="file">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a">Elizabeth Kearney Hoctor (mother)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1324" level="file">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a">Frances H. Hoctor (niece)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1330" level="file">
+                  <did>
+                     <container type="box-folder">3/5</container>
+                     <unittitle encodinganalog="245$a">John Hoctor (brother)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1336" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle encodinganalog="245$a">Tim Hoctor (father) to his sister</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1342" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle encodinganalog="245$a">Laurel [?] (niece)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1348" level="file">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a">Jane Moon Love (niece)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1354" level="file">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a">Nancie [?] (niece)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1360" level="file">
+                  <did>
+                     <container type="box-folder">3/10</container>
+                     <unittitle encodinganalog="245$a">Jane Simms (niece)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd103e1366" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Others</unittitle>
+               </did>
+               <c03 id="mferd103e1370" level="file">
+                  <did>
+                     <container type="box-folder">3/11</container>
+                     <unittitle encodinganalog="245$a">Mrs. John W. (Maryann) Antoine</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1376" level="file">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a">Marlena Atamanui</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1382" level="file">
+                  <did>
+                     <container type="box-folder">3/13</container>
+                     <unittitle encodinganalog="245$a">Gladys Balestrassi</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1388" level="file">
+                  <did>
+                     <container type="box-folder">3/14</container>
+                     <unittitle encodinganalog="245$a">Sandra Balestrassi</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1394" level="file">
+                  <did>
+                     <container type="box-folder">3/15</container>
+                     <unittitle encodinganalog="245$a">John Gibson Bliss</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1400" level="file">
+                  <did>
+                     <container type="box-folder">3/16</container>
+                     <unittitle encodinganalog="245$a">Marcy Blinderman</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1406" level="file">
+                  <did>
+                     <container type="box-folder">3/17</container>
+                     <unittitle encodinganalog="245$a">Edward Caton</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1412" level="file">
+                  <did>
+                     <container type="box-folder">3/18</container>
+                     <unittitle encodinganalog="245$a">Louis H. Chalif</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1418" level="file">
+                  <did>
+                     <container type="box-folder">3/19</container>
+                     <unittitle encodinganalog="245$a">Ed Corcoran</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1424" level="file">
+                  <did>
+                     <container type="box-folder">3/20</container>
+                     <unittitle encodinganalog="245$a">Frank Crowninshield</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1431" level="file">
+                  <did>
+                     <container type="box-folder">3/21</container>
+                     <unittitle encodinganalog="245$a">Joyce Cuoco</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1437" level="file">
+                  <did>
+                     <container type="box-folder">3/22</container>
+                     <unittitle encodinganalog="245$a">Mary H. Dockham</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1443" level="file">
+                  <did>
+                     <container type="box-folder">3/23</container>
+                     <unittitle encodinganalog="245$a">Renée George</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1449" level="file">
+                  <did>
+                     <container type="box-folder">3/24</container>
+                     <unittitle encodinganalog="245$a">Connie Herbert</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1455" level="file">
+                  <did>
+                     <container type="box-folder">3/25</container>
+                     <unittitle encodinganalog="245$a">Mrs. F. Sheppard (Emily) Holt</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1461" level="file">
+                  <did>
+                     <container type="box-folder">3/26</container>
+                     <unittitle encodinganalog="245$a">La Bossiere Family</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1467" level="file">
+                  <did>
+                     <container type="box-folder">3/27</container>
+                     <unittitle encodinganalog="245$a">Sophie S. McMillen</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1473" level="file">
+                  <did>
+                     <container type="box-folder">3/28</container>
+                     <unittitle encodinganalog="245$a">Mrs. Charles (Vivian) W. Middleton</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1479" level="file">
+                  <did>
+                     <container type="box-folder">3/29</container>
+                     <unittitle encodinganalog="245$a">Marilyn Miller</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1485" level="file">
+                  <did>
+                     <container type="box-folder">3/30</container>
+                     <unittitle encodinganalog="245$a">[Robert?] Newman (with synopsis for revue)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1491" level="file">
+                  <did>
+                     <container type="box-folder">3/31</container>
+                     <unittitle encodinganalog="245$a">Mrs. Morgan (Gloria) Nilsen</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1498" level="file">
+                  <did>
+                     <container type="box-folder">3/32</container>
+                     <unittitle encodinganalog="245$a">Mrs. Gustav Oetjen</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1504" level="file">
+                  <did>
+                     <container type="box-folder">3/33</container>
+                     <unittitle encodinganalog="245$a">Mary Pickford</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1510" level="file">
+                  <did>
+                     <container type="box-folder">3/34</container>
+                     <unittitle encodinganalog="245$a">Ted Shawn</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1516" level="file">
+                  <did>
+                     <container type="box-folder">3/35</container>
+                     <unittitle encodinganalog="245$a">Mary Vasel</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1522" level="file">
+                  <did>
+                     <container type="box-folder">3/36</container>
+                     <unittitle encodinganalog="245$a">Allen S. Wilber</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1528" level="file">
+                  <did>
+                     <container type="box-folder">3/37</container>
+                     <unittitle encodinganalog="245$a">Walter Winchell</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1534" level="file">
+                  <did>
+                     <container type="box-folder">3/38</container>
+                     <unittitle encodinganalog="245$a">Virginia [?]</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1540" level="file">
+                  <did>
+                     <container type="box-folder">3/39</container>
+                     <unittitle encodinganalog="245$a">Florenz Ziegfeld</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1546" level="file">
+                  <did>
+                     <container type="box-folder">3/40</container>
+                     <unittitle encodinganalog="245$a">Former students and fans</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1552" level="file">
+                  <did>
+                     <container type="box-folder">3/41</container>
+                     <unittitle encodinganalog="245$a">Business correspondence to Hoctor (<date era="ce" calendar="gregorian">1931-1934</date>)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1561" level="file">
+                  <did>
+                     <container type="box-folder">3/42</container>
+                     <unittitle encodinganalog="245$a">Unidentified and Fragments</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1568" level="file">
+                  <did>
+                     <container type="box-folder">3/43</container>
+                     <unittitle encodinganalog="245$a">Telegrams from well-known producers, composers, photographers, performers, writers, film and stage directors, casting directors, and other show business luminaries: [John] Murray Anderson; Bobbie Arnst; Milton Berle; Ben Bernie; Anatole Bourman; Russel Crouse; Clarence Derwent ; Ralph G Farnum; Rudolf Friml; Daniel Frohman; Arnold Genthe; Billy Grady; Cornwell Jackson; Jules Lande; Arthur S Lyons; William Morris; Billy Rose; Madam and Monsieur Senia Russakoff; Milton Schwarzwald; Louis Shurr; Margit and Ivan Tarasoff; Ed Wynn.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1574" level="file">
+                  <did>
+                     <container type="box-folder">3/44</container>
+                     <unittitle encodinganalog="245$a">Telegrams from Broadway and film performers</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1580" level="file">
+                  <did>
+                     <container type="box-folder">3/45</container>
+                     <unittitle encodinganalog="245$a">Telegrams, various</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd103e1586" level="file">
+                  <did>
+                     <container type="box-folder">3/46</container>
+                     <unittitle encodinganalog="245$a">Various</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd103e1592" level="series">
+            <did>
+               <container type="box">5</container>
+               <unittitle encodinganalog="245$a">Music</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e1603" level="file">
+               <did>
+                  <container type="box-folder">5/1</container>
+                  <unittitle encodinganalog="245$a">"Petite Suite de Concert," S. Coleridge-Taylor</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano conductor's score with some choreographic notes</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1614" level="file">
+               <did>
+                  <container type="box-folder">5/2</container>
+                  <unittitle encodinganalog="245$a">"I wish I had never seen sun shine" [Jimmy Davis]</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano vocal score</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1625" level="file">
+               <did>
+                  <container type="box-folder">5/3</container>
+                  <unittitle encodinganalog="245$a">"Hora Staccato," Dinicu-Heifetz</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano score</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1636" level="file">
+               <did>
+                  <container type="box-folder">5/4</container>
+                  <unittitle encodinganalog="245$a">"Tarentelle" op. 85, no. 2, Stephen Heller</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano part</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1647" level="file">
+               <did>
+                  <container type="box-folder">5/5</container>
+                  <unittitle encodinganalog="245$a">"Gallop," Aram Khachaturian</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano conductor's score with choreographic notes</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1658" level="file">
+               <did>
+                  <container type="box-folder">5/6</container>
+                  <unittitle encodinganalog="245$a">"Waltz at Maxims," Frederich Loewe</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano; for Hoctor Dancers</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1669" level="file">
+               <did>
+                  <container type="box-folder">5/7</container>
+                  <unittitle encodinganalog="245$a">"Valse Bleue," A. Margis</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Parts</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1680" level="file">
+               <did>
+                  <container type="box-folder">5/8</container>
+                  <unittitle encodinganalog="245$a">"Orpheus Can Can" [Jacques Offenbach]</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Parts (negatives)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1692" level="file">
+               <did>
+                  <container type="box-folder">5/9</container>
+                  <unittitle encodinganalog="245$a">"Poupée Valsante," Ed. Poldini</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano score</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1703" level="file">
+               <did>
+                  <container type="box-folder">5/10</container>
+                  <unittitle encodinganalog="245$a">"Pas de Quatre," Pugni (Markova Dolin Ballet)</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Parts</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1714" level="file">
+               <did>
+                  <container type="box-folder">5/11</container>
+                  <unittitle encodinganalog="245$a">"A Game of Tag," Geo. J. Trinkaus</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano conductor's score</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd103e1725" level="file">
+               <did>
+                  <container type="box-folder">5/12</container>
+                  <unittitle encodinganalog="245$a">"The Cockatoos" [unidentified]</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Piano part</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd103e1736" level="series">
+            <did>
+               <container type="box">9</container>
+               <unittitle encodinganalog="245$a">Magazine Articles about Harriet Hoctor</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e1747" level="file">
+               <did>
+                  <container type="box-folder">9/1</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Theatre Magazine</title>, "The Homes of American Celebrities," <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">December 1928</unitdate>, no. 7, p. 57.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1759" level="file">
+               <did>
+                  <container type="box-folder">9/2</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Dance Magazine</title>, "The All-American Choice of Dancers for 1928," <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">January 1919</unitdate>, pp. 34-35.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1771" level="file">
+               <did>
+                  <container type="box-folder">9/3</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Vanity Fair</title>, "The Theatre," <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">December 1933</unitdate>, pp. 40-41.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1783" level="file">
+               <did>
+                  <container type="box-folder">9/4</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Picture Play</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">February 1936</unitdate>, p. 20.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1795" level="file">
+               <did>
+                  <container type="box-folder">9/5</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Motion Picture</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 1937</unitdate>, p. 55.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1807" level="file">
+               <did>
+                  <container type="box-folder">9/6</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Dance</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 1937</unitdate>, cover and p. 13.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1819" level="file">
+               <did>
+                  <container type="box-folder">9/7</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Dance Magazine</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">December 1965</unitdate>, pp. 112-117.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1831" level="file">
+               <did>
+                  <container type="box-folder">9/8</container>
+                  <unittitle encodinganalog="245$a">Magazine clippings, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1841" level="file">
+               <did>
+                  <container type="box-folder">9/9</container>
+                  <unittitle encodinganalog="245$a">Magazine clippings, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1850" level="file">
+               <did>
+                  <container type="box-folder">9/10</container>
+                  <unittitle encodinganalog="245$a">Magazine clippings, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd103e1857" level="series">
+            <did>
+               <container type="box">8</container>
+               <unittitle encodinganalog="245$a">Personal Papers, Magazines, Costume Designs</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> </p>
+            </scopecontent>
+            <arrangement>
+               <p/>
+            </arrangement>
+            <c02 id="mferd103e1868" level="file">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a">Newspapers, publications, and magazines relating to Hoctor's hometown of Hoosick Falls, New York</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1874" level="file">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">Elementary school papers</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1880" level="file">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a">Magazine covers</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1886" level="file">
+               <did>
+                  <container type="box-folder">8/4</container>
+                  <unittitle encodinganalog="245$a">Costume sketches</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1892" level="file">
+               <did>
+                  <container type="box-folder">8/5</container>
+                  <unittitle encodinganalog="245$a">Prints and postcards</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd103e1898" level="file">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Magazines, programs, and non-dance newspaper clippings</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

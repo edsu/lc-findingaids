@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Fri, 19 August 2011 12:03:48 PM EDT
+URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs004001
+ ===================================== -->
+<!-- corrected: 16 december 2008 : mfer@loc.gov : eadid/@identifier and eadid/node() : corrected "eadmbrsrs" with "eadmbrs" -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd73e4">
+   <eadheader id="mferd73e5" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.mbrsrs/eadmbrs.rs004001"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs004001</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Papers from the Isabelle Sayers
+					Collection</titleproper>
+            <author encodinganalog="245$c"> Author: Jennifer Lewis </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+					          <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Motion Picture, Broadcasting and Recorded Sound Division, Library
+					of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" era="ce" calendar="gregorian" normal="2007">2007</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.mbrsrs/mbrsrs.contact">http://hdl.loc.gov/loc.mbrsrs/mbrsrs.contact</extref>
+					          </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2008647462" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2008647462</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Encoded by Karen Fishman and Marsha Maguire, <date era="ce" calendar="gregorian" normal="2007">2007</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041" langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid prepared using DACS ( <title xlink:type="simple" render="italic">Describing
+					Archives: A Content Standard</title>)</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change encodinganalog="583">
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item audience="internal">Controlled access headings matched to coll-level MARC
+					record headings; finding aid head elements shortened to conform to LC XML
+					datastore requirements; M. Maguire</item>
+         </change>
+         <change encodinganalog="583">
+            <date normal="2009-11" era="ce" calendar="gregorian">2009 November</date>
+            <item audience="internal">Shelf nos. affixed to boxes, finding aid and MARC
+					record updated; M. Maguire</item>
+         </change>
+         <change encodinganalog="583">
+            <date normal="2007-05" era="ce" calendar="gregorian" audience="internal">2007
+					May</date>
+            <item audience="internal">EAD version expanded using NoteTab Light template
+					adapted from Amer. Folklife Center; M. Maguire</item>
+         </change>
+         <change encodinganalog="583">
+            <date normal="2004-06" era="ce" calendar="gregorian">2004 June</date>
+            <item audience="internal">EAD version prepared from WordPerfect original
+					finding aid using XMetaL template; K. Fishman</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc type="register" level="collection" relatedencoding="MARC21">
+      <did id="mferd73e67">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a"> Papers from the Isabelle Sayers
+				Collection <unitdate label="Inclusive Dates" type="inclusive" encodinganalog="245$f"
+                      normal="1886/1980"
+                      era="ce"
+                      calendar="gregorian"
+                      certainty="approximate">circa 1886-1980</unitdate>
+				        <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1920/1980"
+                      era="ce"
+                      calendar="gregorian">1920-1980</unitdate>
+			      </unittitle>
+         <origination label="Creator">
+				        <persname source="lcnaf" encodinganalog="100" role="creator">Sayers, Isabelle
+					S.</persname>
+			      </origination>
+         <physdesc label="Extent">
+				        <extent encodinganalog="300">3.7 linear feet (6 boxes)</extent>
+			      </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection materials are in
+					<language encodinganalog="041" langcode="eng">English</language>
+			      </langmaterial>
+         <repository label="Location" encodinganalog="852">
+				        <corpname>
+               <subarea>Recorded Sound Reference Center, Motion Picture,
+						Broadcasting and Recorded Sound Division</subarea> Library of
+					Congress</corpname>
+				        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+			      </repository>
+         <abstract label="Summary" encodinganalog="520$a">Paper and photographic materials
+				created and gathered by Isabelle S. Sayers as she assembled her collection of
+				early recordings and audio equipment.</abstract>
+         <physloc label="Location" encodinganalog="852$z">RPA 00160-00163 (boxes 1-4); RPC
+				00001 (box 5); RPM 00002 (box 6)</physloc>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd73e108" altrender=":::F005=^20100623175648.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+					collection in the Library's online catalog. They are grouped by name of
+					person or organization, by subject or location, and by occupation and
+					listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd75e12">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Deakins%2C+Duane+D.+Correspondence.^">Deakins, Duane D.--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ferguson%2C+Clarence+A.+Correspondence.^">Ferguson, Clarence A.--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Green%2C+Lew+Correspondence.^">Green, Lew--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Janis%2C+Elsie%2C+1889-1956.^">Janis, Elsie, 1889-1956.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kishpaugh%2C+Grace+Correspondence.^">Kishpaugh, Grace--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kishpaugh%2C+Harlan+Correspondence.^">Kishpaugh, Harlan--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Marken%2C+Lawrence+McKinley+Correspondence.^">Marken, Lawrence McKinley--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Odell%2C+L.+Brevoort+Correspondence.^">Odell, L. Brevoort--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sayers%2C+Isabelle+S.^">Sayers, Isabelle S.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sayers%2C+Isabelle+S.+Archives.^">Sayers, Isabelle S.--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Walsh%2C+Jim%2C+1903-1990+Correspondence.^">Walsh, Jim, 1903-1990--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd75e53">
+            <head>Organizations</head>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Isabelle+Sayers+Collection+%28Library+of+Congress%29^">Isabelle Sayers Collection (Library of Congress)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd75e62">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Sound+recordings+Collectors+and+collecting+United+States.^">Sound recordings--Collectors and collecting--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Sound+Recording+and+reproducing+Equipment+and+supplies.^">Sound--Recording and reproducing--Equipment and supplies.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Women+collectors+United+States+Archives.^">Women collectors--United States--Archives.</subject>
+         </controlaccess>
+         <controlaccess id="mferd75e78">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Catalogs.^">Catalogs.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Diaries.^">Diaries.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Ephemera.^">Ephemera.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Letters+%28Correspondence%29.^">Letters (Correspondence).</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Newspaper+clippings.^">Newspaper clippings.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Notes.^">Notes.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Pamphlets.^">Pamphlets.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Photographs.^">Photographs.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Postcards.^">Postcards.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd73e177" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd73e180" encodinganalog="541">
+            <head>Collection Acquisition</head>
+            <p>The papers were donated to the Library of Congress by Isabelle S. Sayers in
+					several increments in 1981, and by Frank T. Sayers in memory of his wife in
+					1982 and 1987.</p>
+         </acqinfo>
+         <accruals id="mferd73e185" encodinganalog="584">
+            <head>Additions</head>
+            <p>No further additions to the papers are expected.</p>
+         </accruals>
+         <processinfo id="mferd73e190" encodinganalog="583">
+            <head>Processing Information</head>
+            <p>The papers were processed by Jennifer Lewis in March 2004.</p>
+         </processinfo>
+         <userestrict id="mferd73e195" encodinganalog="540">
+            <head>Use Restrictions</head>
+            <p>Restrictions may exist on copying, quoting, or publishing materials included
+					in the papers. For additional information, contact a reference librarian in
+					the Recorded Sound Reference Center, Motion Picture, Broadcasting and
+					Recorded Sound Division, Library of Congress, Washington, DC, 20540-4690;
+					(202) 707-7833.</p>
+         </userestrict>
+         <accessrestrict id="mferd73e200" encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>The Papers from the Isabelle Sayers Collection are open for research.</p>
+         </accessrestrict>
+         <prefercite id="mferd73e205" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following
+					information: [Container number, eg., Box 3], Papers from the Isabelle
+					Sayers Collection, Motion Picture, Broadcasting and Recorded Sound
+					Division, Library of Congress.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd73e210" encodinganalog="545 0">
+         <head>Biographical Note</head>
+         <p>Isabelle S. Sayers (1914-1982) was an avid collector of early recordings and
+				audio equipment. Sayers's primary interest was in rare items, particularly
+				those from 1884 to 1905 of the early sound recording era. One of the few female
+				collectors of the mid-20th century, Sayers expanded her collection over a
+				period of at least 30 years by placing advertisements in local newspapers and
+				collectors' newsletters, and by developing relationships with collectors and
+				antique dealers nationwide. She displayed and spoke about her collection
+				locally; in 1959 she appeared on WBNS-TV to demonstrate early machines in her
+				collection. Sayers was also interested in inventors of recording equipment: she
+				collected photographs, clippings, and ephemera relating to Thomas Edison, Emile
+				Berliner and their various inventions. </p>
+         <p> Sayers also had an avid interest in photography and the history of the West.
+				She wrote two books on Annie Oakley: <title xlink:type="simple" render="italic">Annie Oakley and
+					Buffalo Bill's Wild West</title> (New York: Dover Publications, 1981) and
+					<title xlink:type="simple" render="italic">The Rifle Queen, Annie Oakley</title> (Sayers,
+				1973). Both incorporated historical photographs from her own collections as
+				illustrations. </p>
+         <p> Isabelle Sayers resided with her husband, Frank T. Sayers, in Columbus, Ohio,
+				from circa 1953 through 1971. The couple lived in Ostrander, Ohio, from 1971
+				until Isabelle Sayers's death in December 1982.</p>
+      </bioghist>
+      <scopecontent id="mferd73e225" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>These papers were part of the larger Isabelle Sayers Collection, a donation of
+				early disc and wax cylinder recordings, phonographs, and related equipment
+				donated to the Library of Congress in several increments between 1981 and 1987.
+				The Sayers Collection includes some extremely rare items from the incunabula
+				period (1884-1905) of the sound recording era. Among these rare items are
+				19th-century Berliner Gramophone Company discs, concert grand wax cylinders,
+				and an assortment of playback equipment such as a "player-piano type
+				harmonica." The collection totals approximately 2,000 wax cylinders, 4,000
+				discs, and 50 antique phonographs, as well as related equipment and assorted
+				objects such as statues of the Victor dog, Edison banks, and old needle
+				tins.</p>
+         <p> This collection of paper and photographic materials dates from circa 1886 to
+				1980, but many of the items are undated.</p>
+      </scopecontent>
+      <arrangement id="mferd73e232" encodinganalog="351">
+         <head>Collection Arrangement</head>
+         <p>The papers are arranged in six series:</p>
+         <list type="simple">
+            <item>Series 1: Correspondence, 1951-1980</item>
+            <item>Series 2: Collection Notes, 1919-1972</item>
+            <item>Series 3: Printed Material, 1923-1977, undated</item>
+            <item>Series 4: Ephemera, 1907-1977, undated</item>
+            <item>Series 5: Photographs, circa 1886-1975</item>
+            <item>Series 6: Oversize Materials, 1897-1965, undated</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2008647462" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2008647462</extref>
+      </otherfindaid>
+      <dsc id="mferd73e250" type="combined">
+         <head>Container List</head>
+         <c01 level="series" id="series1">
+            <did>
+               <unittitle>Series 1. Correspondence, <unitdate era="ce" calendar="gregorian">1951-1980,
+							undated</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>.4 linear feet</extent>
+					          </physdesc>
+               <physloc>RPA 00160 (box 1)</physloc>
+            </did>
+            <scopecontent>
+               <p>Series I consists of correspondence between Isabelle Sayers and
+						collectors, experts, and dealers. The majority of the correspondence
+						relates to the exchange, sale, or appraisal of antique records,
+						cylinders, recording equipment, phonographs, or other equipment. Many
+						of the letters relate both to Sayers's collection and to her personal
+						life, reflecting the close relationships she developed with other
+						collectors and experts.</p>
+               <p>Frequent or prominent correspondents represented in this series include
+						Harlan and Grace Kishpaugh, L. Brevoort Odell, Duane D. Deakins,
+						Lawrence McKinley Marken, Lewis G. Green, Clarence A. Ferguson, and Jim
+						Walsh (whose papers are also held by the Recorded Sound Section).</p>
+            </scopecontent>
+            <arrangement>
+               <p>Correspondence is arranged chronologically; one folder of undated
+						material is filed at the end of the series.</p>
+            </arrangement>
+            <c02 id="mferd73e274" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1951-1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e284" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1958-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e294" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1960-1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e304" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1962-1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e314" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1964-1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e324" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1966-1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e334" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1968-1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e344" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1970-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e355" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1972-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e365" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1977-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e375" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">1979-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e385" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Correspondence, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series2">
+            <did>
+               <unittitle>Series 2. Collection Notes, <unitdate era="ce" calendar="gregorian">1919-1972,
+							undated</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>.21 linear feet</extent>
+					          </physdesc>
+               <physloc>RPA 00160 (box 1); RPA 00161 (box 2)</physloc>
+            </did>
+            <scopecontent>
+               <p>Series II consists of acquisition notes, equipment descriptions, lecture
+						notes, and other items. Included is a diary dating from circa 1952 to
+						1959 with notes about Sayers's acquisition of equipment and recordings.
+						Lecture notes and miscellaneous writings refer to the history of
+						recording in the United States and Ohio. Miscellaneous collection notes
+						consist of scraps of paper with brief notations about individual
+						recordings, record lists, and addresses of dealers and collectors. One
+						folder contains notes and ephemera relating to Sayers's interest in
+						vaudeville performer Elsie Janis.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Materials in this series are filed alphabetically by description.</p>
+            </arrangement>
+            <c02 id="mferd73e414" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>Addresses, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e424" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>Diary of collection and acquisition notes,
+								<unitdate era="ce" calendar="gregorian">1952-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e434" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">15</container>
+                  <unittitle>Equipment descriptions,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e444" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">16</container>
+                  <unittitle>Elsie Janis notes and ephemera,
+								<unitdate era="ce" calendar="gregorian">1919-1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e454" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">17</container>
+                  <unittitle>Lecture notes and miscellaneous writings,
+								<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e464" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">18</container>
+                  <unittitle>Receipts, <unitdate era="ce" calendar="gregorian">1958-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e474" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">19</container>
+                  <unittitle>Miscellaneous collection notes,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series3">
+            <did>
+               <unittitle id="series">Series 3. Printed Materials, <unitdate era="ce" calendar="gregorian">1923-1977,
+							undated</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>.42 linear feet</extent>
+					          </physdesc>
+               <physloc>RPA 00161 (box 2); RPA 00162 (box 3)</physloc>
+            </did>
+            <scopecontent>
+               <p>Series III contains newsletters, journals, pamphlets, guides and other
+						printed materials relating to music, recordings and phonographs.
+						Included are programs for music and theater performances, pamphlets on
+						Thomas Edison's inventions and life, technical equipment guides, radio
+						travel logs, record price listings and small catalogs, and reprints of
+						articles on Ohio music and black recording artists.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Printed Materials are arranged alphabetically by type and thereunder by
+						title or description.</p>
+            </arrangement>
+            <c02 id="mferd73e503" level="subseries">
+               <did>
+                  <unittitle>Journals and newsletters</unittitle>
+               </did>
+               <c03 id="mferd73e507" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">20</container>
+                     <unittitle>
+								                <title xlink:type="simple" render="italic">The Music Box: An International Magazine
+									of Mechanical Music</title>, vol. 7, no. 1,
+									<unitdate era="ce" calendar="gregorian">1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e520" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">21</container>
+                     <unittitle>
+								                <title xlink:type="simple" render="italic">Music Box Society Newsletter</title>,
+								no. 4, <unitdate era="ce" calendar="gregorian">1975 March</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e533" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">22</container>
+                     <unittitle>
+								                <title xlink:type="simple" render="italic">Music Memories Monthly</title>, vol. 3,
+								no. 4, <unitdate era="ce" calendar="gregorian">1963 June</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e546" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">23-24</container>
+                     <unittitle>
+								                <title xlink:type="simple" render="italic">The Ragtime Society</title>,
+									<unitdate era="ce" calendar="gregorian">1962-1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e559" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">25-26</container>
+                     <unittitle>
+								                <title xlink:type="simple" render="italic">The Ragtimer</title>, <unitdate era="ce" calendar="gregorian">1975
+									March</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd73e572" level="subseries">
+               <did>
+                  <unittitle>Pamphlets</unittitle>
+               </did>
+               <c03 id="mferd73e576" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">27-28</container>
+                     <unittitle>
+								                <title xlink:type="simple" render="italic">Audio Equipment</title>,
+									<unitdate era="ce" calendar="gregorian">1923-1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e589" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">29</container>
+                     <unittitle>Thomas Alva Edison biographical materials,
+									<unitdate era="ce" calendar="gregorian">1928, 1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e599" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <container type="folder">30</container>
+                     <unittitle>Music progams and guides,
+								<unitdate era="ce" calendar="gregorian">1910-1929</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e609" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">Oversize 31</container>
+                     <unittitle id="Sayers1">Radio, travel logs,
+									<unitdate era="ce" calendar="gregorian">1925-1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e619" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">32</container>
+                     <unittitle>Radio technical guides,
+								<unitdate era="ce" calendar="gregorian">1923-1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e629" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">33</container>
+                     <unittitle>
+								                <title xlink:type="simple" render="italic">The Rifle Queen: Annie Oakley</title>,
+									<unitdate era="ce" calendar="gregorian">1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e642" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">34-36</container>
+                     <unittitle>Record price lists, advertisements, and catalogs,
+									<unitdate era="ce" calendar="gregorian">1930-1981, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd73e652" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">37</container>
+                  <unittitle>Reprints, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series4">
+            <did>
+               <unittitle>Series 4. Ephemera, <unitdate era="ce" calendar="gregorian">1907-1977,
+						undated</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>.21 linear feet</extent>
+					          </physdesc>
+               <physloc>RPA 00162 (box 3); RPA 00163 (box 4)</physloc>
+            </did>
+            <scopecontent>
+               <p>Series IV consists of items in a variety of formats relating to Sayers's
+						recording interests. Included are clippings relating to musicians,
+						inventors, and equipment; a calendar issued by the Capehart Collection;
+						advertisements; record inserts from early Edison recordings; greeting
+						cards; pictorial envelopes; phonograph diagrams; and postcards. One
+						folder of miscellaneous materials includes a slide with song lyrics,
+						business cards, and a record coupon.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Materials are arranged alphabetically by format. A folder of
+						miscellaneous ephemera is filed at the end of the series.</p>
+            </arrangement>
+            <c02 id="mferd73e681" level="subseries">
+               <did>
+                  <unittitle>Advertisements <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                          target="Sayers1">See also Oversize Folder
+								31, Radio, travel logs, 1925-1963</ref>
+                  </unittitle>
+               </did>
+               <c03 id="mferd73e687" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">38</container>
+                     <unittitle>Music box advertisements, <unitdate era="ce" calendar="gregorian">1897-1900,
+									undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e697" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">39</container>
+                     <unittitle>Phonograph advertisements,
+									<unitdate era="ce" calendar="gregorian">1897-1923</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e707" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">40</container>
+                     <unittitle>Piano advertisements,
+								<unitdate era="ce" calendar="gregorian">1897-1909</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e717" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">41</container>
+                     <unittitle>Recording advertisements, <unitdate era="ce" calendar="gregorian">1904-1929,
+									1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd73e727" level="file">
+                  <did>
+                     <container type="box">3</container>
+                     <container type="folder">42</container>
+                     <unittitle>Miscellaneous advertisements, <unitdate era="ce" calendar="gregorian">1898-1939,
+									undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd73e737" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">43</container>
+                  <unittitle>Calendar from the Capehart Collection,
+								<unitdate era="ce" calendar="gregorian">1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e747" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">44</container>
+                  <unittitle>Clippings, <unitdate era="ce" calendar="gregorian">1932-1977 </unitdate>
+							              <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                          target="Sayers2">See also Oversize Folder 66, Clippings,
+								1897-1961, undated</ref>
+                  </unittitle>
+               </did>
+               <accessrestrict>
+                  <p>Please use photocopies in folder 45.</p>
+               </accessrestrict>
+            </c02>
+            <c02 id="mferd73e763" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">45</container>
+                  <unittitle>Photocopies of clippings</unittitle>
+               </did>
+               <accessrestrict>
+                  <p>Please use these photocopies rather than the fragile originals in
+							folder 44.</p>
+               </accessrestrict>
+            </c02>
+            <c02 id="mferd73e774" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">46</container>
+                  <unittitle>Greeting cards, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e784" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">47</container>
+                  <unittitle>Phonograph diagrams,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e794" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">48</container>
+                  <unittitle>Postcards and pictorial envelopes, <unitdate era="ce" calendar="gregorian">1908-1947,
+								undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e804" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">49</container>
+                  <unittitle>Record inserts for Edison cylinders, <unitdate era="ce" calendar="gregorian">circa
+								1912-1914</unitdate>
+                  </unittitle>
+               </did>
+               <odd>
+                  <p>For cylinders #1828, 1889, 2024, 2034, 2051, 2063, 2142, 2152, 2219,
+							2269, 2288, 2290, and 2389.</p>
+               </odd>
+            </c02>
+            <c02 id="mferd73e818" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">50</container>
+                  <unittitle>Miscellaneous, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series5">
+            <did>
+               <unittitle>Series 5. Photographs, <unitdate era="ce" calendar="gregorian">circa 1895-1975,
+							undated</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>.42 linear feet</extent>
+					          </physdesc>
+               <physloc>RPA 00163 (box 4)</physloc>
+            </did>
+            <scopecontent>
+               <p>Series V contains approximately 75 photographs (black-and-white and
+						color) as well as 7 slides and 32 negatives. Many of the photographs in
+						this series were printed from copy negatives of older photographs or
+						images from journals and books. Included are photographs of Isabelle
+						Sayers displaying equipment from her collection and portraits of
+						inventors Thomas Edison and Emile Berliner. Also represented are
+						various actors and musicians, with a particular focus on Elsie Janis, a
+						Columbus, Ohio, native and star of many vaudeville productions.
+						Photographs of recording equipment and phonograph advertisements are
+						also present. Three scrapbooks are included in this series. One
+						contains Isabelle Sayers's family photographs and related ephemera; the
+						two others include portraits and clippings of Broadway, movie, and
+						recording personalities.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Photographs are arranged alphabetically by subject or type;
+						miscellaneous negatives and photographs are filed at the end.</p>
+            </arrangement>
+            <c02 id="mferd73e847" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">51</container>
+                  <unittitle>Audio equipment, <unitdate era="ce" calendar="gregorian">1962,
+							undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e857" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">52</container>
+                  <unittitle>Emile Berliner portraits and equipment,
+								<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+               <odd>
+                  <p>Prints made from copy negatives.</p>
+               </odd>
+            </c02>
+            <c02 id="mferd73e870" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">53</container>
+                  <unittitle>Thomas Edison and the gravestone of Samuel Edison,
+								<unitdate era="ce" calendar="gregorian">1969, and undated </unitdate>
+							              <ref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"
+                          target="Sayers3">See also Oversize Folder 70, Photographs and
+								prints, 1923 and undated </ref>
+                  </unittitle>
+               </did>
+               <odd>
+                  <p>One image is a copy.</p>
+               </odd>
+            </c02>
+            <c02 id="mferd73e886" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">54</container>
+                  <unittitle>Elsie Janis portraits, <unitdate era="ce" calendar="gregorian">circa 1895-1920,
+								undated</unitdate>
+                  </unittitle>
+               </did>
+               <odd>
+                  <p>Some are copies.</p>
+               </odd>
+            </c02>
+            <c02 id="mferd73e899" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">55</container>
+                  <unittitle>Photographs of phonograph advertisements,
+								<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e909" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">56</container>
+                  <unittitle>Portraits of actors and musicians,
+								<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Included are images of Helen Clark, Glen Ellison, Kirsten Flagsted,
+							Ada Jones, Helen Jepson, Betsy Lee Shepherd, and Blanche
+							Theborn.</p>
+               </scopecontent>
+               <odd>
+                  <p>Most are copies.</p>
+               </odd>
+            </c02>
+            <c02 id="mferd73e925" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">57</container>
+                  <unittitle>Isabelle Sayers with collection and musicians,
+								<unitdate era="ce" calendar="gregorian">circa 1945-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e935" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">58-61</container>
+                  <unittitle>Scrapbooks, <unitdate era="ce" calendar="gregorian">1886-circa 1960</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes family photographs, images of Broadway and theater stars,
+							and ephemera.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd73e949" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">62</container>
+                  <unittitle>Miscellaneous negatives,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+               <odd>
+                  <p>Most are copy negatives.</p>
+               </odd>
+            </c02>
+            <c02 id="mferd73e962" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">63</container>
+                  <unittitle>Miscellaneous photographs, <unitdate era="ce" calendar="gregorian">1899,
+								undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="series6">
+            <did>
+               <unittitle>Series 6. Oversize Materials, <unitdate era="ce" calendar="gregorian">1897-1965,
+							undated</unitdate>
+               </unittitle>
+               <physdesc>
+						            <extent>2.04 linear feet</extent>
+					          </physdesc>
+               <physloc>RPC 00001 (box 5); RPM 00002 (box 6)</physloc>
+            </did>
+            <scopecontent>
+               <p>Oversize materials include posters, broadsides, photographs, prints, and
+						newspaper and magazine clippings. A small collection of broadsides for
+						early concerts and equipment demonstrations are mostly undated.
+						Oversize photographs are all of Thomas A. Edison or his inventions;
+						also included in this folder are several copies of an undated wood
+						block print of Edison. Clippings related to Thomas A. Edison (a few are
+						full copies of publications focusing on his career or death), Elsie
+						Janis and other musicians. Oversize advertisements are also
+						included.</p>
+            </scopecontent>
+            <c02 id="mferd73e988" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">64</container>
+                  <unittitle>Advertisements, <unitdate era="ce" calendar="gregorian">1910-1923,
+							undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e998" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">65</container>
+                  <unittitle>Broadsides, <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e1008" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">Oversize 66</container>
+                  <unittitle id="Sayers2">Clippings,
+							<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+               <accessrestrict>
+                  <p>Photocopies of oversize clippings; please use these rather than the
+							fragile originals.</p>
+               </accessrestrict>
+            </c02>
+            <c02 id="mferd73e1021" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">67-68</container>
+                  <unittitle>Clippings, <unitdate era="ce" calendar="gregorian">1897-1961,
+							undated</unitdate>
+                  </unittitle>
+               </did>
+               <accessrestrict>
+                  <p>Please use the photocopies of these clippings housed in folder
+							66.</p>
+               </accessrestrict>
+            </c02>
+            <c02 id="mferd73e1034" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">69</container>
+                  <unittitle>Publications, <unitdate era="ce" calendar="gregorian">1859,
+							1919-1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e1044" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <container type="folder">Oversize 70</container>
+                  <unittitle id="Sayers3">Photographs and prints, <unitdate era="ce" calendar="gregorian">1923,
+								undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd73e1054" level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Posters, <unitdate era="ce" calendar="gregorian">circa 1929-1930,
+							undated</unitdate>
+                  </unittitle>
+               </did>
+               <odd>
+                  <p>Rolled.</p>
+               </odd>
+            </c02>
+         </c01>
+      </dsc>
+      <descgrp type="add">
+         <separatedmaterial id="mferd73e1066" encodinganalog="544 0">
+            <head>Transferred Materials</head>
+            <p>Some publications, especially record catalogs, that originally formed part
+					of the Sayers papers have been cataloged separately and added to the
+					Library's general collections.</p>
+         </separatedmaterial>
+      </descgrp>
+   </archdesc>
+</ead>

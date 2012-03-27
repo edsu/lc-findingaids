@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 19 August 2011 12:17:21 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu009014
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu009014--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu009014--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu009014-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd163e3">
+   <eadheader id="mferd163e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu009014"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu009014</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Susannah Armstrong Coleman Collection</titleproper>
+            <author>Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="1992" encodinganalog="260$c" era="ce" calendar="gregorian">1992</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: 
+	  				<extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">http://hdl.loc.gov/loc.music/perform.contact</extref> 
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2006577448"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2006577448</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2009" era="ce" calendar="gregorian">2009</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
+            <item>Editorial revisions made to this finding aid by Nancy Seeger in March 2010.</item>
+         </change>
+         <change>
+            <date normal="2009-07-13" era="ce" calendar="gregorian">2009 July 13</date>
+            <item>This finding aid was edited and portions rewritten by Christopher Hartten and coded for EAD by Janet McKinney in June 2009.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd349e53">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Susannah Armstrong Coleman Collection
+		  <unitdate label="Span Dates" type="inclusive" normal="1912/1953" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1912-1953</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1930/1949" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1930-1949)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.C65</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Coleman, Susannah Armstrong</persname>
+         </origination>
+         <physdesc label="Extent">
+	 		        <extent encodinganalog="300">circa 169
+	 		items</extent>
+	 		        <extent encodinganalog="300">3
+	 		containers</extent>
+	 		        <extent encodinganalog="300">1
+	 		linear foot</extent>
+		       </physdesc>
+         <langmaterial label="Language">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Susannah Armstrong Coleman (1897-1985) was an American pianist, composer and teacher.  The Susannah Armstrong Coleman Collection consists of music manuscripts, organizational publications, correspondence, programs, photographs, biographical notes, clippings, and miscellaneous items.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd349e97" altrender=":::F005=^20090803161759.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd165e7">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Coleman%2C+Susannah+Armstrong+Archives.^">Coleman, Susannah Armstrong--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Coleman%2C+Susannah+Armstrong+Correspondence.^">Coleman, Susannah Armstrong--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Coleman%2C+Susannah+Armstrong.^">Coleman, Susannah Armstrong.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Coleman%2C+Susannah+Armstrong.^">Coleman, Susannah Armstrong.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Oldberg%2C+Arne%2C+1874-1962.^">Oldberg, Arne, 1874-1962.</persname>
+         </controlaccess>
+         <controlaccess id="mferd165e20">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mu+Phi+Epsilon.^">Mu Phi Epsilon.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Northwestern+University+%28Evanston%2C+Ill.%29.+School+of+Music.^">Northwestern University (Evanston, Ill.). <subarea encodinganalog="610$b">School of Music.</subarea>
+            </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Pi+Kappa+Lambda.^">Pi Kappa Lambda.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd165e32">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Women+composers+United+States.^">Women composers--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Women+pianists+United+States.^">Women pianists--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd165e39">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd349e138" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd349e141" encodinganalog="541">
+            <head>Provenance</head>
+            <p>Gift, Estate of Susannah Armstrong Coleman, circa 1987.</p>
+         </acqinfo>
+         <processinfo id="mferd349e146" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The Susannah Armstrong Coleman Collection was processed by Cheryl Dempsey in June 1992. This finding aid was revised by Christopher Hartten and coded for EAD by Janet McKinney in June 2009.</p>
+         </processinfo>
+         <userestrict id="mferd349e151" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright on the materials of the Susannah Armstrong Coleman Collection is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd349e156" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The Susannah Armstrong Coleman Collection is open to research. Researchers are advised to contact the Performing Arts Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite id="mferd349e161" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: container number, Susannah Armstrong Coleman Collection, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist id="mferd349e166" encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>Susannah Armstrong Coleman (1897-1985) was an American pianist, composer, and teacher. Born in Chicago, Coleman began her musical studies locally with Hilda Brown before earning a bachelor's degree at the Northwestern University School of Music in 1919. There she studied piano with Victor Garwood, Josef Lhevinne, and Arne Oldberg, the latter with whom she also studied composition. She continued her piano studies abroad with Artur Schnabel from 1924-1925. Between 1930 and 1946, Coleman composed extensively while in summer residence on fellowship at the MacDowell Colony in Peterboro, New Hampshire. She moved to New York in 1934 and married former Colony member Laurence Vail Coleman four years later. The couple spent the remainder of their lives in the Washington, D.C. and Charlottesville, Virginia, areas while also travelling extensively throughout Europe and the Carribean. Over the course of her lifetime, Susannah Coleman won prizes for numerous compositions, including awards from Mu Phi Epsilon for her Blue Symphony and Mother Goose Suite.</p>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1897 March 11</date>
+               <event>Born Susannah Winifred Armstrong, Chicago, Illinois</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1919</date>
+               <event>Earns Bachelor of Music, Northwestern University School of Music</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1930</date>
+               <event>Awarded fellowship to study composition at the MacDowell Colony, Peterboro, New Hampshire</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1939 Feb. 9</date>
+               <event>Marries Laurence Vail Coleman</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1985 July</date>
+               <event>Dies in Arlington, Virginia</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent id="mferd349e202" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Susannah Armstrong Coleman Collection spans the period 1912-1953; the bulk of the materials date from 1930-1949. The collection includes music manuscripts, organizational publications, correspondence, programs, photographs, biographical notes, clippings, and miscellaneous items. Correspondence principally consists of greeting cards from Mrs. Coleman's friends and acquaintances. The clippings focus on collegiate programs and the activities of her instructors at the Northwestern University School of Music. Pamphlets and publications of Mu Phi Epsilon and Pi Kappa Lambda portray Coleman as an invested member who actively contributed to organizational events.</p>
+      </scopecontent>
+      <arrangement id="mferd349e207" encodinganalog="351$a">
+         <head>Arrangement of the Susannah Armstrong Coleman Collection</head>
+         <p>The Susannah Armstrong Coleman Collection is organized into nine series: </p>
+         <list>
+            <item>Music</item>
+            <item>Publications</item>
+            <item>Correspondence</item>
+            <item>Programs</item>
+            <item>Photographs</item>
+            <item>Certificates and Academic Papers</item>
+            <item>Biographical Notes</item>
+            <item>Clippings</item>
+            <item>Miscellaneous</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2006577448"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2006577448</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd349e231" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd163e260" level="series">
+            <did>
+               <container type="box">1-2</container>
+               <unittitle encodinganalog="245$a">Music</unittitle>
+            </did>
+            <c02 id="mferd163e266" level="file">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">The bagpipe man</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e272" level="file">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Barter</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e278" level="file">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle encodinganalog="245$a">Blue symphony</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e284" level="file">
+               <did>
+                  <container type="box-folder">1/4</container>
+                  <unittitle encodinganalog="245$a">Chimes (variations)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e290" level="file">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle encodinganalog="245$a">Debate : for piano</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e296" level="file">
+               <did>
+                  <container type="box-folder">1/6</container>
+                  <unittitle encodinganalog="245$a">Debate : for two pianos</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e302" level="file">
+               <did>
+                  <container type="box-folder">1/7</container>
+                  <unittitle encodinganalog="245$a">Dusk</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e308" level="file">
+               <did>
+                  <container type="box-folder">1/8</container>
+                  <unittitle encodinganalog="245$a">Four compositions: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Slumber song</title> ; <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Hunting song</title> ; <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bells</title> ; <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Chinese dance</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e326" level="file">
+               <did>
+                  <container type="box-folder">1/9</container>
+                  <unittitle encodinganalog="245$a">Introit and differencia</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e332" level="file">
+               <did>
+                  <container type="box-folder">1/10</container>
+                  <unittitle encodinganalog="245$a">The King of China's daughter</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e339" level="file">
+               <did>
+                  <container type="box-folder">1/11</container>
+                  <unittitle encodinganalog="245$a">Men and wheat</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e345" level="file">
+               <did>
+                  <container type="box-folder">1/12</container>
+                  <unittitle encodinganalog="245$a">Missal theme</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e351" level="file">
+               <did>
+                  <container type="box-folder">1/13</container>
+                  <unittitle encodinganalog="245$a">Mother Goose suite</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e357" level="file">
+               <did>
+                  <container type="box-folder">1/14</container>
+                  <unittitle encodinganalog="245$a">The noise of waters</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e363" level="file">
+               <did>
+                  <container type="box-folder">2/1</container>
+                  <unittitle encodinganalog="245$a">Oh, where have you been Billy Boy?</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e369" level="file">
+               <did>
+                  <container type="box-folder">2/2</container>
+                  <unittitle encodinganalog="245$a">The oxen</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e375" level="file">
+               <did>
+                  <container type="box-folder">2/3</container>
+                  <unittitle encodinganalog="245$a">Pastoral suite</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e381" level="file">
+               <did>
+                  <container type="box-folder">2/4</container>
+                  <unittitle encodinganalog="245$a">Prelude, G sharp minor</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e387" level="file">
+               <did>
+                  <container type="box-folder">2/5</container>
+                  <unittitle encodinganalog="245$a">Promenade</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e393" level="file">
+               <did>
+                  <container type="box-folder">2/6</container>
+                  <unittitle encodinganalog="245$a">Pyrenees legend</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e399" level="file">
+               <did>
+                  <container type="box-folder">2/7</container>
+                  <unittitle encodinganalog="245$a">Rock-a-bye baby</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e406" level="file">
+               <did>
+                  <container type="box-folder">2/8</container>
+                  <unittitle encodinganalog="245$a">Quietly gone</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e412" level="file">
+               <did>
+                  <container type="box-folder">2/9</container>
+                  <unittitle encodinganalog="245$a">Sea shell</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e418" level="file">
+               <did>
+                  <container type="box-folder">2/10</container>
+                  <unittitle encodinganalog="245$a">Seven suite for piano</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e424" level="file">
+               <did>
+                  <container type="box-folder">2/11</container>
+                  <unittitle encodinganalog="245$a">Trio-andante con moto</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e430" level="file">
+               <did>
+                  <container type="box-folder">2/12</container>
+                  <unittitle encodinganalog="245$a">When that I was and a little tiny boy</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd163e436" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Publications</unittitle>
+            </did>
+            <c02 id="mferd163e442" level="file">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a">Mu Phi Epsilon, <unitdate era="ce" calendar="gregorian">June 23-26, 1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e451" level="file">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a">Pi Kappa Lambda, <unitdate era="ce" calendar="gregorian">1918-1937</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e460" level="file">
+               <did>
+                  <container type="box-folder">3/2</container>
+                  <unittitle encodinganalog="245$a">The Triangle, <unitdate era="ce" calendar="gregorian">1947-1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e469" level="file">
+               <did>
+                  <container type="box-folder">3/3</container>
+                  <unittitle encodinganalog="245$a">The Washington Season, <unitdate era="ce" calendar="gregorian">Winter 1948-1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e478" level="file">
+               <did>
+                  <container type="box-folder">3/4</container>
+                  <unittitle encodinganalog="245$a">YWCA (Young Women's Christian Association), <unitdate era="ce" calendar="gregorian">1942-1943</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd163e487" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Correspondence</unittitle>
+            </did>
+            <c02 id="mferd163e493" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle>Brown, Ray B.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e499" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle>Clutcher, Ruth Row</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e505" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle>Garwood, Victor</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e511" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle>King, Bertha</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e517" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle>Klein, Dr. Charlotte</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e523" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle>Lutkin Quintette</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e529" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle>Lutkin, Lelah and Peter</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e535" level="file">
+               <did>
+                  <container type="box-folder">3/5</container>
+                  <unittitle>Oldberg, Arne</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd163e541" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Programs</unittitle>
+            </did>
+            <c02 id="mferd163e547" level="file">
+               <did>
+                  <container type="box-folder">3/6</container>
+                  <unittitle encodinganalog="245$a">Programs, <unitdate era="ce" calendar="gregorian">1912-1926</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd163e556" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Recital by pupils of Miss Hilda B. Brown, The Woman's Library Club, Glencoe, Illinois, <unitdate era="ce" calendar="gregorian">June 15, 1912</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e565" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Northwestern University School of Music, Evanston, Illinois, Thirty-ninth students' recital, Music Hall, Orrington Avenue and University Place, <unitdate era="ce" calendar="gregorian">May 17, 1917</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e574" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Northwestern University School of Music, Evanston, Illinois, Forty-fourth students recital, Music Hall, Orrington Avenue and University Place, <unitdate era="ce" calendar="gregorian">May 23, 1918</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e583" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Northwestern University School of Music Evanston, Illinois, Sixth alumni recital, Music  Hall, Orrington Avenue and University Place, <unitdate era="ce" calendar="gregorian">May 1, 1919</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e592" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Northwestern University School of Music, Evanston, Illinois, Third alumni recital, <unitdate era="ce" calendar="gregorian">December 6, 1920</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e601" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Glencoe Men's Club entertainments recital, <unitdate era="ce" calendar="gregorian">February 4, 1921</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e610" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Glencoe Men's Club entertainments recital by Mr. Attilio Baggiore, tenor, assisted by Miss Susannah Armstrong, pianist, Miss Bertha Hagen, accompanist, <unitdate era="ce" calendar="gregorian">February 4, 1921</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e619" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Northwestern University School of Music Evanston, Illinois, Twenty-fifth student recital, <unitdate era="ce" calendar="gregorian">March 25, 1924</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e628" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Enlightenment, a pageant commemorating the quarto-centennial anniversary of the birth of New Trier Township High School, <unitdate era="ce" calendar="gregorian">June 14 and 15, 1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e637" level="file">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle>Enlightenment, Twenty-Fifth Anniversary, <unitdate era="ce" calendar="gregorian">1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd163e646" level="file">
+               <did>
+                  <container type="box-folder">3/7</container>
+                  <unittitle encodinganalog="245$a">Programs, <unitdate era="ce" calendar="gregorian">1927-1953</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd163e655" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Northwestern University School of Music, Thirty-second student recital, <unitdate era="ce" calendar="gregorian">June 9, 1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e664" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Northwestern University School of Music, First alumni recital, <unitdate era="ce" calendar="gregorian">December 8, 1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e673" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Dedication exercises, Central School auditorium, Glencoe, Illinois, <unitdate era="ce" calendar="gregorian">May 31, 1929</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e682" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>A spring festival, Saturday evening, <unitdate era="ce" calendar="gregorian">April 27, 1935</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e691" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Recital by new members of the faculty of Gardner School, Friday evening, <unitdate era="ce" calendar="gregorian">October 25, 1935</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e700" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>The National Association for American Composers and Conductors, Steinway Concert Hall, <unitdate era="ce" calendar="gregorian">March 16, 1937</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e709" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Elizabeth Layman Anning, pianist, Katherine Hamilton, violinist, Susannah Armstrong at the piano, <unitdate era="ce" calendar="gregorian">November 9, 1937</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e718" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, Fifty-fifth season, <unitdate era="ce" calendar="gregorian">Friday, February 28, 1941</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e727" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, Fifty-sixth season, <unitdate era="ce" calendar="gregorian">Friday, February 27, 1942</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e736" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, Fifty-seventh season, <unitdate era="ce" calendar="gregorian">February 12, 1943</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e746" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, Fifty-eighth season, <unitdate era="ce" calendar="gregorian">December 10, 1943</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e755" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Arts Club of Washington, <unitdate era="ce" calendar="gregorian">March, 2, 9, 12, 16, 23, 28, 29, 30, 1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e764" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, Fifty-eighth season, <unitdate era="ce" calendar="gregorian">March 3, 1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e773" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Arts Club of Washington, <unitdate era="ce" calendar="gregorian">February 1, 1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e782" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, Fifty-ninth season, <unitdate era="ce" calendar="gregorian">April 6, 1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e791" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, <unitdate era="ce" calendar="gregorian">March 15, 1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e800" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>The Arts Club of Washington, in a program for two pianos, <unitdate era="ce" calendar="gregorian">April 11, 1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e809" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, <unitdate era="ce" calendar="gregorian">February 14, 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e818" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>275th concert, National Gallery of Art, <unitdate era="ce" calendar="gregorian">September 21, 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e827" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Arts Club of Washington, <unitdate era="ce" calendar="gregorian">May 13, 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e836" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Arts Club of Washington, <unitdate era="ce" calendar="gregorian">November 18, 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e846" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Friday Morning Music Club, <unitdate era="ce" calendar="gregorian">Friday, November 26, 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e855" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>The Phillips Gallery, <unitdate era="ce" calendar="gregorian">December 13, 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e864" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>The Phillips Gallery, <unitdate era="ce" calendar="gregorian">December 11, 1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e873" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>Carnegie Recital Hall, <unitdate era="ce" calendar="gregorian">February 13, 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e882" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>The Arts Club, <unitdate era="ce" calendar="gregorian">February 22, 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e891" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>The Phillips Gallery, song recital,  <unitdate era="ce" calendar="gregorian">March 3, 1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e900" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>The Arts Club, <unitdate era="ce" calendar="gregorian">January 22, 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e909" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>The Friday Morning Music Club, Sixty-seventh season, <unitdate era="ce" calendar="gregorian">February 6, 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd163e918" level="file">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle>First annual program of original compositions by the students of N.T.H.S. harmony classes, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd163e924" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Photographs</unittitle>
+            </did>
+            <c02 id="mferd163e930" level="file">
+               <did>
+                  <container type="box-folder">3/8</container>
+                  <unittitle encodinganalog="245$a">Trophy from an original composition contest of Mu Phi Epsilon</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e936" level="file">
+               <did>
+                  <container type="box-folder">3/8</container>
+                  <unittitle encodinganalog="245$a">Two portraits of Susannah Armstrong Coleman</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd163e942" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Certificates and Academic Papers</unittitle>
+            </did>
+            <c02 id="mferd163e948" level="file">
+               <did>
+                  <container type="box-folder">3/9</container>
+                  <unittitle encodinganalog="245$a">Pi Kappa Lambda member certificate</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e954" level="file">
+               <did>
+                  <container type="box-folder">3/9</container>
+                  <unittitle encodinganalog="245$a">Mu Phi Epsilon demission certificate</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd163e960" level="file">
+               <did>
+                  <container type="box-folder">3/9</container>
+                  <unittitle encodinganalog="245$a">Examination papers</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">3 p.</extent>
+	 					           </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd163e971" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Biographical Notes</unittitle>
+            </did>
+            <c02 id="mferd163e977" level="file">
+               <did>
+                  <container type="box-folder">3/10</container>
+                  <unittitle encodinganalog="245$a">Notes prepared for various short biographies</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd163e983" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Clippings</unittitle>
+            </did>
+            <c02 id="mferd163e989" level="file">
+               <did>
+                  <container type="box-folder">3/11</container>
+                  <unittitle encodinganalog="245$a">Clippings of Susannah Armstrong Coleman and her teachers</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd163e995" level="series">
+            <did>
+               <container type="box">3</container>
+               <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+            </did>
+            <c02 id="mferd163e1001" level="file">
+               <did>
+                  <container type="box-folder">3/12</container>
+                  <unittitle encodinganalog="245$a">Biography and portrait of Arne Oldberg</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,3656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Mon, 20 June 2011 02:14:15 PM EDT
+URL: http://hdl.loc.gov/loc.gmd/eadgmd.gm001001
+ ===================================== -->
+<!-- Transformed with v1v2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd229e2"
+     relatedencoding="USMARC">
+   <eadheader id="mferd229e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              findaidstatus="unverified-full-draft">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.gmd/eadgmd.gm001001"
+             encodinganalog="856$g">http://hdl.loc.gov/loc.gmd/eadgmd.gm001001</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Oregon Department of Transportation City Maps</titleproper>
+            <author>Prepared by Geography &amp; Map Division, Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Geography &amp; Map Division<lb/> Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. 20540</addressline>
+            </address>
+            <date era="ce" calendar="gregorian">2001</date>
+         </publicationstmt>
+         <notestmt>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/96682185" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/96682185</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress<lb/> Geography &amp; Map Division, 
+		  <date era="ce" calendar="gregorian">2001</date>
+         </creation>
+         <langusage>Finding aid written in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change encodinganalog="583">
+            <date normal="2005-01-05" era="ce" calendar="gregorian">2005-01-05</date>
+            <item>converted from EAD 1.0 to EAD 2002 </item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc type="register" level="collection">
+      <did id="mferd229e44">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245">Town Plan Maps of Oregon 
+		  <unitdate label="Span Dates" type="inclusive" normal="1986/2999" encodinganalog="260"
+                      era="ce"
+                      calendar="gregorian">1986-</unitdate>
+         </unittitle>
+         <origination label="Creator"> 	  
+            <corpname encodinganalog="110">Oregon. Dept. of Transportation</corpname>
+         </origination>
+         <physdesc label="Size">
+            <extent encodinganalog="300">    maps : col. ; 64 x 44 cm. or smaller, on sheets 70 x 49 cm. or smaller.  Scales differ.</extent>
+         </physdesc>
+         <repository label="Location" encodinganalog="852">   
+            <corpname>
+               <subarea>Geography &amp; Map Division</subarea> Library of Congress</corpname> 
+		  
+            <address>
+               <addressline>Washington, DC</addressline>
+            </address> 
+         </repository>
+         <abstract label="Summary" encodinganalog="520">City maps issued by the Oregon Department of Transportation showing highways, streets, parks, railroads, schools, public buildings, section corners, water features, land features, and various boundaries.</abstract>
+         <langmaterial label="Language">Collection material in <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+      </did>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd229e81" altrender=":::F005=^20090630123322.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd231e12">
+            <head>Organizations</head>
+            <corpname encodinganalog="110$a" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Oregon.+Dept.+of+Transportation.^">Oregon. <subarea encodinganalog="110$b">Dept. of Transportation.</subarea>
+            </corpname>
+         </controlaccess>
+         <controlaccess id="mferd231e24">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Cities+and+towns+Oregon+Maps.^">Cities and towns--Oregon--Maps.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Roads+Oregon+Maps.^">Roads--Oregon--Maps.</subject>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd229e102" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd229e105">
+            <head>Source</head>
+            <p>Deposited in the Library of Congress, Geography &amp; Map Division by the Oregon Department of Transportation, 1990-</p>
+         </acqinfo>
+         <accruals id="mferd229e110">
+            <head>Accrual Frequency</head>
+            <p>Maps are received on an irregular and ongoing basis.</p>
+         </accruals>
+         <userestrict id="mferd229e115">
+            <head>Copyright Status</head>
+            <p>The status of copyright in the Oregon Department of Transportation City Maps is governed by the Copyright Law of the United States (Title 17, U.S.C.)</p>
+         </userestrict>
+         <altformavail id="mferd229e120">
+            <head>Electronic</head>
+            <p>Some items are available on the Internet from <corpname>Oregon Dept. of Transportation</corpname> at <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                       xlink:href="http://www.oregon.gov/ODOT/TD/TDATA/gis/CityMaps.shtml">http://www.oregon.gov/ODOT/TD/TDATA/gis/CityMaps.shtml</extref>.</p>
+         </altformavail>
+         <prefercite id="mferd229e131">
+            <head>Preferred Citation</head>
+            <p>Contact the Oregon Dept. of Transportation for this information at <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                       xlink:href="http://egov.oregon.gov/ODOT/contact_us.shtml">http://egov.oregon.gov/ODOT/contact_us.shtml</extref>.</p>
+         </prefercite>
+      </descgrp>
+      <scopecontent id="mferd229e139">
+         <head>Scope and Content Note</head>
+         <p>This finding aid lists maps of incorporated towns issued by the Oregon Department of Transporation and held in the Geography &amp; Map Division. The dates within the list represent the holdings of the Division. These city maps show highways, streets, parks, railroads, schools, public buildings, section corners, water features, land features, and various boundaries. The list is arranged alphabetically by city name.</p>
+      </scopecontent>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/96682185" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/96682185</extref>
+      </otherfindaid>
+      <dsc id="mferd229e144" type="combined">
+         <head>Inventory</head>
+         <!-- place gm001001_1001_mdb_x.xml here -->
+<c01 id="mferd229e148" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Adair Vilage</emph>
+                  </geogname>
+                  <geogname role="county">(Benton County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e172" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Adams</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e201" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Adrian</emph>
+                  </geogname>
+                  <geogname role="county">(Malheur County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e230" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Albany</emph>
+                  </geogname>
+                  <geogname role="county">(Linn and Benton Counties)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e248" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Amity</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e272" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Antelope</emph>
+                  </geogname>
+                  <geogname role="county">(Wasco County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1994</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e301" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Arlington</emph>
+                  </geogname>
+                  <geogname role="county">(Gilliam County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1993</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e330" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Ashland</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e348" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Astoria</emph>
+                  </geogname>
+                  <geogname role="county">(Clatsop County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e373" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Athena</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e397" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Aumsville</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e421" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Aurora</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e450" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Baker City</emph>
+                  </geogname>
+                  <geogname role="county">(Baker County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e474" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Bandon</emph>
+                  </geogname>
+                  <geogname role="county">(Coos County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e498" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Banks</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e522" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Barlow</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1994</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e551" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Bay City</emph>
+                  </geogname>
+                  <geogname role="county">(Tillamook County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e569" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Beavorton</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e593" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Bend</emph>
+                  </geogname>
+                  <geogname role="county">(Deschutes County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1993</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e617" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Boardman</emph>
+                  </geogname>
+                  <geogname role="county">(Morrow County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e642" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Bonanza</emph>
+                  </geogname>
+                  <geogname role="county">(Klamath County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e666" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Brookings</emph>
+                  </geogname>
+                  <geogname role="county">(Curry County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e695" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Brownsville</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e719" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Burns</emph>
+                  </geogname>
+                  <geogname role="county">(Harney County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1994</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+               <note>
+                  <p>See also Hines</p>
+               </note>
+            </did>
+         </c01>
+         <c01 id="mferd229e756" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Butte Falls</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e780" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Canby</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1986</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e809" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Canyon City</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e833" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Cannon</emph>
+                  </geogname>
+                  <geogname role="county">(Clatsop County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1998</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e857" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Canyonville</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e881" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Carlton</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e905" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Cascade Locks</emph>
+                  </geogname>
+                  <geogname role="county">(Hood River)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e930" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Cave Junction</emph>
+                  </geogname>
+                  <geogname role="county">(Josephine County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e964" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Central Point</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e988" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Chiloquin</emph>
+                  </geogname>
+                  <geogname role="county">(Klamath County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1006" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Clatskaine</emph>
+                  </geogname>
+                  <geogname role="county">(Columbia County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1030" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Coburg</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1054" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Columbia City</emph>
+                  </geogname>
+                  <geogname role="county">(Columbia County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1083" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Condon</emph>
+                  </geogname>
+                  <geogname role="county">(Gilliam County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/1986</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1112" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Coos Bay</emph>
+                  </geogname>
+                  <geogname role="county">(Coos County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1141" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Coquille</emph>
+                  </geogname>
+                  <geogname role="county">(Coos County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1165" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Cornelius</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1189" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Corvallis</emph>
+                  </geogname>
+                  <geogname role="county">(Benton County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1986</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1219" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Cottage Grove</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1243" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Cove</emph>
+                  </geogname>
+                  <geogname role="county">(Union County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1267" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Creswell</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1285" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Culver</emph>
+                  </geogname>
+                  <geogname role="county">(Jefferson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1309" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Dallas</emph>
+                  </geogname>
+                  <geogname role="county">(Polk County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1327" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Damascus</emph>
+                  </geogname>
+                  <geogname role="county">(Portland and Vicinity)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1345" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Dayton</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1363" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Dayville</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1387" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Depoe Bay</emph>
+                  </geogname>
+                  <geogname role="county">(Lincoln County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1405" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Detroit</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1434" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Dixie Mountain</emph>
+                  </geogname>
+                  <geogname role="county">(Portland and Vicinity)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1453" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Donald</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1471" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Drain</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1500" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Dufur</emph>
+                  </geogname>
+                  <geogname role="county">(Wasco County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1524" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Dundee</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1548" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Dunes City</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1566" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Durham</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1590" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Eagle Point</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1614" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Echo</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1643" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Elgin</emph>
+                  </geogname>
+                  <geogname role="county">(Union County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1667" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Elkton</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1696" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Enterprise</emph>
+                  </geogname>
+                  <geogname role="county">(Wallowa County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1715" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Estacada</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1739" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Eugene East Quad</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/1991</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1757" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Eugenr West Quad</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/1991</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1775" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Fairview</emph>
+                  </geogname>
+                  <geogname role="county">(Multnomah County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1799" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Falls City</emph>
+                  </geogname>
+                  <geogname role="county">(Polk County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1817" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Florence</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1835" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Forest Grove</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1859" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Fossil</emph>
+                  </geogname>
+                  <geogname role="county">(Wheeler County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1883" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Garibaldi</emph>
+                  </geogname>
+                  <geogname role="county">(Tillamook County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1901" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Gaston</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1919" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1932" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Gearhart</emph>
+                  </geogname>
+                  <geogname role="county">(Clatsop County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1956" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Geravis</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1995</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e1980" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Gladstone</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2004" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Glendale</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2028" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Gold Beach</emph>
+                  </geogname>
+                  <geogname role="county">(Curry County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2057" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Gold Hill</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2075" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Granite</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2099" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Grants Pass</emph>
+                  </geogname>
+                  <geogname role="county">(Josephine County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2117" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Grass Valley</emph>
+                  </geogname>
+                  <geogname role="county">(Sherman County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1988</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2135" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Greenhorn</emph>
+                  </geogname>
+                  <geogname role="county">(Baker County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2159" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Gresham</emph>
+                  </geogname>
+                  <geogname role="county">(Multnomah County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1988</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2178" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Haines</emph>
+                  </geogname>
+                  <geogname role="county">(Baker County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2202" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Halfway</emph>
+                  </geogname>
+                  <geogname role="county">(Baker County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2226" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Halsey</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2244" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Happy Valley</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2273" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Hardman</emph>
+                  </geogname>
+                  <geogname role="county">(Morrow County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2291" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Harrisburg</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2315" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Helix</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1998</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2339" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Heppner</emph>
+                  </geogname>
+                  <geogname role="county">(Morrow County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2363" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Hermiston</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2387" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Hillsboro</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2411" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Hines</emph>
+                  </geogname>
+                  <geogname role="county">(Harney County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+               <note>
+                  <p>See also Burns</p>
+               </note>
+            </did>
+         </c01>
+         <c01 id="mferd229e2444" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Hood River</emph>
+                  </geogname>
+                  <geogname role="county">(Hood River)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2473" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Hubbard</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2497" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Huntington</emph>
+                  </geogname>
+                  <geogname role="county">(Baker County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2526" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Idanha</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2544" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Imbler</emph>
+                  </geogname>
+                  <geogname role="county">(Union County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1995</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2568" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Independence</emph>
+                  </geogname>
+                  <geogname role="county">(Polk County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2586" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Ione</emph>
+                  </geogname>
+                  <geogname role="county">(Morrow County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/994</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2615" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Irrigon</emph>
+                  </geogname>
+                  <geogname role="county">(Morrow County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2644" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Island City</emph>
+                  </geogname>
+                  <geogname role="county">(Union County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1995</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2662" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Jacksonville</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2680" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Jefferson</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1991</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2699" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">John Day</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1993</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2723" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Johnson City</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2747" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Jordan Valley</emph>
+                  </geogname>
+                  <geogname role="county">(Malheur County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2765" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Joseph</emph>
+                  </geogname>
+                  <geogname role="county">(Wallowa County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2783" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Junction City</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2812" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Keizer</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1992</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2830" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">King City</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2859" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Klamath Falls</emph>
+                  </geogname>
+                  <geogname role="county">(Klamath County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2883" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">La Grande</emph>
+                  </geogname>
+                  <geogname role="county">(Union County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2907" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lafayette</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2931" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lake Oswego</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2950" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lakeside</emph>
+                  </geogname>
+                  <geogname role="county">(Coos County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2974" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lakeview</emph>
+                  </geogname>
+                  <geogname role="county">(Lake County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e2998" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lebanon</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3022" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lexington</emph>
+                  </geogname>
+                  <geogname role="county">(Morrow County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3040" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lincoln City</emph>
+                  </geogname>
+                  <geogname role="county">(Lincoln County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3058" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lonerock</emph>
+                  </geogname>
+                  <geogname role="county">(Gilliam County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3082" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Long Creek</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3111" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lostine</emph>
+                  </geogname>
+                  <geogname role="county">(Wallowa County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3135" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lowell</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3159" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Lyons</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3177" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Madras</emph>
+                  </geogname>
+                  <geogname role="county">(Jefferson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3196" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Malin</emph>
+                  </geogname>
+                  <geogname role="county">(Klamath County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3214" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Manzanita</emph>
+                  </geogname>
+                  <geogname role="county">(Tillamook County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1998</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3232" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Maupin</emph>
+                  </geogname>
+                  <geogname role="county">(Wasco County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3250" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Maywood Park</emph>
+                  </geogname>
+                  <geogname role="county">(Multnomah County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3268" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">McMinville</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3292" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Meachman/Umapine</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3310" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Medford</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1994</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3334" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Merrill</emph>
+                  </geogname>
+                  <geogname role="county">(Klamath County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3352" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Metolius</emph>
+                  </geogname>
+                  <geogname role="county">(Jefferson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3370" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Mill City</emph>
+                  </geogname>
+                  <geogname role="county">(Linn and Marion Counties)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3399" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Millersburg</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3418" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Milton-Freewater</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3442" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Milwaukee</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1987</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3471" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Mitchell</emph>
+                  </geogname>
+                  <geogname role="county">(Wheeler County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3489" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Molalla</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3518" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Monmouth</emph>
+                  </geogname>
+                  <geogname role="county">(Polk County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1989</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3542" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Monroe</emph>
+                  </geogname>
+                  <geogname role="county">(Benton County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3566" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Monument</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3590" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Moro</emph>
+                  </geogname>
+                  <geogname role="county">(Sherman County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3608" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Mosier</emph>
+                  </geogname>
+                  <geogname role="county">(Wasco County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3626" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Mt. Angel</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3650" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Mt. Vernon</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3675" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Myrtle Creek</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3699" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Myrtle Point</emph>
+                  </geogname>
+                  <geogname role="county">(Coos County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3733" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Nehalem</emph>
+                  </geogname>
+                  <geogname role="county">(Tillamook County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3757" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Newburg</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3786" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Newport</emph>
+                  </geogname>
+                  <geogname role="county">(Lincoln County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3810" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">North Bend</emph>
+                  </geogname>
+                  <geogname role="county">(Coos County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3834" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">North Plains</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3858" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">North Powder</emph>
+                  </geogname>
+                  <geogname role="county">(Union County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3887" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Nyssa</emph>
+                  </geogname>
+                  <geogname role="county">(Malheur County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3916" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Oakland</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3945" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Oakridge</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e3975" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Ontario</emph>
+                  </geogname>
+                  <geogname role="county">(Malheur County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">printed 8/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">printed 3/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4004" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Oregon City</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4028" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Paisley</emph>
+                  </geogname>
+                  <geogname role="county">(Lake County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4052" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Pendleton</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2001</unitdate>
+               </unittitle>
+               <note>
+                  <p>varient edition also dated 10/1990</p>
+               </note>
+            </did>
+         </c01>
+         <c01 id="mferd229e4084" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Philomath</emph>
+                  </geogname>
+                  <geogname role="county">(Benton County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4118" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Phoenix</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4142" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Pilot Rock</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4171" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Port Orford</emph>
+                  </geogname>
+                  <geogname role="county">(Curry County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4200" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Portland</emph>
+                  </geogname>
+                  <geogname role="county">(Portland and Vicinity)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4218" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Powers</emph>
+                  </geogname>
+                  <geogname role="county">(Coos County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4242" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Prairie City</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4272" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Prescott</emph>
+                  </geogname>
+                  <geogname role="county">(Columbia County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">00/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4301" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Prineville</emph>
+                  </geogname>
+                  <geogname role="county">(Crook County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4335" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Rainer</emph>
+                  </geogname>
+                  <geogname role="county">(Columbia County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4364" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Redmond</emph>
+                  </geogname>
+                  <geogname role="county">(Deschutes County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4398" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Reedsport</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4432" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Richland</emph>
+                  </geogname>
+                  <geogname role="county">(Baker County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">00/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4461" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Riddle</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas county)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">00/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4495" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Rivergrove</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas and Washington Counties)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1987</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4513" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Rockaway Beach</emph>
+                  </geogname>
+                  <geogname role="county">(Tillamook County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4537" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Rogue River</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4561" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Roseburg</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4586" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Rufus</emph>
+                  </geogname>
+                  <geogname role="county">(Sherman County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4604" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">St. Helens</emph>
+                  </geogname>
+                  <geogname role="county">(Columbia County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1993</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4628" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">St. Paul</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4652" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Salem East</emph>
+                  </geogname>
+                  <geogname role="county">(Salem and Vicinity)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1992</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4670" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Salem West</emph>
+                  </geogname>
+                  <geogname role="county">(Salem and Vicinity)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1992</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4688" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sandy</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4712" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sauvie Island</emph>
+                  </geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4727" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Scappoose</emph>
+                  </geogname>
+                  <geogname role="county">(Columbia County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2001</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4761" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Scio</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4790" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Scotts Mills</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4814" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Seaside</emph>
+                  </geogname>
+                  <geogname role="county">(Clatsop County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4849" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Seneca</emph>
+                  </geogname>
+                  <geogname role="county">(Grant County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4873" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Shady Cove</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4897" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Shaniko</emph>
+                  </geogname>
+                  <geogname role="county">(Wasco County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4921" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sheridan</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4945" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sherwood</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4969" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Siletz</emph>
+                  </geogname>
+                  <geogname role="county">(Lincoln County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e4987" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Silverton</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5016" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sisters</emph>
+                  </geogname>
+                  <geogname role="county">(Deschutes County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5045" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sodaville</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5069" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Spray</emph>
+                  </geogname>
+                  <geogname role="county">(Wheeler County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5098" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Springfield</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/1991</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5117" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Stanfield</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5146" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Stayton</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5170" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sublimity</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5199" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Summerville</emph>
+                  </geogname>
+                  <geogname role="county">(Union County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1993</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5228" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sumpter</emph>
+                  </geogname>
+                  <geogname role="county">(Baker County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5252" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sutherlin</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5286" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Sweet Home</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5320" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Talent</emph>
+                  </geogname>
+                  <geogname role="county">(Jackson County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5344" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Tangent</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5368" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">The Dallas</emph>
+                  </geogname>
+                  <geogname role="county">(Wasco County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5392" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Tigard</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5417" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Tillamook</emph>
+                  </geogname>
+                  <geogname role="county">(Tillamook County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1993</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/2001</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5446" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Toledo</emph>
+                  </geogname>
+                  <geogname role="county">(Lincoln County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">9/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5470" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Troutdale</emph>
+                  </geogname>
+                  <geogname role="county">(Multnomah County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5494" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Tualatin</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas and Washington Counties)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1988</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5523" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Turner</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5547" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Ukiah</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5576" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Umatilla</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/1995</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5605" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Union</emph>
+                  </geogname>
+                  <geogname role="county">(Union County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2002</unitdate>
+               </unittitle>
+               <note>
+                  <p>Variant second ed.</p>
+               </note>
+            </did>
+         </c01>
+         <c01 id="mferd229e5637" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Unity</emph>
+                  </geogname>
+                  <geogname role="county">(Baker County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5661" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Vale</emph>
+                  </geogname>
+                  <geogname role="county">(Malheur County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/2000</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5685" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Veneta</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1993</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5720" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Vernonia</emph>
+                  </geogname>
+                  <geogname role="county">(Columbia County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5744" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Waldport</emph>
+                  </geogname>
+                  <geogname role="county">(Lincoln County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">11/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1998</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5773" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Wallowa</emph>
+                  </geogname>
+                  <geogname role="county">(Wallowa County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5791" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Warrenton</emph>
+                  </geogname>
+                  <geogname role="county">(Clatsop County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5815" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Wasco</emph>
+                  </geogname>
+                  <geogname role="county">(Sherman County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5833" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Waterloo</emph>
+                  </geogname>
+                  <geogname role="county">(Linn County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">12/1997</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">4/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5862" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">West Linn</emph>
+                  </geogname>
+                  <geogname role="county">(Clackamas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2/1989</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5891" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Westfir</emph>
+                  </geogname>
+                  <geogname role="county">(Lane County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5915" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Weston</emph>
+                  </geogname>
+                  <geogname role="county">(Umatilla County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1998</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5939" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Wheeler</emph>
+                  </geogname>
+                  <geogname role="county">(Tillamook County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1999</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5957" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Willamina</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e5982" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Wilsonville</emph>
+                  </geogname>
+                  <geogname role="county">(Washington County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">6/1990</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e6006" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Winston</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1994</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e6035" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Wood Village</emph>
+                  </geogname>
+                  <geogname role="county">(Multnomah County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/2000</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e6059" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Woodburn</emph>
+                  </geogname>
+                  <geogname role="county">(Marion County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">1/1991</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">8/1993</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e6088" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Yachats</emph>
+                  </geogname>
+                  <geogname role="county">(Lincoln County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">3/1991</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e6106" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Yamhill</emph>
+                  </geogname>
+                  <geogname role="county">(Yamhill County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">10/1992</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 id="mferd229e6124" level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                  <geogname role="city">
+                     <emph render="bold">Yoncalla</emph>
+                  </geogname>
+                  <geogname role="county">(Douglas County)</geogname>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">7/1999</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">2002</unitdate>
+                  <lb/>
+                  <unitdate era="ce" calendar="gregorian">5/2002</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

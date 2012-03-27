@@ -1,5 +1,4 @@
 var fs = require('fs'),
-    util = require('util'),
     http = require('http'),
     jsdom = require('jsdom'),
     request = require('request');

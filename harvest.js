@@ -3,8 +3,8 @@ var fs = require('fs'),
     jsdom = require('jsdom'),
     request = require('request');
 
-// be gentle with only 2 concurrent requests
-http.globalAgent.maxSockets = 2;
+// be gentle to loc
+http.globalAgent.maxSockets = 1;
 
 function main() {
   scrape('http://findingaids.loc.gov/source/main', findCollections);
@@ -31,7 +31,12 @@ function findXml(window) {
 function saveXml(url) {
   var filename = "data/" + url.split("/").pop() + ".xml";
   request(url, function (error, response, body) {
-    fs.writeFile(filename, body);
+    console.log("saving " + url + " as " + filename);
+    if (error) {
+      console.log("uhoh: " + error + ": " + url);
+    } else {
+      fs.writeFile(filename, body);
+    }
   });
 }
 

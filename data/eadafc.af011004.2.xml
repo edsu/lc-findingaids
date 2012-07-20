@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ==========Schema Conversion:========== 
+ Transformed with dtd2schema.06.xsl 
+Generated: Wed, 28 March 2012 11:59:41 AM EDT
+URL: http://hdl.loc.gov/loc.afc/eadafc.af011004
+ ===================================== -->
+<!-- Transformed with viv2002_4.xsl -->
+
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd391e2">
+   <eadheader id="mferd391e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.afc/eadafc.af011004"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.afc/eadafc.af011004</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a"> Paul Bowles Moroccan Music
+			 Collection</titleproper>
+            <subtitle encodinganalog="245$b"> 
+			            <num encodinganalog="090$a">AFC 1960/001</num> 
+            </subtitle>
+            <author encodinganalog="245$c"> Prepared by Michelle Forner</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <extptr xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>American
+			 Folklife Center, Library of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="1994-08" era="ce" calendar="gregorian">August 1994</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to the Collections in the Archive of Folk
+			 Culture</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+				<extref xlink:href="http://lccn.loc.gov/2004695190" xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2004695190</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Encoded by Nora Yeh, 
+		  <date normal="2012-03" era="ce" calendar="gregorian">March 2012</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in
+		  <language encodinganalog="041" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc type="register" level="collection" relatedencoding="MARC21">
+      <did id="mferd391e40">
+         <head>Collection Summary</head>
+         <unitid label="Collection Number" encodinganalog="090" countrycode="US"
+                 repositorycode="US-DLC">AFC 1960/001</unitid>
+         <unittitle label="Title" encodinganalog="245$a">Paul Bowles Moroccan
+		  Music Collection 
+		  <unitdate label="Inclusive Dates" type="inclusive" encodinganalog="245$f"
+                      normal="1957/1989"
+                      era="ce"
+                      calendar="gregorian">1957-1989</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" encodinganalog="245$g" normal="1959/1962"
+                      era="ce"
+                      calendar="gregorian">1959, 1960-1962</unitdate>
+         </unittitle>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Archive of Folk Culture, American Folklife
+			 Center</subarea> Library of Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+		          <extref xlink:type="simple" xlink:href="http://hdl.loc.gov/loc.afc/folklife.home">http://hdl.loc.gov/loc.afc/folklife.home</extref>
+         </repository>
+         <physdesc label="Extent (Manuscripts)"> 
+            <extent encodinganalog="300">2
+		  boxes (1.25 linear feet)</extent> 
+         </physdesc>
+         <physdesc label="Extent (Manuscripts)"> 
+            <extent encodinganalog="300">1
+		  map</extent> 
+         </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent encodinganalog="300">2 sound discs : analog, 33 1/3 rpm ; 12 in.</extent>
+		       </physdesc>
+         <physdesc label="Extent (Sound Recordings)"> 
+            <extent encodinganalog="300">70 sound tape reels (ca. 70 hrs.) : analog, 2 track ; 7
+		  in.</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Images)"> 18 photographic prints : black
+		  and white; 3 x 5 in. </physdesc>
+         <origination label="Collector"> 
+		          <persname source="lcnaf" encodinganalog="100">Bowles, Paul, 1910-1999,
+			 collector.</persname> 
+         </origination>
+         <origination label="Collector"> 
+		          <persname source="lcnaf" encodinganalog="100">Archive of Folk Song
+			 (U.S.), collector.</persname> 
+         </origination>
+         <langmaterial label="Languages" encodinganalog="546">
+		          <language encodinganalog="041" langcode="eng">English</language>,
+		  <language encodinganalog="041" langcode="ara">Arabic</language>,
+		  <language encodinganalog="041" langcode="ber">Berber</language>, and
+		  <language encodinganalog="041" langcode="heb">Hebrew</language>
+         </langmaterial>
+         <langmaterial label="Language(s)" encodinganalog="546"> </langmaterial>
+         <abstract label="Summary" encodinganalog="520$a">An ethnographic field
+		  collection of sound recordings, photographs, and accompanying documentation of
+		  Moroccan folk, popular, and art music. The collection includes recordings Paul
+		  Bowles made in 1959 during a four-month field project sponsored by the Library
+		  of Congress with a grant from the Rockefeller Foundation as well as additional
+		  field recordings that he and Christopher Wanklyn made between 1960 and 1962.
+		  </abstract>
+      </did>
+      <scopecontent id="mferd391e115" encodinganalog="520">
+         <head>Scope and Content</head>
+         <p>The collection includes dance music, secular music, music for Ramadan
+		  and other Islamic rites, and music for animistic rituals. Berber and Arab music
+		  predominates, and Sephardic liturgical music and folk songs are included. Dance
+		  was often integral to the music events. Field notes and correspondence describe
+		  the recording events (including dance) and circumstances of the project.
+		  Manuscripts in English. Sound recordings in Berber languages, Arabic, and
+		  Hebrew.</p>
+         <p>The Paul Bowles Moroccan Music Collection consists of audio
+		  recordings, photographs, and accompanying documentation that focus primarily on
+		  one recording project. With a grant from the Rockefeller Foundation and
+		  sponsorship from the Library of Congress, Paul Bowles spent the months of
+		  August to September of 1959 traveling throughout Morocco recording
+		  approximately 60 hours of traditional folk, art, and popular music. Bowles
+		  collected in 23 villages, towns, and cities along the Mediterranean and
+		  Atlantic coasts, from Goulimine in the Sahara to Segangan in the Rif country,
+		  and inland through the Middle and Grand Atlas ranges to Zagora in the
+		  Anti-Atlas. Due to the political situation at the time, Bowles was not able to
+		  record in the southeastern region. In 1963, the Library acquired five
+		  additional recordings of Moroccan music made by Bowles in 1960-19 62. In 1972,
+		  the Library issued a two-record set of selections from the collection. A
+		  nine-page descriptive booklet accompanies the set. </p>
+         <p>The heterogenous recordings reflect the variety of Moroccan culture.
+		  From urban professionals and religious singers to rural and nomadic
+		  tribespeople, the musicians performed vocal and instrumental music. The
+		  collection includes dance music, secular music, music for Ramadan and other
+		  Islamic rites, and music for animistic rituals. Berber and Arab music
+		  predominates, and a considerable variety of styles emerges from the survey of
+		  different areas and tribes. Some selections exhibit traces of the antique
+		  Andalusian style, reflecting Morocco's historic relationship to Spain. Musical
+		  examples originally derived from Mauritania, West Africa, and the Sudan
+		  demonstrate the influence of migrations and cultural interchanges across the
+		  Sahara and along the Atlantic coast. In addition, there are examples of
+		  Sephardic liturgical music and other folksongs from the historic Jewish
+		  communities in Essaouira and Meknes. Several recordings feature the rare zamar,
+		  a double-reed instrument fitted with two mouthpieces and two bulls' horn
+		  resonators. </p>
+         <p>Dance often was integral to the music events; as Bowles pointed out,
+		  usually "music and dance are one thing" to the peoples of Morocco, especially
+		  the Berber tribes. In the field notes on the music, Bowles often alluded to the
+		  concurrent dancing and sometimes gave movement description. He recorded, among
+		  other things, music that accompanied the guedra dance from the village of
+		  Goulimine, ahouache (music and dance events) of the Anti-Atlas and Grand Atlas,
+		  the aqlal (dance ceremony) in the Draa Valley, Pre-Sahara, and the sqel (sword
+		  dance) of the Draaoua people of Zagora, Moroccan Sahara. The appendix lists the
+		  field notes of recordings where dance was specifically described or alluded to
+		  in Bowles' notes or in the LP recording booklet. </p>
+         <p>The manuscripts (correspondence and field notes) describe not only the
+		  content of the recording project, but also the bureaucratic, political, and
+		  cultural context of conducting ethnographic fieldwork in the late 1950s. They
+		  highlight the cultural and political situation in the newly-independent Morocco
+		  as well as the customs of different cultural groups. The correspondence between
+		  Bowles and LC staff during the project offers additional insight into the
+		  circumstances and content of the recordings, while the photographs of several
+		  performance events provide visual documentation that supplements those
+		  recordings. </p>
+         <p>Field notes provide substantial information on the following dances:
+		  Guedra, Ahouach, Taskiouine, Gnaoui. Information is also found on the following
+		  dances: Aqlal, Ahmeilou, Tahouacht, and dances of the Haha tribe.</p>
+      </scopecontent>
+      <bioghist id="mferd391e130" encodinganalog="545">
+         <head>Biography</head>
+         <p>Paul Bowles, an American-born writer, composer, and folk music
+		  collector, lived in Morocco beginning in the late 1930s. He has been described
+		  as the father of the Beat movement and a prominent figure in the American
+		  expatriate community in Tangier, Morocco. A well-known composer, his scores
+		  include the incidental music to such plays as Tennessee Williams' "The Glass
+		  Menagerie" and "Sweet Bird of Youth"; he worked with other artists such as
+		  Orson Wells, Elia Kazan, and Salvador Dali. </p>
+         <p>As an author, he is best known for his novels such as
+		  <emph render="italic">The Sheltering Sky</emph>, <emph render="italic">Let It
+		  Come Down</emph>, and <emph render="italic">The Spider's House</emph>, and for
+		  his collections of short stories and travel essays. Extensive travel in Europe,
+		  North Africa, and South America provided material for his literary works as
+		  well as opportunities to collect folk music. He married novelist Jane Auer
+		  (1917-1973) in 1938. Paul Bowles died November 18, 1999 at the age of 88.</p>
+      </bioghist>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd391e146" altrender=":::F005=^20120301144258.0^"><!--LN:282--><head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this
+			 collection in the Library's online catalog. They are grouped by name of person
+			 or organization, by subject and listed alphabetically therein. For specific
+			 dance-related material, please see 
+			 <ref xlink:type="simple" target="appendixa">Appendix A</ref>.</p>
+         </note>
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd393e12">
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bowles%2C+Paul%2C+1910-1999%2C^">Bowles, Paul, 1910-1999, collector.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bowles%2C+Paul%2C+1910-1999+Correspondence.^">Bowles, Paul, 1910-1999--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bowles%2C+Paul%2C+1910-1999+Ethnomusicological+collections.^">Bowles, Paul, 1910-1999--Ethnomusicological collections.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Wanklyn%2C+Christopher%2C^">Wanklyn, Christopher, collector.</persname>
+         </controlaccess>
+         <controlaccess id="mferd393e30">
+            <head>Organizations</head>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Archive+of+Folk+Song+%28U.S.%29%2C^">Archive of Folk Song (U.S.), collector, sponsor.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd393e39">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Arabs+Morocco+Music.^">Arabs--Morocco--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Berbers+Clothing+Morocco.^">Berbers--Clothing--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Berbers+Morocco+Music.^">Berbers--Morocco--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Dance+music+Morocco.^">Dance music--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Dance+Morocco.^">Dance--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Field+recordings+Morocco.^">Field recordings--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+Morocco.^">Folk music--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Islamic+music+Morocco.^">Islamic music--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Jews%2C+Moroccan+Music.^">Jews, Moroccan--Music.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Music+Morocco.^">Music--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musical+instruments+Morocco+Photographs.^">Musical instruments--Morocco--Photographs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musicians+Morocco+Photographs.^">Musicians--Morocco--Photographs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Percussion+music+Morocco.^">Percussion music--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Popular+music+Morocco.^">Popular music--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Rites+and+ceremonies+Morocco.^">Rites and ceremonies--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Sephardim+Morocco+Music.^">Sephardim--Morocco--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Songs%2C+Arabic+Morocco.^">Songs, Arabic--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Songs%2C+Berber+Morocco.^">Songs, Berber--Morocco.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Sword-dance+Morocco.^">Sword-dance--Morocco.</subject>
+         </controlaccess>
+         <controlaccess id="mferd393e106">
+            <head>Titles</head>
+            <title xlink:type="simple" encodinganalog="740"
+                   altrender=":::PWEBRECON=^Music+of+Morocco+from+the+Archive+of+Folk+Song^">Music of Morocco from the Archive of Folk Song</title>
+         </controlaccess>
+         <controlaccess id="mferd393e115">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Ethnography.^">Ethnography.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Field+notes.^">Field notes.</genreform>
+            <genreform encodinganalog="655" source="lcgft"
+                       altrender=":::PWEBRECON=^Field+recordings.^">Field recordings.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Manuscripts.^">Manuscripts.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Maps.^">Maps.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Microfilms.^">Microfilms.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Sound+recordings.^">Sound recordings.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <processinfo id="mferd391e237">
+         <head>Processing History</head>
+         <p>The original processing was done and finding aid was prepared by
+		  Michelle Forner for a dance grant, therefore an appendix includes a list of
+		  dance related information. Scanned photographic prints and map on 2 CDs,
+		  created in June 2010 for reference purpose, are in Box 2. The collection
+		  includes correspondence and processing for the production of the album, 
+		<title xlink:type="simple" render="italic">Music of Morocco from the Archive of Folk
+		  Song</title>.</p>
+      </processinfo>
+      <arrangement id="mferd391e245" encodinganalog="351">
+         <head>Arrangement</head>
+         <p>Organized by format into the following series: I. Manuscripts; II.
+		  Microfilm; III. Sound Recordings; IV. Photographs; V. Map.</p>
+         <p>The index to recordings prepared by Bowles, arranged numerically by
+		  tape side in chronological order, includes AFS numbers, song titles,
+		  performers, and recording locations. The field notes, also arranged numerically
+		  by tape side in chronological order, provide more detailed description of each
+		  recording, including date, place, performers, song titles, musical instruments,
+		  and other pertinent information.</p>
+      </arrangement>
+      <accessrestrict id="mferd391e252" encodinganalog="506">
+         <head>Access</head>
+         <p>Listening and viewing access to the collection is unrestricted.
+		  Duplication of the recorded materials may be governed by copyright and other
+		  restrictions. Duplication for publication purposes requires the prior written
+		  permission of the collector's estate. Address available in the American
+		  Folklife Center.</p>
+      </accessrestrict>
+      <prefercite id="mferd391e257" encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Paul Bowles Moroccan Music Collection (AFC 1960/001), Archive of Folk
+		  Culture, American Folklife Center, Library of Congress, Washington, D.C.</p>
+      </prefercite>
+      <relatedmaterial id="mferd391e262">
+         <head>Related Publications</head>
+         <p>Bowles, Paul. Record notes to <emph render="italic">Music of Morocca
+		  From the Archive of Folk Song</emph> recorded and edited by Paul Bowles.
+		  Recording Laboratory AFS L63 and L64. Washington, D.C.: Library of Congress,
+		  1972. 12 pp. A copy is in Box 1, Folder 10 of this collection.</p>
+         <p>Bowles, Paul. " The Rif, to Music." In <emph render="italic">Their
+		  Heads are Green and Their Hands are Blue</emph>, 97-141. New York: Random
+		  House, 1957.</p>
+         <p>Jabbour, Alan, and Joseph C. Hickerson. "African Recordings in the
+		  Archive of Folk Song." <emph render="italic">Quarterly Journal of the Library
+		  of Congress</emph> 27 (July 1970): 284-85.</p>
+         <p>Leavitt, Donald, L. "Folk, Popular, and Art Music of Morocco."
+		  <emph render="italic">Library of Congress Information Bulletin</emph> 19
+		  (October 17, 1960): 589-91.</p>
+         <p>Melville, Annette. " Paul Bowles Collection." In <emph render="italic">Special Collections in the Library of Congress</emph>, 47.
+		  Washington, D.C.: Library of Congress, 1980.</p>
+         <p>Sawyer-Laucanno, Christopher. <emph render="italic">An Invisible
+		  Spectator: A Biography of Paul Bowles.</emph> New York: Weidenfeld and
+		  Nicolson, 1989.</p>
+      </relatedmaterial>
+      <odd id="mferd391e295" type="add">
+         <head>Collection Concordance by Format</head>
+         <table>
+            <tgroup cols="3" align="left">
+               <colspec colnum="1" colname="1" colwidth="1.00*"/>
+               <colspec colnum="2" colname="2" colwidth="2.13*"/>
+               <colspec colnum="3" colname="3" colwidth="2.11*"/>
+               <thead valign="bottom">
+                  <row>
+                     <entry morerows="0">Quantity</entry>
+                     <entry morerows="0">Physical Extent</entry>
+                     <entry morerows="0">Item Numbers</entry>
+                  </row>
+               </thead>
+               <tbody valign="top">
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Print Materials</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">12</entry>
+                     <entry morerows="0">folders (Box 1)</entry>
+                     <entry morerows="0">FOLDERS 1-12</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Microfilm</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">reel</entry>
+                     <entry morerows="0">Music 0441 (Music Division)</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Sound Recordings</emph>
+					                </entry>
+                     <entry morerows="0"/>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">2</entry>
+                     <entry morerows="0">12 in. discs at 33 1/3 rpm </entry>
+                     <entry morerows="0"> AFS L63-64 (published recordings)</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">65</entry>
+                     <entry morerows="0">7" DT reels</entry>
+                     <entry morerows="0">AFS 11623-11687 or LWO 3068; Preservation
+					 copies LWO 8527 R93-100 and LWO 12419 R1-19 </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">5</entry>
+                     <entry morerows="0">7" DT reels </entry>
+                     <entry morerows="0">AFS 12016-12020 or LWO 3863</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">27</entry>
+                     <entry morerows="0">7" DT reels </entry>
+                     <entry morerows="0">Reference copies </entry>
+                  </row>
+                  <row>
+                     <entry morerows="0"> 
+                        <emph render="bold">Graphic Materials</emph>
+					                </entry>
+                     <entry morerows="0">Box 2 of 2</entry>
+                     <entry morerows="0"/>
+                  </row>
+                  <row>
+                     <entry morerows="0">18</entry>
+                     <entry morerows="0">black-and-white 8x10" photographic prints
+					 </entry>
+                     <entry morerows="0">P1 - P18</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">18</entry>
+                     <entry morerows="0">black-and-white 8x10" negatives </entry>
+                     <entry morerows="0">P1-n1 - P18n18</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">18 (original)</entry>
+                     <entry morerows="0">black-and-white approx. 3x5" photographic
+					 prints </entry>
+                     <entry morerows="0">P1-p1 - P18p18</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">1 </entry>
+                     <entry morerows="0">map (scanned CD in Box 2 of 2)</entry>
+                     <entry morerows="0">Map case, Folklife Reading Room</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </odd>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xlink:href="http://lccn.loc.gov/2004695190" xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2004695190</extref>
+      </otherfindaid>
+      <dsc id="mferd391e416" type="combined">
+         <head>Collection Inventory</head>
+         <c01 id="mferd391e419" level="series">
+            <did>
+               <unittitle>MANUSCRIPTS</unittitle>
+            </did>
+            <scopecontent>
+               <p>Administrative, Correspondence, Index, Field Notes, and
+				Articles</p>
+            </scopecontent>
+            <c02 id="mferd391e426" level="file">
+               <did>
+                  <container type="BOX">1</container>
+                  <container type="FOLDER">1</container>
+                  <unittitle>Administrative</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One folder consisting of the collection register, a copy of the
+				  contract between Bowles and the Library of Congress, a copy of the index to
+				  field recordings, a copy of Bowles' project correspondence, and a copy of the
+				  LWO log. </p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e437" level="file">
+               <did>
+                  <container type="BOX">1</container>
+                  <container type="FOLDERS">2-5</container>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Four folders arranged chronologically (1957-1972) with the
+				  following subdivisions: pre-project, project, post-project, and LP production.
+				  Consists of correspondence primarily between Bowles and LC personnel such as
+				  Harold Spivacke (Chief, Music Div.), Edward Waters (Acting Chief, Music Div.),
+				  Rae Korson (Head, Archive of Folk Song), Alan Jabbour (Head, Archive of Folk
+				  Song), as well as several people from the Rockefeller Foundation and the U.S.
+				  Embassy and State Department; descriptive and financial monthly reports; and
+				  correspondence about the collection with researchers. The project
+				  correspondence includes progress reports from Bowles to the LC that augment the
+				  field notes.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e448" level="file">
+               <did>
+                  <container type="BOX">1</container>
+                  <container type="FOLDER">6</container>
+                  <unittitle>Index to LC project recordings</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One folder of typed index to project recordings arranged
+				  numerically by tape side (12 pp.). (Missing: pages with tape numbers 33-44).
+				  Consists of an original and two copies, one of which has hand-written
+				  corrections on it. Includes AFS numbers, Bowles' tape numbers, song titles,
+				  performers (tribes), and recording locations. (There is no index of the last
+				  five "sample" tapes from the project.) </p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e459" level="file">
+               <did>
+                  <container type="BOX">1</container>
+                  <container type="FOLDERS">7-8</container>
+                  <unittitle>Field notes I (LC project recordings)</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Two folders (one original, one copy) of typed field notes (130
+				  pp.). Includes an opening note and description of instruments. Arranged
+				  numerically by tape side in chronological order. Documents dates and locations
+				  of recordings, performers, leaders, tribes, song titles, instruments used, and
+				  comments about performance events, music/dance types, circumstances of
+				  recording, instruments, etc. (There is no log of the last five "sample"
+				  tapes.)</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e470" level="file">
+               <did>
+                  <container type="BOX">1</container>
+                  <container type="FOLDER">9</container>
+                  <unittitle>Field notes II (non-project field recordings
+				  1960-62)</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One folder (one original and one copy) of field notes of
+				  audiotape recordings made 1960-62 (8 pp.). The tape number order is not
+				  chronological. Written in a similar format to the project fieldnotes, and
+				  includes hand- written AFS numbers. </p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e481" level="file">
+               <did>
+                  <container type="BOX">1</container>
+                  <container type="FOLDER">10</container>
+                  <unittitle>LP record set booklet</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One folder containing the 9-page booklet that accompanies the
+				  record set.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e492" level="file">
+               <did>
+                  <container type="BOX">1</container>
+                  <container type="FOLDER">11</container>
+                  <unittitle>Articles</unittitle>
+               </did>
+               <scopecontent>
+                  <p>One folder containing articles that describe the collection.
+				  </p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e503" level="file">
+               <did>
+                  <container type="BOX">1</container>
+                  <container type="FOLDER">12</container>
+                  <unittitle>One page</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Item from tape box AFS 11623.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 id="mferd391e514" level="series">
+            <did>
+               <unittitle>MICROFILM</unittitle>
+            </did>
+            <scopecontent>
+               <p>Microfilm of the LC project field notes and map: Music 0441,
+				located in the Music division.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd391e521" level="series">
+            <did>
+               <unittitle>SOUND RECORDINGS</unittitle>
+            </did>
+            <c02 id="mferd391e525" level="file">
+               <did>
+                  <container type="AFS">L 63-64</container>
+                  <unittitle>"Music of Morocco" </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Recorded and edited by Paul Bowles, 1972. Includes 9-page
+				  booklet with notes and bibliography of publications and documentary recordings.
+				  (Listening copy available in the AFC Reading Room.) </p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e534" level="file">
+               <did>
+                  <container type="AFS">11623-11687</container>
+                  <container type="LWO">3068</container>
+                  <unittitle>LC project recordings</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Sixty-five DT 7" reels (the last five are samples from the 60
+				  recordings); approximately 65 hours; approximately 220 pieces. preservation
+				  numbers LWO 8527 R93-100; LWO 12419 R1-19. (Listening copies available in the
+				  AFC Reading Room.) Accessioned in June 1960.</p>
+               </scopecontent>
+            </c02>
+            <c02 id="mferd391e545" level="file">
+               <did>
+                  <container type="AFS">12016-12020</container>
+                  <container type="LWO">3863</container>
+                  <unittitle>Non-project field recordings (1960-1962)</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Five 7" reels (Listening copies available in the AFC Reading
+				  Room). Non-project field recordings accessioned in June 1963.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 id="mferd391e556" level="series">
+            <did>
+               <unittitle>PHOTOGRAPHS</unittitle>
+            </did>
+            <scopecontent>
+               <p>One box containing 18 black and white photographs. Location
+				information is written on the backs of most photographs. The photographs
+				include scenes of performers at Essaouira, Amizmiz, Taza, and Segangan, and
+				several shots of houses and casbahs.</p>
+            </scopecontent>
+         </c01>
+         <c01 id="mferd391e563" level="series">
+            <did>
+               <unittitle>MAP</unittitle>
+            </did>
+            <scopecontent>
+               <p>One folder containing original and copies of a map, hand-drawn by
+				Paul Bowles, that documents recording locations and routes traveled during the
+				field project.</p>
+            </scopecontent>
+         </c01>
+      </dsc>
+      <odd id="mferd391e571">
+         <head id="appendixa">Appendix A: SPECIFIC DANCE-RELATED MATERIAL</head>
+         <note>
+            <p>Dance in Morocco is often an integral part of a music event,
+			 especially for the Berber tribes. However, since Paul Bowles was primarily
+			 interested in documenting music, he did not always note when events included
+			 dance. The following is a list of field notes, located in Box 1 Folders 7-9,
+			 for recordings that specifically mention dance as part of the documented music
+			 event. Also included are references to related LP recording booklet notes or
+			 photographs. </p>
+         </note>
+         <list>
+            <item>Field note related to AFS 11623 Tape 1A "Yarza Digi Inrhancha
+			 Airhi Rebbi" and "Sagous Touit Idar Ayardanou." Beni Mguild Tribe. Recorded at
+			 Ain ed Diab.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11624 Tape 2A "Abou ou Harrak." Beni
+			 Mtir Tribe, El Hajeb, Middle Atlas. Recorded at Ain ed Diab.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11624 Tape 2B "Traditional music of the
+			 Gnaoua cult." Recorded at Essaouira.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11625 Tape 3A "Amimmi." Cheikh Moha ben
+			 Driss and ensemble. Beni Mtir Tribe, El Hajeb, Middle Atlas. Recorded at Ain ed
+			 Diab.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11625 Tape 3B "Music of the Haha
+			 Tribe," Tamanar. Recorded at Essaouira.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11626 Tape 4A "Ai Manonne Atasa Aili
+			 Taamit Ya Richa Zriti." Cheikh Diaai ben Ali and Cheikha Fatoma bent Kaddour
+			 with ensemble. Beni Mguild Tribe. Recorded at Ain ed Diab.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11626 Tape 4B "Ahouache Haha Janoubia"
+			 (Festival of the Southern Haha Tribe). Rais Mahamed ben Mohammed and ensemble,
+			 Tamanar. Recorded at Essaouira.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11629 Tape 7A "Music of the Haha
+			 Tribe," Tamanar. Recorded at Essaouira.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11630 Tape 8A "Limbia Limbia" and
+			 "Guennou Ouahib Bouir" (guedra). El Ferqa dial Guedra Goulimine. Recorded at
+			 Goulimine.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11630 Tape 8B See also notes to AFS
+			 L-64, A1 "Ounalou Biha Rajao," "Rax dial Et Tbel," and "Rax dial Guedra"
+			 (guedra). El Ferqa dial Guedra Goulimine. Recorded at Goulimine.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11631 Tape 9A "El Malik Allah i Nidji."
+			 El Ferqa dial Guedra Goulimine. Recorded at Goulimine.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11632 Tape 10B "El Maya dial Chtah."
+			 Rais Ahmed ben Bakrim and group. Recorded at Tiznit. </item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11633 Tape 11A See also notes to AFS
+			 L-63, A6. "Ahaouche Tafraout" and "Ajmak Ilirh." Maalem Ahmed and ensemble.
+			 Recorded at Tafraout, Souss. </item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11643 Tape 21A "Party music." Musicians
+			 and villagers of Einzoren, Rif. Recorded at Einzoren, Rif.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11644 Tape 22A "Dance." Elements of
+			 both the Mouh Taieb and Morsan ensembles. Beni Ouriaghel Tribe. Recorded at
+			 Einzoren, Rif.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11644 Tape 22B "El Aalaoui dial
+			 Tazourakht" (Dance). Elements of both the Mouh Taieb and Morsan ensembles. Beni
+			 Ouriaghel Tribe. Recorded at Einzoren, Rif.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11645 Tape 23B "Impromptu Dance."
+			 Cheikh Hamed bel Hadj Hamadi ben Allal and ensemble. Beni Bouifrour Tribe.
+			 Recorded at Segangan, Rif. </item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11646 Tape 24A "Aaouuad dial
+			 Azrheung-ng'n." Cheikh Hamed bel Hadj Hamadi ben Allal and Ensemble. Beni
+			 Bouifrour Tribe. Recorded at Segangan, Rif.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11658 Tape 36A "Dada Hbibti." Cheikha
+			 Haddouj bent Fatma Rohou and ensemble. Zaiane Tribe, Middle Atlas. Recorded at
+			 Khenifra.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11659 Tape 37A "Rhna dial Imdyazen."
+			 Mohammed bel Hassan, leader. Ait Bou Guemmaz Tribe, Grand Atlas. Recorded at
+			 Ait Mohammed.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11661 Tape 39A See also notes to AFS
+			 L-63, B6. "Idihan dial Bou Guemmaz." Mohammed bel Hassan, leader. Ait Bou
+			 Guemmaz Tribe. Recorded at Ait Mohammed.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11664 Tape 42B "Dance for Guinbri
+			 Solo." Embarek ben Mohammed. Recorded at Marrakech. </item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11667 Tape 45A "Moulay el Hassan"
+			 (ahouache). Maalem Ahmed Gacha, leader. Misfioua Tribe. Recorded at Ait Ourir.
+			 </item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11667 Tape 45B "Ichoua Nit Ifoulki" and
+			 "Achimtsa Ajdig Atizona" (ahouache). Maalem Ahmed Gacha, leader. Recorded at
+			 Ait Ourir. </item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11669 Tape 47A, 47B "Music of the
+			 Guidmioua Tribe (Tiskiouine)," Grand Atlas. Larbi bel Hocein Nait ou Nasr,
+			 Moqaddem. Recorded at Amizmiz. See also photographs AFC1960/001:p13,
+			 p14.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11670 Tape 48A "Tahouacht" (war dance).
+			 Larbi bel Hocein Nait ou Nasr, Moqaddem. Guidmioua Tribe (tiskiouine), Grand
+			 Atlas. Recorded at Amizmiz. See also photographs AFC1960/001:p13, p14.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11674 Tape 52A &amp;52B See also notes
+			 to AFS L-63, A3 "Music of the Draaoua" (sqel, sword dance; aqlal, dance
+			 ceremony of the Draa Valley, Pre-Sahara). Moqaddem Mohammed ben Salem, leader.
+			 Recorded at Zagora, Moroccan Sahara.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11675 Tape 53A &amp; 53B See also notes
+			 to AFS L-63, A3 "Music of the Draaoua" (sqel, sword dance; aqlal, dance
+			 ceremony of the Draa Valley, Pre-Sahara). Moqaddem Mohammed ben Salem, leader.
+			 Recorded at Zagora, Moroccan Sahara.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 11681 Tape 59A "Aoulouz (Taroudant)."
+			 Rais el Hussein and ensemble. Music of the Souassa. Recorded in Marrakech.
+			 </item>
+         </list>
+         <list>
+            <item>Field note related to AFS 12016 Tape IB "Song and Dance."
+			 Recorded near Tata, Moroccan Sahara.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 12017 Tape IIA "Aissaoua Ceremony."
+			 Recorded at the Amara (festival) of Sidi Kacem, Tangier.</item>
+         </list>
+         <list>
+            <item>Field note related to AFS 12018 Tape IIIA "Section of dance from
+			 ahouache" (women) and "song and circular dance from ahouache" (men). Recorded
+			 at Timguircht, Anti-Atlas.</item>
+         </list>
+      </odd>
+   </archdesc>
+</ead>

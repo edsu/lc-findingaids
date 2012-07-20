@@ -1,7 +1,3407 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /findingaids/music/eadxmlmusic/2011/mu011002.xml was not found on this server.</p>
-</body></html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 20 April 2012 03:40:17 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu011002
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu011002--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu011002--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu011002-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd9e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd9e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu011002"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu011002</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Dexter Gordon Collection
+		  </titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+	  			         <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2001" encodinganalog="260$c">2001</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2006560610"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2006560610</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2011">2011</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2012-04" era="ce" calendar="gregorian">2012 April</date>
+            <item>Nancy Seeger made editorial revisions to this finding aid.</item>
+         </change>
+         <change>
+            <date normal="2011-03" era="ce" calendar="gregorian">2011 March</date>
+            <item>Nancy Seeger revised and updated this finding aid to include additional materials.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd9e59">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Dexter Gordon Collection
+		  <unitdate label="Span Dates" type="inclusive" normal="1940/1996" encodinganalog="245$f"
+                      datechar="creation">circa 1940-1996</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1960/1988" encodinganalog="245$g"
+                      datechar="creation">(bulk 1960-1988)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.G67</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Gordon, Dexter, 1923-1990</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">approximately 7,550 items</extent>
+		          <extent encodinganalog="300">30 containers</extent>
+		          <extent encodinganalog="300">14 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Dexter Gordon was an American jazz tenor saxophonist, composer, and actor. The collection contains materials documenting his life and work, including biographical materials, correspondence, photographs, programs, clippings, business papers, scripts, awards, and honors. The collection also contains music composed by Gordon and others, including manuscript, holograph manuscript, printed, and photocopied scores, lead sheets, parts, and fragments of pieces. Many of the items are annotated.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2006560610.10001"
+                     altrender=":::F005=^20110405011748.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd9e109">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Carter%2C+Jimmy%2C+1924-+Correspondence.^">Carter, Jimmy, 1924- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gillespie%2C+Dizzy%2C+1917-1993+Correspondence.^">Gillespie, Dizzy, 1917-1993--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Dexter%2C+1923-1990+Archives.^">Gordon, Dexter, 1923-1990--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Dexter%2C+1923-1990+Correspondence.^">Gordon, Dexter, 1923-1990--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Dexter%2C+1923-1990+Photographs.^">Gordon, Dexter, 1923-1990--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Dexter%2C+1923-1990+Portraits.^">Gordon, Dexter, 1923-1990--Portraits.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Dexter%2C+1923-1990.^">Gordon, Dexter, 1923-1990.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Dexter%2C+1923-1990.^">Gordon, Dexter, 1923-1990.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Dexter%2C+1923-1990.+Selections.^">Gordon, Dexter, 1923-1990. Instrumental music. Selections.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Maxine+Photographs.^">Gordon, Maxine--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gordon%2C+Maxine.^">Gordon, Maxine.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lion%2C+Alfred+Correspondence.^">Lion, Alfred--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Parker%2C+Charlie%2C+1920-1955+Correspondence.^">Parker, Charlie, 1920-1955--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Reagan%2C+Ronald+Correspondence.^">Reagan, Ronald--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Tavernier%2C+Bertrand+Correspondence.^">Tavernier, Bertrand--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Wolff%2C+Francis+Correspondence.^">Wolff, Francis--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd9e145">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Blue+Note+%28Firm%29^">Blue Note (Firm)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd9e150">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Jazz+musicians+United+States+Photographs.^">Jazz musicians--United States--Photographs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Jazz+musicians+United+States.^">Jazz musicians--United States.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Jazz+Lead+sheets.^">Jazz--Lead sheets.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Jazz.^">Jazz.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Manuscripts+United+States.^">Music--Manuscripts--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Saxophonists+United+States.^">Saxophonists--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd9e165">
+            <head>Titles</head>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" encodinganalog="630"
+                   xlink:role="subject"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^%27Round+midnight+%28Motion+picture%29^">'Round midnight (Motion picture)</title>
+         </controlaccess>
+         <controlaccess id="mferd9e170">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Artifacts+%28Object+genre%29^">Artifacts (Object genre)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Financial+records.^">Financial records.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Scripts+%28Documents%29^">Scripts (Documents)</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd9e187">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd9e190">
+            <head>Provenance</head>
+            <p>Purchase; Maxine Gordon, widow of Dexter Gordon; 1999.</p>
+            <p>Purchase; Maxine Gordon; 2011.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd9e197">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd9e202">
+            <head>Processing History</head>
+            <p>The Dexter Gordon Collection was processed by processing technician Michael Ferrando and music specialist Robert Saladini in July 2001. They prepared the finding aid using Corel WordPerfect 8. In March 2011, Nancy Seeger processed materials that were added to the collection, updated and revised the finding aid, and coded it for EAD format.</p>
+         </processinfo>
+         <separatedmaterial encodinganalog="544 0" id="mferd9e207">
+            <head>Transfers</head>
+            <p>45-rpm records were transferred to the Motion Picture, Broadcasting and Recorded Sound Division of the Library of Congress.</p>
+         </separatedmaterial>
+         <userestrict encodinganalog="540" id="mferd9e212">
+            <head>Copyright Status</head>
+            <p>Materials from the Dexter Gordon Collection are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd9e217">
+            <head>Access and Restrictions</head>
+            <p>The Dexter Gordon Collection is open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Some of the materials in this collection are fragile and patrons are asked to use extreme care in handling. Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd9e224">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Dexter Gordon Collection, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd9e229">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date>1923, Feb. 27</date>
+               <event>Born in Watts, Los Angeles, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <date>1936</date>
+               <eventgrp>
+                  <event>Studied music with Lloyd Reese</event>
+                  <event>Played in rehearsal band with Charles Mingus and Buddy Collette
+		 			</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1940</date>
+               <event>Quit high school and joined Lionel Hampton’s touring band</event>
+            </chronitem>
+            <chronitem>
+               <date>1942</date>
+               <event>Made recordings with Lionel Hampton’s band</event>
+            </chronitem>
+            <chronitem>
+               <date>1944</date>
+               <eventgrp>
+                  <event>Moved to New York City</event>
+                  <event>Appeared with Billy Eckstine’s big band</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1945-1946</date>
+               <event>Recorded album <title>Long Tall Dexter</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1947</date>
+               <event>Recorded album <title>The Chase</title> with Wardell Gray</event>
+            </chronitem>
+            <chronitem>
+               <date>circa 1950-circa 1959</date>
+               <event>Struggled with drug addiction</event>
+            </chronitem>
+            <chronitem>
+               <date>1955</date>
+               <eventgrp>
+                  <event>Featured in the film <title>Unchained</title>
+                  </event>
+                  <event>Recorded album <title>Dexter Blows Hot and Cool</title>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1960</date>
+               <eventgrp>
+                  <event>Actor, musician, composer, for Jack Gelber’s play, <title>The Connection,</title> Los Angeles, Calif.</event>
+                  <event>Recorded album <title>The Resurgence of Dexter Gordon</title>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1961</date>
+               <event>Began series of recordings for Blue Note records, including albums <title>Doin' Allright</title> and <title>Dexter Calling</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1962</date>
+               <eventgrp>
+                  <event>Recorded album <title>Go!</title>
+                  </event>
+                  <event>Toured Europe</event>
+                  <event>Moved to Copenhagen</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1963</date>
+               <event>Recorded <title>Our Man in Paris</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1967</date>
+               <event>Recorded <title>Body and Soul</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1968</date>
+               <event>Featured in the film <title>Jag älskar, du älskar</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1970</date>
+               <event>Appeared at the Newport Jazz Festival</event>
+            </chronitem>
+            <chronitem>
+               <date>1971</date>
+               <event>Recorded <title>Just Jazz</title> segment for PBS television</event>
+            </chronitem>
+            <chronitem>
+               <date>1972</date>
+               <event>Appeared at the Tangier Jazz Festival</event>
+            </chronitem>
+            <chronitem>
+               <date>1974</date>
+               <event>Recorded album <title>The Apartment</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1975</date>
+               <event>Toured Japan</event>
+            </chronitem>
+            <chronitem>
+               <date>1976</date>
+               <eventgrp>
+                  <event>Moved to New York</event>
+                  <event>Recorded album <title>Homecoming</title>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1978</date>
+               <event>Honored at the White House Jazz Festival</event>
+            </chronitem>
+            <chronitem>
+               <date>1979</date>
+               <event>Published <title>Jazz Saxophone Solos</title>. Hollywood, Calif.: Almo Publications (transcriptions from original recordings)</event>
+            </chronitem>
+            <chronitem>
+               <date>1980</date>
+               <eventgrp>
+                  <event>Named “Best Tenor Saxophonist” and “Jazz Musician of the Year” by <title>Down Beat</title> magazine</event>
+                  <event>Recorded album <title>Gotham City</title>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1986</date>
+               <event>Starred in the film <title>'Round Midnight</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1990, Apr. 25</date>
+               <event>Died, Philadelphia, Penn.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd9e437">
+         <head>Scope and Content Note</head>
+         <p>Most of the materials in the Dexter Gordon Collection were collected by Dexter Gordon’s wife, Maxine Gordon, from the late 1970s until Dexter Gordon’s death in 1990.  The materials date from the early 1940s to 1996, with the bulk falling between 1960 and 1988.  Of particular interest in the Biographical Materials series is an unfinished autobiography entitled “The Saga of Society Red,” a project which Gordon began in 1983.  It is composed of a number of interrelated vignettes which recount various incidents in Gordon’s life and career. It also deals with his relationships with a number of jazz musicians, including Count Basie, Lionel Hampton, and Lester Young; his European tours; and meetings with celebrities.</p>
+         <p>The Awards and Honors series contains various awards, citations and honors that Gordon received over his career. It spans 1977 to 1990.</p>
+         <p>The Music series contains works composed by Gordon and by others and includes scores, lead sheets, parts, and fragments of pieces. It contains manuscripts, holograph manuscripts, printed items, and photocopies. Many of the items are annotated. There are full scores and parts for Gordon’s works <title>Rainbow People</title>, <title>Montmarte</title>, and <title>Soy Califas</title>.  The  music by other composers includes works from the film <title>'Round Midnight</title>. In addtion, there is a collection of music manuscripts handwritten by Gordon that were found in Gordon's briefcase that he always carried with him to rehearsals and on the road. Most of these original manuscripts were written by Gordon, with the exception of two pieces. The music is arranged alphabetically by title.</p>
+         <p>Included in the Correspondence series are letters, greeting cards, postcards, telegrams, notes, and related materials sent to and from Gordon and his wife Maxine. In addition, there are letters of sympathy sent to his family upon his death. Correspondents of interest include Jimmy Carter, Dizzy Gillespie, Charlie Parker, Ronald Reagan, and Bertrand Tavernier. There are also original typescripts and photocopies of correspondence between Gordon and various record companies, agents, managers, and performing venues, including a cache of material between Gordon, his agent Bob Leonard and Blue Note Records executives Francis Wolff and Alfred Lion. This material includes handwritten letters from Dexter Gordon from various locations, including Los Angeles, Paris and Copenhagen. It also contains recording contracts.  Correspondence is arranged alphabetically by name of correspondent, except for the Blue Note material which is arranged chronologically.</p>
+         <p>The Clippings series contains an extensive collection of clippings dating from 1976 to 1988, with a few materials from the early 1940s. The Serials, Periodicals, and Magazines series contains a number of national and international publications, many of which are jazz-related. These contain articles on Gordon, his music, and related subjects.  The Scripts series includes  Gordon’s personal copies of scripts for the motion pictures <title>Awakenings</title>, <title>To Sleep with Anger</title>,<title> Paris Jazz</title>, <title>Crime Story</title> and <title>Leonard VI</title>.</p>
+         <p>The Business Papers series contains an extensive amount of bills and receipts, mostly dating from 1976 to 1989, as well as a collection of performing and recording contracts.  These materials provide a glimpse into Gordon’s performing activities during this period.</p>
+         <p>The Iconography series includes photographs, contact sheets, watercolors, sketches, posters, and miscellaneous items that bear Dexter Gordon's image. These date from the early 1940s until the 1990s. The collection of photographs is particularly extensive and features mostly black and white prints of Gordon in formal portraits, candid shots with family and friends, and in performance. A group of color snapshots documents Gordon's marriage to Maxine in the early 1980s. Many photographs and contact sheets feature other jazz musicians, including Charles Mingus, Billy Eckstine, and Woody Shaw. The photographic materials are arranged by photographer when available.</p>
+         <p>Michael Ferrando, processing technician<lb/>
+	 		Robert Saladini, music specialist<lb/>
+	 		July 2001</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd9e487">
+         <head>Organization of the Dexter Gordon Collection</head>
+         <p>The Dexter Gordon Collection is organized in ten series: </p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="bioma" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Biographical Materials</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="awaho" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Awards and Honors, 1977-1990</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="mus" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Music</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="corr" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Correspondence, 1960-1988</ref>
+			         </item>
+            <item> 
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="prog" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Programs, 1962-1996</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="clip" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Clippings, circa 1940, 1976-1988</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="spma" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Serials, Periodicals, and Magazines</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="buspa" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Business Papers, 1976-1989</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="scri" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Scripts, 1985-1989</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="icono" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Iconography, circa 1940-circa 1990</ref>
+			         </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2006560610"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2006560610</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd9e537" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd9e546">
+            <did>
+               <container type="box">1-2</container>
+               <unittitle encodinganalog="245$a" id="bioma">Biographical Materials</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Materials relating to Gordon’s personal life, including an unpublished autobiography, promotional materials, and a memorial book.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p/>
+            </arrangement>
+            <c02 level="file" id="mferd9e557">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Funeral and memorial arrangements for Dexter Gordon</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e563">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Ms. Management press kit</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e569">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle encodinganalog="245$a">Press releases, assorted</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e575">
+               <did>
+                  <container type="box-folder">1/4</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>'Round Midnight</title> promotional materials</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e583">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle encodinganalog="245$a">Vignettes ("The Saga of Society Red") </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Autobiographical notes.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e592">
+               <did>
+                  <container type="box-folder">2/3</container>
+                  <unittitle encodinganalog="245$a">Memorial book, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e600">
+               <did>
+                  <container type="box-folder">2/4</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Mosnes, Terje. <title>Jazz i molde.</title> Ålesund: Nordvest-informasjon, 1980.</bibref>						
+					             </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e614">
+            <did>
+               <container type="box">2</container>
+               <unittitle encodinganalog="245$a" id="awaho">Awards and Honors, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1977/1990">1977-1990</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Awards, honors, and citations given to Dexter Gordon.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd9e625">
+               <did>
+                  <container type="box-folder">2/1-2</container>
+                  <unittitle encodinganalog="245$a">Various awards and honors, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1977-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e633">
+            <did>
+               <container type="box">3-4, 21, 23-24</container>
+               <unittitle encodinganalog="245$a" id="mus">Music</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Music composed and arranged by Dexter Gordon and by others. Contains manuscripts and photocopies of full scores, parts and lead sheets.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by title where possible.</p>
+            </arrangement>
+            <c02 level="file" id="mferd9e645">
+               <did>
+                  <container type="box">3-4, 21, 23</container>
+                  <unittitle encodinganalog="245$a">Music Composed by Dexter Gordon</unittitle>
+               </did>
+               <c03 level="file" id="mferd9e651">
+                  <did>
+                     <container type="box-folder">3/1</container>
+                     <unittitle encodinganalog="245$a">A la modal</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e657">
+                  <did>
+                     <container type="box-folder">21/1</container>
+                     <unittitle encodinganalog="245$a">Bananas (oversize)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e663">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a">Bikini</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e669">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a">Bossa Nova</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e675">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a">Boston Bernie</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e681">
+                  <did>
+                     <container type="box-folder">3/5</container>
+                     <unittitle encodinganalog="245$a">Cao Purange</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e687">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle encodinganalog="245$a">Clubhouse</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e693">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle encodinganalog="245$a">Dedication</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e699">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a">Ernie’s tune</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e705">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a">Evergreenish</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e712">
+                  <did>
+                     <container type="box-folder">3/10</container>
+                     <unittitle encodinganalog="245$a">Fenja</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e718">
+                  <did>
+                     <container type="box-folder">3/11</container>
+                     <unittitle encodinganalog="245$a">Fried bananas</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e724">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a">The group</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e730">
+                  <did>
+                     <container type="box-folder">3/13</container>
+                     <unittitle encodinganalog="245$a">Hanky panky</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e736">
+                  <did>
+                     <container type="box-folder">3/14</container>
+                     <unittitle encodinganalog="245$a">Montmartre</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e742">
+                  <did>
+                     <container type="box-folder">23/1</container>
+                     <unittitle encodinganalog="245$a">Montmartre</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Concert score (oversize)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e751">
+                  <did>
+                     <container type="box-folder">23/2</container>
+                     <unittitle encodinganalog="245$a">Montmartre</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photocopy of concert score (oversize)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e760">
+                  <did>
+                     <container type="box-folder">3/15</container>
+                     <unittitle encodinganalog="245$a">Mrs. Miniver</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e766">
+                  <did>
+                     <container type="box-folder">3/16</container>
+                     <unittitle encodinganalog="245$a">The panther</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e772">
+                  <did>
+                     <container type="box-folder">3/17</container>
+                     <unittitle encodinganalog="245$a">Rainbow people</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e778">
+                  <did>
+                     <container type="box-folder">23/3</container>
+                     <unittitle encodinganalog="245$a">Rainbow people</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Concert score (oversize)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e788">
+                  <did>
+                     <container type="box-folder">23/4</container>
+                     <unittitle encodinganalog="245$a">Rainbow people</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photocopy of concert score (oversize)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e797">
+                  <did>
+                     <container type="box-folder">3/18</container>
+                     <unittitle encodinganalog="245$a">Red top</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e803">
+                  <did>
+                     <container type="box-folder">3/19</container>
+                     <unittitle encodinganalog="245$a">Society Red</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e809">
+                  <did>
+                     <container type="box-folder">3/20</container>
+                     <unittitle encodinganalog="245$a">Soy Califas!</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e815">
+                  <did>
+                     <container type="box-folder">3/21</container>
+                     <unittitle encodinganalog="245$a">Tivoli</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e821">
+                  <did>
+                     <container type="box-folder">3/22</container>
+                     <unittitle encodinganalog="245$a">Valse Robin</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e827">
+                  <did>
+                     <container type="box-folder">3/23</container>
+                     <unittitle encodinganalog="245$a">Winter’s calling</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e833">
+                  <did>
+                     <container type="box-folder">3/24</container>
+                     <unittitle encodinganalog="245$a">Arrangements of Gordon's music by others</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e839">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a">Dexter Gordon compositions</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photocopies of printed sheets</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Arranged alphabetically by title.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd9e851">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Music Manuscripts Gordon Carried in his Briefcase</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Manuscripts handwritten by Dexter Gordon</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Arranged alphabetically by title. All by Gordon, except where noted otherwise.</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd9e863">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a">A la modal</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For piano; 1 p. and For bass; 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On back of piano part: <title>Sticky wicket</title>. Separate fragment included with bass part.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e878">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a">Le apartment</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For piano; 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e889">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a">Benjie's bounce</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For piano; 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e900">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a">Candle light lady</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For piano; 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e911">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a">The group</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For tenor sax; 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e922">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a">Happy madness, by Jobim.</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On back is <title>Catalonian Nights</title> (1 p.).</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e937">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a">Mrs. Miniver</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For piano; 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e948">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a">Purple eyes</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For bass; 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Fragment on back.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e960">
+                  <did>
+                     <container type="box-folder">4/10</container>
+                     <unittitle encodinganalog="245$a">Soy Califas!</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For piano and bass; 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Fragments.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e972">
+                  <did>
+                     <container type="box-folder">4/11</container>
+                     <unittitle encodinganalog="245$a">Sticky wicket</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Intro fragment.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e984">
+                  <did>
+                     <container type="box-folder">4/12</container>
+                     <unittitle encodinganalog="245$a">You've changed, by Fischer/Carey</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">For piano; 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>On back: <title>Montmartre</title> (not in Gordon's hand).</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd9e999">
+               <did>
+                  <container type="box">4, 21, 24</container>
+                  <unittitle encodinganalog="245$a">Music by Others</unittitle>
+               </did>
+               <c03 level="file" id="mferd9e1005">
+                  <did>
+                     <container type="box-folder">4/13</container>
+                     <unittitle encodinganalog="245$a">A-Dee</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1011">
+                  <did>
+                     <container type="box-folder">4/14</container>
+                     <unittitle encodinganalog="245$a">Dex-L</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1017">
+                  <did>
+                     <container type="box-folder">4/15</container>
+                     <unittitle encodinganalog="245$a">M-R</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1023">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a">S-Z</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1029">
+                  <did>
+                     <container type="box-folder">24/1</container>
+                     <unittitle encodinganalog="245$a">Hour of victory, by James T. Anderson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1035">
+                  <did>
+                     <container type="box-folder">24/2</container>
+                     <unittitle encodinganalog="245$a">Arrangements by Emmett (Lee) Bailey</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1041">
+                  <did>
+                     <container type="box-folder">24/3</container>
+                     <unittitle encodinganalog="245$a">Ellingtones by David N. Baker</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1047">
+                  <did>
+                     <container type="box-folder">21/2</container>
+                     <unittitle encodinganalog="245$a">East St. Louis Toodle-oo, by Duke Ellington; arr. by David N. Baker (oversize)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1053">
+                  <did>
+                     <container type="box-folder">21/3</container>
+                     <unittitle encodinganalog="245$a">Now sounds and then sounds and Songs for an African family, by M.D. Reita (oversize)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1059">
+                  <did>
+                     <container type="box-folder">24/4</container>
+                     <unittitle encodinganalog="245$a">Unidentified music</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1066">
+                  <did>
+                     <container type="box-folder">24/5</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous parts</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1072">
+                  <did>
+                     <container type="box-folder">24/6</container>
+                     <unittitle encodinganalog="245$a">Music from the film <title>'Round Midnight</title>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd9e1080">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Printed Music</unittitle>
+               </did>
+               <c03 level="file" id="mferd9e1086">
+                  <did>
+                     <container type="box-folder">24/7</container>
+                     <unittitle encodinganalog="245$a">Printed sheet music by various composers</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1092">
+                  <did>
+                     <container type="box-folder">24/8</container>
+                     <unittitle encodinganalog="245$a">
+                        <bibref>Gordon, Dexter; solos transcribed by Lennie Niehaus. <title>Jazz saxophone solos.</title> Los Angeles, Calif.: Almo Publications, 1979 </bibref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e1102">
+                  <did>
+                     <container type="box-folder">24/9</container>
+                     <unittitle encodinganalog="245$a">Photocopied pages from Carl Fischer instructional book</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e1108">
+            <did>
+               <container type="box">5-7, 29</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1960/1988">1960-1988</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>General, family, and business correspondence.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by correspondent, except for box 29 which is arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file" id="mferd9e1122">
+               <did>
+                  <container type="box">29</container>
+                  <unittitle encodinganalog="245$a">Correspondence primarily between Dexter Gordon, agent Bob Leonard, and Blue Note Records executives Francis Wolff and Alfred Lion, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1967</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">1 3-ring album inside slipcase containing sleeves that house correspondence</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1133">
+               <did>
+                  <container type="box-folder">5/1</container>
+                  <unittitle encodinganalog="245$a">A. L. Nellum and Associates</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1139">
+               <did>
+                  <container type="box-folder">5/2</container>
+                  <unittitle encodinganalog="245$a">Academy of Motion Picture Arts and Sciences</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1145">
+               <did>
+                  <container type="box-folder">5/3</container>
+                  <unittitle encodinganalog="245$a">Aebersold, Jamey</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1151">
+               <did>
+                  <container type="box-folder">5/4</container>
+                  <unittitle encodinganalog="245$a">Allen, Roz Kirkland</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1157">
+               <did>
+                  <container type="box-folder">5/5</container>
+                  <unittitle encodinganalog="245$a">American Cinematheque</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1163">
+               <did>
+                  <container type="box-folder">5/6</container>
+                  <unittitle encodinganalog="245$a">American Federation of Musicians</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1169">
+               <did>
+                  <container type="box-folder">5/7</container>
+                  <unittitle encodinganalog="245$a">Angello, Terri</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1176">
+               <did>
+                  <unittitle>Annenberg, Norman<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="besi">
+                        <emph render="italic"> see </emph>Silverman, Bernice</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1184">
+               <did>
+                  <container type="box-folder">5/8</container>
+                  <unittitle encodinganalog="245$a">Associated Booking Corporation</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1190">
+               <did>
+                  <container type="box-folder">5/9</container>
+                  <unittitle encodinganalog="245$a">Baldwin, [Pappy]</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1196">
+               <did>
+                  <container type="box-folder">5/10</container>
+                  <unittitle encodinganalog="245$a">Barkan, Todd</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1202">
+               <did>
+                  <container type="box-folder">5/11</container>
+                  <unittitle encodinganalog="245$a">Bentley, Charles</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1208">
+               <did>
+                  <container type="box-folder">5/12</container>
+                  <unittitle encodinganalog="245$a">Berganza, Gustavo Adolfo</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1214">
+               <did>
+                  <container type="box-folder">5/13</container>
+                  <unittitle encodinganalog="245$a">Berman, Sandy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1220">
+               <did>
+                  <container type="box-folder">5/14</container>
+                  <unittitle encodinganalog="245$a">Bernard, Alain</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1226">
+               <did>
+                  <container type="box-folder">5/15</container>
+                  <unittitle encodinganalog="245$a">Bernice, Norman</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1232">
+               <did>
+                  <container type="box-folder">5/16</container>
+                  <unittitle encodinganalog="245$a">Berry, Lee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1238">
+               <did>
+                  <container type="box-folder">5/17</container>
+                  <unittitle encodinganalog="245$a">Bethea, Mingo</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1245">
+               <did>
+                  <container type="box-folder">5/18</container>
+                  <unittitle encodinganalog="245$a">Bettelheim, Wilhelm</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1251">
+               <did>
+                  <container type="box-folder">5/19</container>
+                  <unittitle encodinganalog="245$a">Bianca’s Jazz Club</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1257">
+               <did>
+                  <unittitle>Birks, John<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="digi">
+                        <emph render="italic"> see </emph>Gillespie, Dizzy</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1265">
+               <did>
+                  <container type="box-folder">5/20</container>
+                  <unittitle encodinganalog="245$a">Bloch, David</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1271">
+               <did>
+                  <unittitle>BMI<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="brmu">
+                        <emph render="italic"> see </emph>Broadcast Music Inc.</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1279">
+               <did>
+                  <container type="box-folder">5/21</container>
+                  <unittitle encodinganalog="245$a">Bougeant, Gérard</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1285">
+               <did>
+                  <container type="box-folder">5/22</container>
+                  <unittitle encodinganalog="245$a">Bourboulon, Frederic</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1291">
+               <did>
+                  <container type="box-folder">5/23</container>
+                  <unittitle encodinganalog="245$a">Boustedt, Christer</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1297">
+               <did>
+                  <container type="box-folder">5/24</container>
+                  <unittitle encodinganalog="245$a">Bridgewater, Dee Dee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1303">
+               <did>
+                  <container type="box-folder">5/25</container>
+                  <unittitle encodinganalog="245$a">Britt, Kaye</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1309">
+               <did>
+                  <container type="box-folder">5/26</container>
+                  <unittitle encodinganalog="245$a" id="brmu">Broadcast Music Inc.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1316">
+               <did>
+                  <container type="box-folder">5/27</container>
+                  <unittitle encodinganalog="245$a">Burrows, R.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1322">
+               <did>
+                  <container type="box-folder">5/28</container>
+                  <unittitle encodinganalog="245$a">Butler, George</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1328">
+               <did>
+                  <container type="box-folder">5/29</container>
+                  <unittitle encodinganalog="245$a">California State University, Sacramento</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1334">
+               <did>
+                  <container type="box-folder">5/30</container>
+                  <unittitle encodinganalog="245$a">Carson Production Group</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1340">
+               <did>
+                  <container type="box-folder">5/31</container>
+                  <unittitle encodinganalog="245$a">Carter, Jimmy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1346">
+               <did>
+                  <container type="box-folder">5/32</container>
+                  <unittitle encodinganalog="245$a">CBS Records</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1352">
+               <did>
+                  <container type="box-folder">5/35</container>
+                  <unittitle encodinganalog="245$a">Chandler, Marvin</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1358">
+               <did>
+                  <container type="box-folder">5/33</container>
+                  <unittitle encodinganalog="245$a">Charismic Productions</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1364">
+               <did>
+                  <container type="box-folder">5/34</container>
+                  <unittitle encodinganalog="245$a">Chick Corea Productions</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1370">
+               <did>
+                  <container type="box-folder">5/36</container>
+                  <unittitle encodinganalog="245$a">Colburn, Brita</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1376">
+               <did>
+                  <container type="box-folder">5/37</container>
+                  <unittitle encodinganalog="245$a">Columbia Records</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1383">
+               <did>
+                  <container type="box-folder">5/38</container>
+                  <unittitle encodinganalog="245$a">Composers Forum in Albany</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1389">
+               <did>
+                  <container type="box-folder">5/39</container>
+                  <unittitle encodinganalog="245$a">Conciertos GAMA</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1395">
+               <did>
+                  <container type="box-folder">5/40</container>
+                  <unittitle encodinganalog="245$a">Copyright Service Bureau Ltd.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1401">
+               <did>
+                  <container type="box-folder">5/41</container>
+                  <unittitle encodinganalog="245$a">Corneille, A.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1407">
+               <did>
+                  <container type="box-folder">5/42</container>
+                  <unittitle encodinganalog="245$a">Corral, Rosalind</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1413">
+               <did>
+                  <container type="box-folder">5/43</container>
+                  <unittitle encodinganalog="245$a">Council, William</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1419">
+               <did>
+                  <container type="box-folder">5/44</container>
+                  <unittitle encodinganalog="245$a">Crampton, Gil</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1425">
+               <did>
+                  <container type="box-folder">5/45</container>
+                  <unittitle encodinganalog="245$a">Crime Story (Michael Mann Co.)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1431">
+               <did>
+                  <container type="box-folder">5/46</container>
+                  <unittitle encodinganalog="245$a">Darius Productions Inc.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1437">
+               <did>
+                  <container type="box-folder">5/47</container>
+                  <unittitle encodinganalog="245$a">de Casseres, Joe</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1443">
+               <did>
+                  <container type="box-folder">5/48</container>
+                  <unittitle encodinganalog="245$a">DeCaro, Louis</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1450">
+               <did>
+                  <container type="box-folder">5/49</container>
+                  <unittitle encodinganalog="245$a">DeNoyelles, Griffith G., Jr.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1456">
+               <did>
+                  <container type="box-folder">5/50</container>
+                  <unittitle encodinganalog="245$a">Diamond, Monty</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1462">
+               <did>
+                  <container type="box-folder">5/51</container>
+                  <unittitle encodinganalog="245$a">District of Columbia, Dept. of Corrections</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1468">
+               <did>
+                  <container type="box-folder">5/52</container>
+                  <unittitle encodinganalog="245$a">Dury, Monique</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1474">
+               <did>
+                  <container type="box-folder">5/53</container>
+                  <unittitle encodinganalog="245$a">Elgort, Arthur</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1480">
+               <did>
+                  <unittitle>Embassy of Paraguay<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="paem">
+                        <emph render="italic"> see </emph>United States. Embassy (Paraguay)</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1488">
+               <did>
+                  <container type="box-folder">5/54</container>
+                  <unittitle encodinganalog="245$a">Farmer, Art</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1494">
+               <did>
+                  <container type="box-folder">5/55</container>
+                  <unittitle encodinganalog="245$a">Festival Productions Inc.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1500">
+               <did>
+                  <unittitle>France. Ministère de l'intérieur<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="miin">
+                        <emph render="italic"> see </emph>République Française Ministère de l'intérieur</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1508">
+               <did>
+                  <container type="box-folder">5/56</container>
+                  <unittitle encodinganalog="245$a">Friedman, Carol</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1514">
+               <did>
+                  <container type="box-folder">5/57</container>
+                  <unittitle encodinganalog="245$a">Gaudry, Michel</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1521">
+               <did>
+                  <container type="box-folder">5/58</container>
+                  <unittitle encodinganalog="245$a">Gentry, Theodore</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1527">
+               <did>
+                  <container type="box-folder">5/59</container>
+                  <unittitle encodinganalog="245$a">Giddens, Billy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1533">
+               <did>
+                  <container type="box-folder">5/60</container>
+                  <unittitle encodinganalog="245$a" id="digi">Gillespie, Dizzy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1539">
+               <did>
+                  <container type="box-folder">5/61</container>
+                  <unittitle encodinganalog="245$a">Gitler, Mary Jo</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1545">
+               <did>
+                  <container type="box-folder">5/62</container>
+                  <unittitle encodinganalog="245$a">Goodwin, Jill</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1551">
+               <did>
+                  <container type="box-folder">5/63</container>
+                  <unittitle encodinganalog="245$a">Gordon, Benjamin</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1557">
+               <did>
+                  <container type="box-folder">5/64</container>
+                  <unittitle encodinganalog="245$a">Gordon, Dexter</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Contains items written to Gordon's wife, Maxine.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1566">
+               <did>
+                  <container type="box-folder">5/65</container>
+                  <unittitle encodinganalog="245$a">Gordon, Dexter</unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Contains Christmas cards from Dexter Gordon.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1575">
+               <did>
+                  <container type="box-folder">5/66</container>
+                  <unittitle encodinganalog="245$a">Gordon, Lorraine</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1581">
+               <did>
+                  <container type="box-folder">5/67</container>
+                  <unittitle encodinganalog="245$a">Gordon, Max</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1587">
+               <did>
+                  <container type="box-folder">5/68</container>
+                  <unittitle encodinganalog="245$a">Gottlieb, Carol</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1594">
+               <did>
+                  <container type="box-folder">5/69</container>
+                  <unittitle encodinganalog="245$a">Grosney, Paul</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1600">
+               <did>
+                  <container type="box-folder">5/70</container>
+                  <unittitle encodinganalog="245$a">Group Dynamics, Inc.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1606">
+               <did>
+                  <container type="box-folder">5/71</container>
+                  <unittitle encodinganalog="245$a">Gruntz, George</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1612">
+               <did>
+                  <container type="box-folder">5/72</container>
+                  <unittitle encodinganalog="245$a">Hagiwara, Youichi</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1618">
+               <did>
+                  <container type="box-folder">5/73</container>
+                  <unittitle encodinganalog="245$a">Hamill, Pete</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1624">
+               <did>
+                  <container type="box-folder">5/74</container>
+                  <unittitle encodinganalog="245$a">Hand, Kevin</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1630">
+               <did>
+                  <container type="box-folder">5/75</container>
+                  <unittitle encodinganalog="245$a">Hannigan, [?]</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1636">
+               <did>
+                  <container type="box-folder">5/76</container>
+                  <unittitle encodinganalog="245$a">Harding and Kurnos</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1642">
+               <did>
+                  <container type="box-folder">5/77</container>
+                  <unittitle encodinganalog="245$a">Harris, Ora</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1648">
+               <did>
+                  <unittitle>Harvard University Radio Broadcasting Co.<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="whra">
+                        <emph render="italic"> see </emph>WHRB (Radio station : Cambridge Mass.)</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1656">
+               <did>
+                  <container type="box-folder">5/78</container>
+                  <unittitle encodinganalog="245$a">Hay, Curtis</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1663">
+               <did>
+                  <container type="box-folder">5/80</container>
+                  <unittitle encodinganalog="245$a">Hishinuma, Taeko</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1669">
+               <did>
+                  <container type="box-folder">5/81</container>
+                  <unittitle encodinganalog="245$a">Hoffler, Irene</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1675">
+               <did>
+                  <container type="box-folder">5/82</container>
+                  <unittitle encodinganalog="245$a">House of the Crossroads</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1681">
+               <did>
+                  <container type="box-folder">5/83</container>
+                  <unittitle encodinganalog="245$a">Howard University</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1687">
+               <did>
+                  <container type="box-folder">5/84</container>
+                  <unittitle encodinganalog="245$a">Hudnut, William</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1693">
+               <did>
+                  <container type="box-folder">5/85</container>
+                  <unittitle encodinganalog="245$a">Hultin, Randi</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1699">
+               <did>
+                  <container type="box-folder">5/86</container>
+                  <unittitle encodinganalog="245$a">Hutcherson, Bobby</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1705">
+               <did>
+                  <container type="box-folder">5/87</container>
+                  <unittitle encodinganalog="245$a">Hutcherson-Zuniga, Rosemary</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1711">
+               <did>
+                  <unittitle>International Communication Agency<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="incoag">
+                        <emph render="italic"> see </emph>United States. International Communication Agency</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1719">
+               <did>
+                  <container type="box-folder">5/88</container>
+                  <unittitle encodinganalog="245$a">Jackson, Cliff</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1725">
+               <did>
+                  <container type="box-folder">5/89</container>
+                  <unittitle encodinganalog="245$a">Jacob, John E. (“A Night of Stars” at Lincoln Center)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1732">
+               <did>
+                  <unittitle>Jazz India<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="jaya">
+                        <emph render="italic"> see </emph>Jazz Yatra</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1740">
+               <did>
+                  <container type="box-folder">5/90</container>
+                  <unittitle encodinganalog="245$a">Jazz Institute of Chicago</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1746">
+               <did>
+                  <container type="box-folder">5/91</container>
+                  <unittitle encodinganalog="245$a" id="jaya">Jazz Yatra</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1752">
+               <did>
+                  <container type="box-folder">5/92</container>
+                  <unittitle encodinganalog="245$a">John Birks “Dizzy” Gillespie Center</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1758">
+               <did>
+                  <container type="box-folder">5/93</container>
+                  <unittitle encodinganalog="245$a">Johnson, Carl</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1764">
+               <did>
+                  <container type="box-folder">5/94</container>
+                  <unittitle encodinganalog="245$a">Johnson Publishing Company</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1770">
+               <did>
+                  <container type="box-folder">5/95</container>
+                  <unittitle encodinganalog="245$a">Johnston, Glen</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1776">
+               <did>
+                  <container type="box-folder">5/96</container>
+                  <unittitle encodinganalog="245$a">Jordan, Clifford</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1782">
+               <did>
+                  <container type="box-folder">5/97</container>
+                  <unittitle encodinganalog="245$a">Jorgensen, Finn</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1788">
+               <did>
+                  <container type="box-folder">5/98</container>
+                  <unittitle encodinganalog="245$a">Kabat, Julie</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1794">
+               <did>
+                  <container type="box-folder">5/99</container>
+                  <unittitle encodinganalog="245$a">Keane, [?]</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1801">
+               <did>
+                  <container type="box-folder">5/100</container>
+                  <unittitle encodinganalog="245$a">Kellaway, Roger</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1807">
+               <did>
+                  <container type="box-folder">6/1</container>
+                  <unittitle encodinganalog="245$a">Knight, Larry</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1813">
+               <did>
+                  <container type="box-folder">6/2</container>
+                  <unittitle encodinganalog="245$a">Konde family</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1819">
+               <did>
+                  <container type="box-folder">6/3</container>
+                  <unittitle encodinganalog="245$a">Kurzenberger, Paul</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1825">
+               <did>
+                  <container type="box-folder">6/4</container>
+                  <unittitle encodinganalog="245$a">Lambros, Pete</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1831">
+               <did>
+                  <container type="box-folder">6/5</container>
+                  <unittitle encodinganalog="245$a">LaMothe, Brenda</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1837">
+               <did>
+                  <container type="box-folder">6/6</container>
+                  <unittitle encodinganalog="245$a">Lazar, Irving</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1843">
+               <did>
+                  <container type="box-folder">6/7</container>
+                  <unittitle encodinganalog="245$a">Lee, David</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1849">
+               <did>
+                  <container type="box-folder">6/8</container>
+                  <unittitle encodinganalog="245$a">Leroux, Alain</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1855">
+               <did>
+                  <container type="box-folder">6/9</container>
+                  <unittitle encodinganalog="245$a">Levenstein, Lev</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1861">
+               <did>
+                  <container type="box-folder">6/10</container>
+                  <unittitle encodinganalog="245$a">Lewis, Larry Dan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1868">
+               <did>
+                  <container type="box-folder">6/11</container>
+                  <unittitle encodinganalog="245$a">Lind, Jack</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1874">
+               <did>
+                  <container type="box-folder">6/12</container>
+                  <unittitle encodinganalog="245$a">Livérant, Babs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1880">
+               <did>
+                  <container type="box-folder">6/13</container>
+                  <unittitle encodinganalog="245$a">Lundvall, Bruce</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1886">
+               <did>
+                  <container type="box-folder">6/14</container>
+                  <unittitle encodinganalog="245$a">Maizeret, Dan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1892">
+               <did>
+                  <container type="box-folder">6/15</container>
+                  <unittitle encodinganalog="245$a">Malone, Skip</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1898">
+               <did>
+                  <container type="box-folder">6/16</container>
+                  <unittitle encodinganalog="245$a">Manno, Dana</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1904">
+               <did>
+                  <container type="box-folder">6/17</container>
+                  <unittitle encodinganalog="245$a">Marable, Sheryle Ann</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1910">
+               <did>
+                  <container type="box-folder">6/18</container>
+                  <unittitle encodinganalog="245$a">Mason, Konda</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1916">
+               <did>
+                  <container type="box-folder">6/19</container>
+                  <unittitle encodinganalog="245$a">Matthews, Onzy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1922">
+               <did>
+                  <container type="box-folder">6/20</container>
+                  <unittitle encodinganalog="245$a">McLaughlin, John</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1928">
+               <did>
+                  <container type="box-folder">6/21</container>
+                  <unittitle encodinganalog="245$a">McLean, Jackie</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1935">
+               <did>
+                  <container type="box-folder">6/22</container>
+                  <unittitle encodinganalog="245$a">Meara, Anne</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1941">
+               <did>
+                  <container type="box-folder">6/23</container>
+                  <unittitle encodinganalog="245$a">Metcalf, Lila</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1947">
+               <did>
+                  <container type="box-folder">6/24</container>
+                  <unittitle encodinganalog="245$a">Metcalf, Oz</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1953">
+               <did>
+                  <unittitle>Mexican Consultate (New York)<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="mexco">
+                        <emph render="italic"> see </emph>Mexico. Consulado (New York, N.Y.)</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1961">
+               <did>
+                  <container type="box-folder">6/25</container>
+                  <unittitle encodinganalog="245$a" id="mexco">Mexico. Consulado (New York, N.Y.)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1967">
+               <did>
+                  <container type="box-folder">6/26</container>
+                  <unittitle encodinganalog="245$a">Michelot, Pierre</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1973">
+               <did>
+                  <container type="box-folder">6/27</container>
+                  <unittitle encodinganalog="245$a">Milioti, Clark</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1979">
+               <did>
+                  <container type="box-folder">6/28</container>
+                  <unittitle encodinganalog="245$a">Miller, [?]</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1985">
+               <did>
+                  <container type="box-folder">6/29</container>
+                  <unittitle encodinganalog="245$a">Milling-Bey, Darlene</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1991">
+               <did>
+                  <container type="box-folder">6/30</container>
+                  <unittitle encodinganalog="245$a">Mingus, Sue Graham</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e1997">
+               <did>
+                  <container type="box-folder">6/31</container>
+                  <unittitle encodinganalog="245$a">Mondale, Joan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2004">
+               <did>
+                  <container type="box-folder">6/32</container>
+                  <unittitle encodinganalog="245$a">Moreau, Jacqueline</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2010">
+               <did>
+                  <container type="box-folder">6/33</container>
+                  <unittitle encodinganalog="245$a">Morh, Francis</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2016">
+               <did>
+                  <container type="box-folder">6/34</container>
+                  <unittitle encodinganalog="245$a">Mosely, Jon</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2022">
+               <did>
+                  <container type="box-folder">6/35</container>
+                  <unittitle encodinganalog="245$a">Mullins, Diane</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2028">
+               <did>
+                  <container type="box-folder">6/36</container>
+                  <unittitle encodinganalog="245$a">Muylaert, Roberto</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2034">
+               <did>
+                  <unittitle>NAACP<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:show="replace"
+                          xlink:actuate="onRequest"
+                          target="colpe">
+                        <emph render="italic"> see </emph>National Association for the Advancement of Colored People</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2042">
+               <did>
+                  <container type="box-folder">6/37</container>
+                  <unittitle encodinganalog="245$a">Nanneth, Anthony</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2048">
+               <did>
+                  <container type="box-folder">6/38</container>
+                  <unittitle encodinganalog="245$a">National Endowment for the Arts</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2054">
+               <did>
+                  <container type="box-folder">6/39</container>
+                  <unittitle encodinganalog="245$a" id="colpe">National Association for the Advancement of Colored People</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2060">
+               <did>
+                  <container type="box-folder">6/40</container>
+                  <unittitle encodinganalog="245$a">National Public Radio</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2066">
+               <did>
+                  <container type="box-folder">6/41</container>
+                  <unittitle encodinganalog="245$a">Nevada. Motion Picture Division</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2073">
+               <did>
+                  <container type="box-folder">5/79</container>
+                  <unittitle encodinganalog="245$a">Neves, Renee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2079">
+               <did>
+                  <container type="box-folder">6/42</container>
+                  <unittitle encodinganalog="245$a">Newark (N.J.). Municipal Council</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2085">
+               <did>
+                  <container type="box-folder">6/43</container>
+                  <unittitle encodinganalog="245$a">Newport Jazz Festival (New York)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2091">
+               <did>
+                  <container type="box-folder">6/44</container>
+                  <unittitle encodinganalog="245$a">Noel, Dan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2097">
+               <did>
+                  <container type="box-folder">6/45</container>
+                  <unittitle encodinganalog="245$a">Norman Annenberg Law Offices</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2103">
+               <did>
+                  <container type="box-folder">6/46</container>
+                  <unittitle encodinganalog="245$a">Ohio State University</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2109">
+               <did>
+                  <container type="box-folder">6/47</container>
+                  <unittitle encodinganalog="245$a">Parker, Charlie</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2115">
+               <did>
+                  <container type="box-folder">6/48</container>
+                  <unittitle encodinganalog="245$a">Passman, Ray</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2121">
+               <did>
+                  <container type="box-folder">6/49</container>
+                  <unittitle encodinganalog="245$a">Payne, Tyler</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2127">
+               <did>
+                  <container type="box-folder">6/50</container>
+                  <unittitle encodinganalog="245$a">Pearce, Dorothy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2133">
+               <did>
+                  <container type="box-folder">6/51</container>
+                  <unittitle encodinganalog="245$a">Peter Levinson Communications</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2140">
+               <did>
+                  <container type="box-folder">6/52</container>
+                  <unittitle encodinganalog="245$a">Pikuzinski, Eunice</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2146">
+               <did>
+                  <container type="box-folder">6/53</container>
+                  <unittitle encodinganalog="245$a">Pilot, Joan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2152">
+               <did>
+                  <container type="box-folder">6/54</container>
+                  <unittitle encodinganalog="245$a">Pimental de Castro, Mario</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2158">
+               <did>
+                  <container type="box-folder">6/55</container>
+                  <unittitle encodinganalog="245$a">Playboy Jazz Festival</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2164">
+               <did>
+                  <container type="box-folder">6/56</container>
+                  <unittitle encodinganalog="245$a">Porte, Isabelle</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2170">
+               <did>
+                  <container type="box-folder">6/57</container>
+                  <unittitle encodinganalog="245$a">Preston, Frances</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2176">
+               <did>
+                  <container type="box-folder">6/58</container>
+                  <unittitle encodinganalog="245$a">Queens College (New York, N.Y.)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2182">
+               <did>
+                  <container type="box-folder">6/59</container>
+                  <unittitle encodinganalog="245$a">Radio Free Europe</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2188">
+               <did>
+                  <container type="box-folder">6/60</container>
+                  <unittitle encodinganalog="245$a">Radiologica Clinica (Cuernvaca, Mexico)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2194">
+               <did>
+                  <container type="box-folder">6/61</container>
+                  <unittitle encodinganalog="245$a">Reagan, Ronald</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2200">
+               <did>
+                  <container type="box-folder">6/62</container>
+                  <unittitle encodinganalog="245$a">Reardon, Patrick</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2207">
+               <did>
+                  <container type="box-folder">6/63</container>
+                  <unittitle encodinganalog="245$a">Reaves-Phillips, Sandra</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2213">
+               <did>
+                  <container type="box-folder">6/64</container>
+                  <unittitle encodinganalog="245$a">Redd, Vi</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2219">
+               <did>
+                  <container type="box-folder">6/65</container>
+                  <unittitle encodinganalog="245$a">Reid, Rufus</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2225">
+               <did>
+                  <container type="box-folder">6/66</container>
+                  <unittitle encodinganalog="245$a">Reitman, Linda R.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2231">
+               <did>
+                  <container type="box-folder">6/67</container>
+                  <unittitle encodinganalog="245$a" id="miin">République Française Ministère de l'intérieur</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2237">
+               <did>
+                  <container type="box-folder">6/68</container>
+                  <unittitle encodinganalog="245$a">Rollins, [?]</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2243">
+               <did>
+                  <container type="box-folder">6/69</container>
+                  <unittitle encodinganalog="245$a">Ross, Steven</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2249">
+               <did>
+                  <container type="box-folder">6/70</container>
+                  <unittitle encodinganalog="245$a">Salou, Michel</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2255">
+               <did>
+                  <container type="box-folder">6/71</container>
+                  <unittitle encodinganalog="245$a">Samuels, Jim</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2261">
+               <did>
+                  <container type="box-folder">6/72</container>
+                  <unittitle encodinganalog="245$a">Santiago, Mel</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2267">
+               <did>
+                  <container type="box-folder">6/73</container>
+                  <unittitle encodinganalog="245$a">Screen Actors Guild</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2274">
+               <did>
+                  <container type="box-folder">6/74</container>
+                  <unittitle encodinganalog="245$a">Shirew Publishing</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2280">
+               <did>
+                  <container type="box-folder">6/75</container>
+                  <unittitle encodinganalog="245$a">Sidran, Ben</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2286">
+               <did>
+                  <container type="box-folder">6/76</container>
+                  <unittitle encodinganalog="245$a" id="besi">Silverman, Bernice</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2292">
+               <did>
+                  <container type="box-folder">6/77</container>
+                  <unittitle encodinganalog="245$a">Sjøgren, Thorbjørn</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2298">
+               <did>
+                  <container type="box-folder">6/78</container>
+                  <unittitle encodinganalog="245$a">Sloane, Carol</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2304">
+               <did>
+                  <container type="box-folder">6/79</container>
+                  <unittitle encodinganalog="245$a">Smith, Mary Alice</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2310">
+               <did>
+                  <container type="box-folder">6/80</container>
+                  <unittitle encodinganalog="245$a">Solfors, Mikael</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2316">
+               <did>
+                  <container type="box-folder">6/81</container>
+                  <unittitle encodinganalog="245$a">Spitzer, Michael</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2322">
+               <did>
+                  <container type="box-folder">6/82</container>
+                  <unittitle encodinganalog="245$a">Stephens, David</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2328">
+               <did>
+                  <container type="box-folder">6/83</container>
+                  <unittitle encodinganalog="245$a">Stiller, Jerry</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2334">
+               <did>
+                  <container type="box-folder">6/84</container>
+                  <unittitle encodinganalog="245$a">Stoop, Norma M.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2341">
+               <did>
+                  <container type="box-folder">6/85</container>
+                  <unittitle encodinganalog="245$a">Strone, Daniel</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2347">
+               <did>
+                  <container type="box-folder">6/86</container>
+                  <unittitle encodinganalog="245$a">Tavernier, Bertrand</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2353">
+               <did>
+                  <container type="box-folder">6/87</container>
+                  <unittitle encodinganalog="245$a">Temple University Jazz Festival</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2359">
+               <did>
+                  <container type="box-folder">6/88</container>
+                  <unittitle encodinganalog="245$a">Thayler, Carl</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2365">
+               <did>
+                  <container type="box-folder">6/89</container>
+                  <unittitle encodinganalog="245$a">Time (magazine)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2371">
+               <did>
+                  <container type="box-folder">6/90</container>
+                  <unittitle encodinganalog="245$a">Townsend, Larry</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2377">
+               <did>
+                  <container type="box-folder">6/91</container>
+                  <unittitle encodinganalog="245$a">Traberg, Ebbe</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2383">
+               <did>
+                  <container type="box-folder">6/92</container>
+                  <unittitle encodinganalog="245$a">Turner, Carl</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2389">
+               <did>
+                  <container type="box-folder">6/93</container>
+                  <unittitle encodinganalog="245$a">Twin Cities Public Television (Saint Paul, Minn.)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2395">
+               <did>
+                  <container type="box-folder">6/94</container>
+                  <unittitle encodinganalog="245$a">Ullman, Michael</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2401">
+               <did>
+                  <container type="box-folder">6/96</container>
+                  <unittitle encodinganalog="245$a" id="paem">United States. Embassy (Paraguay)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2408">
+               <did>
+                  <container type="box-folder">6/97</container>
+                  <unittitle encodinganalog="245$a" id="incoag">United States. International Communication Agency</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2414">
+               <did>
+                  <container type="box-folder">6/95</container>
+                  <unittitle encodinganalog="245$a">University of California, Berkeley</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2420">
+               <did>
+                  <container type="box-folder">6/98</container>
+                  <unittitle encodinganalog="245$a">Vallint, Glenn</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2426">
+               <did>
+                  <container type="box-folder">6/99</container>
+                  <unittitle encodinganalog="245$a">Vason, Lou</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2432">
+               <did>
+                  <container type="box-folder">7/1</container>
+                  <unittitle encodinganalog="245$a">Wanamaker, George</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2438">
+               <did>
+                  <container type="box-folder">7/2</container>
+                  <unittitle encodinganalog="245$a">Ware, Ron</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2444">
+               <did>
+                  <container type="box-folder">7/3</container>
+                  <unittitle encodinganalog="245$a">Warner Bros.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2450">
+               <did>
+                  <container type="box-folder">7/4</container>
+                  <unittitle encodinganalog="245$a">Watson, Marian</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2456">
+               <did>
+                  <container type="box-folder">7/5</container>
+                  <unittitle encodinganalog="245$a">WBGO-FM</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2462">
+               <did>
+                  <container type="box-folder">7/6</container>
+                  <unittitle encodinganalog="245$a">Weisman, Donald</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2468">
+               <did>
+                  <container type="box-folder">7/7</container>
+                  <unittitle encodinganalog="245$a">Weston, Paul</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2475">
+               <did>
+                  <container type="box-folder">7/8</container>
+                  <unittitle encodinganalog="245$a">White House (Washington, DC)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2481">
+               <did>
+                  <container type="box-folder">7/9</container>
+                  <unittitle encodinganalog="245$a">Whittemore, Jack</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2487">
+               <did>
+                  <container type="box-folder">7/10</container>
+                  <unittitle encodinganalog="245$a" id="whra">WHRB (Radio station : Cambridge Mass.)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2493">
+               <did>
+                  <container type="box-folder">7/11</container>
+                  <unittitle encodinganalog="245$a">Wilson, John S.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2499">
+               <did>
+                  <container type="box-folder">7/12</container>
+                  <unittitle encodinganalog="245$a">Wright, Bruce Mc M.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2505">
+               <did>
+                  <container type="box-folder">7/13</container>
+                  <unittitle encodinganalog="245$a">Wright, Leo</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2511">
+               <did>
+                  <container type="box-folder">7/14</container>
+                  <unittitle encodinganalog="245$a">WRVR Jazz Radio</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2517">
+               <did>
+                  <container type="box-folder">7/15</container>
+                  <unittitle encodinganalog="245$a">Yass, Judy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2523">
+               <did>
+                  <container type="box-folder">7/16</container>
+                  <unittitle encodinganalog="245$a">Zárate, Pedro</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2529">
+               <did>
+                  <container type="box-folder">7/17</container>
+                  <unittitle encodinganalog="245$a">Zinglersen, Kai</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2535">
+               <did>
+                  <container type="box-folder">7/18</container>
+                  <unittitle encodinganalog="245$a">[no last name], Anders</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2542">
+               <did>
+                  <container type="box-folder">7/19</container>
+                  <unittitle encodinganalog="245$a">Cards and condolences, assorted</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2548">
+               <did>
+                  <container type="box-folder">7/20</container>
+                  <unittitle encodinganalog="245$a">Unknown and/or unidentified</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e2554">
+            <did>
+               <container type="box">7-8</container>
+               <unittitle encodinganalog="245$a" id="prog">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1962/1996">1962-1996</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Programs from concerts and other events.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file" id="mferd9e2568">
+               <did>
+                  <container type="box-folder">7/21</container>
+                  <unittitle encodinganalog="245$a">1962-1969</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2574">
+               <did>
+                  <container type="box-folder">7/22</container>
+                  <unittitle encodinganalog="245$a">1976-1977</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2580">
+               <did>
+                  <container type="box-folder">7/23</container>
+                  <unittitle encodinganalog="245$a">1978</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2586">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a">1979</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2592">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2598">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a">1981</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2604">
+               <did>
+                  <container type="box-folder">8/4</container>
+                  <unittitle encodinganalog="245$a">1982</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2610">
+               <did>
+                  <container type="box-folder">8/5</container>
+                  <unittitle encodinganalog="245$a">1985-1986</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2617">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">1987</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2623">
+               <did>
+                  <container type="box-folder">8/7</container>
+                  <unittitle encodinganalog="245$a">1988-1996</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2629">
+               <did>
+                  <container type="box-folder">8/8</container>
+                  <unittitle encodinganalog="245$a">Undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e2635">
+            <did>
+               <container type="box">9-10</container>
+               <unittitle encodinganalog="245$a" id="clip">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1940/1988">circa 1940, 1976-1988</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Newspaper and magazine clippings.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file" id="mferd9e2649">
+               <did>
+                  <container type="box-folder">9/1</container>
+                  <unittitle encodinganalog="245$a">1976</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2655">
+               <did>
+                  <container type="box-folder">9/2</container>
+                  <unittitle encodinganalog="245$a">1977</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2661">
+               <did>
+                  <container type="box-folder">9/3</container>
+                  <unittitle encodinganalog="245$a">1978</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2667">
+               <did>
+                  <container type="box-folder">9/4</container>
+                  <unittitle encodinganalog="245$a">1979</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2673">
+               <did>
+                  <container type="box-folder">9/5</container>
+                  <unittitle encodinganalog="245$a">1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2679">
+               <did>
+                  <container type="box-folder">9/6</container>
+                  <unittitle encodinganalog="245$a">1981</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2685">
+               <did>
+                  <container type="box-folder">9/7</container>
+                  <unittitle encodinganalog="245$a">1982</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2691">
+               <did>
+                  <container type="box-folder">10/1</container>
+                  <unittitle encodinganalog="245$a">1985</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2698">
+               <did>
+                  <container type="box-folder">10/2-3</container>
+                  <unittitle encodinganalog="245$a">1986</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2704">
+               <did>
+                  <container type="box-folder">10/4</container>
+                  <unittitle encodinganalog="245$a">1987</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2710">
+               <did>
+                  <container type="box-folder">10/5</container>
+                  <unittitle encodinganalog="245$a">1988</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2716">
+               <did>
+                  <container type="box-folder">10/6</container>
+                  <unittitle encodinganalog="245$a">1988 (Japan tour)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2722">
+               <did>
+                  <container type="box-folder">10/7</container>
+                  <unittitle encodinganalog="245$a">Undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e2728">
+            <did>
+               <container type="box">11-12</container>
+               <unittitle encodinganalog="245$a" id="spma">Serials, Periodicals, and Magazines </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>National and international serials and magazines, mostly dealing with jazz, that contain articles about Dexter Gordon.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Housed according to format and size.</p>
+            </arrangement>
+            <c02 level="file" id="mferd9e2740">
+               <did>
+                  <container type="box">11-12</container>
+                  <unittitle encodinganalog="245$a">Serials, Periodicals, and Magazines</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e2746">
+            <did>
+               <container type="box">13-16</container>
+               <unittitle encodinganalog="245$a" id="buspa">Business Papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1976/1989">1976-1989</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Financial receipts, contracts, and related materials.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file" id="mferd9e2760">
+               <did>
+                  <container type="box">13-15</container>
+                  <unittitle encodinganalog="245$a">Bills and Receipts</unittitle>
+               </did>
+               <c03 level="file" id="mferd9e2766">
+                  <did>
+                     <container type="box-folder">13/1</container>
+                     <unittitle encodinganalog="245$a">1976</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2772">
+                  <did>
+                     <container type="box-folder">13/2</container>
+                     <unittitle encodinganalog="245$a">1977</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2778">
+                  <did>
+                     <container type="box-folder">13/3-4</container>
+                     <unittitle encodinganalog="245$a">1978</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2784">
+                  <did>
+                     <container type="box-folder">13/5</container>
+                     <unittitle encodinganalog="245$a">1979</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2790">
+                  <did>
+                     <container type="box-folder">14/1</container>
+                     <unittitle encodinganalog="245$a">1979</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2796">
+                  <did>
+                     <container type="box-folder">14/2</container>
+                     <unittitle encodinganalog="245$a">1980</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2802">
+                  <did>
+                     <container type="box-folder">14/3</container>
+                     <unittitle encodinganalog="245$a">1981</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2808">
+                  <did>
+                     <container type="box-folder">14/4</container>
+                     <unittitle encodinganalog="245$a">1982</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2814">
+                  <did>
+                     <container type="box-folder">14/5</container>
+                     <unittitle encodinganalog="245$a">1984-1985</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2820">
+                  <did>
+                     <container type="box-folder">14/6</container>
+                     <unittitle encodinganalog="245$a">1986</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2827">
+                  <did>
+                     <container type="box-folder">14/7</container>
+                     <unittitle encodinganalog="245$a">1986 (<title>'Round Midnight</title>)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2836">
+                  <did>
+                     <container type="box-folder">15/1</container>
+                     <unittitle encodinganalog="245$a">1987</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2842">
+                  <did>
+                     <container type="box-folder">15/2</container>
+                     <unittitle encodinganalog="245$a">1988</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2848">
+                  <did>
+                     <container type="box-folder">15/3</container>
+                     <unittitle encodinganalog="245$a">1989</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd9e2854">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Tour Books</unittitle>
+               </did>
+               <c03 level="file" id="mferd9e2860">
+                  <did>
+                     <container type="box-folder">15/4</container>
+                     <unittitle encodinganalog="245$a">Apr.-Oct., <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2868">
+                  <did>
+                     <container type="box-folder">15/4</container>
+                     <unittitle encodinganalog="245$a">May-July, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd9e2876">
+               <did>
+                  <container type="box-folder">15/5</container>
+                  <unittitle encodinganalog="245$a">Bank account books</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2882">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Contracts</unittitle>
+               </did>
+               <c03 level="file" id="mferd9e2888">
+                  <did>
+                     <container type="box-folder">16/1</container>
+                     <unittitle encodinganalog="245$a">1976</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2894">
+                  <did>
+                     <container type="box-folder">16/2</container>
+                     <unittitle encodinganalog="245$a">1977</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2900">
+                  <did>
+                     <container type="box-folder">16/3</container>
+                     <unittitle encodinganalog="245$a">1978</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2906">
+                  <did>
+                     <container type="box-folder">16/4</container>
+                     <unittitle encodinganalog="245$a">1979</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2912">
+                  <did>
+                     <container type="box-folder">16/5</container>
+                     <unittitle encodinganalog="245$a">1980</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2918">
+                  <did>
+                     <container type="box-folder">16/6</container>
+                     <unittitle encodinganalog="245$a">1981</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2924">
+                  <did>
+                     <container type="box-folder">16/7</container>
+                     <unittitle encodinganalog="245$a">1982</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e2930">
+                  <did>
+                     <container type="box-folder">16/8</container>
+                     <unittitle encodinganalog="245$a">1983</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e2936">
+            <did>
+               <container type="box">17-18</container>
+               <unittitle encodinganalog="245$a" id="scri">Scripts, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1985/1989">1985-1989</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Film scripts.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by title.</p>
+            </arrangement>
+            <c02 level="file" id="mferd9e2950">
+               <did>
+                  <container type="box-folder">17/1-4</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>Awakenings,</title> by <persname>Steven Zaillian</persname>; adapted from the book by <persname>Oliver Sacks</persname>, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">Oct. 2, 1989</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Bound script, inscribed</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2969">
+               <did>
+                  <container type="box-folder">17/5</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>Crime Story,</title> by <persname>Gail Hickman, </persname>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2981">
+               <did>
+                  <container type="box-folder">17/6</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>Leonard Part 6,</title> by <persname>Jonathan Reynolds, </persname>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e2993">
+               <did>
+                  <container type="box-folder">17/7</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>Paris Jazz,</title> by <persname>David Rayfiel</persname> and <persname>Bertrand Tavernier, </persname>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e3008">
+               <did>
+                  <container type="box-folder">17/8</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>'Round Midnight,</title> by <persname>Bertrand Tavernier, </persname>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985</unitdate>
+	 				            </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Contains shooting schedules only.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd9e3024">
+               <did>
+                  <container type="box-folder">18/1</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>To Sleep with Anger,</title> by <persname>Charles Burnett, </persname>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd9e3037">
+            <did>
+               <container type="box">18-20, 22, 25-28, 30</container>
+               <unittitle encodinganalog="245$a" id="icono">Iconography, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1940/1990">circa 1940-circa 1990</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Contains photographs, contact sheets, negatives, drawings, posters, and artwork.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd9e3048">
+               <did>
+                  <container type="box">18-20, 22, 25-28</container>
+                  <unittitle encodinganalog="245$a">Photographs, Contact Sheets, Negatives</unittitle>
+               </did>
+               <c03 level="file" id="mferd9e3054">
+                  <did>
+                     <container type="box-folder">18/2</container>
+                     <unittitle encodinganalog="245$a">Dexter Gordon, In Performance, Alone</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Six photographs of various sizes</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3063">
+                  <did>
+                     <container type="box-folder">18/3</container>
+                     <unittitle encodinganalog="245$a">Dexter Gordon, In Performance, with Others</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Five photographs of various sizes</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3072">
+                  <did>
+                     <container type="box-folder">18/4</container>
+                     <unittitle encodinganalog="245$a">Dexter Gordon, Not Peforming, Alone</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Five photographs of various sizes</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3081">
+                  <did>
+                     <container type="box-folder">18/5</container>
+                     <unittitle encodinganalog="245$a">Dexter Gordon, Not Peforming, with Others</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Five photographs of various sizes</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3090">
+                  <did>
+                     <container type="box-folder">25/1</container>
+                     <unittitle encodinganalog="245$a">K. Abe photographs of Dexter and Maxine Gordon in Tokyo, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Four mounted and two unmounted black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Taken during the premiere performance of David Baker's piece <title>Ellingtones</title>.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3107">
+                  <did>
+                     <container type="box-folder">25/2</container>
+                     <unittitle encodinganalog="245$a">Ronald Eckstein photographs and contact sheets</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Four black and white photographs and four full or partial contact sheets</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographs of Dexter Gordon alone, with Billy Eckstine, and with others.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3119">
+                  <did>
+                     <container type="box-folder">25/3</container>
+                     <unittitle encodinganalog="245$a">Arthur Elgort photographs of Dexter Gordon, alone</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Five black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3128">
+                  <did>
+                     <container type="box-folder">25/4</container>
+                     <unittitle encodinganalog="245$a">Jean-Pierre Leloir photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960s-1980s</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Fifteen black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Mostly photographs of Dexter Gordon alone, many of him performing.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3142">
+                  <did>
+                     <container type="box-folder">28/1-3</container>
+                     <unittitle encodinganalog="245$a">Jean-Pierre Leloir contact sheets, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1963-05-30</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Three contact sheets (oversize)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Features Dexter Gordon alone in posed settings.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3156">
+                  <did>
+                     <container type="box-folder">28/4-11</container>
+                     <unittitle encodinganalog="245$a">Jean-Pierre Leloir contact sheets, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1963-11-07</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Eight contact sheets (oversize)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Features Dexter Gordon and others performing.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3171">
+                  <did>
+                     <container type="box-folder">28/12-18</container>
+                     <unittitle encodinganalog="245$a">Jean-Pierre Leloir contact sheets, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-02-11</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Seven contact sheets (oversize)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Features Dexter Gordon and others performing.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3185">
+                  <did>
+                     <container type="box-folder">28/19-23</container>
+                     <unittitle encodinganalog="245$a">Jean-Pierre Leloir contact sheets, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982-03-22</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Five contact sheets (oversize)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Features Dexter Gordon and others performing.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3199">
+                  <did>
+                     <container type="box-folder">25/5</container>
+                     <unittitle encodinganalog="245$a">Photographs by Kirsten Malone</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Six black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographs of Dexter Gordon and others, including Leonard "Skip" Malone.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3211">
+                  <did>
+                     <container type="box-folder">27/1</container>
+                     <unittitle encodinganalog="245$a">Photograph of Dexter Gordon getting a haircut, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1962</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">One black and white photograph</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>By Kirsten Malone.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3225">
+                  <did>
+                     <container type="box-folder">27/2</container>
+                     <unittitle encodinganalog="245$a">Photograph of Niels Henning Ørsted Pedersen, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1962</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">One black and white photograph</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>By Kirsten Malone.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3239">
+                  <did>
+                     <container type="box-folder">27/3</container>
+                     <unittitle encodinganalog="245$a">Photograph of Dexter Gordon playing the sax</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">One black and white photograph</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>By Kirsten Malone.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3251">
+                  <did>
+                     <container type="box-folder">25/6</container>
+                     <unittitle encodinganalog="245$a">Jan Persson prints, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1963-1964</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Ten black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Most of these were taken at a performance of <title>The Connection</title>.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3268">
+                  <did>
+                     <container type="box-folder">25/7</container>
+                     <unittitle encodinganalog="245$a">Jan Persson prints, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964-1967</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Ten black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Prints of Dexter Gordon and others.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3282">
+                  <did>
+                     <container type="box-folder">25/8</container>
+                     <unittitle encodinganalog="245$a">Jan Persson prints, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1968</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Ten black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Prints of Dexter Gordon and others.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3296">
+                  <did>
+                     <container type="box-folder">25/9</container>
+                     <unittitle encodinganalog="245$a">Jan Persson prints, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1968-1970</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Ten black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Prints of Dexter Gordon and others.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3310">
+                  <did>
+                     <container type="box-folder">25/10</container>
+                     <unittitle encodinganalog="245$a">Jan Persson prints, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1974</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Ten black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Prints of Dexter Gordon and others.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3325">
+                  <did>
+                     <container type="box-folder">25/11</container>
+                     <unittitle encodinganalog="245$a">Jan Persson prints, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1975</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Ten black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Prints of Dexter Gordon and others.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3339">
+                  <did>
+                     <container type="box-folder">25/12</container>
+                     <unittitle encodinganalog="245$a">Jan Persson prints, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1975-1983</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Twenty-two black and white and color prints</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Prints of Dexter Gordon alone, many of him performing.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3353">
+                  <did>
+                     <container type="box-folder">25/13</container>
+                     <unittitle encodinganalog="245$a">Thierry Trombert contact sheets, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970s and undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Eight contact sheets</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Features Dexter Gordon and others, many during performances.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3367">
+                  <did>
+                     <container type="box-folder">27/4-11</container>
+                     <unittitle encodinganalog="245$a">Thierry Trombert contact sheets, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967, 1977, and undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Eight contact sheets</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Features Dexter Gordon and others, many during performances.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3381">
+                  <did>
+                     <container type="box-folder">25/14</container>
+                     <unittitle encodinganalog="245$a">Francis Wolff photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960s</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Fourteen black and white photographs</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographs of Dexter Gordon alone.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3395">
+                  <did>
+                     <container type="box-folder">25/15</container>
+                     <unittitle encodinganalog="245$a">Photograph from the "One for Dexter" concert, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1991-06-28</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">One photograph and one negative</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3406">
+                  <did>
+                     <container type="box-folder">25/16</container>
+                     <unittitle encodinganalog="245$a">Bob Douglas photograph of Dexter Gordon performing with others, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1950</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">One black and white photograph</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3417">
+                  <did>
+                     <container type="box-folder">25/17</container>
+                     <unittitle encodinganalog="245$a">Charles "Teenie" Harris' photograph of Billy Eckstine's jazz band showing the saxophone players, including Dexter Gordon, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1944</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">One black and white photograph</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3428">
+                  <did>
+                     <container type="box-folder">25/18</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous photographs of Dexter Gordon and others</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Ten black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3437">
+                  <did>
+                     <container type="box-folder">26/1</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous photographs of Dexter Gordon and others<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Five black and white and three color photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3447">
+                  <did>
+                     <container type="box-folder">26/2</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous photographs of Dexter Gordon and others <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Five black and white and five color photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3458">
+                  <did>
+                     <container type="box-folder">26/3</container>
+                     <unittitle encodinganalog="245$a">Photographs of Dexter and Maxine Gordon's wedding, a trip to Cuernavaca, and other events, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983-1988</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Twenty-four color snapshots</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3469">
+                  <did>
+                     <container type="box-folder">26/4</container>
+                     <unittitle encodinganalog="245$a">Bernie Moss photographs of Dexter Gordon taken in Boston, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1962</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Twenty-eight color snapshots</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3480">
+                  <did>
+                     <container type="box-folder">26/5</container>
+                     <unittitle encodinganalog="245$a">Maxine Gordon's photographs of Paris, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Eleven color snapshots</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3491">
+                  <did>
+                     <container type="box-folder">19/1</container>
+                     <unittitle encodinganalog="245$a">Stills from the film <title>'Round Midnight</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3499">
+                  <did>
+                     <container type="box-folder">19/2</container>
+                     <unittitle encodinganalog="245$a">Assorted photographs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3505">
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle encodinganalog="245$a">Dexter Gordon photo album</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Ten 8 x 10 black and white photographs</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3514">
+                  <did>
+                     <container type="box-folder">22/6</container>
+                     <unittitle encodinganalog="245$a">Dexter Gordon mounted photoprints (oversize)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3520">
+                  <did>
+                     <container type="box-folder">22/2</container>
+                     <unittitle encodinganalog="245$a">Contact sheets (oversize)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3526">
+                  <did>
+                     <container type="box-folder">22/3</container>
+                     <unittitle encodinganalog="245$a">Negatives (oversize)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd9e3532">
+               <did>
+                  <container type="box">22, 30</container>
+                  <unittitle encodinganalog="245$a">Assorted Artwork</unittitle>
+               </did>
+               <c03 level="file" id="mferd9e3538">
+                  <did>
+                     <container type="box-folder">22/1</container>
+                     <unittitle encodinganalog="245$a">Art boards for advertisements (oversize)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3544">
+                  <did>
+                     <container type="box-folder">22/4</container>
+                     <unittitle encodinganalog="245$a">Pen and ink sketches</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Three oversize</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3553">
+                  <did>
+                     <container type="box-folder">22/5</container>
+                     <unittitle encodinganalog="245$a">Watercolors</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Three oversize</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3562">
+                  <did>
+                     <container type="box-folder">22/7</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous items bearing Dexter Gordon's image (oversize)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3568">
+                  <did>
+                     <container type="box-folder">22/8</container>
+                     <unittitle encodinganalog="245$a">Watercolor of Dexter Gordon (oversize)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3574">
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle encodinganalog="245$a">Posters</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Three (rolled up)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd9e3583">
+                  <did>
+                     <container type="box">30</container>
+                     <unittitle encodinganalog="245$a">Binder with Dexter Gordon portrait on cover</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

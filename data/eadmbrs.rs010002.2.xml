@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Thu, 19 January 2012 03:03:23 PM EST
+Generated: Thu, 21 June 2012 01:21:20 PM EDT
 URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmbrs.rs010002--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": rs010002-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd17e1">
+     id="mferd29e1">
    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
               langencoding="iso639-2b"
-              id="mferd17e2">
+              id="mferd29e2">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.mbrsrs/eadmbrs.rs010002"
              encodinganalog="856$u">http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002</eadid>
@@ -66,7 +66,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
       </profiledesc>
    </eadheader>
    <archdesc level="collection" relatedencoding="MARC21" type="register">
-      <did id="mferd17e54">
+      <did id="mferd29e54">
          <head>Collection Summary</head>
          <unittitle label="Title" encodinganalog="245$a">
 				        <title render="italic">Louisiana hayride</title> collection <unitdate label="Inclusive Dates" type="inclusive" encodinganalog="245$f" era="ce"
@@ -138,7 +138,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 					person or organization, by subject or location, and by occupation and
 					listed alphabetically therein.</p>
          </note>
-         <controlaccess id="mferd17e145">
+         <controlaccess id="mferd29e145">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Bale%2C+Norm.^">Bale, Norm.</persname>
@@ -179,12 +179,12 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                       altrender=":::PWEBRECON=^Williams%2C+Hank%2C+1923-1953.^">Williams, Hank,
 					1923-1953.</persname>
          </controlaccess>
-         <controlaccess id="mferd17e181">
+         <controlaccess id="mferd29e181">
             <head>Organizations</head>
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^KWKH+%28Radio+station+%3A+Shreveport%2C+La.%29^">KWKH (Radio station : Shreveport, La.)</corpname>
          </controlaccess>
-         <controlaccess id="mferd17e186">
+         <controlaccess id="mferd29e186">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Country+music+radio+stations+Louisiana+Shreveport.^">Country music radio stations--Louisiana--Shreveport.</subject>
@@ -198,18 +198,18 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Rockabilly+music+Louisiana+Shreveport.^">Rockabilly music--Louisiana--Shreveport.</subject>
          </controlaccess>
-         <controlaccess id="mferd17e199">
+         <controlaccess id="mferd29e199">
             <head>Places</head>
             <geogname encodinganalog="651" role="subject" source="lcsh"
                       altrender=":::PWEBRECON=^Shreveport+%28La.%29^">Shreveport (La.)</geogname>
          </controlaccess>
-         <controlaccess id="mferd17e204">
+         <controlaccess id="mferd29e204">
             <head>Titles</head>
             <title encodinganalog="630" source="lcnaf"
                    altrender=":::PWEBRECON=^Louisiana+hayride+%28Radio+program%29^">Louisiana
 					hayride (Radio program)</title>
          </controlaccess>
-         <controlaccess id="mferd17e209">
+         <controlaccess id="mferd29e209">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
             <genreform encodinganalog="655" source="lcgft"
@@ -231,7 +231,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 					negatives.</genreform>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Snapshots.^">Snapshots.</genreform>
          </controlaccess>
-         <controlaccess id="mferd17e230">
+         <controlaccess id="mferd29e230">
             <head>Occupations</head>
             <occupation encodinganalog="656" source="lcsh"
                         altrender=":::PWEBRECON=^Country+musicians.^">Country
@@ -245,29 +245,29 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 					broadcasters.</occupation>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo" id="mferd17e241">
+      <descgrp type="admininfo" id="mferd29e241">
          <head>Administrative Information</head>
-         <acqinfo encodinganalog="541" id="mferd17e244">
+         <acqinfo encodinganalog="541" id="mferd29e244">
             <head>Collection Acquisition</head>
             <p>The collection was purchased from Joey Kent of Shreveport, Louisiana, in
 						<date>2009</date>.</p>
          </acqinfo>
-         <accruals encodinganalog="584" id="mferd17e252">
+         <accruals encodinganalog="584" id="mferd29e252">
             <head>Additions</head>
             <p>No further additions to the collection are expected.</p>
          </accruals>
-         <processinfo encodinganalog="583" id="mferd17e257">
+         <processinfo encodinganalog="583" id="mferd29e257">
             <head>Processing Information</head>
             <p>The collection was partially processed by Jeremy Bartczak in 2010.</p>
          </processinfo>
-         <userestrict encodinganalog="540" id="mferd17e262">
+         <userestrict encodinganalog="540" id="mferd29e262">
             <head>Use Restrictions</head>
             <p>Restrictions may exist on copying, quoting, or publishing materials included
 					in the collection. For additional information, contact a reference
 					librarian in the Recorded Sound Reference Center, Library of Congress,
 					Washington, DC, 20540-4690; (202) 707-7833.</p>
          </userestrict>
-         <accessrestrict encodinganalog="506" id="mferd17e267">
+         <accessrestrict encodinganalog="506" id="mferd29e267">
             <head>Access Restrictions</head>
             <p>Textual and graphic materials in the <title render="italic">Louisiana
 						Hayride</title> Collection are open for research. Advance notice is
@@ -283,7 +283,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                        xlink:href="http://catalog.loc.gov/">Library of Congress Online
 						Catalog</extref>.</p>
          </accessrestrict>
-         <prefercite encodinganalog="524" id="mferd17e280">
+         <prefercite encodinganalog="524" id="mferd29e280">
             <head>Preferred Citation</head>
             <p>Researchers wishing to cite this collection should include the following
 					information: [Container number, eg., Box 3], or [Audio tape number, eg.,
@@ -291,9 +291,9 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 					Recorded Sound Division, Library of Congress.</p>
          </prefercite>
       </descgrp>
-      <bioghist encodinganalog="545" id="mferd17e285">
+      <bioghist encodinganalog="545" id="mferd29e285">
          <head>Administrative History</head>
-         <bioghist id="mferd17e288">
+         <bioghist id="mferd29e288">
             <head>W.K. Henderson and KWKH Radio</head>
             <p>The history of KWKH radio begins in 1922, when Shreveport, Louisiana,
 					businessman William Kennon Henderson purchased a share of a small radio
@@ -331,7 +331,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 					station to continue its support for the regional music that would so
 					greatly influence the country and rockabilly genres.</p>
          </bioghist>
-         <bioghist id="mferd17e299">
+         <bioghist id="mferd29e299">
             <head>The <emph render="italic">Louisiana Hayride</emph>
             </head>
             <p>The <title render="italic">Louisiana Hayride</title> on KWKH radio began its
@@ -378,7 +378,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 					Museum of Broadcast Communications Encyclopedia of Radio. Vol. 2,
 					F-N</title>. New York: Fitzroy Dearborn, 2004.</bibref>
       </bibliography>
-      <scopecontent encodinganalog="520" id="mferd17e366">
+      <scopecontent encodinganalog="520" id="mferd29e366">
          <head>Scope and Contents</head>
          <p>The collection predominantly covers early radio and television history in
 				Shreveport, Louisiana; KWKH radio in the W.K. Henderson era; and the <title render="italic">Louisiana Hayride</title> years at KWKH radio. The Early
@@ -411,7 +411,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 				a list of periodicals relating to radio enthusiasts, country music, and
 				Shreveport life; and a group of songbooks and sheet music.</p>
       </scopecontent>
-      <arrangement encodinganalog="351" id="mferd17e404">
+      <arrangement encodinganalog="351" id="mferd29e404">
          <head>Collection Arrangement</head>
          <p>The collection is arranged in 7 series:</p>
          <list type="simple">
@@ -436,9 +436,9 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                  xlink:title="MARC record for collection"
                  xlink:type="simple">http://lccn.loc.gov/2011622950</extref>
       </otherfindaid>
-      <dsc id="mferd17e430" type="combined">
+      <dsc id="mferd29e430" type="combined">
          <head>Container List</head>
-         <c01 level="series" id="mferd17e433">
+         <c01 level="series" id="mferd29e433">
             <did>
                <unittitle>Series 1. Early Shreveport Radio and Television, <unitdate normal="1922/1964">1922-1964</unitdate>,
 							<unitdate>undated</unitdate>
@@ -459,14 +459,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                <p>Materials were arranged chronologically within content groupings when
 						dates were available.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd17e452">
+            <c02 level="subseries" id="mferd29e452">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle>Correspondence, <unitdate>1922-1933</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e460">
+            <c02 level="subseries" id="mferd29e460">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle>Charters and licenses,
@@ -474,7 +474,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e468">
+            <c02 level="subseries" id="mferd29e468">
                <did>
                   <container type="box-folder">1/3</container>
                   <unittitle>Shortwave radio listener (DXer's) verification requests,
@@ -483,7 +483,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e479">
+            <c02 level="subseries" id="mferd29e479">
                <did>
                   <container type="box-folder">1/4</container>
                   <unittitle>Ephemera, <unitdate normal="1920/1940">circa
@@ -500,7 +500,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							broadcasting experiences, and a description of Giddens Castle.</p>
                </scopecontent>
             </c02>
-            <c02 level="subseries" id="mferd17e493">
+            <c02 level="subseries" id="mferd29e493">
                <did>
                   <container type="box-folder">1/5</container>
                   <unittitle> Articles and publications, <unitdate>1922-1964</unitdate>,
@@ -515,7 +515,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							experiences of William E. Antony and Paul Carriger.</p>
                </scopecontent>
             </c02>
-            <c02 level="subseries" id="mferd17e514">
+            <c02 level="subseries" id="mferd29e514">
                <did>
                   <container type="box-folder">1/6</container>
                   <unittitle>Research timelines and notations,
@@ -530,7 +530,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                </scopecontent>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e525">
+         <c01 level="series" id="mferd29e525">
             <did>
                <unittitle>Series 2. KWKH Radio and W.K. Henderson, <unitdate normal="1904/1998" type="inclusive">1904-1998</unitdate>, <unitdate normal="1922/1939" type="bulk">bulk 1922-1939</unitdate>,
 							<unitdate>undated</unitdate>
@@ -557,12 +557,12 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                <p>Materials were arranged chronologically within content groupings when
 						dates were available.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd17e545">
+            <c02 level="subseries" id="mferd29e545">
                <did>
                   <unittitle>Correspondence, <unitdate>1922-1938</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e551">
+               <c03 level="file" id="mferd29e551">
                   <did>
                      <container type="box-folder">1/7</container>
                      <unittitle>
@@ -570,7 +570,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e560">
+               <c03 level="file" id="mferd29e560">
                   <did>
                      <container type="box-folder">1/8</container>
                      <unittitle>
@@ -579,7 +579,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e569">
+            <c02 level="subseries" id="mferd29e569">
                <did>
                   <container type="box-folder">1/9</container>
                   <unittitle>Congressional and Federal Radio Commission records,
@@ -587,7 +587,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e577">
+            <c02 level="subseries" id="mferd29e577">
                <did>
                   <container type="box-folder">1/10</container>
                   <unittitle>Legal documentation,
@@ -595,21 +595,21 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e585">
+            <c02 level="subseries" id="mferd29e585">
                <did>
                   <container type="box-folder">1/11</container>
                   <unittitle>Licenses, <unitdate>1926-1936</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e593">
+            <c02 level="subseries" id="mferd29e593">
                <did>
                   <container type="box-folder">1/12</container>
                   <unittitle>Transcripts, <unitdate>1935-1937</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e601">
+            <c02 level="subseries" id="mferd29e601">
                <did>
                   <container type="box-folder">1/13</container>
                   <unittitle>Ephemera, <unitdate>1904-1985</unitdate>, bulk
@@ -626,7 +626,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							advertisements for KWKH radio on local programs and publications.
 							All items are originals.</p>
                </scopecontent>
-               <c03 level="item" id="mferd17e615">
+               <c03 level="item" id="mferd29e615">
                   <did>
                      <container type="mapcase"/>
                      <unittitle>Map of Henderson Iron Works, Shreveport, Louisiana,
@@ -635,7 +635,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      <physloc>RPM 00012</physloc>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e624">
+               <c03 level="file" id="mferd29e624">
                   <did>
                      <container type="box-folder">8/1</container>
                      <unittitle>
@@ -644,7 +644,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="item" id="mferd17e635">
+               <c03 level="item" id="mferd29e635">
                   <did>
                      <container type="box-folder">8/1</container>
                      <unittitle>
@@ -654,7 +654,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e646">
+            <c02 level="subseries" id="mferd29e646">
                <did>
                   <container type="box-folder">1/14</container>
                   <unittitle>Chain store booklets,
@@ -662,7 +662,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e654">
+            <c02 level="subseries" id="mferd29e654">
                <did>
                   <container type="box-folder">1/15-16</container>
                   <unittitle>Articles and publications, <unitdate>1925-1998</unitdate>,
@@ -680,13 +680,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								of KWKH, Shreveport, Louisiana</title>.</p>
                </scopecontent>
             </c02>
-            <c02 level="subseries" id="mferd17e684">
+            <c02 level="subseries" id="mferd29e684">
                <did>
                   <unittitle>Newspaper photocopies,
 							<unitdate>1914-1952</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e690">
+               <c03 level="file" id="mferd29e690">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle>
@@ -694,7 +694,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e699">
+               <c03 level="file" id="mferd29e699">
                   <did>
                      <container type="box-folder">2/2</container>
                      <unittitle>
@@ -702,7 +702,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e708">
+               <c03 level="file" id="mferd29e708">
                   <did>
                      <container type="box-folder">2/3</container>
                      <unittitle>
@@ -710,7 +710,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e717">
+               <c03 level="file" id="mferd29e717">
                   <did>
                      <container type="box-folder">2/4</container>
                      <unittitle>
@@ -718,7 +718,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e726">
+               <c03 level="file" id="mferd29e726">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle>
@@ -728,7 +728,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e738">
+         <c01 level="series" id="mferd29e738">
             <did>
                <unittitle>Series 3. KWKH Radio and the <title render="italic">Louisiana
 							Hayride</title>, <unitdate normal="1942/2005">1942-2005</unitdate>
@@ -749,14 +749,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                <p>Materials were arranged chronologically within content groupings when
 						dates were available.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd17e761">
+            <c02 level="subseries" id="mferd29e761">
                <did>
                   <container type="box-folder">2/6</container>
                   <unittitle>Correspondence, <unitdate>1956-2004</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e769">
+            <c02 level="subseries" id="mferd29e769">
                <did>
                   <container type="box-folder">2/7</container>
                   <unittitle>Articles and clippings, <unitdate>1946-2005</unitdate>,
@@ -764,21 +764,21 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e780">
+            <c02 level="subseries" id="mferd29e780">
                <did>
                   <container type="box-folder">2/8</container>
                   <unittitle>Postcards, <unitdate>1942-1960</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e788">
+            <c02 level="subseries" id="mferd29e788">
                <did>
                   <unittitle>Posters, <unitdate>1944</unitdate>,
 								<unitdate>1951-1987</unitdate>,
 							<unitdate>undated</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e800">
+               <c03 level="file" id="mferd29e800">
                   <did>
                      <container type="box-folder">2/9</container>
                      <unittitle>
@@ -786,7 +786,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e812">
+               <c03 level="file" id="mferd29e812">
                   <did>
                      <container type="box-folder">8/2</container>
                      <unittitle>
@@ -795,7 +795,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e824">
+            <c02 level="subseries" id="mferd29e824">
                <did>
                   <container type="box-folder">2/10-11</container>
                   <unittitle>Programs, <unitdate>1950-1974</unitdate>,
@@ -806,7 +806,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   <p>Some programs include performer autographs.</p>
                </scopecontent>
             </c02>
-            <c02 level="subseries" id="mferd17e838">
+            <c02 level="subseries" id="mferd29e838">
                <did>
                   <unittitle>Ephemera, <unitdate>1948-1972</unitdate>,
 								<unitdate>undated</unitdate>
@@ -821,7 +821,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								<title render="italic">Louisiana Hayride</title>
 							performers.</p>
                </scopecontent>
-               <c03 level="file" id="mferd17e853">
+               <c03 level="file" id="mferd29e853">
                   <did>
                      <container type="box-folder">2/12</container>
                      <unittitle>Ephemera, <unitdate>1948-1972</unitdate>,
@@ -829,7 +829,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="item" id="mferd17e864">
+               <c03 level="item" id="mferd29e864">
                   <did>
                      <container type="box">7</container>
                      <unittitle>
@@ -839,12 +839,12 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e876">
+            <c02 level="subseries" id="mferd29e876">
                <did>
                   <unittitle>Program notes, <unitdate>1954-1957</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e882">
+               <c03 level="file" id="mferd29e882">
                   <did>
                      <container type="box-folder">2/13</container>
                      <unittitle>
@@ -852,7 +852,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e891">
+               <c03 level="file" id="mferd29e891">
                   <did>
                      <container type="box-folder">2/14</container>
                      <unittitle>
@@ -860,7 +860,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e900">
+               <c03 level="file" id="mferd29e900">
                   <did>
                      <container type="box-folder">2/15</container>
                      <unittitle>
@@ -868,7 +868,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e909">
+               <c03 level="file" id="mferd29e909">
                   <did>
                      <container type="box-folder">2/16</container>
                      <unittitle>
@@ -877,7 +877,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e918">
+            <c02 level="subseries" id="mferd29e918">
                <did>
                   <unittitle>Newspaper advertisements,
 							<unitdate>1960-1967</unitdate>
@@ -886,7 +886,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                <scopecontent>
                   <p>Photocopies.</p>
                </scopecontent>
-               <c03 level="file" id="mferd17e927">
+               <c03 level="file" id="mferd29e927">
                   <did>
                      <container type="box-folder">2/17</container>
                      <unittitle>
@@ -894,7 +894,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e936">
+               <c03 level="file" id="mferd29e936">
                   <did>
                      <container type="box-folder">2/18</container>
                      <unittitle>
@@ -902,7 +902,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="item" id="mferd17e945">
+               <c03 level="item" id="mferd29e945">
                   <did>
                      <container type="box-folder">8/3</container>
                      <unittitle> Johnny Cash advertisement, <title render="italic">The
@@ -911,7 +911,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="item" id="mferd17e956">
+               <c03 level="item" id="mferd29e956">
                   <did>
                      <container type="box">10</container>
                      <unittitle>
@@ -923,13 +923,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e968">
+            <c02 level="subseries" id="mferd29e968">
                <did>
                   <unittitle>Photographs, <unitdate normal="1942/1990">1942–circa 1980s</unitdate>,
 								<unitdate>undated</unitdate>
                   </unittitle>
                </did>
-               <c03 level="subseries" id="mferd17e977">
+               <c03 level="subseries" id="mferd29e977">
                   <did>
                      <unittitle>
 								                <title render="italic">Louisiana Hayride</title>, primary run,
@@ -943,7 +943,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								music show. Also represented are various individuals and events
 								associated with this period of KWKH radio history.</p>
                   </scopecontent>
-                  <c04 level="subseries" id="mferd17e996">
+                  <c04 level="subseries" id="mferd29e996">
                      <did>
                         <unittitle>Individual performers and performing groups,
 										<unitdate>1942</unitdate>,
@@ -955,7 +955,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                         <p>Publicity photographs, snapshots, and performance
 									images.</p>
                      </scopecontent>
-                     <c05 level="item" id="mferd17e1011">
+                     <c05 level="item" id="mferd29e1011">
                         <did>
                            <container type="box-folder">9/1</container>
                            <unittitle>Gene Autry at Municipal Auditorium,
@@ -973,7 +973,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P1</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e1038">
+                     <c05 level="item" id="mferd29e1038">
                         <did>
                            <container type="box-folder">9/1</container>
                            <unittitle>Linda Brannon performing on stage at the <title render="italic">Louisiana Hayride</title>,
@@ -990,13 +990,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <p>Autographed.</p>
                         </note>
                      </c05>
-                     <c05 level="file" id="mferd17e1065">
+                     <c05 level="file" id="mferd29e1065">
                         <did>
                            <unittitle>Johnny Cash photographs,<unitdate> circa late
 											1950s–1969</unitdate>
                            </unittitle>
                         </did>
-                        <c06 level="file" id="mferd17e1071">
+                        <c06 level="file" id="mferd29e1071">
                            <did>
                               <container type="box-folder">9/1</container>
                               <unittitle id="cashhort">Johnny Cash and Johnny Horton,
@@ -1027,7 +1027,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										                    </p>
                            </note>
                         </c06>
-                        <c06 level="item" id="mferd17e1104">
+                        <c06 level="item" id="mferd29e1104">
                            <did>
                               <container type="box-folder">9/1</container>
                               <unittitle>Johnny Cash with unidentified man at the
@@ -1049,14 +1049,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            </note>
                         </c06>
                      </c05>
-                     <c05 level="file" id="mferd17e1134">
+                     <c05 level="file" id="mferd29e1134">
                         <did>
                            <unittitle>Jimmie Davis photographs, <unitdate>circa
 											1926-1929</unitdate>,
 										<unitdate>1942</unitdate>
                            </unittitle>
                         </did>
-                        <c06 level="item" id="mferd17e1143">
+                        <c06 level="item" id="mferd29e1143">
                            <did>
                               <container type="box-folder">9/1</container>
                               <unittitle>Professor J.H. Davis, Dodd College portrait
@@ -1077,7 +1077,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											late 1920s.</p>
                            </bioghist>
                         </c06>
-                        <c06 level="item" id="mferd17e1166">
+                        <c06 level="item" id="mferd29e1166">
                            <did>
                               <container type="box-folder">9/1</container>
                               <unittitle>Jimmie Davis in performance at KWKH,
@@ -1092,7 +1092,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P7</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e1186">
+                        <c06 level="item" id="mferd29e1186">
                            <did>
                               <container type="box-folder">9/1</container>
                               <unittitle id="davis1">Louisiana governor Jimmie Davis
@@ -1123,7 +1123,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            </note>
                         </c06>
                      </c05>
-                     <c05 level="item" id="mferd17e1221">
+                     <c05 level="item" id="mferd29e1221">
                         <did>
                            <container type="box-folder">9/2</container>
                            <unittitle> Sonny Frommel, Ray Leckie, Dickie French, Fats
@@ -1142,7 +1142,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Sonny and I played with when we were in the army."</p>
                         </note>
                      </c05>
-                     <c05 level="item" id="mferd17e1246">
+                     <c05 level="item" id="mferd29e1246">
                         <did>
                            <container type="box-folder">9/2</container>
                            <unittitle> Harold Gay, Frankie Miller, and Felton Pruitt
@@ -1161,7 +1161,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P10</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e1272">
+                     <c05 level="item" id="mferd29e1272">
                         <did>
                            <container type="box-folder">9/2</container>
                            <unittitle>Dale Hawkins performing on stage,
@@ -1178,7 +1178,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P11</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e1298">
+                     <c05 level="item" id="mferd29e1298">
                         <did>
                            <container type="box-folder">9/2</container>
                            <unittitle id="hanksocko">Tommy Hill, Hank Williams,
@@ -1209,7 +1209,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									                  </p>
                         </note>
                      </c05>
-                     <c05 level="file" id="mferd17e1334">
+                     <c05 level="file" id="mferd29e1334">
                         <did>
                            <unittitle id="horton1">Johnny Horton photographs,
 											<unitdate>circa 1954-1960</unitdate>
@@ -1228,7 +1228,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											1949-1953</ref>
 									                  </p>
                         </note>
-                        <c06 level="item" id="mferd17e1353">
+                        <c06 level="item" id="mferd29e1353">
                            <did>
                               <container type="box-folder">9/2</container>
                               <unittitle id="horton2">Johnny Horton and Frank Page
@@ -1254,7 +1254,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										                    </p>
                            </note>
                         </c06>
-                        <c06 level="file" id="mferd17e1383">
+                        <c06 level="file" id="mferd29e1383">
                            <did>
                               <container type="box-folder">9/2</container>
                               <unittitle>Johnny Horton portrait snapshots,
@@ -1270,7 +1270,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											P15</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e1404">
+                        <c06 level="item" id="mferd29e1404">
                            <did>
                               <container type="box-folder">9/2</container>
                               <unittitle>Johnny Horton seated in automobile,
@@ -1293,7 +1293,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											(Briar 104, 1966).</p>
                            </note>
                         </c06>
-                        <c06 level="item" id="mferd17e1433">
+                        <c06 level="item" id="mferd29e1433">
                            <did>
                               <container type="box-folder">9/3</container>
                               <unittitle>Johnny Horton portrait photograph with
@@ -1315,7 +1315,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											&amp; kisses, Johnny Horton."</p>
                            </note>
                         </c06>
-                        <c06 level="item" id="mferd17e1457">
+                        <c06 level="item" id="mferd29e1457">
                            <did>
                               <container type="box-folder">9/3</container>
                               <unittitle>Johnny Horton portrait photograph with
@@ -1330,7 +1330,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P18</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e1478">
+                        <c06 level="item" id="mferd29e1478">
                            <did>
                               <container type="box-folder">9/3</container>
                               <unittitle>Johnny Horton and unidentified woman,
@@ -1344,7 +1344,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P19</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e1499">
+                        <c06 level="item" id="mferd29e1499">
                            <did>
                               <container type="box-folder">9/3</container>
                               <unittitle>Johnny Horton performing on stage at the
@@ -1364,7 +1364,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            </did>
                         </c06>
                      </c05>
-                     <c05 level="item" id="mferd17e1529">
+                     <c05 level="item" id="mferd29e1529">
                         <did>
                            <container type="box-folder">9/3</container>
                            <unittitle id="burton1">David Houston and sixteen-year-old
@@ -1399,7 +1399,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									                  </p>
                         </note>
                      </c05>
-                     <c05 level="file" id="mferd17e1573">
+                     <c05 level="file" id="mferd29e1573">
                         <did>
                            <container type="box-folder">9/3</container>
                            <unittitle> Van Howard publicity photographs, <unitdate normal="1950/1960">circa
@@ -1414,7 +1414,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										13857 P24</unitid>
                         </did>
                      </c05>
-                     <c05 level="file" id="mferd17e1594">
+                     <c05 level="file" id="mferd29e1594">
                         <did>
                            <container type="box-folder">9/4</container>
                            <unittitle>
@@ -1440,7 +1440,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Williamson Tobacco Co.</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="file" id="mferd17e1634">
+                     <c05 level="file" id="mferd29e1634">
                         <did>
                            <container type="box-folder">9/4</container>
                            <unittitle>
@@ -1459,7 +1459,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <p>Two of the photographic prints are duplicates.</p>
                         </note>
                      </c05>
-                     <c05 level="item" id="mferd17e1661">
+                     <c05 level="item" id="mferd29e1661">
                         <did>
                            <container type="box-folder">9/4</container>
                            <unittitle>The Maddox Brothers &amp; Rose performing on
@@ -1478,7 +1478,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P28</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e1690">
+                     <c05 level="item" id="mferd29e1690">
                         <did>
                            <container type="box-folder">9/4</container>
                            <unittitle>Military band assembled on stage at Barksdale
@@ -1500,7 +1500,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										transcription, Barksdale Field, LA."</p>
                         </note>
                      </c05>
-                     <c05 level="item" id="mferd17e1719">
+                     <c05 level="item" id="mferd29e1719">
                         <did>
                            <container type="box-folder">9/5</container>
                            <unittitle>Snapshot of Frankie Miller, Shelby Singleton,
@@ -1516,7 +1516,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P30</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e1744">
+                     <c05 level="item" id="mferd29e1744">
                         <did>
                            <container type="box-folder">9/5</container>
                            <unittitle>Dolly Parton publicity photograph,
@@ -1533,7 +1533,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <p>Autographed.</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="file" id="mferd17e1769">
+                     <c05 level="file" id="mferd29e1769">
                         <did>
                            <container type="box-folder">9/5</container>
                            <unittitle>Minnie Pearl performing on stage at the <title render="italic">Louisiana Hayride</title>,
@@ -1548,7 +1548,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										P33</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e1793">
+                     <c05 level="item" id="mferd29e1793">
                         <did>
                            <container type="box-folder">9/5</container>
                            <unittitle id="pierce1">Webb Pierce and unidentified woman
@@ -1572,7 +1572,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									                  </p>
                         </note>
                      </c05>
-                     <c05 level="file" id="mferd17e1823">
+                     <c05 level="file" id="mferd29e1823">
                         <did>
                            <container type="box-folder">9/5</container>
                            <unittitle>Johnny Seay publicity photographs,
@@ -1587,7 +1587,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										13857 P37</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e1846">
+                     <c05 level="item" id="mferd29e1846">
                         <did>
                            <container type="box-folder">9/6</container>
                            <unittitle>Nat Stuckey performing on stage at the <title render="italic"> Louisiana Hayride</title>,
@@ -1601,7 +1601,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P38</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e1870">
+                     <c05 level="item" id="mferd29e1870">
                         <did>
                            <container type="box-folder">9/6</container>
                            <unittitle>Ernest Tubb publicity photograph,
@@ -1619,12 +1619,12 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										luck to everyone connected with the Hayride."</p>
                         </note>
                      </c05>
-                     <c05 level="file" id="mferd17e1894">
+                     <c05 level="file" id="mferd29e1894">
                         <did>
                            <unittitle>Slim Whitman, <unitdate>circa early
 											1950s</unitdate>,</unittitle>
                         </did>
-                        <c06 level="item" id="mferd17e1901">
+                        <c06 level="item" id="mferd29e1901">
                            <did>
                               <container type="box-folder">9/6</container>
                               <unittitle>Slim Whitman and Mrs. [Horace?] Logan
@@ -1643,7 +1643,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											Whitman."</p>
                            </note>
                         </c06>
-                        <c06 level="item" id="mferd17e1925">
+                        <c06 level="item" id="mferd29e1925">
                            <did>
                               <container type="box-folder">9/6</container>
                               <unittitle>Slim Whitman performing for KWKH,
@@ -1661,7 +1661,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            </did>
                         </c06>
                      </c05>
-                     <c05 level="file" id="mferd17e1951">
+                     <c05 level="file" id="mferd29e1951">
                         <did>
                            <unittitle id="williams1">Hank Williams photographs,
 											<title/>
@@ -1679,7 +1679,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											1949-1953</ref>
 									                  </p>
                         </note>
-                        <c06 level="item" id="mferd17e1971">
+                        <c06 level="item" id="mferd29e1971">
                            <did>
                               <container type="box-folder">9/6</container>
                               <unittitle>Publicity photograph of Hank Williams on
@@ -1698,7 +1698,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P42</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e2000">
+                        <c06 level="item" id="mferd29e2000">
                            <did>
                               <container type="box-folder">9/6</container>
                               <unittitle>Hank Williams snapshot with [Ray Carlisle?],
@@ -1713,7 +1713,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P43</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e2021">
+                        <c06 level="item" id="mferd29e2021">
                            <did>
                               <container type="box-folder">9/6</container>
                               <unittitle>Portrait photograph of Hank Williams,
@@ -1731,7 +1731,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            </did>
                         </c06>
                      </c05>
-                     <c05 level="file" id="mferd17e2047">
+                     <c05 level="file" id="mferd29e2047">
                         <did>
                            <container type="box-folder">9/7</container>
                            <unittitle>Photographs of unidentified performers,
@@ -1751,14 +1751,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                         </note>
                      </c05>
                   </c04>
-                  <c04 level="subseries" id="mferd17e2071">
+                  <c04 level="subseries" id="mferd29e2071">
                      <did>
                         <unittitle>Hosts and announcers, <unitdate>circa late
 										1940s–1950s</unitdate>,
 										<unitdate>undated</unitdate>
                         </unittitle>
                      </did>
-                     <c05 level="file" id="mferd17e2080">
+                     <c05 level="file" id="mferd29e2080">
                         <did>
                            <unittitle id="bale1">Norm Bale photographs,
 											<unitdate>1950s</unitdate>
@@ -1784,7 +1784,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											1958?]</ref>
 									                  </p>
                         </note>
-                        <c06 level="item" id="mferd17e2107">
+                        <c06 level="item" id="mferd29e2107">
                            <did>
                               <container type="box-folder">9/8</container>
                               <unittitle>Norm Bale displays a box of Southern Maid
@@ -1802,7 +1802,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P48</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e2133">
+                        <c06 level="item" id="mferd29e2133">
                            <did>
                               <container type="box-folder">9/8</container>
                               <unittitle>Norm Bale with child, <unitdate>late
@@ -1825,7 +1825,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											advertisement is attached.</p>
                            </scopecontent>
                         </c06>
-                        <c06 level="item" id="mferd17e2162">
+                        <c06 level="item" id="mferd29e2162">
                            <did>
                               <container type="box-folder">9/8</container>
                               <unittitle>Norm Bale, Ferlin Husky, and Tillman Franks
@@ -1843,7 +1843,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P50</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e2188">
+                        <c06 level="item" id="mferd29e2188">
                            <did>
                               <container type="box-folder">9/8</container>
                               <unittitle id="baledale">Norm Bale, Webb Pierce, and
@@ -1871,7 +1871,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										                    </p>
                            </note>
                         </c06>
-                        <c06 level="item" id="mferd17e2223">
+                        <c06 level="item" id="mferd29e2223">
                            <did>
                               <container type="box-folder">9/8</container>
                               <unittitle>Snapshot of Tex Ritter, Norm Bale, and
@@ -1886,7 +1886,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P52</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e2244">
+                        <c06 level="item" id="mferd29e2244">
                            <did>
                               <container type="box-folder">9/8</container>
                               <unittitle>Snapshot of Norm Bale posing with three
@@ -1902,7 +1902,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            </did>
                         </c06>
                      </c05>
-                     <c05 level="item" id="mferd17e2265">
+                     <c05 level="item" id="mferd29e2265">
                         <did>
                            <container type="box-folder">9/9</container>
                            <unittitle id="dale1">Jeff Dale <title render="italic">Louisiana Hayride</title> publicity photograph,
@@ -1938,7 +1938,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										that I remember. In friendship, Jeff."</p>
                         </note>
                      </c05>
-                     <c05 level="file" id="mferd17e2311">
+                     <c05 level="file" id="mferd29e2311">
                         <did>
                            <container type="box-folder">9/9</container>
                            <unittitle> Horace "Hoss" Logan publicity photographs and
@@ -1955,7 +1955,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										13857 P57</unitid>
                         </did>
                      </c05>
-                     <c05 level="file" id="mferd17e2336">
+                     <c05 level="file" id="mferd29e2336">
                         <did>
                            <unittitle id="page1">Frank Page with <title render="italic">Louisiana Hayride</title>
 										performers and hosts, <unitdate>[between 1948 and
@@ -1995,7 +1995,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											circa 1948-1958 </ref>
 									                  </p>
                         </note>
-                        <c06 level="item" id="mferd17e2378">
+                        <c06 level="item" id="mferd29e2378">
                            <did>
                               <container type="box-folder">9/10</container>
                               <unittitle> Frank Page speaks with Eddie Albert while
@@ -2013,7 +2013,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P58</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e2404">
+                        <c06 level="item" id="mferd29e2404">
                            <did>
                               <container type="box-folder">9/10</container>
                               <unittitle> Frank Page, Norm Bale, and Horace Logan
@@ -2028,7 +2028,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P59</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e2425">
+                        <c06 level="item" id="mferd29e2425">
                            <did>
                               <container type="box-folder">9/10</container>
                               <unittitle>Frank Page, Jeff Dale, and Norm Bale with
@@ -2044,7 +2044,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P60</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e2449">
+                        <c06 level="item" id="mferd29e2449">
                            <did>
                               <container type="box-folder">9/10</container>
                               <unittitle>Frank Page and Norm Bale with unidentified
@@ -2062,7 +2062,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                         </c06>
                      </c05>
                   </c04>
-                  <c04 level="subseries" id="mferd17e2473">
+                  <c04 level="subseries" id="mferd29e2473">
                      <did>
                         <container type="box-folder">9/11</container>
                         <unittitle>Miscellaneous people and events, <unitdate>circa
@@ -2080,7 +2080,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										photos.</p>
                         </note>
                      </did>
-                     <c05 level="item" id="mferd17e2503">
+                     <c05 level="item" id="mferd29e2503">
                         <did>
                            <container type="box-folder">9/11</container>
                            <unittitle>Louisiana Department of Agriculture
@@ -2097,7 +2097,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P62</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e2524">
+                     <c05 level="item" id="mferd29e2524">
                         <did>
                            <container type="box-folder">9/11</container>
                            <unittitle>Miss Haynesville and Miss Bossier City parade
@@ -2115,7 +2115,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </c05>
                   </c04>
                </c03>
-               <c03 level="subseries" id="mferd17e2545">
+               <c03 level="subseries" id="mferd29e2545">
                   <did>
                      <unittitle>
 								                <title render="italic">Louisiana Hayride</title>, secondary
@@ -2134,7 +2134,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								1975 the title reverted to <title render="italic">Louisiana
 									Hayride</title>.</p>
                   </scopecontent>
-                  <c04 level="subseries" id="mferd17e2569">
+                  <c04 level="subseries" id="mferd29e2569">
                      <did>
                         <unittitle>Individual performers and performing groups,
 										<unitdate>circa
@@ -2145,7 +2145,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                         <p>Publicity photographs, snapshots, and performance
 									images.</p>
                      </scopecontent>
-                     <c05 level="item" id="mferd17e2578">
+                     <c05 level="item" id="mferd29e2578">
                         <did>
                            <container type="box-folder">9/12</container>
                            <unittitle>A.T. &amp; Georgia publicity photograph,
@@ -2163,7 +2163,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										&amp; Georgia."</p>
                         </note>
                      </c05>
-                     <c05 level="item" id="mferd17e2602">
+                     <c05 level="item" id="mferd29e2602">
                         <did>
                            <container type="box-folder">9/12</container>
                            <unittitle>Jim Ed Brown publicity photograph,
@@ -2182,7 +2182,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										1st visit. Sincerely, Jim Ed Brown."</p>
                         </note>
                      </c05>
-                     <c05 level="file" id="mferd17e2627">
+                     <c05 level="file" id="mferd29e2627">
                         <did>
                            <container type="box-folder">9/12</container>
                            <unittitle>Catfish South, <unitdate>1975 May 17</unitdate>
@@ -2208,7 +2208,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										"Catfish. May 17, 1975, Hayride U.S.A.!"</p>
                         </note>
                      </c05>
-                     <c05 level="item" id="mferd17e2658">
+                     <c05 level="item" id="mferd29e2658">
                         <did>
                            <container type="box-folder">9/12</container>
                            <unittitle>Jerry Clower publicity photograph,
@@ -2225,7 +2225,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <p>Autographed on front: "God bless you. Jerry Clower."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="file" id="mferd17e2683">
+                     <c05 level="file" id="mferd29e2683">
                         <did>
                            <container type="box-folder">9/12</container>
                            <unittitle>Craig Dillingham, <unitdate>circa
@@ -2245,7 +2245,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										P74</unitid>
                         </did>
                      </c05>
-                     <c05 level="file" id="mferd17e2716">
+                     <c05 level="file" id="mferd29e2716">
                         <did>
                            <unittitle id="fuhrman1">Micki Fuhrman photographs,
 											<unitdate>circa mid
@@ -2272,7 +2272,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											late 1970s–early 1980s</ref>
                            </p>
                         </note>
-                        <c06 level="file" id="mferd17e2740">
+                        <c06 level="file" id="mferd29e2740">
                            <did>
                               <container type="box-folder">9/13</container>
                               <unittitle>Micki Fuhrman publicity and performance
@@ -2289,7 +2289,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											13857 P82</unitid>
                            </did>
                         </c06>
-                        <c06 level="file" id="mferd17e2762">
+                        <c06 level="file" id="mferd29e2762">
                            <did>
                               <container type="box-folder">9/14</container>
                               <unittitle>Group portraits with Micki Furhman,
@@ -2306,7 +2306,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											13857 P86</unitid>
                            </did>
                         </c06>
-                        <c06 level="file" id="mferd17e2784">
+                        <c06 level="file" id="mferd29e2784">
                            <did>
                               <container type="box-folder">9/15</container>
                               <unittitle id="fuhrmankent">Micki Fuhrman with David
@@ -2345,7 +2345,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										                    </p>
                            </note>
                         </c06>
-                        <c06 level="file" id="mferd17e2829">
+                        <c06 level="file" id="mferd29e2829">
                            <did>
                               <container type="box-folder">9/16</container>
                               <unittitle>Micki Fuhrman contact sheets,
@@ -2370,7 +2370,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            </scopecontent>
                         </c06>
                      </c05>
-                     <c05 level="item" id="mferd17e2853">
+                     <c05 level="item" id="mferd29e2853">
                         <did>
                            <container type="box-folder">9/17</container>
                            <unittitle>Bill Pickett portrait photograph,
@@ -2385,7 +2385,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P94</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e2875">
+                     <c05 level="item" id="mferd29e2875">
                         <did>
                            <container type="box-folder">9/17</container>
                            <unittitle>Jeanne Pruett publicity photograph,
@@ -2403,7 +2403,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Jeanne Pruett."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="item" id="mferd17e2900">
+                     <c05 level="item" id="mferd29e2900">
                         <did>
                            <container type="box-folder">9/17</container>
                            <unittitle>Bobby G. Rice publicity photograph,
@@ -2421,7 +2421,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Rice."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="item" id="mferd17e2926">
+                     <c05 level="item" id="mferd29e2926">
                         <did>
                            <container type="box-folder">9/17</container>
                            <unittitle>David Rogers publicity photograph,
@@ -2439,7 +2439,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Rogers."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="item" id="mferd17e2951">
+                     <c05 level="item" id="mferd29e2951">
                         <did>
                            <container type="box-folder">9/17</container>
                            <unittitle>Eddy Sims publicity photograph, <unitdate>circa
@@ -2456,7 +2456,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <p>Autographed: "Yours truly, Eddy Sims."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="item" id="mferd17e2976">
+                     <c05 level="item" id="mferd29e2976">
                         <did>
                            <container type="box-folder">9/17</container>
                            <unittitle>The Stonemasons, publicity photograph,
@@ -2473,7 +2473,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <p>Autographed: "Love ya! The Stonemasons."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="item" id="mferd17e3001">
+                     <c05 level="item" id="mferd29e3001">
                         <did>
                            <container type="box-folder">9/17</container>
                            <unittitle>Smokey Stover publicity photograph,
@@ -2487,7 +2487,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P100</unitid>
                         </did>
                      </c05>
-                     <c05 level="file" id="mferd17e3023">
+                     <c05 level="file" id="mferd29e3023">
                         <did>
                            <container type="box-folder">9/18</container>
                            <unittitle>Shoji Tabuchi <title render="italic">Louisiana
@@ -2503,7 +2503,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										13857 P107</unitid>
                         </did>
                      </c05>
-                     <c05 level="item" id="mferd17e3048">
+                     <c05 level="item" id="mferd29e3048">
                         <did>
                            <container type="box-folder">9/19</container>
                            <unittitle>Porter Wagoner publicity photograph,
@@ -2522,7 +2522,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Porter."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="item" id="mferd17e3073">
+                     <c05 level="item" id="mferd29e3073">
                         <did>
                            <container type="box-folder">9/19</container>
                            <unittitle>Freddy Weller publicity photograph,
@@ -2540,7 +2540,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Weller."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="item" id="mferd17e3098">
+                     <c05 level="item" id="mferd29e3098">
                         <did>
                            <container type="box-folder">9/19</container>
                            <unittitle>Justin Wilson portrait photograph,
@@ -2558,7 +2558,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <p>Autographed: "A mon ami, David. Justin Wilson."</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="file" id="mferd17e3123">
+                     <c05 level="file" id="mferd29e3123">
                         <did>
                            <container type="box-folder">9/20</container>
                            <unittitle>Karen Wiltz, <unitdate>1975 May 17</unitdate>,
@@ -2584,7 +2584,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										13857 P115</unitid>
                         </did>
                      </c05>
-                     <c05 level="file" id="mferd17e3170">
+                     <c05 level="file" id="mferd29e3170">
                         <did>
                            <container type="box-folder">9/21</container>
                            <unittitle>Unidentified performers, <unitdate>circa
@@ -2621,7 +2621,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                         </note>
                      </c05>
                   </c04>
-                  <c04 level="subseries" id="mferd17e3225">
+                  <c04 level="subseries" id="mferd29e3225">
                      <did>
                         <unittitle id="kent1">David Kent and associated songwriters,
 									music industry figures, and locations, <unitdate>circa
@@ -2637,7 +2637,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										others, circa mid 1970s-early 1980s </ref>
 								                </p>
                      </note>
-                     <c05 level="file" id="mferd17e3240">
+                     <c05 level="file" id="mferd29e3240">
                         <did>
                            <container type="box-folder">9/22</container>
                            <unittitle>David Kent photographs, <unitdate>circa
@@ -2666,7 +2666,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										prints are duplicates.</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="file" id="mferd17e3284">
+                     <c05 level="file" id="mferd29e3284">
                         <did>
                            <unittitle id="atv">Group portrait photographs taken at ATV
 										Music Group headquarters, Nashville, Tennessee,
@@ -2686,7 +2686,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											late 1970s–early 1980s</ref>
 									                  </p>
                         </note>
-                        <c06 level="item" id="mferd17e3302">
+                        <c06 level="item" id="mferd29e3302">
                            <did>
                               <container type="box-folder">9/23</container>
                               <unittitle>ATV Music Group staff in front of the
@@ -2709,7 +2709,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											and Micki Fuhrman.</p>
                            </scopecontent>
                         </c06>
-                        <c06 level="item" id="mferd17e3326">
+                        <c06 level="item" id="mferd29e3326">
                            <did>
                               <container type="box-folder">9/23</container>
                               <unittitle>Micki Fuhrman, David Kent, and Gerry Teifer
@@ -2726,7 +2726,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											P132 (copy 2)</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e3347">
+                        <c06 level="item" id="mferd29e3347">
                            <did>
                               <container type="box-folder">9/23</container>
                               <unittitle>Gerry Teifer, Byron Hill, Jim Rushing, and
@@ -2742,7 +2742,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P133</unitid>
                            </did>
                         </c06>
-                        <c06 level="item" id="mferd17e3368">
+                        <c06 level="item" id="mferd29e3368">
                            <did>
                               <container type="box-folder">9/23</container>
                               <unittitle>Micki Fuhrman, David Kent, and Gerry Teifer
@@ -2766,14 +2766,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            </scopecontent>
                         </c06>
                      </c05>
-                     <c05 level="file" id="mferd17e3392">
+                     <c05 level="file" id="mferd29e3392">
                         <did>
                            <unittitle>Various places associated with the <title render="italic">Louisiana Hayride's</title>
 										secondary run, <unitdate>circa 1976</unitdate>,
 											<unitdate>undated</unitdate>
                            </unittitle>
                         </did>
-                        <c06 level="file" id="mferd17e3404">
+                        <c06 level="file" id="mferd29e3404">
                            <did>
                               <container type="box-folder">9/24</container>
                               <unittitle>Images of <title render="italic">Louisiana
@@ -2802,7 +2802,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                               <p>Two of the photographic prints are duplicates.</p>
                            </scopecontent>
                         </c06>
-                        <c06 level="file" id="mferd17e3446">
+                        <c06 level="file" id="mferd29e3446">
                            <did>
                               <unittitle>Sound Lab Recording Studio, Nashville,
 											Tennessee, <unitdate>circa 1976
@@ -2814,7 +2814,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											recording studio in Nashville, Tennessee.</p>
                               <p>Negatives and corresponding contact sheet.</p>
                            </scopecontent>
-                           <c07 level="file" id="mferd17e3457">
+                           <c07 level="file" id="mferd29e3457">
                               <did>
                                  <container type="box-folder">OSU 1/1-4</container>
                                  <unittitle id="slabnegs">Safety film
@@ -2837,7 +2837,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 											                      </p>
                               </note>
                            </c07>
-                           <c07 level="item" id="mferd17e3483">
+                           <c07 level="item" id="mferd29e3483">
                               <did>
                                  <container type="box-folder">9/24</container>
                                  <unittitle>Contact sheet</unittitle>
@@ -2853,7 +2853,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </c04>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e3500">
+            <c02 level="subseries" id="mferd29e3500">
                <did>
                   <container type="box-folder">9/25</container>
                   <unittitle>Photographic reproductions and illustrations, <unitdate normal="1940/1990">circa 1940s–1980s</unitdate>
@@ -2885,7 +2885,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							Kitty Wells? circa 1949?].</p>
                </scopecontent>
             </c02>
-            <c02 level="subseries" id="mferd17e3531">
+            <c02 level="subseries" id="mferd29e3531">
                <did>
                   <unittitle id="negs">Safety film negatives, <unitdate>circa late
 								1970s-early 1980s</unitdate>
@@ -2901,7 +2901,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								negatives</ref>
 						            </p>
                </note>
-               <c03 level="file" id="mferd17e3546">
+               <c03 level="file" id="mferd29e3546">
                   <did>
                      <unittitle id="fuhrmannegs">Micki Fuhrman negatives,
 									<unitdate>circa late 1970s–early
@@ -2922,7 +2922,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									Nashville, Tennessee, circa 1981</ref>
 							              </p>
                   </note>
-                  <c04 level="file" id="mferd17e3564">
+                  <c04 level="file" id="mferd29e3564">
                      <did>
                         <container type="box-folder">OSU 1/5-19</container>
                         <unittitle>Micki Fuhrman at the <title render="italic">Grand
@@ -2945,7 +2945,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									Opry."</p>
                      </note>
                   </c04>
-                  <c04 level="file" id="mferd17e3592">
+                  <c04 level="file" id="mferd29e3592">
                      <did>
                         <container type="box-folder">OSU 1/20-25</container>
                         <unittitle>Micki Fuhrman portrait photographs, <unitdate>circa
@@ -2963,7 +2963,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </scopecontent>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd17e3614">
+               <c03 level="file" id="mferd29e3614">
                   <did>
                      <container type="box-folder">OSU 1/26</container>
                      <unittitle>Unidentified performers,
@@ -2981,7 +2981,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e3639">
+         <c01 level="series" id="mferd29e3639">
             <did>
                <unittitle>Series 4. Elvis Presley and the <title render="italic">Louisiana
 							Hayride</title>, <unitdate normal="1956/1994">1956-1994</unitdate>
@@ -2992,12 +2992,12 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                <p>Series 4 includes ephemera, photographs, and newspaper articles
 						regarding Elvis Presley's performances at the <title render="italic">Louisiana Hayride</title>. </p>
             </scopecontent>
-            <c02 level="subseries" id="mferd17e3656">
+            <c02 level="subseries" id="mferd29e3656">
                <did>
                   <unittitle>Ephemera, <unitdate>1994</unitdate>
                   </unittitle>
                </did>
-               <c03 level="item" id="mferd17e3662">
+               <c03 level="item" id="mferd29e3662">
                   <did>
                      <container type="box-folder">3/3</container>
                      <unittitle>KWKH's <title render="italic">Louisiana Hayride</title>
@@ -3011,7 +3011,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								Presley's initial performance at the <title render="italic">Louisiana Hayride</title>.</p>
                   </scopecontent>
                </c03>
-               <c03 level="item" id="mferd17e3680">
+               <c03 level="item" id="mferd29e3680">
                   <did>
                      <container type="box-folder">3/4</container>
                      <unittitle>Elvis at the <title render="italic">Louisiana Hayride,
@@ -3026,7 +3026,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </scopecontent>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e3699">
+            <c02 level="subseries" id="mferd29e3699">
                <did>
                   <container type="box-folder">3/5</container>
                   <unittitle>Newspaper articles, <unitdate>1956-1987,
@@ -3043,13 +3043,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							death in 1977. </p>
                </scopecontent>
             </c02>
-            <c02 level="subseries" id="mferd17e3719">
+            <c02 level="subseries" id="mferd29e3719">
                <did>
                   <unittitle>Photographic prints, <unitdate>circa 1954-2006
 								January</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e3725">
+               <c03 level="file" id="mferd29e3725">
                   <did>
                      <container type="box-folder">9/26</container>
                      <unittitle>Elvis Presley portrait photographs, <unitdate>circa
@@ -3063,7 +3063,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P141–RS 13857 P142</unitid>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e3747">
+               <c03 level="file" id="mferd29e3747">
                   <did>
                      <unittitle id="epearly">Elvis Presley and his band performing on
 								stage at the <title render="italic">Louisiana
@@ -3087,7 +3087,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									late 1990s or early 2000s </ref>
 							              </p>
                   </note>
-                  <c04 level="item" id="mferd17e3767">
+                  <c04 level="item" id="mferd29e3767">
                      <did>
                         <container type="box-folder">9/27</container>
                         <unittitle>Elvis Presley performing with Scotty Moore and Bill
@@ -3101,7 +3101,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                         <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P143</unitid>
                      </did>
                   </c04>
-                  <c04 level="item" id="mferd17e3788">
+                  <c04 level="item" id="mferd29e3788">
                      <did>
                         <container type="box-folder">9/27</container>
                         <unittitle>Elvis Presley performing with Scotty Moore, D.J.
@@ -3116,7 +3116,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                         <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P144</unitid>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd17e3809">
+                  <c04 level="file" id="mferd29e3809">
                      <did>
                         <unittitle>Elvis Presley on stage with Scotty Moore, D.J.
 									Fontana, and Bill Black in their final <title render="italic">Louisiana Hayride</title> performance,
@@ -3125,7 +3125,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									15</unitdate>
                         </unittitle>
                      </did>
-                     <c05 level="item" id="mferd17e3818">
+                     <c05 level="item" id="mferd29e3818">
                         <did>
                            <container type="box-folder">9/27</container>
                            <unittitle>Elvis Presley on stage with Scotty Moore, D.J.
@@ -3153,7 +3153,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Black (bass), D.J. Fontana (drums)."</p>
                         </note>
                      </c05>
-                     <c05 level="item" id="mferd17e3850">
+                     <c05 level="item" id="mferd29e3850">
                         <did>
                            <container type="box-folder">9/27</container>
                            <unittitle>Elvis Presley on stage, <unitdate>1956 December
@@ -3175,7 +3175,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                            <p>Written on reverse, in a different hand: "12-15-56."</p>
                         </note>
                      </c05>
-                     <c05 level="item" id="mferd17e3881">
+                     <c05 level="item" id="mferd29e3881">
                         <did>
                            <container type="box-folder">9/27</container>
                            <unittitle>Elvis Presley on stage with Scotty Moore, D.J.
@@ -3198,7 +3198,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 										Kinel 10 x 8-inch print (RS 13857 P145).</p>
                         </scopecontent>
                      </c05>
-                     <c05 level="item" id="mferd17e3910">
+                     <c05 level="item" id="mferd29e3910">
                         <did>
                            <container type="box-folder">9/27</container>
                            <unittitle>Elvis Presley on stage with the Jordanaires,
@@ -3221,7 +3221,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </c05>
                   </c04>
                </c03>
-               <c03 level="item" id="mferd17e3939">
+               <c03 level="item" id="mferd29e3939">
                   <did>
                      <container type="box-folder">9/27</container>
                      <unittitle>Elvis Presley with girlfriend, [Shirley Delgado?],
@@ -3235,7 +3235,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 P147</unitid>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e3960">
+               <c03 level="file" id="mferd29e3960">
                   <did>
                      <container type="box-folder">9/28</container>
                      <unittitle>Elvis Presley interacting with fans and giving
@@ -3249,7 +3249,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      <unitid countrycode="US" repositorycode="US-DLC" label="ID:" type="local">RS 13857 PC3; RS 13857 PC4</unitid>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e3981">
+               <c03 level="file" id="mferd29e3981">
                   <did>
                      <container type="box-folder">9/29</container>
                      <unittitle id="mooreep50">Scotty Moore performing on stage,
@@ -3271,7 +3271,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									stage at the Louisiana Hayride</ref>. </p>
                   </note>
                </c03>
-               <c03 level="file" id="mferd17e4012">
+               <c03 level="file" id="mferd29e4012">
                   <did>
                      <container type="box-folder">9/30</container>
                      <unittitle id="presley50">Concert to celebrate the 50th anniversary
@@ -3327,7 +3327,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 									stage at the Louisiana Hayride</ref>. </p>
                   </note>
                </c03>
-               <c03 level="file" id="mferd17e4070">
+               <c03 level="file" id="mferd29e4070">
                   <did>
                      <container type="box-folder">9/31</container>
                      <unittitle id="pagetill">Frank Page and Tillman Franks at a
@@ -3355,7 +3355,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e4101">
+         <c01 level="series" id="mferd29e4101">
             <did>
                <unittitle>Series 5. Radio and Country Music Periodicals and Publications,
 							<unitdate normal="1916/2003">1916-2003</unitdate>
@@ -3371,13 +3371,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                <p>All materials were arranged alphabetically and chronologically within
 						groupings.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd17e4118">
+            <c02 level="subseries" id="mferd29e4118">
                <did>
                   <unittitle>Radio periodicals,
 							<unitdate>1916-1933</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e4124">
+               <c03 level="file" id="mferd29e4124">
                   <did>
                      <container type="box-folder">3/6</container>
                      <unittitle>
@@ -3386,7 +3386,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4135">
+               <c03 level="file" id="mferd29e4135">
                   <did>
                      <container type="box-folder">3/7</container>
                      <unittitle>
@@ -3396,7 +3396,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4147">
+               <c03 level="file" id="mferd29e4147">
                   <did>
                      <container type="box-folder">3/8</container>
                      <unittitle>
@@ -3405,7 +3405,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4158">
+               <c03 level="file" id="mferd29e4158">
                   <did>
                      <container type="box-folder">3/9</container>
                      <unittitle>
@@ -3414,14 +3414,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4170">
+               <c03 level="file" id="mferd29e4170">
                   <did>
                      <unittitle>
 								                <title render="italic">QST Magazine</title>, <unitdate>1921
 									March-1926 December</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd17e4179">
+                  <c04 level="file" id="mferd29e4179">
                      <did>
                         <container type="box-folder">3/10</container>
                         <unittitle>
@@ -3429,7 +3429,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								                </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd17e4188">
+                  <c04 level="file" id="mferd29e4188">
                      <did>
                         <container type="box-folder">3/11</container>
                         <unittitle>
@@ -3437,7 +3437,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								                </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd17e4197">
+                  <c04 level="file" id="mferd29e4197">
                      <did>
                         <container type="box-folder">4/1</container>
                         <unittitle>
@@ -3445,7 +3445,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								                </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd17e4206">
+                  <c04 level="file" id="mferd29e4206">
                      <did>
                         <container type="box-folder">4/2</container>
                         <unittitle>
@@ -3453,7 +3453,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								                </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd17e4215">
+                  <c04 level="file" id="mferd29e4215">
                      <did>
                         <container type="box-folder">4/3</container>
                         <unittitle>
@@ -3461,7 +3461,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								                </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd17e4224">
+                  <c04 level="file" id="mferd29e4224">
                      <did>
                         <container type="box-folder">4/4</container>
                         <unittitle>
@@ -3470,7 +3470,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd17e4233">
+               <c03 level="file" id="mferd29e4233">
                   <did>
                      <container type="box-folder">4/5</container>
                      <unittitle>
@@ -3479,7 +3479,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4244">
+               <c03 level="file" id="mferd29e4244">
                   <did>
                      <container type="box-folder">4/6</container>
                      <unittitle>
@@ -3488,7 +3488,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4256">
+               <c03 level="file" id="mferd29e4256">
                   <did>
                      <container type="box-folder">4/7</container>
                      <unittitle>
@@ -3497,14 +3497,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4267">
+               <c03 level="file" id="mferd29e4267">
                   <did>
                      <unittitle>
 								                <title render="italic">Radio News</title>, <unitdate>1929
 									February-1932 December</unitdate>
 							              </unittitle>
                   </did>
-                  <c04 level="file" id="mferd17e4277">
+                  <c04 level="file" id="mferd29e4277">
                      <did>
                         <container type="box-folder">4/8</container>
                         <unittitle>
@@ -3512,7 +3512,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								                </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd17e4286">
+                  <c04 level="file" id="mferd29e4286">
                      <did>
                         <container type="box-folder">4/9</container>
                         <unittitle>
@@ -3520,7 +3520,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 								                </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd17e4295">
+                  <c04 level="file" id="mferd29e4295">
                      <did>
                         <container type="box-folder">5/1</container>
                         <unittitle>
@@ -3529,7 +3529,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd17e4304">
+               <c03 level="file" id="mferd29e4304">
                   <did>
                      <container type="box-folder">5/2</container>
                      <unittitle>
@@ -3539,13 +3539,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e4315">
+            <c02 level="subseries" id="mferd29e4315">
                <did>
                   <unittitle>Country and rock and roll music periodicals,
 								<unitdate>1953-2003</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e4321">
+               <c03 level="file" id="mferd29e4321">
                   <did>
                      <container type="box-folder">5/3</container>
                      <unittitle>
@@ -3554,7 +3554,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4333">
+               <c03 level="file" id="mferd29e4333">
                   <did>
                      <container type="box-folder">5/4</container>
                      <unittitle>
@@ -3563,7 +3563,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4344">
+               <c03 level="file" id="mferd29e4344">
                   <did>
                      <container type="box-folder">5/5</container>
                      <unittitle>
@@ -3572,7 +3572,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4355">
+               <c03 level="file" id="mferd29e4355">
                   <did>
                      <container type="box-folder">5/6</container>
                      <unittitle>
@@ -3581,7 +3581,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4367">
+               <c03 level="file" id="mferd29e4367">
                   <did>
                      <container type="box-folder">5/7</container>
                      <unittitle>
@@ -3589,7 +3589,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							</unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4376">
+               <c03 level="file" id="mferd29e4376">
                   <did>
                      <container type="box-folder">5/8</container>
                      <unittitle>
@@ -3599,13 +3599,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e4388">
+            <c02 level="subseries" id="mferd29e4388">
                <did>
                   <unittitle>Local Louisiana periodicals,
 							<unitdate>2000-2003</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e4394">
+               <c03 level="file" id="mferd29e4394">
                   <did>
                      <container type="box-folder">5/9</container>
                      <unittitle>
@@ -3614,7 +3614,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							              </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4406">
+               <c03 level="file" id="mferd29e4406">
                   <did>
                      <container type="box-folder">5/10</container>
                      <unittitle>
@@ -3625,7 +3625,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e4417">
+         <c01 level="series" id="mferd29e4417">
             <did>
                <unittitle>Series 6. Songbooks and Sheet Music, <unitdate normal="1931/1948">1931-1948</unitdate>,
 							<unitdate>undated</unitdate>
@@ -3639,7 +3639,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
             <arrangement>
                <p>Materials were arranged alphabetically by title.</p>
             </arrangement>
-            <c02 level="item" id="mferd17e4434">
+            <c02 level="item" id="mferd29e4434">
                <did>
                   <container type="box-folder">5/11</container>
                   <unittitle>
@@ -3648,7 +3648,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 						            </unittitle>
                </did>
             </c02>
-            <c02 level="item" id="mferd17e4446">
+            <c02 level="item" id="mferd29e4446">
                <did>
                   <container type="box-folder">5/12</container>
                   <unittitle altrender="italic">"Louisiana Hayride" from the Musical
@@ -3664,7 +3664,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 							the song "Louisiana Hayride."</p>
                </note>
             </c02>
-            <c02 level="item" id="mferd17e4462">
+            <c02 level="item" id="mferd29e4462">
                <did>
                   <container type="box-folder">5/13</container>
                   <unittitle>
@@ -3673,7 +3673,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 						            </unittitle>
                </did>
             </c02>
-            <c02 level="item" id="mferd17e4474">
+            <c02 level="item" id="mferd29e4474">
                <did>
                   <container type="box-folder">5/14</container>
                   <unittitle>
@@ -3683,7 +3683,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </unittitle>
                </did>
             </c02>
-            <c02 level="item" id="mferd17e4485">
+            <c02 level="item" id="mferd29e4485">
                <did>
                   <container type="box-folder">5/15</container>
                   <unittitle>
@@ -3693,7 +3693,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e4496">
+         <c01 level="series" id="mferd29e4496">
             <did>
                <unittitle>Series 7. Accompanying Descriptive Documentation, <unitdate normal="1956/1987">1956-1987</unitdate>,
 							<unitdate>undated</unitdate>
@@ -3704,7 +3704,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
             <arrangement>
                <p/>
             </arrangement>
-            <c02 level="item" id="mferd17e4509">
+            <c02 level="item" id="mferd29e4509">
                <did>
                   <container type="box">5</container>
                   <unittitle>
@@ -3716,7 +3716,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
 						            </unittitle>
                </did>
             </c02>
-            <c02 level="item" id="mferd17e4524">
+            <c02 level="item" id="mferd29e4524">
                <did>
                   <container type="box">7</container>
                   <unittitle>
@@ -3725,13 +3725,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                   </unittitle>
                </did>
             </c02>
-            <c02 level="subseries" id="mferd17e4535">
+            <c02 level="subseries" id="mferd29e4535">
                <did>
                   <unittitle>Collection catalogs and indices,
 								<unitdate>1951-1987</unitdate>
                   </unittitle>
                </did>
-               <c03 level="item" id="mferd17e4541">
+               <c03 level="item" id="mferd29e4541">
                   <did>
                      <container type="box-folder">3/1</container>
                      <unittitle>Graham <title altrender="italic">Louisiana
@@ -3740,7 +3740,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="item" id="mferd17e4552">
+               <c03 level="item" id="mferd29e4552">
                   <did>
                      <container type="box-folder">3/2</container>
                      <unittitle>Kent <title altrender="italic">Louisiana Hayride</title>
@@ -3749,7 +3749,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="item" id="mferd17e4563">
+               <c03 level="item" id="mferd29e4563">
                   <did>
                      <container type="box">6</container>
                      <unittitle>
@@ -3758,7 +3758,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs010002
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e4574">
+               <c03 level="file" id="mferd29e4574">
                   <did>
                      <container type="box-folder">3/12</container>
                      <unittitle>

@@ -1,7 +1,2233 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /findingaids/master/music/2011/mu011018.xml was not found on this server.</p>
-</body></html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Mon, 21 May 2012 08:51:33 AM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu011018--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu011018--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu011018-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd17e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd17e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu011018"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu011018</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Nikolay Karlovich Medtner Papers
+		  </titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c">2011</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2011570510"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2011570510</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2011">2011</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2012-04" era="ce" calendar="gregorian">2012 April</date>
+            <item>Nancy Seeger made editorial revisions to this finding aid in April 2012.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd17e55">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Nikolay Karlovich Medtner Papers
+		  <unitdate label="Span Dates" type="inclusive" normal="1826/1954" encodinganalog="245$f"
+                      datechar="creation">1826-1954</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1914/1954" encodinganalog="245$g"
+                      datechar="creation">(bulk 1914-1954)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.M43</unitid>
+         <origination label="Creator"> 
+			         <persname encodinganalog="100" source="lcnaf">Medtner, Nikolay Karlovich, 1880-1951</persname>
+         </origination>
+         <physdesc label="Extent">
+			         <extent encodinganalog="300">Approximately 2,500 items</extent>
+		          <extent encodinganalog="300">11 containers</extent>
+		          <extent encodinganalog="300">5.5 linear feet</extent>		  
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in <language encodinganalog="041" langcode="rus">Russian</language>, <language encodinganalog="041" langcode="ger">German</language>, <language encodinganalog="041" langcode="eng">English</language>, and <language encodinganalog="041" langcode="fre">French</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Nikolay Medtner was a Russian-born pianist and composer. The collection documents Medtner's personal life and career and includes correspondence, programs, articles, reviews, clippings, photographs, books with Medtner's annotations, three manuscript scores in Medtner's hand, realia, and other miscellaneous items.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2011570510.10001"
+                     altrender=":::F005=^20120406013626.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd17e114">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Conus%2C+Leon+Correspondence.^">Conus, Leon--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Conus%2C+Olga+Correspondence.^">Conus, Olga--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dhami%2C+Sadhu+Singh%2C+1906-1997+Correspondence.^">Dhami, Sadhu Singh, 1906-1997--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dobrowen%2C+Issay%2C+1893-1953+Correspondence.^">Dobrowen, Issay, 1893-1953--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dupr%C3%A9%2C+Marcel%2C+1886-1971+Correspondence.^">Dupré, Marcel, 1886-1971--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gedike%2C+Aleksandr+Fedorovich%2C+1877-1957+Correspondence.^">Gedike, Aleksandr Fedorovich, 1877-1957--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Godowsky%2C+Leopold%2C+1870-1938+Correspondence.^">Godowsky, Leopold, 1870-1938--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jaya+Chamaraja+Wadiyar%2C+1919-+Correspondence.^">Jaya Chamaraja Wadiyar, 1919- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Medtner%2C+Anna+Mikha%C4%ADlovna%2C+1877-1965+Correspondence.^">Medtner, Anna Mikhaĭlovna, 1877-1965--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Medtner%2C+Nikolay+Karlovich%2C+1880-1951+Archives.^">Medtner, Nikolay Karlovich, 1880-1951--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Medtner%2C+Nikolay+Karlovich%2C+1880-1951+Correspondence.^">Medtner, Nikolay Karlovich, 1880-1951--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Medtner%2C+Nikolay+Karlovich%2C+1880-1951+Manuscripts.^">Medtner, Nikolay Karlovich, 1880-1951--Manuscripts.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Medtner%2C+Nikolay+Karlovich%2C+1880-1951+Photographs.^">Medtner, Nikolay Karlovich, 1880-1951--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Medtner%2C+Nikolay+Karlovich%2C+1880-1951.^">Medtner, Nikolay Karlovich, 1880-1951.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Medtner%2C+Nikolay+Karlovich%2C+1880-1951.^">Medtner, Nikolay Karlovich, 1880-1951.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Medtner%2C+Nikolay+Karlovich%2C+1880-1951.^">Medtner, Nikolay Karlovich, 1880-1951. Muza i moda.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Metner%2C+%C4%96mili%C4%AD+Karlovich%2C+1872-1936+Correspondence.^">Metner, Ėmiliĭ Karlovich, 1872-1936--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Moiseiwitsch%2C+Benno%2C+1890-1963+Correspondence.^">Moiseiwitsch, Benno, 1890-1963--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rachmaninoff%2C+Natalie+Correspondence.^">Rachmaninoff, Natalie--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rachmaninoff%2C+Sergei%2C+1873-1943+Correspondence.^">Rachmaninoff, Sergei, 1873-1943--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rachmaninoff%2C+Sergei%2C+1873-1943+Photographs.^">Rachmaninoff, Sergei, 1873-1943--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Satina%2C+Sophia%2C+1879-1975+Correspondence.^">Satina, Sophia, 1879-1975--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sorabji%2C+Kaikhosru+Shapurji%2C+1892-1988+Correspondence.^">Sorabji, Kaikhosru Shapurji, 1892-1988--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Turcotte%2C+J.+G.%2C+abb%C3%A9+Correspondence.^">Turcotte, J. G., abbé--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd17e167">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Composers+Russia.^">Composers--Russia.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Pianists+Russia.^">Pianists--Russia.</subject>
+         </controlaccess>
+         <controlaccess id="mferd17e176">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Artifacts+%28Object+genre%29^">Artifacts (Object genre)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd17e189">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd17e192">
+            <head>Provenance</head>
+            <p>Acquired in 1953 as a gift from Anna Mikhaĭlovna Bratenskaya Medtner (widow of Nikolay Medtner), with additional gifts by Sofiia Aleksandrovna Satina, Olga Conus (Konius), and Dr. Alfred J. Swan.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd17e197">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd17e202">
+            <head>Processing History</head>
+            <p>The Nikolay Karlovich Medtner Papers were processed by Patrick Domico and George Kipper in 2011. George Kipper coded the finding aid for EAD format in 2011.</p>
+         </processinfo>
+         <separatedmaterial encodinganalog="544 0" id="mferd17e207">
+            <head>Other Repositories</head>
+            <p>Institutions with significant Medtner holdings include: the Glinka Museum in Moscow (a large source of Medtner materials, especially pre-1921); British Library in London (six boxes of materials collected by Medtner pupil Edna Iles which includes manuscripts, correspondence, notes, and scores annotated in Medtner's hand); University of Leeds Special Collections Library in England (an unknown quantity of private papers, diaries, letters, photographs, ephemera and audio cassettes presumably related to Medtner's acquaintance with Richard Holt); University of Virginia Special Collections Library in Charlottesville, Va. (the Alfred Swan Papers includes correspondence, diaries, and other source materials for Swan's writings on Medtner); Library and Archives of Canada in Ottawa (the Alfred Laliberté fonds Collection contains significant correspondence, a few manuscripts, and other materials); and a privately owned archive recently acquired by Yevgeny Sudbin.</p>
+         </separatedmaterial>
+         <relatedmaterial encodinganalog="544 1" id="mferd17e212">
+            <head>Related Material</head>
+            <p>The Library of Congress Music Division holds numerous special collections that contain correspondence, music, or publications related to Nikolay Medtner. These include: the Rachmaninoff Archives (documents); the<archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu003008"> Jascha Heifetz Collection </archref>(including holograph scores and printed scores of Heifetz's arrangement of Medtner's <title>Skazka, op. 20/1</title>); the<archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002011"> Nicolas Slonimsky Collection </archref>(printed scores that include Medtner's music; pamphlet on Medtner by Richard Holt); the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002008">Serge Koussevitzky Archive </archref>(two letters by Medtner to Koussevitzky); the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu003012">Moldenhauer Archive </archref> (a holograph manuscript, including corrections/annotations of Medtner's <title>Elegie, op. 52/3</title>); and the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu011001">Boris Koutzen Collection</archref> (printed scores of Medtner's <title>Violin Sonata, op. 21</title> and <title>Nocturne, op. 16/1</title>, including performance annotations presumably by Koutzen).</p>
+         </relatedmaterial>
+         <userestrict encodinganalog="540" id="mferd17e245">
+            <head>Copyright Status</head>
+            <p>Materials from the Nikolay Karlovich Medtner Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd17e250">
+            <head>Access and Restrictions</head>
+            <p>The Nikolay Karlovich Medtner Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd17e257">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Nikolay Karlovich Medtner Papers, Music Division, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd17e262">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date>1872</date>
+               <event>Ėmiliĭ Karlovich Metner (Nikolay Medtner's brother) born</event>
+            </chronitem>
+            <chronitem>
+               <date>1877</date>
+               <event>Anna Mikhaĭlovna Bratenskaya Medtner (Nikolay Medtner's wife) born</event>
+            </chronitem>
+            <chronitem>
+               <date>1880, Jan. 5</date>
+               <event>Nikolay Karlovich Medtner born, Moscow, Russia</event>
+            </chronitem>
+            <chronitem>
+               <date>1890</date>
+               <event>Entered Moscow Conservatory</event>
+            </chronitem>
+            <chronitem>
+               <date>1897</date>
+               <event>Completed <title>Acht Stimmungsbilder, op. 1</title> (published 1903)</event>
+            </chronitem>
+            <chronitem>
+               <date>1900</date>
+               <event>Graduated from Moscow Conservatory with small gold medal</event>
+            </chronitem>
+            <chronitem>
+               <date>1902</date>
+               <event>Ėmiliĭ and Anna married</event>
+            </chronitem>
+            <chronitem>
+               <date>1903</date>
+               <event>Composed <title>Piano Sonata no. 1, F minor, op. 5</title> (published 1904)</event>
+            </chronitem>
+            <chronitem>
+               <date>1909</date>
+               <event>Appointed Professor at Moscow Conservatory</event>
+            </chronitem>
+            <chronitem>
+               <date>1911</date>
+               <event>Composed <title>Piano Sonata in E minor, op. 25, no. 2: Night wind</title> (published 1912)</event>
+            </chronitem>
+            <chronitem>
+               <date>1918</date>
+               <event>Composed <title>Piano Concerto no. 1, C minor, op. 33</title> (published 1921)</event>
+            </chronitem>
+            <chronitem>
+               <date>1919, June 21</date>
+               <event>Nikolay married Anna Medtner (formerly wife of Ėmiliĭ Karlovich Metner)</event>
+            </chronitem>
+            <chronitem>
+               <date>1921</date>
+               <event>Moved to Berlin</event>
+            </chronitem>
+            <chronitem>
+               <date>1922</date>
+               <event>Composed <title>Sonata in A minor, op. 38, no. 1: Reminiscenza</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1924</date>
+               <event>Moved to Paris</event>
+            </chronitem>
+            <chronitem>
+               <date>1927</date>
+               <event>Composed <title>Piano Concerto no. 2, C minor, op. 50</title> (published 1928)</event>
+            </chronitem>
+            <chronitem>
+               <date>1935</date>
+               <eventgrp>
+                  <event>Publication of Nikolay Medtner's treatise <title>Muza i Moda</title>, in Russian (English translation, 1951)</event>
+                  <event>Moved to London</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1936</date>
+               <event>Ėmiliĭ Karlovich Metner died</event>
+            </chronitem>
+            <chronitem>
+               <date>1943</date>
+               <event>Composed <title>Piano Concerto no. 3, E major, op. 60: Ballade</title> (published 1951)</event>
+            </chronitem>
+            <chronitem>
+               <date>1946</date>
+               <event>Met Jayachamaraja Wodeyar Bahadur (the last Maharaja of the princely state of Mysore); the Maharaja financed the recording of a large number of Medtner's works</event>
+            </chronitem>
+            <chronitem>
+               <date>1948</date>
+               <event>Composed <title>Piano Quintet in C major, op. posth.</title> (published 1955)</event>
+            </chronitem>
+            <chronitem>
+               <date>1949</date>
+               <event>Medtner Society founded by Jayachamaraja Wodeyar Bahadur</event>
+            </chronitem>
+            <chronitem>
+               <date>1951, Nov. 13</date>
+               <event>Died at Golders Green, London</event>
+            </chronitem>
+            <chronitem>
+               <date>1965</date>
+               <event>Anna Medtner died</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd17e422">
+         <head>Scope and Content Note</head>
+         <p> The Nikolay Karlovich Medtner Papers contain letters, programs, clippings, photographs, scores, books, realia, and other items related to Medtner's family life and career as a concert pianist. These materials date from 1826-1954, with the majority dating from 1914-1954. The Correspondence series takes up nearly half the collection and consists of family and general correspondence written between 1914 and 1954, containing over 1,900 letters in Russian, German, English, and French. Family correspondence (1914-1936) consists of approximately 500 letters by Nikolay and/or wife Anna to Ėmiliĭ Karlovich Metner with over 400 letters in reply. The general correspondence (1921-1954) contains significant letters and transcripts to and from Sergei and Nataliia Rachmaninoff, Leon and Olga Conus, Sofiia Aleksandrovna Satina, Konstantin Klimov, Madeleine Laliberté (Mrs. Albert Laliberté), Bernard and Cecile Pinsonneault, Abbé J.G. Turcotte, and smaller holdings of letters by other musicians and admirers. This series also contains condolence letters sent to Anna upon Nikolay’s death and a large quantity of unidentified letters.</p>
+         <p>The Programs series largely documents concerts given by Medtner in the U.S., Canada, Europe, and Russia between 1907 and 1946. There are also programs featuring Medtner’s works, presumably collected by the family. The Articles series (1910-1952) consists chiefly of newspaper clippings (often collected in scrapbooks, transcribed, and occasionally translated) and several longer articles written about Medtner. In addition, there is a brief article written by Medtner on the topic of musical inspiration. Aside from one photograph of Medtner himself, the Photography series is confined mostly to inscribed photographs of various musicians presented to Medtner, including two by Rachmaninoff.</p>
+         <p>The Miscellany series includes analytical notes, advertisements, and reviews pertaining to the Medtner Society's recordings; catalogues from Ėmiliĭ's publishing house Musaget' dating from 1912-1913; a 1927 address (with English translation) signed by 111 Moscow musicians and given to Medtner upon his visit to Russia; a diploma (1928) from the Royal Academy of Music; and a humorous scroll dated 1936. A bronze bust of Medtner executed by Karen Vogel and a posthumous plaster cast of Medtner's hands are included in this collection. Among the books are poetic works by Pushkin and Tiutchev, with Medtner's annotations, Medtner's personal copy of <title>Muza i moda</title>, and a copy of Ėmiliĭ's <title>Modernizm’ i Muzika</title>.</p>
+         <p>The Music series consists of printed scores and three manuscripts in Medtner's hand: <title>Russian Round Dance, op. 58, no. 1</title>; a 1896 work entitled <title>Prelude, piano, E♭ minor</title>, dedicated to Anna (possibly reworked as Op. 14/1); and an early vocal piece entitled <title>Romance</title>, also dedicated to Anna (possibly reworked as Op. 3/1). Among the printed music holdings is a bound volume containing musical settings to Pushkin's texts by various composers compiled by V.A. Kiselev as well as a printed score to Arthur Lourié’s <title>Formes en l’air</title>, with a written dedication to Medtner initialed by Rachmaninoff.</p>
+         <p>A few explanatory words regarding transliteration of the composer's surname: although the correct transliteration of the Russian-born composer's surname would be more precisely rendered according to the Library of Congress's transliteration system as "Metner," the composer himself favored the Germanic spelling of his name, "Medtner," in Roman script; the latter form, through which the composer gained renown in the West, has therefore been retained within this document. Conversely, the Library of Congress transliteration system has been adhered to in transliterating the name of the composer's brother, Ėmiliĭ Metner (who neither cultivated a career in the West, nor adopted the Germanic spelling of his surname). Alternate spellings for Russian names and titles that appear in this finding aid--including those defined by convention as well as standardized transliteration--have been included in an appendix to facilitate searching. A modified Library of Congress transliteration system, excluding ligatures and accent marks, has been adopted in this finding aid.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd17e453">
+         <head>Organization of the Nikolay Karlovich Medtner Papers</head>
+         <p>The Nikolay Karlovich Medtner Papers are organized in seven series:</p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="corr">Correspondence, 1914-1954</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="prog">Programs, 1907-1953</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="arti">Articles, 1910-1952</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="phot">Photographs, 1922-1951</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="misc">Miscellany, 1912-1951</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="bks">Books, 1826-1948</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="mus">Music, 1896-circa 1940</ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2011570510"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2011570510</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd17e483" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd17e492">
+            <did>
+               <container type="box">1-5</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1914/1954">1914-1954</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters by Nikolay and/or Anna Medtner and Ėmiliĭ Karlovich Metner (Nikolay's brother) to one another, condolence notes/letters written by others to Anna Medtner at the time of Nikolay's death in 1951, and correspondence by friends and colleagues of Nikolay Medtner.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>The series is arranged into two subseries: the first contains correspondence between Medtner family members; the second contains correspondence by non-family members to Nikolay Medtner. Arranged alphabetically by correspondent's last name, and chronologically therein.</p>
+            </arrangement>
+            <c02 level="subseries" id="mferd17e506">
+               <did>
+                  <unittitle encodinganalog="245$a">Medtner Family, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1914-1951</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd17e512">
+                  <did>
+                     <container type="box-folder">1/1-17</container>
+                     <unittitle encodinganalog="245$a">Ėmiliĭ to Nikolay and Anna, 
+		  				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1917-1936</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e520">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a">Anna to Ėmiliĭ, 
+		  				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e528">
+                  <did>
+                     <container type="box-folder">2/2-15; 3/1-4</container>
+                     <unittitle encodinganalog="245$a">Anna and Nikolay to Ėmiliĭ, 
+		  				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1914-1936, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e536">
+                  <did>
+                     <container type="box-folder">3/5-7</container>
+                     <unittitle encodinganalog="245$a">Condolence letters/notes to Anna Medtner, 
+		  				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd17e544">
+               <did>
+                  <unittitle encodinganalog="245$a">General, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921-1954</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd17e550">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a">Alexander, Arthur, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1951, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e558">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a">Armin, George,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1926-1938, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e566">
+                  <did>
+                     <container type="box-folder">3/10</container>
+                     <unittitle encodinganalog="245$a">Arnson, Lyuta, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e574">
+                  <did>
+                     <container type="box-folder">3/11</container>
+                     <unittitle encodinganalog="245$a">"A" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1926-1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e582">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a">Bax, Arnold,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e590">
+                  <did>
+                     <container type="box-folder">3/13</container>
+                     <unittitle encodinganalog="245$a">Bentner, Marie Auguste,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932-1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e598">
+                  <did>
+                     <container type="box-folder">3/14</container>
+                     <unittitle encodinganalog="245$a">Bernhard, Isolda,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e606">
+                  <did>
+                     <container type="box-folder">3/15</container>
+                     <unittitle encodinganalog="245$a">Binstead, S.T. and Ann,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e614">
+                  <did>
+                     <container type="box-folder">3/16</container>
+                     <unittitle encodinganalog="245$a">Bloch, J. H.,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1933</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e622">
+                  <did>
+                     <container type="box-folder">3/17</container>
+                     <unittitle encodinganalog="245$a">Blom, Eric,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e631">
+                  <did>
+                     <container type="box-folder">3/18</container>
+                     <unittitle encodinganalog="245$a">Braithware, Sam Hartley,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930-1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e639">
+                  <did>
+                     <container type="box-folder">3/19</container>
+                     <unittitle encodinganalog="245$a">Braunstein, Albert,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e647">
+                  <did>
+                     <container type="box-folder">3/20</container>
+                     <unittitle encodinganalog="245$a">Bühler, Lenox,   
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e655">
+                  <did>
+                     <container type="box-folder">3/21</container>
+                     <unittitle encodinganalog="245$a">"B" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e663">
+                  <did>
+                     <container type="box-folder">3/22</container>
+                     <unittitle encodinganalog="245$a">Catterall, Yvonne and Hugh,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e671">
+                  <did>
+                     <container type="box-folder">3/23</container>
+                     <unittitle encodinganalog="245$a">Chamberland, Albert,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e679">
+                  <did>
+                     <container type="box-folder">3/24</container>
+                     <unittitle encodinganalog="245$a">Chekhova, Vseniya,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931-1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e687">
+                  <did>
+                     <container type="box-folder">3/25</container>
+                     <unittitle encodinganalog="245$a">Cloutier, Leo,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e695">
+                  <did>
+                     <container type="box-folder">3/26-30</container>
+                     <unittitle encodinganalog="245$a">Conus, Leon and Olga,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1936-1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e703">
+                  <did>
+                     <container type="box-folder">4/1-3</container>
+                     <unittitle encodinganalog="245$a">Conus, Olga,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1952 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e711">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a">Conus, Sergei,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e720">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a">Conus, Tatiana,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e728">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a">"C" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921-1943</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e736">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a">Décarie, Annette,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e744">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a">Decaux, Abel,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e752">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a">De Jersey, Everal,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e760">
+                  <did>
+                     <container type="box-folder">4/10</container>
+                     <unittitle encodinganalog="245$a">Denissoff, J.,  
+					dobrowen
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1933</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e768">
+                  <did>
+                     <container type="box-folder">4/11</container>
+                     <unittitle encodinganalog="245$a">Dhami, Sadhu Singh,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1944-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e776">
+                  <did>
+                     <container type="box-folder">4/12</container>
+                     <unittitle encodinganalog="245$a">Dobrowen, Issay,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1951 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e784">
+                  <did>
+                     <container type="box-folder">4/13</container>
+                     <unittitle encodinganalog="245$a">Dobuzhinsky, Mstislav,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1951 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e792">
+                  <did>
+                     <container type="box-folder">4/14</container>
+                     <unittitle encodinganalog="245$a">Dupré, Marcel,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1926-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e800">
+                  <did>
+                     <container type="box-folder">4/15</container>
+                     <unittitle encodinganalog="245$a">"D" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e809">
+                  <did>
+                     <container type="box-folder">4/16</container>
+                     <unittitle encodinganalog="245$a">"E" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1939</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e817">
+                  <did>
+                     <container type="box-folder">4/17</container>
+                     <unittitle encodinganalog="245$a">Fortier, Florestine,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930-1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e825">
+                  <did>
+                     <container type="box-folder">4/18</container>
+                     <unittitle encodinganalog="245$a">"F" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1953 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e833">
+                  <did>
+                     <container type="box-folder">4/19</container>
+                     <unittitle encodinganalog="245$a">Gedike, Aleksandr Fedorovich,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e841">
+                  <did>
+                     <container type="box-folder">4/20</container>
+                     <unittitle encodinganalog="245$a">Gélinas, Rosaire,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1936</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e849">
+                  <did>
+                     <container type="box-folder">4/21</container>
+                     <unittitle encodinganalog="245$a">Godowsky, Leopold,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e857">
+                  <did>
+                     <container type="box-folder">4/22</container>
+                     <unittitle encodinganalog="245$a">"G" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e865">
+                  <did>
+                     <container type="box-folder">4/23</container>
+                     <unittitle encodinganalog="245$a">Harrison, Eric,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e873">
+                  <did>
+                     <container type="box-folder">4/24</container>
+                     <unittitle encodinganalog="245$a">Hervé, Henriette,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1922</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e881">
+                  <did>
+                     <container type="box-folder">4/25</container>
+                     <unittitle encodinganalog="245$a">Hill, Valentina,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e889">
+                  <did>
+                     <container type="box-folder">4/26</container>
+                     <unittitle encodinganalog="245$a">Holt, Richard,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e898">
+                  <did>
+                     <container type="box-folder">4/27</container>
+                     <unittitle encodinganalog="245$a">"H" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e906">
+                  <did>
+                     <container type="box-folder">4/28</container>
+                     <unittitle encodinganalog="245$a">Iles, Edna,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Also includes: handwritten eight page narrative by Iles; 1946 and 1948 concert programs.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e917">
+                  <did>
+                     <container type="box-folder">4/29</container>
+                     <unittitle encodinganalog="245$a">Jacobson, Myron,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e925">
+                  <did>
+                     <container type="box-folder">4/30</container>
+                     <unittitle encodinganalog="245$a">Jaya Chamaraja Wadiyar (Maharaja of Mysore),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e933">
+                  <did>
+                     <container type="box-folder">4/31</container>
+                     <unittitle encodinganalog="245$a">"J" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1937</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e941">
+                  <did>
+                     <container type="box-folder">4/32</container>
+                     <unittitle encodinganalog="245$a">Kedroff, Nikolai,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1938-1952 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e949">
+                  <did>
+                     <container type="box-folder">4/33</container>
+                     <unittitle encodinganalog="245$a">Klimov, Konstantin,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932-1939 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e957">
+                  <did>
+                     <container type="box-folder">4/34</container>
+                     <unittitle encodinganalog="245$a">Klimov, Konstantin,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1940-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e965">
+                  <did>
+                     <container type="box-folder">4/35</container>
+                     <unittitle encodinganalog="245$a">Knatchbule, Dora,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942-1944 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e973">
+                  <did>
+                     <container type="box-folder">4/36</container>
+                     <unittitle encodinganalog="245$a">"K" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1923-1948 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e981">
+                  <did>
+                     <container type="box-folder">4/37</container>
+                     <unittitle encodinganalog="245$a">Laliberté, Madeleine,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e990">
+                  <did>
+                     <container type="box-folder">4/38</container>
+                     <unittitle encodinganalog="245$a">Langlet, Nina Nikolaevna,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e998">
+                  <did>
+                     <unittitle encodinganalog="245$a">Legge, Walter 
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                        <lb/>
+                        <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:show="replace"
+                             xlink:actuate="onRequest"
+                             target="edison">
+                           <emph render="italic">see </emph>Box 5, Schwarzkopf, Elizabeth</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1008">
+                  <did>
+                     <container type="box-folder">4/39</container>
+                     <unittitle encodinganalog="245$a">"L" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1016">
+                  <did>
+                     <container type="box-folder">4/40</container>
+                     <unittitle encodinganalog="245$a">Marie-Stéphanie, Sœur,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1024">
+                  <did>
+                     <container type="box-folder">4/41</container>
+                     <unittitle encodinganalog="245$a">Marx, Joseph,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1032">
+                  <did>
+                     <container type="box-folder">4/42</container>
+                     <unittitle encodinganalog="245$a">Menzel, Richard,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1040">
+                  <did>
+                     <container type="box-folder">4/43</container>
+                     <unittitle encodinganalog="245$a">Mettsel, Vladimir,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1943-1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1048">
+                  <did>
+                     <container type="box-folder">4/44</container>
+                     <unittitle encodinganalog="245$a">Moiseiwitsch, Benno,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1943-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1056">
+                  <did>
+                     <container type="box-folder">4/45</container>
+                     <unittitle encodinganalog="245$a">Mutch, Isabel,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1934-1936 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1064">
+                  <did>
+                     <container type="box-folder">4/46</container>
+                     <unittitle encodinganalog="245$a">"M" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1948 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1072">
+                  <did>
+                     <container type="box-folder">4/47</container>
+                     <unittitle encodinganalog="245$a">Newman, Ernest,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1081">
+                  <did>
+                     <container type="box-folder">4/48</container>
+                     <unittitle encodinganalog="245$a">"N" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1089">
+                  <did>
+                     <container type="box-folder">4/49</container>
+                     <unittitle encodinganalog="245$a">Olenina-d'Alʹgeĭm, M. A. (Mariia Alekseevna),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1097">
+                  <did>
+                     <container type="box-folder">4/50</container>
+                     <unittitle encodinganalog="245$a">Orlov, G.,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1105">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a">Paĭchadze, Gavril Gregorevich,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1113">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a">Patience, Ernest,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1923 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1121">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a">Pinsonneault, Bernard,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1129">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a">Pinsonneault, Cécile,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1137">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a">"P" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1145">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a">Rachmaninoff, Natalie,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1922-1949 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1153">
+                  <did>
+                     <container type="box-folder">5/7-9</container>
+                     <unittitle encodinganalog="245$a">Rachmaninoff, Sergei,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1912, 1921-1939 and undated</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>Includes transcriptions of letters, undated letters, notes.</p>
+                  </note>
+               </c03>
+               <c03 level="file" id="mferd17e1164">
+                  <did>
+                     <container type="box-folder">5/10</container>
+                     <unittitle encodinganalog="245$a">Randle, Maud,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1173">
+                  <did>
+                     <container type="box-folder">5/11</container>
+                     <unittitle encodinganalog="245$a">Ritchie, Margaret,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1181">
+                  <did>
+                     <container type="box-folder">5/12</container>
+                     <unittitle encodinganalog="245$a">"R" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1944-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1189">
+                  <did>
+                     <container type="box-folder">5/13</container>
+                     <unittitle encodinganalog="245$a">Sabaniev, Alyota,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1937-1950 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1197">
+                  <did>
+                     <container type="box-folder">5/14</container>
+                     <unittitle encodinganalog="245$a">Sabline, E.,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942-1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1205">
+                  <did>
+                     <container type="box-folder">5/15</container>
+                     <unittitle encodinganalog="245$a">Samofnikova, Natasha,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1924-1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1213">
+                  <did>
+                     <container type="box-folder">5/16</container>
+                     <unittitle encodinganalog="245$a">Satin, Vladimir Alexandrovich,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1221">
+                  <did>
+                     <container type="box-folder">5/17-18</container>
+                     <unittitle encodinganalog="245$a">Satina, Sofiia Aleksandrovna,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1953 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1229">
+                  <did>
+                     <container type="box-folder">5/19</container>
+                     <unittitle encodinganalog="245$a" id="edison">Schwarzkopf, Elizabeth,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951</unitdate>
+                     </unittitle>
+                     <note>
+                        <p>Additional writing added by Walter Legge.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1240">
+                  <did>
+                     <container type="box-folder">5/20</container>
+                     <unittitle encodinganalog="245$a">Segovia, Andrés,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1923 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1248">
+                  <did>
+                     <container type="box-folder">5/21</container>
+                     <unittitle encodinganalog="245$a">Smith, Cyril,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1256">
+                  <did>
+                     <container type="box-folder">5/22</container>
+                     <unittitle encodinganalog="245$a">Sorabji, Kaikhosru Shapurji,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1265">
+                  <did>
+                     <container type="box-folder">5/23</container>
+                     <unittitle encodinganalog="245$a">Stegmann, G. F.,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1273">
+                  <did>
+                     <container type="box-folder">5/24</container>
+                     <unittitle encodinganalog="245$a">Stone, Christopher,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1951 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1281">
+                  <did>
+                     <container type="box-folder">5/25</container>
+                     <unittitle encodinganalog="245$a">Swan, Alfred J.,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1289">
+                  <did>
+                     <container type="box-folder">5/26</container>
+                     <unittitle encodinganalog="245$a">"S" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1297">
+                  <did>
+                     <container type="box-folder">5/27</container>
+                     <unittitle encodinganalog="245$a">Thompson, J. Antonio,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1933-1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1305">
+                  <did>
+                     <container type="box-folder">5/28</container>
+                     <unittitle encodinganalog="245$a">Turcotte, J. G., abbé,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1313">
+                  <did>
+                     <container type="box-folder">5/29</container>
+                     <unittitle encodinganalog="245$a">"T" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1321">
+                  <did>
+                     <container type="box-folder">5/30</container>
+                     <unittitle encodinganalog="245$a">"V" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1329">
+                  <did>
+                     <container type="box-folder">5/31</container>
+                     <unittitle encodinganalog="245$a">Wolfman, J.,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931-1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1337">
+                  <did>
+                     <container type="box-folder">5/32</container>
+                     <unittitle encodinganalog="245$a">Wolkonsky, Irina Rachmaninoff,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1345">
+                  <did>
+                     <container type="box-folder">5/33</container>
+                     <unittitle encodinganalog="245$a">Wood, Henry J.,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1354">
+                  <did>
+                     <container type="box-folder">5/34</container>
+                     <unittitle encodinganalog="245$a">Wüllner, Ludwig, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1928</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1362">
+                  <did>
+                     <container type="box-folder">5/35</container>
+                     <unittitle encodinganalog="245$a">"W" miscellaneous,   
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928-1950 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1370">
+                  <did>
+                     <container type="box-folder">5/36</container>
+                     <unittitle encodinganalog="245$a">Yasser, Joseph,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1378">
+                  <did>
+                     <container type="box-folder">5/37</container>
+                     <unittitle encodinganalog="245$a">Zernova, Militsa,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1944-1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1386">
+                  <did>
+                     <container type="box-folder">5/38</container>
+                     <unittitle encodinganalog="245$a">Zhorzh, Sasha (?),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927-1937 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1394">
+                  <did>
+                     <container type="box-folder">5/39</container>
+                     <unittitle encodinganalog="245$a">"X - Z" miscellaneous,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1402">
+                  <did>
+                     <container type="box-folder">5/40</container>
+                     <unittitle encodinganalog="245$a">"Constance" (unidentified surname),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1410">
+                  <did>
+                     <container type="box-folder">5/41</container>
+                     <unittitle encodinganalog="245$a">"Lelya (Lelia)" (unidentified surname),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1418">
+                  <did>
+                     <container type="box-folder">5/42</container>
+                     <unittitle encodinganalog="245$a">Unidentifed (miscellaneous correspondence),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1912-1952 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1426">
+                  <did>
+                     <container type="box-folder">5/43</container>
+                     <unittitle encodinganalog="245$a">Unidentified (multiple signatures),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1434">
+                  <did>
+                     <container type="box-folder">5/44</container>
+                     <unittitle encodinganalog="245$a">Unidentified (miscellaneous - various addresses),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1443">
+                  <did>
+                     <container type="box-folder">5/45</container>
+                     <unittitle encodinganalog="245$a">Unidentified (notes by Nikolai or Anna Medtner) 
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1451">
+                  <did>
+                     <container type="box-folder">5/46</container>
+                     <unittitle encodinganalog="245$a">Unidentified (letters written in a similar hand),  
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1923 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e1459">
+                  <did>
+                     <container type="box-folder">5/47</container>
+                     <unittitle encodinganalog="245$a">Unidentified (with attributive annotations by Anna Medtner?), 
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1924-1951 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd17e1467">
+            <did>
+               <container type="box">6</container>
+               <unittitle encodinganalog="245$a" id="prog">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1907/1953">1907-1953</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Programs for concerts given by Medtner in the U.S., Canada, Europe, and Russia, as well as programs featuring performances of Medtner's works by others.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="subseries" id="mferd17e1481">
+               <did>
+                  <unittitle encodinganalog="245$a">Concerts given by Medtner, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1907-1946 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd17e1487">
+                  <did>
+                     <container type="box-folder">6/1-4</container>
+                     <unittitle encodinganalog="245$a">
+	 						                <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1907-1946 and undated</unitdate>
+                     </unittitle>
+                  </did>
+                  <note>
+                     <p>March 13, 1930 program autographed by Sir Dan Godfrey, conductor.</p>
+                  </note>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd17e1498">
+               <did>
+                  <unittitle encodinganalog="245$a">Concerts of Medtner's works given by other musicians, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1920-1953 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd17e1504">
+                  <did>
+                     <container type="box-folder">6/5-8</container>
+                     <unittitle encodinganalog="245$a">
+	 						                <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1920-1953 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd17e1512">
+            <did>
+               <container type="box">7</container>
+               <unittitle encodinganalog="245$a" id="arti">Articles, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1910/1952">1910-1952</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Newspaper clippings (often collected in scrapbooks, transcribed, and occasionally translated) and several longer articles written about Medtner. Includes a brief article written by Medtner on musical inspiration.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by author's last name, and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file" id="mferd17e1526">
+               <did>
+                  <container type="box-folder">7/1</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Alexander, Arthur. "Nicolas Medtner: an appreciation," <title>Tempo</title>, no. 22 (Winter 1951-1952)</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1536">
+               <did>
+                  <container type="box-folder">7/2</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Armin, George, editor. [Several articles featuring Medtner] <title>Der Stimmwart</title>, 2-4, 6. Jahrgang, (1926-1930)</bibref>
+                  </unittitle>
+                  <note>
+                     <p>Collection of individual issues of <title>Der Stimmwart</title>, featuring articles on Medtner. Several typed transcripts of articles from this serial are also included.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1552">
+               <did>
+                  <container type="box-folder">7/3-12</container>
+                  <unittitle encodinganalog="245$a">Clippings, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1910-1950 and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1560">
+               <did>
+                  <container type="box-folder">7/13</container>
+                  <unittitle encodinganalog="245$a">Clippings. Unbound book of transcripts,
+	 					
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1924-1940 and undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Includes an unbound book (109 pages) containing typed transcripts taken from newspapers and articles.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1571">
+               <did>
+                  <container type="box-folder">7/14</container>
+                  <unittitle encodinganalog="245$a">Clippings album, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1579">
+               <did>
+                  <container type="box-folder">7/15</container>
+                  <unittitle encodinganalog="245$a">Clippings. Preservation photocopies, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1587">
+               <did>
+                  <container type="box-folder">7/16</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Gestlé, Henry S. "The Piano music of Nicolai Medtner," <title>Musical Quarterly</title>, 10, no. 4 (October 1924)</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1597">
+               <did>
+                  <container type="box-folder">7/17</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Il'in, Ivan. [Unidentified article], <title>[Unidentified journal]</title>, no. 7 (1929)</bibref>
+                  </unittitle>
+                  <note>
+                     <p>Includes a letter (dated 1952) to Anna Medtner, presumably from Il'in.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1611">
+               <did>
+                  <container type="box-folder">7/18</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Medtner, Nikolai. "Opinions: On Inspiration," <title>The Chesterian</title>, 10, no. 73 (September-October 1928)</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1621">
+               <did>
+                  <container type="box-folder">7/19</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Miller, Sidney. "Medtner's Piano Music," <title>The Musical Times</title>, 82, nos. 1184-1185 (October-November 1941)</bibref>
+                  </unittitle>
+                  <note>
+                     <p>Two copies.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1634">
+               <did>
+                  <container type="box-folder">7/20</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Riesemann, Oskar von. "Nikolai Medtner," <title>The Sackbut</title>, (May 1925)</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1644">
+               <did>
+                  <container type="box-folder">7/20</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Riesemann, Oskar von. "Nikolai Medtner," <title>Rheinische Musik- und Theater Zeitung</title>, XXV. Jahrgang, nr. 41-42, November 22, 1924</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1654">
+               <did>
+                  <container type="box-folder">7/21</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Swan, Alfred J. "Medtner," <title>The Musical Times</title>, 955, no. 63 (September 1, 1922)</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1664">
+               <did>
+                  <container type="box-folder">7/21</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Swan, Alfred J. "Medtner and the Music of our Time," <title>Music and Letters</title>, January 1927</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1674">
+               <did>
+                  <container type="box-folder">7/21</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Swan, Alfred J. "Nicholas Medtner," <title>The Chesterian</title>, 10, no. 75 (December 1928)</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1684">
+               <did>
+                  <container type="box-folder">7/21</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Swan, Alfred J. [Unidentified article] <title>[Unidentified journal]</title>, (1945)</bibref>
+                  </unittitle>
+                  <note>
+                     <p>Russian language publication containing article featuring Rachmaninoff.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1697">
+               <did>
+                  <container type="box-folder">7/22</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Swan, Alfred J. and Katherine. "Rachmaninoff: Personal Reminiscences - Part I," <title>Musical Quarterly</title>, 30, no. 1 (January 1944)</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1707">
+               <did>
+                  <container type="box-folder">7/23</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>[Unidentified]. [Unidentified article], <title>Cahiers Periodiques</title>, (1949)</bibref>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd17e1717">
+            <did>
+               <container type="box">8</container>
+               <unittitle encodinganalog="245$a" id="phot">Photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1922/1951">1922-1951, undated</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Chiefly photographs of various musicians inscribed to Nikolay Medtner. Included are two inscribed photographs of Rachmaninoff and a photograph of Medtner.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by last name of individual, and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file" id="mferd17e1731">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a">Armin, George, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed to Medtner.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1742">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a">Armin, George and Ludwig Wüllner, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">July 26, 1934</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Note written to Medtner from Armin on verso.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1753">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a">Decaux, Abel, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1764">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a">Dobrowen, Issay,  
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">June 8, 1947</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1775">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a">Dupré, Marcel, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">October 7, 1935</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1786">
+               <did>
+                  <container type="box-folder">8/1</container>
+                  <unittitle encodinganalog="245$a">Dusseau, Jeanne, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed to Medtner.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1797">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">Fortier, Florestine, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">December 1929</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed to Anna and "Nicola."</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1808">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">Fortier, Florestine and Leopold, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">December 1929</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed to Medtner.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1820">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">Katuar, G. (Georgiĭ), 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Not signed. Photograph has been identified as: "The composer, Georg Catoire."</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1831">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">Laliberté, Alfred, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927, 1931 and undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Four inscribed photographs, one being an image of Laliberté's music room.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1842">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">Makushina, Tatiana,  
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1853">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">Marx, Joseph, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed on verso.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1864">
+               <did>
+                  <container type="box-folder">8/2</container>
+                  <unittitle encodinganalog="245$a">Medtner, Nikolay, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1922</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed with musical quotation.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1875">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a">Rachmaninoff, Sergei, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1925</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1886">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a">Rachmaninoff, Sergei, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1897">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a">Santagano, Elisabeth, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1926</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1908">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a">Turcotte, J. G., abbé, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1919">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a">Wüllner, Ludwig, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">July 1934</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+                  <note>
+                     <p>Two photographs.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1933">
+               <did>
+                  <container type="box-folder">8/3</container>
+                  <unittitle encodinganalog="245$a">Zimmermann, Wilhelm, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd17e1944">
+            <did>
+               <container type="box">8-9</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1912/1951">1912-1951, undated</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Analytical notes, advertisements, and reviews pertaining to the Medtner Society's issued recordings; catalogues of 1912-1913 of Ėmiliĭ Metner's publishing house Musaget'; a 1927 address (with English translation) signed by 111 Moscow musicians given to Medtner upon his visit to Russia; a diploma (dated 1928) from the Royal Academy of Music on the occasion of Medtner's election as an honorary member; and a humorous banner given to Medtner from Russian friends soon after his arrival in London in 1936. A bronze bust of Medtner executed by Czech sculptor Karen Vogel and a posthumous plaster cast of Medtner's hands are also included in this collection.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by subject, and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file" id="mferd17e1958">
+               <did>
+                  <container type="box-folder">8/4</container>
+                  <unittitle encodinganalog="245$a">Address presented to Nikolay Medtner upon his return to Russia, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927</unitdate>
+                  </unittitle>
+               </did>
+               <note>
+                  <p>The original address was signed by 111 musicians.</p>
+               </note>
+               <note>
+                  <p>Includes the original copy with signatures and a typed translation.</p>
+               </note>
+            </c02>
+            <c02 level="file" id="mferd17e1972">
+               <did>
+                  <container type="box-folder">8/5</container>
+                  <unittitle encodinganalog="245$a">Humorous scroll, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">July 11, 1936</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>A humorous paper scroll signed by several Russian individuals (London, 1936) encouraging Medtner to "apply himself with all diligence and perseverence to the learning of the barbarous Tongue of the hospitable Tribe we live amongst ...".</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1983">
+               <did>
+                  <container type="box-folder">8/6</container>
+                  <unittitle encodinganalog="245$a">Medtner Society publications, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1949</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Includes "His Master's Voice" announcement of the founding of the Society, programs of issued recordings (volumes 1-3), published reviews of the Society's recordings and other publicity.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1994">
+               <did>
+                  <container type="box-folder">8/7</container>
+                  <unittitle encodinganalog="245$a">Musaget' catalogues, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1912-1913</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Two catalogues.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2005">
+               <did>
+                  <container type="box-folder">8/8</container>
+                  <unittitle encodinganalog="245$a">Royal Academy of Music. Diploma, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">June 28, 1928</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>The diploma was given to Medtner on the occasion of his election as an honorary member of the Royal Academy of Music.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2016">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Plaster cast of Medtner's hands, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">ca. November 1951</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Collection files paperwork describes this as a posthumous plaster cast of Medtner's hands.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2027">
+               <did>
+                  <container type="Box: ">Consult Ref. Staff</container>
+                  <unittitle encodinganalog="245$a">Bronze bust of Medtner executed by Czech sculptor, Karen Vogel, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Consult Reference staff for assistance in examining this item.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd17e2038">
+            <did>
+               <container type="box">10</container>
+               <unittitle encodinganalog="245$a" id="bks">Books, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1826/1948">1826-1948</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Eleven items, including two volumes of Pushkin's poems, single volumes of Lermontov and Tiutchev, all with Medtner's marginalia and musical sketches, as well as Medtner's personal copy of <title>Muza i moda</title> (Paris: Navarre, 1935) with autograph emendations, and Ėmiliĭ Karlovich Metner's <title>Modernizm i muzyka</title> (Moskva: Musaget', 1912).</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by author.</p>
+            </arrangement>
+            <c02 level="file" id="mferd17e2058">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Drinker, Henry Sandwith. <title>English texts for the songs of Nicholas Medtner</title>. <imprint>n.p., 1946.</imprint>
+                  </unittitle>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g no. 5 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2074">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Gebhard, Friedrich Albert. <title>Dramatische Spiele</title>. <imprint>Queblinburg and Leipzig: G. Basse, 1826.</imprint>  
+	 				            </unittitle>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g no. 7 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2091">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Holt, Richard. <title>Medtner and his music: a tribute to a great Russian composer</title>. <imprint>London: Rimington, Van Wyck Ltd., 1948</imprint>
+                  </unittitle>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g no. 6 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2107">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">IAkovlev, Vasiliĭ. <title>[Nikolaĭ̆ Karlovich Metner]</title>. <imprint>Moscow: [Musik Sektion, Staats verlag], 1927.</imprint>
+                  </unittitle>
+                  <note>
+                     <p>Contains notes and other marginalia.</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g no. 3 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2126">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Lermontov, Mikhail IUrʹevich. <title>Lirika</title>. <imprint>n.p., 1921.</imprint>
+                  </unittitle>
+                  <note>
+                     <p>Book of poems by Lermontov including Medtner's marginalia and musical sketches (page 9).</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g no. 2 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2145">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Medtner, Nikolay Karlovich. <title>Muza i moda</title>. <imprint>Paris: Navarre, 1935.</imprint>   
+	 					           </unittitle>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g no. 4</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2162">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Metner, Ėmiliĭ Karlovich. <title>Modernizm i muzyka</title>. <imprint>Moskva: Musageť, 1912.</imprint>  
+	 					           </unittitle>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g no. 8 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2179">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Pushkin, Aleksandr Sergeevich. <title>[Unidentified collection of poems]</title>. <imprint>n.p., 1896.</imprint>
+                  </unittitle>
+                  <note>
+                     <p>Inscribed to N. Medtner by Alexander Borisovich Goldenweiser, noted Russian piano pedagogue.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2194">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Pushkin, Aleksandr Sergeevich. <title>[Unidentified collection of poems]</title>, volume 2. <imprint>n.p., 1921.</imprint>
+                  </unittitle>
+                  <note>
+                     <p>This volume was used by Medtner when composing his songs based on Pushkin's texts.</p>
+                  </note>
+                  <note>
+                     <p>Contains Medtner's musical sketches, marginalia.</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2216">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Tiutchev, F. I. (Fedor Ivanovich). <title>Stikhotvorenīi︠a︡</title>. <imprint>[Moskva: n.p., 1899.</imprint>
+                  </unittitle>
+                  <note>
+                     <p>Volume of poems by Tiutchev used by Medtner when composing his songs based on Tiutchev's texts.</p>
+                  </note>
+                  <note>
+                     <p>Contains Medtner's musical sketches, marginalia.</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43g no. 1 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2238">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>Urania : Tiutchevskiĭ al'manakh, 1803-1928 </title>. <imprint>Leningrad: Priboĭ, 1928.</imprint>   
+	 				            </unittitle>
+                  <note>
+                     <p>Marginalia found on page 269, which contains an article ("Tiutchev v muzyke" by Sergei Durylin) mentioning Medtner.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd17e2252">
+            <did>
+               <container type="box">11</container>
+               <unittitle encodinganalog="245$a" id="mus">Music, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1896/1940">1896-circa 1940</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Three holograph scores and two printed music items. The holographs include: an undated score titled <title>Romance</title>, the first fair copy with composer's emendations for the <title>Russian round dance, op. 58, for two pianos</title>, and the <title>Prelude, piano, E♭ minor</title>, dated 1896. Printed music includes a printed score of <title>Formes en l'air</title> by Arthur Lourié (Paris: A. Gutheil, 1923), inscribed by Rachmaninoff, and a bound compilation by Kiselev of musical settings (by various Russian composers) to Pushkin's texts.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by composer/compiler's last name.</p>
+            </arrangement>
+            <c02 level="file" id="mferd17e2278">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Kiselev, V. A. (Vasiliĭ Aleksandrovich), comp. <lb/>
+                     <title>Pushkin v romansakh i pesniakh ego sovremennikov</title>. <imprint>Moskva: Muzyka, 1936.</imprint>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Score, 224 p., 30 cm.</extent>
+                  </physdesc>
+                  <note>
+                     <p>Songs with piano.</p>
+                  </note>
+                  <note>
+                     <p>Musical settings of Pushkin's poems.</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43e no. 1 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2304">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Lourié, Arthur. <lb/>
+                     <title>Formes en l'air</title>. <imprint>Paris: A. Gutheil, 1923.</imprint>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Score, 9 p., 34 cm.</extent>
+                  </physdesc>
+                  <note>
+                     <p>The title page contains a written dedication to N.K. Medtner in memory of the composer, initialed by Sergei Rachmaninoff.</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43e no. 2 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2327">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Medtner, Nikolay Karlovich. <lb/>
+                     <title>Prelude, piano, E♭ minor</title>. </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Holograph manuscript score, in ink, 2 p., 35 cm.</extent>
+                  </physdesc>
+                  <note>
+                     <p>Manuscript is dated 1896.</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43a no.1 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2348">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Medtner, Nikolay Karlovich. <lb/>
+                     <title>Romance</title>.</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Holograph manuscript score, in ink, 1 p., 35 cm.</extent>
+                  </physdesc>
+                  <note>
+                     <p>Melody with words.</p>
+                  </note>
+                  <note>
+                     <p>Manuscript is undated.</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43a no. 2 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e2372">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Medtner, Nikolay Karlovich. <lb/>
+                     <title>Russkiĭ khorovod = Russian round dance, op. 58, no. 1, for two pianos</title>.</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Holograph manuscript score, in ink, 27 p., 34 cm.</extent>
+                  </physdesc>
+                  <note>
+                     <p>Manuscript is undated but believed to be circa 1940.</p>
+                  </note>
+                  <note>
+                     <p>
+                        <emph render="italic">see </emph>ML31 .M43a no. 3 (Case)</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+      <descgrp altrender="index" id="mferd17e2393">
+         <head althead="Names">Alternate Forms of Names</head>
+         <note>
+            <p>(Alternate spellings for names in parentheses)</p>
+         </note>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="1"/>
+               <colspec colname="2"/>
+               <tbody>
+                  <row>
+                     <entry colname="1">Conus, Leon</entry>
+                     <entry colname="2">(Konius, L'ev)</entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Conus, Olga</entry>
+                     <entry colname="2">(Konius, Ol'ga) </entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Conus, Sergei</entry>
+                     <entry colname="2">(Konius, Sergei) </entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Conus, Tatiana</entry>
+                     <entry colname="2">(Konius, Tatiana) </entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Dobuzhinsky, Mstislav </entry>
+                     <entry colname="2">(Dobuzhinskiĭ, Mstislav)</entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Kedroff, Nikolai</entry>
+                     <entry colname="2">(Kedrov, Nikolai)</entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Medtner, Nikolay Karlovich</entry>
+                     <entry colname="2">(Medtner, Nikolai Karlovich)</entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Paĭchadze, Gavril Gregorevich</entry>
+                     <entry colname="2">(Paitchadze, Gavriil Gregorevich )</entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Rachmaninoff, Natalie</entry>
+                     <entry colname="2">(Rachmaninoff, Nataliia)</entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Sabaniev, Alyota</entry>
+                     <entry colname="2">(Sabanev, Alëta)</entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Satina, Sofiia Aleksandrovna</entry>
+                     <entry colname="2">(Satin, Sophie)</entry>
+                  </row>
+                  <row>
+                     <entry colname="1">Wolkonsky, Irina Rachmaninoff</entry>
+                     <entry colname="2">(Volkonskaia, Irina Rachmaninoff)</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </descgrp>
+   </archdesc>
+</ead>

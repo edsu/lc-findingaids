@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 21 June 2012 01:21:20 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu012011
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu012011--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu012011--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu012011-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd34e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd34e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu012011"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu012011</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Edward Jablonski Papers
+		  </titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c">2012</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2012562123"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2012562123</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2012">2012</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd34e49">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Edward Jablonski Papers
+		  <unitdate label="Span Dates" type="inclusive" normal="1942/2003" encodinganalog="245$f"
+                      datechar="creation">1942-2003</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1950/2000" encodinganalog="245$g"
+                      datechar="creation">1950-2000</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.J25</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Jablonski, Edward</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">21,050 items</extent>
+		          <extent encodinganalog="300">72 containers</extent>
+		          <extent encodinganalog="300">36 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Edward Jablonski (1922-2004) was an author and biographer of American songwriters Harold Arlen, Irving Berlin, George Gershwin, and Alan Jay Lerner. The collection includes drafts, project files, articles, liner notes, research materials, business papers and correspondence related to his literary projects.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2012562123.10001"
+                     altrender=":::F005=^20120525020445.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd34e99">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Arlen%2C+Harold%2C+1905-1986.^">Arlen, Harold, 1905-1986.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Berlin%2C+Irving%2C+1888-1989.^">Berlin, Irving, 1888-1989.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gershwin%2C+George%2C+1898-1937.^">Gershwin, George, 1898-1937.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gershwin%2C+Ira%2C+1896-1983.^">Gershwin, Ira, 1896-1983.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward+Correspondence.^">Jablonski, Edward--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.+Alan+Jay+Lerner+%3A+a+biography.^">Jablonski, Edward. Alan Jay Lerner : a biography.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward. Alan Jay Lerner : a biography.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.+Gershwin+remembered.^">Jablonski, Edward. Gershwin remembered.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward. Gershwin remembered.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.+Gershwin+years.^">Jablonski, Edward. Gershwin years.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward. Gershwin years.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.+Gershwin.^">Jablonski, Edward. Gershwin.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward. Gershwin.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.+Harold+Arlen+%3A+happy+with+the+blues.^">Jablonski, Edward. Harold Arlen : happy with the blues.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward. Harold Arlen : happy with the blues.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.+Harold+Arlen+%3A+rhythm%2C+rainbows%2C+and+blues.^">Jablonski, Edward. Harold Arlen : rhythm, rainbows, and blues.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward. Harold Arlen : rhythm, rainbows, and blues.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.+Irving+Berlin+%3A+American+troubadour.^">Jablonski, Edward. Irving Berlin : American troubadour.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Jablonski%2C+Edward.^">Jablonski, Edward. Irving Berlin : American troubadour.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lerner%2C+Alan+Jay%2C+1918-1986.^">Lerner, Alan Jay, 1918-1986.</persname>
+         </controlaccess>
+         <controlaccess id="mferd34e148">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Aeronautics+History.^">Aeronautics--History.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Biographers+United+States.^">Biographers--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Composers+United+States+Biography.^">Composers--United States--Biography.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Librettists+United+States+Biography.^">Librettists--United States--Biography.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Lyricists+United+States+Biography.^">Lyricists--United States--Biography.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musical+theater+United+States+20th+century.^">Musical theater--United States--20th century.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Musicals.^">Musicals.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Popular+music+United+States.^">Popular music--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd34e167">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Articles.^">Articles.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Drafts+%28Documents%29^">Drafts (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Research+notes.^">Research notes.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Scripts+%28Documents%29^">Scripts (Documents)</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd34e184">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd34e187">
+            <head>Provenance</head>
+            <p>Gift; Edward Jablonski; 2004</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd34e192">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd34e197">
+            <head>Processing History</head>
+            <p>The Edward Jablonski Papers were processed and the finding aid coded for EAD format by Janet McKinney in 2012.</p>
+         </processinfo>
+         <separatedmaterial encodinganalog="544 0" id="mferd34e202">
+            <head>Transfers</head>
+            <p>Audiovisual materials have been transferred to the Library of Congress Motion Picture, Broadcasting, and Recorded Sound Division. An inventory of this material is available in the Music Division's collection file.</p>
+         </separatedmaterial>
+         <separatedmaterial encodinganalog="544 0" id="mferd34e207">
+            <head>Other Repositories</head>
+            <p>Materials specifically related to <title>The Gershwin Years</title> are found in the Edward Jablonski and Lawrence D. Stewart Collection at the Harry Ransom Humanities Research Center, University of Texas at Austin.</p>
+         </separatedmaterial>
+         <userestrict encodinganalog="540" id="mferd34e215">
+            <head>Copyright Status</head>
+            <p>Materials from the Edward Jablonski Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd34e220">
+            <head>Access and Restrictions</head>
+            <p>The Edward Jablonski Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd34e227">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the
+following information: [item, date, container number], Edward Jablonski Papers, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd34e232">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date>1922, Mar. 1</date>
+               <event>Born, Bay City, Michigan</event>
+            </chronitem>
+            <chronitem>
+               <date>1942-1946</date>
+               <event>Served with the U.S. Army Field Artillery Corp.</event>
+            </chronitem>
+            <chronitem>
+               <date>1949</date>
+               <event>Founding member of Walden Records with Peter Bartok</event>
+            </chronitem>
+            <chronitem>
+               <date>1950</date>
+               <event>Graduated from the New School for Social Research, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <date>1958</date>
+               <event>Published with Lawrence D. Stewart <title>The Gershwin Years</title>. Garden City, N.Y.: Doubleday</event>
+            </chronitem>
+            <chronitem>
+               <date>1961</date>
+               <event>Published <title>Harold Arlen: Happy With the Blues</title>. Garden City, N.Y.: Doubleday</event>
+            </chronitem>
+            <chronitem>
+               <date>1962</date>
+               <event>Published <title>George Gershwin</title>. New York: Putnam</event>
+            </chronitem>
+            <chronitem>
+               <date>1965-1980</date>
+               <event>Focused research on aviation history and published over 10 books on the subject</event>
+            </chronitem>
+            <chronitem>
+               <date>1981</date>
+               <event>Published <title>Encyclopedia of American Music</title>. Garden City, N.Y.: Doubleday</event>
+            </chronitem>
+            <chronitem>
+               <date>1987</date>
+               <event>Published <title>Gershwin</title>. New York: Doubleday</event>
+            </chronitem>
+            <chronitem>
+               <date>1989, Jan. 11</date>
+               <event>Received the ASCAP Deems Taylor Award for <title>Gershwin</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1992</date>
+               <event>Published <title>Gershwin Remembered</title>. Portland, Or.: Amadeus Press</event>
+            </chronitem>
+            <chronitem>
+               <date>1996</date>
+               <eventgrp>
+                  <event>Published <title>Alan Jay Lerner: A Biography</title>. New York: H. Holt</event>
+                  <event>Published <title>Harold Arlen: Rhythm, Rainbows, and Blues</title>. Boston: Northeastern University Press</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1999</date>
+               <event>Published <title>Irving Berlin: American Troubadour</title>. New York: Henry Holt</event>
+            </chronitem>
+            <chronitem>
+               <date>2004, Feb. 10</date>
+               <event>Died of heart failure in Manhattan</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd34e349">
+         <head>Scope and Content Note</head>
+         <p>The Edward Jablonski Papers span the period of 1942-2003, with the majority of the materials dating from 1950-2000. The collection includes book project materials, articles, liner notes, drafts, and related correspondence and business papers. All research, correspondence, and business papers pertaining to a given project are filed with its draft materials.</p>
+         <p>The Project Files series chiefly consists of materials used in the preparation and publication of Jablonski’s books on such American composers and songwriters as Harold Arlen, Irving Berlin, and George Gershwin. Drafts, notes by chapter, research materials, and correspondence are present for each biographical work. These works include <title>Harold Arlen: Happy With the Blues</title>, <title>Harold Arlen: Rhythm, Rainbows, and Blues</title>, <title>Gershwin Remembered</title> and most extensively, <title>Gershwin</title>. Articles, liner notes, and other miscellaneous project material for each composer are then filed chronologically by date.</p>
+         <p>Other major compositional projects follow in alphabetical order, including <title>The Encyclopedia of American Music</title>, and the <title>Music Lover's Encyclopedia</title>. Materials for miscellaneous articles, liner notes, and other writings focusing on a particular composer or a general broader topic such as American musical theater, can be found filed chronologically by date.</p>
+         <p>Jablonski was also an author of aviation history, and there are several articles and correspondence related to his work in this field. These are compiled together with his other writings on various non-music related subjects.</p>
+         <p>Correspondence in the Miscellany series consists of personal letters and business papers, arranged either by last name of correspondent or by date. Notable individuals represented include Abe Berman, Peter Clay, Alan Dashiell, and David Cunard. The series also contains a small amount of miscellaneous personal items.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd34e380">
+         <head>Organization of the Edward Jablonski Papers</head>
+         <p>The Edward Jablonski Papers are organized in two series: </p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="proj">Project Files, <date>1950-2000</date>
+               </ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="misc">Miscellany, <date>1942-2003</date>
+               </ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2012562123"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2012562123</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd34e399" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd34e408">
+            <did>
+               <container type="box">1-64, 69, 72</container>
+               <unittitle encodinganalog="245$a" id="proj">Project Files, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1950/2000">1950-2000</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="subseries" id="mferd34e416">
+               <did>
+                  <unittitle encodinganalog="245$a">Biographical Works</unittitle>
+               </did>
+               <c03 level="file" id="mferd34e420">
+                  <did>
+                     <unittitle encodinganalog="245$a">Arlen, Harold</unittitle>
+                  </did>
+                  <c04 level="file" id="mferd34e424">
+                     <did>
+                        <container type="box">1-2</container>
+                        <unittitle encodinganalog="245$a">Materials for <title>Harold Arlen: happy with the blues</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd34e432" level="file">
+                     <did>
+                        <container type="box">3-6</container>
+                        <unittitle encodinganalog="245$a">Materials for <title>Harold Arlen: rhythm, rainbows, and blues</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e440">
+                     <did>
+                        <container type="box">6-11</container>
+                        <unittitle encodinganalog="245$a">Articles, program notes, and liner notes</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e446">
+                     <did>
+                        <container type="box">11-12, 72</container>
+                        <unittitle encodinganalog="245$a">Correspondence, tributes, iconography</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e452">
+                     <did>
+                        <container type="box">12-13</container>
+                        <unittitle encodinganalog="245$a">Programs, scripts, sheet music, books</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file" id="mferd34e458">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bartók, Béla</unittitle>
+                  </did>
+                  <c04 level="file" id="mferd34e462">
+                     <did>
+                        <container type="box">13-14</container>
+                        <unittitle encodinganalog="245$a">Articles and liner notes</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e468">
+                     <did>
+                        <container type="box">14</container>
+                        <unittitle encodinganalog="245$a">Research materials</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e474">
+                     <did>
+                        <container type="box">15</container>
+                        <unittitle encodinganalog="245$a">Correspondence with Peter Bartók, <date>1962-2003</date>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e482">
+                     <did>
+                        <container type="box">15-16</container>
+                        <unittitle encodinganalog="245$a">Materials for <title>Turkish folk music from Asia Minor</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e490">
+                     <did>
+                        <container type="box">16</container>
+                        <unittitle encodinganalog="245$a">Estate documents</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file" id="mferd34e496">
+                  <did>
+                     <unittitle encodinganalog="245$a">Berlin, Irving</unittitle>
+                  </did>
+                  <c04 level="file" id="mferd34e500">
+                     <did>
+                        <container type="box">17-20</container>
+                        <unittitle encodinganalog="245$a">Materials for <title>Irving Berlin: American troubadour</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e508">
+                     <did>
+                        <container type="box">21-23, 72</container>
+                        <unittitle encodinganalog="245$a">Writings, correspondence, iconography</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file" id="mferd34e514">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gershwin, George and Ira</unittitle>
+                  </did>
+                  <c04 level="file" id="mferd34e518">
+                     <did>
+                        <container type="box">23-28</container>
+                        <unittitle encodinganalog="245$a">Materials for <title>Gershwin</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e526">
+                     <did>
+                        <container type="box">28-29, 70</container>
+                        <unittitle encodinganalog="245$a">Materials for <title>Gershwin Remembered</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e534">
+                     <did>
+                        <container type="box">29-30, 70</container>
+                        <unittitle encodinganalog="245$a">Materials for <title>The Gershwin Years</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e542">
+                     <did>
+                        <container type="box">30</container>
+                        <unittitle encodinganalog="245$a">Unpublished book, co-author Milton Caine</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e548">
+                     <did>
+                        <container type="box">31-32</container>
+                        <unittitle encodinganalog="245$a">Articles</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e554">
+                     <did>
+                        <container type="box">32-35</container>
+                        <unittitle encodinganalog="245$a">Liner notes</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e560">
+                     <did>
+                        <container type="box">35-36</container>
+                        <unittitle encodinganalog="245$a">Program notes</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e566">
+                     <did>
+                        <container type="box">36</container>
+                        <unittitle encodinganalog="245$a">Walden Records</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e572">
+                     <did>
+                        <container type="box">37-39</container>
+                        <unittitle encodinganalog="245$a">Projects</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e578">
+                     <did>
+                        <container type="box">40-41</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>Porgy and Bess</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e586">
+                     <did>
+                        <container type="box">41-44</container>
+                        <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e592">
+                     <did>
+                        <container type="box">44-45, 71-72</container>
+                        <unittitle encodinganalog="245$a">Iconography</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd34e598">
+                     <did>
+                        <container type="box">45-46</container>
+                        <unittitle encodinganalog="245$a">100th anniversary celebrations</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file" id="mferd34e604">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lerner, Alan Jay</unittitle>
+                  </did>
+                  <c04 level="file" id="mferd34e608">
+                     <did>
+                        <container type="box">47-49</container>
+                        <unittitle encodinganalog="245$a">Biography, writings, correspondence</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file" id="mferd34e614">
+                  <did>
+                     <unittitle encodinganalog="245$a">Serly, Tibor</unittitle>
+                  </did>
+                  <c04 level="file" id="mferd34e618">
+                     <did>
+                        <container type="box">49</container>
+                        <unittitle encodinganalog="245$a">Writings, correspondence, research materials, photographs</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file" id="mferd34e624">
+                  <did>
+                     <unittitle encodinganalog="245$a">Vaughan Williams, Ralph</unittitle>
+                  </did>
+                  <c04 level="file" id="mferd34e628">
+                     <did>
+                        <container type="box">50-51</container>
+                        <unittitle encodinganalog="245$a">Writings, correspondence, research materials, photographs</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd34e634">
+               <did>
+                  <container type="box">51-52</container>
+                  <unittitle encodinganalog="245$a">The American Musical</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e640">
+               <did>
+                  <container type="box">52-54</container>
+                  <unittitle encodinganalog="245$a">Encyclopedia of American Music</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e646">
+               <did>
+                  <container type="box">54</container>
+                  <unittitle encodinganalog="245$a">Masters of 20th Century Music</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e652">
+               <did>
+                  <container type="box">55</container>
+                  <unittitle encodinganalog="245$a">Music Lover's Encyclopedia</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries" id="mferd34e658">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file" id="mferd34e662">
+                  <did>
+                     <container type="box">58-59</container>
+                     <unittitle encodinganalog="245$a">Articles</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e668">
+                  <did>
+                     <container type="box">60-61</container>
+                     <unittitle encodinganalog="245$a">Liner notes</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e674">
+                  <did>
+                     <container type="box">61-62</container>
+                     <unittitle encodinganalog="245$a">Projects</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e680">
+                  <did>
+                     <container type="box">63-64</container>
+                     <unittitle encodinganalog="245$a">Subject files</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e686">
+                  <did>
+                     <container type="box">56-58</container>
+                     <unittitle encodinganalog="245$a">Walden Records</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e692">
+                  <did>
+                     <container type="box">69</container>
+                     <unittitle encodinganalog="245$a">Non-Music Writings</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd34e698">
+            <did>
+               <container type="box">65-68, 72</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1942/2003">1942-2003</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd34e706">
+               <did>
+                  <container type="box">65-68</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e712">
+               <did>
+                  <container type="box">68, 72</container>
+                  <unittitle encodinganalog="245$a">Personal effects</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

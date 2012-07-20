@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Thu, 19 January 2012 03:03:23 PM EST
+Generated: Mon, 21 May 2012 08:51:34 AM EDT
 URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmbrs.rs011001--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": rs011001-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd22e1">
+     id="mferd26e1">
    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
               langencoding="iso639-2b"
-              id="mferd22e2">
+              id="mferd26e2">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.mbrsrs/eadmbrs.rs011001"
              encodinganalog="856$u">http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001</eadid>
@@ -68,7 +68,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
       </revisiondesc>
    </eadheader>
    <archdesc type="register" level="collection" relatedencoding="MARC21">
-      <did id="mferd22e59">
+      <did id="mferd26e59">
          <head>Collection Summary</head>
          <unittitle label="Title" encodinganalog="245$a">Emile Berliner collection <unitdate label="Inclusive Dates" type="inclusive" encodinganalog="245$f"
                       normal="1871/1965"
@@ -145,7 +145,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                     person or organization, by subject or location, and by occupation and
                     listed alphabetically therein.</p>
          </note>
-         <controlaccess id="mferd22e153">
+         <controlaccess id="mferd26e153">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Allen%2C+Roy+Morris%2C+1882-+Correspondence.^">Allen, Roy Morris, 1882- --Correspondence.</persname>
@@ -180,7 +180,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                       altrender=":::PWEBRECON=^Sanders%2C+Joseph%2C+1877-1960.^">Sanders, Joseph,
                     1877-1960.</persname>
          </controlaccess>
-         <controlaccess id="mferd22e185">
+         <controlaccess id="mferd26e185">
             <head>Organizations</head>
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^American+Bell+Telephone+Company.^">American Bell
@@ -191,7 +191,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                       altrender=":::PWEBRECON=^Berliner+%28Record+company%29^">Berliner (Record
                     company)</corpname>
          </controlaccess>
-         <controlaccess id="mferd22e194">
+         <controlaccess id="mferd26e194">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Acoustical+engineering+United+States.^">Acoustical
@@ -253,7 +253,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      altrender=":::PWEBRECON=^Zionism+United+States.^">Zionism--United
                     States.</subject>
          </controlaccess>
-         <controlaccess id="mferd22e251">
+         <controlaccess id="mferd26e251">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Acoustic+equipment.^">Acoustic
@@ -288,7 +288,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                     pressings (Sound recordings)</genreform>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Trade+catalogs.^">Trade catalogs.</genreform>
          </controlaccess>
-         <controlaccess id="mferd22e293">
+         <controlaccess id="mferd26e293">
             <head>Occupations</head>
             <occupation encodinganalog="656" source="lcsh"
                         altrender=":::PWEBRECON=^Health+reformers+United+States.^">Health
@@ -298,9 +298,9 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                     States.</occupation>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo" id="mferd22e300">
+      <descgrp type="admininfo" id="mferd26e300">
          <head>Administrative Information</head>
-         <acqinfo encodinganalog="541" id="mferd22e303">
+         <acqinfo encodinganalog="541" id="mferd26e303">
             <head>Collection Acquisition</head>
             <p>Several of Emile Berliner's descendants, including Robert Sanders, Mrs.
                     Robert (Emily) Sanders, Robert Frank, and Joseph Sanders, have donated
@@ -308,11 +308,11 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                     Library of Congress for duplication, from 1979 through 1992. Additional
                     items have been added through Library purchases.</p>
          </acqinfo>
-         <accruals encodinganalog="584" id="mferd22e308">
+         <accruals encodinganalog="584" id="mferd26e308">
             <head>Additions</head>
             <p>No further additions to the collection are expected.</p>
          </accruals>
-         <processinfo encodinganalog="583" id="mferd22e313">
+         <processinfo encodinganalog="583" id="mferd26e313">
             <head>Processing Information</head>
             <p>The textual and graphic materials, along with the artifacts in the
                     collection, were processed by Karen Lund, Laura Gottesman, and Marco
@@ -322,14 +322,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                     individually cataloged prior to 2000, but the unpublished recordings have
                     not been individually cataloged. </p>
          </processinfo>
-         <userestrict encodinganalog="540" id="mferd22e318">
+         <userestrict encodinganalog="540" id="mferd26e318">
             <head>Use Restrictions</head>
             <p>Restrictions exist on copying, quoting, or publishing materials included in
                     the collection. For additional information, contact a reference librarian
                     in the Recorded Sound Reference Center, Library of Congress, Washington,
                     DC, 20540-4690; (202) 707-7833.</p>
          </userestrict>
-         <accessrestrict encodinganalog="506" id="mferd22e323">
+         <accessrestrict encodinganalog="506" id="mferd26e323">
             <head>Access Restrictions</head>
             <p>The Emile Berliner Collection is open for research. Advance notice may be
                     required; contact a reference librarian in the Recorded Sound Reference
@@ -344,7 +344,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                        xlink:href="http://catalog.loc.gov/">Library of Congress Online
                         Catalog</extref>.</p>
          </accessrestrict>
-         <altformavail encodinganalog="530" id="mferd22e333">
+         <altformavail encodinganalog="530" id="mferd26e333">
             <head>Online Content</head>
             <p>Selected sound recordings, photographs, textual materials (such as articles,
                     speeches, notes, and scrapbooks), artifacts, and a film from the collection
@@ -357,12 +357,12 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                     xlink:actuate="onRequest"
                     target="contlist">container list</ref> of this finding aid.</p>
          </altformavail>
-         <relatedmaterial encodinganalog="544" id="mferd22e344">
+         <relatedmaterial encodinganalog="544" id="mferd26e344">
             <head>Related Material</head>
             <p>Additional Emile Berliner papers are located in the Manuscript Division of
                     the Library of Congress.</p>
          </relatedmaterial>
-         <prefercite encodinganalog="524" id="mferd22e349">
+         <prefercite encodinganalog="524" id="mferd26e349">
             <head>Preferred Citation</head>
             <p>Researchers wishing to cite this collection should include the following
                     information: [Container number, eg., Box 3], Emile Berliner Collection,
@@ -370,7 +370,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                     Congress.</p>
          </prefercite>
       </descgrp>
-      <bioghist encodinganalog="5450" id="mferd22e354">
+      <bioghist encodinganalog="5450" id="mferd26e354">
          <head>Biographical Note</head>
          <p>Emile Berliner (1851-1929) was a prominent inventor living at the end of the
                 nineteenth and the beginning of the twentieth centuries. Overlooked by today's
@@ -523,7 +523,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                 precursor of today's digital compact discs.</p>
          <p>Emile Berliner died on August 3, 1929, in his seventy-ninth year.</p>
       </bioghist>
-      <scopecontent encodinganalog="520" id="mferd22e407">
+      <scopecontent encodinganalog="520" id="mferd26e407">
          <head>Scope and Content Note</head>
          <p>The Emile Berliner Collection includes disc recordings, textual materials,
                 photographs, artifacts, and a film. The textual materials consist of more than
@@ -545,7 +545,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                 members. Also available are post-1900 Victor records; 78 rpm records published
                 by other companies; and several vinyl LP recordings.</p>
       </scopecontent>
-      <arrangement encodinganalog="351" id="mferd22e414">
+      <arrangement encodinganalog="351" id="mferd26e414">
          <head>Collection Arrangement</head>
          <p>The collection is arranged in 17 series:</p>
          <list type="simple">
@@ -578,7 +578,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
       </otherfindaid>
       <dsc type="combined" id="contlist">
          <head>Container List</head>
-         <c01 level="series" id="mferd22e458">
+         <c01 level="series" id="mferd26e458">
             <did>
                <unittitle>Series 1. Addresses, <unitdate>circa
                         1888-1929</unitdate>
@@ -605,44 +605,44 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         machine. It also includes an address by Berliner from 1913 for the
                         National Farm School on the social status of the Jews.</p>
             </scopecontent>
-            <c02 level="subseries" id="mferd22e479">
+            <c02 level="subseries" id="mferd26e479">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle>1888-1929</unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e485" level="file">
+            <c02 id="mferd26e485" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle>1888-1929</unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e491" level="file">
+            <c02 id="mferd26e491" level="file">
                <did>
                   <container type="box-folder">1/3</container>
                   <unittitle>1888-1929</unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e497" level="file">
+            <c02 id="mferd26e497" level="file">
                <did>
                   <container type="box-folder">1/4</container>
                   <unittitle>1913</unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e503" level="file">
+            <c02 id="mferd26e503" level="file">
                <did>
                   <container type="box-folder">1/5</container>
                   <unittitle>circa 1925</unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e509" level="file">
+            <c02 id="mferd26e509" level="file">
                <did>
                   <container type="box-folder">1/6</container>
                   <unittitle>1929</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e515">
+         <c01 level="series" id="mferd26e515">
             <did>
                <unittitle>Series 2. Journal Articles and Newspaper Clippings,
                             <unitdate>1883, 1900, 1922, 1927-1929, 1955</unitdate>
@@ -674,7 +674,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             Post</title>, and the <title render="italic">Philadelphia
                             Inquirer</title>, among others.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e564">
+            <c02 level="file" id="mferd26e564">
                <did>
                   <container type="box-folder">2/1</container>
                   <unittitle>Articles on the gramophone,
@@ -682,7 +682,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e572" level="file">
+            <c02 id="mferd26e572" level="file">
                <did>
                   <container type="box-folder">OS1/1</container>
                   <unittitle>Articles on the gramophone, <unitdate>1900,
@@ -690,7 +690,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e580" level="file">
+            <c02 id="mferd26e580" level="file">
                <did>
                   <container type="box-folder">2/2</container>
                   <unittitle>Articles on the telephone, microphone,
@@ -698,7 +698,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e588" level="file">
+            <c02 id="mferd26e588" level="file">
                <did>
                   <container type="box-folder">OS1/2</container>
                   <unittitle>Articles on the telephone, microphone,
@@ -706,7 +706,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e596" level="file">
+            <c02 id="mferd26e596" level="file">
                <did>
                   <container type="box-folder">2/3</container>
                   <unittitle>Articles and clippings on health,
@@ -714,7 +714,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e604" level="file">
+            <c02 id="mferd26e604" level="file">
                <did>
                   <container type="box-folder">OS1/3</container>
                   <unittitle>Newspaper clippings on health,
@@ -722,7 +722,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e612" level="file">
+            <c02 id="mferd26e612" level="file">
                <did>
                   <container type="box-folder">2/4</container>
                   <unittitle>Articles on acoustic tile,
@@ -730,7 +730,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e620" level="file">
+            <c02 id="mferd26e620" level="file">
                <did>
                   <container type="box-folder">OS1/4</container>
                   <unittitle>Newspaper clippings on acoustic tile,
@@ -738,7 +738,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e628" level="file">
+            <c02 id="mferd26e628" level="file">
                <did>
                   <container type="box-folder">2/5</container>
                   <unittitle>Biographical and miscellaneous articles,
@@ -746,7 +746,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e637">
+            <c02 level="file" id="mferd26e637">
                <did>
                   <container type="box-folder">2/6</container>
                   <unittitle>Newspaper clippings on Berliner's death,
@@ -754,7 +754,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e645" level="file">
+            <c02 id="mferd26e645" level="file">
                <did>
                   <container type="box-folder">2/7</container>
                   <unittitle>Newspaper clippings on Berliner's death,
@@ -762,7 +762,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e653" level="file">
+            <c02 id="mferd26e653" level="file">
                <did>
                   <container type="box-folder">2/8</container>
                   <unittitle>Newspaper clippings on Berliner's death,
@@ -770,7 +770,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e661" level="file">
+            <c02 id="mferd26e661" level="file">
                <did>
                   <container type="box-folder">OS1/5</container>
                   <unittitle>Newspaper clippings on Berliner's death,
@@ -778,7 +778,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e669" level="file">
+            <c02 id="mferd26e669" level="file">
                <did>
                   <container type="box-folder">2/9</container>
                   <unittitle>Newspaper clippings on Berliner's death and other topics,
@@ -786,7 +786,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e677" level="file">
+            <c02 id="mferd26e677" level="file">
                <did>
                   <container type="box-folder">2/10</container>
                   <unittitle>Miscellaneous articles,
@@ -794,7 +794,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd22e685" level="file">
+            <c02 id="mferd26e685" level="file">
                <did>
                   <container type="box-folder">OS1/6</container>
                   <unittitle>Miscellaneous newspaper clippings,
@@ -803,7 +803,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e693">
+         <c01 level="series" id="mferd26e693">
             <did>
                <unittitle>Series 3. Artifacts,<unitdate>undated</unitdate>
                </unittitle>
@@ -824,7 +824,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                <p>This series holds actual parts from machines. They include talking
                         machine needles and washers.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e714">
+            <c02 level="file" id="mferd26e714">
                <did>
                   <container type="box-folder">4/1</container>
                   <unittitle>Sprechmaschinen-nandeln [Talking machine needles],
@@ -832,7 +832,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e722">
+            <c02 level="file" id="mferd26e722">
                <did>
                   <container type="box-folder">4/2</container>
                   <unittitle>Washer samples, <unitdate>undated</unitdate>
@@ -840,7 +840,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e730">
+         <c01 level="series" id="mferd26e730">
             <did>
                <unittitle>Series 4. Books, <unitdate>1879-1928</unitdate>
                </unittitle>
@@ -868,7 +868,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         professor of hygiene at Georgetown University, and a copy of <title render="italic">A bas les maladies!</title> published by the
                         Association for the Prevention of Tuberculosis of Washington, D.C.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e766">
+            <c02 level="file" id="mferd26e766">
                <did>
                   <container type="box-folder">5/1-3</container>
                   <unittitle>
@@ -877,7 +877,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e778">
+            <c02 level="file" id="mferd26e778">
                <did>
                   <container type="box-folder">5/5</container>
                   <unittitle>
@@ -886,7 +886,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e789">
+            <c02 level="file" id="mferd26e789">
                <did>
                   <container type="box-folder">5/6</container>
                   <unittitle>
@@ -896,7 +896,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e799">
+            <c02 level="file" id="mferd26e799">
                <did>
                   <container type="box-folder">6/1</container>
                   <unittitle>
@@ -905,7 +905,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e809">
+            <c02 level="file" id="mferd26e809">
                <did>
                   <container type="box-folder">6/2</container>
                   <unittitle>
@@ -921,7 +921,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             Berliner’s 42 years of service in Jewish charity work.</p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e822">
+            <c02 level="file" id="mferd26e822">
                <did>
                   <container type="box-folder">6/3-4</container>
                   <unittitle>
@@ -934,7 +934,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   <p>Two copies.</p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e835">
+            <c02 level="file" id="mferd26e835">
                <did>
                   <container type="box-folder">7/1</container>
                   <unittitle>
@@ -945,7 +945,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e845">
+            <c02 level="file" id="mferd26e845">
                <did>
                   <container type="box-folder">7/2</container>
                   <unittitle>
@@ -954,7 +954,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e855">
+            <c02 level="file" id="mferd26e855">
                <did>
                   <container type="box-folder">7/3</container>
                   <unittitle>
@@ -963,7 +963,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e867">
+            <c02 level="file" id="mferd26e867">
                <did>
                   <container type="box-folder">7/4</container>
                   <unittitle>
@@ -973,7 +973,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e877">
+            <c02 level="file" id="mferd26e877">
                <did>
                   <container type="box-folder">7/5</container>
                   <unittitle>
@@ -983,7 +983,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e887">
+            <c02 level="file" id="mferd26e887">
                <did>
                   <container type="box-folder">7/6</container>
                   <unittitle>
@@ -992,7 +992,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e897">
+            <c02 level="file" id="mferd26e897">
                <did>
                   <container type="box-folder">7/7</container>
                   <unittitle>
@@ -1001,7 +1001,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e907">
+            <c02 level="file" id="mferd26e907">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle>
@@ -1012,7 +1012,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e917">
+            <c02 level="file" id="mferd26e917">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle>
@@ -1023,7 +1023,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e927">
+            <c02 level="file" id="mferd26e927">
                <did>
                   <container type="box-folder">8/3</container>
                   <unittitle>
@@ -1033,7 +1033,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e937">
+            <c02 level="file" id="mferd26e937">
                <did>
                   <container type="box-folder">8/4</container>
                   <unittitle>
@@ -1044,7 +1044,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e947">
+            <c02 level="file" id="mferd26e947">
                <did>
                   <container type="box-folder">8/5</container>
                   <unittitle>
@@ -1054,7 +1054,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e957">
+            <c02 level="file" id="mferd26e957">
                <did>
                   <container type="box-folder">9/1</container>
                   <unittitle>
@@ -1064,7 +1064,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e967">
+            <c02 level="file" id="mferd26e967">
                <did>
                   <container type="box-folder">9/2</container>
                   <unittitle>
@@ -1075,7 +1075,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e978">
+            <c02 level="file" id="mferd26e978">
                <did>
                   <container type="box-folder">9/3</container>
                   <unittitle>
@@ -1086,7 +1086,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e988">
+            <c02 level="file" id="mferd26e988">
                <did>
                   <container type="box-folder">10/1</container>
                   <unittitle>
@@ -1096,7 +1096,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e998">
+            <c02 level="file" id="mferd26e998">
                <did>
                   <container type="box-folder">10/2</container>
                   <unittitle>
@@ -1106,7 +1106,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1008">
+            <c02 level="file" id="mferd26e1008">
                <did>
                   <container type="box-folder">10/3</container>
                   <unittitle>Dept. of Interior, <title render="italic">United States v.
@@ -1115,7 +1115,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1022">
+            <c02 level="file" id="mferd26e1022">
                <did>
                   <container type="box-folder">10/4</container>
                   <unittitle>
@@ -1127,7 +1127,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1032">
+            <c02 level="file" id="mferd26e1032">
                <did>
                   <container type="box-folder">10/5</container>
                   <unittitle>
@@ -1137,7 +1137,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1042">
+            <c02 level="file" id="mferd26e1042">
                <did>
                   <container type="box-folder">10/6</container>
                   <unittitle>
@@ -1147,7 +1147,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1052">
+            <c02 level="file" id="mferd26e1052">
                <did>
                   <container type="box-folder">10/7</container>
                   <unittitle>
@@ -1157,7 +1157,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1062">
+            <c02 level="file" id="mferd26e1062">
                <did>
                   <container type="box-folder">10/8</container>
                   <unittitle>
@@ -1167,7 +1167,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1072">
+            <c02 level="file" id="mferd26e1072">
                <did>
                   <container type="box-folder">11/1</container>
                   <unittitle>
@@ -1178,7 +1178,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1082">
+            <c02 level="file" id="mferd26e1082">
                <did>
                   <container type="box-folder">11/2</container>
                   <unittitle>
@@ -1189,7 +1189,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1093">
+            <c02 level="file" id="mferd26e1093">
                <did>
                   <container type="box-folder">11/3</container>
                   <unittitle>
@@ -1200,7 +1200,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1103">
+            <c02 level="file" id="mferd26e1103">
                <did>
                   <container type="box-folder">11/4</container>
                   <unittitle>
@@ -1210,7 +1210,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1113">
+            <c02 level="file" id="mferd26e1113">
                <did>
                   <container type="box-folder">11/5</container>
                   <unittitle>
@@ -1220,7 +1220,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1123">
+            <c02 level="file" id="mferd26e1123">
                <did>
                   <container type="box-folder">11/6</container>
                   <unittitle>
@@ -1229,7 +1229,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1133">
+            <c02 level="file" id="mferd26e1133">
                <did>
                   <container type="box">29</container>
                   <unittitle>
@@ -1239,7 +1239,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1146">
+            <c02 level="file" id="mferd26e1146">
                <did>
                   <container type="box">30</container>
                   <unittitle>
@@ -1251,7 +1251,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1159">
+         <c01 level="series" id="mferd26e1159">
             <did>
                <unittitle>Series 5. Catalogs, <unitdate>1895-1896</unitdate>
                </unittitle>
@@ -1275,13 +1275,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         1895, and a supplemental list of new gramophone records from June
                         1896.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1180">
+            <c02 level="file" id="mferd26e1180">
                <did>
                   <container type="box-folder">12/1</container>
                   <unittitle>Berliner Gramophone Co. complete catalogue, </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1186">
+            <c02 level="file" id="mferd26e1186">
                <did>
                   <container type="box-folder">12/2</container>
                   <unittitle>List of plates, <unitdate>January,
@@ -1289,7 +1289,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1194">
+            <c02 level="file" id="mferd26e1194">
                <did>
                   <container type="box-folder">12/2</container>
                   <unittitle>E. Berliner’s gramophone,
@@ -1297,7 +1297,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1202">
+            <c02 level="file" id="mferd26e1202">
                <did>
                   <container type="box-folder">12/2</container>
                   <unittitle>Advance list of new records,
@@ -1305,7 +1305,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1210">
+            <c02 level="file" id="mferd26e1210">
                <did>
                   <container type="box-folder">12/2</container>
                   <unittitle>Supplementary list of records,
@@ -1313,7 +1313,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1218">
+            <c02 level="file" id="mferd26e1218">
                <did>
                   <container type="box-folder">12/2</container>
                   <unittitle>Supplement list of new gramophone records,
@@ -1322,7 +1322,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1226">
+         <c01 level="series" id="mferd26e1226">
             <did>
                <unittitle>Series 6. Correspondence, <unitdate>1871-1926,
                             1946-1955</unitdate>
@@ -1348,7 +1348,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         Marshall, and others. This series is arranged in chronological
                         order.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1247">
+            <c02 level="file" id="mferd26e1247">
                <did>
                   <container type="box-folder">12/3</container>
                   <unittitle>
@@ -1356,7 +1356,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1256">
+            <c02 level="file" id="mferd26e1256">
                <did>
                   <container type="box-folder">12/4</container>
                   <unittitle>
@@ -1364,7 +1364,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1265">
+            <c02 level="file" id="mferd26e1265">
                <did>
                   <container type="box-folder">12/5</container>
                   <unittitle>
@@ -1372,7 +1372,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1274">
+            <c02 level="file" id="mferd26e1274">
                <did>
                   <container type="box-folder">12/6</container>
                   <unittitle>
@@ -1380,7 +1380,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1283">
+            <c02 level="file" id="mferd26e1283">
                <did>
                   <container type="box-folder">12/7</container>
                   <unittitle>
@@ -1388,7 +1388,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1292">
+            <c02 level="file" id="mferd26e1292">
                <did>
                   <container type="box-folder">12/8</container>
                   <unittitle>
@@ -1396,7 +1396,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1301">
+            <c02 level="file" id="mferd26e1301">
                <did>
                   <container type="box-folder">12/9</container>
                   <unittitle>
@@ -1404,7 +1404,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1310">
+            <c02 level="file" id="mferd26e1310">
                <did>
                   <container type="box-folder">12/10</container>
                   <unittitle>
@@ -1412,7 +1412,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1319">
+            <c02 level="file" id="mferd26e1319">
                <did>
                   <container type="box-folder">12/11</container>
                   <unittitle>
@@ -1420,7 +1420,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1329">
+            <c02 level="file" id="mferd26e1329">
                <did>
                   <container type="box-folder">12/12</container>
                   <unittitle>Louise Berliner Frank King’s family tree research
@@ -1429,7 +1429,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1336">
+         <c01 level="series" id="mferd26e1336">
             <did>
                <unittitle id="tiser7">Series 7. Journals and Diaries,
                             <unitdate>1889-1907</unitdate>
@@ -1451,7 +1451,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                <p>Series 7 includes copies of Cora Berliner’s journal of her family’s trip
                         to Germany in 1889 and Joseph Sander’s diaries from 1906 and 1907.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1357">
+            <c02 level="file" id="mferd26e1357">
                <did>
                   <container type="box-folder">13/1</container>
                   <unittitle>Journal of Cora A. Berliner,
@@ -1462,7 +1462,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   <p> Includes copies. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e1368">
+            <c02 level="file" id="mferd26e1368">
                <did>
                   <container type="box-folder">13/2</container>
                   <unittitle>Joseph Sanders’s diary,
@@ -1470,7 +1470,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1376">
+            <c02 level="file" id="mferd26e1376">
                <did>
                   <container type="box-folder">13/3</container>
                   <unittitle>Joseph Sanders’s diary,
@@ -1478,7 +1478,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1384">
+            <c02 level="file" id="mferd26e1384">
                <did>
                   <container type="box-folder">13/4</container>
                   <unittitle>Unidentified diary, <unitdate>undated</unitdate>
@@ -1486,7 +1486,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1392">
+         <c01 level="series" id="mferd26e1392">
             <did>
                <unittitle>Series 8. Miscellaneous Materials,
                             <unitdate>1897-1929</unitdate>
@@ -1511,7 +1511,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         Anthem,” which was written by Berliner; invitations; award
                         certificates; and programs.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1413">
+            <c02 level="file" id="mferd26e1413">
                <did>
                   <container type="box-folder">13/5</container>
                   <unittitle>Report, Association for the Prevention of Tuberculosis of
@@ -1520,7 +1520,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1421">
+            <c02 level="file" id="mferd26e1421">
                <did>
                   <container type="box-folder">13/5</container>
                   <unittitle>Sheet music, invitations, award certificates, programs,
@@ -1528,7 +1528,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1429">
+            <c02 level="file" id="mferd26e1429">
                <did>
                   <container type="box-folder">13/6</container>
                   <unittitle>Promotional materials for the Celotex Company,
@@ -1537,7 +1537,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1437">
+         <c01 level="series" id="mferd26e1437">
             <did>
                <unittitle>Series 9. Notes and Papers,
                         <unitdate>1977-1928</unitdate>
@@ -1566,7 +1566,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         Researchers will find a handwritten statement by Berliner describing
                         his preferred funeral arrangements.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1458">
+            <c02 level="file" id="mferd26e1458">
                <did>
                   <container type="box-folder">13/7</container>
                   <unittitle>Notes on experiments, including electric telescope,
@@ -1575,7 +1575,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1466">
+            <c02 level="file" id="mferd26e1466">
                <did>
                   <container type="box-folder">13/8</container>
                   <unittitle>Experiment log and notes on experiments, including
@@ -1585,7 +1585,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1474">
+            <c02 level="file" id="mferd26e1474">
                <did>
                   <container type="box-folder">13/9</container>
                   <unittitle>Birthday tribute to Emile Berliner on his 75th birthday,
@@ -1594,7 +1594,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1482">
+            <c02 level="file" id="mferd26e1482">
                <did>
                   <container type="box-folder">13/10</container>
                   <unittitle>Agreement between Joseph and Jacob Berliner, the
@@ -1602,7 +1602,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             magnetic receiver, and a eulogy for Berliner </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1488">
+            <c02 level="file" id="mferd26e1488">
                <did>
                   <container type="box-folder">13/11</container>
                   <unittitle>“Wonders,” an essay describing the wonders found in everyday
@@ -1611,7 +1611,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1496">
+            <c02 level="file" id="mferd26e1496">
                <did>
                   <container type="box-folder">13/12</container>
                   <unittitle>Legal documents and notes in German,
@@ -1620,7 +1620,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1504">
+         <c01 level="series" id="mferd26e1504">
             <did>
                <unittitle>Series 10. Pamphlets, <unitdate>1890-1929, 1951,
                             undated</unitdate>
@@ -1645,25 +1645,25 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         on installing acoustic tile at Drexel Institute, the microphone, and
                         promotion of the Berliner biography by Frederic William Wile.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1525">
+            <c02 level="file" id="mferd26e1525">
                <did>
                   <container type="box-folder">14/1</container>
                   <unittitle>Gramophone</unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1531">
+            <c02 level="file" id="mferd26e1531">
                <did>
                   <container type="box-folder">14/2</container>
                   <unittitle>Acoustics</unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1537">
+            <c02 level="file" id="mferd26e1537">
                <did>
                   <container type="box-folder">14/3</container>
                   <unittitle>Microphone</unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1543">
+            <c02 level="file" id="mferd26e1543">
                <did>
                   <container type="box-folder">14/4</container>
                   <unittitle>Telephone almanac, <unitdate>1951</unitdate>
@@ -1671,7 +1671,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1552">
+         <c01 level="series" id="mferd26e1552">
             <did>
                <unittitle>Series 11. Patents, <unitdate>1879-1909</unitdate>
                </unittitle>
@@ -1698,7 +1698,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         Sumner Tainter, Gavin Chapman, Byron Goldsmith, Charles Francis
                         Jenkins, as well as many others.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1573">
+            <c02 level="file" id="mferd26e1573">
                <did>
                   <container type="box-folder">14/5</container>
                   <unittitle>
@@ -1706,7 +1706,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1582">
+            <c02 level="file" id="mferd26e1582">
                <did>
                   <container type="box-folder">14/6</container>
                   <unittitle>
@@ -1714,27 +1714,27 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1591">
+            <c02 level="file" id="mferd26e1591">
                <did>
                   <container type="box-folder">14/7</container>
                   <unittitle>Gramophone, <unitdate>1887-1898</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1599">
+            <c02 level="file" id="mferd26e1599">
                <did>
                   <container type="box-folder">14/8</container>
                   <unittitle>Other patent holders, A-F</unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1605">
+            <c02 level="file" id="mferd26e1605">
                <did>
                   <container type="box-folder">14/9</container>
                   <unittitle>Other patent holders, G-Z</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1611">
+         <c01 level="series" id="mferd26e1611">
             <did>
                <unittitle>Series 12. Photographs, <unitdate>1871-1965,
                         undated</unitdate>
@@ -1764,7 +1764,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         photographs. Photographs are black and white; sizes are 10 x 13 inches
                         and smaller.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1632">
+            <c02 level="file" id="mferd26e1632">
                <did>
                   <container type="box-folder">15/1</container>
                   <unittitle>
@@ -1772,7 +1772,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1641">
+            <c02 level="file" id="mferd26e1641">
                <did>
                   <container type="box-folder">15/2</container>
                   <unittitle>
@@ -1780,7 +1780,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1650">
+            <c02 level="file" id="mferd26e1650">
                <did>
                   <container type="box-folder">15/3</container>
                   <unittitle>
@@ -1788,7 +1788,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1659">
+            <c02 level="file" id="mferd26e1659">
                <did>
                   <container type="box-folder">15/4</container>
                   <unittitle>
@@ -1796,7 +1796,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1668">
+            <c02 level="file" id="mferd26e1668">
                <did>
                   <container type="box-folder">15/5</container>
                   <unittitle>
@@ -1804,7 +1804,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1677">
+            <c02 level="file" id="mferd26e1677">
                <did>
                   <container type="box-folder">15/6</container>
                   <unittitle>
@@ -1812,7 +1812,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1686">
+            <c02 level="file" id="mferd26e1686">
                <did>
                   <container type="box-folder">15/7</container>
                   <unittitle>
@@ -1820,7 +1820,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1695">
+            <c02 level="file" id="mferd26e1695">
                <did>
                   <container type="box-folder">16/1</container>
                   <unittitle>Photograph album, <unitdate>circa
@@ -1828,7 +1828,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1703">
+            <c02 level="file" id="mferd26e1703">
                <did>
                   <container type="box-folder">16/2</container>
                   <unittitle>
@@ -1836,7 +1836,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1713">
+            <c02 level="file" id="mferd26e1713">
                <did>
                   <container type="box-folder">16/3</container>
                   <unittitle>
@@ -1844,7 +1844,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1722">
+            <c02 level="file" id="mferd26e1722">
                <did>
                   <container type="box-folder">16/4</container>
                   <unittitle>
@@ -1852,7 +1852,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1731">
+            <c02 level="file" id="mferd26e1731">
                <did>
                   <container type="box-folder">16/5</container>
                   <unittitle>
@@ -1860,7 +1860,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1740">
+            <c02 level="file" id="mferd26e1740">
                <did>
                   <container type="box-folder">16/6</container>
                   <unittitle>
@@ -1868,7 +1868,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1749">
+            <c02 level="file" id="mferd26e1749">
                <did>
                   <container type="box-folder">16/7</container>
                   <unittitle>
@@ -1876,7 +1876,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1758">
+            <c02 level="file" id="mferd26e1758">
                <did>
                   <container type="box-folder">16/8</container>
                   <unittitle>
@@ -1884,7 +1884,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1767">
+            <c02 level="file" id="mferd26e1767">
                <did>
                   <container type="box-folder">16/9</container>
                   <unittitle>
@@ -1892,7 +1892,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1776">
+            <c02 level="file" id="mferd26e1776">
                <did>
                   <container type="box-folder">17/1</container>
                   <unittitle>
@@ -1900,7 +1900,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1785">
+            <c02 level="file" id="mferd26e1785">
                <did>
                   <container type="box-folder">17/2</container>
                   <unittitle>
@@ -1908,7 +1908,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1794">
+            <c02 level="file" id="mferd26e1794">
                <did>
                   <container type="box-folder">17/3</container>
                   <unittitle>
@@ -1916,7 +1916,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1803">
+            <c02 level="file" id="mferd26e1803">
                <did>
                   <container type="box-folder">17/4</container>
                   <unittitle>
@@ -1924,7 +1924,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1813">
+            <c02 level="file" id="mferd26e1813">
                <did>
                   <container type="box-folder">17/5</container>
                   <unittitle>
@@ -1932,7 +1932,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1822">
+            <c02 level="file" id="mferd26e1822">
                <did>
                   <container type="box-folder">17/6</container>
                   <unittitle>
@@ -1940,7 +1940,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1831">
+            <c02 level="file" id="mferd26e1831">
                <did>
                   <container type="box-folder">17/7</container>
                   <unittitle>
@@ -1948,7 +1948,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1840">
+            <c02 level="file" id="mferd26e1840">
                <did>
                   <container type="box-folder">17/8</container>
                   <unittitle>
@@ -1956,7 +1956,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1849">
+            <c02 level="file" id="mferd26e1849">
                <did>
                   <container type="box-folder">17/9</container>
                   <unittitle>
@@ -1964,7 +1964,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1858">
+            <c02 level="file" id="mferd26e1858">
                <did>
                   <container type="box-folder">17/10</container>
                   <unittitle>
@@ -1972,7 +1972,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1867">
+            <c02 level="file" id="mferd26e1867">
                <did>
                   <container type="box-folder">17/11</container>
                   <unittitle>
@@ -1980,19 +1980,19 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1876">
+            <c02 level="file" id="mferd26e1876">
                <did>
                   <container type="box-folder">OS 2/1</container>
                   <unittitle>Emile Berliner on porch</unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1882">
+            <c02 level="file" id="mferd26e1882">
                <did>
                   <container type="box-folder">OS 2/1</container>
                   <unittitle>Milton King on horseback</unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1888">
+            <c02 level="file" id="mferd26e1888">
                <did>
                   <container type="box-folder">OS 2/1</container>
                   <unittitle>Portrait of Louise Berliner
@@ -2000,7 +2000,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1895">
+            <c02 level="file" id="mferd26e1895">
                <did>
                   <container type="box-folder">OS 2/2</container>
                   <unittitle>Portraits of Robert Berliner Frank
@@ -2008,13 +2008,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1903">
+            <c02 level="file" id="mferd26e1903">
                <did>
                   <container type="box-folder">OS 2/2</container>
                   <unittitle>Portrait of Cora Berliner</unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e1909">
+            <c02 level="file" id="mferd26e1909">
                <did>
                   <container type="box-folder">OS 2/3</container>
                   <unittitle>Matrix plant of the Berliner Gramophone Co.
@@ -2023,7 +2023,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e1916">
+         <c01 level="series" id="mferd26e1916">
             <did>
                <unittitle id="tiser13">Series 13. Recordings, <unitdate>circa
                             1890-1950s</unitdate>
@@ -2069,7 +2069,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         1930s, although there are a few items from as late as 1956.</p>
             </scopecontent>
          </c01>
-         <c01 level="series" id="mferd22e1945">
+         <c01 level="series" id="mferd26e1945">
             <did>
                <unittitle>Series 14. Scrapbooks,
                         <unitdate>1885-1930</unitdate>
@@ -2097,7 +2097,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         and milk pasteurization. One scrapbook contains jokes, poetry, and
                         health poems Berliner wrote for newspaper publications.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e1966">
+            <c02 level="file" id="mferd26e1966">
                <did>
                   <container type="box">18</container>
                   <unittitle>
@@ -2110,7 +2110,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             theory, and public health work.</p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e1978">
+            <c02 level="file" id="mferd26e1978">
                <did>
                   <container type="box">19</container>
                   <unittitle>
@@ -2122,7 +2122,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             Also poetry, jokes, and health poems. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e1990">
+            <c02 level="file" id="mferd26e1990">
                <did>
                   <container type="box">20</container>
                   <unittitle>Acoustic tiles, <unitdate>1930</unitdate>
@@ -2133,7 +2133,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             acoustic tile system. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2001">
+            <c02 level="file" id="mferd26e2001">
                <did>
                   <container type="box">21</container>
                   <unittitle>
@@ -2146,7 +2146,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             William Wile. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2013">
+            <c02 level="file" id="mferd26e2013">
                <did>
                   <container type="box">22</container>
                   <unittitle>Partially filled scrapbook,
@@ -2159,7 +2159,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             drawings, and an article on cloud telegraphy. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2024">
+            <c02 level="file" id="mferd26e2024">
                <did>
                   <container type="box">23</container>
                   <unittitle>Palestine and Zionism [“p &amp; z”],
@@ -2170,7 +2170,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   <p>Articles, pamphlets, and letters on Palestine and Zionism. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2035">
+            <c02 level="file" id="mferd26e2035">
                <did>
                   <container type="box">24</container>
                   <unittitle>Milk pasteurization and health [“m &amp; h”],
@@ -2182,7 +2182,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             health issues. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2046">
+            <c02 level="file" id="mferd26e2046">
                <did>
                   <container type="box">25</container>
                   <unittitle>Lawsuit letters and records,
@@ -2194,7 +2194,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             lawsuits. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2057">
+            <c02 level="file" id="mferd26e2057">
                <did>
                   <container type="box">26</container>
                   <unittitle>Milk, <unitdate>1910</unitdate>
@@ -2205,7 +2205,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             milk. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2069">
+            <c02 level="file" id="mferd26e2069">
                <did>
                   <container type="box">27</container>
                   <unittitle>Acoustics, <unitdate>1925-1928</unitdate>
@@ -2216,7 +2216,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             acoustic tiles. Includes a patent for acoustic tiles. </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2080">
+            <c02 level="file" id="mferd26e2080">
                <did>
                   <container type="box">28</container>
                   <unittitle>Berliner-Edison controversy,
@@ -2228,7 +2228,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         </p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2091">
+            <c02 level="file" id="mferd26e2091">
                <did>
                   <container type="box">OS 3-OS 4</container>
                   <unittitle>Historical accounts of the invention of the telephone,
@@ -2240,7 +2240,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </scopecontent>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e2100">
+         <c01 level="series" id="mferd26e2100">
             <did>
                <unittitle>Series 15. Joseph Sanders materials, <unitdate>1896-1927,
                             1953-1955</unitdate>
@@ -2277,7 +2277,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                        xlink:actuate="onRequest"
                        target="tiser13">series 13, Recordings</ref>.</p>
             </scopecontent>
-            <c02 level="file" id="mferd22e2130">
+            <c02 level="file" id="mferd26e2130">
                <did>
                   <container type="box-folder">31/1-2</container>
                   <unittitle>Emile Berliner tax forms,
@@ -2285,7 +2285,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2138">
+            <c02 level="file" id="mferd26e2138">
                <did>
                   <container type="box-folder">31/3</container>
                   <unittitle>Joseph Sanders fax forms,
@@ -2293,7 +2293,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2146">
+            <c02 level="file" id="mferd26e2146">
                <did>
                   <container type="box-folder">31/4</container>
                   <unittitle>Cora Berliner tax forms,
@@ -2301,7 +2301,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2154">
+            <c02 level="file" id="mferd26e2154">
                <did>
                   <container type="box-folder">31/5</container>
                   <unittitle>Telephon-Fabrik catalog, J. Berliner,
@@ -2309,7 +2309,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2162">
+            <c02 level="file" id="mferd26e2162">
                <did>
                   <container type="box-folder">31/6</container>
                   <unittitle>Patent booklets on copyright infringement cases involving
@@ -2317,7 +2317,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2170">
+            <c02 level="file" id="mferd26e2170">
                <did>
                   <container type="box-folder">31/7</container>
                   <unittitle>Patent booklets on copyright infringement cases involving
@@ -2326,7 +2326,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2178">
+            <c02 level="file" id="mferd26e2178">
                <did>
                   <container type="box-folder">32/8</container>
                   <unittitle>Multiplexgrammophon patents,
@@ -2334,20 +2334,20 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2186">
+            <c02 level="file" id="mferd26e2186">
                <did>
                   <container type="box-folder">32/9</container>
                   <unittitle>European patents, <unitdate>1904-1913</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2195">
+            <c02 level="file" id="mferd26e2195">
                <did>
                   <container type="box-folder">32/10</container>
                   <unittitle>Austria no. 24624, gramophone record patents, </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2201">
+            <c02 level="file" id="mferd26e2201">
                <did>
                   <container type="box-folder">32/11-12</container>
                   <unittitle>Floor covering patents,
@@ -2355,7 +2355,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2209">
+            <c02 level="file" id="mferd26e2209">
                <did>
                   <container type="box-folder">32/13</container>
                   <unittitle>Composition of matter patents,
@@ -2363,7 +2363,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2217">
+            <c02 level="file" id="mferd26e2217">
                <did>
                   <container type="box-folder">32/14</container>
                   <unittitle>Gramophone patents,
@@ -2371,7 +2371,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2225">
+            <c02 level="file" id="mferd26e2225">
                <did>
                   <container type="box-folder">32/15</container>
                   <unittitle>Patents for gramophone record tablets,
@@ -2379,7 +2379,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2233">
+            <c02 level="file" id="mferd26e2233">
                <did>
                   <container type="box-folder">32/16</container>
                   <unittitle>Arguments submitted to German patent office overcoming
@@ -2388,7 +2388,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2241">
+            <c02 level="file" id="mferd26e2241">
                <did>
                   <container type="box-folder">32/17</container>
                   <unittitle>Gramophone improvement patents,
@@ -2399,7 +2399,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   <p>Relates to the yoke supported neck.</p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2252">
+            <c02 level="file" id="mferd26e2252">
                <did>
                   <container type="box-folder">33/18</container>
                   <unittitle>Patents and correspondence relating to improvement in sound,
@@ -2407,7 +2407,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2260">
+            <c02 level="file" id="mferd26e2260">
                <did>
                   <container type="box-folder">33/19</container>
                   <unittitle>Sound record tablet patent applications #204, #024,
@@ -2415,7 +2415,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2268">
+            <c02 level="file" id="mferd26e2268">
                <did>
                   <container type="box-folder">33/20-22</container>
                   <unittitle>German patent S. 20855, Improvement in sound record tablets,
@@ -2423,7 +2423,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2276">
+            <c02 level="file" id="mferd26e2276">
                <did>
                   <container type="box-folder">33/23</container>
                   <unittitle>J. Sanders patents,
@@ -2431,7 +2431,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2285">
+            <c02 level="file" id="mferd26e2285">
                <did>
                   <container type="box-folder">33/24</container>
                   <unittitle>Miscellaneous papers, <unitdate>1904, 1910, 1915,
@@ -2439,7 +2439,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2293">
+            <c02 level="file" id="mferd26e2293">
                <did>
                   <container type="box-folder">33/25A-B</container>
                   <unittitle>Miscellaneous papers,
@@ -2447,7 +2447,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2301">
+            <c02 level="file" id="mferd26e2301">
                <did>
                   <container type="box-folder">34/26</container>
                   <unittitle>Interference #24,849, <title render="italic">Sanders v.
@@ -2456,7 +2456,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2312">
+            <c02 level="file" id="mferd26e2312">
                <did>
                   <container type="box-folder">34/27</container>
                   <unittitle>Miscellaneous correspondence,
@@ -2467,7 +2467,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   <p>Original folder was marked “G.”</p>
                </scopecontent>
             </c02>
-            <c02 level="file" id="mferd22e2323">
+            <c02 level="file" id="mferd26e2323">
                <did>
                   <container type="box-folder">34/28</container>
                   <unittitle>Correspondence between Joseph Sanders and B.L. Aldridge,
@@ -2475,7 +2475,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2331">
+            <c02 level="file" id="mferd26e2331">
                <did>
                   <container type="box-folder">34/29</container>
                   <unittitle>Interference #27784, <title render="italic">A. Smith and
@@ -2484,7 +2484,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2342">
+            <c02 level="file" id="mferd26e2342">
                <did>
                   <container type="box-folder">34/30</container>
                   <unittitle>Correspondence relating to <title render="italic">J. Sanders
@@ -2492,7 +2492,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2353">
+            <c02 level="file" id="mferd26e2353">
                <did>
                   <container type="box-folder">34/31</container>
                   <unittitle>Correspondence of Lyons &amp; Bissing, attorneys,
@@ -2500,7 +2500,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd22e2361">
+            <c02 level="file" id="mferd26e2361">
                <did>
                   <container type="box-folder">34/32</container>
                   <unittitle>Correspondence relating to Austria and Russia,
@@ -2510,7 +2510,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e2368">
+         <c01 level="series" id="mferd26e2368">
             <did>
                <unittitle>Series 16. Acoustic Tile, <unitdate>1899,
                         1925-1929</unitdate>
@@ -2532,12 +2532,12 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                         filed at the end. Folders of news clippings from 1927 regarding the
                         invention follow the correspondence.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd22e2390">
+            <c02 level="subseries" id="mferd26e2390">
                <did>
                   <unittitle>Correspondence <unitdate/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd22e2395">
+               <c03 level="file" id="mferd26e2395">
                   <did>
                      <container type="box-folder">35/1</container>
                      <unittitle>American Piano Supply Co.,
@@ -2545,7 +2545,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2403">
+               <c03 level="file" id="mferd26e2403">
                   <did>
                      <container type="box-folder">35/2</container>
                      <unittitle>American Wire Fabrics Corp.,
@@ -2553,7 +2553,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2411">
+               <c03 level="file" id="mferd26e2411">
                   <did>
                      <container type="box-folder">35/3</container>
                      <unittitle>Miscellaneous A,
@@ -2561,7 +2561,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2419">
+               <c03 level="file" id="mferd26e2419">
                   <did>
                      <container type="box-folder">35/4</container>
                      <unittitle>Ballou, Frank M., <unitdate>1927,
@@ -2569,7 +2569,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2427">
+               <c03 level="file" id="mferd26e2427">
                   <did>
                      <container type="box-folder">35/5</container>
                      <unittitle>Bates Valve Bag Co.,
@@ -2577,7 +2577,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2435">
+               <c03 level="file" id="mferd26e2435">
                   <did>
                      <container type="box-folder">35/6</container>
                      <unittitle>Bell Telephone Laboratories, <unitdate>1925,
@@ -2585,7 +2585,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2443">
+               <c03 level="file" id="mferd26e2443">
                   <did>
                      <container type="box-folder">35/7</container>
                      <unittitle>Berliner, Joseph,
@@ -2593,7 +2593,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2451">
+               <c03 level="file" id="mferd26e2451">
                   <did>
                      <container type="box-folder">35/8</container>
                      <unittitle>Berry, F. E., Jr., <unitdate>1925,
@@ -2601,7 +2601,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2459">
+               <c03 level="file" id="mferd26e2459">
                   <did>
                      <container type="box-folder">35/9</container>
                      <unittitle>Miscellaneous B,
@@ -2609,7 +2609,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2467">
+               <c03 level="file" id="mferd26e2467">
                   <did>
                      <container type="box-folder">35/10</container>
                      <unittitle>Casein Manufacturing Group, <unitdate>1926,
@@ -2617,14 +2617,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2476">
+               <c03 level="file" id="mferd26e2476">
                   <did>
                      <container type="box-folder">35/11</container>
                      <unittitle>Cohn, Milton, <unitdate>1928</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2484">
+               <c03 level="file" id="mferd26e2484">
                   <did>
                      <container type="box-folder">35/12</container>
                      <unittitle>Commissioners of the District of Columbia,
@@ -2632,7 +2632,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2492">
+               <c03 level="file" id="mferd26e2492">
                   <did>
                      <container type="box-folder">35/13</container>
                      <unittitle>Miscellaneous C,
@@ -2640,7 +2640,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2500">
+               <c03 level="file" id="mferd26e2500">
                   <did>
                      <container type="box-folder">35/14</container>
                      <unittitle>Miscellaneous D,
@@ -2648,7 +2648,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2508">
+               <c03 level="file" id="mferd26e2508">
                   <did>
                      <container type="box-folder">35/15</container>
                      <unittitle>Miscellaneous E,
@@ -2656,7 +2656,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2516">
+               <c03 level="file" id="mferd26e2516">
                   <did>
                      <container type="box-folder">36/1</container>
                      <unittitle>F.S. &amp; G.L. Brown Machine Co.,
@@ -2664,7 +2664,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2524">
+               <c03 level="file" id="mferd26e2524">
                   <did>
                      <container type="box-folder">36/2</container>
                      <unittitle>Miscellaneous F,
@@ -2672,7 +2672,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2532">
+               <c03 level="file" id="mferd26e2532">
                   <did>
                      <container type="box-folder">36/3</container>
                      <unittitle> Commissioners of the District of Columbia,
@@ -2680,7 +2680,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2540">
+               <c03 level="file" id="mferd26e2540">
                   <did>
                      <container type="box-folder">36/4</container>
                      <unittitle>Miscellaneous G,
@@ -2688,7 +2688,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2548">
+               <c03 level="file" id="mferd26e2548">
                   <did>
                      <container type="box-folder">36/5-7</container>
                      <unittitle>Heilprin, W. A.,
@@ -2696,7 +2696,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2556">
+               <c03 level="file" id="mferd26e2556">
                   <did>
                      <container type="box-folder">36/8</container>
                      <unittitle>Miscellaneous H,
@@ -2704,7 +2704,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2565">
+               <c03 level="file" id="mferd26e2565">
                   <did>
                      <container type="box-folder">36/9</container>
                      <unittitle>Miscellaneous I,
@@ -2712,7 +2712,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2573">
+               <c03 level="file" id="mferd26e2573">
                   <did>
                      <container type="box-folder">36/10</container>
                      <unittitle>John R. Livezey Co.,
@@ -2720,7 +2720,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2581">
+               <c03 level="file" id="mferd26e2581">
                   <did>
                      <container type="box-folder">36/11</container>
                      <unittitle>
@@ -2730,7 +2730,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2591">
+               <c03 level="file" id="mferd26e2591">
                   <did>
                      <container type="box-folder">36/12</container>
                      <unittitle>Miscellaneous J,
@@ -2738,7 +2738,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2599">
+               <c03 level="file" id="mferd26e2599">
                   <did>
                      <container type="box-folder">37/1</container>
                      <unittitle>Miscellaneous K,
@@ -2746,14 +2746,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2607">
+               <c03 level="file" id="mferd26e2607">
                   <did>
                      <container type="box-folder">37/2</container>
                      <unittitle>Ludlow, Israel, <unitdate>1926</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2615">
+               <c03 level="file" id="mferd26e2615">
                   <did>
                      <container type="box-folder">37/3</container>
                      <unittitle>Miscellaneous L,
@@ -2761,7 +2761,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2623">
+               <c03 level="file" id="mferd26e2623">
                   <did>
                      <container type="box-folder">37/4</container>
                      <unittitle>Methodist Episcopal Church South, <unitdate>1926,
@@ -2769,7 +2769,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2631">
+               <c03 level="file" id="mferd26e2631">
                   <did>
                      <container type="box-folder">37/5</container>
                      <unittitle>Miscellaneous M,
@@ -2777,7 +2777,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2639">
+               <c03 level="file" id="mferd26e2639">
                   <did>
                      <container type="box-folder">37/6</container>
                      <unittitle>National Association for Music in Hospitals, Inc.,
@@ -2785,7 +2785,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2647">
+               <c03 level="file" id="mferd26e2647">
                   <did>
                      <container type="box-folder">37/7</container>
                      <unittitle>Miscellaneous N-O,
@@ -2793,7 +2793,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2656">
+               <c03 level="file" id="mferd26e2656">
                   <did>
                      <container type="box-folder">37/8</container>
                      <unittitle>Peck, Stowe and Wilcox Co. (Pexto),
@@ -2801,7 +2801,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2664">
+               <c03 level="file" id="mferd26e2664">
                   <did>
                      <container type="box-folder">37/9</container>
                      <unittitle>Miscellaneous P,
@@ -2809,7 +2809,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2672">
+               <c03 level="file" id="mferd26e2672">
                   <did>
                      <container type="box-folder">37/10</container>
                      <unittitle>Miscellaneous R,
@@ -2817,14 +2817,14 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2680">
+               <c03 level="file" id="mferd26e2680">
                   <did>
                      <container type="box-folder">37/11</container>
                      <unittitle>Smoot, <unitdate>1927</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2688">
+               <c03 level="file" id="mferd26e2688">
                   <did>
                      <container type="box-folder">37/12</container>
                      <unittitle>Sun Book and Job Printing Office, Frank Vinton,
@@ -2832,7 +2832,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2696">
+               <c03 level="file" id="mferd26e2696">
                   <did>
                      <container type="box-folder">37/13</container>
                      <unittitle>Miscellaneous S,
@@ -2840,7 +2840,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2704">
+               <c03 level="file" id="mferd26e2704">
                   <did>
                      <container type="box-folder">37/14</container>
                      <unittitle>Miscellaneous T,
@@ -2848,7 +2848,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2712">
+               <c03 level="file" id="mferd26e2712">
                   <did>
                      <container type="box-folder">38/1</container>
                      <unittitle>Miscellaneous U-W,
@@ -2856,7 +2856,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2720">
+               <c03 level="file" id="mferd26e2720">
                   <did>
                      <container type="box-folder">38/2</container>
                      <unittitle>Wolfe &amp; Littlehales,
@@ -2864,7 +2864,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2728">
+               <c03 level="file" id="mferd26e2728">
                   <did>
                      <container type="box-folder">38/3</container>
                      <unittitle>Miscellaneous Y-Z, <unitdate>1899,
@@ -2872,7 +2872,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2736">
+               <c03 level="file" id="mferd26e2736">
                   <did>
                      <container type="box-folder">38/4</container>
                      <unittitle>Unidentified, <unitdate>1927</unitdate>
@@ -2880,13 +2880,13 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd22e2744">
+            <c02 level="subseries" id="mferd26e2744">
                <did>
                   <unittitle>Clippings, <unitdate>1927</unitdate> and
                                 <unitdate>undated</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd22e2753">
+               <c03 level="file" id="mferd26e2753">
                   <did>
                      <container type="box-folder">38/5</container>
                      <unittitle>
@@ -2894,7 +2894,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2762">
+               <c03 level="file" id="mferd26e2762">
                   <did>
                      <container type="box-folder">38/6</container>
                      <unittitle>
@@ -2902,7 +2902,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2771">
+               <c03 level="file" id="mferd26e2771">
                   <did>
                      <container type="box-folder">38/7</container>
                      <unittitle>
@@ -2910,7 +2910,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2780">
+               <c03 level="file" id="mferd26e2780">
                   <did>
                      <container type="box-folder">38/8</container>
                      <unittitle>
@@ -2918,7 +2918,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2789">
+               <c03 level="file" id="mferd26e2789">
                   <did>
                      <container type="box-folder">38/9</container>
                      <unittitle>
@@ -2926,7 +2926,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2798">
+               <c03 level="file" id="mferd26e2798">
                   <did>
                      <container type="box-folder">38/10</container>
                      <unittitle>
@@ -2934,7 +2934,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                             </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd22e2807">
+               <c03 level="file" id="mferd26e2807">
                   <did>
                      <container type="box-folder">38/11</container>
                      <unittitle>Miscellaneous clippings,
@@ -2944,7 +2944,7 @@ URL: http://hdl.loc.gov/loc.mbrsrs/eadmbrs.rs011001
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd22e2815">
+         <c01 level="series" id="mferd26e2815">
             <did>
                <unittitle>Series 17. Berliner Family Home Movie, <unitdate>1903 or
                             1904</unitdate>

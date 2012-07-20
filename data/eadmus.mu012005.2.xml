@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Mon, 21 May 2012 08:51:31 AM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu012005
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu012005--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu012005--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu012005-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd5e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd5e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu012005"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu012005</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Herbert L. Kirk Collection
+		  </titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="1999" encodinganalog="260$c">1999</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2006560201"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2006560201</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2012">2012</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd5e48">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Herbert L. Kirk Collection
+		  <unitdate label="Span Dates" type="inclusive" normal="1870/1993" encodinganalog="245$f"
+                      datechar="creation">circa 1870-1993</unitdate>
+			         <unitdate label="Bulk Dates" type="bulk" normal="1970/1979" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1970-1979)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.K57</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Kirk, H. L.</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">around 1500 items</extent>
+		          <extent encodinganalog="300">46 containers</extent>
+		          <extent encodinganalog="300">20 linear feet</extent>		  
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in
+			<language encodinganalog="041" langcode="eng">English</language>, <language encodinganalog="041" langcode="spa">Spanish</language> and <language encodinganalog="041" langcode="fre">French</language>
+		       </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Herbert L. Kirk (1926-1994) was a writer, editor, and publishing consultant. The collection chiefly consists of material relating to his book, <title>Pablo Casals, a Biography</title> (Holt, Rinehart and Winston, 1974). It includes his extensive research material on Casals, his research notes and business papers, correspondence, photographs, programs, drafts and proofs of the book, clippings, articles, posters, and a scrapbook.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2006560201.10001"
+                     altrender=":::F005=^20120418011949.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd5e108">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Casals%2C+Pablo%2C+1876-1973+Correspondence.^">Casals, Pablo, 1876-1973--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Casals%2C+Pablo%2C+1876-1973+Photographs.^">Casals, Pablo, 1876-1973--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Casals%2C+Pablo%2C+1876-1973.^">Casals, Pablo, 1876-1973.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Istomin%2C+Marta+Casals+Correspondence.^">Istomin, Marta Casals--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Istomin%2C+Marta+Casals+Photographs.^">Istomin, Marta Casals--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Istomin%2C+Marta+Casals.^">Istomin, Marta Casals.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kirk%2C+H.+L.^">Kirk, H. L.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kirk%2C+H.+L.^">Kirk, H. L.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kirk%2C+H.+L.+Pablo+Casals.^">Kirk, H. L. Pablo Casals.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Kirk%2C+H.+L.^">Kirk, H. L. Pablo Casals.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kirk%2C+H.+L.+Correspondence.^">Kirk, H. L.--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Tovey%2C+Donald+Francis%2C+1875-1940+Correspondence.^">Tovey, Donald Francis, 1875-1940--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd5e136">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Musicians+Spain.^">Musicians--Spain.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Violoncellists+Spain.^">Violoncellists--Spain.</subject>
+         </controlaccess>
+         <controlaccess id="mferd5e143">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Articles.^">Articles.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Drafts+%28Documents%29^">Drafts (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Financial+records.^">Financial records.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Promotional+materials.^">Promotional materials.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd5e164">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd5e167">
+            <head>Provenance</head>
+            <p>Gift; Herbert L. Kirk; 1995.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd5e172">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd5e177">
+            <head>Processing History</head>
+            <p>The Herbert L. Kirk Collection was processed by Stefan Patejak in 1999. Nancy Seeger revised the finding aid and coded it for EAD format in 2012.</p>
+         </processinfo>
+         <separatedmaterial encodinganalog="544 0" id="mferd5e182">
+            <head>Transfers</head>
+            <p>One hundred audiotapes and a videotape containing concerts, documentaries, and interviews that Kirk made in the course of his research have been transferred to the Library of Congress Motion Picture, Broadcasting and Recorded Sound Division. Some of the audiotapes have been individually cataloged and are identified as part of the "H. L. Kirk Collection (Library of Congress)."</p>
+         </separatedmaterial>
+         <userestrict encodinganalog="540" id="mferd5e187">
+            <head>Copyright Status</head>
+            <p>Materials from the Herbert L. Kirk Collection are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd5e192">
+            <head>Access and Restrictions</head>
+            <p>The Herbert L. Kirk Collection is open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd5e199">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Herbert L. Kirk Collection, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd5e204">
+         <head>Biographical Note</head>
+         <p>Herbert L. Kirk was a writer, editor and publishing consultant when he first met Pablo Casals in 1960. In his own words, "my first reaction was veneration." They became close friends and in 1966 Casals invited Kirk to write his authorized biography. Kirk was given extensive access to Casals and his records. The book was finished in 1973 within hours of Casals' death. In his will, Kirk left his research material and other related items to the Library of Congress.</p>
+         <p>Herbert L. Kirk was born in Orlando, Florida, on July 26, 1926. He earned an A.B. degree from Wake Forest College, and attended graduate school at Columbia University and New York University. After serving in the U.S. Army, he made New York City his home and began pursuing a career in book publishing. He held various editorial and executive positions at Prentice-Hall, Ronald Press, Appleton-Century-Crofts, Macmillan, and Hill &amp; Wang. He headed H. L. Kirk Associates, a small editorial consulting firm, and served as an advisory editor for McGraw-Hill.</p>
+         <p>Although Mr. Kirk never studied the cello, he was an accomplished amateur pianist and very knowledgeable about classical music. He came to know Casals well during the time that the cellist was associated with the Marlboro Festival in Vermont, where Kirk and his wife had a summer house in nearby Jacksonville. Kirk's biography of Casals, <title>Pablo Casals, a Biography</title>, was his only notable published work.</p>
+         <p>Kirk died in New York City, on October 31, 1994.</p>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd5e218">
+         <head>Scope and Content Note</head>
+         <p>Herbert L. Kirk is best known in the field of musicology as the author of <title>Pablo Casals, a Biography</title> (Holt, Rinehart and Winston, 1974), the authorized biography of Pablo Casals. The bulk of the material in the Kirk collection is related to this book and includes various drafts of the work and material gathered in researching the subject.</p>
+         <p>The Correspondence series includes correspondence between Kirk and Casals, letters to and from Pablo and Marta Casals, business correspondence to and from Kirk regarding his research for the book and other projects, and a selection of acknowledgments from persons who received presentation copies of the book. It also contains photocopies of letters from Casals to Sir Donald Tovey.</p>
+         <p>The Photographs series contains pictures, both candid and posed, of Pablo Casals that Kirk gathered in researching his book. It also inlcudes photographs of Casals' wife Marta, relatives, associates, houses, and awards. There are also pictures of Kirk and his family, some with Casals. Many photographs show Casals in performance, and with notable individuals. In addition, there is a complete set of illustrations that was used in the book. The Programs series contains an extensive set of programs documenting Casals' performances.</p>
+         <p>The Pablo Casals Papers series contains materials directly related to Pablo Casals, including legal and business papers, transcripts of interviews that Kirk had with Casals, Casals' music lessons, chronologies of Casals' career, photocopies of some of his musical compositions, and scripts. The collection includes numerous drafts and proofs of Kirk's book--both of the main text and of the front and back matter--which can be found in the <title>Pablo Casals</title> Book Material series. Many of the versions contain corrections and annotations. The Research Material and Research Notes series contain respectively the files of research material that Kirk amassed and notes made in the course of researching and writing his book. These files were kept intact upon receipt and Kirk's original order of these materials has been retained. Additional research materials include newspaper and magazine clippings, whole magazines, and books about Casals and related subjects.</p>
+         <p>The Realia series contains souvenir medals from Casals festivals and a pipe that Casals gave to Kirk. The Scrapbook contains clippings related to Kirk's book on Casals, and the Posters series contains two posters.</p>
+         <p>The Kirk Business Papers series contains materials, including permissions, receipts, and promotional items, relating to Kirk's book and other activities.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd5e239">
+         <head>Organization of the Herbert L. Kirk Collection</head>
+         <p>The Herbert L. Kirk Collection is organized in fifteen series: </p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="corr">Correspondence, 1891-1993</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="phot">Photographs, circa 1870-1974</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="prog">Programs, 1891-1976</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="pacapa">Pablo Casals Papers, 1937-1976</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="casma">
+                  <title>Pablo Casals</title> Book Material, 1971-1973</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="resma">Research Material</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="resnot">Research Notes </ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="clip">Clippings, 1890-1976</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="mags">Magazines and Magazine Articles</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="real">Realia</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="scrap">Scrapbook</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="book">Books</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="post">Posters</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="kirbuspa">Kirk Business Papers, 1970-1978</ref> 
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="misc">Miscellany</ref> 
+			         </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2006560201"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2006560201</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd5e311" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd5e320">
+            <did>
+               <container type="box">1-3</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1891/1993">1891-1993</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Includes correspondence between Kirk and Casals, letters to and from Pablo and Marta Casals, correspondence to and from Kirk regarding his research for the book and other projects, and a selection of acknowledgments from persons who received presentation copies of the book.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p/>
+            </arrangement>
+            <c02 level="file" id="mferd5e333">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Correspondence between Herbert L. Kirk and Pablo and Marta Casals, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1969</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e345">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Correspondence between Herbert L. Kirk and Pablo and Marta Casals, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1973</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e357">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle encodinganalog="245$a">Correspondence from Pablo Casals to Donald Tovey, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1912-1938</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Includes copies of letters about Tovey and Casals, and one 1973 letter from an Edinburgh librarian concerning the Casals letters.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e370">
+               <did>
+                  <container type="box-folder">1/4</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1891-1949</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e382">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1950-1970, undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e394">
+               <did>
+                  <container type="box-folder">2/1</container>
+                  <unittitle encodinganalog="245$a">BBC Television, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1991</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Includes additional related material.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e407">
+               <did>
+                  <container type="box-folder">2/2</container>
+                  <unittitle encodinganalog="245$a">Brandt &amp; Brandt, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1986</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e419">
+               <did>
+                  <container type="box-folder">2/4</container>
+                  <unittitle encodinganalog="245$a">Holt, Rinehart and Winston, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1969-1975</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e432">
+               <did>
+                  <container type="box-folder">2/5</container>
+                  <unittitle encodinganalog="245$a">Istomin, Marta and Eugene, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1980</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Includes related material.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e445">
+               <did>
+                  <container type="box-folder">2/6</container>
+                  <unittitle encodinganalog="245$a">Snyder, Robert, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1968-1974</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Producer-director of <title>Pablo Casals</title>.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e461">
+               <did>
+                  <container type="box-folder">2/7</container>
+                  <unittitle encodinganalog="245$a">Snyder, Robert, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976-1991</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Producer-director of <title>Pablo Casals</title>.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e477">
+               <did>
+                  <container type="box-folder">2/8</container>
+                  <unittitle encodinganalog="245$a">Snyder, Robert, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Producer-director of <title>Pablo Casals</title>. Includes additional materials.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e493">
+               <did>
+                  <container type="box-folder">2/3</container>
+                  <unittitle encodinganalog="245$a">Society of Friends of Puerto Rico, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Includes additional material.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e506">
+               <did>
+                  <container type="box-folder">2/9</container>
+                  <unittitle encodinganalog="245$a">"A-E" miscellaneous, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1965-1993</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e518">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a">"F-M" miscellaneous, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1992</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e530">
+               <did>
+                  <container type="box-folder">3/2</container>
+                  <unittitle encodinganalog="245$a">"N-Z" miscellaneous and unidentified, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1991</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e542">
+               <did>
+                  <container type="box-folder">3/3</container>
+                  <unittitle encodinganalog="245$a">Acknowledgements to Kirk regarding Casals book, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e554">
+               <did>
+                  <container type="box-folder">3/4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1975</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e566">
+            <did>
+               <container type="box">4-11, 44-46</container>
+               <unittitle encodinganalog="245$a" id="phot">Photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1870/1974">circa 1870-1974</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Photographs of various sizes, in black and white, and color, including posed and candid shots, snapshots, and items from printed sources. Subjects include Casals, his wife and family, friends, and notable individuals. Includes slides and contact sheets.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p/>
+            </arrangement>
+            <c02 level="file" id="mferd5e579">
+               <did>
+                  <container type="box-folder">4/1-3</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals, alone, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1882-1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e591">
+               <did>
+                  <container type="box-folder">4/4</container>
+                  <unittitle encodinganalog="245$a">Pablo and Marta Casals, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1957-1971</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e603">
+               <did>
+                  <container type="box-folder">4/5</container>
+                  <unittitle encodinganalog="245$a">Casals family members (with and without Pablo Casals), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1870, 1933, 1953</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e615">
+               <did>
+                  <container type="box-folder">5/1</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals with cello, alone, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1907-1971</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e627">
+               <did>
+                  <container type="box-folder">5/2</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals with cello, with Marta, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e639">
+               <did>
+                  <container type="box-folder">5/3-4</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals with cello, with others, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e651">
+               <did>
+                  <container type="box-folder">5/5</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals at piano, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e663">
+               <did>
+                  <container type="box-folder">5/6-7</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals conducting, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1930, 1963-1971</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e676">
+               <did>
+                  <container type="box-folder">6/1-2</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals and notables, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1897-1923, 1955-1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e688">
+               <did>
+                  <container type="box-folder">6/3-5</container>
+                  <unittitle encodinganalog="245$a">Pablo Casals with others, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1900-1971</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e700">
+               <did>
+                  <container type="box-folder">6/6</container>
+                  <unittitle encodinganalog="245$a">Marta Casals, alone, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1969</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e712">
+               <did>
+                  <container type="box-folder">7/1</container>
+                  <unittitle encodinganalog="245$a">Photographs of artwork
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e723">
+               <did>
+                  <container type="box-folder">7/2</container>
+                  <unittitle encodinganalog="245$a">Photographs of the cello
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e734">
+               <did>
+                  <container type="box-folder">7/3</container>
+                  <unittitle encodinganalog="245$a">Photographs of documents
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e745">
+               <did>
+                  <container type="box-folder">7/4</container>
+                  <unittitle encodinganalog="245$a">Photographs of exteriors
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e756">
+               <did>
+                  <container type="box-folder">7/5</container>
+                  <unittitle encodinganalog="245$a">Photographs of interiors
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e767">
+               <did>
+                  <container type="box-folder">7/6</container>
+                  <unittitle encodinganalog="245$a">Photographs of various individuals
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e778">
+               <did>
+                  <container type="box-folder">7/7</container>
+                  <unittitle encodinganalog="245$a">Photographs of royalty
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e789">
+               <did>
+                  <container type="box-folder">7/8</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous photographs of individuals
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e801">
+               <did>
+                  <container type="box-folder">7/9</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous photographs
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e812">
+               <did>
+                  <container type="box-folder">7/10</container>
+                  <unittitle encodinganalog="245$a">Slides of Casals, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1969-1971</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e824">
+               <did>
+                  <container type="box-folder">7/11</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous slides (some of Kirk), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1974</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e836">
+               <did>
+                  <container type="box">8-10</container>
+                  <unittitle encodinganalog="245$a">Photographs and illustrations for Kirk's book on Casals<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(32 folders)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Arranged by chapter.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e849">
+               <did>
+                  <container type="box-folder">11/1-2</container>
+                  <unittitle encodinganalog="245$a">Materials relating to photographs and illustrations appearing in Kirk's book on Casals
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Includes permissions, editorial materials, and photographer credits.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e861">
+               <did>
+                  <container type="box-folder">11/3</container>
+                  <unittitle encodinganalog="245$a">Contact sheets
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e872">
+               <did>
+                  <container type="box">44</container>
+                  <unittitle encodinganalog="245$a">Oversize photographs
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e883">
+               <did>
+                  <container type="box">45-46</container>
+                  <unittitle encodinganalog="245$a">Negatives of various sizes (DO NOT SERVE)
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e894">
+            <did>
+               <container type="box">12-13</container>
+               <unittitle encodinganalog="245$a" id="prog">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1891/1976">1891-1976</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Covers a selection of performances by Casals, includes photocopies and a few originals.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p/>
+            </arrangement>
+            <c02 level="file" id="mferd5e907">
+               <did>
+                  <container type="box-folder">12/1</container>
+                  <unittitle encodinganalog="245$a">1891-1920
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e918">
+               <did>
+                  <container type="box-folder">12/2</container>
+                  <unittitle encodinganalog="245$a">1921-1930
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e929">
+               <did>
+                  <container type="box-folder">12/3</container>
+                  <unittitle encodinganalog="245$a">1931-1950
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e940">
+               <did>
+                  <container type="box-folder">12/4</container>
+                  <unittitle encodinganalog="245$a">1956-1963
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e951">
+               <did>
+                  <container type="box-folder">12/5</container>
+                  <unittitle encodinganalog="245$a">1967-1968
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e962">
+               <did>
+                  <container type="box-folder">13/1</container>
+                  <unittitle encodinganalog="245$a">1969-1970
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e973">
+               <did>
+                  <container type="box-folder">13/2</container>
+                  <unittitle encodinganalog="245$a">1971-1976
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e984">
+               <did>
+                  <container type="box-folder">13/3</container>
+                  <unittitle encodinganalog="245$a">1920-1937
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e996">
+               <did>
+                  <container type="box-folder">13/4</container>
+                  <unittitle encodinganalog="245$a">Undated and miscellaneous programs
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1007">
+            <did>
+               <container type="box">14</container>
+               <unittitle encodinganalog="245$a" id="pacapa">Pablo Casals Papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1937/1976">1937-1976</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Miscellaneous materials related to Pablo Casals, including legal and business papers, transcripts of interviews that Kirk had with Casals, Casals' music lessons, chronologies of Casals' career, photocopies of some of his musical compositions, and scripts.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p/>
+            </arrangement>
+            <c02 level="file" id="mferd5e1020">
+               <did>
+                  <container type="box-folder">14/1</container>
+                  <unittitle encodinganalog="245$a">Casals business and legal papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1937-1949</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1032">
+               <did>
+                  <container type="box-folder">14/2</container>
+                  <unittitle encodinganalog="245$a">Interviews with Pablo Casals, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1972</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Typescript documents</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1045">
+               <did>
+                  <container type="box-folder">14/3</container>
+                  <unittitle encodinganalog="245$a">Transcripts of five Pablo Casals lessons, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Lessons made available to Kirk by Virgil Thomson.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1058">
+               <did>
+                  <container type="box-folder">14/4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous materials
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1069">
+               <did>
+                  <container type="box-folder">14/5</container>
+                  <unittitle encodinganalog="245$a">Casals chronologies, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967, undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1081">
+               <did>
+                  <container type="box-folder">14/6</container>
+                  <unittitle encodinganalog="245$a">Music by Casals
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1092">
+               <did>
+                  <container type="box-folder">14/7</container>
+                  <unittitle encodinganalog="245$a">Scripts for various projects about Casals, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964-1976, undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Typewritten manuscripts</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1105">
+               <did>
+                  <container type="box-folder">14/8</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous United Nations materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1958-1971</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1117">
+            <did>
+               <container type="box">15-34</container>
+               <unittitle encodinganalog="245$a" id="casma">
+                  <title>Pablo Casals</title> Book Material, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1971/1973">1971-1973</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Typewritten manuscripts and photocopies of drafts and galley proofs for Kirk's book, <title>Pablo Casals, a Biography</title>. Some versions contain annotations and corrections. Includes material relating to the front matter, back matter, and the dust jacket, as well as handwritten pages and fragments.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p/>
+            </arrangement>
+            <c02 level="file" id="mferd5e1135">
+               <did>
+                  <container type="box">15-19</container>
+                  <unittitle encodinganalog="245$a">Drafts of Kirk's book <title>Pablo Casals</title>, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1972</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Typewritten manuscripts</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Includes some typed fragments and handwritten pages.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1152">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle encodinganalog="245$a">Photocopy of manuscript, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1164">
+               <did>
+                  <container type="box">21-23</container>
+                  <unittitle encodinganalog="245$a">Annotated photocopies, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1973</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1176">
+               <did>
+                  <container type="box">24-25</container>
+                  <unittitle encodinganalog="245$a">Setting copy, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1973</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1188">
+               <did>
+                  <container type="box">26</container>
+                  <unittitle encodinganalog="245$a">Annotated photocopy
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1199">
+               <did>
+                  <container type="box">27</container>
+                  <unittitle encodinganalog="245$a">Photocopied fragments and miscellaneous photocopied pages
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1210">
+               <did>
+                  <container type="box">28-29</container>
+                  <unittitle encodinganalog="245$a">Galleys
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1221">
+               <did>
+                  <container type="box">30-31</container>
+                  <unittitle encodinganalog="245$a">Proofs
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1233">
+               <did>
+                  <container type="box">32</container>
+                  <unittitle encodinganalog="245$a">Sample pages and annotated proofs
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1244">
+               <did>
+                  <container type="box">33</container>
+                  <unittitle encodinganalog="245$a">Annotated, typed drafts of acknowledgements; appendix 1, discography; appendix 2, honors and awards; bibliography; captions; and corrections
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1255">
+               <did>
+                  <container type="box">34</container>
+                  <unittitle encodinganalog="245$a">Annotated, typed drafts of footnotes, index, jacket, outline, preface, and table of contents
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1266">
+            <did>
+               <container type="box">35-37</container>
+               <unittitle encodinganalog="245$a" id="resma">Research Material
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Research material Kirk gathered in researching the Casals book.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Alphabetically arranged by name of person or subject.</p>
+            </arrangement>
+            <c02 level="file" id="mferd5e1279">
+               <did>
+                  <container type="box">35-37</container>
+                  <unittitle encodinganalog="245$a">Clippings, correspondence, notes, maps, brochures, booklets, programs and other materials
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1290">
+            <did>
+               <container type="box">37-38</container>
+               <unittitle encodinganalog="245$a" id="resnot">Research Notes 
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd5e1297">
+               <did>
+                  <container type="box">37-38</container>
+                  <unittitle encodinganalog="245$a">Handwritten and typed notes that Kirk made in researching the Casals book; includes index cards
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1308">
+            <did>
+               <container type="box">39</container>
+               <unittitle encodinganalog="245$a" id="clip">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1890/1976">1890-1976</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd5e1316">
+               <did>
+                  <container type="box">39</container>
+                  <unittitle encodinganalog="245$a">Newspaper and magazine clippings that Kirk gathered on Casals and related subjects (originals and photocopies), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1890-1976, undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1328">
+            <did>
+               <container type="box">40</container>
+               <unittitle encodinganalog="245$a" id="mags">Magazines and Magazine Articles
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd5e1335">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">Magazines and articles that Kirk gathered in the course of researching his book on Casals
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1347">
+            <did>
+               <container type="box">41</container>
+               <unittitle encodinganalog="245$a" id="real">Realia
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd5e1354">
+               <did>
+                  <container type="box">41</container>
+                  <unittitle encodinganalog="245$a">Two souvenir medals from Casals Festivals and a pipe that Casals gave to Kirk
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1365">
+            <did>
+               <container type="box">42</container>
+               <unittitle encodinganalog="245$a" id="scrap">Scrapbook
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd5e1372">
+               <did>
+                  <container type="box">42</container>
+                  <unittitle encodinganalog="245$a">Scrapbook with reviews and clippings about Kirk's book on Casals
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Oversize bound volume</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1384">
+            <did>
+               <unittitle encodinganalog="245$a" id="book">Books 				
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Books about Pablo Casals that Kirk collected in the course of researching his book. Five of the books listed here were presented to Kirk and inscribed by their authors. These have been retained, along with Kirk’s annotated working copy of his own book, and are shelved with the collection. The remaining volumes have been placed in the general collections or, in the case of duplicates, disposed of. A complete list of these volumes is available in the Library of Congress Music Division collection file.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd5e1392">
+               <did>
+                  <unittitle encodinganalog="245$a">
+	 					              <bibref>Baldock, Robert. <title>Pablo Casals. </title>
+                        <imprint>London: Victor Gollancz Ltd., 1992</imprint>
+                     </bibref>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Inscribed by author.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1405">
+               <did>
+                  <unittitle encodinganalog="245$a">
+	 					              <bibref>Conte, Arthur. <title>La légende de Pablo Casals. </title>
+                        <imprint> Perpignan: Éditiones Proa, 1950</imprint>
+                     </bibref>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Inscribed by author.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1418">
+               <did>
+                  <unittitle encodinganalog="245$a">
+	 					              <bibref>Costabella, J. Navarro. <title>Pablo Casals.</title> 
+                        <imprint>S.l.: Version Castellna del Mismo Autor, n.d.</imprint>
+                     </bibref>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Inscribed by author.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1432">
+               <did>
+                  <unittitle encodinganalog="245$a">
+	 					              <bibref>Forsee, Aylesa.<title> Pablo Casals, cellist for freedom.</title> 
+                        <imprint>New York: Thomas Y. Crowell, 1965</imprint>
+                     </bibref>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Inscribed by author.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1446">
+               <did>
+                  <unittitle encodinganalog="245$a">
+	 					              <bibref>Kirk, H. L. <title>Pablo Casals, a biography.</title>  
+                        <imprint>New York: Holt, Rinehart and Winston, 1974</imprint>
+                     </bibref>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Annotated working copy.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1460">
+               <did>
+                  <unittitle encodinganalog="245$a">
+	 					              <bibref>Maragall, Joan. <title>Correspondencia Maragall-Roura</title>. <imprint>Barcleona: Ediciones Polígrafa, 1969</imprint>
+                     </bibref>
+                  </unittitle>
+                  <note encodinganalog="500$a">
+                     <p>Inscribed by author.</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1474">
+            <did>
+               <container type="mapcase">3</container>
+               <unittitle encodinganalog="245$a" id="post">Posters 				
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd5e1481">
+               <did>
+                  <container type="mapcase-drawer">3/2</container>
+                  <unittitle encodinganalog="245$a">Two posters related to Casals appearances
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1492">
+            <did>
+               <container type="box">43</container>
+               <unittitle encodinganalog="245$a" id="kirbuspa">Kirk Business Papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970/1978">1970-1978</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Selection of materials relating to Kirk's book and other activities.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p/>
+            </arrangement>
+            <c02 level="file" id="mferd5e1505">
+               <did>
+                  <container type="box-folder">43/1</container>
+                  <unittitle encodinganalog="245$a">Permissions, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1973</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1517">
+               <did>
+                  <container type="box-folder">43/2</container>
+                  <unittitle encodinganalog="245$a">Promotional materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1529">
+               <did>
+                  <container type="box-folder">43/3</container>
+                  <unittitle encodinganalog="245$a">Receipts and expenditures, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1978</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1541">
+               <did>
+                  <container type="box-folder">43/4</container>
+                  <unittitle encodinganalog="245$a">Returned items and author's questionnaire, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1973</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd5e1553">
+               <did>
+                  <container type="box-folder">43/5</container>
+                  <unittitle encodinganalog="245$a">Miscellany
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd5e1564">
+            <did>
+               <container type="box">43</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany
+	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd5e1571">
+               <did>
+                  <container type="box-folder">43/6</container>
+                  <unittitle encodinganalog="245$a">Material that is unrelated to Casals
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

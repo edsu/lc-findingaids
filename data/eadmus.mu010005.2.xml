@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Thu, 22 September 2011 12:12:13 PM EDT
+Generated: Wed, 28 March 2012 12:48:47 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010005--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010005--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010005-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd134e3">
-   <eadheader id="mferd134e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd13e3">
+   <eadheader id="mferd13e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -20,7 +20,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
 		http://hdl.loc.gov/loc.music/eadmus.mu010005</eadid>
       <filedesc>
          <titlestmt>
-            <titleproper>Dorothea Dix Lawrence <lb/>Collection
+            <titleproper>Dorothea Dix Lawrence Collection
 		  </titleproper>
             <author>Processed by the Music Division of the Library of Congress</author>
          </titlestmt>
@@ -66,6 +66,10 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
       </profiledesc>
       <revisiondesc>
          <change>
+            <date normal="2012-02" era="ce" calendar="gregorian">2012 February</date>
+            <item>Nancy Seeger revised this finding aid in February 2012 to include map case locations.</item>
+         </change>
+         <change>
             <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
             <item>Editorial revisions made to this finding aid by Nancy Seeger in March 2010.</item>
          </change>
@@ -104,11 +108,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
          </repository>
          <abstract label="Summary" encodinganalog="520$a">Dorothea Dix Lawrence was a successful opera singer in the 1930s and 1940s who later became a recitalist and folklorist. The materials in the collection include correspondence, photographs, clippings and other items that document her career as a singer and interpreter of American folk music. In addition, the collection includes her articles on American folklore that were published in various journals and two copies of her famous <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>. The collection also includes piano-vocal opera scores and a large number of American folk songs.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd205e96" altrender=":::F005=^20100305084807.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd205e96" altrender=":::F005=^20100305084807.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd136e7">
+         <controlaccess id="mferd207e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Lawrence%2C+Dorothea+Dix%2C+1899-1979+Autographs.^">Lawrence, Dorothea Dix, 1899-1979--Autographs.</persname>
@@ -121,7 +126,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Lawrence%2C+Dorothea+Dix%2C+1899-1979.^">Lawrence, Dorothea Dix, 1899-1979.</persname>
          </controlaccess>
-         <controlaccess id="mferd136e20">
+         <controlaccess id="mferd207e34">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Folk+music+United+States+History+and+criticism.^">Folk music--United States--History and criticism.</subject>
@@ -134,7 +139,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Sopranos+%28Singers%29+United+States+Correspondence.^">Sopranos (Singers)--United States--Correspondence.</subject>
          </controlaccess>
-         <controlaccess id="mferd136e33">
+         <controlaccess id="mferd207e56">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Clippings+%28information+artifacts%29.^">Clippings (information artifacts).</genreform>
@@ -187,7 +192,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                <head02>Event</head02>
             </listhead>
             <chronitem>
-               <date era="ce" calendar="gregorian">1899 September 22</date>
+               <date era="ce" calendar="gregorian">1899, September 22</date>
                <event>Born in New York City</event>
             </chronitem>
             <chronitem>
@@ -230,7 +235,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                <event>Retired from public life</event>
             </chronitem>
             <chronitem>
-               <date era="ce" calendar="gregorian">1979 May 23</date>
+               <date era="ce" calendar="gregorian">1979, May 23</date>
                <event>Died in Plainfield, New Jersey</event>
             </chronitem>
          </chronlist>
@@ -243,8 +248,16 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
          <head>Organization of the Dorothea Dix Lawrence Collection</head>
          <p>The Dorothea Dix Lawrence Collection is organized into two series: </p>
          <list>
-            <item>Biographical Materials</item>
-            <item>Music</item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="bioma" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Biographical Materials</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="mus" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Music</ref>
+            </item>
          </list>
       </arrangement>
       <otherfindaid encodinganalog="555$a" id="lccnURI">
@@ -262,61 +275,62 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd134e305" level="series">
+         <c01 id="mferd13e310" level="series">
             <did>
-               <container type="boxes">1, 3</container>
-               <unittitle encodinganalog="245$a">Biographical Materials</unittitle>
+               <container type="box">1, 3</container>
+               <container type="mapcase">3</container>
+               <unittitle encodinganalog="245$a" id="bioma">Biographical Materials</unittitle>
             </did>
             <scopecontent encodinganalog="520">
-               <p> Contains biographical summaries, correspondence, writings, a radio script, clippings, photographs, an award certificate, and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title> (oversize concert poster).</p>
+               <p> Contains biographical summaries, correspondence, writings, a radio script, poster, clippings, photographs, an award certificate, and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>.</p>
             </scopecontent>
             <arrangement>
                <p>Arranged alphabetically by type of material, and chronologically therein.</p>
             </arrangement>
-            <c02 id="mferd134e320" level="file">
+            <c02 id="mferd13e327" level="file">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle encodinganalog="245$a">Biographical summaries</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e326" level="file">
+            <c02 id="mferd13e333" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Correspondence</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e332" level="file">
+            <c02 id="mferd13e339" level="file">
                <did>
                   <container type="box-folder">1/3</container>
                   <unittitle encodinganalog="245$a">Writings: Folklore Society of Great Britain</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e338" level="file">
+            <c02 id="mferd13e345" level="file">
                <did>
                   <container type="box-folder">1/4</container>
                   <unittitle encodinganalog="245$a">Writings: Thirtieth International Congress of Americanists, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">August 1952</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e347" level="file">
+            <c02 id="mferd13e354" level="file">
                <did>
                   <container type="box-folder">1/5</container>
                   <unittitle encodinganalog="245$a">Writings: Periodicals</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e353" level="file">
+            <c02 id="mferd13e360" level="file">
                <did>
                   <container type="box-folder">3/1</container>
                   <unittitle encodinganalog="245$a" id="Dorothea">Writings: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>; photocopied collages of clippings and concert programs</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e362" level="file">
+            <c02 id="mferd13e369" level="file">
                <did>
                   <container type="box-folder">1/6</container>
                   <unittitle encodinganalog="245$a">Radio (script)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e368" level="file">
+            <c02 id="mferd13e375" level="file">
                <did>
                   <container type="box-folder">1/7</container>
                   <unittitle encodinganalog="245$a">Clippings <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1980</unitdate>
@@ -329,7 +343,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e386" level="file">
+            <c02 id="mferd13e393" level="file">
                <did>
                   <container type="box-folder">1/8</container>
                   <unittitle encodinganalog="245$a">Concert programs/advertisements<lb/>
@@ -341,54 +355,62 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e400" level="file">
+            <c02 id="mferd13e407" level="file">
                <did>
                   <container type="box-folder">1/9</container>
                   <unittitle encodinganalog="245$a">Photographs: Portraits</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e406" level="file">
+            <c02 id="mferd13e413" level="file">
                <did>
                   <container type="box-folder">1/10</container>
                   <unittitle encodinganalog="245$a">Photographs: Miss Lawrence with others</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e412" level="file">
+            <c02 id="mferd13e419" level="file">
                <did>
                   <container type="box-folder">1/11</container>
                   <unittitle encodinganalog="245$a">Photographs: miscellaneous</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e418" level="file">
+            <c02 id="mferd13e425" level="file">
                <did>
                   <container type="box-folder">3/2</container>
                   <unittitle encodinganalog="245$a">Photographs: oversize </unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e424" level="file">
+            <c02 id="mferd13e431" level="file">
                <did>
                   <container type="box-folder">1/12</container>
                   <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e430" level="file">
+            <c02 id="mferd13e437" level="file">
                <did>
                   <container type="box-folder">3/3</container>
                   <unittitle encodinganalog="245$a">Award: New York City - - USO - - Joint War Appeal. Certificate of Achievement</unittitle>
                </did>
             </c02>
-            <c02 id="mferd134e436" level="file">
+            <c02 id="mferd13e443" level="file">
                <did>
-                  <container type="box-folder">3/3</container>
+                  <container type="mapcase-drawer">3/2</container>
                   <unittitle encodinganalog="245$a">
-                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>; oversize concert poster (housed in Map Case, drawer 3)</unittitle>
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore Music Map of the United States</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd13e451">
+               <did>
+                  <container type="mapcase-drawer">3/2</container>
+                  <unittitle encodinganalog="245$a">German concert poster, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953</unitdate>
+                  </unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd134e445" level="series">
+         <c01 id="mferd13e459" level="series">
             <did>
-               <container type="boxes">2-4</container>
-               <unittitle encodinganalog="245$a">Music</unittitle>
+               <container type="box">2-4</container>
+               <unittitle encodinganalog="245$a" id="mus">Music</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p> Contains piano-vocal opera scores and other operatic vocal collections, various art songs and American folk songs.</p>
@@ -396,12 +418,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
             <arrangement>
                <p>Arranged by type of music, and alphabetically by composer therein.</p>
             </arrangement>
-            <c02 id="mferd134e457" level="series">
+            <c02 id="mferd13e471" level="series">
                <did>
                   <container type="box">2-3</container>
                   <unittitle encodinganalog="245$a">Opera</unittitle>
                </did>
-               <c03 id="mferd134e463" level="file">
+               <c03 id="mferd13e477" level="file">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a">Gounod, Charles<lb/>
@@ -418,7 +440,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd134e488" level="file">
+               <c03 id="mferd13e502" level="file">
                   <did>
                      <container type="box-folder">2/2</container>
                      <unittitle encodinganalog="245$a">Puccini, Giacomo<lb/>
@@ -435,7 +457,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd134e513" level="file">
+               <c03 id="mferd13e527" level="file">
                   <did>
                      <container type="box-folder">3/4</container>
                      <unittitle encodinganalog="245$a">Strauss, Richard<lb/>
@@ -449,7 +471,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd134e535" level="file">
+               <c03 id="mferd13e549" level="file">
                   <did>
                      <container type="box-folder">2/3</container>
                      <unittitle encodinganalog="245$a">[Various]<lb/>
@@ -466,7 +488,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd134e560" level="file">
+               <c03 id="mferd13e574" level="file">
                   <did>
                      <container type="box-folder">2/4</container>
                      <unittitle encodinganalog="245$a">Verdi, Giuseppe<lb/>
@@ -484,17 +506,17 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd134e585" level="series">
+            <c02 id="mferd13e599" level="series">
                <did>
                   <container type="box">2-4</container>
                   <unittitle encodinganalog="245$a">Songs</unittitle>
                </did>
-               <c03 id="mferd134e591" level="file">
+               <c03 id="mferd13e605" level="file">
                   <did>
                      <container type="box-folder">4/16</container>
                      <unittitle encodinganalog="245$a">Anonymous</unittitle>
                   </did>
-                  <c04 id="mferd134e597" level="file">
+                  <c04 id="mferd13e611" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Barren pines. Scene II </title>
@@ -507,7 +529,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e612" level="file">
+                  <c04 id="mferd13e626" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bucking broncho; Cowboy Jack</title> 
@@ -522,12 +544,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e633" level="file">
+               <c03 id="mferd13e647" level="file">
                   <did>
                      <container type="box-folder">4/1</container>
                      <unittitle encodinganalog="245$a">Cadman, Charles Wakefield</unittitle>
                   </did>
-                  <c04 id="mferd134e639" level="file">
+                  <c04 id="mferd13e653" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Moon drops low</title>.<imprint> New York: Edwin H. Morris, 1909</imprint>
@@ -540,7 +562,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e657" level="file">
+                  <c04 id="mferd13e671" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Spring song of the robin woman</title>.<imprint> New York: White-Smith Music, 1918</imprint>
@@ -553,7 +575,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e675" level="file">
+                  <c04 id="mferd13e689" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Her shadow (Ojibway canoe song)</title>.<imprint> New York: White-Smith Music, 1918</imprint>
@@ -567,12 +589,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e693" level="file">
+               <c03 id="mferd13e707" level="file">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle encodinganalog="245$a">Combs, Josia [ed.]</unittitle>
                   </did>
-                  <c04 id="mferd134e699" level="file">
+                  <c04 id="mferd13e713" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Schirmer's American folk-song series, Set I: Folk-songs from the Kentucky highlands</title>.<imprint> New York: G. Schirmer, 1939</imprint>
@@ -583,12 +605,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e714" level="file">
+               <c03 id="mferd13e728" level="file">
                   <did>
                      <container type="box-folder">4/16</container>
                      <unittitle encodinganalog="245$a">Endicott, Samuel [arr.]</unittitle>
                   </did>
-                  <c04 id="mferd134e720" level="file">
+                  <c04 id="mferd13e734" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">He stole my tender heart away</title>.<imprint> New York: G. Schirmer, 1939</imprint>
@@ -599,12 +621,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e735" level="file">
+               <c03 id="mferd13e749" level="file">
                   <did>
                      <container type="box-folder">4/2</container>
                      <unittitle encodinganalog="245$a">Farwell, Arthur</unittitle>
                   </did>
-                  <c04 id="mferd134e741" level="file">
+                  <c04 id="mferd13e755" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bird song dance</title>.</unittitle>
@@ -613,7 +635,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </physdesc>
                      </did>
                   </c04>
-                  <c04 id="mferd134e753" level="file">
+                  <c04 id="mferd13e767" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Inketunga's Thunder Song</title>. </unittitle>
@@ -625,7 +647,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e768" level="file">
+                  <c04 id="mferd13e782" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Sabbath, op. 105, no. 3</title>. </unittitle>
@@ -637,7 +659,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e783" level="file">
+                  <c04 id="mferd13e797" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Song of the Deathless Voice</title>. </unittitle>
@@ -647,12 +669,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e795" level="file">
+               <c03 id="mferd13e809" level="file">
                   <did>
                      <container type="box-folder">4/3</container>
                      <unittitle encodinganalog="245$a">Foster, Stephen</unittitle>
                   </did>
-                  <c04 id="mferd134e801" level="file">
+                  <c04 id="mferd13e815" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Come where my love lies dreaming</title>.<imprint> Boston: Oliver Ditson Company, 1906</imprint>
@@ -663,12 +685,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e816" level="file">
+               <c03 id="mferd13e830" level="file">
                   <did>
                      <container type="box-folder">4/16</container>
                      <unittitle encodinganalog="245$a">Gardner, A. T.</unittitle>
                   </did>
-                  <c04 id="mferd134e822" level="file">
+                  <c04 id="mferd13e836" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">I know two eyes, two soft brown eyes</title>.</unittitle>
@@ -678,12 +700,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e834" level="file">
+               <c03 id="mferd13e848" level="file">
                   <did>
                      <container type="box-folder">4/4</container>
                      <unittitle encodinganalog="245$a">Hare, Maude Cuney [arr.]</unittitle>
                   </did>
-                  <c04 id="mferd134e840" level="file">
+                  <c04 id="mferd13e854" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Six Creole folk songs</title>.<imprint> New York: Carl Fisher, 1921</imprint>
@@ -694,12 +716,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e855" level="file">
+               <c03 id="mferd13e869" level="file">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle encodinganalog="245$a">Haubiel, Charles [arr.]</unittitle>
                   </did>
-                  <c04 id="mferd134e861" level="file">
+                  <c04 id="mferd13e875" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Mother Goose songs. First series</title>.<imprint> New York: The Composers Press, 1939</imprint>
@@ -710,12 +732,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e876" level="file">
+               <c03 id="mferd13e890" level="file">
                   <did>
                      <container type="box-folder">4/17</container>
                      <unittitle encodinganalog="245$a">Haubiel, Charles [arr.]</unittitle>
                   </did>
-                  <c04 id="mferd134e882" level="file">
+                  <c04 id="mferd13e896" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Dog and the tramps</title>.</unittitle>
@@ -724,7 +746,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </physdesc>
                      </did>
                   </c04>
-                  <c04 id="mferd134e894" level="file">
+                  <c04 id="mferd13e908" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Little Bo Peep</title>.</unittitle>
@@ -733,7 +755,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </physdesc>
                      </did>
                   </c04>
-                  <c04 id="mferd134e906" level="file">
+                  <c04 id="mferd13e920" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Little Boy Blue</title>.</unittitle>
@@ -742,7 +764,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </physdesc>
                      </did>
                   </c04>
-                  <c04 id="mferd134e918" level="file">
+                  <c04 id="mferd13e932" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Little Jack Horner</title>.</unittitle>
@@ -751,7 +773,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </physdesc>
                      </did>
                   </c04>
-                  <c04 id="mferd134e930" level="file">
+                  <c04 id="mferd13e944" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Mistress Mary</title>.</unittitle>
@@ -761,12 +783,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e943" level="file">
+               <c03 id="mferd13e957" level="file">
                   <did>
                      <container type="box-folder">4/5</container>
                      <unittitle encodinganalog="245$a">Hopkinson, Francis</unittitle>
                   </did>
-                  <c04 id="mferd134e949" level="file">
+                  <c04 id="mferd13e963" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Colonial love lyrics: Six songs by Francis Hopkinson</title>.<imprint> Boston: A.P. Schmidt, 1919</imprint>
@@ -779,7 +801,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e967" level="file">
+                  <c04 id="mferd13e981" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">O'er the hills</title>.</unittitle>
@@ -791,7 +813,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e982" level="file">
+                  <c04 id="mferd13e996" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">My dreams have been so wondrous free</title>.</unittitle>
@@ -803,7 +825,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e997" level="file">
+                  <c04 id="mferd13e1011" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Songs by Francis Hopkinson: Come fair Rosina, etc.]</title>.</unittitle>
@@ -813,12 +835,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1009" level="file">
+               <c03 id="mferd13e1023" level="file">
                   <did>
                      <container type="box-folder">4/7</container>
                      <unittitle encodinganalog="245$a">Hopkinson, Francis</unittitle>
                   </did>
-                  <c04 id="mferd134e1015" level="file">
+                  <c04 id="mferd13e1029" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">[Songs by Francis Hopkinson: The Garland, etc.]</title>.</unittitle>
@@ -828,12 +850,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1027" level="file">
+               <c03 id="mferd13e1041" level="file">
                   <did>
                      <container type="box-folder">4/16</container>
                      <unittitle encodinganalog="245$a">Huarte, Julian</unittitle>
                   </did>
-                  <c04 id="mferd134e1033" level="file">
+                  <c04 id="mferd13e1047" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Madrigal Español</title>. <imprint> New York: G. Schirmer, 1992</imprint>
@@ -844,12 +866,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1048" level="file">
+               <c03 id="mferd13e1062" level="file">
                   <did>
                      <container type="box-folder">3/5-6</container>
                      <unittitle encodinganalog="245$a">Lawrence, Dorothea Dix [compiler]</unittitle>
                   </did>
-                  <c04 id="mferd134e1054" level="file">
+                  <c04 id="mferd13e1068" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Folklore-songs of the United States</title>.<imprint> New York: The Dorothea Dix Lawrence Folklore Society, U.S.A., 1959</imprint>
@@ -863,12 +885,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1072" level="file">
+               <c03 id="mferd13e1086" level="file">
                   <did>
                      <container type="box-folder">4/8</container>
                      <unittitle encodinganalog="245$a">MacDowell, Edward</unittitle>
                   </did>
-                  <c04 id="mferd134e1078" level="file">
+                  <c04 id="mferd13e1092" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Six selected songs</title>. <imprint> Boston: A.P. Schmidt, 1940</imprint>
@@ -879,12 +901,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1093" level="file">
+               <c03 id="mferd13e1107" level="file">
                   <did>
                      <container type="box-folder">4/9</container>
                      <unittitle encodinganalog="245$a">Nelson, Nils A.</unittitle>
                   </did>
-                  <c04 id="mferd134e1099" level="file">
+                  <c04 id="mferd13e1113" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Passing</title>. <imprint>New York: February 1933</imprint>
@@ -898,12 +920,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1117" level="file">
+               <c03 id="mferd13e1131" level="file">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle encodinganalog="245$a">Niles, John Jacob [ed.]</unittitle>
                   </did>
-                  <c04 id="mferd134e1123" level="file">
+                  <c04 id="mferd13e1137" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Schirmer's American folk-song series, Set 14: Songs of the hill-folk (twelve ballads from Kentucky, Virginia, and North Carolina)</title>.<imprint> New York: G. Schirmer, 1934</imprint>
@@ -913,7 +935,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </physdesc>
                      </did>
                   </c04>
-                  <c04 id="mferd134e1138" level="file">
+                  <c04 id="mferd13e1152" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Schirmer's American folk-song series, Set 16: Ten Christmas carols (from the Southern Appalachian Mountains)</title>.<imprint> New York: G. Schirmer, 1935</imprint>
@@ -923,7 +945,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </physdesc>
                      </did>
                   </c04>
-                  <c04 id="mferd134e1153" level="file">
+                  <c04 id="mferd13e1167" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Schirmer's American folk-song series, Set 18: Ballads, carols, and tragic legends (from the Southern Appalachian Mountains)</title>.<imprint> New York: G. Schirmer, 1937</imprint>
@@ -934,12 +956,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1168" level="file">
+               <c03 id="mferd13e1182" level="file">
                   <did>
                      <container type="box-folder">4/10</container>
                      <unittitle encodinganalog="245$a">Rodrigo, Joaquin</unittitle>
                   </did>
-                  <c04 id="mferd134e1174" level="file">
+                  <c04 id="mferd13e1188" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Villancicos</title>.<imprint> Madrid: Edición del autor, 1953</imprint>
@@ -953,12 +975,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1192" level="file">
+               <c03 id="mferd13e1206" level="file">
                   <did>
                      <container type="box-folder">4/11</container>
                      <unittitle encodinganalog="245$a">Rosemont, Walter L.</unittitle>
                   </did>
-                  <c04 id="mferd134e1198" level="file">
+                  <c04 id="mferd13e1212" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ye Olde historic inn</title>.</unittitle>
@@ -970,7 +992,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e1213" level="file">
+                  <c04 id="mferd13e1227" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Railroad cars are coming</title>.</unittitle>
@@ -982,7 +1004,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e1228" level="file">
+                  <c04 id="mferd13e1242" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">El Zapatero (The Shoemaker)</title>.</unittitle>
@@ -994,7 +1016,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd134e1243" level="file">
+                  <c04 id="mferd13e1257" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Invocation to the Sun God:  Zuñi Indian mother's prayer, </title> 1950.</unittitle>
@@ -1007,12 +1029,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1258" level="file">
+               <c03 id="mferd13e1272" level="file">
                   <did>
                      <container type="box-folder">4/12</container>
                      <unittitle encodinganalog="245$a">Sullivan, Marian Dix</unittitle>
                   </did>
-                  <c04 id="mferd134e1264" level="file">
+                  <c04 id="mferd13e1278" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">For Lo! The Winter is past.</title> Boston, 1856.</unittitle>
@@ -1021,7 +1043,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                         </physdesc>
                      </did>
                   </c04>
-                  <c04 id="mferd134e1276" level="file">
+                  <c04 id="mferd13e1290" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Star-Spangled Banner</title>.</unittitle>
@@ -1037,12 +1059,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1294" level="file">
+               <c03 id="mferd13e1308" level="file">
                   <did>
                      <container type="box-folder">4/13</container>
                      <unittitle encodinganalog="245$a">Troyer, Carlos [arr.]</unittitle>
                   </did>
-                  <c04 id="mferd134e1300" level="file">
+                  <c04 id="mferd13e1314" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Traditional songs of the Zuñi Indians</title>.<imprint> Philadelphia: Theo. Presser Co., 1904</imprint>
@@ -1077,12 +1099,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1340" level="file">
+               <c03 id="mferd13e1354" level="file">
                   <did>
                      <container type="box-folder">4/14</container>
                      <unittitle encodinganalog="245$a"/>
                   </did>
-                  <c04 id="mferd134e1345" level="file">
+                  <c04 id="mferd13e1359" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Villancicos</title>.<imprint> New York: G. Ricordi &amp; Co., Inc., 1922</imprint>
@@ -1096,12 +1118,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010005
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd134e1363" level="file">
+               <c03 id="mferd13e1377" level="file">
                   <did>
                      <container type="box-folder">4/15</container>
                      <unittitle encodinganalog="245$a"/>
                   </did>
-                  <c04 id="mferd134e1368" level="file">
+                  <c04 id="mferd13e1382" level="file">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Lonesome dove</title>.</unittitle>

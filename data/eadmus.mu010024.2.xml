@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 19 August 2011 12:17:25 PM EDT
+Generated: Wed, 28 March 2012 12:48:48 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010024
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010024--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010024--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010024-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd277e3">
-   <eadheader id="mferd277e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd29e3">
+   <eadheader id="mferd29e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -63,6 +63,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010024
          <langusage>Finding aid written in <language encodinganalog="041">English.</language>
          </langusage>
       </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2012-02" era="ce" calendar="gregorian">2012 February</date>
+            <item>This finding aid was updated by Nancy Seeger in February 2012 to include map case location.</item>
+         </change>
+      </revisiondesc>
    </eadheader>
    <archdesc level="collection" relatedencoding="MARC21" type="register">
       <did id="mferd3661e42">
@@ -95,13 +101,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010024
                <addressline>Washington, D.C.</addressline>
             </address>
          </repository>
-         <abstract label="Summary" encodinganalog="520$a">Adolph Bolm (1884-1951) was a dancer, choreographer and dance teacher. This collection, which documents his career both in Russia and the United States, contains photographs, correspondence, programs, pamphlets, articles,  business papers, writings, artwork, and music scores.</abstract>
+         <abstract label="Summary" encodinganalog="520$a">Adolph Bolm was a dancer, choreographer and dance teacher. This collection, which documents his career both in Russia and the United States, contains photographs, correspondence, programs, pamphlets, articles,  business papers, writings, artwork, and music scores.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd3661e88" altrender=":::F005=^20101018104930.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd3661e88" altrender=":::F005=^20101018104930.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd279e7">
+         <controlaccess id="mferd3663e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Bolm%2C+Adolf%2C+1884-1951+Archives.^">Bolm, Adolf, 1884-1951--Archives.</persname>
@@ -120,7 +127,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010024
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Pavlova%2C+Anna%2C+1881-1931.^">Pavlova, Anna, 1881-1931.</persname>
          </controlaccess>
-         <controlaccess id="mferd279e26">
+         <controlaccess id="mferd3663e43">
             <head>Organizations</head>
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Adolph+Bolm+Ballet.^">Adolph Bolm Ballet.</corpname>
@@ -135,7 +142,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010024
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^San+Francisco+Opera.^">San Francisco Opera.</corpname>
          </controlaccess>
-         <controlaccess id="mferd279e41">
+         <controlaccess id="mferd3663e68">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Ballet+companies+Russia.^">Ballet companies--Russia.</subject>
@@ -158,7 +165,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010024
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Dance+teachers+United+States.^">Dance teachers--United States.</subject>
          </controlaccess>
-         <controlaccess id="mferd279e67">
+         <controlaccess id="mferd3663e110">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Artifacts+%28Object+genre%29^">Artifacts (Object genre)</genreform>
@@ -215,16 +222,56 @@ following information: [item, date, container number], Adolph Bolm Collection, M
          <head>Organization of the Adolph Bolm Collection</head>
          <p>The Adolph Bolm Collection is organized into ten series: </p>
          <list>
-            <item>Photographs</item>
-            <item>Programs</item>
-            <item>Advertisements and Pamphlets</item>
-            <item>Articles</item>
-            <item>Correspondence</item>
-            <item>Business Papers</item>
-            <item>Anna Pavlova Materials</item>
-            <item>Writings</item>
-            <item>Artwork</item>
-            <item>Commemorative Items and Music Scores</item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="phot" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Photographs</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="prog" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Programs</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="adpa" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Advertisements and Pamphlets</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="arti" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Articles</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="corr" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Correspondence</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="buspa" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Business Papers</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="pavl" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Anna Pavlova Materials</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="writ" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Writings</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="artw" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Artwork</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" target="cims" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Commemorative Items and Music Scores</ref>
+            </item>
          </list>
       </arrangement>
       <otherfindaid encodinganalog="555$a" id="lccnURI">
@@ -242,10 +289,10 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd277e356" level="series">
+         <c01 id="mferd29e372" level="series">
             <did>
                <container type="box">1, 4-7, 9</container>
-               <unittitle encodinganalog="245$a">Photographs</unittitle>
+               <unittitle encodinganalog="245$a" id="phot">Photographs</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p> The Photographs series includes black and white prints of Adolph Bolm’s professional portraits. It also includes pictures of him in costume in various Michel Fokine ballets, such as <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Le Coq d’Or</title> and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Firebird</title>. Several of these larger portraits (in boxes 4 through 6) are taken with Tamara Karsavina, his frequent partner with Diaghilev’s Ballets Russes in such ballets as <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Thamar and Le Pavillon d’Armide</title>. There are photographs of Bolm in the role of Chief Warrior in Fokine’s “Polovtsian Dances” from the opera <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Prince Igor</title> — a particulary notable role during his tenure with the Ballets Russes. In addition, there are photographs from Bolm’s own ballets, such as <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Bach Cycle</title> and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Le Ballet Mécanique</title>. The latter was an important work in Bolm’s choreographic career as he revived it several times in different forms, taking inspiration from the earlier work <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Spirit of the Factory</title>. The series contains photographs of Bolm with frequent collaborators,  such as dancer Ruth Page, his partner at the Ballet Intime and the Adolph Bolm Ballet, composer Igor Stravinsky, who composed <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Apollo</title> for Bolm’s <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Apollon Musagète</title> in 1928, and John Alden Carpenter, who composed music for several of Bolm’s ballets. One photo shows Ballets Russes impresario Serge Diaghilev on tour in Lausanne in 1915. In addition, the series  includes several small snapshots and postcards that show Bolm in costume for several roles, on tour with Ballet Intime, or in rehearsal. The last few folders include photocopies of photographs of Bolm, including one with John Barrymore, director of the film <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Mad Genius</title>, for which <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Le Ballet Mécanique</title> was created.</p>
@@ -253,122 +300,122 @@ following information: [item, date, container number], Adolph Bolm Collection, M
             <arrangement>
                <p>Arranged chronologically or alphabetically by title within subseries.</p>
             </arrangement>
-            <c02 id="mferd277e402" level="subseries">
+            <c02 id="mferd29e418" level="subseries">
                <did>
                   <container type="box">1, 4-5, 9</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm alone</unittitle>
                </did>
-               <c03 id="mferd277e408" level="file">
+               <c03 id="mferd29e424" level="file">
                   <did>
                      <container type="box-folder">4/1</container>
                      <unittitle encodinganalog="245$a">At Maryinsky School, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1903</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e417" level="file">
+               <c03 id="mferd29e433" level="file">
                   <did>
                      <container type="box-folder">1/1</container>
                      <unittitle encodinganalog="245$a">London, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1912</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e426" level="file">
+               <c03 id="mferd29e442" level="file">
                   <did>
                      <container type="box-folder">1/2</container>
                      <unittitle encodinganalog="245$a">Lausanne, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1915</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e435" level="file">
+               <c03 id="mferd29e451" level="file">
                   <did>
                      <container type="box-folder">9/5</container>
                      <unittitle encodinganalog="245$a">Photograph by Albie, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e444" level="file">
+               <c03 id="mferd29e460" level="file">
                   <did>
                      <container type="box-folder">9/6</container>
                      <unittitle encodinganalog="245$a">Photograph by Robert McAfee, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1923</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e453" level="file">
+               <c03 id="mferd29e469" level="file">
                   <did>
                      <container type="box-folder">9/7</container>
                      <unittitle encodinganalog="245$a">Chicago, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1924</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e462" level="file">
+               <c03 id="mferd29e478" level="file">
                   <did>
                      <container type="box-folder">9/8</container>
                      <unittitle encodinganalog="245$a">Hollywood Bowl, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e471" level="file">
+               <c03 id="mferd29e487" level="file">
                   <did>
                      <container type="box-folder">1/3, 5/1</container>
                      <unittitle encodinganalog="245$a">Portrait by Stuart O'Brien, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e480" level="file">
+               <c03 id="mferd29e496" level="file">
                   <did>
                      <container type="box-folder">1/4</container>
                      <unittitle encodinganalog="245$a">Portrait by Eichman, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e489" level="file">
+               <c03 id="mferd29e505" level="file">
                   <did>
                      <container type="box-folder">1/5</container>
                      <unittitle encodinganalog="245$a">Portrait by Goldberg, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e499" level="file">
+               <c03 id="mferd29e515" level="file">
                   <did>
                      <container type="box-folder">1/6</container>
                      <unittitle encodinganalog="245$a">Portrait by unknown, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e508" level="file">
+               <c03 id="mferd29e524" level="file">
                   <did>
                      <container type="box-folder">4/2</container>
                      <unittitle encodinganalog="245$a">Portrait by Baacan, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e517" level="file">
+               <c03 id="mferd29e533" level="file">
                   <did>
                      <container type="box-folder">4/3</container>
                      <unittitle encodinganalog="245$a">Portrait by Goldberg, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e526" level="file">
+               <c03 id="mferd29e542" level="file">
                   <did>
                      <container type="box-folder">1/7, 4/4</container>
                      <unittitle encodinganalog="245$a">Portrait by Seymour, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e535" level="file">
+               <c03 id="mferd29e551" level="file">
                   <did>
                      <container type="box-folder">1/8</container>
                      <unittitle encodinganalog="245$a">Date unknown</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e541" level="subseries">
+            <c02 id="mferd29e557" level="subseries">
                <did>
                   <container type="box">1, 4-6, 9</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm in costume</unittitle>
                </did>
-               <c03 id="mferd277e547" level="file">
+               <c03 id="mferd29e563" level="file">
                   <did>
                      <container type="box-folder">5/2</container>
                      <unittitle encodinganalog="245$a">
@@ -380,7 +427,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e562" level="file">
+               <c03 id="mferd29e578" level="file">
                   <did>
                      <container type="box-folder">1/9</container>
                      <unittitle encodinganalog="245$a">
@@ -392,7 +439,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e577" level="file">
+               <c03 id="mferd29e593" level="file">
                   <did>
                      <container type="box-folder">1/10, 4/5</container>
                      <unittitle encodinganalog="245$a">
@@ -403,7 +450,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e592" level="file">
+               <c03 id="mferd29e608" level="file">
                   <did>
                      <container type="box-folder">1/11</container>
                      <unittitle encodinganalog="245$a">
@@ -415,14 +462,14 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e607" level="file">
+               <c03 id="mferd29e623" level="file">
                   <did>
                      <container type="box-folder">1/12</container>
                      <unittitle encodinganalog="245$a">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Danse Grec</title> (Ballet Intime)</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e616" level="file">
+               <c03 id="mferd29e632" level="file">
                   <did>
                      <container type="box-folder">4/6</container>
                      <unittitle encodinganalog="245$a">
@@ -433,7 +480,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e631" level="file">
+               <c03 id="mferd29e647" level="file">
                   <did>
                      <container type="box-folder">1/13, 5/3</container>
                      <unittitle encodinganalog="245$a">
@@ -444,7 +491,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e646" level="file">
+               <c03 id="mferd29e662" level="file">
                   <did>
                      <container type="box-folder">1/14</container>
                      <unittitle encodinganalog="245$a">
@@ -456,7 +503,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e661" level="file">
+               <c03 id="mferd29e677" level="file">
                   <did>
                      <container type="box-folder">9/11</container>
                      <unittitle encodinganalog="245$a">
@@ -465,13 +512,13 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e673" level="file">
+               <c03 id="mferd29e689" level="file">
                   <did>
                      <container type="box-folder">1/15</container>
                      <unittitle encodinganalog="245$a">"Mozart"</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e680" level="file">
+               <c03 id="mferd29e696" level="file">
                   <did>
                      <container type="box-folder">1/16</container>
                      <unittitle encodinganalog="245$a">
@@ -482,7 +529,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e695" level="file">
+               <c03 id="mferd29e711" level="file">
                   <did>
                      <container type="box-folder">6/1</container>
                      <unittitle encodinganalog="245$a">
@@ -493,7 +540,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e713" level="file">
+               <c03 id="mferd29e729" level="file">
                   <did>
                      <container type="box-folder">1/17</container>
                      <unittitle encodinganalog="245$a">
@@ -505,7 +552,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e728" level="file">
+               <c03 id="mferd29e744" level="file">
                   <did>
                      <container type="box-folder">4/7</container>
                      <unittitle encodinganalog="245$a">
@@ -517,32 +564,32 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e743" level="file">
+               <c03 id="mferd29e759" level="file">
                   <did>
                      <container type="box-folder">1/18, 4/8</container>
                      <unittitle encodinganalog="245$a">Unknown ballet</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e749" level="subseries">
+            <c02 id="mferd29e765" level="subseries">
                <did>
                   <container type="box">1, 4-5, 9</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm with others</unittitle>
                </did>
-               <c03 id="mferd277e755" level="file">
+               <c03 id="mferd29e771" level="file">
                   <did>
                      <container type="box-folder">1/19</container>
                      <unittitle encodinganalog="245$a">Ballet Intime, Washington, D.C., <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e764" level="file">
+               <c03 id="mferd29e780" level="file">
                   <did>
                      <container type="box-folder">1/21</container>
                      <unittitle encodinganalog="245$a">Bonnet, Joseph, with Ralph Bellamy and E. Robert Schmitz</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e770" level="file">
+               <c03 id="mferd29e786" level="file">
                   <did>
                      <container type="box-folder">1/22</container>
                      <unittitle encodinganalog="245$a">Carpenter, John Alden, with Sergei Prokofiev and Igor Stravinsky</unittitle>
@@ -551,96 +598,96 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e779" level="file">
+               <c03 id="mferd29e795" level="file">
                   <did>
                      <container type="box-folder">1/23</container>
                      <unittitle encodinganalog="245$a">Devi, Ratan, with Michio Ito and Tulle Lindahl</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e785" level="file">
+               <c03 id="mferd29e801" level="file">
                   <did>
                      <container type="box-folder">1/24</container>
                      <unittitle encodinganalog="245$a">Gallner, Nana and Igor Stravinsky</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e791" level="file">
+               <c03 id="mferd29e807" level="file">
                   <did>
                      <container type="box-folder">5/4</container>
                      <unittitle encodinganalog="245$a">Karsavina, Tamara, in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Firebird</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1910</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e803" level="file">
+               <c03 id="mferd29e819" level="file">
                   <did>
                      <container type="box-folder">1/25, 5/5</container>
                      <unittitle encodinganalog="245$a">Karsavina, Tamara, in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Le Pavillion d'Armide</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1909</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e815" level="file">
+               <c03 id="mferd29e831" level="file">
                   <did>
                      <container type="box-folder">1/26, 5/6</container>
                      <unittitle encodinganalog="245$a">Karsavina, Tamara, in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Thamar</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1912</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e827" level="file">
+               <c03 id="mferd29e843" level="file">
                   <did>
                      <container type="box-folder">1/27</container>
                      <unittitle encodinganalog="245$a">Kirsh, Harry (student at Bolm School for Dance)</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e833" level="file">
+               <c03 id="mferd29e849" level="file">
                   <did>
                      <container type="box-folder">1/28</container>
                      <unittitle encodinganalog="245$a">Kirsh, Harry and Celine Raddling, students at Bolm School for Dance</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e840" level="file">
+               <c03 id="mferd29e856" level="file">
                   <did>
                      <container type="box-folder">1/29</container>
                      <unittitle encodinganalog="245$a">New Mexico tribe, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e849" level="file">
+               <c03 id="mferd29e865" level="file">
                   <did>
                      <container type="box-folder">1/30, 4/9</container>
                      <unittitle encodinganalog="245$a">Page, Ruth, and others</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e855" level="file">
+               <c03 id="mferd29e871" level="file">
                   <did>
                      <container type="box-folder">1/31</container>
                      <unittitle encodinganalog="245$a">Pavlova, Anna</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e861" level="file">
+               <c03 id="mferd29e877" level="file">
                   <did>
                      <container type="box-folder">1/32</container>
                      <unittitle encodinganalog="245$a">Remisoff, Nicolas (Bolm in costume for <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Coq d’Or</title>)</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e870" level="file">
+               <c03 id="mferd29e886" level="file">
                   <did>
                      <container type="box-folder">1/33</container>
                      <unittitle encodinganalog="245$a">Stravinsky, Igor, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e879" level="file">
+               <c03 id="mferd29e895" level="file">
                   <did>
                      <container type="box-folder">1/34, 4/10</container>
                      <unittitle encodinganalog="245$a">Students, Bolm School for Dance</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e885" level="file">
+               <c03 id="mferd29e901" level="file">
                   <did>
                      <container type="box-folder">1/35</container>
                      <unittitle encodinganalog="245$a">Unidentified others, Bolm School for Dance</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e891" level="file">
+               <c03 id="mferd29e907" level="file">
                   <did>
                      <container type="box-folder">1/20</container>
                      <unittitle encodinganalog="245$a">With Olaf Bolm (son), <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930; </unitdate>
@@ -648,7 +695,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e903" level="file">
+               <c03 id="mferd29e919" level="file">
                   <did>
                      <container type="box-folder">9/10</container>
                      <unittitle encodinganalog="245$a">With Ruth Page in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Visions Fugitives</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930; </unitdate>
@@ -657,12 +704,12 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e918" level="subseries">
+            <c02 id="mferd29e934" level="subseries">
                <did>
                   <container type="box">1, 4</container>
                   <unittitle encodinganalog="245$a">Bolm's ballets</unittitle>
                </did>
-               <c03 id="mferd277e924" level="file">
+               <c03 id="mferd29e940" level="file">
                   <did>
                      <container type="box-folder">1/36</container>
                      <unittitle encodinganalog="245$a">
@@ -674,7 +721,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e939" level="file">
+               <c03 id="mferd29e955" level="file">
                   <did>
                      <container type="box-folder">1/37, 4/11</container>
                      <unittitle encodinganalog="245$a">
@@ -686,7 +733,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e954" level="file">
+               <c03 id="mferd29e970" level="file">
                   <did>
                      <container type="box-folder">1/38</container>
                      <unittitle encodinganalog="245$a">
@@ -697,7 +744,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e966" level="file">
+               <c03 id="mferd29e982" level="file">
                   <did>
                      <container type="box-folder">1/39</container>
                      <unittitle encodinganalog="245$a">
@@ -709,14 +756,14 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e981" level="file">
+               <c03 id="mferd29e997" level="file">
                   <did>
                      <container type="box-folder">4/12</container>
                      <unittitle encodinganalog="245$a">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Nymphs and Satyr</title> (Ballet Intime)</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e990" level="file">
+               <c03 id="mferd29e1006" level="file">
                   <did>
                      <container type="box-folder">1/40</container>
                      <unittitle encodinganalog="245$a">
@@ -728,7 +775,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e1008" level="file">
+               <c03 id="mferd29e1024" level="file">
                   <did>
                      <container type="box-folder">1/41</container>
                      <unittitle encodinganalog="245$a">
@@ -741,101 +788,101 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1023" level="subseries">
+            <c02 id="mferd29e1039" level="subseries">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">Olaf Bolm childhood pictures</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1029" level="subseries">
+            <c02 id="mferd29e1045" level="subseries">
                <did>
                   <container type="box">1, 4, 6</container>
                   <unittitle encodinganalog="245$a">Other photographs</unittitle>
                </did>
-               <c03 id="mferd277e1035" level="file">
+               <c03 id="mferd29e1051" level="file">
                   <did>
                      <container type="box-folder">1/42</container>
                      <unittitle encodinganalog="245$a">Diaghilev, Serge, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1915</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1044" level="file">
+               <c03 id="mferd29e1060" level="file">
                   <did>
                      <container type="box-folder">1/43</container>
                      <unittitle encodinganalog="245$a">Page, Ruth in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Birthday of the Infanta</title>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1053" level="file">
+               <c03 id="mferd29e1069" level="file">
                   <did>
                      <container type="box-folder">1/44</container>
                      <unittitle encodinganalog="245$a">Santa Fe tribe, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1062" level="file">
+               <c03 id="mferd29e1078" level="file">
                   <did>
                      <container type="box-folder">6/2</container>
                      <unittitle encodinganalog="245$a">Stravinsky, Igor; portrait by Edwin McQuoid</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1068" level="file">
+               <c03 id="mferd29e1084" level="file">
                   <did>
                      <container type="box-folder">4/13</container>
                      <unittitle encodinganalog="245$a">Stravinsky, Igor, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1077" level="file">
+               <c03 id="mferd29e1093" level="file">
                   <did>
                      <container type="box-folder">1/45</container>
                      <unittitle encodinganalog="245$a">Unknown dancers</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1083" level="file">
+               <c03 id="mferd29e1099" level="file">
                   <did>
                      <container type="box-folder">1/46</container>
                      <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1089" level="subseries">
+            <c02 id="mferd29e1105" level="subseries">
                <did>
                   <container type="box">1, 4, 9</container>
                   <unittitle encodinganalog="245$a">Photographed artwork</unittitle>
                </did>
-               <c03 id="mferd277e1095" level="file">
+               <c03 id="mferd29e1111" level="file">
                   <did>
                      <container type="box-folder">1/47</container>
                      <unittitle encodinganalog="245$a">Bust of Adolph Bolm by Anna Koltchanoveroff</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1101" level="file">
+               <c03 id="mferd29e1117" level="file">
                   <did>
                      <container type="box-folder">1/48</container>
                      <unittitle encodinganalog="245$a">Drawing of Bolm in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Prince Igor</title> by Eugene Berman</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1110" level="file">
+               <c03 id="mferd29e1126" level="file">
                   <did>
                      <container type="box-folder">1/49</container>
                      <unittitle encodinganalog="245$a">Drawing of Bolm by Jean Park</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1116" level="file">
+               <c03 id="mferd29e1132" level="file">
                   <did>
                      <container type="box-folder">9/9</container>
                      <unittitle encodinganalog="245$a">Drawings of Bolm by Remisoff, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1125" level="file">
+               <c03 id="mferd29e1141" level="file">
                   <did>
                      <container type="box-folder">1/50</container>
                      <unittitle encodinganalog="245$a">Drawing of Bolm in Spain by unknown</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1131" level="file">
+               <c03 id="mferd29e1147" level="file">
                   <did>
                      <container type="box-folder">4/14</container>
                      <unittitle encodinganalog="245$a">Model of "Mars" for Bolm Ballet</unittitle>
@@ -844,99 +891,99 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e1140" level="file">
+               <c03 id="mferd29e1156" level="file">
                   <did>
                      <container type="box-folder">1/51</container>
                      <unittitle encodinganalog="245$a">Sketch of Bolm by Vidar</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1146" level="file">
+               <c03 id="mferd29e1162" level="file">
                   <did>
                      <container type="box-folder">1/52</container>
                      <unittitle encodinganalog="245$a">Sculpture of Bolm as "Harlequin" by Gleb Deruginsky</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1152" level="file">
+               <c03 id="mferd29e1168" level="file">
                   <did>
                      <container type="box-folder">1/53</container>
                      <unittitle encodinganalog="245$a">Unknown drawing</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1158" level="subseries">
+            <c02 id="mferd29e1174" level="subseries">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Snapshots</unittitle>
                </did>
-               <c03 id="mferd277e1164" level="file">
+               <c03 id="mferd29e1180" level="file">
                   <did>
                      <container type="box-folder">1/54</container>
                      <unittitle encodinganalog="245$a">Bolm Ballet</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1170" level="file">
+               <c03 id="mferd29e1186" level="file">
                   <did>
                      <container type="box-folder">1/55</container>
                      <unittitle encodinganalog="245$a">Bolm in rehearsal</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1176" level="file">
+               <c03 id="mferd29e1192" level="file">
                   <did>
                      <container type="box-folder">1/56</container>
                      <unittitle encodinganalog="245$a">Bolm on vacation</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1183" level="subseries">
+            <c02 id="mferd29e1199" level="subseries">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Postcards</unittitle>
                </did>
-               <c03 id="mferd277e1189" level="file">
+               <c03 id="mferd29e1205" level="file">
                   <did>
                      <container type="box-folder">1/57</container>
                      <unittitle encodinganalog="245$a">Bolm in costume</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1195" level="file">
+               <c03 id="mferd29e1211" level="file">
                   <did>
                      <container type="box-folder">1/58</container>
                      <unittitle encodinganalog="245$a">Bolm with others; miscellaneous Bolm alone</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1201" level="subseries">
+            <c02 id="mferd29e1217" level="subseries">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Photocopies</unittitle>
                </did>
-               <c03 id="mferd277e1207" level="file">
+               <c03 id="mferd29e1223" level="file">
                   <did>
                      <container type="box-folder">1/59</container>
                      <unittitle encodinganalog="245$a">Bolm in ballets: unknown; <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Daphnis and Chloe</title>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1216" level="file">
+               <c03 id="mferd29e1232" level="file">
                   <did>
                      <container type="box-folder">1/60</container>
                      <unittitle encodinganalog="245$a">Bolm with John Barrymore on set of <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Mad Genius</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1228" level="file">
+               <c03 id="mferd29e1244" level="file">
                   <did>
                      <container type="box-folder">1/61</container>
                      <unittitle encodinganalog="245$a">Diaghilev's Ballets Russes</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1234" level="file">
+               <c03 id="mferd29e1250" level="file">
                   <did>
                      <container type="box-folder">1/62</container>
                      <unittitle encodinganalog="245$a">Pictures from Los Angeles Philharmonic Archives</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1240" level="file">
+               <c03 id="mferd29e1256" level="file">
                   <did>
                      <container type="box-folder">1/63</container>
                      <unittitle encodinganalog="245$a">Sketch of Bolm in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Prince Igor</title>, by Troy Kinney</unittitle>
@@ -944,10 +991,10 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd277e1249" level="series">
+         <c01 id="mferd29e1265" level="series">
             <did>
                <container type="box">1-2, 4, 9</container>
-               <unittitle encodinganalog="245$a">Programs</unittitle>
+               <unittitle encodinganalog="245$a" id="prog">Programs</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The Programs series documents Bolm’s choreographic career with several touring and resident companies. It includes programs from the San Francisco Opera, the San Francisco Ballet School, the Chicago Civic Opera, the Chicago Allied Arts organization, and the Adolph Bolm Ballet. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Hollywood Bowl Magazine</title> provides details about <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Spirit of the Factory</title>, one of Bolm's more important ballets.</p>
@@ -956,26 +1003,26 @@ following information: [item, date, container number], Adolph Bolm Collection, M
             <arrangement>
                <p>Subseries arranged alphabetically and chronologically arranged therein.</p>
             </arrangement>
-            <c02 id="mferd277e1284" level="subseries">
+            <c02 id="mferd29e1300" level="subseries">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm Ballet</unittitle>
                </did>
-               <c03 id="mferd277e1290" level="file">
+               <c03 id="mferd29e1306" level="file">
                   <did>
                      <container type="box-folder">1/64</container>
                      <unittitle encodinganalog="245$a">Hollywood Bowl, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">July 28, 1931</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1299" level="file">
+               <c03 id="mferd29e1315" level="file">
                   <did>
                      <container type="box-folder">1/65</container>
                      <unittitle encodinganalog="245$a">Hollywood Bowl, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">August 12, 1932</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1308" level="file">
+               <c03 id="mferd29e1324" level="file">
                   <did>
                      <container type="box-folder">1/66</container>
                      <unittitle encodinganalog="245$a">
@@ -983,14 +1030,14 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1320" level="file">
+               <c03 id="mferd29e1336" level="file">
                   <did>
                      <container type="box-folder">1/67</container>
                      <unittitle encodinganalog="245$a">Summer Festival Series, Santa Barbara County Bowl, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">July 23, 1938</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1329" level="file">
+               <c03 id="mferd29e1345" level="file">
                   <did>
                      <container type="box-folder">1/68</container>
                      <unittitle encodinganalog="245$a">Redlands Community Music Association presents <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Adolph Bolm Dancers</title>, Redlands Bowl, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">July 29, 1938</unitdate>
@@ -998,109 +1045,109 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1341" level="subseries">
+            <c02 id="mferd29e1357" level="subseries">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Ballet Theatre</unittitle>
                </did>
-               <c03 id="mferd277e1347" level="file">
+               <c03 id="mferd29e1363" level="file">
                   <did>
                      <container type="box-folder">1/69</container>
                      <unittitle encodinganalog="245$a">January 1940</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1353" level="file">
+               <c03 id="mferd29e1369" level="file">
                   <did>
                      <container type="box-folder">1/70</container>
                      <unittitle encodinganalog="245$a">November 1940</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1359" level="file">
+               <c03 id="mferd29e1375" level="file">
                   <did>
                      <container type="box-folder">1/71</container>
                      <unittitle encodinganalog="245$a">February 1940</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1365" level="file">
+               <c03 id="mferd29e1381" level="file">
                   <did>
                      <container type="box-folder">1/72</container>
                      <unittitle encodinganalog="245$a">November 1942</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1371" level="file">
+               <c03 id="mferd29e1387" level="file">
                   <did>
                      <container type="box-folder">1/73</container>
                      <unittitle encodinganalog="245$a">December 1942</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1377" level="file">
+               <c03 id="mferd29e1393" level="file">
                   <did>
                      <container type="box-folder">1/74</container>
                      <unittitle encodinganalog="245$a">January 1943</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1383" level="file">
+               <c03 id="mferd29e1399" level="file">
                   <did>
                      <container type="box-folder">1/75</container>
                      <unittitle encodinganalog="245$a">February 1943</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1389" level="file">
+               <c03 id="mferd29e1405" level="file">
                   <did>
                      <container type="box-folder">1/76</container>
                      <unittitle encodinganalog="245$a">April 1943</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1395" level="file">
+               <c03 id="mferd29e1411" level="file">
                   <did>
                      <container type="box-folder">1/77</container>
                      <unittitle encodinganalog="245$a">May 1943</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1401" level="file">
+               <c03 id="mferd29e1417" level="file">
                   <did>
                      <container type="box-folder">1/78</container>
                      <unittitle encodinganalog="245$a">February 1944</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1407" level="subseries">
+            <c02 id="mferd29e1423" level="subseries">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Chicago Allied Arts</unittitle>
                </did>
-               <c03 id="mferd277e1413" level="file">
+               <c03 id="mferd29e1429" level="file">
                   <did>
                      <container type="box-folder">2/6</container>
                      <unittitle encodinganalog="245$a">1924</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1419" level="file">
+               <c03 id="mferd29e1435" level="file">
                   <did>
                      <container type="box-folder">2/7</container>
                      <unittitle encodinganalog="245$a">1925</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1425" level="file">
+               <c03 id="mferd29e1441" level="file">
                   <did>
                      <container type="box-folder">2/8</container>
                      <unittitle encodinganalog="245$a">1926</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1431" level="subseries">
+            <c02 id="mferd29e1447" level="subseries">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Diaghilev's Ballets Russes</unittitle>
                </did>
-               <c03 id="mferd277e1437" level="file">
+               <c03 id="mferd29e1453" level="file">
                   <did>
                      <container type="box-folder">2/4</container>
                      <unittitle encodinganalog="245$a">"A Tour of America," <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">October 1916 - February 1917</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1446" level="file">
+               <c03 id="mferd29e1462" level="file">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle encodinganalog="245$a">"Les Ballets Russes de Serge de Diaghilev," Paris, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930</unitdate>
@@ -1108,101 +1155,101 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1455" level="subseries">
+            <c02 id="mferd29e1471" level="subseries">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Grand Opera Ballet (Chicago)</unittitle>
                </did>
-               <c03 id="mferd277e1461" level="file">
+               <c03 id="mferd29e1477" level="file">
                   <did>
                      <container type="box-folder">2/9</container>
                      <unittitle encodinganalog="245$a">1919-1920</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1467" level="file">
+               <c03 id="mferd29e1483" level="file">
                   <did>
                      <container type="box-folder">2/10</container>
                      <unittitle encodinganalog="245$a">1922-1923</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1473" level="subseries">
+            <c02 id="mferd29e1489" level="subseries">
                <did>
                   <container type="box">2, 9</container>
                   <unittitle encodinganalog="245$a">Miscellaneous Programs</unittitle>
                </did>
-               <c03 id="mferd277e1479" level="file">
+               <c03 id="mferd29e1495" level="file">
                   <did>
                      <container type="box-folder">9/1</container>
                      <unittitle encodinganalog="245$a">Library of Congress Festival of Chamber Music, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1488" level="file">
+               <c03 id="mferd29e1504" level="file">
                   <did>
                      <container type="box-folder">9/2</container>
                      <unittitle encodinganalog="245$a">San Francisco Operatic and Ballet School, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1497" level="file">
+               <c03 id="mferd29e1513" level="file">
                   <did>
                      <container type="box-folder">2/11</container>
                      <unittitle encodinganalog="245$a">Original Ballet Russe, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1506" level="file">
+               <c03 id="mferd29e1522" level="file">
                   <did>
                      <container type="box-folder">2/12</container>
                      <unittitle encodinganalog="245$a">San Francisco Civic Ballet, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1948</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1515" level="file">
+               <c03 id="mferd29e1531" level="file">
                   <did>
                      <container type="box-folder">2/13</container>
                      <unittitle encodinganalog="245$a">San Francisco Opera</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1521" level="file">
+               <c03 id="mferd29e1537" level="file">
                   <did>
                      <container type="box-folder">2/14</container>
                      <unittitle encodinganalog="245$a">Stravinsky programs/reviews</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1527" level="file">
+               <c03 id="mferd29e1543" level="file">
                   <did>
                      <container type="box-folder">2/15</container>
                      <unittitle encodinganalog="245$a">Miscellaneous programs collected by Bolm</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1533" level="file">
+               <c03 id="mferd29e1549" level="file">
                   <did>
                      <container type="box-folder">2/16</container>
                      <unittitle encodinganalog="245$a">Photocopies of programs</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1539" level="subseries">
+            <c02 id="mferd29e1555" level="subseries">
                <did>
                   <container type="box">2, 4</container>
                   <unittitle encodinganalog="245$a">Souvenir Programs</unittitle>
                </did>
-               <c03 id="mferd277e1545" level="file">
+               <c03 id="mferd29e1561" level="file">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a">Ballet Russe de Monte Carlo</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1551" level="file">
+               <c03 id="mferd29e1567" level="file">
                   <did>
                      <container type="box-folder">2/2</container>
                      <unittitle encodinganalog="245$a">S. Hurok presents "The Ballet Russe de Monte Carlo," Philharmonic Auditorium, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">January 24, 1939</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1560" level="file">
+               <c03 id="mferd29e1576" level="file">
                   <did>
                      <container type="box-folder">2/3</container>
                      <unittitle encodinganalog="245$a">
@@ -1210,7 +1257,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1572" level="file">
+               <c03 id="mferd29e1588" level="file">
                   <did>
                      <container type="box-folder">4/15</container>
                      <unittitle encodinganalog="245$a">Col. W. de Basil's Ballet Russe souvenir programs, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946-1947</unitdate>
@@ -1219,10 +1266,10 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd277e1581" level="series">
+         <c01 id="mferd29e1597" level="series">
             <did>
                <container type="box">2, 6, 9</container>
-               <unittitle encodinganalog="245$a">Advertisements and Pamphlets</unittitle>
+               <unittitle encodinganalog="245$a" id="adpa">Advertisements and Pamphlets</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The Advertisements and Pamphlets series includes Sol Hurok’s marketing materials for Ballet Theatre’s tour to California and advertisements for Bolm’s various dance studios in Chicago and Hollywood. It also includes a poster for the Maryinsky Ballet’s tour to Sweden in 1908 (which Bolm led and where he danced with Anna Pavlova).</p>
@@ -1230,83 +1277,83 @@ following information: [item, date, container number], Adolph Bolm Collection, M
             <arrangement>
                <p>Arranged alphabetically.</p>
             </arrangement>
-            <c02 id="mferd277e1593" level="file">
+            <c02 id="mferd29e1609" level="file">
                <did>
                   <container type="box-folder">2/17</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm Ballet</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1599" level="file">
+            <c02 id="mferd29e1615" level="file">
                <did>
                   <container type="box-folder">2/18</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm classes in ballet, Rainbow Studios, Hollywood</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1605" level="file">
+            <c02 id="mferd29e1621" level="file">
                <did>
                   <container type="box-folder">2/19</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm and dance ensemble</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1611" level="file">
+            <c02 id="mferd29e1627" level="file">
                <did>
                   <container type="box-folder">2/20</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm intensive courses, San Francisco Opera Ballet School</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1617" level="file">
+            <c02 id="mferd29e1633" level="file">
                <did>
                   <container type="box-folder">2/21</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm School of Dance, Chicago</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1623" level="file">
+            <c02 id="mferd29e1639" level="file">
                <did>
                   <container type="box-folder">2/22</container>
                   <unittitle encodinganalog="245$a">Ballet Theatre, “Great Russian Ballet”</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1629" level="file">
+            <c02 id="mferd29e1645" level="file">
                <did>
                   <container type="box-folder">2/23</container>
                   <unittitle encodinganalog="245$a">Exhibition of Theatre Arts, Occidental College, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1638" level="file">
+            <c02 id="mferd29e1654" level="file">
                <did>
                   <container type="box-folder">2/24</container>
                   <unittitle encodinganalog="245$a">Highland Playhouse, Adolph Bolm School of Dance, Hollywood</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1645" level="file">
+            <c02 id="mferd29e1661" level="file">
                <did>
                   <container type="box-folder">2/25</container>
                   <unittitle encodinganalog="245$a">National Organization of Dance and Affiliated Artists, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate> Convention</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1654" level="file">
+            <c02 id="mferd29e1670" level="file">
                <did>
                   <container type="box-folder">2/26</container>
                   <unittitle encodinganalog="245$a">Russian Ballet, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903-1904</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1663" level="file">
+            <c02 id="mferd29e1679" level="file">
                <did>
                   <container type="box-folder">6/3</container>
                   <unittitle encodinganalog="245$a">Swedish poster for the Maryinsky's Ballet's visit <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1908</unitdate> 
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1672" level="file">
+            <c02 id="mferd29e1688" level="file">
                <did>
                   <container type="box-folder">9/3</container>
                   <unittitle encodinganalog="245$a">"A life for the Tzar," <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1681" level="file">
+            <c02 id="mferd29e1697" level="file">
                <did>
                   <container type="box-folder">9/4</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm and his Ballet Group, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
@@ -1314,70 +1361,70 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                </did>
             </c02>
          </c01>
-         <c01 id="mferd277e1690" level="series">
+         <c01 id="mferd29e1706" level="series">
             <did>
                <container type="box">2, 5</container>
-               <unittitle encodinganalog="245$a">Articles</unittitle>
+               <unittitle encodinganalog="245$a" id="arti">Articles</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The Articles series includes photocopies of performance reviews, news features, and press clippings about Bolm’s career. It also includes articles by Bolm, including a piece on Native American dance in the <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">San Francisco Chronicle</title>, and his views on dance in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Screen Guild Magazine</title>.</p>
             </scopecontent>
-            <c02 id="mferd277e1705" level="subseries">
+            <c02 id="mferd29e1721" level="subseries">
                <did>
                   <container type="box">2, 5</container>
                   <unittitle encodinganalog="245$a">Articles about Bolm</unittitle>
                </did>
-               <c03 id="mferd277e1711" level="file">
+               <c03 id="mferd29e1727" level="file">
                   <did>
                      <container type="box-folder">2/27</container>
                      <unittitle encodinganalog="245$a">"Adolph Bolm" (Russian)</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1717" level="file">
+               <c03 id="mferd29e1733" level="file">
                   <did>
                      <container type="box-folder">2/28</container>
                      <unittitle encodinganalog="245$a">Bolm press notices</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1723" level="file">
+               <c03 id="mferd29e1739" level="file">
                   <did>
                      <container type="box-folder">2/29</container>
                      <unittitle encodinganalog="245$a">Bolm press releases</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1729" level="file">
+               <c03 id="mferd29e1745" level="file">
                   <did>
                      <container type="box-folder">2/30</container>
                      <unittitle encodinganalog="245$a">Photocopies of articles on Bolm</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1735" level="file">
+               <c03 id="mferd29e1751" level="file">
                   <did>
                      <container type="box-folder">2/31, 5/7</container>
                      <unittitle encodinganalog="245$a">Photocopies of press clippings</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1741" level="subseries">
+            <c02 id="mferd29e1757" level="subseries">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Articles by Bolm</unittitle>
                </did>
-               <c03 id="mferd277e1747" level="file">
+               <c03 id="mferd29e1763" level="file">
                   <did>
                      <container type="box-folder">2/32</container>
                      <unittitle encodinganalog="245$a">"Art and Music," <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">San Francisco Chronicle</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">March 8, 1936</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1759" level="file">
+               <c03 id="mferd29e1775" level="file">
                   <did>
                      <container type="box-folder">2/33</container>
                      <unittitle encodinganalog="245$a">"European ballet master gives his impressions of Native American dance," <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">San Francisco Chronicle</title>, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">September 20, 1936</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1771" level="file">
+               <c03 id="mferd29e1787" level="file">
                   <did>
                      <container type="box-folder">2/34</container>
                      <unittitle encodinganalog="245$a">
@@ -1385,7 +1432,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1783" level="file">
+               <c03 id="mferd29e1799" level="file">
                   <did>
                      <container type="box-folder">2/35</container>
                      <unittitle encodinganalog="245$a">Photocopies of articles by Bolm</unittitle>
@@ -1393,147 +1440,147 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd277e1789" level="series">
+         <c01 id="mferd29e1805" level="series">
             <did>
                <container type="box">2-3</container>
-               <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The bulk of the Correspondence series includes letters and notes from composer John Alden Carpenter from 1932 to 1950. The letters discuss artists, including Stravinsky, ballets, and music from the period. For example, in letters from 1942 and 1940 respectively, Carpenter writes positively about Anthony Tudor’s ballets <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Pillar of Fire</title> and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Jardin aux Lilacs</title>. He also writes about Walt Disney’s plan to make a sequel to the 1940 film <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fantasia</title>, which was to feature Carpenter’s <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Adventures in a Perambulator</title>, Stravinsky’s <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Firebird</title> and <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Petrouchka</title>, and Prokofiev’s <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Peter and the Wolf</title>. In addition, the series contains telegrams sent to Bolm regarding his engagements with different ballet companies, miscellaneous Christmas cards, and correspondence to Bolm’s biographer, John Dougherty.</p>
             </scopecontent>
-            <c02 id="mferd277e1820" level="file">
+            <c02 id="mferd29e1836" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Carpenter, John Alden to Beata and Adolph Bolm</unittitle>
                </did>
-               <c03 id="mferd277e1826" level="file">
+               <c03 id="mferd29e1842" level="file">
                   <did>
                      <container type="box-folder">2/36</container>
                      <unittitle encodinganalog="245$a">1932</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1832" level="file">
+               <c03 id="mferd29e1848" level="file">
                   <did>
                      <container type="box-folder">2/37</container>
                      <unittitle encodinganalog="245$a">1933</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1838" level="file">
+               <c03 id="mferd29e1854" level="file">
                   <did>
                      <container type="box-folder">2/38</container>
                      <unittitle encodinganalog="245$a">1934</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1844" level="file">
+               <c03 id="mferd29e1860" level="file">
                   <did>
                      <container type="box-folder">2/39</container>
                      <unittitle encodinganalog="245$a">1935</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1850" level="file">
+               <c03 id="mferd29e1866" level="file">
                   <did>
                      <container type="box-folder">2/40</container>
                      <unittitle encodinganalog="245$a">1936</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1856" level="file">
+               <c03 id="mferd29e1872" level="file">
                   <did>
                      <container type="box-folder">2/41</container>
                      <unittitle encodinganalog="245$a">1937</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1862" level="file">
+               <c03 id="mferd29e1878" level="file">
                   <did>
                      <container type="box-folder">2/42</container>
                      <unittitle encodinganalog="245$a">1938</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1868" level="file">
+               <c03 id="mferd29e1884" level="file">
                   <did>
                      <container type="box-folder">2/43</container>
                      <unittitle encodinganalog="245$a">1939</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1874" level="file">
+               <c03 id="mferd29e1890" level="file">
                   <did>
                      <container type="box-folder">2/44</container>
                      <unittitle encodinganalog="245$a">1940</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1880" level="file">
+               <c03 id="mferd29e1896" level="file">
                   <did>
                      <container type="box-folder">2/45</container>
                      <unittitle encodinganalog="245$a">1941</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1887" level="file">
+               <c03 id="mferd29e1903" level="file">
                   <did>
                      <container type="box-folder">2/46</container>
                      <unittitle encodinganalog="245$a">1942</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1893" level="file">
+               <c03 id="mferd29e1909" level="file">
                   <did>
                      <container type="box-folder">2/47</container>
                      <unittitle encodinganalog="245$a">1943</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1899" level="file">
+               <c03 id="mferd29e1915" level="file">
                   <did>
                      <container type="box-folder">2/48</container>
                      <unittitle encodinganalog="245$a">1944</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1905" level="file">
+               <c03 id="mferd29e1921" level="file">
                   <did>
                      <container type="box-folder">2/49</container>
                      <unittitle encodinganalog="245$a">1945</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1911" level="file">
+               <c03 id="mferd29e1927" level="file">
                   <did>
                      <container type="box-folder">2/50</container>
                      <unittitle encodinganalog="245$a">1946</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1917" level="file">
+               <c03 id="mferd29e1933" level="file">
                   <did>
                      <container type="box-folder">2/51</container>
                      <unittitle encodinganalog="245$a">1947</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1923" level="file">
+               <c03 id="mferd29e1939" level="file">
                   <did>
                      <container type="box-folder">2/52</container>
                      <unittitle encodinganalog="245$a">1948</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1929" level="file">
+               <c03 id="mferd29e1945" level="file">
                   <did>
                      <container type="box-folder">2/53</container>
                      <unittitle encodinganalog="245$a">1949</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1935" level="file">
+               <c03 id="mferd29e1951" level="file">
                   <did>
                      <container type="box-folder">2/54</container>
                      <unittitle encodinganalog="245$a">1950</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1941" level="file">
+               <c03 id="mferd29e1957" level="file">
                   <did>
                      <container type="box-folder">2/55</container>
                      <unittitle encodinganalog="245$a">date unknown</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1947" level="file">
+            <c02 id="mferd29e1963" level="file">
                <did>
                   <container type="box-folder">2/56</container>
                   <unittitle encodinganalog="245$a">Carpenter to Olaf Bolm</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1953" level="file">
+            <c02 id="mferd29e1969" level="file">
                <did>
                   <container type="box-folder">2/60</container>
                   <unittitle encodinganalog="245$a">Correspondence from Beata Bolm to Edna McRae</unittitle>
@@ -1542,54 +1589,54 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd277e1964" level="file">
+            <c02 id="mferd29e1980" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Correspondence to Beata Bolm</unittitle>
                </did>
-               <c03 id="mferd277e1970" level="file">
+               <c03 id="mferd29e1986" level="file">
                   <did>
                      <container type="box-folder">2/57</container>
                      <unittitle encodinganalog="245$a">From Ellen Carpenter</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1976" level="file">
+               <c03 id="mferd29e1992" level="file">
                   <did>
                      <container type="box-folder">2/58</container>
                      <unittitle encodinganalog="245$a">From Ginny Carpenter Hill</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e1982" level="file">
+               <c03 id="mferd29e1998" level="file">
                   <did>
                      <container type="box-folder">2/59</container>
                      <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e1988" level="file">
+            <c02 id="mferd29e2004" level="file">
                <did>
                   <container type="box-folder">2/61</container>
                   <unittitle encodinganalog="245$a">Correspondence to Stravinsky from others</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e1994" level="file">
+            <c02 id="mferd29e2010" level="file">
                <did>
                   <container type="box-folder">2/62</container>
                   <unittitle encodinganalog="245$a">Photocopies of Bolm's correspondence</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2000" level="file">
+            <c02 id="mferd29e2016" level="file">
                <did>
                   <container type="box-folder">2/63</container>
                   <unittitle encodinganalog="245$a">Telegrams to Bolm</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2006" level="file">
+            <c02 id="mferd29e2022" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">Miscellaneous correspondence</unittitle>
                </did>
-               <c03 id="mferd277e2012" level="file">
+               <c03 id="mferd29e2028" level="file">
                   <did>
                      <container type="box-folder">3/1</container>
                      <unittitle encodinganalog="245$a">Dougherty, John</unittitle>
@@ -1598,13 +1645,13 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd277e2021" level="file">
+               <c03 id="mferd29e2037" level="file">
                   <did>
                      <container type="box-folder">3/2</container>
                      <unittitle encodinganalog="245$a">Christmas cards</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2027" level="file">
+               <c03 id="mferd29e2043" level="file">
                   <did>
                      <container type="box-folder">3/3</container>
                      <unittitle encodinganalog="245$a">unknown</unittitle>
@@ -1612,10 +1659,10 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd277e2033" level="series">
+         <c01 id="mferd29e2049" level="series">
             <did>
                <container type="box">3-5</container>
-               <unittitle encodinganalog="245$a">Business Papers</unittitle>
+               <unittitle encodinganalog="245$a" id="buspa">Business Papers</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The Business Papers series includes Bolm’s travel documents from Russia, France, and the United States. It also includes his passport, registration certificates for the U.S., and certificate of naturalization. In addition, it contains Bolm’s address book from the 1920s and several contracts and financial agreements with various companies, including the Ballet Theatre.</p>
@@ -1623,104 +1670,104 @@ following information: [item, date, container number], Adolph Bolm Collection, M
             <arrangement>
                <p>Arranged alphabetically by type of material.</p>
             </arrangement>
-            <c02 id="mferd277e2045" level="subseries">
+            <c02 id="mferd29e2061" level="subseries">
                <did>
                   <container type="box">3-5</container>
                   <unittitle encodinganalog="245$a">Adolph Bolm</unittitle>
                </did>
-               <c03 id="mferd277e2051" level="file">
+               <c03 id="mferd29e2067" level="file">
                   <did>
                      <container type="box-folder">3/4</container>
                      <unittitle encodinganalog="245$a">Address book from the <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920s</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2060" level="file">
+               <c03 id="mferd29e2076" level="file">
                   <did>
                      <container type="box-folder">3/5</container>
                      <unittitle encodinganalog="245$a">Bolm travel documents for U.S.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2066" level="file">
+               <c03 id="mferd29e2082" level="file">
                   <did>
                      <container type="box-folder">3/6</container>
                      <unittitle encodinganalog="245$a">Contracts and financial agreements</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2072" level="file">
+               <c03 id="mferd29e2088" level="file">
                   <did>
                      <container type="box-folder">3/7</container>
                      <unittitle encodinganalog="245$a">Declaration of arrival to U.S., <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920, 1921</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2081" level="file">
+               <c03 id="mferd29e2097" level="file">
                   <did>
                      <container type="box-folder">3/8</container>
                      <unittitle encodinganalog="245$a">French identification card and certificate, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2090" level="file">
+               <c03 id="mferd29e2106" level="file">
                   <did>
                      <container type="box-folder">3/9</container>
                      <unittitle encodinganalog="245$a">Funeral and life insurance documents, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2099" level="file">
+               <c03 id="mferd29e2115" level="file">
                   <did>
                      <container type="box-folder">3/10</container>
                      <unittitle encodinganalog="245$a">Letters and notes</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2105" level="file">
+               <c03 id="mferd29e2121" level="file">
                   <did>
                      <container type="box-folder">3/11</container>
                      <unittitle encodinganalog="245$a">Notice from Russian Consulate</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2111" level="file">
+               <c03 id="mferd29e2127" level="file">
                   <did>
                      <container type="box-folder">3/12</container>
                      <unittitle encodinganalog="245$a">Russian passport</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2117" level="file">
+               <c03 id="mferd29e2133" level="file">
                   <did>
                      <container type="box-folder">4/17</container>
                      <unittitle encodinganalog="245$a">Russian travel documents, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1895, 1915</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2127" level="file">
+               <c03 id="mferd29e2143" level="file">
                   <did>
                      <container type="box-folder">3/13</container>
                      <unittitle encodinganalog="245$a">Spanish travel document</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2133" level="file">
+               <c03 id="mferd29e2149" level="file">
                   <did>
                      <container type="box-folder">4/16</container>
                      <unittitle encodinganalog="245$a">United States Certificate of Naturalization, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2142" level="file">
+               <c03 id="mferd29e2158" level="file">
                   <did>
                      <container type="box-folder">5/8</container>
                      <unittitle encodinganalog="245$a">United States passport, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2151" level="file">
+               <c03 id="mferd29e2167" level="file">
                   <did>
                      <container type="box-folder">3/14</container>
                      <unittitle encodinganalog="245$a">United States passport, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2160" level="file">
+               <c03 id="mferd29e2176" level="file">
                   <did>
                      <container type="box-folder">3/15</container>
                      <unittitle encodinganalog="245$a">United States registration papers, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1920</unitdate> 
@@ -1728,26 +1775,26 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e2169" level="subseries">
+            <c02 id="mferd29e2185" level="subseries">
                <did>
                   <container type="box">3-4</container>
                   <unittitle encodinganalog="245$a">Beata Bolm</unittitle>
                </did>
-               <c03 id="mferd277e2175" level="file">
+               <c03 id="mferd29e2191" level="file">
                   <did>
                      <container type="box-folder">3/16</container>
                      <unittitle encodinganalog="245$a">U.S. Certificate of Naturalization, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1926</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2184" level="file">
+               <c03 id="mferd29e2200" level="file">
                   <did>
                      <container type="box-folder">4/18</container>
                      <unittitle encodinganalog="245$a">Russian passport, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925</unitdate> 
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2193" level="file">
+               <c03 id="mferd29e2209" level="file">
                   <did>
                      <container type="box-folder">3/17</container>
                      <unittitle encodinganalog="245$a">Miscellaneous: Bolm stationery</unittitle>
@@ -1755,67 +1802,67 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd277e2199" level="series">
+         <c01 id="mferd29e2215" level="series">
             <did>
                <container type="box">3</container>
-               <unittitle encodinganalog="245$a">Anna Pavlova Materials</unittitle>
+               <unittitle encodinganalog="245$a" id="pavl">Anna Pavlova Materials</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The Anna Pavlova Materials series includes a photo of Pavlova and Bolm; telegrams sent by Bolm to others expressing his sorrow at the news of her death in 1931; an homage written by Bolm about Pavlova; and letters written by Pavlova’s family or staff that detail her passing.</p>
             </scopecontent>
-            <c02 id="mferd277e2208" level="file">
+            <c02 id="mferd29e2224" level="file">
                <did>
                   <container type="box-folder">3/18</container>
                   <unittitle encodinganalog="245$a">Bolm's hommage to Pavlova after her death</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2214" level="file">
+            <c02 id="mferd29e2230" level="file">
                <did>
                   <container type="box-folder">3/19</container>
                   <unittitle encodinganalog="245$a">Bolm's telegrams about Pavlova's death</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2220" level="file">
+            <c02 id="mferd29e2236" level="file">
                <did>
                   <container type="box-folder">3/20</container>
                   <unittitle encodinganalog="245$a">Letter to Bolm informing him of Pavlova's death, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2229" level="file">
+            <c02 id="mferd29e2245" level="file">
                <did>
                   <container type="box-folder">3/21</container>
                   <unittitle encodinganalog="245$a">Photograph of Bolm and Pavlova</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2235" level="file">
+            <c02 id="mferd29e2251" level="file">
                <did>
                   <container type="box-folder">3/22</container>
                   <unittitle encodinganalog="245$a">Letters to Bolm, in Russian, on Pavlova's stationery, from different people</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2241" level="file">
+            <c02 id="mferd29e2257" level="file">
                <did>
                   <container type="box-folder">3/23</container>
                   <unittitle encodinganalog="245$a">Obituary of Pavlova in Russian</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd277e2247" level="series">
+         <c01 id="mferd29e2263" level="series">
             <did>
                <container type="box">3</container>
-               <unittitle encodinganalog="245$a">Writings</unittitle>
+               <unittitle encodinganalog="245$a" id="writ">Writings</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The Writings series contains unpublished documents about Bolm by various authors, including notes and drafts for a Bolm biography by Rosalind Shaffer de Mille. The series also includes Bolm’s recollections of his education in St. Petersburg as told to Vera Carpary, and memories meant to be used in a film by Anna Leontovich. In addition, there is material written by de Mille about a film project on Marie Taglioni, and the making of <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">La Sylphide</title>. A copy of Stravinsky’s original libretto for <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Apollo</title> is also included.</p>
             </scopecontent>
-            <c02 id="mferd277e2262" level="file">
+            <c02 id="mferd29e2278" level="file">
                <did>
                   <container type="box-folder">3/24</container>
                   <unittitle encodinganalog="245$a">Bolm's recollections and short biographies</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2268" level="file">
+            <c02 id="mferd29e2284" level="file">
                <did>
                   <container type="box-folder">3/25</container>
                   <unittitle encodinganalog="245$a">Eugene Berman article: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Saturday Review</title>, "Hail<title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Don Giovanni</title>, Farewell Theater," <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">October 1957</unitdate>, p. 45-65</unittitle>
@@ -1824,14 +1871,14 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd277e2288" level="file">
+            <c02 id="mferd29e2304" level="file">
                <did>
                   <container type="box-folder">3/26</container>
                   <unittitle encodinganalog="245$a">Lillian Michell outline and bibliography for Bolm, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1976</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2297" level="file">
+            <c02 id="mferd29e2313" level="file">
                <did>
                   <container type="box-folder">3/27</container>
                   <unittitle encodinganalog="245$a">Rosalind Shaffer De Mille's notes for Bolm biography</unittitle>
@@ -1840,14 +1887,14 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd277e2308" level="file">
+            <c02 id="mferd29e2324" level="file">
                <did>
                   <container type="box-folder">3/28</container>
                   <unittitle encodinganalog="245$a">Shaffer outline and drafts for Bolm biography, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1952</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2317" level="file">
+            <c02 id="mferd29e2333" level="file">
                <did>
                   <container type="box-folder">3/29</container>
                   <unittitle encodinganalog="245$a">Shaffer's Taglioni project: synopsis and script</unittitle>
@@ -1856,13 +1903,13 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd277e2328" level="file">
+            <c02 id="mferd29e2344" level="file">
                <did>
                   <container type="box-folder">3/30</container>
                   <unittitle encodinganalog="245$a">Sources and quotes on Bolm</unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2334" level="file">
+            <c02 id="mferd29e2350" level="file">
                <did>
                   <container type="box-folder">3/31</container>
                   <unittitle encodinganalog="245$a">Stravinsky's <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Apollo Musagète</title> libretto, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
@@ -1873,70 +1920,71 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                </did>
             </c02>
          </c01>
-         <c01 id="mferd277e2351" level="series">
+         <c01 id="mferd29e2367" level="series">
             <did>
                <container type="box">5-6</container>
-               <unittitle encodinganalog="245$a">Artwork</unittitle>
+               <container type="mapcase">3</container>
+               <unittitle encodinganalog="245$a" id="artw">Artwork</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The Artwork series contains five pieces of original works of art. There are three costume designs by Jane Berlandina for Bolm’s 1934 ballet <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Danse Noble</title> for the San Francisco Opera. The series also includes Nikolai Roerich’s painting of the peasant and dancing bear from the ballet <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Petrouchka</title> (the design for the 1911 Fokine version was by Alexandre Benois) and Troy Kinney’s painting of Bolm in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Prince Igor</title>.</p>
             </scopecontent>
-            <c02 id="mferd277e2369" level="file">
+            <c02 id="mferd29e2387" level="file">
                <did>
                   <container type="box-folder">5/9-11</container>
                   <unittitle encodinganalog="245$a">Jane Berlandina's costume designs for <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Danse Noble</title>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2378" level="file">
+            <c02 id="mferd29e2396" level="file">
                <did>
                   <container type="box-folder">6/4</container>
                   <unittitle encodinganalog="245$a">Troy Kinney painting of Adolf Bolm as Chief Warrior in <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Prince Igor</title>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd277e2387" level="file">
+            <c02 id="mferd29e2405" level="file">
                <did>
-                  <container type="box-folder">6/5</container>
+                  <container type="mapcase-drawer">3/1</container>
                   <unittitle encodinganalog="245$a">Nikolai Roerich painting of Peasant and Dancing Bear from <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Petrouchka</title>
                   </unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd277e2397" level="series">
+         <c01 id="mferd29e2415" level="series">
             <did>
                <container type="box">3-4, 8</container>
-               <unittitle encodinganalog="245$a">Commemorative Items and Music Scores</unittitle>
+               <unittitle encodinganalog="245$a" id="cims">Commemorative Items and Music Scores</unittitle>
             </did>
             <scopecontent encodinganalog="520">
                <p>The Commemorative Items and Music Scores series includes several miscellaneous items, including two published scores by Stravinsky (one with an inscription), and composer Carlos Salzedo’s piano prelude written in honor of the birth of Bolm’s son in 1920. In addition, there are two autograph books containing composers' signatures, including Dmitri Shostakovich's, and an envelope bearing Stravinsky’s honorary stamp from 1982.</p>
             </scopecontent>
-            <c02 id="mferd277e2406" level="subseries">
+            <c02 id="mferd29e2424" level="subseries">
                <did>
                   <container type="box">3-4, 8</container>
                   <unittitle encodinganalog="245$a">Commemorative Items</unittitle>
                </did>
-               <c03 id="mferd277e2412" level="file">
+               <c03 id="mferd29e2430" level="file">
                   <did>
                      <container type="box">8</container>
                      <unittitle encodinganalog="245$a">Autograph books</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2418" level="file">
+               <c03 id="mferd29e2436" level="file">
                   <did>
                      <container type="box-folder">3/32</container>
                      <unittitle encodinganalog="245$a">Adolph Bolm Memorial Gift to the Exceptional Children's Foundation, Los Angeles, CA, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2427" level="file">
+               <c03 id="mferd29e2445" level="file">
                   <did>
                      <container type="box-folder">3/33</container>
                      <unittitle encodinganalog="245$a">Igor Stravinsky stamp, Great Americans Series, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2436" level="file">
+               <c03 id="mferd29e2454" level="file">
                   <did>
                      <container type="box-folder">4/22</container>
                      <unittitle encodinganalog="245$a">
@@ -1947,12 +1995,12 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd277e2448" level="subseries">
+            <c02 id="mferd29e2466" level="subseries">
                <did>
                   <container type="box">4</container>
                   <unittitle encodinganalog="245$a">Published Music Scores</unittitle>
                </did>
-               <c03 id="mferd277e2454" level="file">
+               <c03 id="mferd29e2472" level="file">
                   <did>
                      <container type="box-folder">4/19</container>
                      <unittitle encodinganalog="245$a">
@@ -1960,7 +2008,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2466" level="file">
+               <c03 id="mferd29e2484" level="file">
                   <did>
                      <container type="box-folder">4/20</container>
                      <unittitle encodinganalog="245$a">
@@ -1968,7 +2016,7 @@ following information: [item, date, container number], Adolph Bolm Collection, M
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd277e2478" level="file">
+               <c03 id="mferd29e2496" level="file">
                   <did>
                      <container type="box-folder">4/21</container>
                      <unittitle encodinganalog="245$a">"Star Spangled Banner," harmonized and set for chorus by Igor Stravinsky, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941</unitdate>

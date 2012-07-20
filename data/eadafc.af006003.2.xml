@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ==========Schema Conversion:========== 
  Transformed with dtd2schema.06.xsl 
-Generated: Mon, 20 December 2010 12:03:00 PM EST
+Generated: Wed, 28 March 2012 12:07:31 PM EDT
 URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
  ===================================== -->
 <!-- corrected: 16 december 2008 : mfer@loc.gov : relatedmaterial/extref/@href : incomplete value restored from node content -->
@@ -10,8 +10,8 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd5569e3">
-   <eadheader id="mferd5569e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd5185e3">
+   <eadheader id="mferd5185e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -64,7 +64,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
       </profiledesc>
       <revisiondesc>
          <change>
-            <date era="ce" calendar="gregorian">August 2009</date>
+            <date era="ce" calendar="gregorian">February 2012</date>
             <item> 
 			            <persname>Nora Yeh</persname>
             </item>
@@ -72,7 +72,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
       </revisiondesc>
    </eadheader>
    <archdesc type="register" level="collection" relatedencoding="MARC21">
-      <did id="mferd5569e52">
+      <did id="mferd5185e52">
          <head>Collection Summary</head>
          <unitid label="Collection Number" encodinganalog="090" countrycode="US"
                  repositorycode="US-DLC">AFC 2003/050</unitid>
@@ -90,16 +90,19 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
 		          <address>
                <addressline>Washington, D.C.</addressline>
             </address> 
-         </repository>
-         <physdesc label="Extent (original)"> 
-            <extent encodinganalog="300">2.5
-		  linear inches (1 box)</extent>
-		          <extent encodinganalog="300">68 digital prints on 8 x 10 inch cardstock
-		  paper (7 color and 61 black-and-white)</extent>
-		       </physdesc>
+		          <extref xlink:type="simple" xlink:href="http://hdl.loc.gov/loc.afc/folklife.home">http://hdl.loc.gov/loc.afc/folklife.home</extref>
+		       </repository>
+         <physdesc label="Extent (Manuscripts)"> 
+            <extent encodinganalog="300">1
+		  folder; 2.5 linear inches (1 box)</extent> 
+         </physdesc>
+         <physdesc label="Extent (Graphic Images)"> 
+            <extent encodinganalog="300">68 photographs : digital prints, black and white, color ;
+		  8 x 10 in. </extent> 
+         </physdesc>
          <origination label="Creator"> 
-		          <persname source="lcnaf" encodinganalog="100">Wiesand, Stephanie,
-			 1912</persname> 
+		          <persname source="lcnaf" encodinganalog="100">Wiesand,
+			 Stephanie</persname> 
          </origination>
          <langmaterial label="Language" encodinganalog="546">
 		          <language encodinganalog="041" langcode="eng">English</language>
@@ -114,7 +117,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
 		  tapings at Südwestfunk, a television station in Baden-Baden, Germany.
 		  </abstract>
       </did>
-      <scopecontent id="mferd5569e93" encodinganalog="520">
+      <scopecontent id="mferd5185e98" encodinganalog="520">
          <head>Scope and Content</head>
          <p>The 68 digital prints in this collection document the musicians who
 		  participated in the American Folk Blues Festival from 1962 to 1965. The
@@ -124,38 +127,42 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
 		  musical landscape of Europe as it exposed young musicians such as Mick Jagger,
 		  Keith Richards, and Jimmy Page to blues music. Stephanie Wiesand usually
 		  photographed the musicians during television tapings that took place at
-		  Südwestfunk, a German television and radio station in Baden-Baden,
-		  Germany.</p>
+		  Südwestfunk, a German television and radio station in Baden-Baden, Germany.</p>
       </scopecontent>
-      <bioghist id="mferd5569e98" encodinganalog="545">
+      <bioghist id="mferd5185e103" encodinganalog="545">
          <head>Biographical History</head>
          <p>Stephanie Wiesand, German blues and jazz enthusiast, was born in
 		  Germany in 1912. From 1962 to 1965, she photographed the musicians of the
 		  American Folk Blues Festival during television tapings that took place at
-		  Südwestfunk, a German television and radio station in Baden-Baden, Germany.
-		  The prints included in this collection were submitted to the Library of
-		  Congress for copyright deposit on September 10, 2003, and are part of Stephanie
+		  Südwestfunk, a German television and radio station in Baden-Baden, Germany. The
+		  prints included in this collection were submitted to the Library of Congress
+		  for copyright deposit on September 11, 2003, and are part of Stephanie
 		  Wiesand’s 500-shot catalog that Reelin’ in the Years Productions, LLC now
 		  represents.</p>
       </bioghist>
-      <!--m2cUpdateNodeSet--><controlaccess id="mferd5569e103" altrender=":::F005=^20091013110730.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd5185e108" altrender=":::F005=^20091013110730.0^"><!--LN:282--><head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this
 			 collection in the Library's online catalog. They are grouped by name of person
-			 or organization, by subject or location, and by occupation and listed
-			 alphabetically therein.</p>
+			 or organization, by subject listed alphabetically therein. For graphic images
+			 inventory, please see 
+			 <ref xlink:type="simple" target="appendixa">Appendix A</ref>. For performers
+			 photographed, please see 
+			 <ref xlink:type="simple" target="appendixb">Appendix B</ref>. For other persons
+			 photographed, please see 
+			 <ref xlink:type="simple" target="appendixc">Appendix C</ref>.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd5571e12">
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd5187e12">
             <head>People</head>
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Wiesand%2C+Stephanie%2C^">Wiesand, Stephanie, photographer.</persname>
          </controlaccess>
-         <controlaccess id="mferd5571e21">
+         <controlaccess id="mferd5187e21">
             <head>Organizations</head>
             <corpname encodinganalog="711" source="lcnaf"
                       altrender=":::PWEBRECON=^American+Folk+Blues+Festival.^">American Folk Blues Festival.</corpname>
          </controlaccess>
-         <controlaccess id="mferd5571e30">
+         <controlaccess id="mferd5187e30">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Blues+festivals+Germany.^">Blues festivals--Germany.</subject>
@@ -164,68 +171,67 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Women+blues+musicians+United+States+Photographs.^">Women blues musicians--United States--Photographs.</subject>
          </controlaccess>
-         <controlaccess id="mferd5571e46">
+         <controlaccess id="mferd5187e46">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="lctgm" altrender=":::PWEBRECON=^Digital+prints.^">Digital prints.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp id="mferd5569e133" type="admininfo">
+      <descgrp id="mferd5185e147" type="admininfo">
          <head>Administrative Information</head>
-         <arrangement id="mferd5569e136" encodinganalog="351">
+         <arrangement id="mferd5185e150" encodinganalog="351">
             <head>Arrangement</head>
             <p>The collection was processed by Sarah Bradley Leighton in February
-		  2005. Each digital print was assigned a unique graphic image (GR) number and a
-		  log was created to identify the prints. The prints are arranged chronologically
-		  beginning with the images from the 1962 festival through the 1965 festival. The
-		  digital prints are not of the highest quality, so each print is housed in a
-		  protective Mylar folder to prevent the surface toner from rubbing off when
-		  handled.</p>
+			 2005. Each digital print was assigned a unique graphic image (GR) number and a
+			 log was created to identify the prints. The prints are arranged chronologically
+			 beginning with the images from the 1962 festival through the 1965 festival. The
+			 digital prints are not of the highest quality, so each print is housed in a
+			 protective Mylar folder to prevent the surface toner from rubbing off when
+			 handled.</p>
          </arrangement>
-         <accessrestrict id="mferd5569e141" encodinganalog="506">
+         <accessrestrict id="mferd5185e155" encodinganalog="506">
             <head>Access</head>
-            <p>Duplication of the collection materials may be governed by copyright
-		  and other restrictions.</p>
-         </accessrestrict>
-         <acqinfo id="mferd5569e146" encodinganalog="541">
-            <head>Acquisition</head>
-            <p>The prints were submitted to the Library of Congress Copyright Office
-		  on September 10, 2003, and are part of Stephanie Wiesand’s 500-shot catalog
-		  that Reelin’ in the Years Productions, LLC now represents. The Copyright
-		  Office offered the collection to the Prints and Photographs Division who then
-		  transferred the 68 prints to the Archive of Folk Culture at the American
-		  Folklife Center.</p>
-         </acqinfo>
-         <prefercite id="mferd5569e151" encodinganalog="524">
-            <head>Preferred Citation</head>
-            <p>American Folk Blues Festival Photograph Collection, 1962-1965,,
-		  Archive of Folk Culture, American Folklife Center, Library of Congress,
-		  Washington, D.C.</p>
-         </prefercite>
-         <relatedmaterial id="mferd5569e156">
-            <head>Related Materials</head>
+            <p>The collection of low resolution reference images is open for
+			 research use; the American Folklife Center does not hold the original images.
+			 </p>
+            <p>Collection materials are governed by copyright restrictions; contact
+			 the rights holder for permissions and restrictions.</p>
             <p>Reelin’ in the Years Productions, LLC holds the rights to the
-		  Stephanie Wiesand photographs as well as to the sound recordings and footage of
-		  the television tapings. They have commercially released some of the material
-		  and have used the Wiesand photographs in various formats. The photographs are
-		  also available for sale through their web site. For more information visit 
-		  <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+			 Stephanie Wiesand photographs as well as to the sound recordings and footage of
+			 the television tapings. They have commercially released some of the material
+			 and have used the Wiesand photographs in various formats. The photographs are
+			 also available for sale through their web site. For more information visit 
+			 <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
                        xlink:href="http://www.reelinintheyears.com/">http://www.reelinintheyears.com/</extref>
             </p>
-         </relatedmaterial>
+         </accessrestrict>
+         <acqinfo id="mferd5185e166" encodinganalog="541">
+            <head>Acquisition</head>
+            <p>The prints were submitted to the Library of Congress Copyright
+			 Office on September 11, 2003, and are part of Stephanie Wiesand’s 500-shot
+			 catalog that Reelin’ in the Years Productions, LLC now represents. The
+			 Copyright Office offered the collection to the Prints and Photographs Division
+			 who then transferred the 68 prints to the Archive of Folk Culture at the
+			 American Folklife Center.</p>
+         </acqinfo>
+         <prefercite id="mferd5185e171" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>American Folk Blues Festival Photograph Collection, 1962-1965 (AFC
+			 2003/050), Archive of Folk Culture, American Folklife Center, Library of
+			 Congress, Washington, D.C.</p>
+         </prefercite>
       </descgrp>
-      <odd id="mferd5569e163" type="add">
-         <head althead="Format Concordance">Collection Concordance by Format</head>
+      <odd id="mferd5185e176" type="add">
+         <head althead="Format Concordance">Collection Concordance by
+		  Format</head>
          <table>
             <tgroup cols="3" align="left">
-               <colspec colnum="1" colname="1" colwidth="30.00pt"/>
-               <colspec colnum="2" colname="2" colwidth="52.50pt"/>
-               <colspec colnum="3" colname="3" colwidth="15.25pt"/>
-               <colspec colnum="4" colname="4" colwidth="15.25pt"/>
+               <colspec colnum="1" colname="1" colwidth="20*"/>
+               <colspec colnum="2" colname="2" colwidth="40*"/>
+               <colspec colnum="3" colname="3" colwidth="40*"/>
                <thead valign="bottom">
                   <row>
                      <entry morerows="0">Quantity</entry>
                      <entry morerows="0">Physical Extent (original)</entry>
-                     <entry morerows="0">Location</entry>
                      <entry morerows="0">Item Numbers</entry>
                   </row>
                </thead>
@@ -237,13 +243,11 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
                      </entry>
                      <entry morerows="0"/>
                      <entry morerows="0"/>
-                     <entry morerows="0"/>
                   </row>
                   <row>
-                     <entry morerows="0">12</entry>
-                     <entry morerows="0">pages of manuscript material</entry>
-                     <entry morerows="0">Box 1</entry>
-                     <entry morerows="0">n/a</entry>
+                     <entry morerows="0">1</entry>
+                     <entry morerows="0">folder of 12 pages </entry>
+                     <entry morerows="0">FOLDER 1</entry>
                   </row>
                   <row>
                      <entry morerows="0"> 
@@ -251,14 +255,18 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
 					                </entry>
                      <entry morerows="0"/>
                      <entry morerows="0"/>
-                     <entry morerows="0"/>
                   </row>
                   <row>
-                     <entry morerows="0">68</entry>
-                     <entry morerows="0">digital prints on 8 x 10 inch cardstock
+                     <entry morerows="0">61</entry>
+                     <entry morerows="0">black-and-white digital prints on 8 x 10"
+					 cardstock paper</entry>
+                     <entry morerows="0">GR008-GR068, FOLDERS 3-5</entry>
+                  </row>
+                  <row>
+                     <entry morerows="0">7</entry>
+                     <entry morerows="0">color digital prints on 8 x 10" cardstock
 					 paper</entry>
-                     <entry morerows="0">Box 1</entry>
-                     <entry morerows="0">GR001-GR068</entry>
+                     <entry morerows="0">GR001-007, FOLDER 2</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -269,29 +277,24 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
                  xlink:title="MARC record for collection"
                  xlink:type="simple">http://lccn.loc.gov/2005700223</extref>
       </otherfindaid>
-      <dsc id="mferd5569e219" type="combined">
+      <dsc id="mferd5185e230" type="combined">
          <head>Container List</head>
-         <c01 id="mferd5569e222" level="series">
+         <c01 id="mferd5185e233" level="series">
             <did>
                <unittitle>Series I: Manuscripts</unittitle>
             </did>
-            <c02 id="mferd5569e226" level="item">
+            <c02 id="mferd5185e237" level="item">
                <did>
                   <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Collection Guide and administrative papers.</unittitle>
                </did>
-               <c03 id="mferd5569e230" level="file">
-                  <did>
-                     <container type="folder">1</container>
-                     <unittitle>Collection Guide and administrative
-					 papers.</unittitle>
-                  </did>
-                  <scopecontent>
-                     <p>12 pages</p>
-                  </scopecontent>
-               </c03>
+               <scopecontent>
+                  <p>12 pages</p>
+               </scopecontent>
             </c02>
          </c01>
-         <c01 id="mferd5569e239" level="series">
+         <c01 id="mferd5185e248" level="series">
             <did>
                <unittitle>Series II: Graphic Images</unittitle>
             </did>
@@ -302,41 +305,46 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
 				number the photographer assigned to a certain frame on a roll of film. The
 				color prints from 1962 do not contain reel numbers.</p>
             </scopecontent>
-            <c02 id="mferd5569e246" level="file">
+            <c02 id="mferd5185e255" level="file">
                <did>
+                  <container type="box">1</container>
                   <container type="folder">2</container>
                   <unittitle>Color (7 prints). 1962.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd5569e252" level="file">
+            <c02 id="mferd5185e263" level="file">
                <did>
+                  <container type="box">1</container>
                   <container type="folder">3</container>
                   <unittitle>Black-and-white (24 prints). 1963.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd5569e258" level="file">
+            <c02 id="mferd5185e271" level="file">
                <did>
+                  <container type="box">1</container>
                   <container type="folder">4</container>
                   <unittitle>Black-and-white (16 prints). 1964.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd5569e264" level="file">
+            <c02 id="mferd5185e279" level="file">
                <did>
+                  <container type="box">1</container>
                   <container type="folder">5</container>
                   <unittitle>Black-and-white (21 prints). 1965.</unittitle>
                </did>
             </c02>
          </c01>
       </dsc>
-      <odd id="mferd5569e270">
-         <head>Appendix I: Graphic Images Inventory</head>
+      <odd id="mferd5185e287">
+         <head id="appendixa" althead="Graphic Images Inventory">Appendix A:
+		  Graphic Images Inventory</head>
          <table>
             <tgroup cols="5" align="left">
-               <colspec colnum="1" colname="1" colwidth="5.50pt"/>
-               <colspec colnum="2" colname="2" colwidth="15.50pt"/>
-               <colspec colnum="3" colname="3" colwidth="15.25pt"/>
-               <colspec colnum="4" colname="4" colwidth="15.25pt"/>
-               <colspec colnum="5" colname="5" colwidth="52.50pt"/>
+               <colspec colnum="1" colname="1" colwidth="9*"/>
+               <colspec colnum="2" colname="2" colwidth="7*"/>
+               <colspec colnum="3" colname="3" colwidth="7*"/>
+               <colspec colnum="4" colname="4" colwidth="7*"/>
+               <colspec colnum="5" colname="5" colwidth="70*"/>
                <thead valign="bottom">
                   <row>
                      <entry morerows="0">Image #</entry>
@@ -419,8 +427,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
                      <entry morerows="0">1</entry>
                      <entry morerows="0">28</entry>
                      <entry morerows="0">1963</entry>
-                     <entry morerows="0">Sonny Boy Williamson II’s
-					 harmonicas</entry>
+                     <entry morerows="0">Sonny Boy Williamson II’s harmonicas</entry>
                   </row>
                   <row>
                      <entry morerows="0">GR011</entry>
@@ -851,8 +858,9 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
             </tgroup>
          </table>
       </odd>
-      <index id="mferd5569e1047">
-         <head>Appendix II: Performers Photographed</head>
+      <index id="mferd5185e1064">
+         <head id="appendixb" althead="Performers Photographed">Appendix B:
+		  Performers Photographed</head>
          <indexentry>
             <persname>Boyd, Eddie, 1914-</persname>
          </indexentry>
@@ -953,8 +961,9 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af006003
 			 Wolf, 1910-</persname>
          </indexentry>
       </index>
-      <index id="mferd5569e1127">
-         <head>Appendix III: Other Persons Photographed</head>
+      <index id="mferd5185e1144">
+         <head id="appendixc" althead="Other Persons Photographed">Appendix C:
+		  Other Persons Photographed</head>
          <indexentry>
             <persname encodinganalog="600" source="lcnaf" role="subject">Berendt,
 			 Joachim Ernst [Author of jazz history, record producer, and co-founder of

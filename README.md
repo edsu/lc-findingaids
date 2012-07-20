@@ -7,7 +7,7 @@ aids made available at http://findingaids.loc.gov
 Install
 -------
 
-* install node v0.6.14 or greater
+* install node v0.8.0 or greater
 * install npm
 * npm install
 * node harvest.js

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 18 November 2011 02:57:04 PM EST
+Generated: Fri, 20 July 2012 02:57:40 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu011019--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu011019--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu011019-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd13e2">
+     id="mferd17e2">
    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
               langencoding="iso639-2b"
-              id="mferd13e3">
+              id="mferd17e3">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.music/eadmus.mu011019"
              encodinganalog="856$u">
@@ -64,9 +64,15 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
          <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
          </langusage>
       </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2012-06" era="ce" calendar="gregorian">2012 June</date>
+            <item>Chris Hartten revised this finding aid in June 2012 to include additional materials.</item>
+         </change>
+      </revisiondesc>
    </eadheader>
    <archdesc level="collection" relatedencoding="MARC21" type="register">
-      <did id="mferd13e49">
+      <did id="mferd17e55">
          <head>Collection Summary</head>
          <unittitle label="Title" encodinganalog="245$a">Laurence Picken Papers
 		  <unitdate label="Span Dates" type="inclusive" normal="1900/2001" encodinganalog="245$f"
@@ -79,9 +85,9 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
 		          <persname encodinganalog="100" source="lcnaf">Picken, Laurence Ernest Rowland</persname>
          </origination>
          <physdesc label="Extent">
-            <extent encodinganalog="300">approximately 22,300 items</extent>
-		          <extent encodinganalog="300">65 containers</extent>
-		          <extent encodinganalog="300">36.0 linear feet</extent>
+            <extent encodinganalog="300">approximately 22,400 items</extent>
+		          <extent encodinganalog="300">70 containers</extent>
+		          <extent encodinganalog="300">38.5 linear feet</extent>
 		       </physdesc>
          <langmaterial label="Language" encodinganalog="546">Collection material chiefly in <language encodinganalog="041" langcode="eng">English</language> and <language encodinganalog="041" langcode="chi">Chinese</language>.
 		</langmaterial>
@@ -100,7 +106,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <controlaccess id="mferd13e102">
+         <controlaccess id="mferd17e108">
             <head>People</head>
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Fukushima%2C+Kazuo%2C+1930-^">Fukushima, Kazuo, 1930- </persname>
@@ -121,7 +127,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Picken%2C+Laurence+Ernest+Rowland.+Selections.^">Picken, Laurence Ernest Rowland. Musical works. Selections.</persname>
          </controlaccess>
-         <controlaccess id="mferd13e123">
+         <controlaccess id="mferd17e129">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Music+Asia+History+and+criticism.^">Music--Asia--History and criticism.</subject>
@@ -140,11 +146,11 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      altrender=":::PWEBRECON=^Musicologists+England.^">Musicologists--England.</subject>
             <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^T%C5%8Dgaku.^">Tōgaku.</subject>
          </controlaccess>
-         <controlaccess id="mferd13e144">
+         <controlaccess id="mferd17e150">
             <head>Titles</head>
             <title encodinganalog="630" source="lcnaf" altrender=":::PWEBRECON=^Musica+Asiatica.^">Musica Asiatica.</title>
          </controlaccess>
-         <controlaccess id="mferd13e149">
+         <controlaccess id="mferd17e155">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Articles.^">Articles.</genreform>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
@@ -158,53 +164,53 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                        altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo" id="mferd13e168">
+      <descgrp type="admininfo" id="mferd17e174">
          <head>Administrative Information</head>
-         <acqinfo encodinganalog="541" id="mferd13e171">
+         <acqinfo encodinganalog="541" id="mferd17e177">
             <head>Provenance</head>
             <p>Gift, Laurence Picken, 2002.</p>
          </acqinfo>
-         <accruals encodinganalog="584" id="mferd13e176">
+         <accruals encodinganalog="584" id="mferd17e182">
             <head>Accruals</head>
             <p>No further accruals are expected.</p>
          </accruals>
-         <processinfo encodinganalog="583" id="mferd13e181">
+         <processinfo encodinganalog="583" id="mferd17e187">
             <head>Processing History</head>
             <p>The Laurence Picken Papers were processed by Megan Murph, Christopher Hartten, Anthony Edwards, and Thomas Barrick in 2011. Thomas Barrick coded the finding aid for EAD format in 2011.</p>
          </processinfo>
-         <separatedmaterial encodinganalog="544 0" id="mferd13e186">
+         <separatedmaterial encodinganalog="544 0" id="mferd17e192">
             <head>Transfers</head>
-            <p>Sound and video recordings from the Laurence Picken Papers have been transferred to the Library of Congress Motion Picture, Broadcasting, and Recorded Sound Division. An inventory of this material is available in the collection file.</p>
+            <p>Sound and video recordings from the Laurence Picken Papers have been transferred to the Library of Congress Motion Picture, Broadcasting, and Recorded Sound Division. An inventory of this material is available in the Music Division's collection file.</p>
          </separatedmaterial>
-         <userestrict encodinganalog="540" id="mferd13e191">
+         <userestrict encodinganalog="540" id="mferd17e197">
             <head>Copyright Status</head>
             <p>Materials from the Laurence Picken Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
          </userestrict>
-         <accessrestrict encodinganalog="506 0" id="mferd13e196">
+         <accessrestrict encodinganalog="506 0" id="mferd17e202">
             <head>Access and Restrictions</head>
             <p>The Laurence Picken Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
             <p>Certain restrictions to use or copying of materials may apply.</p>
          </accessrestrict>
-         <prefercite encodinganalog="524" id="mferd13e203">
+         <prefercite encodinganalog="524" id="mferd17e209">
             <head>Preferred Citation</head>
             <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Laurence Picken Papers, Music Division, Library of Congress, Washington, D.C. </p>
          </prefercite>
       </descgrp>
-      <bioghist encodinganalog="545" id="mferd13e208">
+      <bioghist encodinganalog="545" id="mferd17e214">
          <head>Biographical Note</head>
          <p>British zoologist and musicologist Laurence Ernest Rowland Picken was born on July 16, 1909 in Nottingham, England. He studied piano as a child, and composed music during the mid-1920s and 1930s. In 1928, he won a scholarship to Trinity College, Cambridge and studied natural sciences. During the 1930s, he held a Rockefeller Studentship in the Geneva School of Chemistry for two years where he became fluent in French and German and conducted groundbreaking scientific research. He finished his Ph.D. in 1935. In 1944, he became a fellow at Jesus College, Cambridge, and in 1946 assistant director of research in the zoology faculty, spending the next twenty years researching and teaching biology. In 1944, he joined Joseph Needham’s scientific mission to China where he studied Chinese music and learned to play the zither. In 1959, Picken was appointed visiting professor of zoology at Washington University. He published his landmark book <title>The Organization of Cells and other Organisms</title> the following year in 1960.</p>
          <p>Though employed as a scientist, Picken published his first musical paper in 1950 on the identification of an unknown fugue by Bach. His reputation as a musicologist grew along with his knowledge and understanding of Asian culture and he continued to publish papers and encyclopedia entries on Asian music throughout 1950s. Picken served as editor for the journal of the International Folk Music Council in the 1960s. In 1966, he was appointed assistant director of research in the faculty of oriental studies at Cambridge. In 1977, he started the journal <title>Musica Asiatica</title> which he would co-edit until 1984. Picken donated over 700 musical instruments to the Museum of Archaeology and Anthropology at Cambridge in 1977.</p>
          <p>The music of the Chinese Tang and Song dynasties was the major focus of Picken's lifelong scholarship. In 1972, he began to transcribe and analyze pieces from the secular Tang court repertory in Japan which led to a projected 25-volume series <title>Music from the Tang Court</title> (1981-2000), of which Picken would complete only seven volumes. Picken also wrote on the music of Turkey, central Asia, Southeast Asia, and the Middle East. In 1975, he published <title>The Folk Musical Instruments of Turkey</title>, a comprehensive study of Turkish instruments. In 1990, Picken and N.J. Nickson supervised and directed a program of Tang and Song dynasty transcriptions at the Shanghai Conservatory of Music. Starting in 1998, Picken was also involved with the Ancient Asian Music Project at the Library of Congress. He died at the age of 97 on March 16, 2007, in Cambridge, England.
 	 	</p>
       </bioghist>
-      <scopecontent encodinganalog="520" id="mferd13e229">
+      <scopecontent encodinganalog="520" id="mferd17e235">
          <head>Scope and Content Note</head>
          <p>The Laurence Picken Papers span the period 1900-2001 with the majority of materials dating from 1936-1999. The materials include project files, research materials, business and personal correspondence, published and unpublished writings, scores of Picken's own compositions, and photographs.</p>
          <p>Materials in the Project Files series are centered around Picken's studies in East Asian music and range from the 1950s through the mid-1990s. These contain essay notes and drafts, translations, concert programs, miscellaneous research materials, instrument collection files, and a handful of personal files. Picken's articles and research materials for <title>Musica Asiatica</title> and his influential <title>Music from the Tang Court</title> stand out as items of particular interest. His original folder titles have been used where appropriate, although it is possible that some contain alternative or erroneous spellings and transliterations.</p>
          <p>The Correspondence series consists of personal and business letters sent or received by Laurence Picken. Many of the letters relating to his activities discuss aspects of Picken's collaborative studies and publications between 1936 and 2001. The letters to his family include postcards from his travels abroad.</p>
          <p>The Writings series contains articles, essays, and lectures by Picken, his notebooks, and books written for Picken. In addition, there are offprints by Picken, his students, and colleagues that were used in research. Materials in the Music series include manuscript and printed scores of Picken's compositions, dating from the 1920s and 1930s. There are also transcriptions of traditional East Asian music made by Picken and others between the 1950s and 2000. Rounding out the collection is the small Photographs series which contains images of Picken, traditional Chinese and Japanese musical instruments, and various performances of world music, dating from the 1930s to 1990s.</p>
       </scopecontent>
-      <arrangement encodinganalog="351$a" id="mferd13e246">
+      <arrangement encodinganalog="351$a" id="mferd17e252">
          <head>Organization of the Laurence Picken Papers</head>
          <p>The Laurence Picken Papers are organized in five series: </p>
          <list>
@@ -247,7 +253,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                  xlink:title="MARC record for collection"
                  xlink:type="simple">http://lccn.loc.gov/2011570511</extref>
       </otherfindaid>
-      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd13e274" type="combined">
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd17e280" type="combined">
          <head>Container List</head>
          <thead valign="bottom">
             <row>
@@ -255,9 +261,9 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 level="series" id="mferd13e283">
+         <c01 level="series" id="mferd17e289">
             <did>
-               <container type="box">1-18, 64</container>
+               <container type="box">1-18, 64, 66</container>
                <unittitle encodinganalog="245$a" id="lp01">Project Files,
 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1950/1999">circa 1950-1999</unitdate>
                </unittitle>
@@ -268,7 +274,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by folder title. Picken's original captions have been used whenever possible, although these may contain alternative or erroneous spellings of words. Article titles in the container list may not reflect those of actual published materials.</p>
             </arrangement>
-            <c02 level="file" id="mferd13e297">
+            <c02 level="file" id="mferd17e303">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle encodinganalog="245$a">"Acculturation and the Tōgaku repertory" (Picken/Marett)
@@ -276,7 +282,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e304">
+            <c02 level="file" id="mferd17e310">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Afterwards for Picken, Adkins, Page
@@ -284,7 +290,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e311">
+            <c02 level="file" id="mferd17e317">
                <did>
                   <container type="box-folder">9/1</container>
                   <unittitle encodinganalog="245$a">"An Afghan quail-lure of typological and acoustic interest"
@@ -292,7 +298,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e318">
+            <c02 level="file" id="mferd17e324">
                <did>
                   <container type="box-folder">1/3</container>
                   <unittitle encodinganalog="245$a">"Anatolian drum and shawm come to a Greek smuggler's village"
@@ -300,7 +306,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e325">
+            <c02 level="file" id="mferd17e331">
                <did>
                   <container type="box-folder">1/4</container>
                   <unittitle encodinganalog="245$a">Ancient Chinese songs
@@ -308,7 +314,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e332">
+            <c02 level="file" id="mferd17e338">
                <did>
                   <container type="box-folder">9/2</container>
                   <unittitle encodinganalog="245$a">"Ancient matters" - Koji-ruien
@@ -316,7 +322,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e339">
+            <c02 level="file" id="mferd17e345">
                <did>
                   <container type="box-folder">9/3</container>
                   <unittitle encodinganalog="245$a">Ang Kunshan
@@ -324,7 +330,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e346">
+            <c02 level="file" id="mferd17e352">
                <did>
                   <container type="box-folder">1/5</container>
                   <unittitle encodinganalog="245$a">Arthur Cooper's lecture and correspondence
@@ -332,7 +338,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e354">
+            <c02 level="file" id="mferd17e360">
                <did>
                   <container type="box-folder">1/6</container>
                   <unittitle encodinganalog="245$a">Bach quotations from the 18th Century
@@ -340,7 +346,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e361">
+            <c02 level="file" id="mferd17e367">
                <did>
                   <container type="box-folder">9/4</container>
                   <unittitle encodinganalog="245$a">Banshikichō
@@ -348,7 +354,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e368">
+            <c02 level="file" id="mferd17e374">
                <did>
                   <container type="box-folder">1/7</container>
                   <unittitle encodinganalog="245$a">Bibliographic data on key manuscripts
@@ -356,7 +362,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e375">
+            <c02 level="file" id="mferd17e381">
                <did>
                   <container type="box-folder">1/8</container>
                   <unittitle encodinganalog="245$a">British Council: "Science in Chungking"
@@ -364,7 +370,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e382">
+            <c02 level="file" id="mferd17e388">
                <did>
                   <container type="box-folder">1/9-11</container>
                   <unittitle encodinganalog="245$a">Bugaku
@@ -372,7 +378,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e389">
+            <c02 level="file" id="mferd17e395">
                <did>
                   <container type="box-folder">1/12-13</container>
                   <unittitle encodinganalog="245$a">Burmese music
@@ -380,7 +386,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e396">
+            <c02 level="file" id="mferd17e402">
                <did>
                   <container type="box-folder">9/5-6</container>
                   <unittitle encodinganalog="245$a">Burmese music - draft papers and correspondence with Muriel Williamson
@@ -388,7 +394,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e403">
+            <c02 level="file" id="mferd17e409">
                <did>
                   <container type="box-folder">1/14</container>
                   <unittitle encodinganalog="245$a">Catalogue of documents of music from the collection of the Fushimi-no-miya family 
@@ -396,7 +402,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e410">
+            <c02 level="file" id="mferd17e416">
                <did>
                   <container type="box-folder">10/1</container>
                   <unittitle encodinganalog="245$a">Champa
@@ -404,7 +410,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e417">
+            <c02 level="file" id="mferd17e423">
                <did>
                   <container type="box-folder">10/2</container>
                   <unittitle encodinganalog="245$a">Ch'ao-chou requiem
@@ -412,7 +418,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e424">
+            <c02 level="file" id="mferd17e430">
                <did>
                   <container type="box-folder">10/3</container>
                   <unittitle encodinganalog="245$a">Ch'ên
@@ -420,7 +426,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e432">
+            <c02 level="file" id="mferd17e438">
                <did>
                   <container type="box-folder">1/15</container>
                   <unittitle encodinganalog="245$a">Ch'in schools
@@ -428,7 +434,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e439">
+            <c02 level="file" id="mferd17e445">
                <did>
                   <container type="box-folder">1/16-20</container>
                   <unittitle encodinganalog="245$a">Chiang K'uei
@@ -436,7 +442,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e446">
+            <c02 level="file" id="mferd17e452">
                <did>
                   <container type="box-folder">1/21</container>
                   <unittitle encodinganalog="245$a">Children's sound producing toys
@@ -444,7 +450,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e453">
+            <c02 level="file" id="mferd17e459">
                <did>
                   <container type="box-folder">1/22</container>
                   <unittitle encodinganalog="245$a">China
@@ -452,7 +458,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e460">
+            <c02 level="file" id="mferd17e466">
                <did>
                   <container type="box-folder">1/23</container>
                   <unittitle encodinganalog="245$a">Chinese Buddist music
@@ -460,7 +466,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e467">
+            <c02 level="file" id="mferd17e473">
                <did>
                   <container type="box-folder">1/24</container>
                   <unittitle encodinganalog="245$a">Chinese friction chordophones
@@ -468,7 +474,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e474">
+            <c02 level="file" id="mferd17e480">
                <did>
                   <container type="box-folder">1/25-26</container>
                   <unittitle encodinganalog="245$a">Chinese folksongs
@@ -476,7 +482,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e481">
+            <c02 level="file" id="mferd17e487">
                <did>
                   <container type="box-folder">1/27-29</container>
                   <unittitle encodinganalog="245$a">Chinese music
@@ -484,7 +490,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e488">
+            <c02 level="file" id="mferd17e494">
                <did>
                   <container type="box-folder">1/30</container>
                   <unittitle encodinganalog="245$a">Chinese texts relative to Toroden 
@@ -492,7 +498,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e495">
+            <c02 level="file" id="mferd17e501">
                <did>
                   <container type="box-folder">1/31</container>
                   <unittitle encodinganalog="245$a">Chū Ōga Ryūteki Yōroku-fu 
@@ -500,7 +506,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e502">
+            <c02 level="file" id="mferd17e508">
                <did>
                   <container type="box-folder">10/4</container>
                   <unittitle encodinganalog="245$a">Chuang-chên
@@ -508,7 +514,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e510">
+            <c02 level="file" id="mferd17e516">
                <did>
                   <container type="box-folder">1/32</container>
                   <unittitle encodinganalog="245$a">Concert programs
@@ -516,7 +522,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e517">
+            <c02 level="file" id="mferd17e523">
                <did>
                   <container type="box-folder">1/33</container>
                   <unittitle encodinganalog="245$a">Conflation and analysis 
@@ -524,7 +530,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e524">
+            <c02 level="file" id="mferd17e530">
                <did>
                   <container type="box-folder">2/1-2</container>
                   <unittitle encodinganalog="245$a">Correspondence and translations by Ishibashi/Fukushima  
@@ -532,7 +538,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e531">
+            <c02 level="file" id="mferd17e537">
                <did>
                   <container type="box-folder">2/3</container>
                   <unittitle encodinganalog="245$a">Dai Nihon shi
@@ -540,7 +546,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e538">
+            <c02 level="file" id="mferd17e544">
                <did>
                   <container type="box-folder">2/4</container>
                   <unittitle encodinganalog="245$a">Daoist white-stone [i.e. White Stone Daoist]: Jiang Kui - collected songs and pieces
@@ -548,7 +554,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e545">
+            <c02 level="file" id="mferd17e551">
                <did>
                   <container type="box-folder">2/5</container>
                   <unittitle encodinganalog="245$a">Double-sided printing of Sadachō items
@@ -556,7 +562,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e552">
+            <c02 level="file" id="mferd17e558">
                <did>
                   <container type="box-folder">2/6</container>
                   <unittitle encodinganalog="245$a">Dunhuang lute music (Rockwell)
@@ -564,7 +570,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e559">
+            <c02 level="file" id="mferd17e565">
                <did>
                   <container type="box-folder">10/5</container>
                   <unittitle encodinganalog="245$a">Dunhuang piba-pu
@@ -572,7 +578,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e566">
+            <c02 level="file" id="mferd17e572">
                <did>
                   <container type="box-folder">2/7</container>
                   <unittitle encodinganalog="245$a">Encyclopedia Britannica
@@ -580,7 +586,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e573">
+            <c02 level="file" id="mferd17e579">
                <did>
                   <container type="box-folder">2/8</container>
                   <unittitle encodinganalog="245$a">Ethiopic liturgical music
@@ -588,7 +594,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e580">
+            <c02 level="file" id="mferd17e586">
                <did>
                   <container type="box-folder">2/9</container>
                   <unittitle encodinganalog="245$a">"The fate of Tang music in Japan"
@@ -596,7 +602,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e588">
+            <c02 level="file" id="mferd17e594">
                <did>
                   <container type="box-folder">2/10-12</container>
                   <unittitle encodinganalog="245$a">Fengshen Zhuan
@@ -604,7 +610,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e595">
+            <c02 level="file" id="mferd17e601">
                <did>
                   <container type="box-folder">2/13, 10/6</container>
                   <unittitle encodinganalog="245$a">"Finger techniques for the zithers sô-no-koto and kin in Heian times" (Mitani/Picken)
@@ -612,7 +618,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e602">
+            <c02 level="file" id="mferd17e608">
                <did>
                   <container type="box-folder">10/7</container>
                   <unittitle encodinganalog="245$a">First transcriptions of Meiji and Shōwa printed shō tablatures
@@ -620,7 +626,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e609">
+            <c02 level="file" id="mferd17e615">
                <did>
                   <container type="box-folder">3/14</container>
                   <unittitle encodinganalog="245$a">Fragments of Fengxue
@@ -628,7 +634,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e616">
+            <c02 level="file" id="mferd17e622">
                <did>
                   <container type="box-folder">3/15</container>
                   <unittitle encodinganalog="245$a">"Frequency doubling chordophones" (Adkins/Williams/Flowers/Picken)
@@ -636,7 +642,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e623">
+            <c02 level="file" id="mferd17e629">
                <did>
                   <container type="box-folder">3/16</container>
                   <unittitle encodinganalog="245$a">Fujiwara genealogies
@@ -644,7 +650,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e630">
+            <c02 level="file" id="mferd17e636">
                <did>
                   <container type="box-folder">3/17-18</container>
                   <unittitle encodinganalog="245$a">"The functional names of notes in Modai note-sets"
@@ -652,7 +658,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e637">
+            <c02 level="file" id="mferd17e643">
                <did>
                   <container type="box-folder">11/1</container>
                   <unittitle encodinganalog="245$a">Gagaku
@@ -660,7 +666,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e644">
+            <c02 level="file" id="mferd17e650">
                <did>
                   <container type="box-folder">11/2</container>
                   <unittitle encodinganalog="245$a">Gagaku (Harich-Schneider)
@@ -668,7 +674,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e651">
+            <c02 level="file" id="mferd17e657">
                <did>
                   <container type="box-folder">2/19</container>
                   <unittitle encodinganalog="245$a">Gakka-roku (excerpts)
@@ -676,7 +682,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e658">
+            <c02 level="file" id="mferd17e664">
                <did>
                   <container type="box-folder">2/20</container>
                   <unittitle encodinganalog="245$a">Gidayu
@@ -684,7 +690,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e666">
+            <c02 level="file" id="mferd17e672">
                <did>
                   <container type="box-folder">2/21</container>
                   <unittitle encodinganalog="245$a">Gogenfu (copy of F.R.W.'s transcripts)
@@ -692,7 +698,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e673">
+            <c02 level="file" id="mferd17e679">
                <did>
                   <container type="box-folder">11/3</container>
                   <unittitle encodinganalog="245$a">GoGen Kin-Fu
@@ -700,7 +706,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e680">
+            <c02 level="file" id="mferd17e686">
                <did>
                   <container type="box-folder">2/22</container>
                   <unittitle encodinganalog="245$a">Notes on gougche-pu derived from Yang YenLin and Zhang Shipeng
@@ -708,7 +714,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e687">
+            <c02 level="file" id="mferd17e693">
                <did>
                   <container type="box-folder">2/23</container>
                   <unittitle encodinganalog="245$a">Guan's comments on Tōgaku titles in Hakuga nofue-fu
@@ -716,7 +722,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e694">
+            <c02 level="file" id="mferd17e700">
                <did>
                   <container type="box-folder">2/24</container>
                   <unittitle encodinganalog="245$a">Haloun: notes for the burning of the books
@@ -724,7 +730,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e701">
+            <c02 level="file" id="mferd17e707">
                <did>
                   <container type="box-folder">11/4</container>
                   <unittitle encodinganalog="245$a">Hayashi Kenzō
@@ -732,7 +738,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e708">
+            <c02 level="file" id="mferd17e714">
                <did>
                   <container type="box-folder">2/25</container>
                   <unittitle encodinganalog="245$a">Hirade
@@ -740,7 +746,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e715">
+            <c02 level="file" id="mferd17e721">
                <did>
                   <container type="box-folder">2/26-27</container>
                   <unittitle encodinganalog="245$a">Honorary doctorate, 1988
@@ -748,7 +754,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e722">
+            <c02 level="file" id="mferd17e728">
                <did>
                   <container type="box-folder">3/1</container>
                   <unittitle encodinganalog="245$a">Hosho-fu
@@ -756,7 +762,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e729">
+            <c02 level="file" id="mferd17e735">
                <did>
                   <container type="box-folder">3/2</container>
                   <unittitle encodinganalog="245$a">Hōshō ritsu-kan
@@ -764,7 +770,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e736">
+            <c02 level="file" id="mferd17e742">
                <did>
                   <container type="box-folder">11/5</container>
                   <unittitle encodinganalog="245$a">Hyōjō
@@ -772,7 +778,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e744">
+            <c02 level="file" id="mferd17e750">
                <did>
                   <container type="box-folder">12/1</container>
                   <unittitle encodinganalog="245$a">Ichikotsuchō
@@ -780,7 +786,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e751">
+            <c02 level="file" id="mferd17e757">
                <did>
                   <container type="box-folder">3/3</container>
                   <unittitle encodinganalog="245$a">Instrument collection
@@ -788,7 +794,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e758">
+            <c02 level="file" id="mferd17e764">
                <did>
                   <container type="box-folder">12/2</container>
                   <unittitle encodinganalog="245$a">"The instrumentarium of a village in Northeast Thailand" 
@@ -796,7 +802,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e765">
+            <c02 level="file" id="mferd17e771">
                <did>
                   <container type="box-folder">3/4</container>
                   <unittitle encodinganalog="245$a">Jao Tsung-I preface, 1990
@@ -804,7 +810,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e772">
+            <c02 level="file" id="mferd17e778">
                <did>
                   <container type="box-folder">3/5</container>
                   <unittitle encodinganalog="245$a">Japanese historical linguistics
@@ -812,7 +818,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e779">
+            <c02 level="file" id="mferd17e785">
                <did>
                   <container type="box-folder">12/3</container>
                   <unittitle encodinganalog="245$a">JCYR
@@ -820,7 +826,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e786">
+            <c02 level="file" id="mferd17e792">
                <did>
                   <container type="box-folder">3/6</container>
                   <unittitle encodinganalog="245$a">"Jew's harps and mouth organs"
@@ -828,7 +834,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e793">
+            <c02 level="file" id="mferd17e799">
                <did>
                   <container type="box-folder">3/7</container>
                   <unittitle encodinganalog="245$a">Jiang Kui
@@ -836,7 +842,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e800">
+            <c02 level="file" id="mferd17e806">
                <did>
                   <container type="box-folder">3/8</container>
                   <unittitle encodinganalog="245$a">Jiaofang-ji
@@ -844,7 +850,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e807">
+            <c02 level="file" id="mferd17e813">
                <did>
                   <container type="box-folder">3/9</container>
                   <unittitle encodinganalog="245$a">Jiegulu
@@ -852,7 +858,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e814">
+            <c02 level="file" id="mferd17e820">
                <did>
                   <container type="box-folder">64/1</container>
                   <unittitle encodinganalog="245$a">Jinchi-yoroku
@@ -860,7 +866,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e822">
+            <c02 level="file" id="mferd17e828">
                <did>
                   <container type="box-folder">3/10</container>
                   <unittitle encodinganalog="245$a">Junior sinologues
@@ -868,7 +874,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e829">
+            <c02 level="file" id="mferd17e835">
                <did>
                   <container type="box-folder">3/11-12</container>
                   <unittitle encodinganalog="245$a">Kaichū-fu
@@ -876,7 +882,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e836">
+            <c02 level="file" id="mferd17e842">
                <did>
                   <container type="box-folder">3/13-14</container>
                   <unittitle encodinganalog="245$a">"A keyboard fugue by Bach"
@@ -884,7 +890,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e843">
+            <c02 level="file" id="mferd17e849">
                <did>
                   <container type="box-folder">3/15</container>
                   <unittitle encodinganalog="245$a">Kikutei: "Pieces for biwa, notated in calendrically correct tunings, from the Kikutei-ke Monjo of the Heian Hakubutsukan"
@@ -892,7 +898,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e850">
+            <c02 level="file" id="mferd17e856">
                <did>
                   <container type="box-folder">3/16</container>
                   <unittitle encodinganalog="245$a">Ko-fu ritsu
@@ -900,7 +906,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e857">
+            <c02 level="file" id="mferd17e863">
                <did>
                   <container type="box-folder">13/1-2</container>
                   <unittitle encodinganalog="245$a">Korean court dance under Sejong and Sejo 
@@ -908,7 +914,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e864">
+            <c02 level="file" id="mferd17e870">
                <did>
                   <container type="box-folder">3/17</container>
                   <unittitle encodinganalog="245$a">Kucha music influence
@@ -916,7 +922,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e871">
+            <c02 level="file" id="mferd17e877">
                <did>
                   <container type="box-folder">3/18</container>
                   <unittitle encodinganalog="245$a">Kunaichō shoryōbu
@@ -924,7 +930,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e878">
+            <c02 level="file" id="mferd17e884">
                <did>
                   <container type="box-folder">3/19</container>
                   <unittitle encodinganalog="245$a">Kyōkun shō
@@ -932,7 +938,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e885">
+            <c02 level="file" id="mferd17e891">
                <did>
                   <container type="box-folder">13/3</container>
                   <unittitle encodinganalog="245$a">Libo songs in Gi-shi Gakufu
@@ -940,7 +946,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e892">
+            <c02 level="file" id="mferd17e898">
                <did>
                   <container type="box-folder">3/20-22, 13/4</container>
                   <unittitle encodinganalog="245$a">Library of Congress exhibition, 1999 
@@ -948,7 +954,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e900">
+            <c02 level="file" id="mferd17e906">
                <did>
                   <container type="box-folder">3/23</container>
                   <unittitle encodinganalog="245$a">"A lion dance of the Song Dynasty" 
@@ -956,7 +962,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e907">
+            <c02 level="file" id="mferd17e913">
                <did>
                   <container type="box-folder">3/24</container>
                   <unittitle encodinganalog="245$a">Mabuchi Usaburō 
@@ -964,7 +970,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e914">
+            <c02 level="file" id="mferd17e920">
                <did>
                   <container type="box-folder">3/25</container>
                   <unittitle encodinganalog="245$a">"The magic of children's sound-producing toys"
@@ -972,7 +978,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e921">
+            <c02 level="file" id="mferd17e927">
                <did>
                   <container type="box-folder">3/26</container>
                   <unittitle encodinganalog="245$a">Mahmut Ragip Gazimihal 
@@ -980,7 +986,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e928">
+            <c02 level="file" id="mferd17e934">
                <did>
                   <container type="box-folder">3/27</container>
                   <unittitle encodinganalog="245$a">"Making a Khaein" (Adkins/Page/Picken) 
@@ -988,7 +994,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e935">
+            <c02 level="file" id="mferd17e941">
                <did>
                   <container type="box-folder">3/28</container>
                   <unittitle encodinganalog="245$a">Marett transcription of Chōkōraku
@@ -996,7 +1002,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e942">
+            <c02 level="file" id="mferd17e948">
                <did>
                   <container type="box-folder">3/29</container>
                   <unittitle encodinganalog="245$a">Material from "Ancient echos of China"
@@ -1004,7 +1010,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e949">
+            <c02 level="file" id="mferd17e955">
                <did>
                   <container type="box-folder">3/30</container>
                   <unittitle encodinganalog="245$a">"Midnight music" (Yebanyue)
@@ -1012,7 +1018,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e956">
+            <c02 level="file" id="mferd17e962">
                <did>
                   <container type="box-folder">4/1</container>
                   <unittitle encodinganalog="245$a">Miscellaneous articles 
@@ -1020,7 +1026,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e963">
+            <c02 level="file" id="mferd17e969">
                <did>
                   <container type="box-folder">4/2</container>
                   <unittitle encodinganalog="245$a">Miscellaneous materials in Chinese
@@ -1028,7 +1034,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e970">
+            <c02 level="file" id="mferd17e976">
                <did>
                   <container type="box-folder">14/1, 64/2</container>
                   <unittitle encodinganalog="245$a">Miscellaneous music in Chinese
@@ -1036,7 +1042,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e978">
+            <c02 level="file" id="mferd17e984">
                <did>
                   <container type="box-folder">4/3-24, 14/2-4, 64/3</container>
                   <unittitle encodinganalog="245$a">Miscellaneous research materials 
@@ -1047,7 +1053,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e988">
+            <c02 level="file" id="mferd17e994">
                <did>
                   <container type="box-folder">4/25</container>
                   <unittitle encodinganalog="245$a">Mongolian articles
@@ -1055,7 +1061,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e995">
+            <c02 level="file" id="mferd17e1001">
                <did>
                   <container type="box-folder">4/26</container>
                   <unittitle encodinganalog="245$a">"Music for a lion-dance" of the Song Dynasty
@@ -1063,7 +1069,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1002">
+            <c02 level="file" id="mferd17e1008">
                <did>
                   <container type="box-folder">5, 6/1-11, 15, 64/4-5</container>
                   <unittitle encodinganalog="245$a">Music of the Tang Court 
@@ -1071,7 +1077,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1009">
+            <c02 level="file" id="mferd17e1015">
                <did>
                   <container type="box-folder">4/27</container>
                   <unittitle encodinganalog="245$a">Music Research Institute of Chicago (Peking)
@@ -1079,7 +1085,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1016">
+            <c02 level="file" id="mferd17e1022">
                <did>
                   <container type="box-folder">6/12-21</container>
                   <unittitle encodinganalog="245$a">Musica Asiatica articles
@@ -1087,7 +1093,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1023">
+            <c02 level="file" id="mferd17e1029">
                <did>
                   <container type="box-folder">6/22, 14/5</container>
                   <unittitle encodinganalog="245$a">"Musical implications of Chinese songtext with unequal lines and the significance of nonsense syllables, with special reference to artsongs of Song Dynasty"  
@@ -1095,7 +1101,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1030">
+            <c02 level="file" id="mferd17e1036">
                <did>
                   <container type="box-folder">6/23</container>
                   <unittitle encodinganalog="245$a">"Musical inter-relationships between Tang Chinese compositions; Three items with titles in the names of imperial military leaders"
@@ -1103,7 +1109,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1037">
+            <c02 level="file" id="mferd17e1043">
                <did>
                   <container type="box-folder">6/24</container>
                   <unittitle encodinganalog="245$a">Musikethnologische Jahresbibliographie Europas 
@@ -1111,7 +1117,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1044">
+            <c02 level="file" id="mferd17e1050">
                <did>
                   <container type="box-folder">16/1</container>
                   <unittitle encodinganalog="245$a">Namguan 
@@ -1119,7 +1125,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1051">
+            <c02 level="file" id="mferd17e1057">
                <did>
                   <container type="box-folder">6/25</container>
                   <unittitle encodinganalog="245$a">Namguan Patsy Choo
@@ -1127,7 +1133,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1059">
+            <c02 level="file" id="mferd17e1065">
                <did>
                   <container type="box-folder">6/26</container>
                   <unittitle encodinganalog="245$a">Nawa contents
@@ -1135,7 +1141,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1066">
+            <c02 level="file" id="mferd17e1072">
                <did>
                   <container type="box-folder">6/27</container>
                   <unittitle encodinganalog="245$a">Neopolitan cries
@@ -1143,7 +1149,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1073">
+            <c02 level="file" id="mferd17e1079">
                <did>
                   <container type="box-folder">6/28-29</container>
                   <unittitle encodinganalog="245$a">Notes
@@ -1151,7 +1157,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1080">
+            <c02 level="file" id="mferd17e1086">
                <did>
                   <container type="box-folder">6/30</container>
                   <unittitle encodinganalog="245$a">Notes on Hichiriki scores: Nakahara-roseishō and others
@@ -1159,7 +1165,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1087">
+            <c02 level="file" id="mferd17e1093">
                <did>
                   <container type="box-folder">6/31</container>
                   <unittitle encodinganalog="245$a">Notes on mensural notation in Ō-dai
@@ -1167,7 +1173,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1094">
+            <c02 level="file" id="mferd17e1100">
                <did>
                   <container type="box-folder">6/32</container>
                   <unittitle encodinganalog="245$a">Notes on mouth organ scoring
@@ -1175,7 +1181,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1101">
+            <c02 level="file" id="mferd17e1107">
                <did>
                   <container type="box-folder">6/33</container>
                   <unittitle encodinganalog="245$a">Notes on music manuscripts purhcased by Elling Eide
@@ -1183,7 +1189,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1108">
+            <c02 level="file" id="mferd17e1114">
                <did>
                   <container type="box-folder">16/2</container>
                   <unittitle encodinganalog="245$a">"Notes on some important Togaku manuscripts in Tenri University Library" 
@@ -1191,7 +1197,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1115">
+            <c02 level="file" id="mferd17e1121">
                <did>
                   <container type="box-folder">6/34</container>
                   <unittitle encodinganalog="245$a">Notes on tablature system of Kofu/Hōshōfu (Ritsu/Ryokan)
@@ -1199,7 +1205,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1122">
+            <c02 level="file" id="mferd17e1128">
                <did>
                   <container type="box-folder">16/3</container>
                   <unittitle encodinganalog="245$a">Ojikichō
@@ -1207,7 +1213,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1129">
+            <c02 level="file" id="mferd17e1135">
                <did>
                   <container type="box-folder">7/1</container>
                   <unittitle encodinganalog="245$a">Okugaki
@@ -1215,7 +1221,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1137">
+            <c02 level="file" id="mferd17e1143">
                <did>
                   <container type="box-folder">7/2</container>
                   <unittitle encodinganalog="245$a">Personalia and CV
@@ -1223,23 +1229,34 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1144">
+            <c02 level="file" id="mferd17e1150">
                <did>
                   <container type="box-folder">7/3</container>
-                  <unittitle encodinganalog="245$a">Piba techniques and terms
+                  <unittitle encodinganalog="245$a">Pipa techniques and terms
 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1151">
+            <c02 level="file" id="mferd17e1157">
                <did>
                   <container type="box-folder">7/4</container>
-                  <unittitle encodinganalog="245$a">Pibafu
+                  <unittitle encodinganalog="245$a">Pipafu
 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1158">
+            <c02 level="file" id="mferd17e1164">
+               <did>
+                  <container type="box">66</container>
+                  <unittitle encodinganalog="245$a">Picken Collection of Musical Instruments, Cambridge University Museum of Archaeology and Ethnology
+						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Two-volume card index</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd17e1174">
                <did>
                   <container type="box-folder">7/5</container>
                   <unittitle encodinganalog="245$a">Picken donations
@@ -1247,7 +1264,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1165">
+            <c02 level="file" id="mferd17e1181">
                <did>
                   <container type="box-folder">7/6</container>
                   <unittitle encodinganalog="245$a">Picken library
@@ -1255,7 +1272,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1172">
+            <c02 level="file" id="mferd17e1188">
                <did>
                   <container type="box-folder">7/7</container>
                   <unittitle encodinganalog="245$a">Picken's criticism of Robert T. Mok's "Ancient musical instruments unearthed from the number one Han tomb at Ma Want Tui, Changsha"
@@ -1263,7 +1280,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1179">
+            <c02 level="file" id="mferd17e1195">
                <did>
                   <container type="box-folder">7/8</container>
                   <unittitle encodinganalog="245$a">Plainsong notes
@@ -1271,7 +1288,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1186">
+            <c02 level="file" id="mferd17e1202">
                <did>
                   <container type="box-folder">7/9</container>
                   <unittitle encodinganalog="245$a">The 'plucked drums'
@@ -1279,7 +1296,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1193">
+            <c02 level="file" id="mferd17e1209">
                <did>
                   <container type="box-folder">7/10</container>
                   <unittitle encodinganalog="245$a">Porcelain
@@ -1287,7 +1304,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1200">
+            <c02 level="file" id="mferd17e1216">
                <did>
                   <container type="box-folder">7/11</container>
                   <unittitle encodinganalog="245$a">Publication agreements
@@ -1295,7 +1312,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1207">
+            <c02 level="file" id="mferd17e1224">
                <did>
                   <container type="box-folder">7/12</container>
                   <unittitle encodinganalog="245$a">R.H. van Gulik's bronze
@@ -1303,7 +1320,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1215">
+            <c02 level="file" id="mferd17e1231">
                <did>
                   <container type="box-folder">17/1</container>
                   <unittitle encodinganalog="245$a">Qui Jingsun
@@ -1311,7 +1328,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1222">
+            <c02 level="file" id="mferd17e1238">
                <did>
                   <container type="box-folder">7/13</container>
                   <unittitle encodinganalog="245$a">Radio talk / Chinese 7-string zither
@@ -1319,7 +1336,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1229">
+            <c02 level="file" id="mferd17e1245">
                <did>
                   <container type="box-folder">7/14</container>
                   <unittitle encodinganalog="245$a">Rakusaidō Gagaku manuscripts (Kazuo Fukushima)
@@ -1327,7 +1344,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1236">
+            <c02 level="file" id="mferd17e1252">
                <did>
                   <container type="box-folder">7/15</container>
                   <unittitle encodinganalog="245$a">Reviews and acknowledgements
@@ -1335,7 +1352,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1243">
+            <c02 level="file" id="mferd17e1259">
                <did>
                   <container type="box-folder">7/16</container>
                   <unittitle encodinganalog="245$a">Reviews by Laurence Picken
@@ -1343,7 +1360,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1250">
+            <c02 level="file" id="mferd17e1266">
                <did>
                   <container type="box-folder">7/17</container>
                   <unittitle encodinganalog="245$a">Revue bibliographique de sinologie
@@ -1351,7 +1368,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1257">
+            <c02 level="file" id="mferd17e1273">
                <did>
                   <container type="box-folder">7/18-20</container>
                   <unittitle encodinganalog="245$a">Ruisō-chiyō
@@ -1359,7 +1376,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1264">
+            <c02 level="file" id="mferd17e1280">
                <did>
                   <container type="box-folder">17/2</container>
                   <unittitle encodinganalog="245$a">Ryō-ō
@@ -1367,7 +1384,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1271">
+            <c02 level="file" id="mferd17e1287">
                <did>
                   <container type="box-folder">7/21-22</container>
                   <unittitle encodinganalog="245$a">Ryūmeishō
@@ -1375,7 +1392,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1278">
+            <c02 level="file" id="mferd17e1294">
                <did>
                   <container type="box-folder">7/23</container>
                   <unittitle encodinganalog="245$a">Samaifu glossary and definitions
@@ -1383,7 +1400,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1285">
+            <c02 level="file" id="mferd17e1302">
                <did>
                   <container type="box-folder">7/24</container>
                   <unittitle encodinganalog="245$a">Samaifu copy of Maifu of Shunnōden, Satto and Juha
@@ -1391,7 +1408,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1293">
+            <c02 level="file" id="mferd17e1309">
                <did>
                   <container type="box-folder">7/25</container>
                   <unittitle encodinganalog="245$a">Sandai jitsuroku
@@ -1399,7 +1416,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1300">
+            <c02 level="file" id="mferd17e1316">
                <did>
                   <container type="box-folder">7/26</container>
                   <unittitle encodinganalog="245$a">Sango-yōroku
@@ -1407,7 +1424,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1307">
+            <c02 level="file" id="mferd17e1323">
                <did>
                   <container type="box-folder">7/27</container>
                   <unittitle encodinganalog="245$a">Second Samaifu copy from Tsuji sensei
@@ -1415,7 +1432,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1314">
+            <c02 level="file" id="mferd17e1330">
                <did>
                   <container type="box-folder">17/3</container>
                   <unittitle encodinganalog="245$a">Secret dragon flute score
@@ -1423,7 +1440,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1321">
+            <c02 level="file" id="mferd17e1337">
                <did>
                   <container type="box-folder">7/28</container>
                   <unittitle encodinganalog="245$a">Semsi Yastiman
@@ -1431,7 +1448,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1328">
+            <c02 level="file" id="mferd17e1344">
                <did>
                   <container type="box-folder">17/4</container>
                   <unittitle encodinganalog="245$a">SGYR
@@ -1439,7 +1456,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1335">
+            <c02 level="file" id="mferd17e1351">
                <did>
                   <container type="box-folder">7/29</container>
                   <unittitle encodinganalog="245$a">Shanghai Conservatory
@@ -1447,7 +1464,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1342">
+            <c02 level="file" id="mferd17e1358">
                <did>
                   <container type="box-folder">64/8</container>
                   <unittitle encodinganalog="245$a">"The shapes of the Shi Jing song texts and their musical implications"
@@ -1455,7 +1472,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1349">
+            <c02 level="file" id="mferd17e1365">
                <did>
                   <container type="box-folder">7/30</container>
                   <unittitle encodinganalog="245$a">Shi Jing
@@ -1463,7 +1480,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1356">
+            <c02 level="file" id="mferd17e1372">
                <did>
                   <container type="box-folder">17/7</container>
                   <unittitle encodinganalog="245$a">Shi Jing paper (Musica Asiatica, 1977)
@@ -1471,7 +1488,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1363">
+            <c02 level="file" id="mferd17e1380">
                <did>
                   <container type="box-folder">17/5-6</container>
                   <unittitle encodinganalog="245$a">Shinnō hajinraku
@@ -1479,7 +1496,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1371">
+            <c02 level="file" id="mferd17e1387">
                <did>
                   <container type="box-folder">7/31</container>
                   <unittitle encodinganalog="245$a">Shinraryō-ō Sairyōshū
@@ -1487,7 +1504,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1378">
+            <c02 level="file" id="mferd17e1394">
                <did>
                   <container type="box-folder">18/1</container>
                   <unittitle encodinganalog="245$a">Shō and Bisa part parallelism (Shō part is cantus firmus)
@@ -1495,7 +1512,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1385">
+            <c02 level="file" id="mferd17e1401">
                <did>
                   <container type="box-folder">7/32</container>
                   <unittitle encodinganalog="245$a">Song texts
@@ -1503,7 +1520,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1392">
+            <c02 level="file" id="mferd17e1408">
                <did>
                   <container type="box-folder">7/33</container>
                   <unittitle encodinganalog="245$a">Sōnokoto tunings
@@ -1511,7 +1528,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1399">
+            <c02 level="file" id="mferd17e1415">
                <did>
                   <container type="box-folder">18/2</container>
                   <unittitle encodinganalog="245$a">The sound of Areston (Gershevitch)
@@ -1519,7 +1536,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1406">
+            <c02 level="file" id="mferd17e1422">
                <did>
                   <container type="box-folder">7/34</container>
                   <unittitle encodinganalog="245$a">"The sound producing instrumentarium of a village in North-East Thailand" 
@@ -1527,7 +1544,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1413">
+            <c02 level="file" id="mferd17e1429">
                <did>
                   <container type="box-folder">7/35</container>
                   <unittitle encodinganalog="245$a">Specimen tune in all Chinese modes at same pitch, both pentatonic and heptatonic
@@ -1535,7 +1552,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1420">
+            <c02 level="file" id="mferd17e1436">
                <did>
                   <container type="box-folder">7/36</container>
                   <unittitle encodinganalog="245$a">"String/table angles in harps, from the third millenium BC to the present" 
@@ -1543,7 +1560,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1427">
+            <c02 level="file" id="mferd17e1443">
                <did>
                   <container type="box-folder">7/37-38</container>
                   <unittitle encodinganalog="245$a">Taigenshō Kyō Kunshō
@@ -1551,7 +1568,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1434">
+            <c02 level="file" id="mferd17e1450">
                <did>
                   <container type="box-folder">18/3, 7/39</container>
                   <unittitle encodinganalog="245$a">Taiheiraku
@@ -1559,7 +1576,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1441">
+            <c02 level="file" id="mferd17e1458">
                <did>
                   <container type="box-folder">7/40</container>
                   <unittitle encodinganalog="245$a">T'ang dance notation
@@ -1567,7 +1584,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1449">
+            <c02 level="file" id="mferd17e1465">
                <did>
                   <container type="box-folder">7/41</container>
                   <unittitle encodinganalog="245$a">Taoist ritual music
@@ -1575,7 +1592,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1456">
+            <c02 level="file" id="mferd17e1472">
                <did>
                   <container type="box-folder">7/42</container>
                   <unittitle encodinganalog="245$a">Teheran congress 1961
@@ -1583,7 +1600,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1463">
+            <c02 level="file" id="mferd17e1479">
                <did>
                   <container type="box-folder">7/43</container>
                   <unittitle encodinganalog="245$a">Thai mouth organs, correspondence with Peter Bee papers
@@ -1591,7 +1608,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1470">
+            <c02 level="file" id="mferd17e1486">
                <did>
                   <container type="box-folder">7/44</container>
                   <unittitle encodinganalog="245$a">Thai music "The making of a Rhāen" correspondence
@@ -1599,7 +1616,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1477">
+            <c02 level="file" id="mferd17e1493">
                <did>
                   <container type="box-folder">7/45</container>
                   <unittitle encodinganalog="245$a">Tōdai-ji Yōroku Kaigen-e
@@ -1607,7 +1624,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1484">
+            <c02 level="file" id="mferd17e1500">
                <did>
                   <container type="box-folder">7/46</container>
                   <unittitle encodinganalog="245$a">Tōgaku pieces transcribed
@@ -1615,7 +1632,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1491">
+            <c02 level="file" id="mferd17e1507">
                <did>
                   <container type="box-folder">7/47</container>
                   <unittitle encodinganalog="245$a">Toyonaga Satomi papers
@@ -1623,7 +1640,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1498">
+            <c02 level="file" id="mferd17e1514">
                <did>
                   <container type="box-folder">8/1-3</container>
                   <unittitle encodinganalog="245$a">Transcriptions from Festival of GI
@@ -1631,7 +1648,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1505">
+            <c02 level="file" id="mferd17e1521">
                <did>
                   <container type="box-folder">8/4</container>
                   <unittitle encodinganalog="245$a">"Tunes of T'ang date for the 'get trasure song'?" (Jones/Picken)
@@ -1639,7 +1656,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1512">
+            <c02 level="file" id="mferd17e1528">
                <did>
                   <container type="box-folder">8/5</container>
                   <unittitle encodinganalog="245$a">Tunings and pitch measurements (Ruttner)
@@ -1647,7 +1664,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1519">
+            <c02 level="file" id="mferd17e1536">
                <did>
                   <container type="box-folder">8/6</container>
                   <unittitle encodinganalog="245$a">Turkey
@@ -1655,7 +1672,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1527">
+            <c02 level="file" id="mferd17e1543">
                <did>
                   <container type="box-folder">8/7</container>
                   <unittitle encodinganalog="245$a">Turkish reviews and letters
@@ -1663,7 +1680,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1534">
+            <c02 level="file" id="mferd17e1550">
                <did>
                   <container type="box-folder">8/8</container>
                   <unittitle encodinganalog="245$a">Tweleve ritual melodies of the T'ang Dynasty
@@ -1671,7 +1688,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1541">
+            <c02 level="file" id="mferd17e1557">
                <did>
                   <container type="box-folder">8/9</container>
                   <unittitle encodinganalog="245$a">'Ulili
@@ -1679,7 +1696,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1548">
+            <c02 level="file" id="mferd17e1564">
                <did>
                   <container type="box-folder">8/10</container>
                   <unittitle encodinganalog="245$a">Utsucho - Monogatari; also copy of Noguchi's paper on Utsucho-Monogatari
@@ -1687,7 +1704,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1555">
+            <c02 level="file" id="mferd17e1571">
                <did>
                   <container type="box-folder">8/11</container>
                   <unittitle encodinganalog="245$a">"Water birds on river islands"
@@ -1695,15 +1712,15 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1562">
+            <c02 level="file" id="mferd17e1578">
                <did>
                   <container type="box-folder">8/12</container>
-                  <unittitle encodinganalog="245$a">Wang Zhaojum
+                  <unittitle encodinganalog="245$a">Wang Zhaojun
 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1569">
+            <c02 level="file" id="mferd17e1585">
                <did>
                   <container type="box-folder">8/13</container>
                   <unittitle encodinganalog="245$a">Wamyō ruijūshō
@@ -1711,7 +1728,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1576">
+            <c02 level="file" id="mferd17e1592">
                <did>
                   <container type="box-folder">8/14</container>
                   <unittitle encodinganalog="245$a">"The war of the musicians or lives of canonised spirits of the Taoist Heaven" (Zhu Chanyu)
@@ -1719,7 +1736,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1583">
+            <c02 level="file" id="mferd17e1599">
                <did>
                   <container type="box-folder">8/15</container>
                   <unittitle encodinganalog="245$a">Wei-shi Yuepu
@@ -1727,7 +1744,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1590">
+            <c02 level="file" id="mferd17e1606">
                <did>
                   <container type="box-folder">8/16</container>
                   <unittitle encodinganalog="245$a">Xeroxes of small books
@@ -1735,31 +1752,23 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1597">
-               <did>
-                  <container type="box-folder">8/5</container>
-                  <unittitle encodinganalog="245$a">Yahanraku / Yeban-yue
-						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
-                  </unittitle>
-               </did>
-            </c02>
-            <c02 level="file" id="mferd13e1605">
+            <c02 level="file" id="mferd17e1614">
                <did>
                   <container type="box-folder">8/17</container>
-                  <unittitle encodinganalog="245$a">Yuehfu  
+                  <unittitle encodinganalog="245$a">Yuefu  
 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1612">
+            <c02 level="file" id="mferd17e1621">
                <did>
                   <container type="box-folder">8/18</container>
-                  <unittitle encodinganalog="245$a">Yuefu shigi - song structure, length and rhymes
+                  <unittitle encodinganalog="245$a">Yuefu shiqi - song structure, length and rhymes
 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1619">
+            <c02 level="file" id="mferd17e1628">
                <did>
                   <container type="box-folder">8/19</container>
                   <unittitle encodinganalog="245$a">Yuefu zalu
@@ -1767,7 +1776,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1626">
+            <c02 level="file" id="mferd17e1635">
                <did>
                   <container type="box-folder">8/20-22</container>
                   <unittitle encodinganalog="245$a">YFST 
@@ -1775,15 +1784,15 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1633">
+            <c02 level="file" id="mferd17e1642">
                <did>
                   <container type="box-folder">8/23</container>
-                  <unittitle encodinganalog="245$a">Zhong Yang, Yin Vue, Xue Yuan, Xue Bao
+                  <unittitle encodinganalog="245$a">Zhong Yang, Yin Yue, Xue Yuan, Xue Bao
 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1640">
+            <c02 level="file" id="mferd17e1649">
                <did>
                   <container type="box-folder">8/24</container>
                   <unittitle encodinganalog="245$a">Zhu Xi
@@ -1791,7 +1800,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1647">
+            <c02 level="file" id="mferd17e1656">
                <did>
                   <container type="box-folder">8/25</container>
                   <unittitle encodinganalog="245$a">Zoku-Kyōkunshō
@@ -1799,7 +1808,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e1654">
+            <c02 level="file" id="mferd17e1663">
                <did>
                   <container type="box-folder">8/26</container>
                   <unittitle encodinganalog="245$a">Zokukoto: Rokudan no shirabe nofu
@@ -1808,7 +1817,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd13e1661">
+         <c01 level="series" id="mferd17e1670">
             <did>
                <container type="box">19-52</container>
                <unittitle encodinganalog="245$a" id="lp02">Correspondence,
@@ -1821,13 +1830,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
             <arrangement encodinganalog="351$b">
                <p>Arranged in four subseries: letters to Picken; letters from Picken; family correspondence; and related correspondence. Each subseries arranged chronologically.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd13e1675">
+            <c02 level="subseries" id="mferd17e1684">
                <did>
                   <unittitle encodinganalog="245$a">Letters to Picken
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e1680">
+               <c03 level="file" id="mferd17e1689">
                   <did>
                      <container type="box-folder">19/1-7</container>
                      <unittitle encodinganalog="245$a">1935-1971
@@ -1835,7 +1844,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1687">
+               <c03 level="file" id="mferd17e1696">
                   <did>
                      <container type="box-folder">20/1-8</container>
                      <unittitle encodinganalog="245$a">1972-1975
@@ -1843,7 +1852,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1694">
+               <c03 level="file" id="mferd17e1703">
                   <did>
                      <container type="box-folder">21/1-12</container>
                      <unittitle encodinganalog="245$a">1976-1981
@@ -1851,7 +1860,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1701">
+               <c03 level="file" id="mferd17e1710">
                   <did>
                      <container type="box-folder">22/1-9</container>
                      <unittitle encodinganalog="245$a">1982-1987
@@ -1859,7 +1868,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1708">
+               <c03 level="file" id="mferd17e1717">
                   <did>
                      <container type="box-folder">23/1-8</container>
                      <unittitle encodinganalog="245$a">1992
@@ -1867,7 +1876,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1715">
+               <c03 level="file" id="mferd17e1724">
                   <did>
                      <container type="box-folder">24/1-6</container>
                      <unittitle encodinganalog="245$a">1993-1994
@@ -1875,7 +1884,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1722">
+               <c03 level="file" id="mferd17e1731">
                   <did>
                      <container type="box-folder">25/1-7</container>
                      <unittitle encodinganalog="245$a">1995-1996
@@ -1883,7 +1892,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1729">
+               <c03 level="file" id="mferd17e1738">
                   <did>
                      <container type="box-folder">26/1-4</container>
                      <unittitle encodinganalog="245$a">1997
@@ -1891,7 +1900,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1736">
+               <c03 level="file" id="mferd17e1745">
                   <did>
                      <container type="box-folder">27/1-7</container>
                      <unittitle encodinganalog="245$a">1998
@@ -1899,7 +1908,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1743">
+               <c03 level="file" id="mferd17e1752">
                   <did>
                      <container type="box-folder">28/1-9</container>
                      <unittitle encodinganalog="245$a">1999-2001
@@ -1907,7 +1916,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1751">
+               <c03 level="file" id="mferd17e1760">
                   <did>
                      <container type="box-folder">29/1</container>
                      <unittitle encodinganalog="245$a">Foreign language letters, 1968-1998
@@ -1915,7 +1924,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1758">
+               <c03 level="file" id="mferd17e1767">
                   <did>
                      <container type="box-folder">29/2, 30/1-2</container>
                      <unittitle encodinganalog="245$a">Undated
@@ -1924,13 +1933,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd13e1765">
+            <c02 level="subseries" id="mferd17e1774">
                <did>
                   <unittitle encodinganalog="245$a">Letters from Picken
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e1770">
+               <c03 level="file" id="mferd17e1779">
                   <did>
                      <container type="box-folder">31/1-7</container>
                      <unittitle encodinganalog="245$a">1936-1972
@@ -1938,7 +1947,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1777">
+               <c03 level="file" id="mferd17e1786">
                   <did>
                      <container type="box-folder">32/1-6</container>
                      <unittitle encodinganalog="245$a">1973-1975
@@ -1946,7 +1955,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1784">
+               <c03 level="file" id="mferd17e1793">
                   <did>
                      <container type="box-folder">33/1-6</container>
                      <unittitle encodinganalog="245$a">1975-1976
@@ -1954,7 +1963,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1791">
+               <c03 level="file" id="mferd17e1800">
                   <did>
                      <container type="box-folder">34/1-5</container>
                      <unittitle encodinganalog="245$a">1977
@@ -1962,7 +1971,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1798">
+               <c03 level="file" id="mferd17e1807">
                   <did>
                      <container type="box-folder">35/1-7</container>
                      <unittitle encodinganalog="245$a">1978-1979
@@ -1970,7 +1979,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1805">
+               <c03 level="file" id="mferd17e1814">
                   <did>
                      <container type="box-folder">36/1-6</container>
                      <unittitle encodinganalog="245$a">1979-1980
@@ -1978,7 +1987,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1812">
+               <c03 level="file" id="mferd17e1821">
                   <did>
                      <container type="box-folder">37/1-6</container>
                      <unittitle encodinganalog="245$a">1981-1982
@@ -1986,7 +1995,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1819">
+               <c03 level="file" id="mferd17e1828">
                   <did>
                      <container type="box-folder">38/1-6</container>
                      <unittitle encodinganalog="245$a">1982-1983
@@ -1994,7 +2003,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1826">
+               <c03 level="file" id="mferd17e1835">
                   <did>
                      <container type="box-folder">39/1-6</container>
                      <unittitle encodinganalog="245$a">1984
@@ -2002,7 +2011,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1833">
+               <c03 level="file" id="mferd17e1842">
                   <did>
                      <container type="box-folder">40/1-6</container>
                      <unittitle encodinganalog="245$a">1985
@@ -2010,7 +2019,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1841">
+               <c03 level="file" id="mferd17e1850">
                   <did>
                      <container type="box-folder">41/1-4</container>
                      <unittitle encodinganalog="245$a">1986
@@ -2018,7 +2027,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1848">
+               <c03 level="file" id="mferd17e1857">
                   <did>
                      <container type="box-folder">42/1-4</container>
                      <unittitle encodinganalog="245$a">1987
@@ -2026,7 +2035,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1855">
+               <c03 level="file" id="mferd17e1864">
                   <did>
                      <container type="box-folder">43/1-8</container>
                      <unittitle encodinganalog="245$a">1988-1989
@@ -2034,7 +2043,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1862">
+               <c03 level="file" id="mferd17e1871">
                   <did>
                      <container type="box-folder">44/1-9</container>
                      <unittitle encodinganalog="245$a">1990-1991
@@ -2042,7 +2051,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1869">
+               <c03 level="file" id="mferd17e1878">
                   <did>
                      <container type="box-folder">45/1-4</container>
                      <unittitle encodinganalog="245$a">1992
@@ -2050,7 +2059,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1876">
+               <c03 level="file" id="mferd17e1885">
                   <did>
                      <container type="box-folder">46/1-5</container>
                      <unittitle encodinganalog="245$a">1993
@@ -2058,7 +2067,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1883">
+               <c03 level="file" id="mferd17e1892">
                   <did>
                      <container type="box-folder">47/1-8</container>
                      <unittitle encodinganalog="245$a">1994-1995
@@ -2066,7 +2075,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1890">
+               <c03 level="file" id="mferd17e1899">
                   <did>
                      <container type="box-folder">47/9-10</container>
                      <unittitle encodinganalog="245$a">1996
@@ -2074,7 +2083,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1897">
+               <c03 level="file" id="mferd17e1906">
                   <did>
                      <container type="box-folder">48/1-7</container>
                      <unittitle encodinganalog="245$a">1997-1998
@@ -2082,7 +2091,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1904">
+               <c03 level="file" id="mferd17e1913">
                   <did>
                      <container type="box-folder">49/1-9</container>
                      <unittitle encodinganalog="245$a">1999-2001 and undated
@@ -2091,13 +2100,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd13e1911">
+            <c02 level="subseries" id="mferd17e1920">
                <did>
                   <unittitle encodinganalog="245$a">Family Correspondence
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e1916">
+               <c03 level="file" id="mferd17e1925">
                   <did>
                      <container type="box-folder">50/1-2</container>
                      <unittitle encodinganalog="245$a">Family to Picken,
@@ -2105,7 +2114,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1924">
+               <c03 level="file" id="mferd17e1933">
                   <did>
                      <container type="box-folder">51/1-11</container>
                      <unittitle encodinganalog="245$a">Picken to family,
@@ -2114,13 +2123,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd13e1932">
+            <c02 level="subseries" id="mferd17e1941">
                <did>
                   <unittitle encodinganalog="245$a">Related Correspondence
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e1937">
+               <c03 level="file" id="mferd17e1946">
                   <did>
                      <container type="box-folder">52/1-8</container>
                      <unittitle encodinganalog="245$a">1900-2001 and undated<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
@@ -2129,9 +2138,9 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd13e1944">
+         <c01 level="series" id="mferd17e1953">
             <did>
-               <container type="box">53-57</container>
+               <container type="box">53-57, 67-70</container>
                <unittitle encodinganalog="245$a" id="lp03">Writings,
 	 				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1930/2000">circa 1930-2000</unitdate>
                </unittitle>
@@ -2142,13 +2151,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
             <arrangement encodinganalog="351$b">
                <p>Arranged in five subseries: lectures; notebooks; papers edited by Picken; offprints about Chinese music; and books written for Picken. Each subseries is arranged alphabetically by title, author, or subject.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd13e1958">
+            <c02 level="subseries" id="mferd17e1967">
                <did>
                   <unittitle encodinganalog="245$a">Lectures
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e1963">
+               <c03 level="file" id="mferd17e1972">
                   <did>
                      <container type="box-folder">53/1-2</container>
                      <unittitle encodinganalog="245$a">Chinese music
@@ -2156,7 +2165,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1970">
+               <c03 level="file" id="mferd17e1979">
                   <did>
                      <container type="box-folder">53/3</container>
                      <unittitle encodinganalog="245$a">"Chinese music of a thousand years ago"
@@ -2164,7 +2173,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1977">
+               <c03 level="file" id="mferd17e1986">
                   <did>
                      <container type="box-folder">53/4</container>
                      <unittitle encodinganalog="245$a">"A comparative journey of the musics of the world"
@@ -2172,7 +2181,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1984">
+               <c03 level="file" id="mferd17e1993">
                   <did>
                      <container type="box-folder">53/5</container>
                      <unittitle encodinganalog="245$a">"The documentary history of the Tōgaku repertory"
@@ -2180,7 +2189,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1991">
+               <c03 level="file" id="mferd17e2000">
                   <did>
                      <container type="box-folder">53/6</container>
                      <unittitle encodinganalog="245$a">"Micro-ornament"
@@ -2188,7 +2197,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e1998">
+               <c03 level="file" id="mferd17e2007">
                   <did>
                      <container type="box-folder">53/7</container>
                      <unittitle encodinganalog="245$a">Miscellaneous lectures
@@ -2196,14 +2205,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2005">
+               <c03 level="file" id="mferd17e2014">
                   <did>
                      <container type="box-folder">53/11</container>
                      <unittitle encodinganalog="245$a">"Music aspects of transcription and analysis of the Tōgaku repertory" 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2012">
+               <c03 level="file" id="mferd17e2021">
                   <did>
                      <container type="box-folder">53/8</container>
                      <unittitle encodinganalog="245$a">"Music at the Tang Court" (Hume)
@@ -2211,7 +2220,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2019">
+               <c03 level="file" id="mferd17e2028">
                   <did>
                      <container type="box-folder">53/9</container>
                      <unittitle encodinganalog="245$a">"Music for a Tang Dynasty ballet of the 7th century"
@@ -2219,7 +2228,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2026">
+               <c03 level="file" id="mferd17e2035">
                   <did>
                      <container type="box-folder">53/10</container>
                      <unittitle encodinganalog="245$a">"Music from the Tang Court" (Saibara)
@@ -2227,7 +2236,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2034">
+               <c03 level="file" id="mferd17e2043">
                   <did>
                      <container type="box-folder">53/12</container>
                      <unittitle encodinganalog="245$a">"A musical background to treasures of Ancient China"
@@ -2235,7 +2244,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2041">
+               <c03 level="file" id="mferd17e2050">
                   <did>
                      <container type="box-folder">53/13</container>
                      <unittitle encodinganalog="245$a">"Musical instruments in Turkey"
@@ -2243,7 +2252,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2048">
+               <c03 level="file" id="mferd17e2057">
                   <did>
                      <container type="box-folder">53/14</container>
                      <unittitle encodinganalog="245$a">"Musical survivals of the Tang and Sung Dynasties"
@@ -2251,7 +2260,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2055">
+               <c03 level="file" id="mferd17e2064">
                   <did>
                      <container type="box-folder">53/15</container>
                      <unittitle encodinganalog="245$a">Seoul, South Korea
@@ -2259,7 +2268,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2062">
+               <c03 level="file" id="mferd17e2071">
                   <did>
                      <container type="box-folder">53/16</container>
                      <unittitle encodinganalog="245$a">"Tang music of the Sung Dynasty"
@@ -2267,7 +2276,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2069">
+               <c03 level="file" id="mferd17e2078">
                   <did>
                      <container type="box-folder">53/17</container>
                      <unittitle encodinganalog="245$a">"Towards the archaic music of pre-Nora Japan"
@@ -2275,7 +2284,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2076">
+               <c03 level="file" id="mferd17e2085">
                   <did>
                      <container type="box-folder">53/18</container>
                      <unittitle encodinganalog="245$a">"Turkish folk music and musical instruments"
@@ -2283,7 +2292,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2083">
+               <c03 level="file" id="mferd17e2092">
                   <did>
                      <container type="box-folder">53/19</container>
                      <unittitle encodinganalog="245$a">"Turkish music"
@@ -2291,7 +2300,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2090">
+               <c03 level="file" id="mferd17e2099">
                   <did>
                      <container type="box-folder">53/20</container>
                      <unittitle encodinganalog="245$a">"Turkish poetry"
@@ -2299,7 +2308,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2097">
+               <c03 level="file" id="mferd17e2106">
                   <did>
                      <container type="box-folder">53/21-23</container>
                      <unittitle encodinganalog="245$a">University of Washington, Seattle
@@ -2307,7 +2316,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2104">
+               <c03 level="file" id="mferd17e2113">
                   <did>
                      <container type="box-folder">53/14</container>
                      <unittitle encodinganalog="245$a">Unidentified
@@ -2316,13 +2325,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd13e2111">
+            <c02 level="subseries" id="mferd17e2120">
                <did>
                   <unittitle encodinganalog="245$a">Notebooks
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e2116">
+               <c03 level="file" id="mferd17e2125">
                   <did>
                      <container type="box-folder">53/25</container>
                      <unittitle encodinganalog="245$a">Asian Music Club
@@ -2330,15 +2339,42 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2123">
+               <c03 level="file" id="mferd17e2132">
                   <did>
-                     <container type="box-folder">54/1</container>
-                     <unittitle encodinganalog="245$a">Asian notebooks, 1972
+                     <container type="box-folder">54/1, 67/1-3</container>
+                     <unittitle encodinganalog="245$a">Asian notebooks, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1974, 1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e2140">
+                  <did>
+                     <container type="box-folder">67/4</container>
+                     <unittitle encodinganalog="245$a">Biographical notebook
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Chiefly business cards, pamphlets, and photographs </extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e2150">
+                  <did>
+                     <container type="box-folder">67/5</container>
+                     <unittitle encodinganalog="245$a">Buddhist music
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2130">
+               <c03 level="file" id="mferd17e2157">
+                  <did>
+                     <container type="box-folder">67/6</container>
+                     <unittitle encodinganalog="245$a">Ch'au-chou requiem service
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e2164">
                   <did>
                      <container type="box-folder">53/26</container>
                      <unittitle encodinganalog="245$a">Chinese and Sino-Japanese notebooks
@@ -2346,15 +2382,23 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2137">
+               <c03 level="file" id="mferd17e2171">
                   <did>
-                     <container type="box-folder">53/27-28</container>
+                     <container type="box-folder">53/27-28, 68/1</container>
                      <unittitle encodinganalog="245$a">Miscellaneous notebooks
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2144">
+               <c03 level="file" id="mferd17e2178">
+                  <did>
+                     <container type="box-folder">68/2</container>
+                     <unittitle encodinganalog="245$a">Taoist music
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e2185">
                   <did>
                      <container type="box-folder">53/29-30</container>
                      <unittitle encodinganalog="245$a">Tōgaku notebooks: draft catalogue of pieces, movements, and occurrence in manuscripts
@@ -2362,14 +2406,22 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
+               <c03 level="file" id="mferd17e2192">
+                  <did>
+                     <container type="box-folder">68/3-5, 69/1-5</container>
+                     <unittitle encodinganalog="245$a">Turkish notebooks
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                  </did>
+               </c03>
             </c02>
-            <c02 level="subseries" id="mferd13e2151">
+            <c02 level="subseries" id="mferd17e2199">
                <did>
                   <unittitle encodinganalog="245$a">Papers Edited by Picken
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e2156">
+               <c03 level="file" id="mferd17e2204">
                   <did>
                      <container type="box-folder">54/2</container>
                      <unittitle encodinganalog="245$a">Blench, Roger. "The morphology and distribution of Sub-Saharan musical instruments of North African, Middle Eastern, and Asian origin"
@@ -2377,7 +2429,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2163">
+               <c03 level="file" id="mferd17e2211">
                   <did>
                      <container type="box-folder">54/3-4</container>
                      <unittitle encodinganalog="245$a">Craig, Dale A. "Ancient legacy of music: a Min Dynasty collection of Chin songs"
@@ -2385,15 +2437,15 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2170">
+               <c03 level="file" id="mferd17e2218">
                   <did>
                      <container type="box-folder">54/5</container>
-                     <unittitle encodinganalog="245$a">Fletcher, Peter. <title>World music in context</title>
+                     <unittitle encodinganalog="245$a">Fletcher, Peter. <title>World musics in context</title>
 	 						                <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2180">
+               <c03 level="file" id="mferd17e2228">
                   <did>
                      <container type="box-folder">54/6</container>
                      <unittitle encodinganalog="245$a">Fukushima, Kazuo. "Descriptive catalogue of the Rakusaidō-Gagaku manuscripts in the Research Archives for Japanese Music of Ueno Gakuen College"
@@ -2401,7 +2453,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2187">
+               <c03 level="file" id="mferd17e2235">
                   <did>
                      <container type="box-folder">54/7-9</container>
                      <unittitle encodinganalog="245$a">Marett, Allan J. 
@@ -2412,7 +2464,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </note>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2197">
+               <c03 level="file" id="mferd17e2245">
                   <did>
                      <container type="box-folder">54/10</container>
                      <unittitle encodinganalog="245$a">Miyoko, Kôkawa. "A method of improvising music at school"
@@ -2420,7 +2472,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2204">
+               <c03 level="file" id="mferd17e2252">
                   <did>
                      <container type="box-folder">54/11-12</container>
                      <unittitle encodinganalog="245$a">Wei, Deng. "Historical and stylistic development in the Chinese four-stringed lute Pipa and in Pipa music" 
@@ -2428,7 +2480,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2211">
+               <c03 level="file" id="mferd17e2259">
                   <did>
                      <container type="box-folder">54/13</container>
                      <unittitle encodinganalog="245$a">Widdess, Richard. "The reconstruction of early Indian music from notation"
@@ -2436,7 +2488,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2218">
+               <c03 level="file" id="mferd17e2266">
                   <did>
                      <container type="box-folder">54/14</container>
                      <unittitle encodinganalog="245$a">Williamson, Muriel C. "The correlation between speech-tones of text-syllables and their musical settings in a Burmese classical song"
@@ -2445,13 +2497,27 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd13e2225">
+            <c02 level="subseries" id="mferd17e2273">
                <did>
                   <unittitle encodinganalog="245$a">Offprints about Chinese Music
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e2230">
+               <c03 level="file" id="mferd17e2278">
+                  <did>
+                     <container type="box">70</container>
+                     <unittitle encodinganalog="245$a">
+	 						                <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1936-1975</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Four bound volumes of Picken's articles</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Includes several earlier articles on cellular biology</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd17e2292">
                   <did>
                      <container type="box-folder">54/15-19</container>
                      <unittitle encodinganalog="245$a">"A" - "C"
@@ -2459,7 +2525,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2237">
+               <c03 level="file" id="mferd17e2299">
                   <did>
                      <container type="box-folder">55/1-19</container>
                      <unittitle encodinganalog="245$a">"D" - "Picard"
@@ -2467,7 +2533,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2244">
+               <c03 level="file" id="mferd17e2306">
                   <did>
                      <container type="box-folder">56/1-16</container>
                      <unittitle encodinganalog="245$a">"Picken" - "Z"
@@ -2476,13 +2542,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd13e2251">
+            <c02 level="subseries" id="mferd17e2313">
                <did>
                   <unittitle encodinganalog="245$a">Books Written for Picken
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e2256">
+               <c03 level="file" id="mferd17e2318">
                   <did>
                      <container type="box">57</container>
                      <unittitle encodinganalog="245$a">Three bound essays in honor of Dr. Laurence E. R. Picken
@@ -2492,7 +2558,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd13e2263">
+         <c01 level="series" id="mferd17e2325">
             <did>
                <container type="box">58-62, 65</container>
                <unittitle encodinganalog="245$a" id="lp04">Music,
@@ -2505,13 +2571,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by title of work or folder title.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd13e2277">
+            <c02 level="subseries" id="mferd17e2339">
                <did>
                   <unittitle encodinganalog="245$a">Original Compositions
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e2282">
+               <c03 level="file" id="mferd17e2344">
                   <did>
                      <container type="box-folder">58/1</container>
                      <unittitle encodinganalog="245$a">Canon, waltz and jig
@@ -2519,7 +2585,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2289">
+               <c03 level="file" id="mferd17e2351">
                   <did>
                      <container type="box-folder">58/2</container>
                      <unittitle encodinganalog="245$a">Composition sketchbooks, 1923-1927
@@ -2527,7 +2593,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2296">
+               <c03 level="file" id="mferd17e2358">
                   <did>
                      <container type="box-folder">58/3</container>
                      <unittitle encodinganalog="245$a">Composition sketchbooks, 1928-1936
@@ -2535,7 +2601,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2303">
+               <c03 level="file" id="mferd17e2365">
                   <did>
                      <container type="box-folder">58/4</container>
                      <unittitle encodinganalog="245$a">Compositions and sketches
@@ -2543,7 +2609,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2310">
+               <c03 level="file" id="mferd17e2372">
                   <did>
                      <container type="box-folder">58/5</container>
                      <unittitle encodinganalog="245$a">Concert for two pianos
@@ -2551,7 +2617,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2317">
+               <c03 level="file" id="mferd17e2379">
                   <did>
                      <container type="box-folder">59/1</container>
                      <unittitle encodinganalog="245$a">Five songs 1934
@@ -2559,7 +2625,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2324">
+               <c03 level="file" id="mferd17e2386">
                   <did>
                      <container type="box-folder">59/2</container>
                      <unittitle encodinganalog="245$a">Four songs
@@ -2567,7 +2633,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2331">
+               <c03 level="file" id="mferd17e2393">
                   <did>
                      <container type="box-folder">59/3</container>
                      <unittitle encodinganalog="245$a">Jabuke and Groždja
@@ -2575,7 +2641,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2338">
+               <c03 level="file" id="mferd17e2400">
                   <did>
                      <container type="box-folder">59/4</container>
                      <unittitle encodinganalog="245$a">Moralité du petit chaperon rouge
@@ -2583,7 +2649,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2345">
+               <c03 level="file" id="mferd17e2407">
                   <did>
                      <container type="box-folder">59/5</container>
                      <unittitle encodinganalog="245$a">Prelude to foreign parts
@@ -2591,7 +2657,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2353">
+               <c03 level="file" id="mferd17e2415">
                   <did>
                      <container type="box-folder">59/6</container>
                      <unittitle encodinganalog="245$a">Les Saintes Maries de la mer
@@ -2599,7 +2665,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2360">
+               <c03 level="file" id="mferd17e2422">
                   <did>
                      <container type="box-folder">59/7</container>
                      <unittitle encodinganalog="245$a">Sonata movement: Slovenja
@@ -2607,7 +2673,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2367">
+               <c03 level="file" id="mferd17e2429">
                   <did>
                      <container type="box-folder">59/8</container>
                      <unittitle encodinganalog="245$a">Sonatina
@@ -2616,13 +2682,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd13e2374">
+            <c02 level="subseries" id="mferd17e2436">
                <did>
                   <unittitle encodinganalog="245$a">Transcriptions
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd13e2379">
+               <c03 level="file" id="mferd17e2441">
                   <did>
                      <container type="box-folder">60/1-2</container>
                      <unittitle encodinganalog="245$a">"The Emperor destroys the military formation"
@@ -2630,7 +2696,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2386">
+               <c03 level="file" id="mferd17e2448">
                   <did>
                      <container type="box-folder">60/3</container>
                      <unittitle encodinganalog="245$a">Folk dances choreographed and notated by Liu Fengxue Essen (1971), under Albrecht Knust
@@ -2638,7 +2704,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2393">
+               <c03 level="file" id="mferd17e2455">
                   <did>
                      <container type="box-folder">60/4</container>
                      <unittitle encodinganalog="245$a">"Haguga no fue-fu" (Marett)
@@ -2646,7 +2712,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2400">
+               <c03 level="file" id="mferd17e2462">
                   <did>
                      <container type="box-folder">65/1</container>
                      <unittitle encodinganalog="245$a">"Korean court dance" (Siyong mubo)
@@ -2654,7 +2720,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2407">
+               <c03 level="file" id="mferd17e2469">
                   <did>
                      <container type="box-folder">60/5-6</container>
                      <unittitle encodinganalog="245$a">"Lion dance"
@@ -2662,7 +2728,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2414">
+               <c03 level="file" id="mferd17e2476">
                   <did>
                      <container type="box-folder">61/1-3</container>
                      <unittitle encodinganalog="245$a">Miscellaneous transcriptions
@@ -2670,7 +2736,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2421">
+               <c03 level="file" id="mferd17e2483">
                   <did>
                      <container type="box-folder">61/4, 65/2</container>
                      <unittitle encodinganalog="245$a">"Music for a thousand autumns"
@@ -2678,7 +2744,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2428">
+               <c03 level="file" id="mferd17e2490">
                   <did>
                      <container type="box-folder">65/3</container>
                      <unittitle encodinganalog="245$a">"Myit-zu thaká nat-pàn Bwe"
@@ -2686,7 +2752,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2435">
+               <c03 level="file" id="mferd17e2497">
                   <did>
                      <container type="box-folder">61/5</container>
                      <unittitle encodinganalog="245$a">"Namguan"
@@ -2694,7 +2760,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2442">
+               <c03 level="file" id="mferd17e2504">
                   <did>
                      <container type="box-folder">65/4-6</container>
                      <unittitle encodinganalog="245$a">"O-dai hajinraku"
@@ -2702,7 +2768,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2450">
+               <c03 level="file" id="mferd17e2512">
                   <did>
                      <container type="box-folder">61/6</container>
                      <unittitle encodinganalog="245$a">"Occidental diversions around an Oriental tune" (Albright)
@@ -2710,7 +2776,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2457">
+               <c03 level="file" id="mferd17e2519">
                   <did>
                      <container type="box-folder">62/1</container>
                      <unittitle encodinganalog="245$a">"Sandai-en" (Arthur Cooper's lecture)
@@ -2718,7 +2784,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2464">
+               <c03 level="file" id="mferd17e2526">
                   <did>
                      <container type="box-folder">62/2</container>
                      <unittitle encodinganalog="245$a">"Shi Jing"
@@ -2726,7 +2792,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2471">
+               <c03 level="file" id="mferd17e2533">
                   <did>
                      <container type="box-folder">62/3</container>
                      <unittitle encodinganalog="245$a">"T'ai P'ing Yüeh/Taiheiraku"
@@ -2734,7 +2800,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2478">
+               <c03 level="file" id="mferd17e2540">
                   <did>
                      <container type="box-folder">62/4</container>
                      <unittitle encodinganalog="245$a">"Toraden"
@@ -2742,7 +2808,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2485">
+               <c03 level="file" id="mferd17e2547">
                   <did>
                      <container type="box-folder">60/1-2</container>
                      <unittitle encodinganalog="245$a">"Tsuwano"
@@ -2750,7 +2816,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2492">
+               <c03 level="file" id="mferd17e2554">
                   <did>
                      <container type="box-folder">61/7</container>
                      <unittitle encodinganalog="245$a">Walker, Robert compositions
@@ -2758,7 +2824,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2499">
+               <c03 level="file" id="mferd17e2561">
                   <did>
                      <container type="box-folder">65/7</container>
                      <unittitle encodinganalog="245$a">"Waves of the blue sea"
@@ -2766,7 +2832,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2506">
+               <c03 level="file" id="mferd17e2568">
                   <did>
                      <container type="box-folder">62/6</container>
                      <unittitle encodinganalog="245$a">"The wine is clear"
@@ -2774,7 +2840,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd13e2513">
+               <c03 level="file" id="mferd17e2575">
                   <did>
                      <container type="box-folder">61/8</container>
                      <unittitle encodinganalog="245$a">Wolpert, Rembrandt F., 1975
@@ -2784,7 +2850,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd13e2520">
+         <c01 level="series" id="mferd17e2582">
             <did>
                <container type="box">63, 65</container>
                <unittitle encodinganalog="245$a" id="lp05">Photographs,
@@ -2797,7 +2863,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by subject.</p>
             </arrangement>
-            <c02 level="file" id="mferd13e2534">
+            <c02 level="file" id="mferd17e2596">
                <did>
                   <container type="box-folder">63/1-6</container>
                   <unittitle encodinganalog="245$a">Instruments and performers
@@ -2805,7 +2871,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e2541">
+            <c02 level="file" id="mferd17e2603">
                <did>
                   <container type="box-folder">63/7-8</container>
                   <unittitle encodinganalog="245$a">Miscellany
@@ -2813,7 +2879,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e2548">
+            <c02 level="file" id="mferd17e2610">
                <did>
                   <container type="box-folder">65/8</container>
                   <unittitle encodinganalog="245$a">Picken, alone or with others,
@@ -2821,7 +2887,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011019
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd13e2556">
+            <c02 level="file" id="mferd17e2618">
                <did>
                   <container type="box-folder">65/9</container>
                   <unittitle encodinganalog="245$a">Stages making a Shō reed

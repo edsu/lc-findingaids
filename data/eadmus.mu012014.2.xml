@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Fri, 20 July 2012 02:57:40 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu012014
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu012014--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu012014--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu012014-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd21e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd21e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu012014"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu012014</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Hugo Leichtentritt Papers</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2009" encodinganalog="260$c">2009</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2012562125"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2012562125</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2012">2012</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd21e49">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Hugo Leichtentritt Papers
+		  <unitdate label="Span Dates" type="inclusive" normal="1888/1972" encodinganalog="245$f"
+                      datechar="creation">1888-1972</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1890/1933" encodinganalog="245$g"
+                      datechar="creation">(bulk 1890-1933)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.L45</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Leichtentritt, Hugo, 1874-1951</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">1,600  items</extent>
+		          <extent encodinganalog="300">23 containers</extent>
+		          <extent encodinganalog="300">10.0 linear feet</extent>		  
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in <language encodinganalog="041" langcode="ger">German</language> and <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Hugo Leichtentritt was a German musicologist, music critic, and composer. The collection contains his original music manuscripts, correspondence, clippings, programs, scrapbooks, articles and drafts of his writings on music history, criticism, and theory.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2012562125.10001"
+                     altrender=":::F005=^20120621144331.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd21e102">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Leichtentritt%2C+Hugo%2C+1874-1951+Archives.^">Leichtentritt, Hugo, 1874-1951--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Leichtentritt%2C+Hugo%2C+1874-1951+Correspondence.^">Leichtentritt, Hugo, 1874-1951--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Leichtentritt%2C+Hugo%2C+1874-1951+Manuscripts.^">Leichtentritt, Hugo, 1874-1951--Manuscripts.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Leichtentritt%2C+Hugo%2C+1874-1951.^">Leichtentritt, Hugo, 1874-1951.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Leichtentritt%2C+Hugo%2C+1874-1951.^">Leichtentritt, Hugo, 1874-1951.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Leichtentritt%2C+Hugo%2C+1874-1951.^">Leichtentritt, Hugo, 1874-1951. Music of the Western nations.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Leichtentritt%2C+Hugo%2C+1874-1951.^">Leichtentritt, Hugo, 1874-1951. Selections.</persname>
+         </controlaccess>
+         <controlaccess id="mferd21e119">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Composers.^">Composers.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Music+critics.^">Music critics.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+History+and+criticism.^">Music--History and criticism.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Performance+History.^">Music--Performance--History.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musical+criticism.^">Musical criticism.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Musicologists.^">Musicologists.</subject>
+         </controlaccess>
+         <controlaccess id="mferd21e136">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Articles.^">Articles.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Drafts+%28Documents%29^">Drafts (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Promotional+materials.^">Promotional materials.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd21e153">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd21e156">
+            <head>Provenance</head>
+            <p>Gift, Nicolas Slonimsky, circa 1952.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd21e161">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd21e166">
+            <head>Processing History</head>
+            <p>The Hugo Leichtentritt Papers were processed by Pamela Murrell in April 2009. Christopher Hartten revised the finding aid and coded it for EAD format in 2012.</p>
+         </processinfo>
+         <relatedmaterial encodinganalog="544 1" id="mferd21e171">
+            <head>Related Material</head>
+            <p>The Library of Congress Music Division holds the <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002011">Nicolas Slonimsky Collection</archref> (ML31.S6) and <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu002008">Serge Koussevitzky Archive</archref> (ML31.K66), both of which contain correspondence from Leichtentritt.</p>
+         </relatedmaterial>
+         <userestrict encodinganalog="540" id="mferd21e182">
+            <head>Copyright Status</head>
+            <p>Materials from the Hugo Leichtentritt Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd21e187">
+            <head>Access and Restrictions</head>
+            <p>The Hugo Leichtentritt Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd21e194">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Hugo Leichtentritt Papers, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd21e199">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date>1874, Jan. 1</date>
+               <event>Born in the province of Posen, Prussia</event>
+            </chronitem>
+            <chronitem>
+               <date>1891-1894</date>
+               <event>Attended Harvard University</event>
+            </chronitem>
+            <chronitem>
+               <date>1894-1895</date>
+               <event>Continued musical studies in Paris</event>
+            </chronitem>
+            <chronitem>
+               <date>1895-1898</date>
+               <event>Attended the Hochschule für Musik in Berlin</event>
+            </chronitem>
+            <chronitem>
+               <date>1898-1901</date>
+               <event>Ph.D., in Philosophy, Berlin University; dissertation entitled <title>Reinhard Keiser in seinen Opern</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1901-1924</date>
+               <event>Taught at the Klindworth-Scharwenka Conservatory in Berlin</event>
+            </chronitem>
+            <chronitem>
+               <date>1901-1933</date>
+               <event>Gave private composition lessons and wrote music criticism for various German and American publications</event>
+            </chronitem>
+            <chronitem>
+               <date>1933</date>
+               <event>Left Germany to lecture at Harvard University</event>
+            </chronitem>
+            <chronitem>
+               <date>1940</date>
+               <event>Retired from Harvard University</event>
+            </chronitem>
+            <chronitem>
+               <date>1940-1944</date>
+               <event>Lecturer, Radcliffe College, Cambridge, Mass. and New York University</event>
+            </chronitem>
+            <chronitem>
+               <date>1951, Nov. 13</date>
+               <event>Died, Cambridge, Mass.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd21e266">
+         <head>Scope and Content Note</head>
+         <p>The Hugo Leichtentritt Papers consist of music manuscripts, correspondence, clippings, programs, scrapbooks, and writings on music history, criticism, and theory. The collection spans the period 1888 to 1972, with the bulk of the materials dating from 1890 to the 1933.</p>
+         <p>Leichtentritt's personal compositions include songs, and works for solo piano, organ, small instrumental combinations, and orchestra. These are chiefly represented by manuscript scores, parts, and sketches. Leichtentritt's dramatic works are often regarded as his most significant original compositions: <title>Esther</title> (1923-1926), <title>Cantata, op. 27: Ich bin eine Blume zu Saron</title> (1930), and his comedic opera, <title>Der Sizilianer</title> (1915-1918). A handwritten thematic index, located in box 21, provides details about the history of many of his compositions. Leichtentritt frequently reconstructed or arranged the compositions of other composers to illustrate concepts for teaching. These are respresented in the subseries of "Music by Other Composers" alongside scores and parts by various composers, including Bach, Haydn, Handel, and Monteverdi. Lichtentritt's settings of texts by the German poets Richard Dehmel and Friedrich Hölderlin are extensively represented.</p>
+         <p>The collection also contains seven scrapbooks that date from 1888 to 1933. These span Leichtentritt's early career, from his years as an undergraduate at Harvard University, through his employment at the Klindworth-Scharwenka Conservatory in Berlin, to his later hiring by Harvard in 1933. The albums chiefly contain articles, clippings, correspondence, programs, and promotional material in German and English about various musical performances and composers.</p>
+         <p>Leichtentritt's writings consist of manuscript and typescript drafts of articles, essays, critical commentary, and analyses. Most notable are the materials for his book <title>Music of the Western Nations</title>, which was published posthumously by Nicolas Slonimsky in 1956. Although the final version contained twelve chapters, there are fourteen present in his draft, including a foreword, introduction, and index. Equally intriguing is Leichtentritt's unfinished autobiography that chronicles his military life in Germany during World War I, his travels throughout Europe, and his seven-year tenure as a lecturer at Harvard University. The collection also contains a draft of his 1901 dissertation, <title>Reinhard Keiser in seinen Opern</title>, which he submitted for his Doctorate of Philosophy degree from Berlin University. Other writings include a work on the history of motet music and analyses of compositions by Chopin, Copland, Handel, and Monteverdi.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd21e292">
+         <head>Organization of the Hugo Leichtentritt Papers</head>
+         <p>The Hugo Leichtentritt Papers are organized in four series: </p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="mus">Music, 1893-1972</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="scrap">Scrapbooks, 1888-1933</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="writ">Writings, 1892-1956</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="misc">Miscellany, 1889-1931</ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2012562125"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2012562125</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd21e313" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd21e322">
+            <did>
+               <container type="box">1-14, 22-23</container>
+               <unittitle encodinganalog="245$a" id="mus">Music, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1893/1972">1893-1972</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="subseries" id="mferd21e330">
+               <did>
+                  <unittitle encodinganalog="245$a">Music by Leichtentritt
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Manuscript and published scores, parts, and sketches. Researchers should consult Leichtentritt's thematic index for more detailed compositional histories of select works.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by title.</p>
+               </arrangement>
+               <c03 level="file" id="mferd21e341">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a">4 stimmen Fuge (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1896</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e351">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a">The 7 penitential psalms (voices, chorus, orchestra),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e361">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a">Allegro maestoso (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1893</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e371">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a">Andante, op. 1 (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1890</unitdate>
+                     </unittitle>
+                     <physdesc>Sketch</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e381">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a">Aus dem 106 Psalmen für 3 Stimmen mit Klavier,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1892</unitdate>
+                     </unittitle>
+                     <physdesc>Title page</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e391">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a">Canon in der Oktave (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1896-1897</unitdate>
+                     </unittitle>
+                     <physdesc>Scores</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e401">
+                  <did>
+                     <container type="box-folder">1/7-11, 22/1</container>
+                     <unittitle encodinganalog="245$a">Cantata for contralto solo and orchestra, or piano, on selected verses from the canticle of Solomon, op. 27: Ich bin eine Blume zu Saron,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e411">
+                  <did>
+                     <container type="box-folder">1/12</container>
+                     <unittitle encodinganalog="245$a">Ca'tchua (orchestra),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1908</unitdate>
+                     </unittitle>
+                     <physdesc>Score fragment</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e422">
+                  <did>
+                     <container type="box-folder">2/1-2</container>
+                     <unittitle encodinganalog="245$a">Chinesisch-deutsche Jahres-und Tageszeiten von Goethe (no. 1-8), op.4: ein Liederzyklus (voice, orchestra), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1912</unitdate>
+                     </unittitle>
+                     <physdesc>Scores</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e432">
+                  <did>
+                     <container type="box-folder">2/3-6</container>
+                     <unittitle encodinganalog="245$a">Concert for cello and orchestra, op. 24, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and sketches</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e442">
+                  <did>
+                     <container type="box-folder">2/7-8, 3/1-2</container>
+                     <unittitle encodinganalog="245$a">Concerto for violin and orchestra, op. 14,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and violin solo parts</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e452">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a">Cyprian de rose (voices),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1892</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e462">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a">Danket dem Herrn, denn er ist freundlich (double chorus),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1899</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e472">
+                  <did>
+                     <container type="box-folder">3/5-6</container>
+                     <unittitle encodinganalog="245$a">Dirge of Saul: for baritone solo, women's chorus, and instruments,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1944?</unitdate>
+                     </unittitle>
+                     <physdesc>Score and sketches</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e482">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle encodinganalog="245$a">Doppelter contrapunkt,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1897</unitdate>
+                     </unittitle>
+                     <physdesc>Exercises</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e492">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a">Dreistrimmiger [?] canon,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Sketch</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e502">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a">Esther: dramatische Legende nach der Bibel (voices, violin, organ), 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1914</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                     <note>
+                        <p>Incomplete</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e515">
+                  <did>
+                     <container type="box-folder">3/10-11, 4/1-2, 22/2-4, 23/1-2</container>
+                     <unittitle encodinganalog="245$a">Esther: dramatische Legende nach der Bibel (voices, chorus, orchestra),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1923-1926 and undated</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and sketches</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e525">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a">Etude (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e536">
+                  <did>
+                     <container type="box-folder">23/3</container>
+                     <unittitle encodinganalog="245$a">Etude (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score and sketches</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e546">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a">Etude (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e556">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a">Etude no. 1 (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e566">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a">Etude no. 3 (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e576">
+                  <did>
+                     <container type="box-folder">4/7-8</container>
+                     <unittitle encodinganalog="245$a">From the 130th psalm (voices, chorus, orchestra),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1897</unitdate>
+                     </unittitle>
+                     <physdesc>Scores</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e586">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a">Des Frühlings Ankunft (voice, piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1910</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e596">
+                  <did>
+                     <container type="box-folder">4/10-12, 5/1-3</container>
+                     <unittitle encodinganalog="245$a">Hero und Leander: op. 30,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Parts</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e606">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a">Ich sehe dich in Tausend bildern: op. 2, no. 7 (voice, piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1910</unitdate>
+                     </unittitle>
+                     <physdesc>Printed score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e616">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a" id="hl01">Introitus solemnis: for organ, op. 33,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1933</unitdate>
+                        <lb/>
+                        <emph render="italic">see also </emph>
+                        <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" target="hl02"
+                             xlink:show="replace"
+                             xlink:actuate="onRequest">Prelude for organ</ref>
+                     </unittitle>
+                     <physdesc>Printed score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e631">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a">Jewish marching song (voice or chorus, piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e641">
+                  <did>
+                     <container type="box-folder">5/7</container>
+                     <unittitle encodinganalog="245$a">Kol nidreh: for mixed chorus and organ,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                     <note>
+                        <p>Laid in: solo voice arrangements by Louis Lewandowski and an unidentified composer, used as source material by Leichtentritt</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e655">
+                  <did>
+                     <container type="box-folder">5/8</container>
+                     <unittitle encodinganalog="245$a">Kontrapunkt,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1895-1897</unitdate>
+                     </unittitle>
+                     <physdesc>Exercises</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e665">
+                  <did>
+                     <container type="box-folder">5/9-10</container>
+                     <unittitle encodinganalog="245$a">Lieder und Gesänge, op. 2 and 3 (voice, piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1909-1910 and undated</unitdate>
+                     </unittitle>
+                     <physdesc>Scores</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e675">
+                  <did>
+                     <container type="box-folder">5/11</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous compositions,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Sketches and fragments</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e685">
+                  <did>
+                     <container type="box-folder">5/12</container>
+                     <unittitle encodinganalog="245$a">Piano concerto (piano, orchestra),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                     <note>
+                        <p>Incomplete or unfinished</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e698">
+                  <did>
+                     <container type="box-folder">6/1</container>
+                     <unittitle encodinganalog="245$a">Piano quintet, op. 14,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1914</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e708">
+                  <did>
+                     <container type="box-folder">6/2</container>
+                     <unittitle encodinganalog="245$a" id="hl02">Prelude for organ,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930</unitdate>
+                        <lb/>
+                        <emph render="italic">see also </emph>
+                        <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" target="hl01"
+                             xlink:show="replace"
+                             xlink:actuate="onRequest">Introitus solemnis</ref>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e723">
+                  <did>
+                     <container type="box-folder">6/3</container>
+                     <unittitle encodinganalog="245$a">Psalm 2 (voices, orchestra),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1897</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                     <note>
+                        <p>Unfinished</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e736">
+                  <did>
+                     <container type="box-folder">6/4</container>
+                     <unittitle encodinganalog="245$a">Scherzo and trio (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1895</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e746">
+                  <did>
+                     <container type="box-folder">6/5</container>
+                     <unittitle encodinganalog="245$a">Schwimm hin, Ringelein: aus <title>Des Knaben Wunderhorn</title> (voice, piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1909-1910</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e759">
+                  <did>
+                     <container type="box-folder">6/6-11, 23/4</container>
+                     <unittitle encodinganalog="245$a">Der Sizilianer (voices, orchestra),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1915-1918</unitdate>
+                     </unittitle>
+                     <physdesc>Scores, vocal part for "Isadore", and librettos</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e769">
+                  <did>
+                     <container type="box-folder">7/1-3</container>
+                     <unittitle encodinganalog="245$a">Sonata for cello and piano,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and corrections</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e780">
+                  <did>
+                     <container type="box-folder">7/4-5</container>
+                     <unittitle encodinganalog="245$a">Sonata for piano,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1898</unitdate>
+                     </unittitle>
+                     <physdesc>Score and sketches</physdesc>
+                     <note>
+                        <p>Includes revised Finale</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e793">
+                  <did>
+                     <container type="box-folder">7/6-9, 23/5</container>
+                     <unittitle encodinganalog="245$a">Sonata for piano, op. 23, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1926</unitdate>
+                     </unittitle>
+                     <physdesc>Scores</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e803">
+                  <did>
+                     <container type="box-folder">7/10</container>
+                     <unittitle encodinganalog="245$a">Sonata for viola and piano, op. 13,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1913</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and viola part</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e813">
+                  <did>
+                     <container type="box-folder">7/11-13</container>
+                     <unittitle encodinganalog="245$a">Sonata for violin and piano, op. 17,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1919</unitdate>
+                     </unittitle>
+                     <physdesc>Scores, violin part, and sketches</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e823">
+                  <did>
+                     <container type="box-folder">7/14</container>
+                     <unittitle encodinganalog="245$a">Song for the twentieth reunion of the class of 1894, Harvard College (voice, piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1914 </unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e833">
+                  <did>
+                     <container type="box-folder">7/15</container>
+                     <unittitle encodinganalog="245$a">String quartet,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1894</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e843">
+                  <did>
+                     <container type="box-folder">7/16</container>
+                     <unittitle encodinganalog="245$a">String quartet,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1897</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e853">
+                  <did>
+                     <container type="box-folder">7/17</container>
+                     <unittitle encodinganalog="245$a">String quartet, op. 1,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1913</unitdate>
+                     </unittitle>
+                     <physdesc>Printed score</physdesc>
+                     <note>
+                        <p>Annotations</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e866">
+                  <did>
+                     <container type="box-folder">7/18</container>
+                     <unittitle encodinganalog="245$a">String quartet, op. 7,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e876">
+                  <did>
+                     <container type="box-folder">8/1</container>
+                     <unittitle encodinganalog="245$a">String quartet no. 2, op. 20,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Parts</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e886">
+                  <did>
+                     <container type="box-folder">8/2-3</container>
+                     <unittitle encodinganalog="245$a">String quartet no. 3, 
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and parts</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e897">
+                  <did>
+                     <container type="box-folder">8/4</container>
+                     <unittitle encodinganalog="245$a">Suite for cello solo,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Title page</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e907">
+                  <did>
+                     <container type="box-folder">8/5</container>
+                     <unittitle encodinganalog="245$a">Suite for harpsichord, op. 31,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1932</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e917">
+                  <did>
+                     <container type="box-folder">8/6-8</container>
+                     <unittitle encodinganalog="245$a">A summer day: tone poem for women's chorus and chamber orchestra, op. 11,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and double bass part</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e927">
+                  <did>
+                     <container type="box-folder">8/9-12</container>
+                     <unittitle encodinganalog="245$a">Symphonic suite (orchestra),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and sketches</physdesc>
+                     <note>
+                        <p>Unfinished</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e940">
+                  <did>
+                     <container type="box-folder">8/13</container>
+                     <unittitle encodinganalog="245$a">Tenebrae factae sunt (voices),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e950">
+                  <did>
+                     <container type="box-folder">8/14</container>
+                     <unittitle encodinganalog="245$a">Theme (piano),
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1893</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e960">
+                  <did>
+                     <container type="box-folder">9/1-3</container>
+                     <unittitle encodinganalog="245$a">Theme and variations for piano, op. 26,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1930</unitdate>
+                     </unittitle>
+                     <physdesc>Scores and sketches</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e970">
+                  <did>
+                     <container type="box-folder">9/4-5</container>
+                     <unittitle encodinganalog="245$a">Theme and variations for string quartet,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Score and parts</physdesc>
+                     <note>
+                        <p>Incomplete</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e983">
+                  <did>
+                     <container type="box-folder">9/6-7</container>
+                     <unittitle encodinganalog="245$a">Toccata and fugue for piano, op. 29,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931</unitdate>
+                     </unittitle>
+                     <physdesc>Score and sketches</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e993">
+                  <did>
+                     <container type="box-folder">9/8</container>
+                     <unittitle encodinganalog="245$a">Variations on a Siamese melody: for orchestra,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931</unitdate>
+                     </unittitle>
+                     <physdesc>Score</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e1003">
+                  <did>
+                     <container type="box-folder">9/9</container>
+                     <unittitle encodinganalog="245$a">Unidentified,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>Sketches</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd21e1013">
+               <did>
+                  <unittitle encodinganalog="245$a">Music by Other Composers
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Manuscript and printed scores and parts in the hands of Leichtentritt and other composers. Includes manuscript copies and arrangements by Leichtentritt used for student instruction.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by composer and title of work therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd21e1024">
+                  <did>
+                     <container type="box-folder">9/10-9/20</container>
+                     <unittitle encodinganalog="245$a">A-Ca
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e1032">
+                  <did>
+                     <container type="box-folder">10/1-10/41</container>
+                     <unittitle encodinganalog="245$a">Ch-Deh
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e1040">
+                  <did>
+                     <container type="box-folder">11/1-11/46</container>
+                     <unittitle encodinganalog="245$a">Del-Ha
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e1048">
+                  <did>
+                     <container type="box-folder">12/1-12/27</container>
+                     <unittitle encodinganalog="245$a">He-Ho
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e1056">
+                  <did>
+                     <container type="box-folder">13/1-13/30</container>
+                     <unittitle encodinganalog="245$a">Ho-Mu
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd21e1064">
+                  <did>
+                     <container type="box-folder">14/1-14/42, 23/6</container>
+                     <unittitle encodinganalog="245$a">No-V
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc/>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd21e1072">
+            <did>
+               <container type="box">15-16</container>
+               <unittitle encodinganalog="245$a" id="scrap">Scrapbooks, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1888/1933">1888-1933</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Unbound volumes of articles, clippings, correspondence, and programs. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file" id="mferd21e1086">
+               <did>
+                  <container type="box-folder">15/1-15/4</container>
+                  <unittitle encodinganalog="245$a">
+	 					              <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1880s-1920s and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1094">
+               <did>
+                  <container type="box-folder">16/1-16/3</container>
+                  <unittitle encodinganalog="245$a">
+	 					              <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1918-1933 and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd21e1102">
+            <did>
+               <container type="box">17-21</container>
+               <unittitle encodinganalog="245$a" id="writ">Writings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1892/1956">1892-1956</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Manuscript and typescript drafts of book chapters, articles, essays, and other writings on music history. Includes Leichtentritt's unfinished autobiography and his journal from 1893.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by title.</p>
+            </arrangement>
+            <c02 level="file" id="mferd21e1116">
+               <did>
+                  <container type="box-folder">18/1</container>
+                  <unittitle encodinganalog="245$a">"Aaron Copland: Third symphony,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1124">
+               <did>
+                  <container type="box-folder">18/2</container>
+                  <unittitle encodinganalog="245$a">"The American scene of music,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1132">
+               <did>
+                  <container type="box-folder">18/3-4</container>
+                  <unittitle encodinganalog="245$a">Analyse der Chopin'schen Klavierwerke, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1920-1922</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1140">
+               <did>
+                  <container type="box-folder">18/5-8</container>
+                  <unittitle encodinganalog="245$a">Autobiography,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1148">
+               <did>
+                  <container type="box-folder">19/1</container>
+                  <unittitle encodinganalog="245$a">"Claudio Monteverdi as Madrigalkomponist,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1156">
+               <did>
+                  <container type="box-folder">19/2</container>
+                  <unittitle encodinganalog="245$a">"Essais et critiques,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1893-1894</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1164">
+               <did>
+                  <container type="box-folder">19/3-5</container>
+                  <unittitle encodinganalog="245$a">Geschichte der Motette, 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1908</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1172">
+               <did>
+                  <container type="box-folder">17/1-3</container>
+                  <unittitle encodinganalog="245$a">Handel,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1924</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1181">
+               <did>
+                  <container type="box-folder">19/6</container>
+                  <unittitle encodinganalog="245$a">"History of ancient art,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1892-1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1189">
+               <did>
+                  <container type="box-folder">19/7</container>
+                  <unittitle encodinganalog="245$a">"Jean Sibelius: Fifth symphony," 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1197">
+               <did>
+                  <container type="box-folder">20/1</container>
+                  <unittitle encodinganalog="245$a">"Julius Caesar,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1205">
+               <did>
+                  <container type="box-folder">20/2</container>
+                  <unittitle encodinganalog="245$a">Miscellany,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1213">
+               <did>
+                  <container type="box-folder">20/3</container>
+                  <unittitle encodinganalog="245$a">Music, history, and ideas,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Introduction only</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1224">
+               <did>
+                  <container type="box-folder">20/4-8</container>
+                  <unittitle encodinganalog="245$a">Music of the Western nations,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1956</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1232">
+               <did>
+                  <container type="box-folder">20/9</container>
+                  <unittitle encodinganalog="245$a">"Nationalism and internationalism in music,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>undated</unittitle>
+                  <note>
+                     <p>Chapter 10 from an unidentified work</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1243">
+               <did>
+                  <container type="box-folder">21/1</container>
+                  <unittitle encodinganalog="245$a">"Die Oper,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1251">
+               <did>
+                  <container type="box-folder">21/2</container>
+                  <unittitle encodinganalog="245$a">"Protestant music and the Reformation,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1259">
+               <did>
+                  <container type="box-folder">21/3</container>
+                  <unittitle encodinganalog="245$a">"The reform of Trent,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1267">
+               <did>
+                  <container type="box-folder">21/4</container>
+                  <unittitle encodinganalog="245$a">"Reinhard Keiser in seinen Opern," 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1901</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1276">
+               <did>
+                  <container type="box-folder">21/5</container>
+                  <unittitle encodinganalog="245$a">"Schubert,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1284">
+               <did>
+                  <container type="box-folder">21/6</container>
+                  <unittitle encodinganalog="245$a">Tagebuch,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd21e1292">
+            <did>
+               <container type="box">21</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1889/1931">1889-1931</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>One article, two programs, and a thematic index of Leichtentritt's musical compositions.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by title or subject.</p>
+            </arrangement>
+            <c02 level="file" id="mferd21e1306">
+               <did>
+                  <container type="box-folder">21/7</container>
+                  <unittitle encodinganalog="245$a">"Bericht über die fünfte Hauptversammlung,"
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>1920</unittitle>
+                  <note>
+                     <p>Article that mentions Leichtentritt</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1317">
+               <did>
+                  <container type="box-folder">21/8</container>
+                  <unittitle encodinganalog="245$a">Programs,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1889, 1931</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd21e1325">
+               <did>
+                  <container type="box-folder">21/9</container>
+                  <unittitle encodinganalog="245$a">Thematic index,
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <note>
+                     <p>Index cards with bibliographic information for Leichtentritt's compositions</p>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

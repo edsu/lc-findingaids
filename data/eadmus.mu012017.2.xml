@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 23 August 2012 01:37:33 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu012017
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu012017--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu012017--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu012017-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd34e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd34e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu012017"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu012017</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Florence Parr-Gere Papers
+		  </titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c">2012</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2012562127"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2012562127</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2012">2012</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language> and <language encodinganalog="041" langcode="fre">French</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd34e52">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Florence Parr-Gere Papers<unitdate label="Span Dates" type="inclusive" normal="1856/1964" encodinganalog="245$f"
+                      datechar="creation">1856-1964</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1900/1943" encodinganalog="245$g"
+                      datechar="creation">(bulk 1900-1943)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.P37</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Parr-Gere, Florence, b. 1875</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">344 items</extent>
+		          <extent encodinganalog="300">5 containers</extent>
+		          <extent encodinganalog="300">3.0 linear feet</extent>		  
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in
+			<language encodinganalog="041" langcode="eng">English</language> and <language encodinganalog="041" langcode="fre">French</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Florence Parr-Gere, born in Canada and longtime resident of New York, was a pianist and composer. Her papers contain published music, photographs, clippings, correspondence, a scrapbook, publicity materials, posters and other materials related to her experiences at the American Conservatory at Fontainebleau and lifelong musical pursuits.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2012562127.10001"
+                     altrender=":::F005=^20120802021103.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd34e105">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Parr-Gere%2C+Florence%2C+b.+1875+Archives.^">Parr-Gere, Florence, b. 1875--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Parr-Gere%2C+Florence%2C+b.+1875+Photographs.^">Parr-Gere, Florence, b. 1875--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Parr-Gere%2C+Florence%2C+b.+1875.^">Parr-Gere, Florence, b. 1875.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Parr-Gere%2C+Florence%2C+b.+1875.^">Parr-Gere, Florence, b. 1875.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Parr-Gere%2C+Florence%2C+b.+1875.+Selections.^">Parr-Gere, Florence, b. 1875. Piano music. Selections.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Parr-Gere%2C+Florence%2C+b.+1875.+Selections.^">Parr-Gere, Florence, b. 1875. Songs. Selections.</persname>
+         </controlaccess>
+         <controlaccess id="mferd34e120">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Conservatoire+am%C3%A9ricain+de+Fontainebleau.^">Conservatoire américain de Fontainebleau.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd34e125">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Piano+music.^">Piano music.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Songs+with+piano.^">Songs with piano.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Women+composers.^">Women composers.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Women+pianists.^">Women pianists.</subject>
+         </controlaccess>
+         <controlaccess id="mferd34e136">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Drawings+%28Visual+works%29^">Drawings (Visual works)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Posters.^">Posters.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Promotional+materials.^">Promotional materials.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd34e155">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd34e158">
+            <head>Provenance</head>
+            <p>Gift, Mrs. H. Parr Johnson, 1975.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd34e163">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd34e168">
+            <head>Processing History</head>
+            <p>The Florence Parr-Gere Papers were processed by Denise Gallo and George Kipper in 2012. George Kipper coded the finding aid for EAD format in July 2012.</p>
+         </processinfo>
+         <userestrict encodinganalog="540" id="mferd34e173">
+            <head>Copyright Status</head>
+            <p>Materials from the Florence Parr-Gere Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd34e178">
+            <head>Access and Restrictions</head>
+            <p>The Florence Parr-Gere Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd34e185">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Florence Parr-Gere Papers, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd34e190">
+         <head>Biographical Note</head>
+         <p>Florence Beatrice Parr-Gere was born in Yarmouth, Nova Scotia, on April 25, 1875 to Henry Anderson Parr (a dentist) and Florence Parr. The 1881 Canadian census reveals that she was the oldest of four children. As a young adult, Parr-Gere traveled to Europe to study music in the 1890s. She is known to have studied piano for several years with Theodor Leschetizky in Vienna, who was the first to recognize her inherent talent in composition, and later with well-known teachers in Paris. After returning to the U.S., she began composition studies in New York with Max Spicker. Soon thereafter, she married James Belden Gere, a New York City physician (1872-1920), on November 26, 1902. Dr. Gere received his license in 1896, and was on the staff at the Presbyterian Hospital, New York City. The couple lived in New York City during the next several decades.</p>
+         <p>Parr-Gere wrote poems (often used as lyrics for her songs) and began to publish songs and piano works circa 1912. She attended the American Conservatory at Fontainebleau during the summer of 1921 with fellow classmate and composer Aaron Copland.  Parr-Gere is known to have been active as a composer during the years 1912-1928. Her songs were interpreted by various well-known singers, including Johanna Gadski and Maggie Teyte. She is known to have composed chamber music and works for full orchestra, including at least one tone-poem. Her works were published by at least five American music publishers: Carl Fischer, G. Schirmer, Inc., Luckhardt and Belder, the Boston Music Company, and C. W. Thompson Company. Other works were published by the firm of J. Hamelle in Paris.</p>
+         <p>James Gere died in 1920. Florence continued to compose and teach piano pupils at her New York City studio located at No. 15, West 67th Street. During the 1920s and 1930s she submitted several orchestral compositions to local orchestras for performance.  Parr-Gere continued her European travels between 1920 and 1938, as indicated by passport records. The latest inscribed photograph in this collection is dated July 1943. There is little biographical information regarding Parr-Gere in existing reference works and she does not appear to have been a member of ASCAP. No date of death has been found for Parr-Gere, although she appears to have been active at least into the mid-1940s.</p>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd34e199">
+         <head>Scope and Content Note</head>
+         <p>The Florence Parr-Gere Papers span a period between 1856-1964 with the majority of materials dating from circa 1900-1943. The papers mainly consist of portraits and other photographs of Parr-Gere that may have been used for publicity purposes. There are also candid outdoor photos and a few family photographs. In addition, there are several inscribed photographs, including one of Percy Grainger. The collection includes 40 of Parr-Gere's songs and piano works published between 1912-1928, as well as a scrapbook compiled by Parr-Gere while attending classes at the American Conservatory at Fontainebleau during the summer of 1921. The scrapbook contains several photographs and autographs accompanied by musical notations from other colleagues, such as Aaron Copland and the Conservatory's founder, François Casadesus. Also of interest is a small group of five posters publicizing the final two student concerts of September 1921 at Fontainebleau. Other items include Parr-Gere's marriage certificate, a wedding announcement, music publisher brochures listing her compositions, a musical composition inscribed to Parr-Gere, and an 1856 book titled <title>Genealogy of the Geer Family</title>, containing an extensive genealogy of her husband's family.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd34e207">
+         <head>Organization of the Florence Parr-Gere Papers</head>
+         <p>The Florence Parr-Gere Papers are organized in three series: </p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="mus">Music, 1912-1928</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="phot">Photographs, circa 1880s-1943</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="misc">Miscellany, 1856-1964</ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2012562127"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2012562127</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd34e225" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd34e234">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a" id="mus">Music, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1912/1928">1912-1928</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Published musical works composed by Florence Parr-Gere between 1912-1928. Includes 22 piano solos, 18 songs with piano accompaniment, and an inscribed song composed by Meta Schumann with lyrics by Parr-Gere. Parr-Gere wrote the lyrics for all of the songs in this collection with the exception of <title>L'Offrande</title>, with lyrics by Céleste Wilbur.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Organized into two subseries: piano solos and songs with piano accompaniment. Arranged alphabetically by title of composition therein.</p>
+            </arrangement>
+            <c02 level="subseries" id="mferd34e251">
+               <did>
+                  <unittitle encodinganalog="245$a">Piano music</unittitle>
+               </did>
+               <c03 level="file" id="mferd34e255">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Children's laughter</title>; piano. <imprint>New York: Luckhardt &amp; Belder, 1921.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e271">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Deux morceaux our piano. No. 1. Une Pensée</title>; piano. <imprint>Paris: J. Hamelle, 1924.</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 2 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e286">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Deux morceaux our piano. No. 2. Le Chant du voyageur</title>; piano. <imprint>Paris: J. Hamelle, 1924.</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e301">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Extase</title>; piano. <imprint>Paris: J. Hamelle, 1926.</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 4 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e316">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Idylle romantique</title>; piano. <imprint>New York: Luckhardt &amp; Belder, 1919.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e332">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>An Impression</title>; piano. <imprint>Boston: Boston Music Company, 1914.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 6 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e348">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Impressions de Fontainebleau</title>; piano. <imprint>Paris: J. Hamelle, 1923.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e364">
+                  <did>
+                     <container type="box-folder">1/8</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>In a garden at Naishapar</title>; piano. <imprint>New York: Luckhardt &amp; Belder, 1916.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e380">
+                  <did>
+                     <container type="box-folder">1/9</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>In the Seraglio</title>; piano. <imprint>New York: Luckhardt &amp; Belder, 1918.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e396">
+                  <did>
+                     <container type="box-folder">1/10</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Intermezzo. Her Portrait</title>; piano. <imprint>New York: Luckhardt &amp; Belder, 1916.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e413">
+                  <did>
+                     <container type="box-folder">1/11</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Legend</title>; piano. <imprint>New York: Luckhardt &amp; Belder, 1915.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e429">
+                  <did>
+                     <container type="box-folder">1/12</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>La Nuite (Melodie in G♭)</title>; piano. <imprint>New York: Luckhardt &amp; Belder, 1917.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e445">
+                  <did>
+                     <container type="box-folder">1/13</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Reverie nocturne</title>; piano. <imprint>Boston: C. W. Thompson &amp; Co., 1914.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e461">
+                  <did>
+                     <container type="box-folder">1/14</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Romanza</title>; piano. <imprint>New York: Luckhardt &amp; Belder, 1915.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                     <note>
+                        <p>Composition is credited to Florence Pau Gere.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e480">
+                  <did>
+                     <container type="box-folder">1/15</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Shadows, a tone-poem for piano</title>; piano. <imprint>New York: G. Schirmer, Inc., 1926.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e496">
+                  <did>
+                     <container type="box-folder">1/16</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Three silhouettes for piano. No. 1. Impromptu Oriental</title>; piano. <imprint>Boston: C. W. Thompson &amp; Co., 1914.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e512">
+                  <did>
+                     <container type="box-folder">1/17</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Three silhouettes for piano. No. 2. Caprice poetique</title>; piano. <imprint>Boston: C. W. Thompson &amp; Co., 1914.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e528">
+                  <did>
+                     <container type="box-folder">1/18</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Three silhouettes for piano. No. 3. Impromptu lyrique</title>; piano. <imprint>Boston: C. W. Thompson &amp; Co., 1914.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e544">
+                  <did>
+                     <container type="box-folder">1/19</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Trois pièces pour piano. No. 1. Gazouillement d'oiseaux</title>; piano. <imprint>Paris: J. Hamelle, 1923.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 2 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e560">
+                  <did>
+                     <container type="box-folder">1/20</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Trois pièces pour piano. No. 2. Poème de la mer</title>; piano. <imprint>Paris: J. Hamelle, 1923.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e576">
+                  <did>
+                     <container type="box-folder">1/21</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Trois pièces pour piano. No. 3. Le Temps des Lilas</title>; piano. <imprint>Paris: J. Hamelle, 1923.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 2 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e593">
+                  <did>
+                     <container type="box-folder">1/22</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Trois pièces pour piano</title>; piano. <imprint>Paris: J. Hamelle, 1923.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 7 p.</extent>
+                     </physdesc>
+                     <note>
+                        <p>No. 1. Patinage à roulettes; No. 2. Notre-Dame; No. 3. Mi-Carème.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd34e612">
+               <did>
+                  <unittitle encodinganalog="245$a">Songs</unittitle>
+               </did>
+               <c03 level="file" id="mferd34e616">
+                  <did>
+                     <container type="box-folder">1/23</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Arcady's where you are</title>; song with piano. <imprint>New York: Carl Fischer, 1918.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e632">
+                  <did>
+                     <container type="box-folder">1/24</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>The Birth of green</title>; song with piano. <imprint>Boston: C. W. Thompson &amp; Co., 1916.</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e647">
+                  <did>
+                     <container type="box-folder">1/25</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Feathered trees</title>; song with piano. <imprint>New York: G. Schirmer, Inc., 1925.</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e662">
+                  <did>
+                     <container type="box-folder">1/26</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>God of the wind. An Apostrophe</title>; song with piano. <imprint>New York: G. Schirmer, Inc., 1928.</imprint>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score;  p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e677">
+                  <did>
+                     <container type="box-folder">1/27</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>How I love thee</title>; song with piano. <imprint>Boston:C. W. Thompson &amp; Co., 1914.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e693">
+                  <did>
+                     <container type="box-folder">1/28</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>I am the wind</title>; song with piano. <imprint>New York: Luckhardt &amp; Belder, 1916.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e709">
+                  <did>
+                     <container type="box-folder">1/29</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>My mother when she kisses me</title>; song with piano. <imprint>New York: Luckhardt &amp; Belder , 1924.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e725">
+                  <did>
+                     <container type="box-folder">1/30</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>My song</title>; song with piano. <imprint>Boston: C. W. Thompson &amp; Co., 1914.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e741">
+                  <did>
+                     <container type="box-folder">1/31</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>L'Offrande</title>; song with piano. <imprint>Paris: J. Hamelle, 1925.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                     <note>
+                        <p>Lyrics by Céleste Wilbur; music by Florence Parr-Gere.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e760">
+                  <did>
+                     <container type="box-folder">1/32</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>A Profile</title>; song with piano. <imprint>New York: G. Schirmer, Inc., 1923.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e777">
+                  <did>
+                     <container type="box-folder">1/33</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Romance</title>; song with piano. <imprint>New York: Luckhardt &amp; Belder, 1916.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e793">
+                  <did>
+                     <container type="box-folder">1/34</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>A Sigh</title>; song with piano. <imprint>New York: Luckhardt &amp; Belder, 1919.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 2 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e809">
+                  <did>
+                     <container type="box-folder">1/35</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Thee</title>; song with piano. <imprint>New York: G. Schirmer, Inc., 1926.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e825">
+                  <did>
+                     <container type="box-folder">1/36</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>Two flower songs. No. 1: My garden; no. 2: Where the sweetist flowers grow</title>; songs with piano. <imprint>Boston: Boston Music Co., 1912.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e841">
+                  <did>
+                     <container type="box-folder">1/37</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>I walked with anguish in my heart</title>; song with piano. <imprint>New York: G. Schirmer, Inc., 1920.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e857">
+                  <did>
+                     <container type="box-folder">1/38</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>The Water song</title>; song with piano. <imprint>Boston: C. W. Thompson &amp; Co., 1914.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e873">
+                  <did>
+                     <container type="box-folder">1/39</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>With music on your lips</title>; song with piano. <imprint>New York: Luckhardt &amp; Belder, 1918.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 3 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e889">
+                  <did>
+                     <container type="box-folder">1/40</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere, Florence.<lb/>
+                        <title>You Devon maid</title>; song with piano. <imprint>New York: Luckhardt &amp; Belder, 1920.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 5 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e905">
+                  <did>
+                     <container type="box-folder">1/41</container>
+                     <unittitle encodinganalog="245$a">Schumann, Meta.<lb/>
+                        <title>Thee</title>; song with piano. <imprint>New York: G. Ricordi &amp; Co., 1925.</imprint> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Printed score; 10 p.</extent>
+                     </physdesc>
+                     <note>
+                        <p>Music composed by Meta Schumann; lyrics by Florence Parr Gere.</p>
+                     </note>
+                     <note>
+                        <p>Music is inscribed to Florence Parr Gere by the composer, dated February 1925.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd34e927">
+            <did>
+               <container type="box">2-3</container>
+               <unittitle encodinganalog="245$a" id="phot">Photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1880/1943">circa 1880s-1943</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Chiefly studio and candid photographs of Florence Parr-Gere, taken from childhood until late middle-age. The majority of photographs of individuals other than Parr-Gere are unidentified, although most are suspected to be members of her family. Also included are several inscribed photographs of well-known personalities.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged in approximate chronological order, then by subject. Inscribed photographs are arranged alphabetically by surname.</p>
+            </arrangement>
+            <c02 level="subseries" id="mferd34e941">
+               <did>
+                  <unittitle encodinganalog="245$a">Parr-Gere, Alone, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1880s-circa 1935</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd34e947">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a">Early photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1880s-1900</unitdate>
+                     </unittitle>
+                     <physdesc encodinganalog="300$a">8 black and white photographs.</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e957">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a">Inscribed photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1890s - circa 1912</unitdate> 
+                     </unittitle>
+                     <physdesc encodinganalog="300$a">6 black and white photographs.</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e968">
+                  <did>
+                     <container type="box-folder">2/3-19; 3/1-9</container>
+                     <unittitle encodinganalog="245$a">Later photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1900 - circa 1935</unitdate>
+                     </unittitle>
+                     <physdesc encodinganalog="300$a">80 black and white photographs.</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd34e978">
+               <did>
+                  <unittitle encodinganalog="245$a">Parr-Gere, with Others, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1890s-circa 1925</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd34e984">
+                  <did>
+                     <container type="box-folder">3/10</container>
+                     <unittitle encodinganalog="245$a">American Conservatory at Fontainebleau, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">1 photograph.</extent>
+                     </physdesc>
+                     <note encodinganalog="500">
+                        <p>Group photograph at Fontainebleau, 1921, with Nadia Boulanger, Charles-Marie Widor, François Casadesus, Isidor Philipp, Aaron Copland, André Bloch, and many others.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e998">
+                  <did>
+                     <container type="box-folder">3/11</container>
+                     <unittitle encodinganalog="245$a">Horse-driven coach with large group, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1900</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">1 photograph.</extent>
+                     </physdesc>
+                     <note encodinganalog="500">
+                        <p>Signed by Florence B. Parr, with the notation: "West Point".</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e1012">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere family, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1890s - circa 1916</unitdate>
+                     </unittitle>
+                     <physdesc encodinganalog="300$a">7 black and white photographs.</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e1022">
+                  <did>
+                     <container type="box-folder">3/13</container>
+                     <unittitle encodinganalog="245$a">Parr-Gere with unidentified people, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1902-1925</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">6 photographs.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd34e1033">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1911-1943</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd34e1039">
+                  <did>
+                     <container type="box-folder">3/14-16</container>
+                     <unittitle encodinganalog="245$a">Inscribed photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1911-1930 and undated</unitdate>
+                     </unittitle>
+                     <physdesc encodinganalog="300$a">14 black and white photographs.</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd34e1049">
+                  <did>
+                     <container type="box-folder">3/17</container>
+                     <unittitle encodinganalog="245$a">Unidentified, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1915-1930s</unitdate> 
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">4 black and white photographs.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd34e1061">
+            <did>
+               <container type="box">4-5</container>
+               <container type="mapcase">3</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1856/1964">1856-1964</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Two small portrait drawings, one book, clippings, correspondence, marriage documents, music publisher brochures listing Parr-Gere's compositions, posters (Fontainebleau concerts), programs, and poems.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file" id="mferd34e1077">
+               <did>
+                  <container type="box-folder">4/1</container>
+                  <unittitle encodinganalog="245$a">Book. <lb/>Geer, James. <lb/>
+                     <title>Historical sketch and genealogy of George &amp; Thomas Geer from 1621 to 1856</title>. <imprint>Hartford: Elihu Geer, Printer and Stationer, 1856.</imprint>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Published genealogy of the Geer family (husband's family).</extent>
+                  </physdesc>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Inscribed to James Belden Gere from Anna Gere Belden, Syracuse, NY, September 28, 1912.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1097">
+               <did>
+                  <container type="box-folder">4/2</container>
+                  <unittitle encodinganalog="245$a">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1902-1920 and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1105">
+               <did>
+                  <container type="box-folder">4/3</container>
+                  <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1920-1941</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">3 letters.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1116">
+               <did>
+                  <container type="box-folder">4/4</container>
+                  <unittitle encodinganalog="245$a">Marriage documents, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1902</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">3 documents.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1127">
+               <did>
+                  <container type="box-folder">4/5</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous documents, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1916-1929 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Check receipt from music publisher (J. Hamelle, Paris) and one note card from Carl F. Clarke.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1138">
+               <did>
+                  <container type="box-folder">5/2-4</container>
+                  <unittitle encodinganalog="245$a">Periodicals, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1913, 1919-1920</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">
+                        <title>The Critic</title>, 1, no. 1 (1919 June) and no. 5 (1920 October); <title>Musical America</title>, 17, no. 14 (1913 Feb. 8).</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1154">
+               <did>
+                  <container type="box-folder">4/6</container>
+                  <unittitle encodinganalog="245$a">Portrait drawing, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1900</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Small oval portrait of Parr-Gere within a velvet matted frame.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1165">
+               <did>
+                  <container type="box-folder">3/19</container>
+                  <unittitle encodinganalog="245$a">Portrait drawing, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1908</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1174">
+               <did>
+                  <container type="mapcase-drawer">3/8</container>
+                  <unittitle encodinganalog="245$a">Posters, Fontainebleau, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">September 21 and 23, 1921</unitdate>
+                  </unittitle>
+                  <physdesc encodinganalog="300$a">5 large posters.</physdesc>
+                  <note>
+                     <p>Two final concerts given by the students of the American Conservatory, Fontainebleau, France, September 21 and 23, 1921.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1187">
+               <did>
+                  <container type="box-folder">4/7</container>
+                  <unittitle encodinganalog="245$a">Programs, Fontainebleau, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">July-September 1921</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">10 programs.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1198">
+               <did>
+                  <container type="box-folder">4/8</container>
+                  <unittitle encodinganalog="245$a">Programs, general, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1913-1964</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">6 programs.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1209">
+               <did>
+                  <container type="box-folder">4/9</container>
+                  <unittitle encodinganalog="245$a">Publicity materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1916-1929 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">3 brochures and 1 page taken from a concert program.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1220">
+               <did>
+                  <container type="box-folder">5/1</container>
+                  <unittitle encodinganalog="245$a">Scrapbook (Fontainebleau), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">Inscriptions, photographs, notes, and programs documenting the period of Parr-Gere's studies at the American Conservatory, Fontainebleau.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd34e1231">
+               <did>
+                  <container type="box-folder">4/10-11</container>
+                  <unittitle encodinganalog="245$a">Writings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1905-1941 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">41 poems.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

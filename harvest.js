@@ -17,7 +17,7 @@ ns = {
 };
 
 function main() {
-  scrape('http://findingaids.loc.gov/source/main', findCollections);
+  //scrape('http://findingaids.loc.gov/source/main', findCollections);
   generateFeed();
 }
 
@@ -88,7 +88,9 @@ function generateFeed() {
   var feed = new libxmljs.Document().node("feed");
   feed.attr({"xmlns": ns.atom});
   feed.node("title", "Library of Congress Finding Aids");
-  feed.node("id", "http://findingaids.loc.gov");
+  feed.node("id", "http://findingaids.loc.gov/");
+  feed.node("author", "Library of Congress");
+  feed.node("updated", new Date().toISOString());
   feed.node("link").attr({
     rel: "self",
     type: "application/atom+xml",
@@ -105,14 +107,14 @@ function generateFeed() {
     var e = feed.node('entry');
     e.node('id', url.format(item.url));
     e.node('title', item.title);
-    e.node('updated', item.updated);
-    e.node('summary', item.scope);
+    e.node('updated', item.updated + 'Z');
+    e.node('summary', item.scope).attr({type: 'html'});
     e.node('link').attr({
       rel: "alternate", 
       href: githubUrl, 
       type: "application/ead+xml"
     });
-    e.node('created', item.created).attr({xmlns: ns.dcterms});
+    e.node('created', item.created + "Z").attr({xmlns: ns.dcterms});
   }
 
   fs.writeFileSync("feed.xml", feed.toString());

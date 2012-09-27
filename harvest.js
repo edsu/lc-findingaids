@@ -89,7 +89,7 @@ function generateFeed() {
   feed.attr({"xmlns": ns.atom});
   feed.node("title", "Library of Congress Finding Aids");
   feed.node("id", "http://findingaids.loc.gov/");
-  feed.node("author", "Library of Congress");
+  feed.node("author").node("name", "Library of Congress");
   feed.node("updated", new Date().toISOString());
   feed.node("link").attr({
     rel: "self",

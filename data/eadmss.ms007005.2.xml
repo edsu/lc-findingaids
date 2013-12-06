@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ==========Schema Conversion:========== 
  Transformed with dtd2schema.06.xsl 
-Generated: Thu, 16 February 2012 11:11:17 AM EST
+Generated: Mon, 17 June 2013 01:50:01 PM EDT
 URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
  ===================================== -->
 <!-- Transformed with v1v2002_4.xsl -->
@@ -9,8 +9,8 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd3127e2">
-   <eadheader id="mferd3127e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd229e2">
+   <eadheader id="mferd229e3" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -68,7 +68,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
       </revisiondesc>
    </eadheader>
    <archdesc level="collection" relatedencoding="MARC21" type="register">
-      <did id="mferd3127e47">
+      <did id="mferd229e47">
          <head>Collection Summary</head>
          <unittitle label="Title" encodinganalog="245$a">Henry L. Abbot Family
 		  Papers 
@@ -108,14 +108,14 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
 		  documenting the professional and family activities of Henry L. Abbot and his
 		  family during the Civil War. </abstract>
       </did>
-      <!--m2cUpdateNodeSet--><controlaccess id="mferd3127e92" altrender=":::F005=^20090904131946.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd229e92" altrender=":::F005=^20090904131946.0^"><!--LN:282--><head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this
 			 collection in the Library's online catalog. They are grouped by name of person
 			 or organization, by subject or location, and by occupation and listed
 			 alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd3129e12">
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd231e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Abbot%2C+Edward+Stanley%2C+1841-1863.^">Abbot, Edward Stanley, 1841-1863.</persname>
@@ -132,7 +132,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
             <famname encodinganalog="600" role="subject" source="lcnaf"
                      altrender=":::PWEBRECON=^Abbott+family+Correspondence.^">Abbott family--Correspondence.</famname>
             <persname encodinganalog="600" role="subject" source="lcnaf"
-                      altrender=":::PWEBRECON=^Everett%2C+Emily%2C+b.+1799.^">Everett, Emily, b. 1799.</persname>
+                      altrender=":::PWEBRECON=^Everett%2C+Emily%2C+1799-^">Everett, Emily, 1799- </persname>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Grant%2C+Ulysses+S.+%28Ulysses+Simpson%29%2C+1822-1885.^">Grant, Ulysses S. (Ulysses Simpson), 1822-1885.</persname>
             <persname encodinganalog="600" role="subject" source="lcnaf"
@@ -144,7 +144,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Seward%2C+William+Henry%2C+1801-1872+Correspondence.^">Seward, William Henry, 1801-1872--Correspondence.</persname>
          </controlaccess>
-         <controlaccess id="mferd3129e59">
+         <controlaccess id="mferd231e59">
             <head>Organizations</head>
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Margaret+%28Ship%29^">Margaret (Ship)</corpname>
@@ -157,7 +157,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^United+States.+President+%281861-1865+%3A+Lincoln%29.+Emancipation+Proclamation.^">United States. <subarea encodinganalog="610$b">President (1861-1865 : Lincoln).</subarea> Emancipation Proclamation.</corpname>
          </controlaccess>
-         <controlaccess id="mferd3129e89">
+         <controlaccess id="mferd231e89">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Bull+Run%2C+1st+Battle+of%2C+Va.%2C+1861.^">Bull Run, 1st Battle of, Va., 1861.</subject>
@@ -170,7 +170,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Peninsular+Campaign%2C+1862.^">Peninsular Campaign, 1862.</subject>
          </controlaccess>
-         <controlaccess id="mferd3129e112">
+         <controlaccess id="mferd231e112">
             <head>Places</head>
             <geogname encodinganalog="651" role="subject" source="lcsh"
                       altrender=":::PWEBRECON=^Cambridge+%28Mass.%29+Social+life+and+customs+19th+century.^">Cambridge (Mass.)--Social life and customs--19th century.</geogname>
@@ -197,53 +197,53 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
             <geogname encodinganalog="651" role="subject" source="lcsh"
                       altrender=":::PWEBRECON=^Washington+%28D.C.%29+Social+life+and+customs+19th+century.^">Washington (D.C.)--Social life and customs--19th century.</geogname>
          </controlaccess>
-         <controlaccess id="mferd3129e156">
+         <controlaccess id="mferd231e156">
             <head>Occupations</head>
             <occupation encodinganalog="656" source="itoamc" altrender=":::PWEBRECON=^Army+officers.^">Army officers.</occupation>
          </controlaccess>
       </controlaccess>
-      <descgrp id="mferd3127e197" type="admininfo">
+      <descgrp id="mferd229e197" type="admininfo">
          <head>Administrative Information</head>
-         <acqinfo id="mferd3127e200" encodinganalog="541">
+         <acqinfo id="mferd229e200" encodinganalog="541">
             <head>Provenance</head>
             <p>The papers of the Henry L. Abbot family were given to the Library of
 		  Congress by Roger Anderson in 2002. Additional material was purchased in
 		  2003.</p>
          </acqinfo>
-         <separatedmaterial id="mferd3127e205" encodinganalog="544 0">
+         <separatedmaterial id="mferd229e205" encodinganalog="544 0">
             <head>Transfers</head>
             <p>Daguerreotypes, prints, an oil painting, and most photographs have
 		  been transferred to the Library's Prints and Photographs Division where they
 		  are identified as part of these papers. </p>
          </separatedmaterial>
-         <relatedmaterial id="mferd3127e210" encodinganalog="544 1">
+         <relatedmaterial id="mferd229e210" encodinganalog="544 1">
             <head>Related Materials</head>
             <p>In addition to Abbot’s diaries and papers held in the 
 		  <archref xlink:type="simple">Houghton Library at Harvard University</archref>, other
 		  related material is also at the 
 		  <archref xlink:type="simple">Oregon Historical Society in Portland</archref>. </p>
          </relatedmaterial>
-         <userestrict id="mferd3127e221" encodinganalog="540">
+         <userestrict id="mferd229e221" encodinganalog="540">
             <head>Copyright Status</head>
             <p>The status of copyright in the unpublished writings of members of the
 		  Henry L. Abbot family is governed by the Copyright Law of the United States
 		  (Title 17, U.S.C.).</p>
          </userestrict>
-         <accessrestrict id="mferd3127e226" encodinganalog="506 0">
+         <accessrestrict id="mferd229e226" encodinganalog="506 0">
             <head>Access and Restrictions</head>
             <p>The papers of Henry L. Abbot Family are open to research. Researchers
 		  are advised to contact the Manuscript Reading Room prior to visiting. Many
 		  collections are stored off-site and advance notice is needed to retrieve these
 		  items for research use.</p>
          </accessrestrict>
-         <prefercite id="mferd3127e231" encodinganalog="524">
+         <prefercite id="mferd229e231" encodinganalog="524">
             <head>Preferred Citation</head>
             <p>Researchers wishing to cite this collection should include the
 		  following information: Container number, Henry L. Abbot Family Papers,
 		  Manuscript Division, Library of Congress, Washington, D.C. </p>
          </prefercite>
       </descgrp>
-      <bioghist id="mferd3127e236" encodinganalog="545">
+      <bioghist id="mferd229e236" encodinganalog="545">
          <head>Biographical Note</head>
          <p>
             <emph render="bold">Henry L. Abbot</emph>
@@ -357,7 +357,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
             </chronitem>
          </chronlist>
       </bioghist>
-      <scopecontent id="mferd3127e356" encodinganalog="520">
+      <scopecontent id="mferd229e356" encodinganalog="520">
          <head>Scope and Content Note</head>
          <p>The papers of the family of Henry Larcom Abbot (1831-1927) span the
 		  years 1770-2001, with the bulk of the material concentrated in the period
@@ -434,7 +434,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
 		1961. An unidentified notebook, circa 1828, with numerous stories, poems, and
 		commentary is contained among the miscellaneous writings. </p>
       </scopecontent>
-      <arrangement id="mferd3127e380" encodinganalog="351$a">
+      <arrangement id="mferd229e380" encodinganalog="351$a">
          <head>Arrangement of the Papers</head>
          <p>The collection is arranged alphabetically by type of material or name
 		  of creator and chronologically thereunder. Artifacts and oversize material are
@@ -446,7 +446,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                  xlink:title="MARC record for collection"
                  xlink:type="simple">http://lccn.loc.gov/mm2002084936</extref>
       </otherfindaid>
-      <dsc id="mferd3127e385" type="combined">
+      <dsc id="mferd229e385" type="combined">
          <head>Container List</head>
          <thead valign="bottom">
             <row>
@@ -454,12 +454,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd3127e394" level="file">
+         <c01 id="mferd229e394" level="file">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a">Biographical material </unittitle>
             </did>
-            <c02 id="mferd3127e400" level="file">
+            <c02 id="mferd229e400" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Abbot, Frederic V., 
@@ -467,7 +467,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e408" level="file">
+            <c02 id="mferd229e408" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Abbot, Henry L., 
@@ -480,7 +480,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </did>
             </c02>
          </c01>
-         <c01 id="mferd3127e419" level="file">
+         <c01 id="mferd229e419" level="file">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a">Broadsides and certificates, 
@@ -492,7 +492,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </unittitle>
             </did>
          </c01>
-         <c01 id="mferd3127e432" level="file">
+         <c01 id="mferd229e432" level="file">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a">Clippings, 
@@ -501,12 +501,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </unittitle>
             </did>
          </c01>
-         <c01 id="mferd3127e440" level="file">
+         <c01 id="mferd229e440" level="file">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a">Correspondence</unittitle>
             </did>
-            <c02 id="mferd3127e446" level="file">
+            <c02 id="mferd229e446" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a"> 
@@ -518,7 +518,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd3127e457" level="file">
+            <c02 id="mferd229e457" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a"> 
@@ -531,12 +531,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </did>
             </c02>
          </c01>
-         <c01 id="mferd3127e468" level="file">
+         <c01 id="mferd229e468" level="file">
             <did>
                <container type="box">2</container>
                <unittitle encodinganalog="245$a">Diaries and memoirs</unittitle>
             </did>
-            <c02 id="mferd3127e474" level="file">
+            <c02 id="mferd229e474" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Abbot, Charles Greeley, 
@@ -544,7 +544,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e482" level="file">
+            <c02 id="mferd229e482" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Abbot, Fanny Larcom, 
@@ -556,13 +556,13 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd3127e493" level="file">
+            <c02 id="mferd229e493" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Abbot, Henry L.
 				  (photocopies)</unittitle>
                </did>
-               <c03 id="mferd3127e499" level="file">
+               <c03 id="mferd229e499" level="file">
                   <did>
                      <container type="box">2</container>
                      <unittitle encodinganalog="245$a">Index, 
@@ -570,7 +570,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e507" level="file">
+               <c03 id="mferd229e507" level="file">
                   <did>
                      <container type="box">2</container>
                      <unittitle encodinganalog="245$a"> 
@@ -582,7 +582,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd3127e518" level="file">
+               <c03 id="mferd229e518" level="file">
                   <did>
                      <container type="box">3</container>
                      <unittitle encodinganalog="245$a"> 
@@ -595,7 +595,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd3127e529" level="file">
+            <c02 id="mferd229e529" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">Abbot, Marion (“May”)
@@ -604,7 +604,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e537" level="file">
+            <c02 id="mferd229e537" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">Everett, Emily, 
@@ -612,12 +612,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e545" level="file">
+            <c02 id="mferd229e545" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
                </did>
-               <c03 id="mferd3127e551" level="file">
+               <c03 id="mferd229e551" level="file">
                   <did>
                      <container type="box">3</container>
                      <unittitle encodinganalog="245$a"> 
@@ -625,7 +625,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e559" level="file">
+               <c03 id="mferd229e559" level="file">
                   <did>
                      <container type="box">4</container>
                      <unittitle encodinganalog="245$a"> 
@@ -635,7 +635,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd3127e567" level="file">
+         <c01 id="mferd229e567" level="file">
             <did>
                <container type="box">4</container>
                <unittitle encodinganalog="245$a">Financial and legal records, 
@@ -647,12 +647,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </physdesc>
             </did>
          </c01>
-         <c01 id="mferd3127e578" level="file">
+         <c01 id="mferd229e578" level="file">
             <did>
                <container type="box">4</container>
                <unittitle encodinganalog="245$a">Genealogy</unittitle>
             </did>
-            <c02 id="mferd3127e584" level="file">
+            <c02 id="mferd229e584" level="file">
                <did>
                   <container type="box">4</container>
                   <unittitle encodinganalog="245$a">Notes, 
@@ -668,12 +668,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd3127e599" level="file">
+            <c02 id="mferd229e599" level="file">
                <did>
                   <container type="box">4</container>
                   <unittitle encodinganalog="245$a">Printed matter</unittitle>
                </did>
-               <c03 id="mferd3127e605" level="file">
+               <c03 id="mferd229e605" level="file">
                   <did>
                      <container type="box">4</container>
                      <unittitle encodinganalog="245$a"> 
@@ -681,7 +681,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e613" level="file">
+               <c03 id="mferd229e613" level="file">
                   <did>
                      <container type="box">5</container>
                      <unittitle encodinganalog="245$a"> 
@@ -694,7 +694,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd3127e624" level="file">
+            <c02 id="mferd229e624" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Slave records, 
@@ -703,12 +703,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </did>
             </c02>
          </c01>
-         <c01 id="mferd3127e632" level="file">
+         <c01 id="mferd229e632" level="file">
             <did>
                <container type="box">6</container>
                <unittitle encodinganalog="245$a">Larcum, Henry</unittitle>
             </did>
-            <c02 id="mferd3127e638" level="file">
+            <c02 id="mferd229e638" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Biographical material, 
@@ -720,7 +720,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd3127e649" level="file">
+            <c02 id="mferd229e649" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Logbook, <emph render="italic">Betsy</emph> (ship), 
@@ -728,7 +728,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e660" level="file">
+            <c02 id="mferd229e660" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Lunar observations and journal,
@@ -737,7 +737,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e671" level="file">
+            <c02 id="mferd229e671" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Maps, 
@@ -749,7 +749,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e683" level="file">
+            <c02 id="mferd229e683" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Mementos, 
@@ -761,7 +761,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e695" level="file">
+            <c02 id="mferd229e695" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Miscellany, 
@@ -769,7 +769,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e703" level="file">
+            <c02 id="mferd229e703" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Navigation notebooks, 
@@ -781,7 +781,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd3127e714" level="file">
+            <c02 id="mferd229e714" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">Printed matter, 
@@ -793,7 +793,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd3127e725" level="file">
+            <c02 id="mferd229e725" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">Shipping invoices, 
@@ -802,12 +802,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </did>
             </c02>
          </c01>
-         <c01 id="mferd3127e733" level="file">
+         <c01 id="mferd229e733" level="file">
             <did>
                <container type="box">7</container>
                <unittitle encodinganalog="245$a">Mementos</unittitle>
             </did>
-            <c02 id="mferd3127e739" level="file">
+            <c02 id="mferd229e739" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">Lincoln, Abraham, 
@@ -819,7 +819,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e751" level="file">
+            <c02 id="mferd229e751" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">Military insignia and medals, 
@@ -831,7 +831,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e763" level="file">
+            <c02 id="mferd229e763" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">Military reunions, badges, 
@@ -843,7 +843,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e775" level="file">
+            <c02 id="mferd229e775" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">Miscellaneous, 
@@ -856,7 +856,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </did>
             </c02>
          </c01>
-         <c01 id="mferd3127e788" level="file">
+         <c01 id="mferd229e788" level="file">
             <did>
                <container type="box">7</container>
                <unittitle encodinganalog="245$a">Memorials, 
@@ -864,12 +864,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </unittitle>
             </did>
          </c01>
-         <c01 id="mferd3127e796" level="file">
+         <c01 id="mferd229e796" level="file">
             <did>
                <container type="box">7</container>
                <unittitle encodinganalog="245$a">Military records</unittitle>
             </did>
-            <c02 id="mferd3127e802" level="file">
+            <c02 id="mferd229e802" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">Abbot, Frederic V., 
@@ -877,7 +877,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e810" level="file">
+            <c02 id="mferd229e810" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">Abbot, Henry L., extracts from 
@@ -885,24 +885,24 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
 				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1865</unitdate>
                   </unittitle>
                </did>
-               <c03 id="mferd3127e821" level="file">
+               <c03 id="mferd229e821" level="file">
                   <did>
                      <container type="box">7</container>
                      <unittitle encodinganalog="245$a">Set I</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e827" level="file">
+               <c03 id="mferd229e827" level="file">
                   <did>
                      <container type="box">7</container>
                      <unittitle encodinganalog="245$a">Set II</unittitle>
                   </did>
-                  <c04 id="mferd3127e833" level="file">
+                  <c04 id="mferd229e833" level="file">
                      <did>
                         <container type="box">7</container>
                         <unittitle encodinganalog="245$a">Vols. 1-2</unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd3127e839" level="file">
+                  <c04 id="mferd229e839" level="file">
                      <did>
                         <container type="box">8</container>
                         <unittitle encodinganalog="245$a">Vols. 3-4 and
@@ -915,7 +915,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </c04>
                </c03>
             </c02>
-            <c02 id="mferd3127e848" level="file">
+            <c02 id="mferd229e848" level="file">
                <did>
                   <container type="box">8</container>
                   <unittitle encodinganalog="245$a"> 
@@ -925,12 +925,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e859" level="file">
+            <c02 id="mferd229e859" level="file">
                <did>
                   <container type="box">8</container>
                   <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
                </did>
-               <c03 id="mferd3127e865" level="file">
+               <c03 id="mferd229e865" level="file">
                   <did>
                      <container type="box">8</container>
                      <unittitle encodinganalog="245$a">Extract from Board of Engineers
@@ -939,7 +939,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e873" level="file">
+               <c03 id="mferd229e873" level="file">
                   <did>
                      <container type="box">8</container>
                      <unittitle encodinganalog="245$a">“Notes on the Status of the
@@ -948,7 +948,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e881" level="file">
+               <c03 id="mferd229e881" level="file">
                   <did>
                      <container type="box">8</container>
                      <unittitle encodinganalog="245$a"> 
@@ -959,19 +959,19 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd3127e892" level="file">
+         <c01 id="mferd229e892" level="file">
             <did>
                <container type="box">9</container>
                <unittitle encodinganalog="245$a">Writings</unittitle>
             </did>
-            <c02 id="mferd3127e898" level="file">
+            <c02 id="mferd229e898" level="file">
                <did>
                   <container type="box">9</container>
                   <unittitle encodinganalog="245$a">Book, 
 				  <title xlink:type="simple">Family Letters of General Henry Larcom Abbot</title>, by
 				  Catherine C. Abbot</unittitle>
                </did>
-               <c03 id="mferd3127e907" level="file">
+               <c03 id="mferd229e907" level="file">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Correspondence and notes, 
@@ -979,7 +979,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e915" level="file">
+               <c03 id="mferd229e915" level="file">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Drawings, 
@@ -987,7 +987,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e923" level="file">
+               <c03 id="mferd229e923" level="file">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Photographs, 
@@ -995,7 +995,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e931" level="file">
+               <c03 id="mferd229e931" level="file">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Text, 
@@ -1004,12 +1004,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd3127e939" level="file">
+            <c02 id="mferd229e939" level="file">
                <did>
                   <container type="box">9</container>
                   <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
                </did>
-               <c03 id="mferd3127e945" level="file">
+               <c03 id="mferd229e945" level="file">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Abbot, Charles Greeley, 
@@ -1017,7 +1017,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e953" level="file">
+               <c03 id="mferd229e953" level="file">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Abbot, Henry L., 
@@ -1029,7 +1029,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd3127e964" level="file">
+               <c03 id="mferd229e964" level="file">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Others, 
@@ -1042,7 +1042,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd3127e975" level="file">
+            <c02 id="mferd229e975" level="file">
                <did>
                   <container type="box">9</container>
                   <unittitle encodinganalog="245$a">Poetry, 
@@ -1051,29 +1051,29 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </did>
             </c02>
          </c01>
-         <c01 id="mferd3127e983" level="file">
+         <c01 id="mferd229e983" level="file">
             <did>
                <container type="box">VA 1</container>
                <unittitle encodinganalog="245$a">Artifacts</unittitle>
             </did>
-            <c02 id="mferd3127e989" level="file">
+            <c02 id="mferd229e989" level="file">
                <did>
                   <container type="box">VA 1</container>
                   <unittitle encodinganalog="245$a">Larcom, Henry</unittitle>
                </did>
-               <c03 id="mferd3127e995" level="file">
+               <c03 id="mferd229e995" level="file">
                   <did>
                      <container type="box">VA 1</container>
                      <unittitle encodinganalog="245$a" id="memva1">Mementos</unittitle>
                   </did>
-                  <c04 id="mferd3127e1001" level="file">
+                  <c04 id="mferd229e1001" level="file">
                      <did>
                         <container type="box">VA 1</container>
                         <unittitle encodinganalog="245$a"> 
 						                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1810</unitdate> (Container 6)</unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd3127e1010" level="file">
+                  <c04 id="mferd229e1010" level="file">
                      <did>
                         <container type="box">VA 2</container>
                         <unittitle encodinganalog="245$a"> 
@@ -1086,12 +1086,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </c04>
                </c03>
             </c02>
-            <c02 id="mferd3127e1022" level="file">
+            <c02 id="mferd229e1022" level="file">
                <did>
                   <container type="box">VA 2</container>
                   <unittitle encodinganalog="245$a">Mementos</unittitle>
                </did>
-               <c03 id="mferd3127e1028" level="file">
+               <c03 id="mferd229e1028" level="file">
                   <did>
                      <container type="box">VA 2</container>
                      <unittitle encodinganalog="245$a" id="lincva2">Lincoln, Abraham, 
@@ -1102,7 +1102,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd3127e1040" level="file">
+               <c03 id="mferd229e1040" level="file">
                   <did>
                      <container type="box">VA 2</container>
                      <unittitle encodinganalog="245$a" id="milinva2">Military insignia
@@ -1110,7 +1110,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
 					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865, 1918, undated</unitdate> (Container 7)</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e1049" level="file">
+               <c03 id="mferd229e1049" level="file">
                   <did>
                      <container type="box">VA 3</container>
                      <unittitle encodinganalog="245$a" id="milreva3">Military
@@ -1118,7 +1118,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
 					 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1916</unitdate> (Container 7)</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd3127e1058" level="file">
+               <c03 id="mferd229e1058" level="file">
                   <did>
                      <container type="box">VA 3</container>
                      <unittitle encodinganalog="245$a" id="miscva3">Miscellaneous, 
@@ -1127,12 +1127,12 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd3127e1067" level="file">
+         <c01 id="mferd229e1067" level="file">
             <did>
                <container type="box">OV 1</container>
                <unittitle encodinganalog="245$a">Oversize</unittitle>
             </did>
-            <c02 id="mferd3127e1073" level="file">
+            <c02 id="mferd229e1073" level="file">
                <did>
                   <container type="box">OV 1</container>
                   <unittitle encodinganalog="245$a" id="broadov1">Broadsides and
@@ -1140,17 +1140,17 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
 				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865, 1913, 1925</unitdate> (Container 1) </unittitle>
                </did>
             </c02>
-            <c02 id="mferd3127e1082" level="file">
+            <c02 id="mferd229e1082" level="file">
                <did>
                   <container type="box">OV 1</container>
                   <unittitle encodinganalog="245$a">Genealogical notes</unittitle>
                </did>
-               <c03 id="mferd3127e1088" level="file">
+               <c03 id="mferd229e1088" level="file">
                   <did>
                      <container type="box">OV 1</container>
                      <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
                   </did>
-                  <c04 id="mferd3127e1094" level="file">
+                  <c04 id="mferd229e1094" level="file">
                      <did>
                         <container type="box">OV 1</container>
                         <unittitle encodinganalog="245$a" id="chartov1">Chart, 
@@ -1159,17 +1159,17 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms007005
                   </c04>
                </c03>
             </c02>
-            <c02 id="mferd3127e1103" level="file">
+            <c02 id="mferd229e1103" level="file">
                <did>
                   <container type="box">OV 1</container>
                   <unittitle encodinganalog="245$a">Larcom, Henry</unittitle>
                </did>
-               <c03 id="mferd3127e1109" level="file">
+               <c03 id="mferd229e1109" level="file">
                   <did>
                      <container type="box">OV 1</container>
                      <unittitle encodinganalog="245$a">Maps</unittitle>
                   </did>
-                  <c04 id="mferd3127e1115" level="file">
+                  <c04 id="mferd229e1115" level="file">
                      <did>
                         <container type="box">OV 1</container>
                         <unittitle encodinganalog="245$a" id="northov1">North Atlantic

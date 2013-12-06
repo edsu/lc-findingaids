@@ -1,0 +1,2981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Tue, 28 May 2013 11:35:43 AM EDT
+URL: http://hdl.loc.gov/loc.rbc/eadrbc.rb010001
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.rbc/eadrbc.rb010001--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadrbc.rb010001--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": rb010001-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd36e3">
+   <eadheader id="mferd36e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.rbc/eadrbc.rb010001"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.rbc/eadrbc.rb010001</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Lessing J. Rosenwald Collection Archive</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Laura Deal</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+					          <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Rare Book and Special
+					Collections Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2001" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://www.loc.gov/rr/rarebook/contact.html">http://www.loc.gov/rr/rarebook/contact.html</extref>
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+                  <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2012657300"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2012657300</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress, Rare Book and Special Collections
+				Division, <date normal="2010" era="ce" calendar="gregorian">2010</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd1e40">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Lessing J. Rosenwald Collection Archive
+					<unitdate label="Span Dates" type="inclusive" normal="1913/2005" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1913-2005</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" normal="1945/1990" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">(bulk 1945-1990)</unitdate>
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">RB010001</unitid>
+         <origination label="Creator">
+				        <corpname encodinganalog="110" source="lcnaf">Library of Congress. Rare Book and Special Collections Division </corpname>
+			      </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">ca. 10,800 items (31 containers, 13 linear feet)</extent>				      
+			      </physdesc>
+         <langmaterial label="Language">Collection material is primarily in 
+				<language encodinganalog="041" langcode="eng">English</language> with a few items in 
+				<language langcode="fre" encodinganalog="041">French,</language> 
+				        <language encodinganalog="041" langcode="ger">German,</language> and 
+				<language encodinganalog="041" langcode="dut">Dutch.</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+				        <corpname>
+               <subarea>Rare Book and Special Collections Division</subarea> Library of
+					Congress</corpname>
+				        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+			      </repository>
+         <abstract label="Summary" encodinganalog="520$a">Records of the collection of illustrated books acquired by Lessing J. Rosenwald 
+				and now held by the Library of Congress. Correspondence, Subject File, speeches 
+				and writing, printed ephemera, and miscellany related to the rare book collection 
+				and its creator, Lessing J. Rosenwald. Contains records of the Library of Congress's 
+				custodianship of the collection, administrative and legal documents, planning material 
+				for related exhibits and publications, and research files.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2012657300.10001"
+                     altrender=":::F005=^20121004160337.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd36e107">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Fine%2C+Ruth%2C+1941-+Correspondence.^">Fine, Ruth, 1941- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Goff%2C+Frederick+Richmond%2C+1916-1982+Correspondence.^">Goff, Frederick Richmond, 1916-1982--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hunt%2C+Kathleen+T.+Correspondence.^">Hunt, Kathleen T.--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Matheson%2C+William%2C+1927-+Correspondence.^">Matheson, William, 1927- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mongan%2C+Elizabeth+Correspondence.^">Mongan, Elizabeth--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenbach%2C+A.+S.+W.+%28Abraham+Simon+Wolf%29%2C+1876-1952+Correspondence.^">Rosenbach, A. S. W. (Abraham Simon Wolf), 1876-1952--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenwald%2C+Edith+Goodkind+Correspondence.^">Rosenwald, Edith Goodkind--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenwald%2C+Lessing+J.+%28Lessing+Julius%29%2C+1891-1979%2C^">Rosenwald, Lessing J. (Lessing Julius), 1891-1979, collector.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenwald%2C+Lessing+J.+%28Lessing+Julius%29%2C+1891-1979+Archives.^">Rosenwald, Lessing J. (Lessing Julius), 1891-1979--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenwald%2C+Lessing+J.+%28Lessing+Julius%29%2C+1891-1979+Correspondence.^">Rosenwald, Lessing J. (Lessing Julius), 1891-1979--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenwald%2C+Lessing+J.+%28Lessing+Julius%29%2C+1891-1979+Library.^">Rosenwald, Lessing J. (Lessing Julius), 1891-1979--Library.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Rosenwald%2C+Lessing+J.+%28Lessing+Julius%29%2C+1891-1979.^">Rosenwald, Lessing J. (Lessing Julius), 1891-1979.</persname>
+         </controlaccess>
+         <controlaccess id="mferd36e135">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lessing+J.+Rosenwald+Collection+%28Library+of+Congress%29+Archives.^">Lessing J. Rosenwald Collection (Library of Congress)--Archives.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Library+of+Congress.+Rare+Book+and+Special+Collections+Division.^">Library of Congress. <subarea encodinganalog="610$b">Rare Book and Special Collections Division.</subarea>
+            </corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Library+of+Congress.+Rare+Book+and+Special+Collections+Division.^">Library of Congress. <subarea encodinganalog="710$b">Rare Book and Special Collections Division.</subarea>
+            </corpname>
+         </controlaccess>
+         <controlaccess id="mferd36e150">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Book+collecting+United+States.^">Book collecting--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Book+collectors+Archives.^">Book collectors--Archives.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Libraries+Special+collections+Rare+books.^">Libraries--Special collections--Rare books.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Private+libraries+United+States.^">Private libraries--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Rare+books+Collectors+and+collecting+United+States.^">Rare books--Collectors and collecting--United States.</subject>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd1e137" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd1e140" encodinganalog="541">
+            <head>Provenance</head>
+            <p>The papers of Lessing J. Rosenwald were given to the Library of Congress by the 
+					Rosenwald estate between 1980 and 1983. The material was received by the Rare 
+					Book and Special Collections Division and the majority was transferred to the 
+					Manuscript Division where it was processed as the Lessing J. Rosenwald Papers. 
+					Some Rosenwald material was kept by the Rare Book and Special Collection Division 
+					and added to the Division's curatorial files. This archive of the collection was 
+					maintained by the Rare Book and Special Collection Division and described in 2010. </p>
+         </acqinfo>
+         <processinfo id="mferd1e145" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The archive of the Rosenwald Collection at the Rare Book and Special Collections 
+					Division was arranged and described in 2010.</p>
+         </processinfo>
+         <relatedmaterial id="mferd1e150" encodinganalog="544 1">
+            <head>Related Material</head>
+            <p>See also the <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                       xlink:actuate="onRequest"
+                       xlink:show="new"
+                       xlink:href="http://hdl.loc.gov/loc.mss/eadmss.ms006033">Lessing J. Rosenwald Papers</extref> held by the Manuscript Division.</p>
+         </relatedmaterial>
+         <userestrict id="mferd1e158" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright in the unpublished writings of Lessing J. Rosenwald and the 
+					Rare Book and Special Collection Division is governed by the Copyright Law of the
+					United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd1e163" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The archive of the Rosenwald Collection is open to research. Researchers are
+					advised to contact the Rare Book and Special Collections Reading Room prior to 
+					visiting. Many collections are stored off-site and advance notice is needed to 
+					retrieve these items for research use.</p>
+         </accessrestrict>
+         <prefercite id="mferd1e168" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following
+					information: Container number, Lessing J. Rosenwald Collection Archive,
+					Rare Book and Special Collections Division, Library of Congress, Washington, 
+					D.C. </p>
+         </prefercite>
+      </descgrp>
+      <scopecontent id="mferd1e173" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The archive of the Lessing J. Rosenwald Collection documents the custodianship of this 
+				important collection of rare books by the Rare Book and Special Collections Division 
+				of the Library of Congress. In 1943, Rosenwald donated his print and rare book 
+				collections to the National Gallery of Art and the Library of Congress in Washington 
+				D.C. Having built a repository, Alverthorpe Gallery, at his estate in Jenkintown, 
+				Rosenwald retained physical custody of the collections during his lifetime, 
+				periodically transferring selections to Washington for exhibition, and ultimately 
+				giving 2,600 rare books and 5,000 reference books to the Library. After his death in 
+				1979, Rosenwald's books were physically transferred to the Library of Congress and 
+				housed in the Rare Book and Special Collections Division.</p>
+         <p>Some material in the records originated with Rosenwald's own files at Alverthorpe, but 
+				the bulk of the material originated at the Library of Congress. The 
+				records were maintained by a number of different curators and administrators. 
+				Significant figures include Kathleen T. (Hunt) Mang, who served on Rosenwald's staff 
+				at Alverthorpe in the 1970s and later became the Curator of the Rosenwald Collection 
+				at the Library of Congress. Peter VanWingen replaced Mang as Rosenwald Curator in 1992.
+				Chiefs of the Rare Book Division during this period include Frederick R. Goff (from 
+				1945 to 1972) and William Matheson (from 1972 to 1987). At Alverthorpe, Rosenwald's 
+				print curators included Elizabeth Mongan (from 1937 to 1963) and Ruth Fine (from 1972 
+				to 1980), both of whom later worked at the National Gallery of Art. </p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:show="replace"
+                 xlink:actuate="onRequest"
+                 target="series1">Correspondence</ref> series 
+				contains letters concerning the collection between various 
+				administrators and curators, including Frederick R. Goff, Elizabeth Mongan, Kathleen 
+				T. Mang, and Rosenwald himself.</p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series2">Subject File</ref> contains 
+				administrative and legal information about the collection, 
+				including indentures and details about the 1980 transfer from Alverthorpe to the 
+				Library of Congress. It also contains records of various projects undertaken by the 
+				Library of Congress, including exhibitions of the collection, the construction
+				of the Rosenwald memorial room, and the publication of the 1991 book, 
+				<emph render="italic">Vision of a Collector</emph>. In addition, the files contain research
+				material about various individuals and books.</p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series3">Speeches and Writings File</ref>
+				contains articles and speeches written by Rosenwald.</p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series4">Miscellany</ref> series contains 
+				press clippings and publications, miscellaneous ephemera, and speeches and writings by 
+				others. The writings by others section consists mainly of offprints and scholarly articles
+				sent to Rosenwald, many inscribed with notes from the authors.</p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series5">Printed Ephemera</ref> series 
+				contains material produced by various printers, publishers, 
+				artists, booksellers, libraries, and bibliographic societies. Many of the items are 
+				mailings sent out by private presses such as the Gehenna Press and the Nonesuch Press.
+				The series includes many book prospectuses, some of which are directly linked to 
+				items in the Rosenwald Collection.</p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series6">Oversize</ref> series 
+				contains material removed from other series and folders due to its size.</p>
+      </scopecontent>
+      <arrangement id="mferd1e213" encodinganalog="351$a">
+         <head>Arrangement of the Records</head>
+         <p>This collection is arranged in 6 series: </p>
+         <list>
+            <item>Correspondence, 1922-1990</item>
+            <item>Subject File, 1923-2005</item>
+            <item>Speeches and Writings File, 1945-1973</item>
+            <item>Miscellany, 1919-1991</item>
+            <item>Printed Ephemera, 1929-1988</item>
+            <item>Oversize, 1913-1979</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2012657300"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2012657300</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd1e231" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd36e269" level="series">
+            <did>
+               <container type="box">1-2</container>
+               <unittitle encodinganalog="245$a" id="series1">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1922/1990">1922-1990</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received and copies of letters sent, memoranda, and miscellaneous enclosures.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by primary correspondent's name. </p>
+            </arrangement>
+            <c02 id="mferd36e284" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a"> Goff, Frederick R., <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950-1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e293" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Lawler, Percy E., <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922-1927</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e300" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mang, Kathleen T., <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978-1990, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e310" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mongan, Elizabeth, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1956</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e317" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rennette, Baron de, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e324" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald, Edith, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980-1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e331" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="rc">Rosenwald, Lessing, J. <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          target="rcOV"
+                          xlink:show="replace">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+               <c03 id="mferd36e341" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+								                <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1950</unitdate>
+							              </unittitle>
+                     <physdesc>
+								                <extent encodinganalog="300$a">(3 folders)</extent>
+							              </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e353" level="file">
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle encodinganalog="245$a">
+								                <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1977 </unitdate>
+							              </unittitle>
+                     <physdesc>
+								                <extent encodinganalog="300$a">(4 folders)</extent>
+							              </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd36e367" level="series">
+            <did>
+               <container type="box">2-15</container>
+               <unittitle encodinganalog="245$a" id="series2">Subject File, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1923/2005">1923-2005</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, miscellaneous enclosures, memoranda, administrative papers, bibliographies, printed matter, notes, working papers, articles, newspaper clippings, and financial and legal documents.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by subject. </p>
+            </arrangement>
+            <c02 id="mferd36e382" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">
+							Acquisitions, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1989</unitdate>
+                  </unittitle>
+                  <physdesc>
+								             <extent encodinganalog="300$a">(2 folders)</extent>
+							           </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e399" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Acquisitions report, Rosenwald II, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+                  <physdesc>
+							              <extent encodinganalog="300$a">(2 folders)</extent>
+						            </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e413" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Additions, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1954, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e423" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Alice manuscript, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952-1954, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e433" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Alverthorpe Gallery, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+						            </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e440" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Arenberg collection, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955-1984, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e450" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Artists' books, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984-1990, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e460" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Awards, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1987, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e471" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Bibliographies by subject, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+							           </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e480" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Binders, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+							           </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e487" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Blake requests, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980-1984, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e497" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Blake, William, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e504" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Book descriptions and notes, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e511" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Books requested from Jenkintown, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948-1955</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e518" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Books returned to Jenkintown, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1955, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e528" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Catalog errors, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e537" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Champfleury, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1987, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e547" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clemente, Francesco, <emph render="italic">Departure of the Argonaut,</emph> Petersburg Press, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e557" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coe, Sue, <emph render="italic">Narcissism and Death</emph>, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e568" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Concordance between Rosenwald numbers and LJR numbers, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e575" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Council of Scholars, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e582" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Doctrina Christiana, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946-1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e589" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Duplicate exchanges, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980-1983, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e599" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Duplicate sales and books purchased from sale proceeds,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1968-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e606" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Exhibits</unittitle>
+               </did>
+               <c03 id="mferd36e610" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Agnes Etherington Art Centre, "Maurice Denis: Illustrator," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e617" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Alverthorpe, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e624" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Alverthorpe, Association Internationale de Bibliophilie, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e631" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">American Institute of Graphic Arts, "The Early Illustrated Book," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e638" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">American Institute of Graphic Arts, meeting-symposium, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e645" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Archer M. Huntington Art Gallery, "Nuremberg: A Renaissance," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e652" level="file">
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle encodinganalog="245$a">"Early Printed Books of the Low Countries," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1963, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e669" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fogg Art Museum, Blake exhibition, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930-1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e676" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fogg Art Museum, early book illustrations, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e683" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fraunces Tavern Museum, "For the Entertainment of Friends and Strangers," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e691" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">The Grolier Club, "100 Books Famous in Science," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e698" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">The Grolier Club, Venetian books, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e705" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">The Grolier Club, Spanish books, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1933</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e712" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Helen Foresman Spencer Museum of Art, "The Medieval Garden," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e719" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e726" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e738" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e750" level="file">
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle encodinganalog="245$a">Library of Congress, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e764" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e771" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e778" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, "Fresh Faces," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e786" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, Giant Bible of Mainz, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1952</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e798" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, "Heavenly Craft," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">2004-2005</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e805" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, librarian's case, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e812" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, "Printed on Vellum," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1977</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e824" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Library of Congress, Rosenwald's 88th birthday, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e833" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, "Theater of the Whole World," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e840" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Library of Congress, "Treasures from the Lessing J. Rosenwald Collection," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e852" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lisbon, "The Portuguese Discoveries and Renaissance Europe," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e859" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Museum of Fine Arts, Springfield, Mass., "Glorious Horsemen," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e866" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National Arts Club, Goudy exhibit, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e873" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National Gallery of Art, Giovanni Battista Piazzetta exhibit, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e881" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Philadelphia Community College, "The Graphic Image," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e888" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Print Council of America, "Treasures from the Rosenwald Collection," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e895" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rosenbach Museum and Library, "Rosenwald and Rosenbach: Two Philadelphia Bookmen"  
+								</unittitle>
+                  </did>
+                  <c04 id="mferd36e899" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Catalog drafts, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd36e911" level="file">
+                     <did>
+                        <container type="box">9</container>
+                        <unittitle encodinganalog="245$a">Catalog proofs, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd36e920" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1983</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd36e927" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Insurance, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd36e934" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"The Philadelphia Connection" drafts, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd36e941" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Rosenbach research material, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1923-1965</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 id="mferd36e948" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Selection list, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd36e955" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Yale Center for British Art, "Blake in Context," 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e962" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Facsimiles, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1984</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e974" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <emph render="italic">The Fleuron</emph>, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1929, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e987" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Folios, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e994" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Goff, Frederick, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1972-1983, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1004" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Grolier Club catalog, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1012" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hinman collator, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952-1964</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1019" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">Indentures</unittitle>
+               </did>
+               <c03 id="mferd36e1025" level="file">
+                  <did>
+                     <unittitle>Correspondence, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1979</unitdate>
+						               </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1032" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Indentures, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1980</unitdate>
+							              </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e1044" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Levis Collection, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1051" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Madison Council, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1058" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mainz Psalter of 1457, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1065" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Manuscripts, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1072" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Memo orders to Jenkintown, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1079" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Memos, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1086" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Memorial room, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1093" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Move from Alverthorpe to Library of Congress</unittitle>
+               </did>
+               <c03 id="mferd36e1099" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1106" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Inventory by crate, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1113" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Self map with crate numbers, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1120" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Shipment lists, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e1132" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Office of Price Administration, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1140" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Permanent storage, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1147" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Photocopies from files at Jenkintown, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1941, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1159" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Policy Planning Committee, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1166" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rare books not given, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1964-1979, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1176" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenbach, A.S.W., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1941, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1186" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald catalog, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952-1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1193" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald fund, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1989-1990, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1203" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald, Julius, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1210" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald, Lessing J., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1217" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald Papers, Manuscript Division, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-1983, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e1232" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald scholar, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1988-1990</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1240" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald schools, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1247" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Rosenwald Symposium,</unittitle>
+               </did>
+               <c03 id="mferd36e1253" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978-1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1260" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Publication, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1267" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Abstract, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e1274" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <emph render="italic">Vision of a Collector</emph>
+                  </unittitle>
+               </did>
+               <c03 id="mferd36e1281" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Book descriptions from catalog, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1288" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Contracts, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1987-1989</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1295" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Contributor bios and addresses, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1307" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Contributor letters, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1987</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1314" level="file">
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle encodinganalog="245$a">Contributor letters, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1988</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1323" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1986-1992</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1335" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Essays, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1342" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Exhibit, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1989-1990</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1349" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Financials, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1988-1992, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1359" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Index, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1991-1992, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1370" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Planning notes and drafts, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1377" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proposal, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1384" level="file">
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle encodinganalog="245$a">Prospectus, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1393" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Publisher, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1987-1992, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1403" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Regular edition, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1991-1992, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1413" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reviews, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1991-1992</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e1420" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="wpb">War Production Board, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1943</unitdate>
+							              <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          target="wpbOV"
+                          xlink:show="replace">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd36e1438" level="series">
+            <did>
+               <container type="box">15</container>
+               <unittitle encodinganalog="245$a" id="series3">Speeches and Writings File, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1945/1973">1945-1973</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Photocopies of handwritten and typewritten drafts, printed copies, and miscellany relating to articles and speeches by Rosenwald.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of material and therein by title.</p>
+            </arrangement>
+            <c02 id="mferd36e1453" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Articles</unittitle>
+               </did>
+               <c03 id="mferd36e1459" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Credo of an American Jew," <emph render="italic">Issues</emph>, vol 17, no 9, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1469" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Formation of the Rosenwald Collection," <emph render="italic">Quarterly Journal</emph>, vol 3, no 1, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">October 1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1479" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Reminiscences of a Print Collector," <emph render="italic">American Scholar</emph>, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1489" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Story of an Unusual Purchase at Sotherby's," <emph render="italic">To Doctor R.</emph>,
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e1499" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches</unittitle>
+               </did>
+               <c03 id="mferd36e1503" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Experiences in Collecting," Gleeson Library Associates dinner, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May 2, 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1510" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Funeral of A.S.W. Rosenbach, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">July 3, 1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1517" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National Gallery of Art, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">April 17, 1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1524" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Philobiblon Club, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">October 18, 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1531" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Responsibilities of a Collector," Artists Equity Association award dinner,  
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">April 12, 1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd36e1538" level="series">
+            <did>
+               <container type="box">16-23</container>
+               <unittitle encodinganalog="245$a" id="series4">Miscellany, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1919/1991">1919-1991</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Articles, newspaper clippings, programs, catalogs, cards, awards, certificates, honorary degrees, and speeches and writings by others.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 id="mferd36e1553" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Articles about the Rosenwald Collection, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1984, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e1570" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="aah">Awards and honors to Rosenwald, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1976</unitdate>
+							              <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          target="aahOV"
+                          xlink:show="replace">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e1588" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dealer and auction catalogs</unittitle>
+               </did>
+               <c03 id="mferd36e1592" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930-1972</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1604" level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1975-1981, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e1621" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Exhibition programs, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1940, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1631" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gift book, Rosenwald birthday, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1638" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="hd">Honorary Degrees
+							<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          target="hdOV"
+                          xlink:show="replace">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+               <c03 id="mferd36e1648" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1966</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1660" level="file">
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle encodinganalog="245$a">
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967-1969</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e1674" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <emph render="italic">Library of Congress Information Bulletin</emph>, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1684" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <emph render="italic">Library of Congress Quarterly Journal</emph>, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945-1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1695" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Navy Discharge Papers, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1702" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1983, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e1717" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Phone Directories, Sears, Roebuck and Co., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1727" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Press releases, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1736" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald bookplates, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1746" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rosenwald holiday cards, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1973, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e1756" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches by others</unittitle>
+               </did>
+               <c03 id="mferd36e1760" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Collector's Club, Washington, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">March 16, 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1767" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Goff, Frederick, "Rosenwald and the Gift to a Nation," 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1774" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Matheson, William, "Lessing J. Rosenwald: A Great Book Collector," 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1781" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Matheson, William, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1788" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">VanWingen, Peter, Wichita State University Special Collections Department,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e1795" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Writings by others</unittitle>
+               </did>
+               <c03 id="mferd36e1799" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Abrahams, Harold J., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1968-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1806" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Adams, Thomas R., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1813" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Adelman, Seymour, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1820" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Adhémar, Jean, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1827" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Alexander-Jackson, Eleanor, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1834" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bagrow, Leo, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1841" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Belt, Elmer, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1848" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Boxer, C.R., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1855" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Boyd, Julian P., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1862" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Brown, Lloyd A., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1870" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chalmers, Anne Palms, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1877" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chalmers, John P., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1884" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chapon, François, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1891" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chartier, Roger, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1988</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1898" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chayes, Irene H., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1905" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Crompton, Robert D., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1912" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">David, Charles W., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1919" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Donati, Lamberto, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1926" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Drake, Stillman, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1933" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Escoubé, Lucienne, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1940" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Field, Richard S., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1948" level="file">
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle encodinganalog="245$a">Fine, Ruth, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1976-1982, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1960" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fleming, John, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1967" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fordham, Jefferson R., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1974" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fontaine Verwey, Herman de la, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1981" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Friedman, Lee M., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1988" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Garvey, Eleanor M., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e1995" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Goff, Frederick R. <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1981</unitdate>
+						               </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 folder)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2007" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Green, Otis H., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2014" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Griffiths, Antony, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2021" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gwinn, David Marshall, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2028" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hartz, Sem L., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2036" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harrsen, Meta, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2043" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Heil, Walter, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2050" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hinman, Charlton, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1954</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2057" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hodnett, Edward, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2064" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hofer, Philip, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2071" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hunter, Richard A., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2078" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, William A., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2085" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Keesman, Wilma, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2092" level="file">
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle encodinganalog="245$a">Kramer, Samuel Noah, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2101" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kraus, T. Peter, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2108" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Krivatsy, Peter, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2116" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kronenberg, M. E., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2123" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lester, John A., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2130" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Liebaers, Herman, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2137" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Livingston, Virginia Wuerthele-Caspe, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2144" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Marrow, James, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2151" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mayor, A. Hyatt, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2158" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McManaway, James G., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948-1951, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2168" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Minott, Charles I., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2175" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mongan, Agnes, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2182" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Needham, Paul, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2189" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">O'Malley, Charles D., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2197" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pächt, Otto, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2204" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Payne, John R., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2211" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Penrose, Boies, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2218" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pingree, Isabelle, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2225" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pleij, Herman, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2232" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Powell, Lawrence Clark, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2239" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reich, Nathaniel Julius, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1936]</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2246" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reichmann, Felix, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2253" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reilly, Bernard F., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2260" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Roman, Gail Harrison, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1980]</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2267" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rosenbach, A.S.W., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1939</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2275" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rosenthal, Erwin, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2282" level="file">
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle encodinganalog="245$a">Roth, Cecil, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2291" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Savin, Marion B., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2298" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scaglia, Gustina, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2305" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schullian, Dorothy M., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2312" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Setton, Kenneth M., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2319" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Shepard, Katharine, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2326" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Shipton, Clifford K., 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2333" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Strachan, Walter John, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1978-1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2340" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tobias, Channing H., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2347" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Turner, Decherd, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2355" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Turner, Justin G., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2362" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Der Loon, P., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2369" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Krimpen, H., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1951]</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2376" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Vittorini, Domenico, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1954, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2386" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Walton, Francis R., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1964-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2393" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Williams Jr., Franklin B., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2400" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Winkler, Friedrich, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2407" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wolf 2nd, Edwin, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950-1959</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2419" level="file">
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle encodinganalog="245$a">Wolf, Thomas, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2428" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wright, Austin T., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2435" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wright, Louis B., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2443" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wyllie, John Cook, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2450" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wynne, Marjorie Gray, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e2457" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Zeitlin, Jake, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd36e2464" level="series">
+            <did>
+               <container type="box">23-24</container>
+               <unittitle encodinganalog="245$a" id="series5">Printed Ephemera, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1929/1988">1929-1988</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Prospectuses, catalogs, leaflets, booklets, cards, posters, keepsakes, programs, newsletters, and newspaper clippings.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by name of person or organization.</p>
+            </arrangement>
+            <c02 id="mferd36e2479" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Allen Press,  
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1964</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2488" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">American Philosophical Society, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2495" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Arts et Métiers Graphiques, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2502" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Baltazar, Julius, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1987-1988</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2509" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Berliner, Harold, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2516" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bibliophile Society, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2526" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bird and Bull Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2533" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Book Club of California, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2541" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Book Collector's Packet, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2548" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Boston Public Library, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2555" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Broadside Press,  
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2562" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Charles Breyner Art Publications, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2569" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cummington Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2576" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dahlstrom, Grant, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961-1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2583" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Eberhardt, Fritz and Trudi, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2590" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Edward Stern and Company, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2597" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Far Gallery, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2604" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Friends of the Harvard Library,  
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2611" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gehenna Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967-1975, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2622" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gleeson Library Associates, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1975-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2629" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Godine, David, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2636" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Golden Eagle Books, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2643" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Grabhorn Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1973, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2653" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gravesend Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2660" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Grolier Club, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2667" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Heron Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2674" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hofer, Philip, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2681" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hunt Botanical Library, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2688" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">John Roberts Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2695" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kaldewey Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2703" level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle encodinganalog="245$a">Koch, Theodore Wesley, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1931</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2712" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lakeside Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2719" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lecuire, Pierre, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974-1988, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2729" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Marion Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2736" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mayakovsky, Vladimir, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2743" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Midday Club, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2750" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Moncure Biddle and Company, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2757" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Molehill Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2764" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Nash, John Henry, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1936, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2774" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">New Pyramid Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2781" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Newberry Library Associates, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2789" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Nonesuch Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2796" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Orion Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2803" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="overbrook">Overbrook Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954-1961, </unitdate>
+						               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate> 
+						               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          target="overbrookOV"
+                          xlink:show="replace">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2819" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Peter Pauper Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2829" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Press of A. Colish, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2836" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Press of the Woolly Whale, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1938, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2846" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Prairie Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2853" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pynson Printers, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2860" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rampant Lions Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2867" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rogers, Bruce, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2874" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Shahn, Ben, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2882" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Society of Bibliophiles, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2889" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stone, Reynolds, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2896" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tiessen, Wolfgang, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2903" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Trianon Press, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1983</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2910" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Typophiles, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1966, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e2925" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Unidentified, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1969, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2935" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">University of Chicago Library, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2942" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">University of Kentucky Library Associates, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2949" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">University of Virginia Library, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2956" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Volas, Barbara, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2963" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wells College, Department of Fine Arts, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2971" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="wilson">Wilson, Adrian, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956, </unitdate>
+						               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate> 
+						               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                          xlink:actuate="onRequest"
+                          target="wilsonOV"
+                          xlink:show="replace">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd36e2987" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wroth, Lawrence C., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd36e2994" level="series">
+            <did>
+               <container type="box">OV 1-OV 7</container>
+               <unittitle encodinganalog="245$a" id="series6">Oversize, 
+						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1913/1979">1913-1979</unitdate>
+               </unittitle>
+            </did>
+            <arrangement>
+               <p>Arranged and described according to type of material or the series, containers, and folders 
+						from which the items were removed.</p>
+            </arrangement>
+            <c02 id="mferd36e3006" level="file">
+               <did>
+                  <container type="box">OV 1</container>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03 id="mferd36e3012" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="rcOV">Rosenwald, Lessing J., 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1964, </unitdate>
+							                 <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+							                 <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             target="rc"
+                             xlink:show="replace">(Box 1 and 2)</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e3025" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Subject File</unittitle>
+               </did>
+               <c03 id="mferd36e3029" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="wpbOV">War Production Board, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
+								                <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             target="wpb"
+                             xlink:show="replace">(Box 14)</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e3039" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 id="mferd36e3043" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="aahOV">Awards and honors to Rosenwald 
+								<ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             target="aah"
+                             xlink:show="replace">(Box 15)</ref>
+                     </unittitle>
+                  </did>
+                  <c04 id="mferd36e3050" level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+								                   <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1913-1979</unitdate>
+							                 </unittitle>
+                        <physdesc>
+                           <extent encodinganalog="300$a">(9 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 id="mferd36e3062" level="file">
+                     <did>
+                        <container type="box">OV 2</container>
+                        <unittitle encodinganalog="245$a">Matted certificates, 
+									<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1979</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 id="mferd36e3071" level="file">
+                  <did>
+                     <container type="box">OV 3</container>
+                     <unittitle encodinganalog="245$a" id="hdOV">Honorary Degrees, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1913-1979</unitdate>
+								                <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             target="hd"
+                             xlink:show="replace">(Box 16)</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e3083" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Printed Ephemera</unittitle>
+               </did>
+               <c03 id="mferd36e3087" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">American Autograph Shop, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e3094" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hertzog, Carl, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e3101" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">James Ford Bell Library, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e3108" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jonquières, Henri, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e3115" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Maggs Bros., 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1952]</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e3122" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="overbrookOV">Overbrook Press, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952</unitdate> 
+								                <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate> 
+								                <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             target="overbrook"
+                             xlink:show="replace">(Box 23)</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd36e3135" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="wilsonOV">Wilson, Adrian, 
+								<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1955</unitdate> 
+								                <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:actuate="onRequest"
+                             target="wilson"
+                             xlink:show="replace">(Box 23)</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd36e3145" level="file">
+               <did>
+                  <container type="box">OV 4-5</container>
+                  <unittitle encodinganalog="245$a">Photographs
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1970, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+						            </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(34 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd36e3162" level="file">
+               <did>
+                  <container type="box">OV 6-7</container>
+                  <unittitle encodinganalog="245$a">Plaques and medals, 
+							<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961-1971, </unitdate>
+							              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
+						            </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

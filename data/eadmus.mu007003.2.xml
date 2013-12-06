@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 19 August 2011 12:17:19 PM EDT
+Generated: Sat, 31 August 2013 11:34:45 AM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu007003--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu007003--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu007003-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd121e6">
-   <eadheader id="mferd121e7" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd11e6">
+   <eadheader id="mferd11e7" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -97,11 +97,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
          </repository>
          <abstract label="Summary" encodinganalog="520$a">Includes biographical materials, correspondence, writings, music, programs, clippings, artwork, photographs, awards, and other materials. Biographical materials include a copy of autobiography of Leopold Damrosch and memoirs of Marie von Heimburg, the aunt of Clara, Frank, and Walter Damrosch.  Both items also exist in Damrosch-Tee Van Collection and Damrosch-Blaine Collection. The correspondence consists of letters between members of the Mannes and Damrosch families and other important correspondents, including Percy Goetschius, Franz Lizst (translation from the original), Daniel Gregory Mason, Sergei Rachmaninoff, John D. Rockefeller, Arthur Schnabel, Randall Thompson, and others. The writings contain primarily numerous literary works by Marya Mannes and articles by Leopold Damrosch, Clara Damrosch Mannes, Leopold Mannes.  The music consists of holograph scores, parts, and sketches of compositions by Leopold Damrosch. Also included are manuscript copies of works by Heinrich Gottwald, holograph scores of Edmund Singer, and of songs by Leopold Mannes. The Photographs consist of photoprints and 27 albums of photoprints chiefly related to Mannes and Damrosch families. The artwork includes portraits of various members of the Mannes and Damrosch families, sketches by Clara Damrosch Mannes, and photographic reproductions of sculptures of Marya Mannes.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd6049e101" altrender=":::F005=^20100121115731.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd6049e101" altrender=":::F005=^20100121115731.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd123e7">
+         <controlaccess id="mferd6051e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Damrosch%2C+Leopold%2C+1832-1885+Correspondence.^">Damrosch, Leopold, 1832-1885--Correspondence.</persname>
@@ -146,7 +147,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Thompson%2C+Randall%2C+1899-1984.^">Thompson, Randall, 1899-1984.</persname>
          </controlaccess>
-         <controlaccess id="mferd123e53">
+         <controlaccess id="mferd6051e84">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Musicians+United+States+Correspondence.^">Musicians--United States--Correspondence.</subject>
@@ -242,7 +243,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                <entry>Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd121e378" level="series">
+         <c01 id="mferd11e378" level="series">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a" id="CL1001">Biographical</unittitle>
@@ -253,56 +254,56 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by author, then by title</p>
             </arrangement>
-            <c02 id="mferd121e390" level="file">
+            <c02 id="mferd11e390" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D3_1">Damrosch, Leopold</unittitle>
                </did>
-               <c03 id="mferd121e394" level="file">
+               <c03 id="mferd11e394" level="file">
                   <did>
                      <container type="box-folder">1/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D4_1">The autobiography of Leopold Damrosch, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e400" level="file">
+            <c02 id="mferd11e400" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D3_2">Heimburg, Marie von</unittitle>
                </did>
-               <c03 id="mferd121e404" level="file">
+               <c03 id="mferd11e404" level="file">
                   <did>
                      <container type="box-folder">1/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D4_2">Tante's story, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e410" level="file">
+            <c02 id="mferd11e410" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D3_3">Mannes, Clara Damrosch</unittitle>
                </did>
-               <c03 id="mferd121e414" level="file">
+               <c03 id="mferd11e414" level="file">
                   <did>
                      <container type="box-folder">1/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D4_3">[Chronologies], 1914, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e420" level="file">
+               <c03 id="mferd11e420" level="file">
                   <did>
                      <container type="box-folder">1/4</container>
                      <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D4_4">Miscellaneous, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e426" level="file">
+               <c03 id="mferd11e426" level="file">
                   <did>
                      <container type="box-folder">1/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D4_5">Miscellaneous, n.d. [carbons]</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e432" level="file">
+            <c02 id="mferd11e432" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D3_4">Mannes, Leopold</unittitle>
                </did>
-               <c03 id="mferd121e436" level="file">
+               <c03 id="mferd11e436" level="file">
                   <did>
                      <container type="box-folder">1/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_BIOGRAPHICAL_CL1001_D4_6">Trip to Europe 1921 (Summer)</unittitle>
@@ -310,7 +311,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd121e442" level="series">
+         <c01 id="mferd11e442" level="series">
             <did>
                <container type="box">1-3</container>
                <unittitle encodinganalog="245$a" id="CL1002">Correspondence, <unitdate encodinganalog="245$f" type="inclusive" normal="1848/1964" era="ce"
@@ -323,438 +324,438 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by author, then chronologically</p>
             </arrangement>
-            <c02 id="mferd121e457" level="file">
+            <c02 id="mferd11e457" level="file">
                <did>
                   <container type="box-folder">1/7</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_1">Birthday Tributes on David Mannes' 90th, 1956</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e463" level="file">
+            <c02 id="mferd11e463" level="file">
                <did>
                   <container type="box-folder">1/8</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_2">Blow, David, 1945-47</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e469" level="file">
+            <c02 id="mferd11e469" level="file">
                <did>
                   <container type="box-folder">1/9</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_3">Blow, Richard, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e475" level="file">
+            <c02 id="mferd11e475" level="file">
                <did>
                   <container type="box-folder">1/10</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_4">Brandt, Marianne, 1921</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e481" level="file">
+            <c02 id="mferd11e481" level="file">
                <did>
                   <container type="box-folder">1/11</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_5">Chinese Embassy, 1940</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e487" level="file">
+            <c02 id="mferd11e487" level="file">
                <did>
                   <container type="box-folder">1/12</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_6">Clarkson, Christopher, 1944</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e493" level="file">
+            <c02 id="mferd11e493" level="file">
                <did>
                   <container type="box-folder">1/13</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_7">Condolence letters on Leopold Mannes' death, 1964</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e499" level="file">
+            <c02 id="mferd11e499" level="file">
                <did>
                   <container type="box-folder">1/14</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_8">Damrosch, Frank, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e506" level="file">
+            <c02 id="mferd11e506" level="file">
                <did>
                   <container type="box-folder">1/15</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_9">Damrosch, Helene von Heimburg, 1874-81, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e512" level="file">
+            <c02 id="mferd11e512" level="file">
                <did>
                   <container type="box-folder">1/16</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_10">Damrosch, Hetty Mosenthal, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e518" level="file">
+            <c02 id="mferd11e518" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_11">Damrosch, Leopold</unittitle>
                </did>
-               <c03 id="mferd121e522" level="file">
+               <c03 id="mferd11e522" level="file">
                   <did>
                      <container type="box-folder">1/17</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_1">1872  [translation, original in Damrosch-Tee Van Collection]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e528" level="file">
+               <c03 id="mferd11e528" level="file">
                   <did>
                      <container type="box-folder">1/18</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_2">1876-80</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e534" level="file">
+            <c02 id="mferd11e534" level="file">
                <did>
                   <container type="box-folder">1/19</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_12">Damrosch, Walter, 1874-1946, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e540" level="file">
+            <c02 id="mferd11e540" level="file">
                <did>
                   <container type="box-folder">1/20</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_13">De Roussy de Sales, Raoul, 1931-42, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e546" level="file">
+            <c02 id="mferd11e546" level="file">
                <did>
                   <container type="box-folder">1/21</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_14">Goetschius, Percy, 1912</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e552" level="file">
+            <c02 id="mferd11e552" level="file">
                <did>
                   <container type="box-folder">1/22</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_15">Heimburg, Gisela von, 1848-51</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e558" level="file">
+            <c02 id="mferd11e558" level="file">
                <did>
                   <container type="box-folder">1/23</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_16">Heimburg, Marie von, 1912-25, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e564" level="file">
+            <c02 id="mferd11e564" level="file">
                <did>
                   <container type="box-folder">1/24</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_17">[Heimburg, Nellie von?] Tante Nellie, 1926-35</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e570" level="file">
+            <c02 id="mferd11e570" level="file">
                <did>
                   <container type="box-folder">1/25</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_18">Liszt, Franz, 1857  [translation]</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e576" level="file">
+            <c02 id="mferd11e576" level="file">
                <did>
                   <container type="box-folder">1/26</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_19">MacKenzie, Colin, 1940, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e583" level="file">
+            <c02 id="mferd11e583" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_20">Mannes, Clara Damrosch</unittitle>
                </did>
-               <c03 id="mferd121e587" level="file">
+               <c03 id="mferd11e587" level="file">
                   <did>
                      <container type="box-folder">1/27</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_3">1886-89</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e593" level="file">
+               <c03 id="mferd11e593" level="file">
                   <did>
                      <container type="box-folder">1/28</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_4">1900-24</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e599" level="file">
+               <c03 id="mferd11e599" level="file">
                   <did>
                      <container type="box-folder">1/29</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_5">1930-36</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e605" level="file">
+               <c03 id="mferd11e605" level="file">
                   <did>
                      <container type="box-folder">1/30</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_6">1942-48</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e611" level="file">
+               <c03 id="mferd11e611" level="file">
                   <did>
                      <container type="box-folder">1/31</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_7">Undated</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e617" level="file">
+            <c02 id="mferd11e617" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_21">Mannes, David</unittitle>
                </did>
-               <c03 id="mferd121e621" level="file">
+               <c03 id="mferd11e621" level="file">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_8">1910-19</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e627" level="file">
+               <c03 id="mferd11e627" level="file">
                   <did>
                      <container type="box-folder">2/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_9">1934-51</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e633" level="file">
+               <c03 id="mferd11e633" level="file">
                   <did>
                      <container type="box-folder">2/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_10">Undated</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e639" level="file">
+            <c02 id="mferd11e639" level="file">
                <did>
                   <container type="box-folder">2/4</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_22">Mannes, Edith Simonds, 1926-29, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e645" level="file">
+            <c02 id="mferd11e645" level="file">
                <did>
                   <container type="box-folder">2/5</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_23">Mannes, Evelyn Sabin, 1947</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e651" level="file">
+            <c02 id="mferd11e651" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_24">Mannes, Leopold</unittitle>
                </did>
-               <c03 id="mferd121e655" level="file">
+               <c03 id="mferd11e655" level="file">
                   <did>
                      <container type="box-folder">2/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_11">1905-18, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e661" level="file">
+               <c03 id="mferd11e661" level="file">
                   <did>
                      <container type="box-folder">2/7</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_12">1926</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e667" level="file">
+               <c03 id="mferd11e667" level="file">
                   <did>
                      <container type="box-folder">2/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_13">1927</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e673" level="file">
+               <c03 id="mferd11e673" level="file">
                   <did>
                      <container type="box-folder">2/9</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_14">1947</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e679" level="file">
+            <c02 id="mferd11e679" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_25">Mannes, Marya</unittitle>
                </did>
-               <c03 id="mferd121e683" level="file">
+               <c03 id="mferd11e683" level="file">
                   <did>
                      <container type="box-folder">2/10</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_15">1914-1918, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e689" level="file">
+               <c03 id="mferd11e689" level="file">
                   <did>
                      <container type="box-folder">2/11</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_16">1921-26</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e695" level="file">
+               <c03 id="mferd11e695" level="file">
                   <did>
                      <container type="box-folder">2/12</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_17">1927-29</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e701" level="file">
+               <c03 id="mferd11e701" level="file">
                   <did>
                      <container type="box-folder">2/13</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_18">1930-45</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e707" level="file">
+               <c03 id="mferd11e707" level="file">
                   <did>
                      <container type="box-folder">2/14</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_19">1947-51</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e713" level="file">
+               <c03 id="mferd11e713" level="file">
                   <did>
                      <container type="box-folder">2/15</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_20">Undated</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e719" level="file">
+            <c02 id="mferd11e719" level="file">
                <did>
                   <container type="box-folder">2/16</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_26">Mason, Daniel Gregory, 1928</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e725" level="file">
+            <c02 id="mferd11e725" level="file">
                <did>
                   <container type="box-folder">2/17</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_27">Mason, Gregory, 1958</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e731" level="file">
+            <c02 id="mferd11e731" level="file">
                <did>
                   <container type="box-folder">2/18</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_28">Mielziner, Jo, 1925, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e737" level="file">
+            <c02 id="mferd11e737" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_29">Miscellaneous</unittitle>
                </did>
-               <c03 id="mferd121e741" level="file">
+               <c03 id="mferd11e741" level="file">
                   <did>
                      <container type="box-folder">2/19</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_21">1899-1964, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e747" level="file">
+               <c03 id="mferd11e747" level="file">
                   <did>
                      <container type="box-folder">2/20</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_22">To Marya Mannes, 1938-59, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e753" level="file">
+               <c03 id="mferd11e753" level="file">
                   <did>
                      <container type="box-folder">2/21</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_23">To Marya Mannes (fan mail), 1954-59, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e759" level="file">
+            <c02 id="mferd11e759" level="file">
                <did>
                   <container type="box-folder">2/22</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_30">Pinsent, Cecil, 1940-42</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e766" level="file">
+            <c02 id="mferd11e766" level="file">
                <did>
                   <container type="box-folder">2/23</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_31">Rachmaninoff, Sergei, 1942</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e772" level="file">
+            <c02 id="mferd11e772" level="file">
                <did>
                   <container type="box-folder">2/24</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_32">Resman, M. L., 1942</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e778" level="file">
+            <c02 id="mferd11e778" level="file">
                <did>
                   <container type="box-folder">2/25</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_33">Rockefeller, John D. 1937, 1947</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e784" level="file">
+            <c02 id="mferd11e784" level="file">
                <did>
                   <container type="box-folder">2/26</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_34">Schnabel, Artur, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e790" level="file">
+            <c02 id="mferd11e790" level="file">
                <did>
                   <container type="box-folder">2/27</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_35">Schreyer, Johannes, 1912-27</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e796" level="file">
+            <c02 id="mferd11e796" level="file">
                <did>
                   <container type="box-folder">3/1</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_36">Seymour, Clair, 1951, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e802" level="file">
+            <c02 id="mferd11e802" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_37">Seymour, Elizabeth Damrosch</unittitle>
                </did>
-               <c03 id="mferd121e806" level="file">
+               <c03 id="mferd11e806" level="file">
                   <did>
                      <container type="box-folder">3/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_24">1888-89</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e812" level="file">
+               <c03 id="mferd11e812" level="file">
                   <did>
                      <container type="box-folder">3/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_25">1914-51, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e818" level="file">
+            <c02 id="mferd11e818" level="file">
                <did>
                   <container type="box-folder">3/4</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_38">Sperber, Harry N., 1942-43, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e824" level="file">
+            <c02 id="mferd11e824" level="file">
                <did>
                   <container type="box-folder">3/5</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_39">Tee Van, Helen Damrosch, 1947</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e830" level="file">
+            <c02 id="mferd11e830" level="file">
                <did>
                   <container type="box-folder">3/6</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_40">Thompson, Randall, 1928-64</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e836" level="file">
+            <c02 id="mferd11e836" level="file">
                <did>
                   <container type="box-folder">3/7</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_41">Thurber, James, 1959</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e843" level="file">
+            <c02 id="mferd11e843" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_42">Unidentified</unittitle>
                </did>
-               <c03 id="mferd121e847" level="file">
+               <c03 id="mferd11e847" level="file">
                   <did>
                      <container type="box-folder">3/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_26">1900-48, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e853" level="file">
+               <c03 id="mferd11e853" level="file">
                   <did>
                      <container type="box-folder">3/9</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_27">To Marya Mannes, 1947-58, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e859" level="file">
+               <c03 id="mferd11e859" level="file">
                   <did>
                      <container type="box-folder">3/10</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_28">To Marya Mannes (fan mail), n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e865" level="file">
+               <c03 id="mferd11e865" level="file">
                   <did>
                      <container type="box-folder">3/11</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D4_29">From the Mannes' cat (signed "Puff"), n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e871" level="file">
+            <c02 id="mferd11e871" level="file">
                <did>
                   <container type="box-folder">3/12</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_43">Weichmann, Marie Damrosch, 1899, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e877" level="file">
+            <c02 id="mferd11e877" level="file">
                <did>
                   <container type="box-folder">3/13</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CORRESPONDENCE_CL1002_D3_44">Wood, Robert Williams, 1935-38</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd121e883" level="series">
+         <c01 id="mferd11e883" level="series">
             <did>
                <container type="box">3-4</container>
                <unittitle encodinganalog="245$a" id="CL1003">Writings, <unitdate encodinganalog="245$f" type="inclusive" normal="1876/1956" era="ce"
@@ -767,233 +768,233 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by author, then by title</p>
             </arrangement>
-            <c02 id="mferd121e898" level="file">
+            <c02 id="mferd11e898" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D3_1">Damrosch, Leopold</unittitle>
                </did>
-               <c03 id="mferd121e902" level="file">
+               <c03 id="mferd11e902" level="file">
                   <did>
                      <container type="box-folder">3/14</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_1">Twilight of the gods, 1876 Sept. 3</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e908" level="file">
+               <c03 id="mferd11e908" level="file">
                   <did>
                      <container type="box-folder">3/15</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_2">The Wagner festival, 1876 Aug. 23</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e914" level="file">
+               <c03 id="mferd11e914" level="file">
                   <did>
                      <container type="box-folder">3/16</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_3">Wagner's musical drama, 1876 Aug. 26</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e920" level="file">
+            <c02 id="mferd11e920" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D3_2">Mannes, Clara Damrosch</unittitle>
                </did>
-               <c03 id="mferd121e924" level="file">
+               <c03 id="mferd11e924" level="file">
                   <did>
                      <container type="box-folder">3/17</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_4">Annual Meeting of the Federation for Child Study, 1915 Nov. 3 [speech]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e930" level="file">
+               <c03 id="mferd11e930" level="file">
                   <did>
                      <container type="box-folder">3/18</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_5">History of Venice, 1885-1886</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e936" level="file">
+               <c03 id="mferd11e936" level="file">
                   <did>
                      <container type="box-folder">3/19</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_6">Ideal musical food for the young, 1914 May 16</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e942" level="file">
+               <c03 id="mferd11e942" level="file">
                   <did>
                      <container type="box-folder">3/20</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_7">The pauperizing of the music student, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e948" level="file">
+            <c02 id="mferd11e948" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D3_3">Mannes, David</unittitle>
                </did>
-               <c03 id="mferd121e952" level="file">
+               <c03 id="mferd11e952" level="file">
                   <did>
                      <container type="box-folder">3/21</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_8">Untitled speech, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e958" level="file">
+            <c02 id="mferd11e958" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D3_4">[Mannes, Leopold?]</unittitle>
                </did>
-               <c03 id="mferd121e962" level="file">
+               <c03 id="mferd11e962" level="file">
                   <did>
                      <container type="box-folder">3/22</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_9">Does science lead us to a true Christianity?, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e968" level="file">
+            <c02 id="mferd11e968" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D3_5">Mannes, Marya</unittitle>
                </did>
-               <c03 id="mferd121e972" level="file">
+               <c03 id="mferd11e972" level="file">
                   <did>
                      <container type="box-folder">3/23</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_10">Bad men, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e978" level="file">
+               <c03 id="mferd11e978" level="file">
                   <did>
                      <container type="box-folder">3/24</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_11">Barcelona story [The other side], n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e984" level="file">
+               <c03 id="mferd11e984" level="file">
                   <did>
                      <container type="box-folder">3/25</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_12">The best of Marya Mannes, 1986  [book]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e990" level="file">
+               <c03 id="mferd11e990" level="file">
                   <did>
                      <container type="box-folder">3/26</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_13">The Boltons plan a party, n.d.  [script]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e996" level="file">
+               <c03 id="mferd11e996" level="file">
                   <did>
                      <container type="box-folder">3/27</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_14">Children in trouble, 1955 Sept. 22</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1002" level="file">
+               <c03 id="mferd11e1002" level="file">
                   <did>
                      <container type="box-folder">3/28</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_15">Coming of age: Report on the Hodson Center, 1954 Dec. 16</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1008" level="file">
+               <c03 id="mferd11e1008" level="file">
                   <did>
                      <container type="box-folder">3/29</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_16">The day off, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1014" level="file">
+               <c03 id="mferd11e1014" level="file">
                   <did>
                      <container type="box-folder">3/30</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_17">The domesticated male, [?] Jun. 23</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1020" level="file">
+               <c03 id="mferd11e1020" level="file">
                   <did>
                      <container type="box-folder">3/31</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_18">Free enterprise, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1026" level="file">
+               <c03 id="mferd11e1026" level="file">
                   <did>
                      <container type="box-folder">3/32</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_19">Happy new year: or, the worst winter of all, 1946 Jan.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1033" level="file">
+               <c03 id="mferd11e1033" level="file">
                   <did>
                      <container type="box-folder">3/33</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_20">Health bar, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1039" level="file">
+               <c03 id="mferd11e1039" level="file">
                   <did>
                      <container type="box-folder">3/34</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_21">A high standard of giving, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1045" level="file">
+               <c03 id="mferd11e1045" level="file">
                   <did>
                      <container type="box-folder">3/35</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_22">[Juvenalia], 1912-20, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1051" level="file">
+               <c03 id="mferd11e1051" level="file">
                   <did>
                      <container type="box-folder">3/36</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_23">Leopold Damrosch Mannes, 1964 Aug. 15  [funeral speech]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1057" level="file">
+               <c03 id="mferd11e1057" level="file">
                   <did>
                      <container type="box-folder">3/37</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_24">Letter from Italy, 1946 July</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1063" level="file">
+               <c03 id="mferd11e1063" level="file">
                   <did>
                      <container type="box-folder">3/38</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_25">Letter from Lisbon, [?] June 25</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1069" level="file">
+               <c03 id="mferd11e1069" level="file">
                   <did>
                      <container type="box-folder">3/39</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_26">Letter from "Prosa" (Italy), 1948 Mar.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1075" level="file">
+               <c03 id="mferd11e1075" level="file">
                   <did>
                      <container type="box-folder">3/40</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_27">A mirror for his love [Please look at me], 1949 May</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1081" level="file">
+               <c03 id="mferd11e1081" level="file">
                   <did>
                      <container type="box-folder">3/41</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_28">Miscellaneous, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1087" level="file">
+               <c03 id="mferd11e1087" level="file">
                   <did>
                      <container type="box-folder">4/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_29">'Nessfeness' at Harvard, 1956 May 31</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1093" level="file">
+               <c03 id="mferd11e1093" level="file">
                   <did>
                      <container type="box-folder">4/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_30">One hundred and four make one: The Philharmonic Symphony Orchestra, Part I, Part II (incomplete), n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1100" level="file">
+               <c03 id="mferd11e1100" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_31">The other side  <emph render="italic">see</emph>  Barcelona story</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1107" level="file">
+               <c03 id="mferd11e1107" level="file">
                   <did>
                      <container type="box-folder">4/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_32">The P is silent as in 'Yalta', n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1113" level="file">
+               <c03 id="mferd11e1113" level="file">
                   <did>
                      <container type="box-folder">4/4</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_33">The people vs. McCarthy, 1954 Apr. 27</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1119" level="file">
+               <c03 id="mferd11e1119" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_34">Please look at me  <emph render="italic">see</emph>  A mirror for his love</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1126" level="file">
+               <c03 id="mferd11e1126" level="file">
                   <did>
                      <container type="box-folder">4/14</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_35">[Poems: A-F]</unittitle>
@@ -1042,7 +1043,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1221" level="file">
+               <c03 id="mferd11e1221" level="file">
                   <did>
                      <container type="box-folder">4/15</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_36">[Poems:  G-O]</unittitle>
@@ -1097,7 +1098,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1331" level="file">
+               <c03 id="mferd11e1331" level="file">
                   <did>
                      <container type="box-folder">4/16</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_37">[Poems: P-Z]</unittitle>
@@ -1147,55 +1148,55 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1428" level="file">
+               <c03 id="mferd11e1428" level="file">
                   <did>
                      <container type="box-folder">4/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_38">"Poor Richard Club" speech, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1434" level="file">
+               <c03 id="mferd11e1434" level="file">
                   <did>
                      <container type="box-folder">4/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_39">[Reviews and criticism], 1952-56, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1440" level="file">
+               <c03 id="mferd11e1440" level="file">
                   <did>
                      <container type="box-folder">4/7</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_40">Riggs: Where psychiatrists learn, 1954 Nov. 4</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1446" level="file">
+               <c03 id="mferd11e1446" level="file">
                   <did>
                      <container type="box-folder">4/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_41">Romulus and Remus, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1453" level="file">
+               <c03 id="mferd11e1453" level="file">
                   <did>
                      <container type="box-folder">4/9</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_42">The stepmother, 1951 Oct.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1459" level="file">
+               <c03 id="mferd11e1459" level="file">
                   <did>
                      <container type="box-folder">4/10</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_43">This is America: Divorce edition II, 1946 Mar. 18</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1465" level="file">
+               <c03 id="mferd11e1465" level="file">
                   <did>
                      <container type="box-folder">4/11</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_44">Togetherness, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1471" level="file">
+               <c03 id="mferd11e1471" level="file">
                   <did>
                      <container type="box-folder">4/12</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_45">Unidentified</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e1477" level="file">
+               <c03 id="mferd11e1477" level="file">
                   <did>
                      <container type="box-folder">4/13</container>
                      <unittitle encodinganalog="245$a" id="mu007003_WRITINGS_CL1003_D4_46">What's wrong with the comics?, 1948 Mar. 2  [panel]</unittitle>
@@ -1203,7 +1204,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd121e1483" level="series">
+         <c01 id="mferd11e1483" level="series">
             <did>
                <container type="box">8-10</container>
                <container type="box">35</container>
@@ -1215,13 +1216,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by composer, then by title</p>
             </arrangement>
-            <c02 id="mferd121e1497" level="file">
+            <c02 id="mferd11e1497" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_1">
                      <persname encodinganalog="100$a" role="cmp" normal="Arcadelt, Jacob">Arcadelt, Jacob</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e1504" level="file">
+               <c03 id="mferd11e1504" level="file">
                   <did>
                      <container type="box-folder">8/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_1">
@@ -1237,13 +1238,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e1521" level="file">
+            <c02 id="mferd11e1521" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_2">
                      <persname encodinganalog="100$a" role="cmp" normal="Berlioz, Hector">Berlioz, Hector</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e1528" level="file">
+               <c03 id="mferd11e1528" level="file">
                   <did>
                      <container type="box-folder">8/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_2">
@@ -1259,13 +1260,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e1545" level="file">
+            <c02 id="mferd11e1545" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_3">
                      <persname encodinganalog="100$a" role="cmp" normal="Damrosch, Leopold">Damrosch, Leopold</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e1552" level="file">
+               <c03 id="mferd11e1552" level="file">
                   <did>
                      <container type="box-folder">8/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_3">
@@ -1277,7 +1278,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1566" level="file">
+               <c03 id="mferd11e1566" level="file">
                   <did>
                      <container type="box-folder">8/4</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_4">
@@ -1322,7 +1323,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1723" level="file">
+               <c03 id="mferd11e1723" level="file">
                   <did>
                      <container type="box-folder">8/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_5">
@@ -1334,7 +1335,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1737" level="file">
+               <c03 id="mferd11e1737" level="file">
                   <did>
                      <container type="box-folder">8/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_6">
@@ -1349,7 +1350,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1754" level="file">
+               <c03 id="mferd11e1754" level="file">
                   <did>
                      <container type="box-folder">8/7</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_7">
@@ -1365,7 +1366,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1771" level="file">
+               <c03 id="mferd11e1771" level="file">
                   <did>
                      <container type="box-folder">8/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_8">
@@ -1384,7 +1385,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1791" level="file">
+               <c03 id="mferd11e1791" level="file">
                   <did>
                      <container type="box-folder">8/9</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_9">
@@ -1400,7 +1401,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1808" level="file">
+               <c03 id="mferd11e1808" level="file">
                   <did>
                      <container type="box-folder">8/10</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_10">
@@ -1415,7 +1416,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1825" level="file">
+               <c03 id="mferd11e1825" level="file">
                   <did>
                      <container type="box-folder">8/11</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_11">
@@ -1427,7 +1428,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1839" level="file">
+               <c03 id="mferd11e1839" level="file">
                   <did>
                      <container type="box-folder">8/12</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_12">
@@ -1445,7 +1446,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1862" level="file">
+               <c03 id="mferd11e1862" level="file">
                   <did>
                      <container type="box-folder">8/13</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_13">
@@ -1457,7 +1458,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1876" level="file">
+               <c03 id="mferd11e1876" level="file">
                   <did>
                      <container type="box-folder">8/14</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_14">
@@ -1469,7 +1470,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1890" level="file">
+               <c03 id="mferd11e1890" level="file">
                   <did>
                      <container type="box-folder">8/15</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_15">
@@ -1481,7 +1482,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1904" level="file">
+               <c03 id="mferd11e1904" level="file">
                   <did>
                      <container type="box-folder">8/16</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_16">
@@ -1493,7 +1494,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1918" level="file">
+               <c03 id="mferd11e1918" level="file">
                   <did>
                      <container type="box-folder">8/17</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_17">
@@ -1505,7 +1506,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1932" level="file">
+               <c03 id="mferd11e1932" level="file">
                   <did>
                      <container type="box-folder">8/18</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_18">
@@ -1517,7 +1518,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e1946" level="file">
+               <c03 id="mferd11e1946" level="file">
                   <did>
                      <container type="box-folder">8/19</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_19">
@@ -1535,7 +1536,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1966" level="file">
+               <c03 id="mferd11e1966" level="file">
                   <did>
                      <container type="box-folder">8/20</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_20">
@@ -1550,7 +1551,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e1983" level="file">
+               <c03 id="mferd11e1983" level="file">
                   <did>
                      <container type="box-folder">8/21</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_21">
@@ -1565,7 +1566,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2000" level="file">
+               <c03 id="mferd11e2000" level="file">
                   <did>
                      <container type="box-folder">9/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_22">
@@ -1577,7 +1578,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2014" level="file">
+               <c03 id="mferd11e2014" level="file">
                   <did>
                      <container type="box-folder">35/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_23">
@@ -1592,7 +1593,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2032" level="file">
+               <c03 id="mferd11e2032" level="file">
                   <did>
                      <container type="box-folder">9/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_24">
@@ -1604,7 +1605,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2046" level="file">
+               <c03 id="mferd11e2046" level="file">
                   <did>
                      <container type="box-folder">10/1-5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_25">
@@ -1626,7 +1627,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2082" level="file">
+               <c03 id="mferd11e2082" level="file">
                   <did>
                      <container type="box-folder">35/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_26">
@@ -1638,7 +1639,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2096" level="file">
+               <c03 id="mferd11e2096" level="file">
                   <did>
                      <container type="box-folder">9/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_27">
@@ -1653,7 +1654,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2113" level="file">
+               <c03 id="mferd11e2113" level="file">
                   <did>
                      <container type="box-folder">9/4</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_28">
@@ -1665,7 +1666,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2127" level="file">
+               <c03 id="mferd11e2127" level="file">
                   <did>
                      <container type="box-folder">9/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_29">
@@ -1677,7 +1678,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2141" level="file">
+               <c03 id="mferd11e2141" level="file">
                   <did>
                      <container type="box-folder">9/6-7</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_30">
@@ -1692,7 +1693,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2158" level="file">
+               <c03 id="mferd11e2158" level="file">
                   <did>
                      <container type="box-folder">9/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_31">
@@ -1704,7 +1705,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2172" level="file">
+               <c03 id="mferd11e2172" level="file">
                   <did>
                      <container type="box-folder">9/9</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_32">
@@ -1719,7 +1720,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2189" level="file">
+               <c03 id="mferd11e2189" level="file">
                   <did>
                      <container type="box-folder">9/10</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_33">
@@ -1731,7 +1732,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2203" level="file">
+               <c03 id="mferd11e2203" level="file">
                   <did>
                      <container type="box-folder">9/11</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_34">
@@ -1744,13 +1745,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2217" level="file">
+            <c02 id="mferd11e2217" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_4">
                      <persname encodinganalog="100$a" role="cmp" normal="Field, John">Field, John</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e2224" level="file">
+               <c03 id="mferd11e2224" level="file">
                   <did>
                      <container type="box-folder">9/12</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_35">
@@ -1766,13 +1767,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2241" level="file">
+            <c02 id="mferd11e2241" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_5">
                      <persname encodinganalog="100$a" role="cmp" normal="Gottwald, Heinrich">Gottwald, Heinrich</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e2248" level="file">
+               <c03 id="mferd11e2248" level="file">
                   <did>
                      <container type="box-folder">9/13</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_36">
@@ -1784,7 +1785,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2262" level="file">
+               <c03 id="mferd11e2262" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_37">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
@@ -1795,7 +1796,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2274" level="file">
+               <c03 id="mferd11e2274" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_38">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
@@ -1807,13 +1808,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2286" level="file">
+            <c02 id="mferd11e2286" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_6">
                      <persname encodinganalog="100$a" role="cmp" normal="Handel, George Frideric">Handel, George Frideric</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e2293" level="file">
+               <c03 id="mferd11e2293" level="file">
                   <did>
                      <container type="box-folder">9/14</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_39">
@@ -1828,7 +1829,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2310" level="file">
+               <c03 id="mferd11e2310" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_40">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
@@ -1842,7 +1843,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2325" level="file">
+               <c03 id="mferd11e2325" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_41">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
@@ -1857,13 +1858,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2340" level="file">
+            <c02 id="mferd11e2340" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_7">
                      <persname encodinganalog="100$a" role="cmp" normal="Mannes, Leopold">Mannes, Leopold</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e2347" level="file">
+               <c03 id="mferd11e2347" level="file">
                   <did>
                      <container type="box-folder">9/15</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_42">
@@ -1875,7 +1876,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2361" level="file">
+               <c03 id="mferd11e2361" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_43">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
@@ -1889,7 +1890,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2376" level="file">
+               <c03 id="mferd11e2376" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_44">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
@@ -1900,7 +1901,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2388" level="file">
+               <c03 id="mferd11e2388" level="file">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_45">
                         <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" render="altrender"
@@ -1915,13 +1916,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2403" level="file">
+            <c02 id="mferd11e2403" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_8">
                      <persname encodinganalog="100$a" role="cmp" normal="Schubert, Franz">Schubert, Franz</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e2410" level="file">
+               <c03 id="mferd11e2410" level="file">
                   <did>
                      <container type="box-folder">9/16</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_46">
@@ -1937,13 +1938,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2428" level="file">
+            <c02 id="mferd11e2428" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_9">
                      <persname encodinganalog="100$a" role="cmp" normal="Singer, Edmund">Singer, Edmund</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e2435" level="file">
+               <c03 id="mferd11e2435" level="file">
                   <did>
                      <container type="box-folder">9/17</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_47">
@@ -1958,7 +1959,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2452" level="file">
+               <c03 id="mferd11e2452" level="file">
                   <did>
                      <container type="box-folder">9/18</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_48">
@@ -1971,13 +1972,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2466" level="file">
+            <c02 id="mferd11e2466" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_10">
                      <persname encodinganalog="100$a" role="cmp" normal="Viotti, Giovanni Battista">Viotti, Giovanni Battista</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e2473" level="file">
+               <c03 id="mferd11e2473" level="file">
                   <did>
                      <container type="box-folder">9/19</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_49">
@@ -1990,13 +1991,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2487" level="file">
+            <c02 id="mferd11e2487" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D3_11">
                      <persname encodinganalog="100$a" role="cmp" normal="Wagner, Richard">Wagner, Richard</persname>
                   </unittitle>
                </did>
-               <c03 id="mferd121e2494" level="file">
+               <c03 id="mferd11e2494" level="file">
                   <did>
                      <container type="box-folder">9/20</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_50">
@@ -2008,7 +2009,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd121e2508" level="file">
+               <c03 id="mferd11e2508" level="file">
                   <did>
                      <container type="box-folder">9/21</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MUSIC_CL1004_D4_51">
@@ -2022,7 +2023,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd121e2522" level="series">
+         <c01 id="mferd11e2522" level="series">
             <did>
                <container type="box">4</container>
                <unittitle encodinganalog="245$a" id="CL1005">Financial / Legal, <unitdate encodinganalog="245$f" type="inclusive" normal="1908/1944" era="ce"
@@ -2035,14 +2036,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by date</p>
             </arrangement>
-            <c02 id="mferd121e2537" level="file">
+            <c02 id="mferd11e2537" level="file">
                <did>
                   <container type="box-folder">4/17</container>
                   <unittitle encodinganalog="245$a" id="mu007003_FINANCIAL_CL1005_D3_1">1908-44, n.d.</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd121e2543" level="series">
+         <c01 id="mferd11e2543" level="series">
             <did>
                <container type="box">4</container>
                <container type="box">11</container>
@@ -2057,128 +2058,128 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by organization or event, then chronologically by date.</p>
             </arrangement>
-            <c02 id="mferd121e2562" level="file">
+            <c02 id="mferd11e2562" level="file">
                <did>
                   <container type="box-folder">4/18</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_1">American Association for the Advancement of Science Summer Meeting, 1936</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2568" level="file">
+            <c02 id="mferd11e2568" level="file">
                <did>
                   <container type="box-folder">11/1</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_2">David and Clara Mannes sonata recitals, 1908-46, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2574" level="file">
+            <c02 id="mferd11e2574" level="file">
                <did>
                   <container type="box-folder">35/3</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_3">David and Clara Mannes promotional materials, 1895-1914, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2580" level="file">
+            <c02 id="mferd11e2580" level="file">
                <did>
                   <container type="box-folder">4/19</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_4">David Mannes and Leopold Mannes recital, 1935 Apr. 15</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2586" level="file">
+            <c02 id="mferd11e2586" level="file">
                <did>
                   <container type="box-folder">35/4</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_5">David Mannes Music School, 1920</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2592" level="file">
+            <c02 id="mferd11e2592" level="file">
                <did>
                   <container type="box-folder">11/2</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_6">Grand Opera by the Pappenheim and Adams Company, 1878, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2598" level="file">
+            <c02 id="mferd11e2598" level="file">
                <did>
                   <container type="box-folder">11/3</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_7">Her Majesty's Opera Company, 1880, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2604" level="file">
+            <c02 id="mferd11e2604" level="file">
                <did>
                   <container type="box-folder">11/4</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_8">Leo Godowsky and Leopold Mannes recital and concert, 1935, 1937</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2611" level="file">
+            <c02 id="mferd11e2611" level="file">
                <did>
                   <container type="box-folder">4/20</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_9">Leopold Mannes recital / concert, 1938-40</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2617" level="file">
+            <c02 id="mferd11e2617" level="file">
                <did>
                   <container type="box-folder">4/21</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_10">Luigi Silva and Leopold Mannes recital, 1941</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2623" level="file">
+            <c02 id="mferd11e2623" level="file">
                <did>
                   <container type="box-folder">4/22</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_11">Mannes Quartet, 1900</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2629" level="file">
+            <c02 id="mferd11e2629" level="file">
                <did>
                   <container type="box-folder">4/23</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_12">Metropolitan Museum of Art, free concerts, 1947</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2635" level="file">
+            <c02 id="mferd11e2635" level="file">
                <did>
                   <container type="box-folder">4/24</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_13">New York Public Library, six free chamber music concerts, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2641" level="file">
+            <c02 id="mferd11e2641" level="file">
                <did>
                   <container type="box-folder">4/25</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_14">Philharmonic Society of New York, 1876-77</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2647" level="file">
+            <c02 id="mferd11e2647" level="file">
                <did>
                   <container type="box-folder">4/26</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_15">Rochester Civic Orchestra, 1935</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2653" level="file">
+            <c02 id="mferd11e2653" level="file">
                <did>
                   <container type="box-folder">4/27</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_16">A tribute to Marya Mannes, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2659" level="file">
+            <c02 id="mferd11e2659" level="file">
                <did>
                   <container type="box-folder">4/28</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_17">Unidentified, n.d.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2665" level="file">
+            <c02 id="mferd11e2665" level="file">
                <did>
                   <container type="box-folder">4/29</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_18">Veltin School Commencement Exercises, 1923</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2671" level="file">
+            <c02 id="mferd11e2671" level="file">
                <did>
                   <container type="box-folder">11/5</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_19">Walter Damrosch golden jubilee, 1935</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2678" level="file">
+            <c02 id="mferd11e2678" level="file">
                <did>
                   <container type="box-folder">4/30</container>
                   <unittitle encodinganalog="245$a" id="mu007003_PROGRAMS_CL1006_D3_20">WPA Federal Music Project, 1938</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd121e2684" level="series">
+         <c01 id="mferd11e2684" level="series">
             <did>
                <container type="box">11</container>
                <unittitle encodinganalog="245$a" id="CL1007">Scrapbooks, <unitdate encodinganalog="245$f" type="inclusive" normal="1925/1956" era="ce"
@@ -2191,20 +2192,20 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by date</p>
             </arrangement>
-            <c02 id="mferd121e2699" level="file">
+            <c02 id="mferd11e2699" level="file">
                <did>
                   <container type="box-folder">11/6</container>
                   <unittitle encodinganalog="245$a" id="mu007003_SCRAPBOOKS_CL1007_D3_1">Walter and Margaret Damrosch [wedding] anniversary, 1925</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2705" level="file">
+            <c02 id="mferd11e2705" level="file">
                <did>
                   <container type="box-folder">11/7</container>
                   <unittitle encodinganalog="245$a" id="mu007003_SCRAPBOOKS_CL1007_D3_2">David Mannes' 90th birthday, 1956</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd121e2711" level="series">
+         <c01 id="mferd11e2711" level="series">
             <did>
                <unittitle encodinganalog="245$a" id="CL1008">Clippings, <unitdate encodinganalog="245$f" type="inclusive" normal="1881/1951" era="ce"
                             calendar="gregorian">1881-1951 and undated</unitdate>
@@ -2216,71 +2217,71 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by person, then chronologically</p>
             </arrangement>
-            <c02 id="mferd121e2724" level="file">
+            <c02 id="mferd11e2724" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D3_1">Damrosch, Leopold</unittitle>
                </did>
-               <c03 id="mferd121e2728" level="file">
+               <c03 id="mferd11e2728" level="file">
                   <did>
                      <container type="box-folder">4/31</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D4_1">1881-1932</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2734" level="file">
+               <c03 id="mferd11e2734" level="file">
                   <did>
                      <container type="box-folder">35/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D4_2">1881-1885, 1914</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2740" level="file">
+            <c02 id="mferd11e2740" level="file">
                <did>
                   <container type="box-folder">11/8</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D3_2">Damrosch, Walter, 1933-44</unittitle>
                </did>
             </c02>
-            <c02 id="mferd121e2746" level="file">
+            <c02 id="mferd11e2746" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D3_3">Mannes, David and Clara</unittitle>
                </did>
-               <c03 id="mferd121e2750" level="file">
+               <c03 id="mferd11e2750" level="file">
                   <did>
                      <container type="box-folder">4/32</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D4_3">1913-49, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2756" level="file">
+               <c03 id="mferd11e2756" level="file">
                   <did>
                      <container type="box-folder">35/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D4_4">1913-42</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2762" level="file">
+            <c02 id="mferd11e2762" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D3_4">Mannes, Leopold</unittitle>
                </did>
-               <c03 id="mferd121e2766" level="file">
+               <c03 id="mferd11e2766" level="file">
                   <did>
                      <container type="box-folder">4/33</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D4_5">1925-64, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2772" level="file">
+               <c03 id="mferd11e2772" level="file">
                   <did>
                      <container type="box-folder">36/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D4_6">1935-51, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2778" level="file">
+            <c02 id="mferd11e2778" level="file">
                <did>
                   <container type="box-folder">4/33</container>
                   <unittitle encodinganalog="245$a" id="mu007003_CLIPPINGS_CL1008_D3_5">Mannes, Marya, 1926-48, n.d.</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd121e2785" level="series">
+         <c01 id="mferd11e2785" level="series">
             <did>
                <container type="box">5-6</container>
                <container type="box">12-26</container>
@@ -2293,141 +2294,141 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by subseries, then by alphabetically by subject or chronologically by date</p>
             </arrangement>
-            <c02 id="mferd121e2801" level="subseries">
+            <c02 id="mferd11e2801" level="subseries">
                <did>
                   <container type="box">5</container>
                   <container type="box">12</container>
                   <container type="box">35</container>
                   <unittitle encodinganalog="245$a" id="CL10091001">Photoprints</unittitle>
                </did>
-               <c03 id="mferd121e2811" level="file">
+               <c03 id="mferd11e2811" level="file">
                   <did>
                      <container type="box-folder">5/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_1">Blow, David</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2817" level="file">
+               <c03 id="mferd11e2817" level="file">
                   <did>
                      <container type="box-folder">5/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_2">Brandt, Marianne</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2823" level="file">
+               <c03 id="mferd11e2823" level="file">
                   <did>
                      <container type="box-folder">5/4</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_3">Consolo, Anna and Ernesto</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2829" level="file">
+               <c03 id="mferd11e2829" level="file">
                   <did>
                      <container type="box-folder">12/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_4">Damrosch, Clara, Elizabeth, and Helene with European travel group</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2835" level="file">
+               <c03 id="mferd11e2835" level="file">
                   <did>
                      <container type="box-folder">5/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_5">Damrosch family portraits</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2841" level="file">
+               <c03 id="mferd11e2841" level="file">
                   <did>
                      <container type="box-folder">5/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_6">Damrosch, Frank</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2847" level="file">
+               <c03 id="mferd11e2847" level="file">
                   <did>
                      <container type="box-folder">5/7</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_7">Damrosch, Helene von Heimburg</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2853" level="file">
+               <c03 id="mferd11e2853" level="file">
                   <did>
                      <container type="box-folder">5/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_8">Damrosch, Leopold</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2859" level="file">
+               <c03 id="mferd11e2859" level="file">
                   <did>
                      <container type="box-folder">12/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_9">Damrosch, Walter</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2865" level="file">
+               <c03 id="mferd11e2865" level="file">
                   <did>
                      <container type="box-folder">5/10</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_10">Heimburg, Marie von</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2872" level="file">
+               <c03 id="mferd11e2872" level="file">
                   <did>
                      <container type="box-folder">5/13</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_11">Henschel, George</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2878" level="file">
+               <c03 id="mferd11e2878" level="file">
                   <did>
                      <container type="box-folder">5/14</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_12">Mannes, Clara Damrosch</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2884" level="file">
+               <c03 id="mferd11e2884" level="file">
                   <did>
                      <container type="box-folder">5/18</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_13">Mannes, David</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2890" level="file">
+               <c03 id="mferd11e2890" level="file">
                   <did>
                      <container type="box-folder">5/21</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_14">Mannes, Leopold</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2896" level="file">
+               <c03 id="mferd11e2896" level="file">
                   <did>
                      <container type="box-folder">5/24</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_15">Mannes, Marya</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2902" level="file">
+               <c03 id="mferd11e2902" level="file">
                   <did>
                      <container type="box-folder">5/28</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_16">Mannes family</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2908" level="file">
+               <c03 id="mferd11e2908" level="file">
                   <did>
                      <container type="box-folder">12/7</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_17">Mannes School of Music</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2914" level="file">
+               <c03 id="mferd11e2914" level="file">
                   <did>
                      <container type="box-folder">12/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_18">Miscellaneous  [buildings, interiors, and scenery]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2920" level="file">
+               <c03 id="mferd11e2920" level="file">
                   <did>
                      <container type="box-folder">5/29</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_19">Tee Van, Helen Damrosch  [wedding]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e2926" level="file">
+               <c03 id="mferd11e2926" level="file">
                   <did>
                      <container type="box-folder">5/30</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Photoprints_CL10091001_D3_20">Unidentified</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e2932" level="subseries">
+            <c02 id="mferd11e2932" level="subseries">
                <did>
                   <container type="box">13-26</container>
                   <container type="box">36</container>
                   <unittitle encodinganalog="245$a" id="CL10091002">Albums</unittitle>
                </did>
-               <c03 id="mferd121e2940" level="file">
+               <c03 id="mferd11e2940" level="file">
                   <did>
                      <container type="box">13</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_1">[#1] : 1898-1900, Paradox Lake...[illegible] </unittitle>
@@ -2436,7 +2437,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2949" level="file">
+               <c03 id="mferd11e2949" level="file">
                   <did>
                      <container type="box-folder">6/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_2">[#2] : 1901-02, Seal Harbor</unittitle>
@@ -2445,7 +2446,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2958" level="file">
+               <c03 id="mferd11e2958" level="file">
                   <did>
                      <container type="box">14</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_3">[#3] : 1903, Europe</unittitle>
@@ -2454,7 +2455,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2967" level="file">
+               <c03 id="mferd11e2967" level="file">
                   <did>
                      <container type="box">15</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_4">[#4] : [1904-06]</unittitle>
@@ -2466,7 +2467,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2979" level="file">
+               <c03 id="mferd11e2979" level="file">
                   <did>
                      <container type="box-folder">16/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_5">[#5] : 1905, Mannesden, Lake Champlain</unittitle>
@@ -2475,7 +2476,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2988" level="file">
+               <c03 id="mferd11e2988" level="file">
                   <did>
                      <container type="box-folder">16/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_6">[#6] : 1905</unittitle>
@@ -2484,7 +2485,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e2997" level="file">
+               <c03 id="mferd11e2997" level="file">
                   <did>
                      <container type="box-folder">17/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_7">[#7] : 1906, Summer of, second summer at Mannesden</unittitle>
@@ -2493,7 +2494,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3006" level="file">
+               <c03 id="mferd11e3006" level="file">
                   <did>
                      <container type="box">34</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_8">[#8] : 1906-1907  [illegible]</unittitle>
@@ -2502,7 +2503,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3015" level="file">
+               <c03 id="mferd11e3015" level="file">
                   <did>
                      <container type="box">18</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_9">[#9] : 1910, [illegible] - 1911, Seal Harbor</unittitle>
@@ -2511,7 +2512,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3024" level="file">
+               <c03 id="mferd11e3024" level="file">
                   <did>
                      <container type="box">19</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_10">[#10] : 1912 [illegible]</unittitle>
@@ -2520,7 +2521,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3034" level="file">
+               <c03 id="mferd11e3034" level="file">
                   <did>
                      <container type="box">20</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_11">[#11] : 1912</unittitle>
@@ -2529,7 +2530,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3043" level="file">
+               <c03 id="mferd11e3043" level="file">
                   <did>
                      <container type="box-folder">17/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_12">[#12] : 1913, Europe  [illegible]</unittitle>
@@ -2538,7 +2539,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3052" level="file">
+               <c03 id="mferd11e3052" level="file">
                   <did>
                      <container type="box-folder">21/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_13">[#13] : 1913</unittitle>
@@ -2547,7 +2548,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3061" level="file">
+               <c03 id="mferd11e3061" level="file">
                   <did>
                      <container type="box">22</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_14">[#14] : 1914-15  [illegible]</unittitle>
@@ -2556,7 +2557,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3070" level="file">
+               <c03 id="mferd11e3070" level="file">
                   <did>
                      <container type="box">23</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_15">[#15] : 1915 - [illegible]</unittitle>
@@ -2565,7 +2566,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3079" level="file">
+               <c03 id="mferd11e3079" level="file">
                   <did>
                      <container type="box-folder">21/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_16">[#16] : 1919, Summer vacation</unittitle>
@@ -2574,7 +2575,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3088" level="file">
+               <c03 id="mferd11e3088" level="file">
                   <did>
                      <container type="box">24</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_17">[#17] : 1930, Summer, David and Clara Mannes' Holidays</unittitle>
@@ -2583,7 +2584,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3097" level="file">
+               <c03 id="mferd11e3097" level="file">
                   <did>
                      <container type="box-folder">6/2-3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_18">[#18] : [1931]</unittitle>
@@ -2592,7 +2593,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3106" level="file">
+               <c03 id="mferd11e3106" level="file">
                   <did>
                      <container type="box-folder">6/4</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_19">[#19] : 1938, Museum Concert</unittitle>
@@ -2604,7 +2605,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3118" level="file">
+               <c03 id="mferd11e3118" level="file">
                   <did>
                      <container type="box-folder">6/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_20">[#20] : [1938]</unittitle>
@@ -2613,7 +2614,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3127" level="file">
+               <c03 id="mferd11e3127" level="file">
                   <did>
                      <container type="box-folder">6/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_21">[#21] : [1940-41]</unittitle>
@@ -2622,7 +2623,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3137" level="file">
+               <c03 id="mferd11e3137" level="file">
                   <did>
                      <container type="box-folder">6/7</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_22">[#22] : Undated</unittitle>
@@ -2631,7 +2632,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3146" level="file">
+               <c03 id="mferd11e3146" level="file">
                   <did>
                      <container type="box-folder">25/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_23">[#23] : Undated</unittitle>
@@ -2640,7 +2641,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3155" level="file">
+               <c03 id="mferd11e3155" level="file">
                   <did>
                      <container type="box-folder">25/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_24">[#24] : Undated</unittitle>
@@ -2649,7 +2650,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3164" level="file">
+               <c03 id="mferd11e3164" level="file">
                   <did>
                      <container type="box-folder">6/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_25">[#25] : Undated</unittitle>
@@ -2658,7 +2659,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3173" level="file">
+               <c03 id="mferd11e3173" level="file">
                   <did>
                      <container type="box-folder">36/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_26">[#25] : Harveycar motor cruises through the great Southwest</unittitle>
@@ -2667,7 +2668,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3182" level="file">
+               <c03 id="mferd11e3182" level="file">
                   <did>
                      <container type="box-folder">26/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_27">[#26] : Undated</unittitle>
@@ -2676,7 +2677,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd121e3191" level="file">
+               <c03 id="mferd11e3191" level="file">
                   <did>
                      <container type="box-folder">26/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_Albums_CL10091002_D3_28">[#27] : Undated</unittitle>
@@ -2687,7 +2688,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd121e3200" level="series">
+         <c01 id="mferd11e3200" level="series">
             <did>
                <container type="box">27-28</container>
                <container type="box">30</container>
@@ -2703,262 +2704,262 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by subject or title, then by medium</p>
             </arrangement>
-            <c02 id="mferd121e3221" level="file">
+            <c02 id="mferd11e3221" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_1">Cortot, Alfred</unittitle>
                </did>
-               <c03 id="mferd121e3225" level="file">
+               <c03 id="mferd11e3225" level="file">
                   <did>
                      <container type="box-folder">27/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_1">Pencil sketches, by unidentified artist, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3231" level="file">
+            <c02 id="mferd11e3231" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_2">Damrosch, Helene</unittitle>
                </did>
-               <c03 id="mferd121e3235" level="file">
+               <c03 id="mferd11e3235" level="file">
                   <did>
                      <container type="box-folder">27/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_2">Pencil sketch (portrait), by unidentified artist, 1893 Jan. 9</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3241" level="file">
+            <c02 id="mferd11e3241" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_3">Damrosch, Leopold</unittitle>
                </did>
-               <c03 id="mferd121e3245" level="file">
+               <c03 id="mferd11e3245" level="file">
                   <did>
                      <container type="box-folder">30/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_3">Engraving plate (portrait), by unidentified artist, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3251" level="file">
+               <c03 id="mferd11e3251" level="file">
                   <did>
                      <container type="box-folder">27/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_4">Pencil sketch (portrait), by Friedrich Preller, 1857 Oct. 7</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3257" level="file">
+            <c02 id="mferd11e3257" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_4">Damrosch, Walter</unittitle>
                </did>
-               <c03 id="mferd121e3261" level="file">
+               <c03 id="mferd11e3261" level="file">
                   <did>
                      <container type="box-folder">27/4</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_5">Reproduction of pencil sketch (portrait), by Churchill Ettinger, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3267" level="file">
+            <c02 id="mferd11e3267" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_5">"Leading members of the Damrosch orchestra"</unittitle>
                </did>
-               <c03 id="mferd121e3271" level="file">
+               <c03 id="mferd11e3271" level="file">
                   <did>
                      <container type="box-folder">27/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_6">Print of ink drawing, by unidentified artist, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3277" level="file">
+            <c02 id="mferd11e3277" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_6">Mannes, Clara Damrosch</unittitle>
                </did>
-               <c03 id="mferd121e3281" level="file">
+               <c03 id="mferd11e3281" level="file">
                   <did>
                      <container type="box-folder">27/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_7">Pencil sketch (portrait), by unidentified artist, 1889</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3287" level="file">
+               <c03 id="mferd11e3287" level="file">
                   <did>
                      <container type="box-folder">27/7</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_8">Watercolor (portrait), by Ethelwyn B. Upton, 1891</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3293" level="file">
+            <c02 id="mferd11e3293" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_7">Mannes, Clara and David</unittitle>
                </did>
-               <c03 id="mferd121e3297" level="file">
+               <c03 id="mferd11e3297" level="file">
                   <did>
                      <container type="box-folder">27/8</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_9">Wedding announcement with ink drawing and written note, by unidentified artist, 1898</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3303" level="file">
+            <c02 id="mferd11e3303" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_8">Mannes, David</unittitle>
                </did>
-               <c03 id="mferd121e3307" level="file">
+               <c03 id="mferd11e3307" level="file">
                   <did>
                      <container type="box-folder">33/1-2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_10">Photogravure plates (2 portraits), by unidentified artist, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3313" level="file">
+               <c03 id="mferd11e3313" level="file">
                   <did>
                      <container type="box-folder">27/9</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_11">Reproduction of drawing (portrait), by Robert Gordon Hardie, 1897</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3319" level="file">
+               <c03 id="mferd11e3319" level="file">
                   <did>
                      <container type="box-folder">27/10</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_12">Reproduction of pencil sketch (portrait), by unidentified artist, 1910</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3326" level="file">
+            <c02 id="mferd11e3326" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_9">Mannes, Marya</unittitle>
                </did>
-               <c03 id="mferd121e3330" level="file">
+               <c03 id="mferd11e3330" level="file">
                   <did>
                      <container type="box-folder">27/11</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_13">Reproduction of oil painting (portrait), by unidentified artist, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3336" level="file">
+            <c02 id="mferd11e3336" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_10">Mielziner, Jo</unittitle>
                </did>
-               <c03 id="mferd121e3340" level="file">
+               <c03 id="mferd11e3340" level="file">
                   <did>
                      <container type="box-folder">27/12</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_14">Pencil sketch (portrait), by unidentified artist, 1920</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3346" level="file">
+            <c02 id="mferd11e3346" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_11">Miscellaneous subjects by Clara Damrosch Mannes</unittitle>
                </did>
-               <c03 id="mferd121e3350" level="file">
+               <c03 id="mferd11e3350" level="file">
                   <did>
                      <container type="box-folder">27/13</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_15">Pencil sketches, 1889-1891, n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3356" level="file">
+               <c03 id="mferd11e3356" level="file">
                   <did>
                      <container type="box-folder">28/1-2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_16">Pencil sketches (2 sketch books), 1894</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3362" level="file">
+            <c02 id="mferd11e3362" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_12">Miscellaneous subjects by Francesca Duran-Reynals</unittitle>
                </did>
-               <c03 id="mferd121e3366" level="file">
+               <c03 id="mferd11e3366" level="file">
                   <did>
                      <container type="box-folder">35/9</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_17">"Retrat de Marya Mannes," 1973  [brochure includes reproduction of portrait]</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3372" level="file">
+            <c02 id="mferd11e3372" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_13">Miscellaneous subjects by Helen Damrosch Tee Van</unittitle>
                </did>
-               <c03 id="mferd121e3376" level="file">
+               <c03 id="mferd11e3376" level="file">
                   <did>
                      <container type="box-folder">27/14</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_18">Reproduction of pencil sketches</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3382" level="file">
+            <c02 id="mferd11e3382" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_14">Miscellaneous subjects by Marya Mannes</unittitle>
                </did>
-               <c03 id="mferd121e3386" level="file">
+               <c03 id="mferd11e3386" level="file">
                   <did>
                      <container type="box-folder">27/15</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_19">Juvenilia</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3392" level="file">
+               <c03 id="mferd11e3392" level="file">
                   <did>
                      <container type="box-folder">27/16</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_20">Sculptures (photographic reproductions), n.d.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3398" level="file">
+               <c03 id="mferd11e3398" level="file">
                   <did>
                      <container type="box-folder">28/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_21">Sculptures (album of photographic reproductions), 1936, Florence  </unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3404" level="file">
+            <c02 id="mferd11e3404" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_15">Miscellaneous subjects by Thomas Wood Stevens</unittitle>
                </did>
-               <c03 id="mferd121e3408" level="file">
+               <c03 id="mferd11e3408" level="file">
                   <did>
                      <container type="box-folder">36/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_22">Watercolor, 1933. Inscribed:  To Walter Damrosch - in souvenir</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3414" level="file">
+            <c02 id="mferd11e3414" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_16">Miscellaneous subjects by unidentified artists</unittitle>
                </did>
-               <c03 id="mferd121e3418" level="file">
+               <c03 id="mferd11e3418" level="file">
                   <did>
                      <container type="box-folder">27/17</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_23">Ink drawings</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3424" level="file">
+               <c03 id="mferd11e3424" level="file">
                   <did>
                      <container type="box-folder">27/18</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_24">Pastel drawings</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3430" level="file">
+               <c03 id="mferd11e3430" level="file">
                   <did>
                      <container type="box-folder">27/19</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_25">Pencil sketches</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3436" level="file">
+               <c03 id="mferd11e3436" level="file">
                   <did>
                      <container type="box-folder">35/10</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_26">Pencil sketches  [oversize]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3442" level="file">
+               <c03 id="mferd11e3442" level="file">
                   <did>
                      <container type="box-folder">27/20</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_27">Pencil sketches with pastels</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3448" level="file">
+               <c03 id="mferd11e3448" level="file">
                   <did>
                      <container type="box-folder">27/21</container>
                      <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D4_28">Watercolors</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3454" level="file">
+            <c02 id="mferd11e3454" level="file">
                <did>
                   <container type="box-folder">27/22</container>
                   <unittitle encodinganalog="245$a" id="mu007003_ARTWORK_CL1010_D3_17">"Victory and defeat," pencil sketch, by Marya Mannes, n.d.</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd121e3460" level="series">
+         <c01 id="mferd11e3460" level="series">
             <did>
                <container type="box">29-32</container>
                <container type="box">35</container>
@@ -2972,46 +2973,46 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by recipient, then name of presenter</p>
             </arrangement>
-            <c02 id="mferd121e3477" level="file">
+            <c02 id="mferd11e3477" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_AWARDS_CL1011_D3_1">Damrosch, Walter</unittitle>
                </did>
-               <c03 id="mferd121e3481" level="file">
+               <c03 id="mferd11e3481" level="file">
                   <did>
                      <container type="box-folder">35/11</container>
                      <unittitle encodinganalog="245$a" id="mu007003_AWARDS_CL1011_D4_1">Institute for Education by Radio, Ohio State University, 1942 May 5  [certificate]</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3487" level="file">
+            <c02 id="mferd11e3487" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_AWARDS_CL1011_D3_2">Mannes, Marya</unittitle>
                </did>
-               <c03 id="mferd121e3491" level="file">
+               <c03 id="mferd11e3491" level="file">
                   <did>
                      <container type="box">29</container>
                      <unittitle encodinganalog="245$a" id="mu007003_AWARDS_CL1011_D4_2">American Jewish Congress National Women's Division, 1969 Jan. 20  [plaque]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3497" level="file">
+               <c03 id="mferd11e3497" level="file">
                   <did>
                      <container type="box-folder">30/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_AWARDS_CL1011_D4_3">Hollins College Citation, 1968 Feb. 22</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3503" level="file">
+               <c03 id="mferd11e3503" level="file">
                   <did>
                      <container type="box">31</container>
                      <unittitle encodinganalog="245$a" id="mu007003_AWARDS_CL1011_D4_4">Long Island University Journalism Department, George Polk Memorial Award, 1958  [plaque]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3509" level="file">
+               <c03 id="mferd11e3509" level="file">
                   <did>
                      <container type="box-folder">30/2</container>
                      <unittitle encodinganalog="245$a" id="mu007003_AWARDS_CL1011_D4_5">Temple University, Honorary Doctor of Letters, 1976 May 27  [diploma]</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3515" level="file">
+               <c03 id="mferd11e3515" level="file">
                   <did>
                      <container type="box">32</container>
                      <unittitle encodinganalog="245$a" id="mu007003_AWARDS_CL1011_D4_6">Theta Sigma Phi, National Fraternity for Women in Journalism, Philadelphia Professional Chapter, Award of Honor, 1962 May 16  [plaque]</unittitle>
@@ -3019,7 +3020,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd121e3521" level="series">
+         <c01 id="mferd11e3521" level="series">
             <did>
                <container type="box">7</container>
                <container type="box">35</container>
@@ -3033,31 +3034,31 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by subject, then chronologically</p>
             </arrangement>
-            <c02 id="mferd121e3538" level="file">
+            <c02 id="mferd11e3538" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_SUBJECT_FILE_CL1012_D3_1">Damrosch Memorial, Woodlawn Cemetery, 1948, n.d.</unittitle>
                </did>
-               <c03 id="mferd121e3542" level="file">
+               <c03 id="mferd11e3542" level="file">
                   <did>
                      <container type="box-folder">7/1</container>
                      <unittitle encodinganalog="245$a" id="mu007003_SUBJECT_FILE_CL1012_D4_1">Correspondence, Photographs, Miscellaneous</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3548" level="file">
+               <c03 id="mferd11e3548" level="file">
                   <did>
                      <container type="box-folder">35/12</container>
                      <unittitle encodinganalog="245$a" id="mu007003_SUBJECT_FILE_CL1012_D4_2">Marker impression</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3554" level="file">
+            <c02 id="mferd11e3554" level="file">
                <did>
                   <container type="box-folder">7/2</container>
                   <unittitle encodinganalog="245$a" id="mu007003_SUBJECT_FILE_CL1012_D3_2">Music School Settlement for Colored People, 1911-61, n.d.</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd121e3560" level="series">
+         <c01 id="mferd11e3560" level="series">
             <did>
                <container type="box">7</container>
                <container type="box">33</container>
@@ -3069,28 +3070,28 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by person</p>
             </arrangement>
-            <c02 id="mferd121e3574" level="file">
+            <c02 id="mferd11e3574" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D3_1">Blow, David</unittitle>
                </did>
-               <c03 id="mferd121e3578" level="file">
+               <c03 id="mferd11e3578" level="file">
                   <did>
                      <container type="box-folder">7/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D4_1">Locks of hair, age of 3 weeks and 3 years (in sealed envelopes)</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3584" level="file">
+            <c02 id="mferd11e3584" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D3_2">[Damrosch, Leopold]</unittitle>
                </did>
-               <c03 id="mferd121e3588" level="file">
+               <c03 id="mferd11e3588" level="file">
                   <did>
                      <container type="box-folder">33/3</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D4_2">Wallet</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd121e3594" level="file">
+               <c03 id="mferd11e3594" level="file">
                   <did>
                      <container type="box-folder">7/4</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D4_3">Wallet Contents</unittitle>
@@ -3106,29 +3107,29 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu007003
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3612" level="file">
+            <c02 id="mferd11e3612" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D3_3">Mannes, David</unittitle>
                </did>
-               <c03 id="mferd121e3616" level="file">
+               <c03 id="mferd11e3616" level="file">
                   <did>
                      <container type="box-folder">7/5</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D4_4">List of donors to the town hall chair in honor of David Mannes, n.d.</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3622" level="file">
+            <c02 id="mferd11e3622" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D3_4">Mannes, Marya</unittitle>
                </did>
-               <c03 id="mferd121e3626" level="file">
+               <c03 id="mferd11e3626" level="file">
                   <did>
                      <container type="box-folder">7/6</container>
                      <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D4_5">List of <emph render="italic">Reporter</emph> staff, 1963</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd121e3635" level="file">
+            <c02 id="mferd11e3635" level="file">
                <did>
                   <container type="box-folder">7/7</container>
                   <unittitle encodinganalog="245$a" id="mu007003_MISCELLANEOUS_CL1013_D3_5">Unidentified person, lock of hair, n.d.</unittitle>

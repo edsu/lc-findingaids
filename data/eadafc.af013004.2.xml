@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Tue, 28 May 2013 11:35:43 AM EDT
+URL: http://hdl.loc.gov/loc.afc/eadafc.af013004
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.afc/eadafc.af013004--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadafc.af013004--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": af013004-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd26e1">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd26e2">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.afc/eadafc.af013004"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.afc/eadafc.af013004</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Don Yoder Collection of Tape
+               Recordings</titleproper>
+            <subtitle>
+               <num>AFC 2003/051</num>
+            </subtitle>
+            <author encodinganalog="245$c">Prepared by Marcia K. Segal</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>American Folklife Center,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2013-03" encodinganalog="260$c">March 2013</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to the Collections in the Archive of Folk Culture</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.afc/folklife.home">http://hdl.loc.gov/loc.afc/folklife.home</extref>
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2010655344"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2010655344</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Marcia K. Segal, <date normal="2013-03">March 2013</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd26e54">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Don Yoder Collection of Tape Recordings
+               <unitdate label="Inclusive Dates" type="inclusive" normal="1951/1979"
+                      encodinganalog="260$c"
+                      datechar="creation">1951-1979</unitdate>
+         </unittitle>
+         <unitid label="Call No." encodinganalog="090" countrycode="US" repositorycode="US-DLC">AFC
+            2003/051</unitid>
+         <origination label="Creator">
+            <corpname encodinganalog="110" source="lcnaf">Yoder, Don</corpname>
+         </origination>
+         <physdesc label="Extent (manuscripts)">
+            <extent encodinganalog="300">3 boxes.</extent>
+         </physdesc>
+         <physdesc label="Extent (sound recordings)">
+            <extent encodinganalog="300">152 sound tape reels : analog ; various sizes.</extent>
+         </physdesc>
+         <physdesc label="Extent (sound recordings)">
+            <extent encodinganalog="300">21 sound cassettes : analog.</extent>
+         </physdesc>
+         <physdesc label="Extent (sound recordings)">
+            <extent encodinganalog="300">1 sound disc : analog, 45 rpm.</extent>
+         </physdesc>
+         <physdesc label="Extent (graphic materials)">
+            <extent encodinganalog="300">2 photographs : black and white ; 3 1/2 x 5 in.</extent>
+         </physdesc>
+         <langmaterial label="Language" encodinganalog="546">
+            <language> Sound recordings of songs and speech are in Pennsylvania German and in
+               English; possibly some French and Spanish.</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Archive of Folk Culture, American Folklife Center</subarea>Library of
+               Congress </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                    xlink:actuate="onRequest"
+                    xlink:href="http://hdl.loc.gov/loc.afc/folklife.home">
+               http://hdl.loc.gov/loc.afc/folklife.home </extref>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Collection of field recordings made by
+            professor Don Yoder to document various religious sects and religious and secular folk
+            traditions primarily in Pennsylvania and in the northeastern United States. Included are
+            recordings of Pennsylvania German conversation, interviews, hymns, prayers, church
+            services including sermons, folk dance music, humorous songs, and folk festivals. Manuscripts 
+            include a few published articles by Don Yoder and various folk festival programs.
+            </abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2010655344.10001"
+                     altrender=":::F005=^20130301115713.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the
+               Library's online catalog. They are grouped by name of person or organization, by
+               subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd26e122">
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Yoder%2C+Don%2C^">Yoder, Don, collector.</persname>
+         </controlaccess>
+         <controlaccess id="mferd26e127">
+            <head>Organizations</head>
+            <corpname encodinganalog="711" source="lcnaf"
+                      altrender=":::PWEBRECON=^Pennsylvania+Dutch+Folk+Festival%3A+%282nd%3A+1951+%3A+Kutztown%2C+Pa.%29^">Pennsylvania Dutch Folk Festival: (2nd: 1951 : Kutztown, Pa.)</corpname>
+            <corpname encodinganalog="711" source="lcnaf"
+                      altrender=":::PWEBRECON=^Pennsylvania+Dutch+Harvest+Frolic%3A+%281st%3A+1961+%3A+Lancaster%2C+Pa.%29^">Pennsylvania Dutch Harvest Frolic: (1st: 1961 : Lancaster, Pa.)</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^WEEU+%28Radio+station+%3A+Reading%2C+Pa.%29^">WEEU (Radio
+               station : Reading, Pa.)</corpname>
+         </controlaccess>
+         <controlaccess id="mferd26e136">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^African+Americans+Social+life+and+customs.^">African
+               Americans--Social life and customs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Baptists+Kentucky+Hymns.^">Baptists--Kentucky--Hymns.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Christmas+music+Pennsylvania.^">Christmas
+               music--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Field+recordings+New+Jersey.^">Field recordings--New
+               Jersey.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Field+recordings+Pennsylvania.^">Field
+               recordings--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+dance+music+Pennsylvania.^">Folk dance
+               music--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+festivals+Pennsylvania.^">Folk
+               festivals--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+music+Pennsylvania.^">Folk
+               music--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Folk+songs%2C+Pennsylvania+German+Pennsylvania.^">Folk
+               songs, Pennsylvania German--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Healing+Religious+aspects.^">Healing--Religious
+               aspects.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Hymns%2C+English+Pennsylvania.^">Hymns,
+               English--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Hymns%2C+German+Pennsylvania.^">Hymns,
+               German--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Italian+American+Catholics+New+Jersey+Religion.^">Italian
+               American Catholics--New Jersey--Religion.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Italian+American+Catholics+New+Jersey+Social+life+and+customs.^">Italian American Catholics--New Jersey--Social life and customs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Jews%2C+Russian+United+States+Social+life+and+customs.^">Jews, Russian--United States--Social life and customs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Pennsylvania+Dutch+Pennsylvania+Music.^">Pennsylvania
+               Dutch--Pennsylvania--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Pennsylvania+Dutch+Pennsylvania+Religion.^">Pennsylvania
+               Dutch--Pennsylvania--Religion.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Pennsylvania+Dutch+Pennsylvania+Social+life+and+customs.^">Pennsylvania Dutch--Pennsylvania--Social life and customs.</subject>
+            <subject encodinganalog="650" source="afset"
+                     altrender=":::PWEBRECON=^Powwows+%28healers%29^">Powwows (healers)</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Revival+hymns+Pennsylvania.^">Revival
+               hymns--Pennsylvania.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Shakers+Religion.^">Shakers--Religion.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Syrian+Americans+Social+life+and+customs.^">Syrian
+               Americans--Social life and customs.</subject>
+         </controlaccess>
+         <controlaccess id="mferd26e185">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="lcgft"
+                       altrender=":::PWEBRECON=^Field+recordings.^">Field recordings.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Interviews.^">Interviews.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Prayers.^">Prayers.</genreform>
+            <genreform encodinganalog="655" source="lcgft" altrender=":::PWEBRECON=^Radio+programs.^">Radio programs.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd26e196">
+         <head>Administrative Information</head>
+         <arrangement encodinganalog="351" id="mferd26e199">
+            <head>Arrangement</head>
+            <p>Organized by format into the following series: I. Manuscripts; II. Sound Recordings;
+               III. Graphic Materials.</p>
+         </arrangement>
+         <otherfindaid encodinganalog="555$a" id="mferd26e204">
+            <head>Additional Guides</head>
+            <p>Partial logs for the sound recordings are available in the Folklife Reading Room,
+               Library of Congress.</p>
+         </otherfindaid>
+         <acqinfo encodinganalog="541" id="mferd26e209">
+            <head>Acquisition</head>
+            <p>Don Yoder. </p>
+         </acqinfo>
+         <processinfo encodinganalog="583" id="mferd26e214">
+            <head>Processing History</head>
+            <p>Marcia K. Segal processed the collection and created the logs for selected sound
+               recordings.</p>
+         </processinfo>
+         <relatedmaterial encodinganalog="544 1" id="mferd26e219">
+            <head>Related Material</head>
+            <p>Don Yoder Collection of Wire Recordings (AFC 1970/004).</p>
+         </relatedmaterial>
+         <userestrict encodinganalog="540" id="mferd26e224">
+            <head>Copyright Status</head>
+            <p>Duplication of sound recordings may be governed by copyright and other
+               restrictions.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd26e229">
+            <head>Access and Restrictions</head>
+            <p>Collection is open for research; access restrictions for some recordings may apply.
+               To request materials, please contact the Folklife Reading Room at
+               http://hdl.loc.gov/loc.afc/folklife.contact</p>
+         </accessrestrict>
+         <altformavail encodinganalog="530" id="mferd26e234">
+            <head>Electronic Format</head>
+            <p>The sound recordings have been digitized.</p>
+         </altformavail>
+         <prefercite encodinganalog="524" id="mferd26e239">
+            <head>Preferred Citation</head>
+            <p>Don Yoder Collection of Tape Recordings (AFC 2003/051), Archive of Folk Culture,
+               American Folklife Center, Library of Congress, Washington, D.C.</p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd26e244">
+         <head>Biograhical Notes</head>
+         <p>Born in 1921, in Altoona, Pennsylvania, Don Yoder grew up immersed in the traditions of
+            Pennsylvania German culture. Educated at Franklin and Marshall College (A.B., 1942 and
+            B.D., 1945), and at the University of Chicago (Ph.D., 1947), Yoder was chair of the
+            Department of Folklore and Folklife at the University of Pennsylvania from 1966-1969,
+            and retired from teaching after 40 years. He authored and co-authored hundreds of
+            publications, traveled and lectured widely, and held varied posts, including director of
+            the Pennsylvania Folklife Society (which he co-founded), editor of <emph render="italic">Pennsylvania Folklife</emph>, president of the American Folklore Society, and
+            Professor Emeritus of Folklife Studies, University of Pennsylvania. He is a member of
+            Phi Beta Kappa, and has been elected fellow to the American Antiquarian Society and the
+            American Genealogical Society, among others. He introduced the European concept and
+            practice of folklife studies in the United States.</p>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd26e252">
+         <head>Scope and Content</head>
+         <p>Collection of field recordings made by professor Don Yoder to document various religious
+            sects and religious and secular folk traditions primarily in Pennsylvania and in the
+            northeastern United States. Included are recordings of Pennsylvania German conversation,
+            interviews, hymns, prayers, church services including sermons, folk dance music,
+            humorous songs, and folk festivals. Some tapes document Don Yoder's lectures and contain
+            materials prepared for his classes on folk religion recorded by Dr. Yoder and other
+            scholars and by his students at the University of Pennsylvania. Recordings were made of
+            various events including the first Pennsylvania Dutch Harvest Frolic, August
+            30-September 1, 1961; and the second annual and other years of the Pennsylvania Dutch
+            Folk Festival, Kutztown, Pennsylvania (recorded from a broadcast by WEEU) where
+            participants were interviewed about local history; folk religious beliefs and practices,
+            including prayer and the himmelsbrief; and healing traditions including Pennsylvania
+            Dutch powwowing, and religious healing in Catholic and other traditions. Local choirs
+            performed Pennsylvania German hymns and revival hymns, some in English; and Christmas
+            music from Pennsylvania Dutch country. Other interviewees are a Russian woman who
+            emigrated as a child and who speaks about Jewish customs related to pregnancy and birth;
+            Italian Americans interviewed about miracles of healing, intercessory prayer, and the
+            St. Anthony Beneficial Society, Glassboro, N.J.; Baptist church singers from Kentucky
+            demonstrating lining-out hymnody; interviews about Shakers; and other unidentified
+            content. Included is a sound tape reel of Korean shamanic chant. Manuscripts include a
+            few published articles by Don Yoder and varied folk festival programs.</p>
+      </scopecontent>
+      <!--$otherfindiaidTestCheck: no--><otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2010655344"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2010655344</extref>
+      </otherfindaid>
+      <dsc id="mferd26e257" type="combined">
+         <head althead="Container List">Container List</head>
+         <c01 level="series" id="mferd26e260">
+            <did>
+               <unittitle>Series I: Manuscripts</unittitle>
+            </did>
+            <c02 level="file" id="mferd26e264">
+               <did>
+                  <container type="box-folder">1/1</container>
+                  <unittitle encodinganalog="245$a">Collection finding aid</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">10 pp.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e273">
+               <did>
+                  <container type="box-folder">1/2</container>
+                  <unittitle encodinganalog="245$a">Manuscript materials accompanying sound
+                     recordings (original)</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">One linear inch.</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Includes letters, documentation about the contents, specific sound recordings,
+                     and other related materials.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file" id="mferd26e285">
+               <did>
+                  <container type="box-folder">1/3</container>
+                  <unittitle encodinganalog="245$a">Audio containers, reels, and manuscript
+                     materials (photocopies), Folder 1 of 6</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Includes documentation for
+                        SR001-035.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e294">
+               <did>
+                  <container type="box-folder">1/4</container>
+                  <unittitle encodinganalog="245$a">Audio containers, reels, and manuscript
+                     materials (photocopies), Folder 2 of 6</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Includes documentation for
+                        SR036-064.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e303">
+               <did>
+                  <container type="box-folder">1/5</container>
+                  <unittitle encodinganalog="245$a">Audio containers, reels, and manuscript
+                     materials (photocopies), Folder 3 of 6</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Includes documentation for SR065-088. No
+                        documentation for SR066, SR074-075, and SR089.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e312">
+               <did>
+                  <container type="box-folder">1/6</container>
+                  <unittitle encodinganalog="245$a">Audio containers, reels, and manuscript
+                     materials (photocopies), Folder 4 of 6</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Includes documentation for SR090-129. No
+                        documentation for SR115.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e321">
+               <did>
+                  <container type="box-folder">1/7</container>
+                  <unittitle encodinganalog="245$a">Audio containers, reels, and manuscript
+                     materials (photocopies), Folder 5 of 6</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Includes documentation for
+                        SR130-159.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e330">
+               <did>
+                  <container type="box-folder">1/8</container>
+                  <unittitle encodinganalog="245$a">Audio containers, reels, and manuscript
+                     materials (photocopies), Folder 6 of 6</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Includes documentation for SR160-170, plus
+                        a list of recordings made on October 9, 1968, at the home of Samuel H.
+                        Peachey. No documentation for SR171-174.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e339">
+               <did>
+                  <container type="box-folder">1/9</container>
+                  <unittitle encodinganalog="245$a">Behney, William H. <emph render="italic">Choruses adapted to standard hymns : a collection for revival services,
+                        prayer meetings, etc.</emph> Lebanon Courier Print, ca. 1890s. 107
+                     pages.</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">66 hymns, indexed by first
+                     lines.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e351">
+               <did>
+                  <container type="box-folder">1/10</container>
+                  <unittitle encodinganalog="245$a">Publications by or about Don Yoder</unittitle>
+                  <physdesc>Includes the program for the 1968 Smithsonian Institution Festival of
+                     American Folklife, <emph render="italic">Pennsylvania Folklife</emph> (Summer
+                     1978), and <emph render="italic">Pennsylvania Heritage</emph> (Spring
+                     2006).</physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e366">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Original tape boxes for sound
+                     recordings</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Includes containers for SR004, SR008,
+                        SR015, SR018, SR028, SR039, SR043, and SR050.</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Original boxes with information too faint to photocopy.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file" id="mferd26e378">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Original tape boxes for sound
+                     recordings</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">Includes containers for SR051, SR056,
+                        SR094, SR123-SR124, SR136, and SR148.</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Original boxes with information too faint to photocopy.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd26e390">
+            <did>
+               <unittitle>Series II: Sound Recordings</unittitle>
+            </did>
+            <c02 id="mferd26e394" level="file">
+               <did>
+                  <unitid>AFC 2003/051: SR001-SR174</unitid>
+                  <unittitle>Sound recordings, recorded
+                     ca.<unitdate>1951-1979</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>174 items, consisting of 152 sound tape reels, 21 sound
+                        cassettes, and 1 sound disc (45 rpm).</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Includes recordings of music and spoken word from the Pennsylvania Dutch Folk
+                     Festival (Kutztown, PA), the first Pennsylvania Dutch Harvest Frolic, and
+                     elsewhere; genres include spirituals, powwowing, dance music, and other styles.
+                     Sound quality various, especially since the majority of recordings were made
+                     outdoors. Also includes one sound tape reel of Korean shamanic chant.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd26e408">
+            <did>
+               <unittitle>Series III: Graphic Materials</unittitle>
+            </did>
+            <c02 level="file" id="mferd26e412">
+               <did>
+                  <container type="box-folder">1/11</container>
+                  <unitid>AFC 2003/051: PH01</unitid>
+                  <unittitle encodinganalog="245$a">George Kaufmann, dulcimer builder and player,
+                     stringing his most recent board. Photo dated September 1968</unittitle>
+                  <physdesc>Black-and-white photographic print (3 1/2 x 5 in. )</physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd26e422">
+               <did>
+                  <container type="box-folder">1/12</container>
+                  <unitid>AFC 2003/051: PH02</unitid>
+                  <unittitle encodinganalog="245$a">A closer view of the "board." Photo dates from
+                     September 1968 (taken the same day as PH01)</unittitle>
+                  <physdesc>Black-and-white photographic print (3 1/2 x 5 in. )</physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

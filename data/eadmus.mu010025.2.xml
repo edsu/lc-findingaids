@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 19 August 2011 12:17:25 PM EDT
+Generated: Wed, 31 October 2012 04:12:09 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010025--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010025--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010025-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd265e3">
-   <eadheader id="mferd265e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd177e3">
+   <eadheader id="mferd177e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -99,11 +99,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
          </repository>
          <abstract label="Summary" encodinganalog="520$a">The Franko Goldman Family Papers are primarily related to the professional lives of brothers Sam (1857-1937) and Nahan Franko (1861-1930), their nephew Edwin Franko Goldman (1878-1956), and his son Richard Franko Goldman (1910-1980). Sam and Nahan were violinists and conductors; Edwin was a bandmaster and band composer; and Richard was a bandmaster, composer, educator, and music critic. The materials include correspondence from prominent musicians, composers and conductors; a selection of writings, including a typescript of the unpublished autobiography of Edwin Franko Goldman and several articles by Richard Franko Goldman; photographs of Richard Franko Goldman, the Goldman Band, and various composers and musicians; and six scrapbooks belonging to Sam Franko that contain manuscript notes and commentaries and other ephemera relating to his life and career. In addition, the collection includes an autograph book compiled by Richard Franko Goldman's great-aunt Lybia Franko, which contains seventy-four inscriptions and autographs of prominent musical and theatrical figures.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd5713e89" altrender=":::F005=^20100928152225.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd5713e89" altrender=":::F005=^20100928152225.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd267e7">
+         <controlaccess id="mferd5715e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Ch%C3%A1vez%2C+Carlos%2C+1899-1978+Photographs.^">Chávez, Carlos, 1899-1978--Photographs.</persname>
@@ -165,12 +166,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Var%C3%A8se%2C+Edgard%2C+1883-1965+Correspondence.^">Varèse, Edgard, 1883-1965--Correspondence.</persname>
          </controlaccess>
-         <controlaccess id="mferd267e72">
+         <controlaccess id="mferd5715e113">
             <head>Organizations</head>
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Edwin+Franko+Goldman+Band.^">Edwin Franko Goldman Band.</corpname>
          </controlaccess>
-         <controlaccess id="mferd267e77">
+         <controlaccess id="mferd5715e122">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Band+directors+United+States.^">Band directors--United States.</subject>
@@ -181,7 +182,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Violinists+United+States.^">Violinists--United States.</subject>
          </controlaccess>
-         <controlaccess id="mferd267e88">
+         <controlaccess id="mferd5715e141">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Autograph+albums.^">Autograph albums.</genreform>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
@@ -265,35 +266,35 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd265e314" level="series">
+         <c01 id="mferd177e314" level="series">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a">Correspondence, 
 			 	<unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1920/1972">1920-1972</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd265e323" level="file">
+            <c02 id="mferd177e323" level="file">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle encodinganalog="245$a">Bořkovec, Pavel
 				  </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e329" level="file">
+            <c02 id="mferd177e329" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Conrad, Heinrich
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e335" level="file">
+            <c02 id="mferd177e335" level="file">
                <did>
                   <container type="box-folder">1/3</container>
                   <unittitle encodinganalog="245$a">Copland, Aaron
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e341" level="file">
+            <c02 id="mferd177e341" level="file">
                <did>
                   <container type="box-folder">1/4</container>
                   <unittitle encodinganalog="245$a">Cowell, Henry, 
@@ -301,7 +302,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e350" level="file">
+            <c02 id="mferd177e350" level="file">
                <did>
                   <container type="box-folder">1/5</container>
                   <unittitle encodinganalog="245$a">Cowell, Henry, 
@@ -309,7 +310,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e359" level="file">
+            <c02 id="mferd177e359" level="file">
                <did>
                   <container type="box-folder">1/6</container>
                   <unittitle encodinganalog="245$a">Cowell, Henry, 
@@ -317,49 +318,49 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e368" level="file">
+            <c02 id="mferd177e368" level="file">
                <did>
                   <container type="box-folder">1/7</container>
                   <unittitle encodinganalog="245$a">Dallapiccola, Luigi
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e374" level="file">
+            <c02 id="mferd177e374" level="file">
                <did>
                   <container type="box-folder">1/8</container>
                   <unittitle encodinganalog="245$a">Damrosch, Walter
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e380" level="file">
+            <c02 id="mferd177e380" level="file">
                <did>
                   <container type="box-folder">1/9</container>
                   <unittitle encodinganalog="245$a">Falk, Richard
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e386" level="file">
+            <c02 id="mferd177e386" level="file">
                <did>
                   <container type="box-folder">1/10</container>
                   <unittitle encodinganalog="245$a">Franko, Nahan
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e393" level="file">
+            <c02 id="mferd177e393" level="file">
                <did>
                   <container type="box-folder">1/11</container>
                   <unittitle encodinganalog="245$a">Golschmann, Vladimir
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e399" level="file">
+            <c02 id="mferd177e399" level="file">
                <did>
                   <container type="box-folder">1/12</container>
                   <unittitle encodinganalog="245$a">Gould, Morton
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e405" level="file">
+            <c02 id="mferd177e405" level="file">
                <did>
                   <container type="box-folder">1/13</container>
                   <unittitle encodinganalog="245$a">Grainger, Percy, 
@@ -367,7 +368,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e414" level="file">
+            <c02 id="mferd177e414" level="file">
                <did>
                   <container type="box-folder">1/14</container>
                   <unittitle encodinganalog="245$a">Grainger, Percy, 
@@ -375,7 +376,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e423" level="file">
+            <c02 id="mferd177e423" level="file">
                <did>
                   <container type="box-folder">1/15</container>
                   <unittitle encodinganalog="245$a">Grainger, Percy, 
@@ -383,7 +384,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e432" level="file">
+            <c02 id="mferd177e432" level="file">
                <did>
                   <container type="box-folder">1/16</container>
                   <unittitle encodinganalog="245$a">Grainger, Percy, 
@@ -391,7 +392,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e441" level="file">
+            <c02 id="mferd177e441" level="file">
                <did>
                   <container type="box-folder">1/17</container>
                   <unittitle encodinganalog="245$a">Grainger, Percy, 
@@ -399,7 +400,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e450" level="file">
+            <c02 id="mferd177e450" level="file">
                <did>
                   <container type="box-folder">1/18</container>
                   <unittitle encodinganalog="245$a">Grainger, Percy, 
@@ -407,14 +408,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e459" level="file">
+            <c02 id="mferd177e459" level="file">
                <did>
                   <container type="box-folder">1/19</container>
                   <unittitle encodinganalog="245$a">Grainger, Percy, holograph envelopes
 						</unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e465" level="file">
+            <c02 id="mferd177e465" level="file">
                <did>
                   <container type="box-folder">1/20</container>
                   <unittitle encodinganalog="245$a">Hadley, Henry
@@ -422,7 +423,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e473" level="file">
+            <c02 id="mferd177e473" level="file">
                <did>
                   <container type="box-folder">1/21</container>
                   <unittitle encodinganalog="245$a">Herbert, Victor
@@ -430,7 +431,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e482" level="file">
+            <c02 id="mferd177e482" level="file">
                <did>
                   <container type="box-folder">1/22</container>
                   <unittitle encodinganalog="245$a">Holst, Gustav
@@ -438,7 +439,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e490" level="file">
+            <c02 id="mferd177e490" level="file">
                <did>
                   <container type="box-folder">1/23</container>
                   <unittitle encodinganalog="245$a">Kindler, Hans
@@ -446,7 +447,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e498" level="file">
+            <c02 id="mferd177e498" level="file">
                <did>
                   <container type="box-folder">1/24</container>
                   <unittitle encodinganalog="245$a">Kreisler, Fritz
@@ -454,7 +455,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e506" level="file">
+            <c02 id="mferd177e506" level="file">
                <did>
                   <container type="box-folder">1/25</container>
                   <unittitle encodinganalog="245$a">McArthur, Edwin D.
@@ -462,7 +463,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e514" level="file">
+            <c02 id="mferd177e514" level="file">
                <did>
                   <container type="box-folder">1/26</container>
                   <unittitle encodinganalog="245$a">Mason, Daniel Gregory
@@ -470,7 +471,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e522" level="file">
+            <c02 id="mferd177e522" level="file">
                <did>
                   <container type="box-folder">1/27</container>
                   <unittitle encodinganalog="245$a">Menuhin, Yehudi
@@ -478,7 +479,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e530" level="file">
+            <c02 id="mferd177e530" level="file">
                <did>
                   <container type="box-folder">1/28</container>
                   <unittitle encodinganalog="245$a">Milhaud, Darius
@@ -486,7 +487,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e538" level="file">
+            <c02 id="mferd177e538" level="file">
                <did>
                   <container type="box-folder">1/29</container>
                   <unittitle encodinganalog="245$a">Moore, Douglas
@@ -494,7 +495,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e546" level="file">
+            <c02 id="mferd177e546" level="file">
                <did>
                   <container type="box-folder">1/30</container>
                   <unittitle encodinganalog="245$a">Moszkowski, Moritz
@@ -502,7 +503,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e554" level="file">
+            <c02 id="mferd177e554" level="file">
                <did>
                   <container type="box-folder">1/31</container>
                   <unittitle encodinganalog="245$a">Paur, Emil
@@ -510,7 +511,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e562" level="file">
+            <c02 id="mferd177e562" level="file">
                <did>
                   <container type="box-folder">1/32</container>
                   <unittitle encodinganalog="245$a">Riegger, Wallingford
@@ -518,7 +519,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e571" level="file">
+            <c02 id="mferd177e571" level="file">
                <did>
                   <container type="box-folder">1/33</container>
                   <unittitle encodinganalog="245$a">Rodzinski, Artur
@@ -526,7 +527,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e579" level="file">
+            <c02 id="mferd177e579" level="file">
                <did>
                   <container type="box-folder">1/34</container>
                   <unittitle encodinganalog="245$a">Rudhyar, Dane
@@ -534,7 +535,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e587" level="file">
+            <c02 id="mferd177e587" level="file">
                <did>
                   <container type="box-folder">1/35</container>
                   <unittitle encodinganalog="245$a">Scott, Cyril
@@ -542,7 +543,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e595" level="file">
+            <c02 id="mferd177e595" level="file">
                <did>
                   <container type="box-folder">1/36</container>
                   <unittitle encodinganalog="245$a">Sevitzky, Fabien
@@ -550,7 +551,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e603" level="file">
+            <c02 id="mferd177e603" level="file">
                <did>
                   <container type="box-folder">1/37</container>
                   <unittitle encodinganalog="245$a">Sousa, John Philip
@@ -558,7 +559,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e611" level="file">
+            <c02 id="mferd177e611" level="file">
                <did>
                   <container type="box-folder">1/38</container>
                   <unittitle encodinganalog="245$a">Sowerby, Leo
@@ -566,7 +567,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e619" level="file">
+            <c02 id="mferd177e619" level="file">
                <did>
                   <container type="box-folder">1/39</container>
                   <unittitle encodinganalog="245$a">Stoessel, Albert
@@ -574,7 +575,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e627" level="file">
+            <c02 id="mferd177e627" level="file">
                <did>
                   <container type="box-folder">1/40</container>
                   <unittitle encodinganalog="245$a">Varèse, Edgar
@@ -582,7 +583,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e635" level="file">
+            <c02 id="mferd177e635" level="file">
                <did>
                   <container type="box-folder">1/41</container>
                   <unittitle encodinganalog="245$a">Volpe, Arnold
@@ -590,7 +591,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd265e643" level="file">
+            <c02 id="mferd177e643" level="file">
                <did>
                   <container type="box-folder">1/42</container>
                   <unittitle encodinganalog="245$a">unidentified
@@ -599,13 +600,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                </did>
             </c02>
          </c01>
-         <c01 id="mferd265e651" level="series">
+         <c01 id="mferd177e651" level="series">
             <did>
                <container type="box">2</container>
                <unittitle encodinganalog="245$a">Writings, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1932/1972">1932-1972</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd265e660" level="file">
+            <c02 id="mferd177e660" level="file">
                <did>
                   <container type="box-folder">2/1</container>
                   <unittitle encodinganalog="245$a">Article on building band programs by Edwin Franko Goldman</unittitle>
@@ -614,7 +615,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd265e671" level="file">
+            <c02 id="mferd177e671" level="file">
                <did>
                   <container type="box-folder">2/2</container>
                   <unittitle encodinganalog="245$a">
@@ -629,7 +630,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </note>
                </did>
             </c02>
-            <c02 id="mferd265e691" level="file">
+            <c02 id="mferd177e691" level="file">
                <did>
                   <container type="box-folder">2/3-7</container>
                   <unittitle encodinganalog="245$a">"Facing the music" by Edwin Franko Goldman
@@ -642,7 +643,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd265e705" level="file">
+            <c02 id="mferd177e705" level="file">
                <did>
                   <container type="box-folder">2/8</container>
                   <unittitle encodinganalog="245$a">"History, information, and art," 
@@ -656,7 +657,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd265e722" level="file">
+            <c02 id="mferd177e722" level="file">
                <did>
                   <container type="box-folder">2/9</container>
                   <unittitle encodinganalog="245$a">Ideas for band clinics and a band school
@@ -669,7 +670,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd265e736" level="file">
+            <c02 id="mferd177e736" level="file">
                <did>
                   <container type="box-folder">2/10</container>
                   <unittitle encodinganalog="245$a">"Jacques Barzun" by Richard Franko Goldman
@@ -680,7 +681,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </note>
                </did>
             </c02>
-            <c02 id="mferd265e751" level="file">
+            <c02 id="mferd177e751" level="file">
                <did>
                   <container type="box-folder">2/11</container>
                   <unittitle encodinganalog="245$a">L&amp;M XX [class notes], 
@@ -691,7 +692,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </note>
                </did>
             </c02>
-            <c02 id="mferd265e763" level="file">
+            <c02 id="mferd177e763" level="file">
                <did>
                   <container type="box-folder">2/12</container>
                   <unittitle encodinganalog="245$a">Poetry, 
@@ -702,7 +703,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </note>
                </did>
             </c02>
-            <c02 id="mferd265e775" level="file">
+            <c02 id="mferd177e775" level="file">
                <did>
                   <container type="box-folder">2/13</container>
                   <unittitle encodinganalog="245$a">Portugal onward: an exchange,
@@ -713,7 +714,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </note>
                </did>
             </c02>
-            <c02 id="mferd265e790" level="file">
+            <c02 id="mferd177e790" level="file">
                <did>
                   <container type="box-folder">2/14</container>
                   <unittitle encodinganalog="245$a">"The seven deadly arts," 
@@ -728,13 +729,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                </did>
             </c02>
          </c01>
-         <c01 id="mferd265e807" level="series">
+         <c01 id="mferd177e807" level="series">
             <did>
                <container type="box">2</container>
                <unittitle encodinganalog="245$a">Photographs, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1887/1950">1887-circa 1950</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd265e816" level="file">
+            <c02 id="mferd177e816" level="file">
                <did>
                   <container type="box-folder">2/15</container>
                   <unittitle encodinganalog="245$a">Photographs of Richard Franko Goldman and the Goldman Band</unittitle>
@@ -743,7 +744,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd265e827" level="file">
+            <c02 id="mferd177e827" level="file">
                <did>
                   <container type="box-folder">2/16</container>
                   <unittitle encodinganalog="245$a">Photographs of various composers and musicians</unittitle>
@@ -753,7 +754,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                </did>
             </c02>
          </c01>
-         <c01 id="mferd265e838" level="series">
+         <c01 id="mferd177e838" level="series">
             <did>
                <container type="box">3-4</container>
                <unittitle encodinganalog="245$a">Scrapbooks, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1902/1937">1902-1937</unitdate>
@@ -763,7 +764,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010025
                <p>The Scrapbook series contains six scrapbooks belonging to Sam Franko that contain manuscript notes and commentaries, programs, clippings, letters, photographs and other ephemera relating to his life and career.</p>
             </scopecontent>
          </c01>
-         <c01 id="mferd265e850" level="series">
+         <c01 id="mferd177e850" level="series">
             <did>
                <container type="box">4</container>
                <unittitle encodinganalog="245$a">Autograph Book, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1886/1900">1886-1900</unitdate>

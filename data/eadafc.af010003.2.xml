@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ==========Schema Conversion:========== 
  Transformed with dtd2schema.06.xsl 
-Generated: Thu, 16 February 2012 11:13:01 AM EST
+Generated: Sat, 31 August 2013 11:26:04 AM EDT
 URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
  ===================================== -->
 <!-- Transformed with viv2002_4.xsl -->
@@ -9,8 +9,8 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd5317e2">
-   <eadheader id="mferd5317e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd805e2">
+   <eadheader id="mferd805e3" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -62,7 +62,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
       </profiledesc>
    </eadheader>
    <archdesc type="register" level="collection" relatedencoding="MARC21">
-      <did id="mferd5317e40">
+      <did id="mferd805e40">
          <head>Collection Summary</head>
          <unitid label="Collection Number" encodinganalog="090" countrycode="US"
                  repositorycode="US-DLC">AFC 1977/003</unitid>
@@ -111,7 +111,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 		  Library of Congress, from April through October 1977, sponsored by the American
 		  Folklife Center and the National Council for the Traditional Arts.</abstract>
       </did>
-      <scopecontent id="mferd5317e91" encodinganalog="520">
+      <scopecontent id="mferd805e91" encodinganalog="520">
          <head>Scope and Content</head>
          <p>The 1977 Neptune Plaza Concert Series Collection consists of
 		  manuscript and print materials, audio recordings, and graphic materials that
@@ -191,21 +191,21 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
             </table> 
          </p>
       </scopecontent>
-      <bioghist id="mferd5317e188" encodinganalog="545">
+      <bioghist id="mferd805e188" encodinganalog="545">
          <head>Administrative History</head>
          <p>Documentation created and accessioned by the American Folklife Center
 		  in 1977.</p>
       </bioghist>
-      <!--m2cUpdateNodeSet--><controlaccess id="mferd5317e193" altrender=":::F005=^20101001143007.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd805e193" altrender=":::F005=^20101001143007.0^"><!--LN:282--><head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this
 			 collection in the Library's online catalog. They are grouped by name of person
 			 or organization, by subject or location, and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd5319e12">
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd807e12">
             <head>People</head>
             <persname encodinganalog="700" source="lcnaf"
-                      altrender=":::PWEBRECON=^Boggs%2C+Lindy%2C+1916-^">Boggs, Lindy, 1916-  speaker.</persname>
+                      altrender=":::PWEBRECON=^Boggs%2C+Lindy%2C+1916-2013%2C^">Boggs, Lindy, 1916-2013, speaker.</persname>
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Jackson%2C+John%2C+1924-2002%2C^">Jackson, John, 1924-2002, performer.</persname>
             <persname encodinganalog="700" source="lcnaf"
@@ -213,12 +213,12 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Reed%2C+Ola+Belle%2C+1916-2002%2C^">Reed, Ola Belle, 1916-2002, performer.</persname>
          </controlaccess>
-         <controlaccess id="mferd5319e30">
+         <controlaccess id="mferd807e30">
             <head>Organizations</head>
             <corpname encodinganalog="710$a" source="lcnaf"
                       altrender=":::PWEBRECON=^American+Folklife+Center%2C^">American Folklife Center, collector.</corpname>
             <corpname encodinganalog="710$a" source="lcnaf"
-                      altrender=":::PWEBRECON=^Archive+of+Folk+Culture+%28Library+of+Congress%29%2C^">Archive of Folk Culture (Library of Congress), collector.</corpname>
+                      altrender=":::PWEBRECON=^Archive+of+Folk+Culture+%28Library+of+Congress%29^">Archive of Folk Culture (Library of Congress)</corpname>
             <corpname encodinganalog="710$a" source="lcnaf"
                       altrender=":::PWEBRECON=^Balfa+Brothers%2C^">Balfa Brothers, performer.</corpname>
             <corpname encodinganalog="710$a" source="lcnaf"
@@ -232,7 +232,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
             <corpname encodinganalog="710$a" source="lcnaf"
                       altrender=":::PWEBRECON=^Southern+Mountain+Boys+%28Musical+group%29^">Southern Mountain Boys (Musical group) performer.</corpname>
          </controlaccess>
-         <controlaccess id="mferd5319e61">
+         <controlaccess id="mferd807e61">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^African+Americans+Music.^">African Americans--Music.</subject>
@@ -247,6 +247,8 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Cajun+music+Louisiana.^">Cajun music--Louisiana.</subject>
             <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Cajuns+Louisiana+Music.^">Cajuns--Louisiana--Music.</subject>
+            <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Country+music+Maryland.^">Country music--Maryland.</subject>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Fiddle+tunes+Missouri.^">Fiddle tunes--Missouri.</subject>
@@ -254,6 +256,8 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      altrender=":::PWEBRECON=^Folk+music+United+States.^">Folk music--United States.</subject>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Folk+songs%2C+English+United+States.^">Folk songs, English--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^French+Americans+Missouri+Music.^">French Americans--Missouri--Music.</subject>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Music+Andes+Region.^">Music--Andes Region.</subject>
             <subject encodinganalog="650" source="lcsh"
@@ -263,14 +267,14 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Songs%2C+Cajun+French+Louisiana.^">Songs, Cajun French--Louisiana.</subject>
          </controlaccess>
-         <controlaccess id="mferd5319e112">
+         <controlaccess id="mferd807e118">
             <head>Titles</head>
             <title xlink:type="simple" encodinganalog="246" source="lcnaf"
                    altrender=":::PWEBRECON=^American+Folklife+Center+concert%2C+1977^">American Folklife Center concert, 1977</title>
             <title xlink:type="simple" encodinganalog="246" source="lcnaf"
                    altrender=":::PWEBRECON=^Neptune+Plaza+Concert+Series%2C+1977^">Neptune Plaza Concert Series, 1977</title>
          </controlaccess>
-         <controlaccess id="mferd5319e124">
+         <controlaccess id="mferd807e130">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Color+slides.^">Color slides.</genreform>
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Manuscripts.^">Manuscripts.</genreform>
@@ -278,19 +282,19 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Sound+recordings.^">Sound recordings.</genreform>
          </controlaccess>
       </controlaccess>
-      <accessrestrict id="mferd5317e279" encodinganalog="506">
+      <accessrestrict id="mferd805e279" encodinganalog="506">
          <head>Access</head>
          <p>Listening and viewing access to the collection is unrestricted.
 		  Duplication of the collection materials may be governed by copyright and other
 		  restrictions.</p>
       </accessrestrict>
-      <prefercite id="mferd5317e284" encodinganalog="524">
+      <prefercite id="mferd805e284" encodinganalog="524">
          <head>Preferred Citation</head>
          <p>1977 Neptune Plaza Concert Series Collection (AFC 1977/003), Archive
 		  of Folk Culture, American Folklife Center, Library of Congress, Washington,
 		  D.C.</p>
       </prefercite>
-      <odd id="mferd5317e289" type="add">
+      <odd id="mferd805e289" type="add">
          <head>Collection Concordance by Format</head>
          <table>
             <tgroup cols="3" align="left">
@@ -406,17 +410,17 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                  xlink:title="MARC record for collection"
                  xlink:type="simple">http://lccn.loc.gov/2004695150</extref>
       </otherfindaid>
-      <dsc id="mferd5317e413" type="combined">
+      <dsc id="mferd805e413" type="combined">
          <head>Collection Inventory</head>
-         <c01 id="mferd5317e416" level="series">
+         <c01 id="mferd805e416" level="series">
             <did>
                <unittitle>Series I: MANUSCRIPTS</unittitle>
             </did>
-            <c02 id="mferd5317e420" level="file">
+            <c02 id="mferd805e420" level="file">
                <did>
                   <unittitle>Publicity and Administration</unittitle>
                </did>
-               <c03 id="mferd5317e424" level="file">
+               <c03 id="mferd805e424" level="file">
                   <did>
                      <container type="Folder">1</container>
                      <unittitle>Archive of Folk Culture Administrative
@@ -428,7 +432,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 series.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e433" level="file">
+               <c03 id="mferd805e433" level="file">
                   <did>
                      <container type="Folder">2</container>
                      <unittitle>Bluegrass Cardinals, 4-25-77</unittitle>
@@ -438,7 +442,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 biographical sketches.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e442" level="file">
+               <c03 id="mferd805e442" level="file">
                   <did>
                      <container type="Folder">5</container>
                      <unittitle>John Jackson, 5-23-77</unittitle>
@@ -448,7 +452,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 at the concert.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e451" level="file">
+               <c03 id="mferd805e451" level="file">
                   <did>
                      <container type="Folder">10</container>
                      <unittitle>Southern Mountain Boys, 6-8-77</unittitle>
@@ -457,7 +461,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p>Concert fliers.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e460" level="file">
+               <c03 id="mferd805e460" level="file">
                   <did>
                      <container type="Folder">11</container>
                      <unittitle>Los Rumi Songos, 6-29-77</unittitle>
@@ -466,7 +470,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p>Concert fliers, press release, and news clippings</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e469" level="file">
+               <c03 id="mferd805e469" level="file">
                   <did>
                      <container type="Folder">13</container>
                      <unittitle>The Balfa Brothers and Joe Politte,
@@ -477,7 +481,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 Congresswoman Lindy Boggs introduced the second half of the concert.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e478" level="file">
+               <c03 id="mferd805e478" level="file">
                   <did>
                      <container type="Folder">16</container>
                      <unittitle>Bob Goff, Jr. and the Hobbs Sisters,
@@ -487,7 +491,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p>Concert fliers and press release.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e487" level="file">
+               <c03 id="mferd805e487" level="file">
                   <did>
                      <container type="Folder">18</container>
                      <unittitle>Ola Belle Reed, 10-19-77</unittitle>
@@ -498,15 +502,15 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd5317e496" level="series">
+         <c01 id="mferd805e496" level="series">
             <did>
                <unittitle>Series II: SOUND RECORDINGS</unittitle>
             </did>
-            <c02 id="mferd5317e500" level="file">
+            <c02 id="mferd805e500" level="file">
                <did>
                   <unittitle>Reel-to-reel Audio Tapes</unittitle>
                </did>
-               <c03 id="mferd5317e504" level="file">
+               <c03 id="mferd805e504" level="file">
                   <did>
                      <container type="LWO">9484 R1-3</container>
                      <container type="AFS">18983-18985</container>
@@ -516,7 +520,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p> Three 10" DT stereo at 7.5 ips. </p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e515" level="file">
+               <c03 id="mferd805e515" level="file">
                   <did>
                      <container type="LWO">9517 R1-2</container>
                      <container type="AFS">18986-18987</container>
@@ -526,7 +530,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p> Two 10" DT mono at 7.5 ips. </p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e526" level="file">
+               <c03 id="mferd805e526" level="file">
                   <did>
                      <container type="LWO">9546 R1-3</container>
                      <unittitle>Southern Mountain Boys, 6-8-77.</unittitle>
@@ -535,7 +539,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p> Three 10" DT mono at 7.5 ips.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e535" level="file">
+               <c03 id="mferd805e535" level="file">
                   <did>
                      <container type="LWO"> 9567 R1-2</container>
                      <unittitle>Los Rumi Songos, 6-29-77.</unittitle>
@@ -544,7 +548,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p> Two 10" DT mono at 7.5 ips.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e544" level="file">
+               <c03 id="mferd805e544" level="file">
                   <did>
                      <container type="LWO">9505 R1-2</container>
                      <unittitle>The Balfa Brothers and Joe Politte,
@@ -554,7 +558,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p> Two 10" DT mono at 7.5 ips.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e553" level="file">
+               <c03 id="mferd805e553" level="file">
                   <did>
                      <container type="LWO">9666-9667</container>
                      <unittitle>Bob Goff, Jr. and the Hobbs Sisters,
@@ -564,7 +568,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                      <p> Two 10" DT mono at 7.5 ips.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e562" level="file">
+               <c03 id="mferd805e562" level="file">
                   <did>
                      <container type="LWO">9749-9750</container>
                      <unittitle>Ola Belle Reed, 10-19-77.</unittitle>
@@ -575,15 +579,15 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd5317e571" level="series">
+         <c01 id="mferd805e571" level="series">
             <did>
                <unittitle>Series III: GRAPHIC MATERIALS</unittitle>
             </did>
-            <c02 id="mferd5317e575" level="file">
+            <c02 id="mferd805e575" level="file">
                <did>
                   <unittitle>Negatives</unittitle>
                </did>
-               <c03 id="mferd5317e579" level="file">
+               <c03 id="mferd805e579" level="file">
                   <did>
                      <container type="Envelope">1</container>
                      <unittitle>Bluegrass Cardinals, 4-25-77</unittitle>
@@ -593,7 +597,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 (74 images). Photographed by Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e588" level="file">
+               <c03 id="mferd805e588" level="file">
                   <did>
                      <container type="Envelopes">4-5</container>
                      <unittitle>John Jackson, 5-23-77</unittitle>
@@ -603,7 +607,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 Photographed by Ray Dockstader and Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e597" level="file">
+               <c03 id="mferd805e597" level="file">
                   <did>
                      <container type="Envelope">7</container>
                      <unittitle>Los Rumi Songos, 6-29-77</unittitle>
@@ -613,7 +617,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 by Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e606" level="file">
+               <c03 id="mferd805e606" level="file">
                   <did>
                      <container type="Envelope">8</container>
                      <unittitle>The Balfa Brothers and Joe Politte,
@@ -624,7 +628,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 by Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e615" level="file">
+               <c03 id="mferd805e615" level="file">
                   <did>
                      <container type="Envelope">9</container>
                      <unittitle>Bob Goff, Jr. and the Hobbs Sisters,
@@ -635,7 +639,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 by Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e624" level="file">
+               <c03 id="mferd805e624" level="file">
                   <did>
                      <container type="Envelope">10</container>
                      <unittitle>Ola Belle Reed, 10-19-77</unittitle>
@@ -646,11 +650,11 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                   </scopecontent>
                </c03>
             </c02>
-            <c02 id="mferd5317e633" level="file">
+            <c02 id="mferd805e633" level="file">
                <did>
                   <unittitle>Photographic Prints</unittitle>
                </did>
-               <c03 id="mferd5317e637" level="file">
+               <c03 id="mferd805e637" level="file">
                   <did>
                      <container type="Folders">3-4</container>
                      <unittitle>Bluegrass Cardinals, 4-25-77</unittitle>
@@ -661,7 +665,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 photoprints in Folder 4. Photographed by Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e646" level="file">
+               <c03 id="mferd805e646" level="file">
                   <did>
                      <container type="Folders">6-9</container>
                      <unittitle>John Jackson, 5-23-77</unittitle>
@@ -672,7 +676,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 Ray Dockstader and Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e655" level="file">
+               <c03 id="mferd805e655" level="file">
                   <did>
                      <container type="Folder">12</container>
                      <unittitle>Los Rumi Songos, 6-29-77</unittitle>
@@ -682,7 +686,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 Photographed by Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e664" level="file">
+               <c03 id="mferd805e664" level="file">
                   <did>
                      <container type="Folders">14-15</container>
                      <unittitle>The Balfa Brothers and Joe Politte,
@@ -694,7 +698,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 Photographed by Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e673" level="file">
+               <c03 id="mferd805e673" level="file">
                   <did>
                      <container type="Folder">17</container>
                      <unittitle>Bob Goff, Jr. and the Hobbs Sisters,
@@ -705,7 +709,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 black-and-white photoprint. Photographed by Carl Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e682" level="file">
+               <c03 id="mferd805e682" level="file">
                   <did>
                      <container type="Folder">19</container>
                      <unittitle>Ola Belle Reed, 10-19-77</unittitle>
@@ -716,11 +720,11 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
                   </scopecontent>
                </c03>
             </c02>
-            <c02 id="mferd5317e691" level="file">
+            <c02 id="mferd805e691" level="file">
                <did>
                   <unittitle>Color Slides</unittitle>
                </did>
-               <c03 id="mferd5317e695" level="file">
+               <c03 id="mferd805e695" level="file">
                   <did>
                      <container type="Envelopes">2-3</container>
                      <unittitle>Bluegrass Cardinals, 4-25-77</unittitle>
@@ -730,7 +734,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 Fleischhauer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e704" level="file">
+               <c03 id="mferd805e704" level="file">
                   <did>
                      <container type="Envelope">6</container>
                      <unittitle>John Jackson, 5-23-77</unittitle>
@@ -740,7 +744,7 @@ URL: http://hdl.loc.gov/loc.afc/eadafc.af010003
 					 Schellhammer.</p>
                   </scopecontent>
                </c03>
-               <c03 id="mferd5317e713" level="file">
+               <c03 id="mferd805e713" level="file">
                   <did>
                      <container type="Envelope">11</container>
                      <unittitle>Ola Belle Reed, 10-19-77</unittitle>

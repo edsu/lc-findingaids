@@ -1,0 +1,2698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Mon, 17 June 2013 02:04:15 PM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu011014
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu011014--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu011014--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu011014-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd176e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd176e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu011014"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu011014</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2006" encodinganalog="260$c">2006</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2011570508"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2011570508</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2011">2011</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd176e48">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials
+		  <unitdate label="Span Dates" type="inclusive" normal="1893/1996" encodinganalog="245$f"
+                      datechar="creation">1893-1996</unitdate>
+		          <unitdate label="Bulk Dates" type="bulk" normal="1920/1950" encodinganalog="245$g"
+                      datechar="creation">(bulk circa 1920-circa 1950)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.L4</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="700" source="lcnaf">Schnabel, Artur, 1882-1951</persname>
+         </origination>
+         <origination label="Collector"> 
+	 		        <persname encodinganalog="100" source="lcnaf">Le Garrec, Mary Virginia Foreman</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">926 items</extent>
+		          <extent encodinganalog="300">11 containers</extent>
+		          <extent encodinganalog="300">5.0 linear feet</extent>		 
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in <language encodinganalog="041" langcode="eng">English, </language>
+            <language encodinganalog="041" langcode="ger">German, </language> and <language encodinganalog="041" langcode="fre">French</language>
+		       </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Artur Schnabel was an Austrian-born American pianist, pedagogue, and composer. Mary Virginia Foreman Le Garrec was Schnabel's student and confidante. The collection includes holograph manuscript and published music scores by Schnabel as well as published scores by other composers, some of which contain annotations in the hands of Schnabel, Le Garrec, and others. In addition, the collection contains correspondence; writings by both Schnabel and Le Garrec; concert programs featuring Schnabel as both pianist and composer; biographical material; press clippings, published articles, and monographs regarding Schnabel and his circle; books; photographs; and other iconography.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2011570508.10001"
+                     altrender=":::F005=^20111007115908.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd176e108">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Curzon%2C+Clifford%2C+1907-1982+Correspondence.^">Curzon, Clifford, 1907-1982--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Firku%C5%A1n%C3%BD%2C+Rudolf%2C+1912-1994+Correspondence.^">Firkušný, Rudolf, 1912-1994--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Fournier%2C+Pierre%2C+1906-1986+Correspondence.^">Fournier, Pierre, 1906-1986--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Le+Garrec%2C+Mary+Virginia+Foreman+Correspondence.^">Le Garrec, Mary Virginia Foreman--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Le+Garrec%2C+Mary+Virginia+Foreman.^">Le Garrec, Mary Virginia Foreman.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Le+Garrec%2C+Mary+Virginia+Foreman.^">Le Garrec, Mary Virginia Foreman.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mannes%2C+Leopold%2C+1899-1964+Correspondence.^">Mannes, Leopold, 1899-1964--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mitropoulos%2C+Dimitri%2C+1896-1960+Correspondence.^">Mitropoulos, Dimitri, 1896-1960--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schnabel%2C+Artur%2C+1882-1951+Correspondence.^">Schnabel, Artur, 1882-1951--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schnabel%2C+Artur%2C+1882-1951+Manuscripts.^">Schnabel, Artur, 1882-1951--Manuscripts.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schnabel%2C+Artur%2C+1882-1951+Photographs.^">Schnabel, Artur, 1882-1951--Photographs.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schnabel%2C+Artur%2C+1882-1951.^">Schnabel, Artur, 1882-1951.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schnabel%2C+Artur%2C+1882-1951.^">Schnabel, Artur, 1882-1951. Mary Virginia Foreman Le Garrec collection of Artur Schnabel materials. 1893-1996.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Schnabel%2C+Artur%2C+1882-1951.^">Schnabel, Artur, 1882-1951. Selections.</persname>
+         </controlaccess>
+         <controlaccess id="mferd176e140">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Pianists+Correspondence.^">Pianists--Correspondence.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Pianists+United+States.^">Pianists--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd176e149">
+            <head>Titles</head>
+            <title encodinganalog="246" source="lcnaf"
+                   altrender=":::PWEBRECON=^Artur+Schnabel+-+Mary+Virginia+Foreman+LeGarrec+collection%2C+1893-1996^">Artur Schnabel - Mary Virginia Foreman LeGarrec collection, 1893-1996</title>
+         </controlaccess>
+         <controlaccess id="mferd176e154">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Articles.^">Articles.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Artifacts+%28Object+genre%29^">Artifacts (Object genre)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Promotional+materials.^">Promotional materials.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd176e171">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd176e174">
+            <head>Provenance</head>
+            <p>Gift; Mary Virginia Foreman Le Garrec; 1997.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd176e179">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd176e184">
+            <head>Processing History</head>
+            <p>The Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials was processed by Kevin LaVine in 2006. The finding aid was coded for EAD format by Nancy Seeger in 2011.</p>
+         </processinfo>
+         <separatedmaterial encodinganalog="544 0" id="mferd176e189">
+            <head>Transfers</head>
+            <p>One acetate disc of Schnabel speaking, recorded at HMV Studios in London on June 6, 1950, was transferred to the Library of Congress Motion Picture, Broadcasting and Recorded Sound Division in March 2001.</p>
+         </separatedmaterial>
+         <relatedmaterial encodinganalog="544 1" id="mferd176e194">
+            <head>Related Material</head>
+            <p>The Library of Congress Music Division also holds the<archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu011013"> Artur Schnabel Collection </archref>which primarily consists of music manuscript scores of Schnabel’s compositions. The manuscripts are all, with the exception of a single copyist’s score, in Schnabel’s hand, and represent his compositional essays in a variety of genres, from solo song (voice and piano) to symphonic works. The collection also contains an early published edition of Ludwig van Beethoven’s sonatas for solo piano, containing copious annotations in Schnabel’s hand, and on which he apparently based his 1935 edition of these works.</p>
+         </relatedmaterial>
+         <userestrict encodinganalog="540" id="mferd176e202">
+            <head>Copyright Status</head>
+            <p>The Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials is governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd176e207">
+            <head>Access and Restrictions</head>
+            <p>The Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials is open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd176e214">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd176e219">
+         <head>Biographical Note</head>
+         <p>Artur Schnabel was one of the greatest pianists and pedagogues in the history of musical performance.  As a performer, Schnabel eschewed virtuosity in favor of musicianship – indeed, he considered himself a musician foremost, and the piano simply his creative medium – and his sound recordings consistently demonstrate interpretations of sensitivity, commitment, and distinction.  He was one of the first pianists to champion new and unfamiliar repertoire (such as the piano sonatas of Franz Schubert), and the first pianist to record the complete sonatas and concerti of Ludwig van Beethoven.  As a pedagogue, Schnabel is probably best known for his meticulously annotated performing edition of Beethoven’s piano sonatas, through which countless pianists were introduced to these foundations of the piano repertoire; this edition is in common use even today.  Lesser known are Schnabel’s original musical compositions – his uncompromising atonal musical language continues to pose formidable challenges to performers, conductors and listeners – and his contribution to musical scholarship through his autobiography (<title>My Life and Music</title>, 1961), his two books on the role of music in the twentieth century (<title>Reflections on Music</title>, 1934 and <title>Music and the Line of Most Resistance</title>, 1942), and through the several articles he contributed to musical journals throughout his life.</p>
+         <p>Schnabel’s student and confidante, Mary Virginia Foreman Le Garrec (born 1908), donated her collection of correspondence, musical scores, writings, concert programs, press clippings, publications, photographs, and other memorabilia related to Schnabel, to the Library in 1997.</p>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1882, April 17</date>
+               <event>Artur Schnabel born, Lipnik, Carpathia, Austria</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1888</date>
+               <event>Began piano studies with Hans Schmitt</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1889 or 1890</date>
+               <event>Gave first public concert in Vienna</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1891</date>
+               <event>Began piano studies with Leschetitzky in Vienna</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1896</date>
+               <event>Won prizes for three of his works for solo piano in composition competition organized by Leschetitzky</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1897</date>
+               <event>Graduated from Leschetitzky’s class; received first prize</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1898</date>
+               <eventgrp>
+                  <event>Moved to Berlin to begin his professional career</event>
+                  <event>Met contralto Therese Behr (b. 1876), a “lieder singer of repute”</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1905</date>
+               <event>Married Therese Behr (died 1959), they gave intermittent concerts together for the next twenty-five years, performing together primarily throughout Germany and Scandinavia</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1908, April 5</date>
+               <event>Mary Virginia Foreman born, Minneapolis, Minnesota</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1921</date>
+               <event>Schnabel made first recital tour of United States</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1922</date>
+               <event>Schnabel made second recital tour of United States</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1925-1933</date>
+               <event>Schnabel became professor, piano, Berlin Hochschule für Musik</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">circa 1925-circa 1933</date>
+               <event>Schnabel performed in recital series with violinist Carl Flesch</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1927</date>
+               <event>Schnabel performed Beethoven’s thirty-two piano sonatas in one season in Berlin, in celebration of the centenary of the composer’s birth</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1932-1935</date>
+               <event>Schnabel recorded Beethoven's thirty-two piano sonatas and five piano concerti for the British firm HMV</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1933, Nov. 2</date>
+               <eventgrp>
+                  <event>Schnabel and Foreman met, Minneapolis (Schnabel was visiting studio of Foreman's piano teacher)</event>
+                  <event>Schnabel was guest soloist with the Minneapolis Symphony Orchestra (Eugene Ormandy conducted)</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1933, Nov. 3</date>
+               <eventgrp>
+                  <event>Schnabel performed Beethoven’s <title>Concerto no. 3, op. 37</title>, at the University of Minnesota’s Cyrus Northrup Memorial Hall</event>
+                  <event>Foreman attended concert with her mother (at Schnabel’s insistence, Foreman remained backstage with Schnabel for the concert’s second half, after having delivered sandwiches to him)</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1933</date>
+               <event>Schnabel left Germany and settled in Lake Como, Italy, where he lived for the remainder of his life</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1934 Sept.</date>
+               <event>Foreman moved to New York City after accepting parents' offer to study piano for one year with Edwin Hughes (she resided at the Three Arts Club at 340 West 85th Street)
+				</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1934</date>
+               <event>Schnabel published <title>Reflections on Music</title>. New York: Simon and Schuster</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1935 Jan.</date>
+               <eventgrp>
+                  <event>Schnabel performed at Carnegie Hall in New York</event>
+                  <event>Schnabel and Foreman were reacquainted after the concert; Schnabel recognized her from earlier meeting in Minneapolis</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1935, Jan. 16</date>
+               <event>Foreman began a correspondence with Schnabel which would last until his death in 1951
+				</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1935</date>
+               <event>Schnabel published his edition of complete piano sonatas of Ludwig van Beethoven, in two volumes (over 800 pages). New York: Simon and Schuster</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Schnabel performed thirty-two sonatas of Beethoven on “7 Wednesday nights in Carnegie Hall”</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1940-1945</date>
+               <event>Schnabel became professor, University of Michigan</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1942</date>
+               <event>Schnabel published <title>Music and the Line of Most Resistance</title>. Princeton, N.J.: Princeton University Press (his thoughts on music and musical esthetics)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1944</date>
+               <event>Schnabel became a naturalized American citizen
+				</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1945</date>
+               <event>Schnabel returned to home in Lake Como, Italy</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1946, Dec. 13</date>
+               <eventgrp>
+                  <event>Première performance of <title>Symphony no. 1</title>, by Minneapolis Symphony Orchestra, conducted by Dimitri Mitropoulos (this difficult and atonal work would be the only one of Schnabel's four symphonies to be performed during his lifetime)</event>
+                  <event>Schnabel appeared as soloist in Beethoven’s <title>Concerto no. 4</title> in the same concert</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1948, Dec. 11</date>
+               <event>Schnabel suffered near-fatal heart attack that left him bedridden for nearly four months</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1951, Jan. 20</date>
+               <event>Schnabel's last performance, at Hunter College, New York (of the occasion he wrote, “For the first time I succeeded today in playing the last line of Beethoven’s opus 90 [Sonata] so that I found it convincing”)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1951, Aug. 15</date>
+               <event>Schnabel died, Grand Hotel in Axenstein, Switzerland
+				</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1956 Aug.</date>
+               <event>Foreman met Yves Le Garrec (born 1890, La Rochelle, France) in Paris
+		  	</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1965</date>
+               <event>Foreman married Yves Le Garrec (after a period of traveling throughout Europe, they settle in Biarritz, France)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1979 Mar.</date>
+               <event>Yves Le Garrec died in Biarritz
+				</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd176e449">
+         <head>Scope and Content Note</head>
+         <p>The Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials consists of material donated to the Library in 1997 by Le Garrec, who was Schnabel's student and confidante.  The collection includes published music scores by Schnabel as well as by other composers, some of which contain annotations and performance indications in the hands of Schnabel, Le Garrec, and others. In addition, the collection contains Schnabel's correspondence with music figures such as Clifford Curzon, Rudolf Firkušný and Le Garrec; and Le Garrec’s correspondence with, among others, Pierre Fournier, René Liebowitz, Leopold Mannes, and Dmitri Mitropoulos. The collection also includes writings by both Schnabel and Le Garrec; concert programs featuring Schnabel as both pianist and composer; biographical material; press clippings, published articles, and monographs regarding Schnabel and his circle; books; photographs; and other iconography.</p>
+         <p>Kevin LaVine, May 2006</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd176e456">
+         <head>Organization of the Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials</head>
+         <p>The Mary Virginia Foreman Le Garrec Collection of Artur Schnabel Materials is organized in eight series:</p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="mussco">Music Scores, 1893-1986</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="corr">Correspondence</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="writ">Writings, 1942-1996</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="cpt">Concert Programs and Tours, 1933-1951</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="biog">Biographical Materials</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="pcpam">Press Clippings, Published Articles, and Monographs, circa 1920-circa 1990</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="bal">Books and Libretti, 1934-1972</ref>
+			         </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="icon">Iconography, circa 1934-1952</ref>
+			         </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2011570508"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2011570508</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd176e497" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd176e506">
+            <did>
+               <container type="box">1-5, 8</container>
+               <unittitle encodinganalog="245$a" id="mussco">Music Scores,
+				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1893/1986">1893-1986, undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="subseries" id="mferd176e514">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Holograph Manuscript Scores of Works by Schnabel, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1944-1948, undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd176e522">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a">One copy of the inventory/finding aid of the contents of this collection
+		  				<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e533">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a">Dance and secret, for chorus and orchestra, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph manuscript full score, in pencil; 1, 42 numbered pages (22 leaves)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Includes three (3) leaves (5 pages) of text in the hand of MVFLG that contains her personal commentary about, and performance history of, this work. The text also includes her commentary about Schnabel’s <title>Joy and Peace</title> and <title>Symphony no. 1</title> as well as transcriptions from Schnabel’s correspondence regarding <title>Dance and Secret</title>.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Includes photocopies of texts.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e559">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a">Dance and secret, for chorus and orchestra, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">August 28, 1944</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph manuscript condensed score, in pencil and ink; 14 leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Noted at end: “ Gaston Ranch.”</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Contains five (5) pages of photocopies of information about this work and transcriptions (in the hand of MVFLG) from Schnabel’s correspondence about this work.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>The original copies of these five pages, in MVFLG’s hand, are held in Box 1/Folder 2.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e579">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a">Joy and peace, for chorus and orchestra, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph manuscript full score, in pencil; 1, 34 numbered pages (18 leaves) </extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains one photocopied page of information about this work, in the hand of MVFLG, the original of which is held in Box 1/Folder 2.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e593">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a">Joy and peace, for chorus and orchestra, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">September 14, 1944</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph manuscript condensed score, in pencil; 9 leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains one photocopied page of information about this work, in the hand of MVFLG, the original of which is held in Box 1/Folder 2.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e607">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a">Rhapsody, for orchestra, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">November 14, 1946</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph manuscript full score, in pencil with emendations in red, blue and green pencil; 53 numbered pages/leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e620">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a">Rhapsody, for orchestra, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">July 31, 1946</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph manuscript condensed score, in pencil; 2, 14 numbered pages (16 leaves)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Introductory page 2 contains transcriptions (in the hand of MVFLG, in ink, recto and verso of the page) from the correspondence of Schnabel regarding this work.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e634">
+                  <did>
+                     <container type="box-folder">1/8</container>
+                     <unittitle encodinganalog="245$a">Trio, for violin, violoncello, and piano, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">September 7, 1945</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph manuscript score, in pencil; 2, 20 pages (21 leaves)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Noted at end: “ Moosehead Lake.”</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e648">
+                  <did>
+                     <container type="box-folder">1/9</container>
+                     <unittitle encodinganalog="245$a">Waltz, for piano solo, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">April 28, 1948</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph manuscript score, in pencil; 1 page</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains extensive text annotations throughout (suggested English lyrics to the melody of this work?), in pencil and ink, by MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e662">
+                  <did>
+                     <container type="box-folder">1/10</container>
+                     <unittitle encodinganalog="245$a">Unidentified sketch, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Varies between one and four staves; in pencil and red pencil; 2 pages (one leaf)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Labeled at top of page, in ink, in the hand of MVFLG, “Work sheet of Artur Schnabel / Paul Zukofsky found interesting - M.V.F.”</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd176e676">
+               <did>
+                  <container type="box">1-3, 8</container>
+                  <unittitle encodinganalog="245$a">Published and Photoreproduced Scores of Works by Schnabel, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1904-1986, undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd176e684">
+                  <did>
+                     <container type="box-folder">1/10</container>
+                     <unittitle encodinganalog="245$a">[Sketch, unidentified.]  Varies between one and four staves; in pencil and red pencil; undated; 2 pages (one leaf).  Labeled at top of page, in ink, in the hand of MVFLG, “Work sheet of Artur Schnabel / Paul Zukofsky found interesting - M.V.F.” 
+							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e693">
+                  <did>
+                     <container type="box-folder">1/11</container>
+                     <unittitle encodinganalog="245$a">Abendlandschaft, op. 14, no. 4, for voice and piano; German lyrics by Joseph von Eichendorff. <imprint>Berlin: Verlag Dreililien, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1904</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photoreproduction of score; 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains annotations (photocopied from original) in the hand of MVFLG for English and French translations of the song’s original lyrics.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e709">
+                  <did>
+                     <container type="box-folder">8/1</container>
+                     <unittitle encodinganalog="245$a">Dance and secret; Joy and peace, for chorus and orchestra, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Full score, reproduced from copyist’s manuscript, plastic spiral bound;  45 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout, in blue pencil.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e723">
+                  <did>
+                     <container type="box-folder">1/12</container>
+                     <unittitle encodinganalog="245$a">Dann, op. 11, no. 2 [from Zehn Lieder], for voice and piano; German lyrics by Richard Dehmel, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photoreproduction of unidentified published score;  2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains original annotations, in ink, in the hand of MVFLG for an English translation of the song’s original lyrics.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e739">
+                  <did>
+                     <container type="box-folder">1/13</container>
+                     <unittitle encodinganalog="245$a">Dieses ist ein rechter Morgen, op. 11, no. 5 [from Zehn Lieder], for voice and piano; German lyrics by Stefan George. <imprint>Berlin: Verlag Dreililien, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 1, 4 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>The score carries annotations throughout, including an English language version of the song’s lyrics, in black and blue ink, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e755">
+                  <did>
+                     <container type="box-folder">1/14</container>
+                     <unittitle encodinganalog="245$a">Duodecimet, for chamber orchestra; arranged by René Liebowitz. <imprint>New York: Boosey &amp; Hawkes, Inc., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1963</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Full score; 1, 46, 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Verso of cover page and verso of end page carry annotations regarding this work, in black and blue inks, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e771">
+                  <did>
+                     <container type="box-folder">1/15</container>
+                     <unittitle encodinganalog="245$a">Ein ferner Frauensang, op. 11, no. 3 [from Zehn Lieder], for voice and piano; German lyrics by Werner Wolffheim, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photoreproduction of unidentified published score; 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains original annotations, in ink, in the hand of MVFLG for an English translation of the song’s original lyrics.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e785">
+                  <did>
+                     <container type="box-folder">1/16</container>
+                     <unittitle encodinganalog="245$a">Heisst es viel dich bitten?, op. 14, no. 6, for voice and piano; German lyrics by Stefan George, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photoreproduction of unidentified published score; 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains annotations (photocopied from original) in the hand of MVFLG for an English translation of the song’s original lyrics, as well as two instances (in blue and black ink) of annotations in MVFLG’s hand.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e799">
+                  <did>
+                     <container type="box-folder">1/17</container>
+                     <unittitle encodinganalog="245$a">Klavierstück in fünf Teilen [“Sonata for piano”], for piano solo, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photoreproduction of copyist’s manuscript score; 33 p./leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e812">
+                  <did>
+                     <container type="box-folder">1/18</container>
+                     <unittitle encodinganalog="245$a">Marienlied, op. 11, no. 4 [from Zehn Lieder], for voice and piano; German lyrics by Novalis. <imprint>Berlin: Verlag Dreililien, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 1, 4 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Annotations appear throughout, in blue and black ink, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e829">
+                  <did>
+                     <container type="box-folder">1/19</container>
+                     <unittitle encodinganalog="245$a">Notturno, for voice and piano; German lyrics (lyricist not identified). <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score, reproduced from copyist’s manuscript; plastic spiral bound; 2, 26 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e844">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a">Piano pieces [Seven piano pieces], for piano solo. <imprint>New York: Independent Music Publishers, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score, reproduced from copyist’s manuscript; 17, 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Cover page contains Schnabel's signature, in blue ink, and an indication, in black ink, that this score was presented to MVFLG by Schnabel. Final page (labelled page “18” by MVFLG) carries annotations regarding this work, in blue ink, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e860">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a">Piece in seven movements, for piano solo. <imprint>New York: Edward B. Marks Music Corporation, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 44 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Verso of cover page, verso of end page, and page one carry annotations regarding this work, in black ink, in the hand of MVFLG.  Performance indications, in pencil and in black ink, appear throughout.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e876">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a">Quartet no. 1, for strings. <imprint>Vienna: Universal-Edition, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1927</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Miniature score; 84 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e891">
+                  <did>
+                     <container type="box-folder">2/4</container>
+                     <unittitle encodinganalog="245$a">Quartet no. 3, for strings. <imprint>New York: Boosey &amp; Hawkes, Inc., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Miniature score; 1, 50 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Sparse annotations and performance indications appear throughout, in black and blue inks, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e907">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">Quartet no. 4, for strings. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score, reproduced from copyist’s manuscript; plastic spiral bound; 1, 37 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e920">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a">Quartet no. 5, for strings. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score, reproduced from holograph manuscript; 2, 53, 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>The final page (labelled page “54” by MVFLG) carries annotations regarding this work, in blue ink, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e936">
+                  <did>
+                     <container type="box-folder">2/7</container>
+                     <unittitle encodinganalog="245$a">Quartet no. 5, for strings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score, reproduced from holograph manuscript; wire spiral bound; 2, 53, 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Lacks publication information.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Page one preceding the score and the final page (labelled page “54” by MVFLG) carry annotations regarding this work, in black and blue inks, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e953">
+                  <did>
+                     <container type="box-folder">8/2</container>
+                     <unittitle encodinganalog="245$a">Rhapsody, for orchestra. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Full score, unbound photoreproduction of copyist’s manuscript, 39 leaves (74 numbered pages)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e968">
+                  <did>
+                     <container type="box-folder">2/8</container>
+                     <unittitle encodinganalog="245$a">Sieh mein Kind ich gehe, op. 11, no. 7 [from Zehn Lieder], for voice and piano; German lyrics by Stefan George, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photoreproduction of unidentified published score;  2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains original annotations, in ink and pencil, in the hand of MVFLG for English and French translations of the song’s original lyrics.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e982">
+                  <did>
+                     <container type="box-folder">2/9</container>
+                     <unittitle encodinganalog="245$a">Sonata for solo violin. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score, reproduced from holograph manuscript; plastic spiral bound; 2, 48 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Sparse performance indications (page one of score only), in black and blue inks, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e999">
+                  <did>
+                     <container type="box-folder">2/10</container>
+                     <unittitle encodinganalog="245$a">Sonata for violin and piano. <imprint>New York: Boosey &amp; Hawkes, Inc., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score (1, 57 p.) and part (1, 17 p.)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>A single performance indication, in blue ink, in the hand of MVFLG, appears on page one of the piano score.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1015">
+                  <did>
+                     <container type="box-folder">2/11</container>
+                     <unittitle encodinganalog="245$a">Sonata for piano and violin, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score, photoreproduced from copyist’s manuscript; wire spiral bound; 1, 42, 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Pages preceding and following the score carry performance indications, in black ink, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1029">
+                  <did>
+                     <container type="box-folder">3/1</container>
+                     <unittitle encodinganalog="245$a">Sonata for solo cello. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+							                 <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 2, 16 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Reprint of score originally published by Boosey &amp; Hawkes, Inc., New York, 1961.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Contains extensive performance indications in pencil and in black ink.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Annotation on title page, in black ink and in the hand of MVFLG, reads: “Written for Gregor Piatigorsky / at his request — in 1931 - ”.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1052">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a">Symphony no. 1, for orchestra. <imprint>New York: Edition Adler, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Full score; 6, 172, 3 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>The two pages preceding and the three pages following the score carry annotations regarding this work, in blue and black ink, in the hand of MVFLG.  Unnumbered page four preceding the score carries Schnabel's signature and his dedication of this [printed] score (“copy no. 6”) to MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1068">
+                  <did>
+                     <container type="box-folder">8/3</container>
+                     <unittitle encodinganalog="245$a">Symphony no. 2, for orchestra. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Full score, reproduced from copyist’s manuscript; plastic spiral bound; 2, 295 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>The two pages preceding the score and the verso of the end page carry annotations regarding this work, in black and blue inks, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1084">
+                  <did>
+                     <container type="box-folder">8/4</container>
+                     <unittitle encodinganalog="245$a">Symphony no. 3, for orchestra. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Full score, reproduced from copyist’s manuscript; plastic spiral bound; 126, 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>The one page following the score and the verso of the end page carry annotations regarding this work, in black and blue inks, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1100">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a">Tanzlied, op. 11, no. 10 [from Zehn Lieder], for voice and piano; German lyrics by Otto Julius Bierbaum. <imprint>Leipzig: C.G. Röder, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"> Photoreproduction of score; 2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1115">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a">Trio, for violin, violoncello, and piano. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score, reproduced from copyist’s manuscript; plastic spiral bound; 2, 56 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Page two preceding the score carries annotations regarding this work, in black and blue inks, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1131">
+                  <did>
+                     <container type="box-folder">3/5</container>
+                     <unittitle encodinganalog="245$a">Trio, for violin, violoncello, and piano, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photoreproduction, unbound, of copyist’s manuscript score; 56 p./leaves</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1142">
+                  <did>
+                     <container type="box-folder">3/6</container>
+                     <unittitle encodinganalog="245$a">Trio, for violin, viola, and violoncello. <imprint>Ship Bottom, New Jersey: APNM (Association for the Promotion of New Music), </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; plastic spiral bound; 2, 30 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Reprint of score originally published by Boosey &amp; Hawkes, Inc., New York, 1960.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1158">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle encodinganalog="245$a">Das Veilchen an den spanisches Flieder, op. 11, no. 9 [from Zehn Lieder], for voice and piano; German lyrics by Hanns Sachs. <imprint>Berlin: Verlag Dreililien, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 1, 4 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>The score carries annotations throughout, including an English language version of the song’s lyrics, in pencil and in black ink, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1175">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a">Wunder, op. 11, no. 1 [from Zehn Lieder], for voice and piano; German lyrics by Werner Wolffheim, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Photoreproduction of unidentified published score;  2 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains original annotations, in ink and pencil, in the hand of MVFLG for an English translation of the song’s original lyrics.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd176e1189">
+               <did>
+                  <container type="box">3-5</container>
+                  <unittitle encodinganalog="245$a">Published and Photoreproduced Scores of Works by Other Composers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1893-1932, undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd176e1197">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a">Bach, Johann Sebastian. Klavierwerke: Toccata, BWV 912; Fantasie, BWV 906; Chromatische Fantasie und Fuge, BWV 903, for piano solo. <imprint>[Leipzig:] Steingräber Verlag, </imprint>
+							                 <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score (incomplete: pages 82-93 [includes pages 81 and 94 as well], 107-109, and 110-120 [incomplete], respectively)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>These pages carry an identical plate number: “149.”</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Contains extensive performance indications throughout, in pencil and in black ink, in the hands of Schnabel and of MVFLG.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In extremely fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1220">
+                  <did>
+                     <container type="box-folder">3/10</container>
+                     <unittitle encodinganalog="245$a">Bach, Johann Sebastian. Partitas, v. 1, for piano solo. Edited by Czerny, Griepenkel, and Roitzsch (Schirmer’s Library of Musical Classics, v. 20). <imprint>New York: G. Schirmer, Inc., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1908</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 6, 51 p. (lacking p. 1-2)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil, in Schnabel’s hand.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1236">
+                  <did>
+                     <container type="box-folder">3/11</container>
+                     <unittitle encodinganalog="245$a">Bach, Johann Sebastian. Das Wohltemperierte Klavier, v. 1 [Klavierwerke, Band V; BWV 846-869], for piano solo. Edited by Hans Bischoff. <imprint>Leipzig: Steingräber Verlag, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 115 p. (incomplete at end)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil, in the hands of Schnabel and of MVFLG.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1255">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a">Beethoven, Ludwig van. Sonatas, op. 5 (nos. 1, 2), 69, 102 (nos. 1, 2). Sonatas for pianoforte and violoncello, for violoncello and piano. Edited by Leo Schulz. <imprint>New York: G. Schirmer, Inc., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1905; reprint 1932  </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 144 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains  performance indications throughout, in pencil, in Schnabel’s hand (according to annotations on the score’s cover page and page two, in black ink, in the hand of MVFLG).</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In extremely fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1274">
+                  <did>
+                     <container type="box-folder">3/13</container>
+                     <unittitle encodinganalog="245$a">Beethoven, Ludwig van. Sonata, op. 10, no. 3 [Klaviersonate, nr. 7, D-dur], for piano solo. Edited by Artur Schnabel. <imprint>Berlin: Verlag Ullstein, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"> 1924</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 27 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout, in pencil, in the hand of MVFLG.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1293">
+                  <did>
+                     <container type="box-folder">3/14</container>
+                     <unittitle encodinganalog="245$a">Beethoven, Ludwig van. Sonata, op. 28 [Klaviersonate, nr. 15, D-dur], for piano solo. Edited by Artur Schnabel. <imprint>Berlin: Verlag Ullstein, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1926</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 28 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout, in pencil (in the hand of MVFLG?).</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In extremely fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1312">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a">Brahms, Johannes. Intermezzi [Drei Intermezzi], op. 117, for piano solo. Edited by Emil von Sauer. <imprint>Leipzig: C.F. Peters, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 13 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil, in the hands of Schnabel and of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1328">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a">Brahms, Johannes. Klavierstücke, op. 118, for piano solo. Edited by M. Mayer-Mahr. <imprint>Berlin/Leipzig: N. Simrock, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1925</unitdate> and <imprint>New York: Associated Music Publishers, Inc., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1928</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 28 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains  performance indications, in pencil.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1349">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a">Brahms, Johannes. Klavierstücke [Vier Klavierstücke], op. 119, for piano solo. Edited by M. Mayer-Mahr. <imprint>Leipzig: N. Simrock, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1925</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 23 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1368">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a">Brahms, Johannes. Phantasien, op. 116, for piano solo. Edited by Emil von Sauer. <imprint>Leipzig: C.F. Peters, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 25 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil, in Schnabel’s hand.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1385">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a">Brahms, Johannes. Rhapsodies [Two Rhapsodies], op. 79, for piano solo. <imprint>Boston: B.F. Wood Music Co., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 23 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout, in pencil, in Schnabel’s hand. </p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Cover page carries an inscription, in black ink, in the hand of MVFLG: “Markings in all Brahms by Schnabel / During his recordings of Brahms, he used this music.  M.V.F. 1993.”</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1404">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a">Mozart, Wolfgang Amadeus. Concerto, K. 466 [Concert, D moll], for piano and orchestra. Arranged and edited by Franz Kullak for two pianos. <imprint>Leipzig: Steingräber Verlag, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1900</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 50 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains extensive performance indications throughout, in pencil, in Schnabel’s hand.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Cover page carries annotations, in black and blue inks, in the hand of MVFLG: Schnabel’s Berlin address (“Charlottenberg, Wielandstrasse 14”); and “His [Schnabel’s] personal copy from 1890's - The first he played - M.V.F.”  </p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In extremely fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1426">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a">Mozart, Wolfgang Amadeus. Rondo, K. 511, for piano solo. <imprint>[Leipzig:] C.F. Peters, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score (incomplete: pages 35-46 only: extracted from larger edition)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil, in Schnabel’s hand (according to annotation on page 35 – the de facto cover page – in blue and black ink, in the hand of MVFLG: “All marks by A. Schnabel.”).  </p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1445">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a">Mozart, Wolfgang Amadeus. Sonatas, K. 279, 280, 281, 282, 283, 284, 309, 310, 311, 330 [Sonaten und Phantasien für Klavier, Erster Band], for piano solo. Preface by Ernst Rudorff. <imprint> Leipzig: Breitkopf &amp; Härtel, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score (Urtext edition); 2, 119 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains extensive performance indications throughout, in pencil and blue inks, in the hands of Schnabel and MVFLG.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1464">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a">Mozart, Wolfgang Amadeus. Sonatas, K. 331, 332, 333, 457, 545, 570, 576; Phantasies, K. 394 (no. 1 “mit Fuge”), 396 (no. 2), 397 (no. 3), 475 (no. 4)  [Sonaten und Phantasien für Klavier, Zweiter Band], for piano solo. Preface by Ernst Rudorff. <imprint>Leipzig: Breitkopf &amp; Härtel, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score (Urtext edition); 2, 113 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains extensive performance indications throughout, in pencil and blue inks, in the hands of Schnabel and MVFLG.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In extremely fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1483">
+                  <did>
+                     <container type="box-folder">4/10</container>
+                     <unittitle encodinganalog="245$a">Mozart, Wolfgang Amadeus. Sonatas, K. 381, 358, 497, 521; Fantasias, K. 594, 608; Variationen, K. 501; Fuge, K. 401. [Original-Kompositionen. Klavier zu 4 Händen], for piano four hands. Edited by Adolf Ruthardt. <imprint>Leipzig: C.F. Peters, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 112 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout, in pencil, in Schnabel's hand (according to an annotation on the score’s cover, in black ink, in the hand of MVFLG: “Markings by Artur Schnabel.”).</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1502">
+                  <did>
+                     <container type="box-folder">4/11</container>
+                     <unittitle encodinganalog="245$a">Schubert, Franz.  Fantaisie, op. 103; Grand Rondeau, op. 107; Deux Marches caractéristiques, op. 121; Rondeau, op. 138; Grand duo, op. 140; Allegro, op. 144; Fugue, op. 152 [Original-Kompositionen. Klavier zu 4 Händen. Band III], for piano four hands. <imprint>Leipzig: C.F. Peters, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 136 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout in the hands of Schnabel (in pencil) and of MVFLG (in pencil and in black ink).</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1521">
+                  <did>
+                     <container type="box-folder">4/12</container>
+                     <unittitle encodinganalog="245$a">Schubert, Franz. Fantaisie, op. 159, for violin and piano. <imprint>Braunschweig: Henry Litolff, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score (31 p.) and part (11 p.)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil, in the hands of Schnabel and of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1537">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a">Schubert, Franz. Impromptus, op. 90 [D. 899], 142 [D. 935]; Moments musicaux, op. 94 [D. 780], for piano solo. <imprint>Boston: B.F. Wood Music Corp., </imprint>
+							                 <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 99 p. (incomplete at end)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Indication on cover, in black ink, in the hand of MVFLG: “All markings by hand by Artur Schnabel...,” although markings that appear throughout the score, in pencil, appear to be in the hands of both Schnabel and MVFLG.  </p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>In extremely fragile condition.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1557">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a">Schubert, Franz. Sonatas, op. 78 [D. 894], 164 [D. 537], and three posthumous opuses [D. 958, 959, 960] [Sonatas for Piano, Part II], for piano solo. <imprint>New York: Edwin F. Kalmus, </imprint>
+							                 <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 3, 131 p. (numbered pages 140-271)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil and in blue ink, in the hands of both Schnabel and MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1574">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a">Schumann, Robert. Arabeske, op. 18, for piano solo. Edited by Max Vogrich. <imprint>New York: G. Schirmer, Inc., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1893; reprint 1924</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 9 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout, in pencil, in Schnabel’s hand.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>End cover page carries an inscription, in pencil, in the hand of MVFLG: “Eusebius Mandyczewski - A.S.’s composition teacher.”</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1594">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a">Schumann, Robert.  Davidsbündler, op. 6, for piano solo. <imprint>Leipzig: Breitkopf &amp; Härtel, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated (“First edition”)</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 27 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout, in pencil and in black ink.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1610">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a">Schumann, Robert.  Kinderscenen, op. 15, for piano solo. <imprint>Boston: B.F. Wood Music Co., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; incomplete: pages 60-72 only</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>According to notes on the cover and title pages, in black ink, in the hand of MVFLG, performance indications in this score were made by Schnabel and by Clyde Stephens, MVFLG’s teacher while attending the University of Minnesota.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>The score also contains performance indications, in pencil, in the hand of MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1629">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a">Schumann, Robert.  Phantasie, op. 17, for piano solo. <imprint>Leipzig: Breitkopf &amp; Härtel, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 31 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications, in pencil, that were made (according to an annotation on the score’s cover page, in black ink, in the hand of MVFLG) by “Leonard Shure [,] assistant of A. Schnabel.”</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1645">
+                  <did>
+                     <container type="box-folder">5/7</container>
+                     <unittitle encodinganalog="245$a">Schumann, Robert.  Variations on the name “Abegg,” op. 1; Papillons, op. 2, for piano solo. Edited by Max Vogrich (Schirmer’s Library of Musical Classics, v. 23). <imprint>New York: G. Schirmer, Inc., </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1914</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Score; 32 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains performance indications throughout, in pencil, in Schnabel’s hand.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd176e1661">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Facsimile Editions, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921-1923, undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd176e1669">
+                  <did>
+                     <container type="box-folder">5/8</container>
+                     <unittitle encodinganalog="245$a">Beethoven, Ludwig van. Sonata, op. 57, “Appassionata,” for piano solo. <imprint>Paris: Editions d’Art H. Piazza, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Facsimile edition of holograph manuscript; 45 p. (numbered copy 475 of 500 printed editions)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Notation on verso of cover indicates that Schnabel gave this score to MVFLG.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Includes a concert program affixed to the verso of the cover from the Philharmonic-Symphony Society of New York, program of 20 and 21 February 1936, carries annotations, in pencil and in ink, in the hand of MVFLG, indicating that this particular concert marked “[Rudolf] Serkin’s début in U.S.A.” </p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Photoreproduced letter of “Baillot fils,” in French, affixed to verso of cover.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1691">
+                  <did>
+                     <container type="box-folder">5/9</container>
+                     <unittitle encodinganalog="245$a">Beethoven, Ludwig van. Sonata, op. 78 [Klaviersonate, Fis-dur], for piano solo. <imprint>München: Drei Masken Verlag, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1923</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Facsimile edition of holograph manuscript; 17 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Notation on verso of cover indicates that Schnabel gave this score to MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1707">
+                  <did>
+                     <container type="box-folder">5/10</container>
+                     <unittitle encodinganalog="245$a">Beethoven, Ludwig van. Sonata, op. 111 [Klaviersonate, C-moll], for piano solo. <imprint>München: Drei Masken Verlag, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1922 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Facsimile edition of holograph manuscript; 41 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Notation on verso of cover indicates that Schnabel gave this score to MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1723">
+                  <did>
+                     <container type="box-folder">5/11</container>
+                     <unittitle encodinganalog="245$a">Mozart, Wolfgang Amadeus. Trio, K. 542 [Klavier-Trios, E-dur], for violin, violoncello, and piano. <imprint>München: Drei Masken Verlag, </imprint>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Facsimile edition of holograph manuscript; 27 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Notation on verso of cover indicates that this score was given by Schnabel to MVFLG.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd176e1739">
+            <did>
+               <container type="box">9</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence</unittitle>
+            </did>
+            <c02 level="subseries" id="mferd176e1745">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence of Artur Schnabel</unittitle>
+               </did>
+               <c03 level="file" id="mferd176e1749">
+                  <did>
+                     <container type="box-folder">9/1</container>
+                     <unittitle encodinganalog="245$a">Curzon, Clifford 
+	 						</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1758">
+                  <did>
+                     <container type="box-folder">9/2</container>
+                     <unittitle encodinganalog="245$a">Firkušný, Rudolf 
+	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1767">
+                  <did>
+                     <container type="box-folder">9/3</container>
+                     <unittitle encodinganalog="245$a">Foreman Le Garrec, Mary Virginia 
+	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(11 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1776">
+                  <did>
+                     <container type="box-folder">9/4</container>
+                     <unittitle encodinganalog="245$a">Schoenberg, Arnold (copy only)
+	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1785">
+                  <did>
+                     <container type="box-folder">9/5</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous; unidentified 
+	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(23 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd176e1794">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence of Mary Virginia Foreman Le Garrec</unittitle>
+               </did>
+               <c03 level="file" id="mferd176e1798">
+                  <did>
+                     <container type="box-folder">9/6</container>
+                     <unittitle encodinganalog="245$a">Eisner, Bruno 
+	 						</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1807">
+                  <did>
+                     <container type="box-folder">9/7</container>
+                     <unittitle encodinganalog="245$a">Fournier, Pierre
+	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1816">
+                  <did>
+                     <container type="box-folder">9/8</container>
+                     <unittitle encodinganalog="245$a">Liebowitz, René
+	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1825">
+                  <did>
+                     <container type="box-folder">9/9</container>
+                     <unittitle encodinganalog="245$a">Mannes, Leopold	</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(4 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1834">
+                  <did>
+                     <container type="box-folder">9/10</container>
+                     <unittitle encodinganalog="245$a">Miller, Arthur	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(6 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1843">
+                  <did>
+                     <container type="box-folder">9/11</container>
+                     <unittitle encodinganalog="245$a">Mitropoulos, Dimitri</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1852">
+                  <did>
+                     <container type="box-folder">9/12</container>
+                     <unittitle encodinganalog="245$a">Rostra-Hérold, Elizabeth [Ellie] </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(31 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1861">
+                  <did>
+                     <container type="box-folder">9/13</container>
+                     <unittitle encodinganalog="245$a">Stiedry, Fritz
+	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1870">
+                  <did>
+                     <container type="box-folder">9/14</container>
+                     <unittitle encodinganalog="245$a">Turner, W.J.	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(14 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1879">
+                  <did>
+                     <container type="box-folder">9/15</container>
+                     <unittitle encodinganalog="245$a">Wolff, Konrad 	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1889">
+                  <did>
+                     <container type="box-folder">9/16</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous; unidentified 
+	 						
+	 					</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(22 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd176e1898">
+            <did>
+               <container type="box">9-10</container>
+               <unittitle encodinganalog="245$a" id="writ">Writings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1942/1996">1942-1996, undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="subseries" id="mferd176e1906">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Writings of Artur Schnabel, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942, 1949, undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd176e1914">
+                  <did>
+                     <container type="box-folder">9/17</container>
+                     <unittitle encodinganalog="245$a">The cadenza - the improvisation, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">7 August 1942</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">In blue ink; 5 leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Holograph correspondence to Elinor Nef.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1928">
+                  <did>
+                     <container type="box-folder">9/18</container>
+                     <unittitle encodinganalog="245$a">Harvard Lectures, introductory material, in the hand of MVFLG, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">In blue and black inks; 1 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1941">
+                  <did>
+                     <container type="box-folder">9/18</container>
+                     <unittitle encodinganalog="245$a">Harvard Lectures, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Original typescript, in black ink; 11 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains holograph annotations (“Part One”).</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1955">
+                  <did>
+                     <container type="box-folder">9/18</container>
+                     <unittitle encodinganalog="245$a">Harvard Lectures, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Typescript (original and carbon copies), in black ink; 12 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains holograph annotations (“Part Two”).</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1969">
+                  <did>
+                     <container type="box-folder">9/18</container>
+                     <unittitle encodinganalog="245$a">Harvard Lectures, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Holograph drafts, in pencil; 36 leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1982">
+                  <did>
+                     <container type="box-folder">9/19</container>
+                     <unittitle encodinganalog="245$a">“Impressions of the Edinburgh Festival,” <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">In 2 leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Published article from unidentified publication (Edinburgh Festival program?).</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e1996">
+                  <did>
+                     <container type="box-folder">9/20</container>
+                     <unittitle encodinganalog="245$a">“Recollections of our time”		
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Typescript (carbon copies), 11, 7, 8 p.; original typescript, 12, 8, 8 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Emendations appear throughout in the hand of MVFLG; a small note in her hand is also included.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2009">
+                  <did>
+                     <container type="box-folder">9/21</container>
+                     <unittitle encodinganalog="245$a">“Schubert Sonatas: a Musician Discusses Reasons for Relative Neglect of Piano Works,” <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Published article (newspaper clipping) from the <title>New York Times</title>.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2025">
+                  <did>
+                     <container type="box-folder">9/22</container>
+                     <unittitle encodinganalog="245$a">“What’s wrong with music critics,” <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">10 January 1942</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">3 leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Published article from the <title>Saturday Review of Literature</title>.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2042">
+                  <did>
+                     <container type="box-folder">9/23</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous text and music material in Schnabel’s hand<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">11 leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2055">
+                  <did>
+                     <container type="box-folder">9/24</container>
+                     <unittitle encodinganalog="245$a">Autographs of Schnabel (collected by MVFLG from correspondence fragments); calling cards<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">15 items</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd176e2067">
+               <did>
+                  <container type="box">9-10</container>
+                  <unittitle encodinganalog="245$a">Writings of Mary Virginia Foreman Le Garrec, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961, 1996</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd176e2075">
+                  <did>
+                     <container type="box-folder">9/25</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel remembered, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961, 1996</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Original typescript (first section); i, 47 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Contains emendations in blue and black inks in the hand of MVFLG. The original typescript is dated 1961; a handwritten note (in black ink, in the hand of MVFLG) dated 1996, was subsequently added to the typescript.
+	 					</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2089">
+                  <did>
+                     <container type="box-folder">9/26</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel remembered, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961/1996</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Original typescript (second section), pages 47bis-239</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2102">
+                  <did>
+                     <container type="box-folder">9/27</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel remembered, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961/1996</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Original typescript (second section); pages 240-430</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2115">
+                  <did>
+                     <container type="box-folder">9/28</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel remembered, French translation (Artur Schnabel: souvenirs et lettres) of first section by Yves Le Garrec, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961/1996</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Original typescript, 69 p.</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2128">
+                  <did>
+                     <container type="box-folder">10/1</container>
+                     <unittitle encodinganalog="245$a">History of a Love Affair, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">May 1993, Biarritz, France</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">Bound notebook in 68 numbered pages; in black ink</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Entirely in MVFLG’s hand.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2142">
+                  <did>
+                     <container type="box-folder">10/2</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous notes regarding Schnabel’s compositions			
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">7 (holograph), 1 (photoreproduction) leaves</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd176e2154">
+            <did>
+               <container type="box">10</container>
+               <unittitle encodinganalog="245$a" id="cpt">Concert Programs and Tours, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1933/1951">1933-1951, undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd176e2162">
+               <did>
+                  <container type="box-folder">10/3</container>
+                  <unittitle encodinganalog="245$a">Concert programs, featuring Schnabel as performer, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1933-1939</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(65 items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2175">
+               <did>
+                  <container type="box-folder">10/4</container>
+                  <unittitle encodinganalog="245$a">Concert programs, featuring Schnabel as performer, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1940-1951</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(53 items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2188">
+               <did>
+                  <container type="box-folder">10/5</container>
+                  <unittitle encodinganalog="245$a">Concert programs, featuring Schnabel’s compositions 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(25 items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2200">
+               <did>
+                  <container type="box-folder">10/6</container>
+                  <unittitle encodinganalog="245$a">Concert tours of Schnabel: itineraries, material in Schnabel’s hand 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">27 leaves</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd176e2212">
+            <did>
+               <container type="box">10</container>
+               <unittitle encodinganalog="245$a" id="biog">Biographical Materials</unittitle>
+            </did>
+            <c02 level="file" id="mferd176e2218">
+               <did>
+                  <container type="box-folder">10/7</container>
+                  <unittitle encodinganalog="245$a">Schnabel's pupils: lists, concert programs, publicity information, clippings 
+	 					</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(19 items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2229">
+               <did>
+                  <container type="box-folder">10/8</container>
+                  <unittitle encodinganalog="245$a">Memorials to Schnabel
+	 				</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(13 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2238">
+               <did>
+                  <container type="box-folder">10/9</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous biographical material in the hand of Mary Virginia Foreman LeGarrec
+	 				</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(16 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd176e2247">
+            <did>
+               <container type="box">10-11</container>
+               <unittitle encodinganalog="245$a" id="pcpam">Press Clippings, Published Articles, and Monographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1920/1990">circa 1920-circa 1990, undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd176e2255">
+               <did>
+                  <container type="box-folder">10/10</container>
+                  <unittitle encodinganalog="245$a">Press clippings: Schnabel as performer, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1920s-1930s</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(73 pages/items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2268">
+               <did>
+                  <container type="box-folder">10/11</container>
+                  <unittitle encodinganalog="245$a">Press clippings: Schnabel as performer, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1940s-1990s</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(85 pages/items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2281">
+               <did>
+                  <container type="box-folder">10/12</container>
+                  <unittitle encodinganalog="245$a">Press clippings: Schnabel as performer, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(51 pages/items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2294">
+               <did>
+                  <container type="box-folder">10/13</container>
+                  <unittitle encodinganalog="245$a">Press clippings: Schnabel as composer, author, and teacher, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">dated and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(67 pages/items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2307">
+               <did>
+                  <container type="box-folder">11/1</container>
+                  <unittitle encodinganalog="245$a">Press clippings: Schnabel’s recordings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">dated and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(45 pages/items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2320">
+               <did>
+                  <container type="box-folder">11/2</container>
+                  <unittitle encodinganalog="245$a">Press clippings: obituaries of Schnabel 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(12 pages/items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2332">
+               <did>
+                  <container type="box-folder">11/3</container>
+                  <unittitle encodinganalog="245$a">Press clippings regarding friends, acquaintances of Schnabel
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(39 pages/items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2344">
+               <did>
+                  <container type="box-folder">11/4</container>
+                  <unittitle encodinganalog="245$a">Monographs, article reprints by Schnabel's friends: Edward Crankshaw, John Ulric Nef, and  Hanns Sachs 
+	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4 items)</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd176e2356">
+            <did>
+               <container type="box">6</container>
+               <unittitle encodinganalog="245$a" id="bal">Books and Libretti, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1934/1972">1934-1972, undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd176e2364">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Da Ponte, Lorenzo. Music by Wolfgang Amadeus Mozart. <title>Don Giovanni (Don Juan). A Grand opera in two acts.</title> 
+                        <imprint>New York: Fred Rullman, Inc., </imprint>n.d.</bibref>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">47 p.</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Libretto in Italian and English.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2383">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Dent, Edward J., Eric Blom, and Clemence Dane. <title>Mozart’s “Così fan tutte.” </title>
+                        <imprint>London: The Governors of Sadler’s Wells Foundation/John Lane the Bodley Head, </imprint>1946</bibref>
+	 					           </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">48 p.</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2401">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Saerchinger, César. Introduction by Clifford Curzon. <title>Artur Schnabel: a biography.</title> 
+                        <imprint>London: Cassell &amp; Company Ltd., </imprint>1957</bibref>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">xviii, 354 p.</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Contains annotations throughout, in pencil and in blue, black, and green inks, in the hand of MVFLG.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2420">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Schnabel, Artur. <title>Music and the line of most resistance.</title> 
+                        <imprint>Princeton, NJ: Princeton University Press, </imprint>1942</bibref>
+	 					           </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">91 p.</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Verso of title page carries a dedication in Schnabel’s hand: “To M.V., / recommending the two lines: good / music and strong resistance – / for productive cooperation. /  A.S. / N.Y.C. January 29, 1942”.  Contains annotations throughout, in pencil, in the hand of MVFLG.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2440">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Schnabel, Artur. Edited and with an introduction by Edward Crankshaw. <title>My life and music. </title>
+                        <imprint>New York: St. Martin’s Press, </imprint>1961</bibref>
+	 					           </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">xv, 223 p.  </extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Contains annotations throughout, in pencil and in black ink, and one inlaid note, in black ink, in the hand of MVFLG.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2459">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Schnabel, Artur. <title>Reflections on music. </title>
+                        <imprint>New York: Simon and Schuster, </imprint>1934</bibref>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">63 p. </extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Title page carries a dedication in Schnabel’s hand: “To Mary Virginia / A.S. / February 1935”.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2477">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Shakespeare, William. Edited by W.J. Craig. <title>The complete works of Shakespeare.</title> 
+                        <imprint>New York: Oxford University Press, </imprint>n.d.</bibref>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">viii, 1352 p.</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Carries a dedication in Schnabel’s hand: “A.S. / 17.IV.1936 / Many happy returns!!!”  Enclosed note, in blue ink, in the hand of MVFLG, reads: “This book was / given me by A.S. / on his birthday. /  He was leaving / for Europe! / M.V.F.”</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2496">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Turner, W.J. <title>Blow for balloons : being the first hemisphere of the history of Henry Airbubble. </title>
+                        <imprint>London: J.M. Dent &amp; Sons Ltd., </imprint>1935</bibref>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">298 p.</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2513">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Turner, W.J. <title>Henry Airbubble: in search of a circumference to his breath; being the second hemisphere of the history of Henry Airbubble.</title> 
+                        <imprint>London: J.M. Dent &amp; Sons Ltd., </imprint>1936</bibref>
+	 					           </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">303, 8  p. </extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p>Contains annotations on inside cover page, in black ink, in the hand of MVFLG.</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd176e2533">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <bibref>Wolff, Konrad. <title>The teaching of Artur Schnabel: a guide to interpretation. </title>
+                        <imprint>London: Faber and Faber, </imprint>1972</bibref>
+	 					           </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">189 p.</extent>
+                  </physdesc>
+                  <note encodinganalog="500$a">
+                     <p/>
+                  </note>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd176e2551">
+            <did>
+               <container type="box">7, 11</container>
+               <unittitle encodinganalog="245$a" id="icon">Iconography, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1934/1952">circa 1934-1952, undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="subseries" id="mferd176e2559">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Original and Published Photographs, Caricatures, and Cartoons, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1934-1946, undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd176e2567">
+                  <did>
+                     <container type="box">11/5</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel alone<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(17 items)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2579">
+                  <did>
+                     <container type="box">11/6</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel alone: photoreproduced photographs<lb/>
+                        <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                             xlink:show="replace"
+                             xlink:actuate="onRequest"
+                             target="stupo">
+                           <emph render="italic"> see also </emph>Box 7</ref>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(6 items)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2595">
+                  <did>
+                     <container type="box">11/7</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with MVFLG (New York), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1939</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2608">
+                  <did>
+                     <container type="box">11/8</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with his mother (Vienna), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1936-1937</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2621">
+                  <did>
+                     <container type="box">11/9</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with Carl Flesch<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2633">
+                  <did>
+                     <container type="box">11/10</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with Hugo Bekker and Carl Flesch	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2645">
+                  <did>
+                     <container type="box">11/11</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with Pablo Casals, Paul Hindemith and Bronislaw Huberman (Vienna), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1935</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2658">
+                  <did>
+                     <container type="box">11/12</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with Willard MacGregor and an unidentified woman (Tremezzo), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1934-1935</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2671">
+                  <did>
+                     <container type="box">11/13</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with pupils Peter Diamand, Helen Fogel, Betty Givin, Hertha  Kroeling, and wife Therese Schnabel (Tremezzo), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1936</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2684">
+                  <did>
+                     <container type="box">11/14</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with members of the American Quartet, in rehearsal (Los Angeles), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1945</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2698">
+                  <did>
+                     <container type="box">11/15</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: with members of the London Symphony Orchestra, in rehearsal (London), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1946</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 items)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2711">
+                  <did>
+                     <container type="box">11/16</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with others: photoreproduced photographs
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(7 items)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2723">
+                  <did>
+                     <container type="box">11/17</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel’s home (“Villa Ginetta,” Tremezzo, Lake Como, Italy) and vicinity
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(10 items)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2735">
+                  <did>
+                     <container type="box">11/18</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous photographs: Artur Schnabel’s great grandson Christopher Herald [sic]
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(1 item)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2747">
+                  <did>
+                     <container type="box">11/19</container>
+                     <unittitle encodinganalog="245$a">Photographs of painted portraits: of Artur Schnabel, MVFLG, Therese Schnabel
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5 items)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2759">
+                  <did>
+                     <container type="box">11/20</container>
+                     <unittitle encodinganalog="245$a">Caricatures of Artur Schnabel and cartoons regarding Schnabel
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(6 items)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2771">
+                  <did>
+                     <container type="box">11/21</container>
+                     <unittitle encodinganalog="245$a">MVFLG alone
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(10 items)</extent>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p/>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd176e2783">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a" id="stupo">Large Studio Portrait Photographs and Oversize Iconography, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1935-1952</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+               <c03 level="file" id="mferd176e2793">
+                  <did>
+                     <container type="box">7/1</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel alone, in front of painting of him by Eugen Spiro, dated <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947</unitdate> by MVFLG</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographer: O.E. Nelson.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2807">
+                  <did>
+                     <container type="box-folder">7/2</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel and son Karl Ulrich Schnabel, dated<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"> 1947</unitdate> by MVFLG</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographer: O.E. Nelson.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2821">
+                  <did>
+                     <container type="box-folder">7/3</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel alone, dated<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"> 1950</unitdate> by MVFLG</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographer: O.E. Nelson.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2835">
+                  <did>
+                     <container type="box-folder">7/4</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel alone; reproduced as the cover of <title>Etude</title> magazine, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">February 1952</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographer not identified.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2851">
+                  <did>
+                     <container type="box-folder">7/5</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel alone; reproduced as the cover of <title>Musical Courier</title> magazine, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">26 January 1935</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographer not identified.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2867">
+                  <did>
+                     <container type="box-folder">7/6</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with Frederick Stock, in rehearsal with the Chicago Symphony Orchestra;  reproduced as publicity material for their Victor/Red Seal recording of Beethoven’s Concerto no. 4, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographer not identified.</p>
+                     </note>
+                     <note encodinganalog="500$a">
+                        <p>Photograph reprinted “courtesy of the Chicago Sun.”</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2883">
+                  <did>
+                     <container type="box-folder">7/7</container>
+                     <unittitle encodinganalog="245$a">Artur Schnabel with Carl Ebert and Bruno Walter; reproduced in <title>Picture Post</title> magazine (article title: “Edinburgh’s Festival”), <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">20 September 1947</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographer: Gerti Deutsch.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd176e2899">
+                  <did>
+                     <container type="box-folder">7/8</container>
+                     <unittitle encodinganalog="245$a">MVFLG, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                     <note encodinganalog="500$a">
+                        <p>Photographer not identified.</p>
+                     </note>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

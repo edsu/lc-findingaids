@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 19 August 2011 12:17:24 PM EDT
+Generated: Wed, 31 October 2012 04:12:08 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu004002--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu004002--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu004002-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd235e6">
-   <eadheader id="mferd235e7" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd161e6">
+   <eadheader id="mferd161e7" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -94,11 +94,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
          </repository>
          <abstract label="Summary" encodinganalog="520$a">Primarily over 7000 applications from contestants who appeared on the Major Bowes' Original Amateur Hour radio program between 1934 and 1948. A small percentage of the administrative papers dating from the late 1940s and 1950s, as well as materials relating to the Mexican version of the program, La hora internacional del aficionado, are also included. Filed with the contestant applications are letters of introduction, reference letters, and other documents sent by prospective contestants. Applications from conventional performers such as musicians, dancers, singers, and impersonators are the most numerous, but also included are applications from novelty acts such as a human piccolo, a group of hand-standing singers, and a group who played harmonicas with fire extinguishers. Of particular interest are applications from various performers, now well-known, including Teresa Brewer, Stubby Kaye, Robert Merrill, Beverly Sills, and Frank Sinatra. Photographs from the 1940s and 1950s provide a visual record of the show, while correspondence to and from program staff members recount some of the program's business transactions. Scripts, promotional material, and advertising and sponsor documents also are part of the collection.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd1165e98" altrender=":::F005=^20091218161834.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd1165e98" altrender=":::F005=^20091218161834.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd237e7">
+         <controlaccess id="mferd1167e12">
             <head>People</head>
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Bowes%2C+Edward%2C+Major%2C+1874-1946.^">Bowes, Edward, Major, 1874-1946.</persname>
@@ -113,12 +114,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Sinatra%2C+Frank%2C+1915-1998.^">Sinatra, Frank, 1915-1998.</persname>
          </controlaccess>
-         <controlaccess id="mferd237e24">
+         <controlaccess id="mferd1167e40">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Talent+shows+United+States.^">Talent shows--United States.</subject>
          </controlaccess>
-         <controlaccess id="mferd237e29">
+         <controlaccess id="mferd1167e49">
             <head>Titles</head>
             <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                    encodinganalog="246"
@@ -305,7 +306,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                <entry>Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd235e394" level="series">
+         <c01 id="mferd161e394" level="series">
             <did>
                <container type="box-folder">1/1-16/6</container>
                <unittitle encodinganalog="245$a" id="CL1001">Contestants</unittitle>
@@ -316,7 +317,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is in three subseries: Contestant applications; Contestant biographical sketches; Lists of Performers.</p>
             </arrangement>
-            <c02 id="mferd235e406" level="subseries">
+            <c02 id="mferd161e406" level="subseries">
                <did>
                   <container type="box">1-15</container>
                   <unittitle encodinganalog="245$a" id="CL10011001">Contestant applications, related correspondence and documents</unittitle>
@@ -327,476 +328,476 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                <arrangement encodinganalog="351$b">
                   <p>Arranged in alphabetical order by name</p>
                </arrangement>
-               <c03 id="mferd235e418" level="file">
+               <c03 id="mferd161e418" level="file">
                   <did>
                      <container type="box-folder">1/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_1">Aalrud to Alvi</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e424" level="file">
+               <c03 id="mferd161e424" level="file">
                   <did>
                      <container type="box-folder">1/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_2">Amato to Astroff</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e430" level="file">
+               <c03 id="mferd161e430" level="file">
                   <did>
                      <container type="box-folder">1/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_3">Atanasoff to Banks</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e436" level="file">
+               <c03 id="mferd161e436" level="file">
                   <did>
                      <container type="box-folder">1/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_4">Barad to Beloff</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e442" level="file">
+               <c03 id="mferd161e442" level="file">
                   <did>
                      <container type="box-folder">1/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_5">Benak to Bishop</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e448" level="file">
+               <c03 id="mferd161e448" level="file">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_6">Bjornie to Bombara</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e454" level="file">
+               <c03 id="mferd161e454" level="file">
                   <did>
                      <container type="box-folder">2/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_7">Bon Bons to Bauner</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e460" level="file">
+               <c03 id="mferd161e460" level="file">
                   <did>
                      <container type="box-folder">2/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_8">Breen to Brydof</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e467" level="file">
+               <c03 id="mferd161e467" level="file">
                   <did>
                      <container type="box-folder">2/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_9">Buchannan to Capwell</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e473" level="file">
+               <c03 id="mferd161e473" level="file">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_10">Cardonna to Caye</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e479" level="file">
+               <c03 id="mferd161e479" level="file">
                   <did>
                      <container type="box-folder">2/6</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_11">Clancy to Connie</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e485" level="file">
+               <c03 id="mferd161e485" level="file">
                   <did>
                      <container type="box-folder">3/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_12">Connors to Cross</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e491" level="file">
+               <c03 id="mferd161e491" level="file">
                   <did>
                      <container type="box-folder">3/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_13">Crowell to Davis</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e497" level="file">
+               <c03 id="mferd161e497" level="file">
                   <did>
                      <container type="box-folder">3/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_14">Davy to Dexter</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e503" level="file">
+               <c03 id="mferd161e503" level="file">
                   <did>
                      <container type="box-folder">3/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_15">Diamond to Dottie and Bobbie</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e509" level="file">
+               <c03 id="mferd161e509" level="file">
                   <did>
                      <container type="box-folder">3/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_16">Dougherty to Dynamic Harmonica Four</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e515" level="file">
+               <c03 id="mferd161e515" level="file">
                   <did>
                      <container type="box-folder">4/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_17">Eagle to Ely</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e521" level="file">
+               <c03 id="mferd161e521" level="file">
                   <did>
                      <container type="box-folder">4/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_18">Emerick to Farrow</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e527" level="file">
+               <c03 id="mferd161e527" level="file">
                   <did>
                      <container type="box-folder">4/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_19">Fasany to Fiore</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e534" level="file">
+               <c03 id="mferd161e534" level="file">
                   <did>
                      <container type="box-folder">4/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_20">Five Aces to Flatbush Floogies</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e540" level="file">
+               <c03 id="mferd161e540" level="file">
                   <did>
                      <container type="box-folder">4/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_21">Fleer to Foster</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e546" level="file">
+               <c03 id="mferd161e546" level="file">
                   <did>
                      <container type="box-folder">4/6</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_22">Four Amateur Rogues to Fourtan</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e552" level="file">
+               <c03 id="mferd161e552" level="file">
                   <did>
                      <container type="box-folder">5/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_23">Fox to Fyfe</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e558" level="file">
+               <c03 id="mferd161e558" level="file">
                   <did>
                      <container type="box-folder">5/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_24">Gaderick to Gaynor</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e564" level="file">
+               <c03 id="mferd161e564" level="file">
                   <did>
                      <container type="box-folder">5/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_25">Geankoplis to Giusti</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e570" level="file">
+               <c03 id="mferd161e570" level="file">
                   <did>
                      <container type="box-folder">5/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_26">Goerger to Grazzini</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e576" level="file">
+               <c03 id="mferd161e576" level="file">
                   <did>
                      <container type="box-folder">5/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_27">Great Lakes Swing Sextet to Gypsy Quartet</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e582" level="file">
+               <c03 id="mferd161e582" level="file">
                   <did>
                      <container type="box-folder">6/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_28">Hackman to Harmony Four</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e588" level="file">
+               <c03 id="mferd161e588" level="file">
                   <did>
                      <container type="box-folder">6/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_29">Harold to Hechl</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e594" level="file">
+               <c03 id="mferd161e594" level="file">
                   <did>
                      <container type="box-folder">6/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_30">Hedling to Hjerpe</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e601" level="file">
+               <c03 id="mferd161e601" level="file">
                   <did>
                      <container type="box-folder">6/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_31">Hoag to Hopkinson</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e607" level="file">
+               <c03 id="mferd161e607" level="file">
                   <did>
                      <container type="box-folder">6/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_32">Horlbogen to Hylselop</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e613" level="file">
+               <c03 id="mferd161e613" level="file">
                   <did>
                      <container type="box-folder">7/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_33">Idaho Ranch Boys to Jive'n Five</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e619" level="file">
+               <c03 id="mferd161e619" level="file">
                   <did>
                      <container type="box-folder">7/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_34">Joan and Ernie to Juvinall</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e625" level="file">
+               <c03 id="mferd161e625" level="file">
                   <did>
                      <container type="box-folder">7/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_35">Kaaren to Keenan</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e631" level="file">
+               <c03 id="mferd161e631" level="file">
                   <did>
                      <container type="box-folder">7/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_36">Keister to Kiwanis Quartette of Yonkers</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e637" level="file">
+               <c03 id="mferd161e637" level="file">
                   <did>
                      <container type="box-folder">8/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_37">Klaff to Kwan</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e643" level="file">
+               <c03 id="mferd161e643" level="file">
                   <did>
                      <container type="box-folder">8/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_38">Laborde to Lazzesi</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e649" level="file">
+               <c03 id="mferd161e649" level="file">
                   <did>
                      <container type="box-folder">8/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_39">Leah to Leslie</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e655" level="file">
+               <c03 id="mferd161e655" level="file">
                   <did>
                      <container type="box-folder">8/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_40">Leuname to Logue</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e661" level="file">
+               <c03 id="mferd161e661" level="file">
                   <did>
                      <container type="box-folder">8/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_41">Lohr to Lyric Male Quartet</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e668" level="file">
+               <c03 id="mferd161e668" level="file">
                   <did>
                      <container type="box-folder">9/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_42">Maas to M[a]cVeigh</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e674" level="file">
+               <c03 id="mferd161e674" level="file">
                   <did>
                      <container type="box-folder">9/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_43">Macchiaverna to Mansan</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e680" level="file">
+               <c03 id="mferd161e680" level="file">
                   <did>
                      <container type="box-folder">9/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_44">Maranville to Maryella</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e686" level="file">
+               <c03 id="mferd161e686" level="file">
                   <did>
                      <container type="box-folder">9/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_45">Mäsch to Melodie</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e692" level="file">
+               <c03 id="mferd161e692" level="file">
                   <did>
                      <container type="box-folder">9/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_46">Melodious Harmonica Trio to Mike and Bill</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e698" level="file">
+               <c03 id="mferd161e698" level="file">
                   <did>
                      <container type="box-folder">10/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_47">Miki to Mistichelli</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e704" level="file">
+               <c03 id="mferd161e704" level="file">
                   <did>
                      <container type="box-folder">10/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_48">Mitchel to Morris, D.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e710" level="file">
+               <c03 id="mferd161e710" level="file">
                   <did>
                      <container type="box-folder">10/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_49">Morris, M. to Myers</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e716" level="file">
+               <c03 id="mferd161e716" level="file">
                   <did>
                      <container type="box-folder">10/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_50">Nadel to Nogueira</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e722" level="file">
+               <c03 id="mferd161e722" level="file">
                   <did>
                      <container type="box-folder">10/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_51">Nona to O'Neil, R.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e728" level="file">
+               <c03 id="mferd161e728" level="file">
                   <did>
                      <container type="box-folder">11/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_52">Ooms to Pagin</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e735" level="file">
+               <c03 id="mferd161e735" level="file">
                   <did>
                      <container type="box-folder">11/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_53">Pagliarini to Payne</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e741" level="file">
+               <c03 id="mferd161e741" level="file">
                   <did>
                      <container type="box-folder">11/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_54">Peace and Pizzuto</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e747" level="file">
+               <c03 id="mferd161e747" level="file">
                   <did>
                      <container type="box-folder">11/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_55">Plantation Four to Puzelli</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e753" level="file">
+               <c03 id="mferd161e753" level="file">
                   <did>
                      <container type="box-folder">11/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_56">Quantico Marine Quartet to Rezits</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e759" level="file">
+               <c03 id="mferd161e759" level="file">
                   <did>
                      <container type="box-folder">12/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_57">Rhodes to Robbins, R.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e765" level="file">
+               <c03 id="mferd161e765" level="file">
                   <did>
                      <container type="box-folder">12/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_58">Robbins, S. to Rondeau</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e771" level="file">
+               <c03 id="mferd161e771" level="file">
                   <did>
                      <container type="box-folder">12/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_59">Roosa to Rozman</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e777" level="file">
+               <c03 id="mferd161e777" level="file">
                   <did>
                      <container type="box-folder">12/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_60">Rubenstein, L. to Sanders</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e783" level="file">
+               <c03 id="mferd161e783" level="file">
                   <did>
                      <container type="box-folder">12/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_61">Sandherr to Scott</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e789" level="file">
+               <c03 id="mferd161e789" level="file">
                   <did>
                      <container type="box-folder">13/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_62">Seabee Quartet to Shiff</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e795" level="file">
+               <c03 id="mferd161e795" level="file">
                   <did>
                      <container type="box-folder">13/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_63">Shilton to Six Janitors</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e802" level="file">
+               <c03 id="mferd161e802" level="file">
                   <did>
                      <container type="box-folder">13/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_64">Six Jars of Jam to Southwick</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e808" level="file">
+               <c03 id="mferd161e808" level="file">
                   <did>
                      <container type="box-folder">13/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_65">Spadafora to Stewart</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e814" level="file">
+               <c03 id="mferd161e814" level="file">
                   <did>
                      <container type="box-folder">13/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_66">Stock to Swing Sisters Trio</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e820" level="file">
+               <c03 id="mferd161e820" level="file">
                   <did>
                      <container type="box-folder">13/6</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_67">Swingers of Harmony to Texas Wanderers</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e826" level="file">
+               <c03 id="mferd161e826" level="file">
                   <did>
                      <container type="box-folder">14/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_68">Thatcher to Three Coxswains</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e832" level="file">
+               <c03 id="mferd161e832" level="file">
                   <did>
                      <container type="box-folder">14/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_69">Three Davis Brothers to Three Mouth Organ Kings</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e838" level="file">
+               <c03 id="mferd161e838" level="file">
                   <did>
                      <container type="box-folder">14/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_70">Three Niblicks to Towle</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e844" level="file">
+               <c03 id="mferd161e844" level="file">
                   <did>
                      <container type="box-folder">14/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_71">Tracy to Tyler</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e850" level="file">
+               <c03 id="mferd161e850" level="file">
                   <did>
                      <container type="box-folder">14/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_72">Watcher and Freeman to Weal </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e856" level="file">
+               <c03 id="mferd161e856" level="file">
                   <did>
                      <container type="box-folder">14/6</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_73">Wetherson to Westward Ho!</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e862" level="file">
+               <c03 id="mferd161e862" level="file">
                   <did>
                      <container type="box-folder">15/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_74">Uccellini to Vuylsteke</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e869" level="file">
+               <c03 id="mferd161e869" level="file">
                   <did>
                      <container type="box-folder">15/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_75">Whalen to Williams, L.</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e875" level="file">
+               <c03 id="mferd161e875" level="file">
                   <did>
                      <container type="box-folder">15/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_76">Williams, M. to Wittig</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e881" level="file">
+               <c03 id="mferd161e881" level="file">
                   <did>
                      <container type="box-folder">15/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_77">Wobnick to Wyoming Range Buddies</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e887" level="file">
+               <c03 id="mferd161e887" level="file">
                   <did>
                      <container type="box-folder">15/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_applications_CL10011001_D3_78">Yaffe to Zyne</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd235e893" level="subseries">
+            <c02 id="mferd161e893" level="subseries">
                <did>
                   <container type="box-folder">16/1-2</container>
                   <unittitle encodinganalog="245$a" id="CL10011002">Contestants' biographical sketches</unittitle>
@@ -807,20 +808,20 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                <arrangement encodinganalog="351$b">
                   <p>Arranged alphabetical order by name</p>
                </arrangement>
-               <c03 id="mferd235e905" level="file">
+               <c03 id="mferd161e905" level="file">
                   <did>
                      <container type="box-folder">16/1</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_biographical_CL10011002_D3_1">All Girl Swing Band to One Man Band</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e911" level="file">
+               <c03 id="mferd161e911" level="file">
                   <did>
                      <container type="box-folder">16/2</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Contestant_biographical_CL10011002_D3_2">Kathleen Ray to Frances White</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd235e917" level="subseries">
+            <c02 id="mferd161e917" level="subseries">
                <did>
                   <container type="box-folder">16/3-5</container>
                   <unittitle encodinganalog="245$a" id="CL10011003">Lists of performers</unittitle>
@@ -831,19 +832,19 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                <arrangement encodinganalog="351$b">
                   <p>Arranged in alphabetical order by nationality</p>
                </arrangement>
-               <c03 id="mferd235e929" level="file">
+               <c03 id="mferd161e929" level="file">
                   <did>
                      <container type="box-folder">16/3</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Lists_of_performers_CL10011003_D3_1">American</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e935" level="file">
+               <c03 id="mferd161e935" level="file">
                   <did>
                      <container type="box-folder">16/4</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Lists_of_performers_CL10011003_D3_2">Irish</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e941" level="file">
+               <c03 id="mferd161e941" level="file">
                   <did>
                      <container type="box-folder">16/5</container>
                      <unittitle encodinganalog="245$a" id="mu004002_Lists_of_performers_CL10011003_D3_3">Mexican</unittitle>
@@ -851,7 +852,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd235e947" level="series">
+         <c01 id="mferd161e947" level="series">
             <did>
                <container type="box-folder">16/6-33</container>
                <unittitle encodinganalog="245$a" id="CL1002">Photographs</unittitle>
@@ -862,181 +863,181 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arranged in alphabetical order by subject</p>
             </arrangement>
-            <c02 id="mferd235e959" level="file">
+            <c02 id="mferd161e959" level="file">
                <did>
                   <container type="box-folder">16/6</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_1">Cowboy Acts</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e965" level="file">
+            <c02 id="mferd161e965" level="file">
                <did>
                   <container type="box-folder">16/7</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_2">Dancers: Adult, male</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e971" level="file">
+            <c02 id="mferd161e971" level="file">
                <did>
                   <container type="box-folder">16/8</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_3">Dancers: Adult, female</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e977" level="file">
+            <c02 id="mferd161e977" level="file">
                <did>
                   <container type="box-folder">16/9</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_4">Dancers: Child, female</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e983" level="file">
+            <c02 id="mferd161e983" level="file">
                <did>
                   <container type="box-folder">16/10</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_5">Partners, Adult</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e989" level="file">
+            <c02 id="mferd161e989" level="file">
                <did>
                   <container type="box-folder">16/11</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_6">Partners, Child</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e995" level="file">
+            <c02 id="mferd161e995" level="file">
                <did>
                   <container type="box-folder">16/12</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_7">Impersonators</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1001" level="file">
+            <c02 id="mferd161e1001" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_8">Instrumentalists:</unittitle>
                </did>
-               <c03 id="mferd235e1005" level="file">
+               <c03 id="mferd161e1005" level="file">
                   <did>
                      <container type="box-folder">16/13</container>
                      <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D4_1">Accordion players</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e1011" level="file">
+               <c03 id="mferd161e1011" level="file">
                   <did>
                      <container type="box-folder">16/14</container>
                      <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D4_2">Bands</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e1017" level="file">
+               <c03 id="mferd161e1017" level="file">
                   <did>
                      <container type="box-folder">16/15</container>
                      <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D4_3">Bellringers</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e1023" level="file">
+               <c03 id="mferd161e1023" level="file">
                   <did>
                      <container type="box-folder">16/16</container>
                      <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D4_4">Guitar players</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e1029" level="file">
+               <c03 id="mferd161e1029" level="file">
                   <did>
                      <container type="box-folder">16/17</container>
                      <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D4_5">Harmonica players</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e1035" level="file">
+               <c03 id="mferd161e1035" level="file">
                   <did>
                      <container type="box-folder">16/18</container>
                      <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D4_6">Piano players</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e1041" level="file">
+               <c03 id="mferd161e1041" level="file">
                   <did>
                      <container type="box-folder">16/19</container>
                      <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D4_7">Trumpet players</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd235e1047" level="file">
+               <c03 id="mferd161e1047" level="file">
                   <did>
                      <container type="box-folder">16/20</container>
                      <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D4_8">Xylophone players</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd235e1054" level="file">
+            <c02 id="mferd161e1054" level="file">
                <did>
                   <container type="box-folder">16/21</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_9">Rollerskaters</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1060" level="file">
+            <c02 id="mferd161e1060" level="file">
                <did>
                   <container type="box-folder">16/22</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_10">Singers: Adult, male</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1066" level="file">
+            <c02 id="mferd161e1066" level="file">
                <did>
                   <container type="box-folder">16/23</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_11">Singers: Adult, female</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1072" level="file">
+            <c02 id="mferd161e1072" level="file">
                <did>
                   <container type="box-folder">16/24</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_12">Singers: Child, male</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1078" level="file">
+            <c02 id="mferd161e1078" level="file">
                <did>
                   <container type="box-folder">16/25</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_13">Singers: Child, female</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1084" level="file">
+            <c02 id="mferd161e1084" level="file">
                <did>
                   <container type="box-folder">16/26</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_14">Novelty acts</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1090" level="file">
+            <c02 id="mferd161e1090" level="file">
                <did>
                   <container type="box-folder">16/27</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_15">Performing Groups</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1096" level="file">
+            <c02 id="mferd161e1096" level="file">
                <did>
                   <container type="box-folder">16/28</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_16">Major Bowes </unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1102" level="file">
+            <c02 id="mferd161e1102" level="file">
                <did>
                   <container type="box-folder">16/29</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_17">Ted Mack</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1108" level="file">
+            <c02 id="mferd161e1108" level="file">
                <did>
                   <container type="box-folder">16/30</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_18">Game shows</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1114" level="file">
+            <c02 id="mferd161e1114" level="file">
                <did>
                   <container type="box-folder">16/31</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_19">Stage Set</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1121" level="file">
+            <c02 id="mferd161e1121" level="file">
                <did>
                   <container type="box-folder">16/32</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_20">Promotional banners and billboard</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1127" level="file">
+            <c02 id="mferd161e1127" level="file">
                <did>
                   <container type="box-folder">16/33</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PHOTOGRAPHS_CL1002_D3_21">Others, identified and unidentified</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1133" level="series">
+         <c01 id="mferd161e1133" level="series">
             <did>
                <container type="box-folder">17/1-26</container>
                <unittitle encodinganalog="245$a" id="CL1003">Correspondence</unittitle>
@@ -1047,44 +1048,44 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by subject</p>
             </arrangement>
-            <c02 id="mferd235e1145" level="file">
+            <c02 id="mferd161e1145" level="file">
                <did>
                   <container type="box-folder">17/1</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CORRESPONDENCE_CL1003_D3_1">Drafts and copies of letters of Lou Goldberg, June 26, 1936 to February 11, 1957</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1151" level="file">
+            <c02 id="mferd161e1151" level="file">
                <did>
                   <container type="box-folder">17/2</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CORRESPONDENCE_CL1003_D3_2">Drafts and copies of letters of Daniel Manjarrez, March 27, 1957 to June 25, 1957</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1157" level="file">
+            <c02 id="mferd161e1157" level="file">
                <did>
                   <container type="box-folder">17/3-6</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CORRESPONDENCE_CL1003_D3_3">Drafts and copies of letters sent by Harry McWilliams, June 1, 1936 to December 2, 1957</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1163" level="file">
+            <c02 id="mferd161e1163" level="file">
                <did>
                   <container type="box-folder">17/7-24</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CORRESPONDENCE_CL1003_D3_4">Letters received, filed alphabetically by correspondent</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1169" level="file">
+            <c02 id="mferd161e1169" level="file">
                <did>
                   <container type="box-folder">17/25</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CORRESPONDENCE_CL1003_D3_5">Collage of commendatory letters received by Ted Mack (photocopies)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1175" level="file">
+            <c02 id="mferd161e1175" level="file">
                <did>
                   <container type="box-folder">17/26</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CORRESPONDENCE_CL1003_D3_6">Undated and unidentified</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1181" level="series">
+         <c01 id="mferd161e1181" level="series">
             <did>
                <container type="box-folder">17/27-37</container>
                <unittitle encodinganalog="245$a" id="CL1004">Advertising/Sponsor Materials</unittitle>
@@ -1095,7 +1096,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by subject</p>
             </arrangement>
-            <c02 id="mferd235e1193" level="file">
+            <c02 id="mferd161e1193" level="file">
                <did>
                   <container type="box-folder">17/27-29</container>
                   <unittitle encodinganalog="245$a" id="mu004002_ADVERTISING_SPONSOR_MATERIALS_CL1004_D3_1">General program information</unittitle>
@@ -1111,7 +1112,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                   </note>
                </did>
             </c02>
-            <c02 id="mferd235e1215" level="file">
+            <c02 id="mferd161e1215" level="file">
                <did>
                   <container type="box-folder">17/30-32</container>
                   <unittitle encodinganalog="245$a" id="mu004002_ADVERTISING_SPONSOR_MATERIALS_CL1004_D3_2">Program ratings sheets</unittitle>
@@ -1126,7 +1127,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                   </note>
                </did>
             </c02>
-            <c02 id="mferd235e1234" level="file">
+            <c02 id="mferd161e1234" level="file">
                <did>
                   <container type="box-folder">17/33-34</container>
                   <unittitle encodinganalog="245$a" id="mu004002_ADVERTISING_SPONSOR_MATERIALS_CL1004_D3_3">Station listings sheets</unittitle>
@@ -1139,26 +1140,26 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                   </note>
                </did>
             </c02>
-            <c02 id="mferd235e1248" level="file">
+            <c02 id="mferd161e1248" level="file">
                <did>
                   <container type="box-folder">17/35</container>
                   <unittitle encodinganalog="245$a" id="mu004002_ADVERTISING_SPONSOR_MATERIALS_CL1004_D3_4">Program listings</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1254" level="file">
+            <c02 id="mferd161e1254" level="file">
                <did>
                   <container type="box-folder">17/36</container>
                   <unittitle encodinganalog="245$a" id="mu004002_ADVERTISING_SPONSOR_MATERIALS_CL1004_D3_5">Other TV &amp; Radio program listings</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1260" level="file">
+            <c02 id="mferd161e1260" level="file">
                <did>
                   <container type="box-folder">17/37</container>
                   <unittitle encodinganalog="245$a" id="mu004002_ADVERTISING_SPONSOR_MATERIALS_CL1004_D3_6">Miscellaneous</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1266" level="series">
+         <c01 id="mferd161e1266" level="series">
             <did>
                <container type="box-folder">18/1-10</container>
                <unittitle encodinganalog="245$a" id="CL1005">Promotional Materials</unittitle>
@@ -1169,62 +1170,62 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by subject or genre.</p>
             </arrangement>
-            <c02 id="mferd235e1278" level="file">
+            <c02 id="mferd161e1278" level="file">
                <did>
                   <container type="box-folder">18/1</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_1">Press release drafts</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1284" level="file">
+            <c02 id="mferd161e1284" level="file">
                <did>
                   <container type="box-folder">18/2</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_2">Program fact sheets and announcements</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1290" level="file">
+            <c02 id="mferd161e1290" level="file">
                <did>
                   <container type="box-folder">18/3</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_3">In-house publications</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1296" level="file">
+            <c02 id="mferd161e1296" level="file">
                <did>
                   <container type="box-folder">18/4</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_4">Original Amateur Hour magazine</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1302" level="file">
+            <c02 id="mferd161e1302" level="file">
                <did>
                   <container type="box-folder">18/5</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_5">Flyers and proofs</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1308" level="file">
+            <c02 id="mferd161e1308" level="file">
                <did>
                   <container type="box-folder">18/6</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_6">Newspaper materials</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1314" level="file">
+            <c02 id="mferd161e1314" level="file">
                <did>
                   <container type="box-folder">18/7-8</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_7">Posters</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1320" level="file">
+            <c02 id="mferd161e1320" level="file">
                <did>
                   <container type="box-folder">18/9</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_8">Ted Mack</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1327" level="file">
+            <c02 id="mferd161e1327" level="file">
                <did>
                   <container type="box-folder">18/10</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PROMOTIONAL_MATERIALS_CL1005_D3_9">Miscellaneous</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1333" level="series">
+         <c01 id="mferd161e1333" level="series">
             <did>
                <container type="box-folder">18/11-18</container>
                <unittitle encodinganalog="245$a" id="CL1006">Production Materials</unittitle>
@@ -1235,7 +1236,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by subject</p>
             </arrangement>
-            <c02 id="mferd235e1345" level="file">
+            <c02 id="mferd161e1345" level="file">
                <did>
                   <container type="box-folder">18/11-13</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PRODUCTION_MATERIALS_CL1006_D3_1">Scripts</unittitle>
@@ -1248,32 +1249,32 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                   </note>
                </did>
             </c02>
-            <c02 id="mferd235e1359" level="file">
+            <c02 id="mferd161e1359" level="file">
                <did>
                   <container type="box-folder">18/14-15</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PRODUCTION_MATERIALS_CL1006_D3_2">Commercials scripts (English and Spanish)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1365" level="file">
+            <c02 id="mferd161e1365" level="file">
                <did>
                   <container type="box-folder">18/16</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PRODUCTION_MATERIALS_CL1006_D3_3">Program order and sequence, La Hora Stage directions</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1371" level="file">
+            <c02 id="mferd161e1371" level="file">
                <did>
                   <container type="box-folder">18/17</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PRODUCTION_MATERIALS_CL1006_D3_4">Stage directions</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1377" level="file">
+            <c02 id="mferd161e1377" level="file">
                <did>
                   <container type="box-folder">18/18</container>
                   <unittitle encodinganalog="245$a" id="mu004002_PRODUCTION_MATERIALS_CL1006_D3_5">Miscellaneous</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1383" level="series">
+         <c01 id="mferd161e1383" level="series">
             <did>
                <container type="box-folder">19/1-10</container>
                <unittitle encodinganalog="245$a" id="CL1007">Financial Papers</unittitle>
@@ -1284,37 +1285,37 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by subject or genre</p>
             </arrangement>
-            <c02 id="mferd235e1395" level="file">
+            <c02 id="mferd161e1395" level="file">
                <did>
                   <container type="box-folder">19/1</container>
                   <unittitle encodinganalog="245$a" id="mu004002_FINANCIAL_PAPERS_CL1007_D3_1">Balance sheets</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1401" level="file">
+            <c02 id="mferd161e1401" level="file">
                <did>
                   <container type="box-folder">19/2</container>
                   <unittitle encodinganalog="245$a" id="mu004002_FINANCIAL_PAPERS_CL1007_D3_2">Bank deposits lists</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1407" level="file">
+            <c02 id="mferd161e1407" level="file">
                <did>
                   <container type="box-folder">19/3</container>
                   <unittitle encodinganalog="245$a" id="mu004002_FINANCIAL_PAPERS_CL1007_D3_3">Bills (facturas)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1413" level="file">
+            <c02 id="mferd161e1413" level="file">
                <did>
                   <container type="box-folder">19/4</container>
                   <unittitle encodinganalog="245$a" id="mu004002_FINANCIAL_PAPERS_CL1007_D3_4">Payroll sheets</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1419" level="file">
+            <c02 id="mferd161e1419" level="file">
                <did>
                   <container type="box-folder">19/5</container>
                   <unittitle encodinganalog="245$a" id="mu004002_FINANCIAL_PAPERS_CL1007_D3_5">Program budgets</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1425" level="file">
+            <c02 id="mferd161e1425" level="file">
                <did>
                   <container type="box-folder">19/6-8</container>
                   <unittitle encodinganalog="245$a" id="mu004002_FINANCIAL_PAPERS_CL1007_D3_6">Time/rate tables</unittitle>
@@ -1328,20 +1329,20 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                   </note>
                </did>
             </c02>
-            <c02 id="mferd235e1441" level="file">
+            <c02 id="mferd161e1441" level="file">
                <did>
                   <container type="box-folder">19/9</container>
                   <unittitle encodinganalog="245$a" id="mu004002_FINANCIAL_PAPERS_CL1007_D3_7">Travel expenses</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1447" level="file">
+            <c02 id="mferd161e1447" level="file">
                <did>
                   <container type="box-folder">19/10</container>
                   <unittitle encodinganalog="245$a" id="mu004002_FINANCIAL_PAPERS_CL1007_D3_8">Miscellaneous</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1453" level="series">
+         <c01 id="mferd161e1453" level="series">
             <did>
                <container type="box-folder">19/12-13</container>
                <unittitle encodinganalog="245$a" id="CL1008">Legal Papers</unittitle>
@@ -1352,20 +1353,20 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arragnement is by genre or subject</p>
             </arrangement>
-            <c02 id="mferd235e1465" level="file">
+            <c02 id="mferd161e1465" level="file">
                <did>
                   <container type="box-folder">19/12</container>
                   <unittitle encodinganalog="245$a" id="mu004002_LEGAL_PAPERS_CL1008_D3_1">Contract for La Hora Internacional</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1471" level="file">
+            <c02 id="mferd161e1471" level="file">
                <did>
                   <container type="box-folder">19/13</container>
                   <unittitle encodinganalog="245$a" id="mu004002_LEGAL_PAPERS_CL1008_D3_2">Servicio Postal Mexicano registration form</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1478" level="series">
+         <c01 id="mferd161e1478" level="series">
             <did>
                <container type="box-folder">19/14</container>
                <unittitle encodinganalog="245$a" id="CL1009">Printed Programs of Performances, <unitdate encodinganalog="245$f" type="inclusive" normal="1934/1954" era="ce"
@@ -1378,7 +1379,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is chronological by date</p>
             </arrangement>
-            <c02 id="mferd235e1493" level="file">
+            <c02 id="mferd161e1493" level="file">
                <did>
                   <container type="box-folder">19/14</container>
                   <unittitle encodinganalog="245$a"
@@ -1386,7 +1387,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1499" level="series">
+         <c01 id="mferd161e1499" level="series">
             <did>
                <container type="box-folder">19/15-20/5</container>
                <unittitle encodinganalog="245$a" id="CL1010">Clippings, <unitdate encodinganalog="245$f" type="inclusive" normal="1935-01/1957-11" era="ce"
@@ -1399,74 +1400,74 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is chronological by date</p>
             </arrangement>
-            <c02 id="mferd235e1514" level="file">
+            <c02 id="mferd161e1514" level="file">
                <did>
                   <container type="box-folder">19/15</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_1">January 1935 to November 29, 1935</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1520" level="file">
+            <c02 id="mferd161e1520" level="file">
                <did>
                   <container type="box-folder">19/16</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_2">January 28, 1936 to December 4, 1936</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1526" level="file">
+            <c02 id="mferd161e1526" level="file">
                <did>
                   <container type="box-folder">19/17</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_3">March 11, 1937 to April 20, 1937</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1532" level="file">
+            <c02 id="mferd161e1532" level="file">
                <did>
                   <container type="box-folder">19/18</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_4">January 6, 1939 to October 2, 1941</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1538" level="file">
+            <c02 id="mferd161e1538" level="file">
                <did>
                   <container type="box-folder">19/19</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_5">August 6, 1947 to May 15, 1953</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1544" level="file">
+            <c02 id="mferd161e1544" level="file">
                <did>
                   <container type="box-folder">19/20</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_6">April 19, 1956 to December 5, 1956</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1550" level="file">
+            <c02 id="mferd161e1550" level="file">
                <did>
                   <container type="box-folder">20/1</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_7">January 25, 1957 to March 16, 1957</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1556" level="file">
+            <c02 id="mferd161e1556" level="file">
                <did>
                   <container type="box-folder">20/2</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_8">April 7, 1957 to June 19, 1957</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1563" level="file">
+            <c02 id="mferd161e1563" level="file">
                <did>
                   <container type="box-folder">20/3</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_9">July 1, 1957 to November 6, 1957</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1569" level="file">
+            <c02 id="mferd161e1569" level="file">
                <did>
                   <container type="box-folder">20/4</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_10">Collage of clippings (photocopy)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1575" level="file">
+            <c02 id="mferd161e1575" level="file">
                <did>
                   <container type="box-folder">20/5</container>
                   <unittitle encodinganalog="245$a" id="mu004002_CLIPPINGS_CL1010_D3_11">Undated</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1581" level="series">
+         <c01 id="mferd161e1581" level="series">
             <did>
                <container type="box-folder">20/6</container>
                <unittitle encodinganalog="245$a" id="CL1011">Awards</unittitle>
@@ -1477,14 +1478,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by subject</p>
             </arrangement>
-            <c02 id="mferd235e1593" level="file">
+            <c02 id="mferd161e1593" level="file">
                <did>
                   <container type="box-folder">20/6</container>
                   <unittitle encodinganalog="245$a" id="mu004002_AWARDS_CL1011_D3_1">Veterans of Foreign Wars of the United States presented to Ted Mack and The Original Amateur Hour, 2 May 1953. [photocopy]</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd235e1599" level="series">
+         <c01 id="mferd161e1599" level="series">
             <did>
                <container type="box-folder">20/7-20/13</container>
                <unittitle encodinganalog="245$a" id="CL1012">Miscellaneous</unittitle>
@@ -1495,37 +1496,37 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004002
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by format or subject</p>
             </arrangement>
-            <c02 id="mferd235e1611" level="file">
+            <c02 id="mferd161e1611" level="file">
                <did>
                   <container type="box-folder">20/7</container>
                   <unittitle encodinganalog="245$a" id="mu004002_MISCELLANEOUS_CL1012_D3_1">Notebook of Lloyd Marx</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1617" level="file">
+            <c02 id="mferd161e1617" level="file">
                <did>
                   <container type="box-folder">20/8</container>
                   <unittitle encodinganalog="245$a" id="mu004002_MISCELLANEOUS_CL1012_D3_2">Catalogues of films</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1623" level="file">
+            <c02 id="mferd161e1623" level="file">
                <did>
                   <container type="box-folder">20/9</container>
                   <unittitle encodinganalog="245$a" id="mu004002_MISCELLANEOUS_CL1012_D3_3">Harry McWilliams: Notes from Amateur Hour tours and miscellaneous notes</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1629" level="file">
+            <c02 id="mferd161e1629" level="file">
                <did>
                   <container type="box-folder">20/10-11</container>
                   <unittitle encodinganalog="245$a" id="mu004002_MISCELLANEOUS_CL1012_D3_4">Articles</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1635" level="file">
+            <c02 id="mferd161e1635" level="file">
                <did>
                   <container type="box-folder">20/12</container>
                   <unittitle encodinganalog="245$a" id="mu004002_MISCELLANEOUS_CL1012_D3_5">Samples of stationery and forms</unittitle>
                </did>
             </c02>
-            <c02 id="mferd235e1641" level="file">
+            <c02 id="mferd161e1641" level="file">
                <did>
                   <container type="box-folder">20/13</container>
                   <unittitle encodinganalog="245$a" id="mu004002_MISCELLANEOUS_CL1012_D3_6">Travel brochures, postcards and maps</unittitle>

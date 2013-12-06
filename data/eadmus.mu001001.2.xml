@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 19 August 2011 12:17:08 PM EDT
+Generated: Mon, 22 July 2013 11:48:28 AM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu001001--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu001001--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu001001-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd13e6">
-   <eadheader id="mferd13e7" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd11e5">
+   <eadheader id="mferd11e6" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -101,11 +101,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
          </repository>
          <abstract label="Summary" encodinganalog="520$a">The bulk of the materials in the collection are musical scores and sketches which represent virtually the entire musical output of the composer, some of which have been cataloged individually and classified and shelved in ML96.F47, ML96.5.F47, ML30.3C.F55, and ML29c.F527. In addition there are photographs, clippings, programs, scrapbooks, as well as correspondence from 20th century musicians such as Leonard Bernstein, Aaron Copland, Lukas Foss, Alberto Ginastera, Ned Rorem, and William Schuman.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd1411e106" altrender=":::F005=^20090604125416.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd1411e106" altrender=":::F005=^20090604125416.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd15e7">
+         <controlaccess id="mferd1413e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Bernstein%2C+Leonard%2C+1918-1990+Correspondence.^">Bernstein, Leonard, 1918-1990--Correspondence.</persname>
@@ -128,7 +129,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Schuman%2C+William%2C+1910-1992+Correspondence.^">Schuman, William, 1910-1992--Correspondence.</persname>
          </controlaccess>
-         <controlaccess id="mferd15e30">
+         <controlaccess id="mferd1413e49">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Composers+Correspondence.^">Composers--Correspondence.</subject>
@@ -214,7 +215,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                <entry>Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd13e285" level="series">
+         <c01 id="mferd11e282" level="series">
             <did>
                <container type="box">1-4</container>
                <container type="box">16</container>
@@ -226,12 +227,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <arrangement encodinganalog="351$b">
                <p>Music series is arranged into three subseries: Music Composed by Irving Fine, Sketchbooks of Irving Fine, and Music by Others. The sketchbooks are arranged by number and housed in box 4. The other subseries are arranged by composer and title.</p>
             </arrangement>
-            <c02 id="mferd13e299" level="subseries">
+            <c02 id="mferd11e296" level="subseries">
                <did>
                   <container type="box">1-2a</container>
                   <unittitle encodinganalog="245$a" id="CL10011001">Music by Irving Fine</unittitle>
                </did>
-               <c03 id="mferd13e305" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e302" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/1</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_1">
@@ -243,7 +244,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e319" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e316" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_2">
@@ -266,7 +267,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e346" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e343" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_3">
@@ -292,7 +293,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e377" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e374" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_4">
@@ -315,7 +316,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e405" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e402" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/3</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_5">[Three choruses from Alice in Wonderland (1953)]</unittitle>
@@ -338,7 +339,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e432" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e429" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/3</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_6">
@@ -358,7 +359,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e455" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e452" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/4</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_7">[Alice in wonderland suite (Diversions)]</unittitle>
@@ -370,7 +371,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e469" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e466" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">15/1</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_8">
@@ -382,7 +383,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e483" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e480" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/5</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_9">
@@ -394,7 +395,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e497" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e494" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">15/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_10">[Ballet, early (1940-41)]</unittitle>
@@ -403,7 +404,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e509" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e506" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/6</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_11">
@@ -425,7 +426,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e532" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e529" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_12">Blue towers <lb/>   
                         <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
@@ -436,7 +437,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e544" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e541" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_13">
@@ -466,7 +467,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e579" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e576" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">1/8</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_14">
@@ -494,7 +495,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e610" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e607" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">15/3</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_15">
@@ -520,7 +521,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e641" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e638" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_16">
@@ -535,7 +536,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e658" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e655" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_17">
@@ -550,7 +551,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e675" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e672" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_18">[Concerto, violin]</unittitle>
@@ -559,7 +560,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e686" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e683" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/3</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_19">[Concerto, violin]</unittitle>
@@ -571,7 +572,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e700" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e697" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/4</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_20">[Concerto, violin]</unittitle>
@@ -580,7 +581,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e711" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e708" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_21">
@@ -592,7 +593,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e726" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e723" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/6</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_22">
@@ -617,7 +618,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e754" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e751" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_23">
@@ -632,7 +633,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e771" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e768" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/8</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_24">
@@ -647,7 +648,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e788" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e785" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/8</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_25">
@@ -659,7 +660,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e802" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e799" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/9</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_26">
@@ -674,7 +675,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e819" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e816" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/10</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_27">
@@ -697,7 +698,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e849" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e846" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/11</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_28">
@@ -721,7 +722,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e875" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e872" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/11</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_29">
@@ -742,7 +743,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e898" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e895" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">15/4</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_30">
@@ -764,7 +765,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e921" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e918" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/12</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_31">
@@ -776,7 +777,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e935" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e932" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/13</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_32">
@@ -791,7 +792,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e953" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e950" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/14</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_33">
@@ -815,7 +816,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e982" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e979" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/15</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_34">
@@ -833,7 +834,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1002" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e999" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/15</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_35">
@@ -845,7 +846,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1016" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1013" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/16</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_36">
@@ -860,7 +861,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1033" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1030" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/17</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_37">
@@ -881,7 +882,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1056" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1053" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/18</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_38">["Lonely little heart" f.l.]</unittitle>
@@ -890,7 +891,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1067" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1064" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/19</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_39">[Maggie]</unittitle>
@@ -911,7 +912,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1090" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1087" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/20</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_40">
@@ -931,7 +932,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1114" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1111" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/20</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_41">
@@ -958,7 +959,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1146" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1143" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2/21</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_42">
@@ -970,7 +971,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1160" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1157" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/1</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_43">
@@ -988,7 +989,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1181" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1178" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">15/5</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_44">
@@ -1012,7 +1013,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1210" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1207" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_45">
@@ -1030,7 +1031,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1230" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1227" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/4</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_46">
@@ -1042,7 +1043,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1244" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1241" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/5</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_47">[Old concerto in manner of Stravinsky-Bach]</unittitle>
@@ -1054,7 +1055,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1258" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1255" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/6</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_48">
@@ -1066,7 +1067,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1272" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1269" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">15/6</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_49">
@@ -1078,7 +1079,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1286" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1283" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_50">
@@ -1099,7 +1100,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1309" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1306" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_51">
@@ -1111,7 +1112,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1323" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1320" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/8</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_52">[Serious song]</unittitle>
@@ -1123,7 +1124,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1337" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1334" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/9</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_53">[Shepherd's song]</unittitle>
@@ -1132,7 +1133,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1348" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1345" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/10</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_54">[Sonata, cello]</unittitle>
@@ -1144,7 +1145,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1363" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1360" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/11</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_55">[Sonata, violin and piano]</unittitle>
@@ -1156,7 +1157,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1377" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1374" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/12</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_56">
@@ -1168,7 +1169,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1391" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1388" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/13</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_57">
@@ -1180,7 +1181,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1405" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1402" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/13</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_58">
@@ -1195,7 +1196,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1422" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd1411e1408" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/14</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_59">
@@ -1208,16 +1209,17 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      <note encodinganalog="500$a">
                         <p>On title page: "Commissioned by the Koussevitzky Foundation and dedicated to the memory of Serge and Natalie Koussevitzky"</p>
                      </note>
-                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended">
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink" id="magby240XD.mu001001.fine.sket001"
+                             xlink:type="extended">
                         <daoloc xlink:type="locator" xlink:href="http://hdl.loc.gov/loc.music/fine.sket001">
                            <daodesc>
-                              <p>Digital image available</p>
+                              <p>Digital content available</p>
                            </daodesc>
                         </daoloc>
                      </daogrp>
                   </did>
                </c03>
-               <c03 id="mferd13e1444" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd1411e1430" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/14</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_60">
@@ -1244,7 +1246,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </daogrp>
                   </did>
                </c03>
-               <c03 id="mferd13e1470" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd1411e1456" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/14</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_61">
@@ -1257,16 +1259,17 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      <note encodinganalog="500$a">
                         <p>Note: dated Sept. 1951 - May 1952</p>
                      </note>
-                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended">
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink" id="magby240XD.mu001001.fine.sket002"
+                             xlink:type="extended">
                         <daoloc xlink:type="locator" xlink:href="http://hdl.loc.gov/loc.music/fine.sket002">
                            <daodesc>
-                              <p>Digital image available</p>
+                              <p>Digital content available</p>
                            </daodesc>
                         </daoloc>
                      </daogrp>
                   </did>
                </c03>
-               <c03 id="mferd13e1492" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1489" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/15</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_62">
@@ -1278,7 +1281,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1506" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1503" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">15/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_63">
@@ -1293,7 +1296,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1523" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1520" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">15/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_64">
@@ -1305,7 +1308,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1537" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1534" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/16</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_65">
@@ -1323,7 +1326,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1558" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1555" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/16</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_66">
@@ -1338,7 +1341,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1575" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1572" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/17</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_67">
@@ -1350,7 +1353,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1589" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1586" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/18</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_68">
@@ -1365,7 +1368,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1606" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1603" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/18</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_69">
@@ -1383,7 +1386,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1626" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1623" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/19</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_70">[When men of war roll ashore in Cambridge Town]</unittitle>
@@ -1392,7 +1395,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e1637" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1634" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/20</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_71">Miscellaneous lyrics and sketch material</unittitle>
@@ -1404,7 +1407,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1651" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1648" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/21</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Irving_Fine_CL10011001_D3_72">Miscellaneous student music workbook</unittitle>
@@ -1416,7 +1419,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1665" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1662" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">2a/22-27</container>
                      <container type="box-folder">15/8</container>
@@ -1439,12 +1442,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd13e1696" level="subseries">
+            <c02 id="mferd11e1693" level="subseries">
                <did>
                   <container type="box">4</container>
                   <unittitle encodinganalog="245$a" id="CL10011002">Sketchbooks of Irving Fine</unittitle>
                </did>
-               <c03 id="mferd13e1702" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1699" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/1</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_1">Sketchbook #1</unittitle>
@@ -1456,7 +1459,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1714" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1711" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_2">Sketchbook #2</unittitle>
@@ -1471,7 +1474,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1729" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1726" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/3</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_3">Sketchbook #3</unittitle>
@@ -1489,7 +1492,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1747" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1744" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/4</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_4">Sketchbook #4</unittitle>
@@ -1501,7 +1504,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1759" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd1411e1745" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/5</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_5">Sketchbook #5</unittitle>
@@ -1511,16 +1514,17 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      <note encodinganalog="500$a">
                         <p>Sketches for woodwind partita and string quartet</p>
                      </note>
-                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="extended">
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink" id="magby240XD.mu001001.fine.sket003"
+                             xlink:type="extended">
                         <daoloc xlink:type="locator" xlink:href="http://hdl.loc.gov/loc.music/fine.sket003">
                            <daodesc>
-                              <p>Digital image available</p>
+                              <p>Digital content available</p>
                            </daodesc>
                         </daoloc>
                      </daogrp>
                   </did>
                </c03>
-               <c03 id="mferd13e1776" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1773" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/6</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_6">Sketchbook #6</unittitle>
@@ -1532,7 +1536,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1788" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1785" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_7">Sketchbook #7</unittitle>
@@ -1544,7 +1548,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1800" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1797" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/8</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_8">Sketchbook #8</unittitle>
@@ -1556,7 +1560,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1812" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1809" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/9</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Sketchbooks_of_Irving_Fine_CL10011002_D3_9">Sketchbook #9</unittitle>
@@ -1571,7 +1575,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1827" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1824" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/10</container>
                      <unittitle encodinganalog="245$a"
@@ -1584,7 +1588,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1840" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1837" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/11</container>
                      <unittitle encodinganalog="245$a"
@@ -1597,7 +1601,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1852" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1849" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/12</container>
                      <unittitle encodinganalog="245$a"
@@ -1613,7 +1617,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1867" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1864" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/13</container>
                      <unittitle encodinganalog="245$a"
@@ -1626,7 +1630,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1879" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1876" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/14</container>
                      <unittitle encodinganalog="245$a"
@@ -1639,7 +1643,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1891" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1888" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/15</container>
                      <unittitle encodinganalog="245$a"
@@ -1652,7 +1656,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1903" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1900" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/16</container>
                      <unittitle encodinganalog="245$a"
@@ -1665,7 +1669,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1915" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1912" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/17</container>
                      <unittitle encodinganalog="245$a"
@@ -1678,7 +1682,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e1927" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1924" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">4/18</container>
                      <unittitle encodinganalog="245$a"
@@ -1695,19 +1699,19 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd13e1942" level="subseries">
+            <c02 id="mferd11e1939" level="subseries">
                <did>
                   <container type="box">3</container>
                   <container type="box">16</container>
                   <unittitle encodinganalog="245$a" id="CL10011003">Music by Others</unittitle>
                </did>
-               <c03 id="mferd13e1950" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1947" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_1">
                         <persname encodinganalog="100$a" role="cmp" normal="Ballantine, Edward">Ballantine, Edward</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e1957" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e1954" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/1</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_1">
@@ -1719,7 +1723,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd13e1978" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e1975" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/1</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_2">
@@ -1735,13 +1739,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2002" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e1999" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_2">
                         <persname encodinganalog="100$a" role="cmp" normal="Berger, Arthur">Berger, Arthur</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2009" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2006" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/2</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_3">
@@ -1754,13 +1758,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2030" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2027" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_3">
                         <persname encodinganalog="100$a" role="cmp" normal="Boulanger, Nadia">Boulanger, Nadia</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2037" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2034" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">2a/3</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_4">
@@ -1773,13 +1777,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2051" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2048" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_4">
                         <persname encodinganalog="100$a" role="cmp" normal="Briggs, Mary">Briggs, Mary</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2058" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2055" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/3</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_5">
@@ -1801,13 +1805,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2081" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2078" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_5">
                         <persname encodinganalog="100$a" role="cmp" normal="Cazden, Norman">Cazden, Norman</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2088" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2085" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/4</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_6">
@@ -1826,13 +1830,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2108" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2105" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_6">
                         <persname encodinganalog="100$a" role="cmp" normal="Diamond, David">Diamond, David</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2115" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2112" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/5</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_7">
@@ -1848,13 +1852,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2139" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2136" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_7">
                         <persname encodinganalog="100$a" role="cmp" normal="Gottlieb, Jack">Gottlieb, Jack</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2146" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2143" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/6</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_8">
@@ -1870,13 +1874,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2163" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2160" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_8">
                         <persname encodinganalog="100$a" role="cmp" normal="Haieff, Alexei">Haieff, Alexei</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2170" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2167" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/7</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_9">
@@ -1895,13 +1899,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2190" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2187" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_9">
                         <persname encodinganalog="100$a" role="cmp" normal="Jones, Collier">Jones, Collier</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2197" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2194" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/8</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_10">
@@ -1920,13 +1924,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2217" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2214" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_10">
                         <persname encodinganalog="100$a" role="cmp" normal="Kohn, Karl">Kohn, Karl</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2224" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2221" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/9</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_11">
@@ -1941,7 +1945,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd13e2241" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2238" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/9</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_12">
@@ -1957,13 +1961,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2259" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2256" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_11">
                         <persname encodinganalog="100$a" role="cmp" normal="Lukewitz, Joseph">Lukewitz, Joseph</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2266" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2263" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/10</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_13">
@@ -1979,13 +1983,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2283" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2280" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_12">
                         <persname encodinganalog="100$a" role="cmp" normal="Orgad, Ben-Zion">Orgad, Ben-Zion</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2290" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2287" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/11</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_14">
@@ -2001,13 +2005,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2307" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2304" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_13">
                         <persname encodinganalog="100$a" role="cmp" normal="Piston, Walter">Piston, Walter</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2314" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2311" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/12</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_15">
@@ -2019,7 +2023,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd13e2335" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2332" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">3/12</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_16">
@@ -2032,13 +2036,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2356" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2353" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_14">
                         <persname encodinganalog="100$a" role="cmp" normal="Read, Gardner">Read, Gardner</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2363" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2360" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/1</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_17">
@@ -2051,13 +2055,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2384" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2381" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_15">
                         <persname encodinganalog="100$a" role="cmp" normal="Salas, Juan Orrego">Salas, Juan Orrego</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2391" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2388" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/2</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_18">
@@ -2081,13 +2085,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2418" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2415" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_16">
                         <persname encodinganalog="100$a" role="cmp" normal="Sapp, Allen">Sapp, Allen</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2425" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2422" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/3</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_19">
@@ -2102,7 +2106,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd13e2442" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2439" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/3</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_20">
@@ -2118,13 +2122,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2459" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2456" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_17">
                         <persname encodinganalog="100$a" role="cmp" normal="Shapero, Harold">Shapero, Harold</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2466" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2463" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/4</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_21">
@@ -2139,7 +2143,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd13e2483" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2480" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/4</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_22">
@@ -2158,13 +2162,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2503" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2500" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_18">
                         <persname encodinganalog="100$a" role="cmp" normal="Spies, Claudio">Spies, Claudio</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2510" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2507" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/5</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_23">
@@ -2179,7 +2183,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd13e2527" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2524" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/5</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_24">
@@ -2194,7 +2198,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd13e2544" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2541" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/5</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_25">
@@ -2210,13 +2214,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2561" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2558" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_19">
                         <persname encodinganalog="100$a" role="cmp" normal="Talma, Louise">Talma, Louise</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2568" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2565" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/6</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_26">
@@ -2228,7 +2232,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd13e2589" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2586" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/6</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_27">
@@ -2244,13 +2248,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2606" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2603" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D3_20">
                         <persname encodinganalog="100$a" role="cmp" normal="Wernick, Richard">Wernick, Richard</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2613" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2610" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">16/7</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Music_by_Others_CL10011003_D4_28">
@@ -2268,7 +2272,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd13e2630" level="series">
+         <c01 id="mferd11e2627" level="series">
             <did>
                <container type="box">5</container>
                <unittitle encodinganalog="245$a" id="CL1002">Writings</unittitle>
@@ -2279,12 +2283,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <arrangement encodinganalog="351$b">
                <p>Arranged in alphabetical order by author or title.</p>
             </arrangement>
-            <c02 id="mferd13e2642" level="subseries">
+            <c02 id="mferd11e2639" level="subseries">
                <did>
                   <container type="box-folder">5/1-14</container>
                   <unittitle encodinganalog="245$a" id="CL10021001">Writings by Irving Fine</unittitle>
                </did>
-               <c03 id="mferd13e2648" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2645" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/1</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_1">[Brandeis School of Creative Arts, 1955]</unittitle>
@@ -2293,7 +2297,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2659" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2656" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_2">Composer and his audience, 1956</unittitle>
@@ -2302,7 +2306,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2670" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2667" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/3</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_3">Education for youth in the world of today and tomorrow</unittitle>
@@ -2311,7 +2315,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2681" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2678" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/4</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_4">Elementary theory in the music curriculum at Harvard College</unittitle>
@@ -2320,7 +2324,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2692" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2689" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_5">[French music, post-WWII (1951)] <lb/>   
                         <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
@@ -2331,7 +2335,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e2704" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2701" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/5</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_6">[Milhaud, Darius, 1949]</unittitle>
@@ -2340,7 +2344,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2715" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2712" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/6</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_7">[Miscellaneous notes and musings]</unittitle>
@@ -2349,7 +2353,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2726" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2723" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_8">[Musique concrète]</unittitle>
@@ -2364,7 +2368,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e2743" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2740" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/8</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_9">[Program notes]</unittitle>
@@ -2373,7 +2377,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2754" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2751" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/9</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_10">The School of Creative Arts, 1952</unittitle>
@@ -2382,7 +2386,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2766" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2763" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/10</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_11">The story of twentieth century music, 1940s</unittitle>
@@ -2397,7 +2401,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e2783" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2780" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/11</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_12">[Tanglewood, American music, 1947]</unittitle>
@@ -2409,7 +2413,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e2797" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2794" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/12</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_13">[Tanglewood, Seminar in contemporary music, 1957]</unittitle>
@@ -2425,7 +2429,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e2816" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2813" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/13</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_14">Twelve poems of Emily Dickinson set to music by Aaron Copland, 1953</unittitle>
@@ -2434,7 +2438,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd13e2827" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2824" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">5/14</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Irving_Fine_CL10021001_D3_15">What is the proper function of music criticism?</unittitle>
@@ -2444,18 +2448,18 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd13e2838" level="subseries">
+            <c02 id="mferd11e2835" level="subseries">
                <did>
                   <container type="box-folder">5/15-18</container>
                   <unittitle encodinganalog="245$a" id="CL10021002">Writings by Others</unittitle>
                </did>
-               <c03 id="mferd13e2844" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2841" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Others_CL10021002_D3_1">
                         <persname encodinganalog="100$a" role="aut" normal="Burns, John Horne">Burns, John Horne</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2851" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2848" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">5/15</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Others_CL10021002_D4_1">
@@ -2468,13 +2472,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2865" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2862" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Others_CL10021002_D3_2">
                         <corpname encodinganalog="110$a">Michigan, University of</corpname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2872" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2869" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">5/16</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Others_CL10021002_D4_2">
@@ -2490,13 +2494,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2889" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2886" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Others_CL10021002_D3_3">
                         <persname encodinganalog="100$a" role="aut" normal="Pizer, Stephen M.">Pizer, Stephen M.</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2896" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2893" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">5/17</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Others_CL10021002_D4_3">
@@ -2515,13 +2519,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd13e2916" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2913" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Others_CL10021002_D3_4">
                         <persname encodinganalog="100$a" role="aut" normal="Pollack, Howard">Pollack, Howard</persname>
                      </unittitle>
                   </did>
-                  <c04 id="mferd13e2923" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd11e2920" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box-folder">5/18</container>
                         <unittitle encodinganalog="245$a" id="mu001001_Writings_by_Others_CL10021002_D4_4">
@@ -2533,7 +2537,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd13e2932" level="series">
+         <c01 id="mferd11e2929" level="series">
             <did>
                <container type="box">6-7</container>
                <container type="box-folder">13/10-11</container>
@@ -2547,12 +2551,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <arrangement encodinganalog="351$b">
                <p>Arrangement of the General Correspondence subseries is alphabetically by name of correspondent. The second subseries, Business Correspondence, is arranged chronologically.</p>
             </arrangement>
-            <c02 id="mferd13e2949" level="subseries">
+            <c02 id="mferd11e2946" level="subseries">
                <did>
                   <container type="box">6-7</container>
                   <unittitle encodinganalog="245$a" id="CL10031001">General Correspondence</unittitle>
                </did>
-               <c03 id="mferd13e2955" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2952" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/1-3</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_1">
@@ -2567,7 +2571,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e2972" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2969" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/4</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_2">
@@ -2575,7 +2579,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e2981" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2978" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/5</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_3">
@@ -2583,7 +2587,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e2990" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2987" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/6</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_4">
@@ -2594,7 +2598,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3002" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e2999" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_5">
@@ -2602,7 +2606,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3011" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3008" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/8</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_6">
@@ -2613,7 +2617,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3023" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3020" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/9-10</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_7">Condolences</unittitle>
@@ -2622,7 +2626,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3032" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3029" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/11-15</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_8">
@@ -2640,7 +2644,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3055" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3052" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/16</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_9">
@@ -2651,7 +2655,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3067" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3064" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/17</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_10">
@@ -2659,7 +2663,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3077" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3074" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/18</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_11">
@@ -2667,7 +2671,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3086" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3083" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">6/19</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_12">
@@ -2678,7 +2682,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3098" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3095" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/1</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_13">
@@ -2689,7 +2693,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3116" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3113" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/2</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_14">
@@ -2697,7 +2701,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3125" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3122" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/3</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_15">
@@ -2705,7 +2709,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3134" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3131" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/4</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_16">
@@ -2713,7 +2717,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3143" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3140" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/5</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_17">
@@ -2721,7 +2725,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3152" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3149" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/6</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_18">
@@ -2729,7 +2733,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3161" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3158" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/7</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_19">
@@ -2737,7 +2741,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3170" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3167" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/8</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_20">
@@ -2745,7 +2749,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3179" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3176" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/9</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_21">
@@ -2753,7 +2757,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3189" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3186" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/10</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_22">
@@ -2761,7 +2765,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3201" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3198" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/11</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_23">
@@ -2769,7 +2773,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3213" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3210" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/12</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_24">
@@ -2779,7 +2783,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3225" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3222" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/13</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_25">
@@ -2787,7 +2791,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3234" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3231" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/14</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_26">
@@ -2795,7 +2799,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3243" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3240" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/15</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_27">
@@ -2806,7 +2810,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3258" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3255" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/16</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_28">
@@ -2814,7 +2818,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3267" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3264" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/17</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_29">
@@ -2822,7 +2826,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3279" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3276" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/18</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_30">
@@ -2830,7 +2834,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3288" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3285" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/19</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_31">
@@ -2838,7 +2842,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3297" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3294" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/20</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_32">
@@ -2846,7 +2850,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3307" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3304" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/21</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_33">
@@ -2854,7 +2858,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3316" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3313" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/22</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_34">
@@ -2862,7 +2866,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3325" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3322" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/23</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_35">
@@ -2870,7 +2874,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3334" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3331" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/24</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_36">
@@ -2880,7 +2884,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3346" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3343" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/25</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_37">
@@ -2888,7 +2892,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3355" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3352" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/26</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_38">
@@ -2896,7 +2900,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3364" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3361" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/27</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_39">
@@ -2904,7 +2908,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3373" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3370" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/28</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_40">
@@ -2912,7 +2916,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3382" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3379" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/29</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_41">
@@ -2920,7 +2924,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3391" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3388" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/30</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_42">
@@ -2931,7 +2935,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3403" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3400" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/31</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_43">
@@ -2942,7 +2946,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3416" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3413" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/32</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_44">
@@ -2954,7 +2958,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3431" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3428" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/33</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_45">
@@ -2962,7 +2966,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3440" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3437" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/34</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_46">
@@ -2976,7 +2980,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3455" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3452" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/35</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_47">
@@ -2987,7 +2991,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3467" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3464" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/36</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_48">
@@ -2995,7 +2999,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3476" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3473" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/37</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_49">
@@ -3003,7 +3007,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3485" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3482" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/38</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_50">
@@ -3014,7 +3018,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd13e3500" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3497" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/39</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_51">
@@ -3022,7 +3026,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3509" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3506" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/40</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_52">
@@ -3030,7 +3034,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3518" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3515" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/41</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_53">
@@ -3038,7 +3042,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3527" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3524" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/42</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_54">
@@ -3046,7 +3050,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3537" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3534" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/43</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_55">
@@ -3054,7 +3058,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3546" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd11e3543" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box-folder">7/44</container>
                      <unittitle encodinganalog="245$a" id="mu001001_General_Correspondence_CL10031001_D3_56">
@@ -3063,24 +3067,24 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd13e3555" level="subseries">
+            <c02 id="mferd11e3552" level="subseries">
                <did>
                   <container type="box-folder">13/10-11</container>
                   <unittitle encodinganalog="245$a" id="CL10031002">Business Correspondence</unittitle>
                </did>
-               <c03 id="mferd13e3561" level="file">
+               <c03 id="mferd11e3558" level="file">
                   <did>
                      <container type="box-folder">13/10</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Business_Correspondence_CL10031002_D3_1">1962</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3567" level="file">
+               <c03 id="mferd11e3564" level="file">
                   <did>
                      <container type="box-folder">13/10</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Business_Correspondence_CL10031002_D3_2">1988</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd13e3573" level="file">
+               <c03 id="mferd11e3570" level="file">
                   <did>
                      <container type="box-folder">13/11</container>
                      <unittitle encodinganalog="245$a" id="mu001001_Business_Correspondence_CL10031002_D3_3">1989</unittitle>
@@ -3088,7 +3092,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd13e3579" level="series">
+         <c01 id="mferd11e3576" level="series">
             <did>
                <container type="box">8</container>
                <unittitle encodinganalog="245$a" id="CL1004">Photographs, <unitdate encodinganalog="245$f" type="inclusive" normal="1937/1974" era="ce"
@@ -3101,32 +3105,32 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <arrangement encodinganalog="351$b">
                <p>Arranged according to subject.</p>
             </arrangement>
-            <c02 id="mferd13e3594" level="file">
+            <c02 id="mferd11e3591" level="file">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PHOTOGRAPHS_CL1004_D3_1">Irving Fine, 1937-1962</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3600" level="file">
+            <c02 id="mferd11e3597" level="file">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PHOTOGRAPHS_CL1004_D3_2">Irving Fine with others, 1945-1962</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3606" level="file">
+            <c02 id="mferd11e3603" level="file">
                <did>
                   <container type="box-folder">8/3</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PHOTOGRAPHS_CL1004_D3_3">Friends of Irving Fine, 1955-1974</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3612" level="file">
+            <c02 id="mferd11e3609" level="file">
                <did>
                   <container type="box-folder">8/4</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PHOTOGRAPHS_CL1004_D3_4">Miscellaneous photographs, 1949-1966</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd13e3618" level="series">
+         <c01 id="mferd11e3615" level="series">
             <did>
                <container type="box">9-12</container>
                <unittitle encodinganalog="245$a" id="CL1005">Programs, <unitdate encodinganalog="245$f" type="inclusive" normal="1930/1992" era="ce"
@@ -3139,170 +3143,170 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 id="mferd13e3633" level="file">
+            <c02 id="mferd11e3630" level="file">
                <did>
                   <container type="box-folder">9/1</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_1">1930s</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3639" level="file">
+            <c02 id="mferd11e3636" level="file">
                <did>
                   <container type="box-folder">9/2</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_2">1940s</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3645" level="file">
+            <c02 id="mferd11e3642" level="file">
                <did>
                   <container type="box-folder">9/3</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_3">1950-1952</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3651" level="file">
+            <c02 id="mferd11e3648" level="file">
                <did>
                   <container type="box-folder">9/4</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_4">1953-1956</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3657" level="file">
+            <c02 id="mferd11e3654" level="file">
                <did>
                   <container type="box-folder">9/5</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_5">1957-1961</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3663" level="file">
+            <c02 id="mferd11e3660" level="file">
                <did>
                   <container type="box-folder">9/6</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_6">1962</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3669" level="file">
+            <c02 id="mferd11e3666" level="file">
                <did>
                   <container type="box-folder">9/7</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_7">1962, Boston Symphony Orchestra</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3675" level="file">
+            <c02 id="mferd11e3672" level="file">
                <did>
                   <container type="box-folder">10/1</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_8">1963</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3682" level="file">
+            <c02 id="mferd11e3679" level="file">
                <did>
                   <container type="box-folder">10/2</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_9">1964</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3688" level="file">
+            <c02 id="mferd11e3685" level="file">
                <did>
                   <container type="box-folder">10/3</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_10">1965</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3694" level="file">
+            <c02 id="mferd11e3691" level="file">
                <did>
                   <container type="box-folder">10/4</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_11">1966-1969</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3700" level="file">
+            <c02 id="mferd11e3697" level="file">
                <did>
                   <container type="box-folder">10/5</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_12">1970s</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3706" level="file">
+            <c02 id="mferd11e3703" level="file">
                <did>
                   <container type="box-folder">10/6</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_13">1980</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3712" level="file">
+            <c02 id="mferd11e3709" level="file">
                <did>
                   <container type="box-folder">10/7</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_14">1981-1982</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3718" level="file">
+            <c02 id="mferd11e3715" level="file">
                <did>
                   <container type="box-folder">11/1</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_15">1983</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3724" level="file">
+            <c02 id="mferd11e3721" level="file">
                <did>
                   <container type="box-folder">11/2</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_16">1984-1985</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3730" level="file">
+            <c02 id="mferd11e3727" level="file">
                <did>
                   <container type="box-folder">11/3</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_17">1986</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3736" level="file">
+            <c02 id="mferd11e3733" level="file">
                <did>
                   <container type="box-folder">11/4</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_18">1987 January-April</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3742" level="file">
+            <c02 id="mferd11e3739" level="file">
                <did>
                   <container type="box-folder">11/5</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_19">1987 May-August</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3749" level="file">
+            <c02 id="mferd11e3746" level="file">
                <did>
                   <container type="box-folder">11/6</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_20">1987 September-December</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3755" level="file">
+            <c02 id="mferd11e3752" level="file">
                <did>
                   <container type="box-folder">12/1</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_21">1988</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3761" level="file">
+            <c02 id="mferd11e3758" level="file">
                <did>
                   <container type="box-folder">12/2</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_22">1989 January-June</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3767" level="file">
+            <c02 id="mferd11e3764" level="file">
                <did>
                   <container type="box-folder">12/3</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_23">1989 July-December</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3773" level="file">
+            <c02 id="mferd11e3770" level="file">
                <did>
                   <container type="box-folder">12/4</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_24">1990 January-June</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3779" level="file">
+            <c02 id="mferd11e3776" level="file">
                <did>
                   <container type="box-folder">12/5</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_25">1990 July-December</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3785" level="file">
+            <c02 id="mferd11e3782" level="file">
                <did>
                   <container type="box-folder">12/6</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_26">1991</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3791" level="file">
+            <c02 id="mferd11e3788" level="file">
                <did>
                   <container type="box-folder">12/7</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PROGRAMS_CL1005_D3_27">1992</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd13e3797" level="series">
+         <c01 id="mferd11e3794" level="series">
             <did>
                <container type="box">13</container>
                <unittitle encodinganalog="245$a" id="CL1006">Clippings, <unitdate encodinganalog="245$f" type="inclusive" normal="1940/1993" era="ce"
@@ -3315,62 +3319,62 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 id="mferd13e3812" level="file">
+            <c02 id="mferd11e3809" level="file">
                <did>
                   <container type="box-folder">13/1</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_1">1940s</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3818" level="file">
+            <c02 id="mferd11e3815" level="file">
                <did>
                   <container type="box-folder">13/2</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_2">1950s</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3824" level="file">
+            <c02 id="mferd11e3821" level="file">
                <did>
                   <container type="box-folder">13/3</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_3">1961-1962</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3830" level="file">
+            <c02 id="mferd11e3827" level="file">
                <did>
                   <container type="box-folder">13/4</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_4">1962</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3836" level="file">
+            <c02 id="mferd11e3833" level="file">
                <did>
                   <container type="box-folder">13/5</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_5">1963-1969</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3842" level="file">
+            <c02 id="mferd11e3839" level="file">
                <did>
                   <container type="box-folder">13/6</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_6">1970s</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3848" level="file">
+            <c02 id="mferd11e3845" level="file">
                <did>
                   <container type="box-folder">13/7</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_7">1980-1983</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3854" level="file">
+            <c02 id="mferd11e3851" level="file">
                <did>
                   <container type="box-folder">13/8</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_8">1983-1988</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3861" level="file">
+            <c02 id="mferd11e3858" level="file">
                <did>
                   <container type="box-folder">13/9</container>
                   <unittitle encodinganalog="245$a" id="mu001001_CLIPPINGS_CL1006_D3_9">1989-1993</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd13e3867" level="series">
+         <c01 id="mferd11e3864" level="series">
             <did>
                <container type="box">17-21</container>
                <unittitle encodinganalog="245$a" id="CL1007">Scrapbooks, <unitdate encodinganalog="245$f" type="inclusive" normal="1936/1962" era="ce"
@@ -3383,44 +3387,44 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 id="mferd13e3882" level="file">
+            <c02 id="mferd11e3879" level="file">
                <did>
                   <container type="box">17</container>
                   <unittitle encodinganalog="245$a" id="mu001001_SCRAPBOOKS_CL1007_D3_1">Scrapbook 1, 1936-1949</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3888" level="file">
+            <c02 id="mferd11e3885" level="file">
                <did>
                   <container type="box">18</container>
                   <unittitle encodinganalog="245$a" id="mu001001_SCRAPBOOKS_CL1007_D3_2">Scrapbook 2, 1949-1951</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3894" level="file">
+            <c02 id="mferd11e3891" level="file">
                <did>
                   <container type="box">18</container>
                   <unittitle encodinganalog="245$a" id="mu001001_SCRAPBOOKS_CL1007_D3_3">Scrapbook 3, 1951-1953</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3900" level="file">
+            <c02 id="mferd11e3897" level="file">
                <did>
                   <container type="box">19</container>
                   <unittitle encodinganalog="245$a" id="mu001001_SCRAPBOOKS_CL1007_D3_4">Scrapbook 4, 1953-1957</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3906" level="file">
+            <c02 id="mferd11e3903" level="file">
                <did>
                   <container type="box">20</container>
                   <unittitle encodinganalog="245$a" id="mu001001_SCRAPBOOKS_CL1007_D3_5">Scrapbook 5, 1957-1960</unittitle>
                </did>
             </c02>
-            <c02 id="mferd13e3912" level="file">
+            <c02 id="mferd11e3909" level="file">
                <did>
                   <container type="box">21</container>
                   <unittitle encodinganalog="245$a" id="mu001001_SCRAPBOOKS_CL1007_D3_6">Scrapbook 6, 1960-1962</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd13e3918" level="series">
+         <c01 id="mferd11e3915" level="series">
             <did>
                <container type="box">14</container>
                <unittitle encodinganalog="245$a" id="CL1008">Printed Matter</unittitle>
@@ -3431,7 +3435,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu001001
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by subject.</p>
             </arrangement>
-            <c02 id="mferd13e3930" level="file">
+            <c02 id="mferd11e3927" level="file">
                <did>
                   <container type="box">14</container>
                   <unittitle encodinganalog="245$a" id="mu001001_PRINTED_MATTER_CL1008_D3_1">Periodicals and miscellaneous printed material</unittitle>

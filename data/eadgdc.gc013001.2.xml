@@ -1,0 +1,2838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 31 October 2013 08:11:28 AM EDT
+URL: http://hdl.loc.gov/loc.gdc/eadgdc.gc013001
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.gdc/eadgdc.gc013001--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadgdc.gc013001--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": gc013001-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd36e3">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd36e4">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.gdc/eadgdc.gc013001"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.gdc/eadgdc.gc013001</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">United States Strategic Bombing Survey : [Reports] (Pacific War)</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by the Science, Technology &amp; Business Division</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>
+               Science, Technology &amp; Business Division, Library of Congress
+            </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2013" era="ce" calendar="gregorian">September 2013</date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.gdc/scitech.contact">http://hdl.loc.gov/loc.gdc/scitech.contact</extref>
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: 
+                  <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/47024345"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/47024345</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Glenn R. Gardner 
+            <date normal="2013" era="ce" calendar="gregorian">2013</date>
+         </creation>
+         <langusage encodinganalog="546">Finding aid written in 
+            <language encodinganalog="041" langcode="eng">English</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc type="register" level="collection" relatedencoding="MARC21">
+      <did id="mferd36e50">
+         <head>Collection Summary</head>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">D785.U63</unitid>
+         <unittitle label="Title" encodinganalog="245$a">United States Strategic Bombing Survey : [Reports] (Pacific War)
+            <unitdate label="Span Dates" type="inclusive" normal="1945/1947" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1945-1947</unitdate>	     
+         </unittitle>
+         <physdesc label="Contents">
+            <extent encodinganalog="300">109 reports</extent>
+         </physdesc>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <subarea>Science, Technology &amp; Business Division</subarea> 
+               Library of Congress
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">During World War II, the United States undertook massive aerial attacks against cities and industrial areas in the European and Pacific Theaters to destroy German and Japanese military forces. To study the effects of the bombing, the United States Strategic Bombing Survey (USSBS) was organized in November 1944. The USSBS was assigned two tasks: establish a basis for evaluating the importance and potential of air power as an instrument of military strategy; and, to plan the future development of the armed forces. The survey was originally conducted in Europe [European War reports]; the Pacific survey [Pacific War reports] was added after the surrender of Japan on August 15, 1945 by the order of President Harry S. Truman.
+			</abstract>
+         <langmaterial label="Languages">
+            <language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.47024345.10001" altrender=":::F005=^20090218050356.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the LC Online Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd36e90">
+            <head>Organizations</head>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^United+States+Strategic+Bombing+Survey.^">United States Strategic Bombing Survey.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd36e95">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Air+warfare.^">Air warfare.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Aerial+operations.^">World War, 1939-1945--Aerial operations.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Destruction+and+pillage.^">World War, 1939-1945--Destruction and pillage.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Economic+aspects+Japan.^">World War, 1939-1945--Economic aspects--Japan.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Japan.^">World War, 1939-1945--Japan.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^World+War%2C+1939-1945+Pacific+Ocean.^">World War, 1939-1945--Pacific Ocean.</subject>
+         </controlaccess>
+         <controlaccess id="mferd36e110">
+            <head>Titles</head>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                   encodinganalog="130"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^United+States+Strategic+Bombing+Survey+%28Series%29+%28Pacific+war%29^">United States Strategic Bombing Survey (Series) (Pacific war)</title>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd36e115">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd36e118">
+            <head>Provenance</head>
+            <p>Collection purchased by Library of Congress in 1969.</p>
+         </acqinfo>
+         <processinfo encodinganalog="583" id="mferd36e123">
+            <head>Processing History</head>
+            <p>Reports with Library of Congress (LC) call numbers are part of the Library's General Collections. Selected Pacific War reports were also added to the PB collection by the U.S. Department of Commerce, Office of Technical Services, and are available in the Library's Technical Reports and Standards (TRS) Unit of the Science, Technology &amp; Business Division.</p>
+         </processinfo>
+         <processinfo encodinganalog="583" id="mferd36e128">
+            <head>Location</head>
+            <p>Science, Technology &amp; Business Division, Library of Congress, Washington, D.C.</p>
+         </processinfo>
+         <userestrict encodinganalog="540" id="mferd36e133">
+            <head>Copyright Status</head>
+            <p>Copyright in this collection of reports in the custody of the Library of Congress has been dedicated to the public.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506" id="mferd36e138">
+            <head>Access and Restrictions</head>
+            <p>Access to the collection is unrestricted.</p>
+            <p>Reports with LC call numbers can be requested from the Library's General Collections. Please note that some items may be held at offsite locations and may require additional time for retrieval.</p>
+            <p>Unclassed reports from the PB collection are available from the Technical Reports &amp; Standards Unit, Science, Technology &amp; Business Division. PB reports must be viewed in the Science Reading Room.</p>
+         </accessrestrict>
+         <altformavail encodinganalog="530" id="mferd36e147">
+            <head>Additional Forms Available</head>
+            <p>United States Strategic Bombing Survey reports of the Pacific War are also available on microfilm in the Library's Microform &amp; Electronic Resources Center as Microfilm 29945 (Catalog record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                       xlink:actuate="onRequest"
+                       xlink:href="http://lccn.loc.gov/sn94094676">http://lccn.loc.gov/sn94094676</extref>). Copies may be ordered from the Photoduplication Service at the Library of Congress. Links have also been provided to digitized content, where known.</p>
+         </altformavail>
+         <prefercite id="mferd36e155">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: United States Strategic Bombing Survey : [Reports] (Pacific War).</p>
+         </prefercite>
+         <relatedmaterial encodinganalog="544 1" id="mferd36e160">
+            <head>Related Material</head>
+            <p>Please note that 31 of the reports were reprinted in the publication <title>United States Strategic Bombing Survey</title>, a ten-volume series issued in 1976 by Garland Publishing, Inc. (Catalog record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                       xlink:actuate="onRequest"
+                       xlink:href="http://lccn.loc.gov/75026396">http://lccn.loc.gov/75026396</extref> ). Volumes 2-10 are in the Library's General Collections, under the LC call number D785.U57 1976.</p>
+            <p>The National Archives also holds records of the United States Strategic Bombing Survey (available at: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                       xlink:actuate="onRequest"
+                       xlink:href="http://www.archives.gov/research/guide-fed-records/groups/243.html">http://www.archives.gov/research/guide-fed-records/groups/243.html</extref>).</p>
+         </relatedmaterial>
+      </descgrp>
+      <scopecontent encodinganalog="520" id="mferd36e176">
+         <head>Scope and Content Note</head>
+         <p>During World War II, the United States undertook massive aerial attacks against cities and industrial areas in the European and Pacific Theaters to destroy German and Japanese military forces. To study the effects of the bombing, the United States Strategic Bombing Survey (USSBS) was organized in November 1944. The USSBS was assigned two tasks: establish a basis for evaluating the importance and potential of air power as an instrument of military strategy; and, to plan the future development of the armed forces. The survey was originally conducted in Europe [European War reports]; the Pacific survey [Pacific War reports] was added after the surrender of Japan on August 15, 1945 by the order of President Harry S. Truman.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd36e181">
+         <head>Arrangement of the Records</head>
+         <p>This collection is arranged in four series: </p>
+         <list type="simple">
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" target="chairman"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Office of the Chairman</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" target="civilian"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Civilian Studies</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" target="economic"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Economic Studies</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" target="military"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest">Military Studies</ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid id="lccnURI" encodinganalog="555$a">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/47024345"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/47024345</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd36e210" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Reports</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd36e219">
+            <did>
+               <container type="reports">1-3</container>
+               <unittitle id="chairman" encodinganalog="245$a">Office of the Chairman</unittitle>
+            </did>
+            <c02 level="file" id="mferd36e225">
+               <did>
+                  <container type="report">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Summary Report (Pacific War)</title>, Washington, D.C., 1 July 1946.
+                     <imprint>Washington: U.S. Government Printing Office, 1946.</imprint>
+                  </unittitle>
+                  <physloc label="LC Call No.:">D785.U63 no. 1</physloc>
+                  <physloc label="Reprinted in LC Call No.:">D785.U57 v. 7</physloc>
+                  <note>
+                     <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                xlink:actuate="onRequest"
+                                xlink:href="http://lccn.loc.gov/46027723">http://lccn.loc.gov/46027723</extref>
+                     </p>
+                  </note>
+                  <physdesc>
+                     <extent encodinganalog="300">iii, 32 p.: folded maps.</extent>
+                  </physdesc>
+                  <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                          id="magby240XD.gc013001.a053ac8e-c91d-43cc-8195-33481ea2cc83"
+                          xlink:type="extended">
+                     <daoloc xlink:type="locator"
+                             xlink:href="http://www.archive.org/details/summaryreportpac00unit">
+                        <daodesc>
+                           <p>Digital content available</p>
+                        </daodesc>
+                     </daoloc>
+                  </daogrp>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd36e256">
+               <did>
+                  <container type="report">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japan's Struggle to End The War</title>, Chairman's Office, 1 July 1946.
+                     <imprint>[Washington]: Chairman's Office; [For sale by the U.S. Government Printing Office], 1946.</imprint>
+                  </unittitle>
+                  <physloc label="LC Call No.:">D785.U63 no. 2</physloc>
+                  <physloc label="Reprinted in LC Call No.:">D785.U57 v. 7</physloc>
+                  <note>
+                     <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                xlink:actuate="onRequest"
+                                xlink:href="http://lccn.loc.gov/46026977">http://lccn.loc.gov/46026977</extref>
+                     </p>
+                  </note>
+                  <physdesc>
+                     <extent encodinganalog="300">v, 36 p.: tables.</extent>
+                  </physdesc>
+                  <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                          id="magby240XD.gc013001.cb933ec6-837d-4282-bc2e-ba3d7c5132eb"
+                          xlink:type="extended">
+                     <daoloc xlink:type="locator"
+                             xlink:href="http://www.wwiiarchives.net/servlet/action/document/index/1490/0">
+                        <daodesc>
+                           <p>Digital content available</p>
+                        </daodesc>
+                     </daoloc>
+                  </daogrp>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd36e287">
+               <did>
+                  <container type="report">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of Atomic Bombs on Hiroshima and Nagasaki</title>, Chairman's Office, 30 June 1946.
+                     <imprint>Washington: Chairman's Office; [For sale by the] U.S. Government Printing Office, 1946.</imprint>
+                  </unittitle>
+                  <physloc label="LC Call No.:">D785.U63 no. 3</physloc>
+                  <physloc label="Additional LC Call No.:">UF767.U595 1946</physloc>
+                  <physloc label="Reprinted in LC Call No.:">D785.U57 v. 7</physloc>
+                  <note>
+                     <p>Catalog Records: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                xlink:actuate="onRequest"
+                                xlink:href="http://lccn.loc.gov/46026779">http://lccn.loc.gov/46026779</extref> and <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                xlink:actuate="onRequest"
+                                xlink:href="http://lccn.loc.gov/51021232">http://lccn.loc.gov/51021232</extref>
+                     </p>
+                  </note>
+                  <physdesc>
+                     <extent encodinganalog="300">v, 46 p.: illus., maps (some folded).</extent>
+                  </physdesc>
+                  <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                          id="magby240XD.gc013001.6d861864-6e6d-4f5c-8d39-ea215d63ce4b"
+                          xlink:type="extended">
+                     <daoloc xlink:type="locator" xlink:href="http://docs.rwu.edu/rwu_ebooks/1">
+                        <daodesc>
+                           <p>Digital content available</p>
+                        </daodesc>
+                     </daoloc>
+                  </daogrp>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd36e323">
+            <did>
+               <container type="reports">4-14</container>
+               <unittitle id="civilian" encodinganalog="245$a">Civilian Studies</unittitle>
+            </did>
+            <c02 level="subseries" id="mferd36e329">
+               <did>
+                  <container type="reports">4-11</container>
+                  <unittitle encodinganalog="245$a">Civilian Defense Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e335">
+                  <did>
+                     <container type="report">4</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Field Report Covering Air Raid Protection and Allied Subjects, Tokyo, Japan</title>. Dates of Field Team Survey: 19 November 1945-30 November 1945.
+                        <imprint>[Washington]: Civilian Defense Division, March 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 4</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/2011655185">http://lccn.loc.gov/2011655185</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 227 p.: illus., maps.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e359">
+                  <did>
+                     <container type="report">5</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Field Report Covering Air-Raid Protection and Allied Subjects in Nagasaki, Japan</title>. Dates of Field Team Survey: 11-16 November 1945.
+                        <imprint>[Washington]: Civilian Defense Division, February 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 5</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/med47002304">http://lccn.loc.gov/med47002304</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 133 p.: illus., charts, map.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e383">
+                  <did>
+                     <container type="report">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Field Report covering Air-Raid Protection and Allied Subjects in Kyoto, Japan</title>. Dates of Survey: 4 November 1945-9 November 1945.
+                        <imprint>[Washington]: Civilian Defense Division; [For sale by the U.S. Government Printing Office], February 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 6</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032463">http://lccn.loc.gov/47032463</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 113 p.: illus., diagrams.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.ff181596-9feb-4ca8-99a1-604e3fd950dc"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/001621016">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e412">
+                  <did>
+                     <container type="report">7</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Field Report Covering Air-Raid Protection and Allied Subjects in Kobe, Japan</title>. Dates of Survey: 29 October 1945-3 November 1945.<lb/>
+                        <imprint>[Washington]: Civilian Defense Division, February 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 7</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 141 p.: illus., maps.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.6606c37e-2cb0-430d-8cd3-5453d13fcf40"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000806446">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e438">
+                  <did>
+                     <container type="report">8</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Field Report covering Air-Raid Protection and Allied Subjects in Osaka, Japan</title>. Dates of Survey: 18 October 1945-28 October 1945.
+                        <imprint>[Washington]: Civilian Defense Division, May 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 8</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 150 p.: illus., maps, folded plates.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e457">
+                  <did>
+                     <container type="report">9</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Target Report of Civilian Defense Division Field Team No. 1, Covering Air Raid Protection Facilities and Allied Subjects in the Town of Hiroshima, Japan</title>. Dates of Field Team Survey: 10 October 1945-21 October 1945.
+                        <imprint>[Washington]: Civilian Defense Division, 15 November 1945.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 9</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">[60] p.: illus.</extent>
+                     </physdesc>
+                     <note>
+                        <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                  encodinganalog="246$a">Hiroshima, Japan Field Report</title>. (Civil Defense Report No. 1).</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e482">
+                  <did>
+                     <container type="report">10</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Summary Report, Covering Air-Raid Protection and Allied Subjects in Japan</title>, 15 March 1946.
+                        <imprint>[Washington]: Civilian Defense Division, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 10</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47031652">http://lccn.loc.gov/47031652</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">iii, 19 p.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e506">
+                  <did>
+                     <container type="report">11</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Final Report Covering Air Raid Protection and Allied Subjects in Japan</title>. Dates of Survey: 1 October 1945-1 December 1945.
+                        <imprint>[Washington]: Civilian Defense Division, February 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 11</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032464">http://lccn.loc.gov/47032464</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vii, 248 p.: illus., charts, maps (1 folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.cb9956fe-6aec-44ce-9e4a-3230e23ab898"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/001621017">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e535">
+               <did>
+                  <container type="reports">12-13</container>
+                  <unittitle encodinganalog="245$a">Medical Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e541">
+                  <did>
+                     <container type="report">12</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of Bombing on Health and Medical Services in Japan</title>. Dates of Survey: 24 October-31 November 1945.
+                        <imprint>[Washington]: Medical Division; [For sale by the U.S. Government Printing Office], June 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 12</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/med47002690">http://lccn.loc.gov/med47002690</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 253 p.: illus., tables, diagrams.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.ca6340e9-bf41-44a6-86fd-e22299e134be"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://www.archive.org/details/effectsofbombing00unit">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e570">
+                  <did>
+                     <container type="report">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of Atomic Bombs on Health and Medical Services in Hiroshima and Nagasaki</title>, March 1947.
+                        <imprint>Washington: Medical Division; For sale by the U.S. Government Printing Office, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 13</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/med47001002">http://lccn.loc.gov/med47001002</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">ix, 91 p.: illus., tables, diagrams.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.52f05fee-c95f-4eaa-bfa7-a6e87ecfec18"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://www.archive.org/details/effectsofatomicb00unit">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e599">
+               <did>
+                  <container type="report">14</container>
+                  <unittitle encodinganalog="245$a">Morale Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e605">
+                  <did>
+                     <container type="report">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of Strategic Bombing on Japanese Morale</title>, June 1947.
+                        <imprint>[Washington]: Morale Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 14</physloc>
+                     <physloc label="Additional LC Call No.:">D785.U63E34 1947</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/84101632">http://lccn.loc.gov/84101632</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 262 p.: illus., tables.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.67290672-2879-46fc-8681-1a9a06be99dd"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000815699">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd36e636">
+            <did>
+               <container type="reports">15-60</container>
+               <unittitle id="economic" encodinganalog="245$a">Economic Studies</unittitle>
+            </did>
+            <c02 level="subseries" id="mferd36e642">
+               <did>
+                  <container type="reports">15-35</container>
+                  <unittitle encodinganalog="245$a">Aircraft Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e648">
+                  <did>
+                     <container type="report">15</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Japanese Aircraft Industry</title>, May 1947.
+                        <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 15</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47031642">http://lccn.loc.gov/47031642</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 173 p.: illus., tables, diagrams, maps.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.ad6ad4fc-591e-42b2-8d44-402fe49ab013"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/001039316">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="subseries" id="mferd36e677">
+                  <did>
+                     <container type="reports">16-35</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Corporation Report, No. 1-20.</title>
+                        <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], 1945-1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 16-35</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/46027868">http://lccn.loc.gov/46027868</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">20 v.: illus., maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.07b3693a-06de-437d-81c5-b0a8ee4f0662"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000593670">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+                  <c04 level="file" id="mferd36e706">
+                     <did>
+                        <container type="report">16</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Mitsubishi Heavy Industries, Ltd.</title> (Mitsubishi Jukogyo K K). Dates of Survey: 10 October 1945-29 November 1945.<lb/>
+                           Corporation Report No. I (Airframes and Engines).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], June 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 16</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 343 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.1752a96a-8280-4048-93c7-2dd2a89a82a3"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324281">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e732">
+                     <did>
+                        <container type="report">17</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Nakajima Aircraft Company, Ltd.</title> (Nakajima Hikoki K K). Dates of Survey: October-November 1945.<lb/>
+                           Corporation Report No. II (Airframes and Engines).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], June 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 17</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 190 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.521c7609-f684-4d0c-b502-2028342148de"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324133">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e758">
+                     <did>
+                        <container type="report">18</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Kawanishi Aircraft Co.</title> (Kawanishi Kokuki Kabushiki Kaisha). Dates of Survey: 17 October-25 November 1945.<lb/>
+                           Corporation Report No. III (Air Frames).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], April 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 18</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iii, 98 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.fcf0e80f-b64a-43c9-9885-152a16bf03b0"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator"
+                                   xlink:href="http://archive.org/stream/corporationrepor18unit">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e784">
+                     <did>
+                        <container type="report">19</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Kawasaki Aircraft Industries Company, Inc.</title> (Kawasaki Kokuki Kogyo Kabushiki Kaisha). Dates of Survey: 10 October-29 November 1945.<lb/>
+                           Corporation Report No. IV (Air Frames and Engines).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], May 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 19</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 63 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.39afb753-622d-477e-b7bd-9efadad5d019"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080323994">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e810">
+                     <did>
+                        <container type="report">20</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Aichi Aircraft Company</title> (Aichi Kokuki K K).<lb/>
+                           Corporation Report No. V (Airframes and Engines).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], February 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 20</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 55 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.d2fe414c-79f7-4d36-98be-fa4451d17e31"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324000">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e836">
+                     <did>
+                        <container type="report">21</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sumitomo Metal Industries, Propeller Division</title> (Sumitomo Kinzoku Kogyo K K, Puropera Seizosho). Dates of Survey: 20 October 1945-28 October 1945.<lb/>
+                           Corporation Report No. VI (Propellors).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], December 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 21</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 57 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.f8ef5cf2-6b4e-4ff4-8aa4-1dd4828131dd"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324000">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e862">
+                     <did>
+                        <container type="report">22</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Hitachi Aircraft Company</title> (Hitachi Kokuki KK). Date of Survey: November 1945.<lb/>
+                           Corporation Report No. VII (Airframes and Engines).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], February 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 22</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 67 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.c5bd4aa7-c1c3-47a4-906c-5c14fed8b4eb"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/wu.89100062082">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e888">
+                     <did>
+                        <container type="report">23</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japan International Air Industries, Ltd.</title> (Nippon Kokusai Koku Kogyo KK). Dates of Survey: November 1945.<lb/>
+                           Corporation Report No. VIII (Airframes).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], February 1945.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 23</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 15 p.: illus., tables, diagrams, map.</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.21eefd35-aade-495a-bedb-3aec0524e5f0"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324034">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e914">
+                     <did>
+                        <container type="report">24</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japan Musical Instrument Manufacturing Company</title> (Nippon Gakki Seizo K K). Date of Survey: 18 November 1945.<lb/>
+                           Corporation Report No. IX (Propellors).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], 1 September 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 24</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 27 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.be2e7bcd-ff07-49df-942b-8ad1e3c122bf"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/wu.89100062066">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e940">
+                     <did>
+                        <container type="report">25</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Tachikawa Aircraft Company</title> (Tachikawa Hikoki K K). Dates of Survey: 20-24 November 1945.<lb/>
+                           Corporation Report No. X (Airframes).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], February 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 25</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 38 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.b15eed1f-045c-4b73-86ef-fa581c18b35b"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324141">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e967">
+                     <did>
+                        <container type="report">26</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Fuji Airplane Company</title> (Fuji Hikoki K K). Date of Survey: November 1945.<lb/>
+                           Corporation Report No. XI (Airframes).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], 1 November 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 26</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 12 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.d1ebe638-57e3-401d-bb73-16104fe5fe95"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/wu.89100062041">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e993">
+                     <did>
+                        <container type="report">27</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Showa Airplane Company</title> (Showa Hikoki Kogyo K K). Dates of Survey: 17-18 October 1945.<lb/>
+                           Corporation Report No. XII (Airframes).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], December 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 27</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 16 p.: illus., tables, diagrams, map.</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.b3132d5d-427b-4e7b-80f9-9acc5e6c9795"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324166">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e1019">
+                     <did>
+                        <container type="report">28</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ishikawajima Aircraft Industries Company, Ltd.</title> (Ishikawajima Koku Kogyo Kabushiki Kaisha). Dates of Survey: 26-27 November 1945.<lb/>
+                           Corporation Report No. XIII (Engines).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], 1 November 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 28</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 23 p.: illus., tables, diagrams, maps.</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.b6d183e1-7f56-4277-9506-6edd312da1e8"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324174">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e1045">
+                     <did>
+                        <container type="report">29</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Nippon Airplane Co.</title> (Nippon Hikoki K K). Date of Survey: November 1945.<lb/>
+                           Corporation Report No. XIV (Airframes).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], 1 September 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 29</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 22 p.: illus., tables, diagrams, map.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e1066">
+                     <did>
+                        <container type="report">30</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Kyushu Airplane Company</title> (Kyushu Hikoki K K). Dates of Survey: 13-15 November 1945.<lb/>
+                           Corporation Report No. XV (Airframes).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], February 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 30</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 28 p.: illus., tables, diagrams, maps (one folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.23eb34e0-1e96-4a3a-a958-51218e95722f"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/wu.89100062017">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e1092">
+                     <did>
+                        <container type="report">31</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Shoda Engineering Company</title> (Shoda Seisakujo). Date of Survey: 31 October 1945.<lb/>
+                           Corporation Report No. XVI (Components).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], 1 September 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 31</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 17 p.: illus., tables, diagrams.</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.2bf313b6-581e-4bd1-8687-db59beb1a405"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324190">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e1118">
+                     <did>
+                        <container type="report">32</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Mitaka Aircraft Industries</title> (Mitaka Koku Kogyo Kabushiki Kaisha). Date of Survey: 31 October 1945.<lb/>
+                           Corporation Report No. XVII (Components).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], February 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 32</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 19 p.: illus., tables, diagrams, maps.</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.dd369d44-5694-4e76-a5ba-4adf327ed073"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324299">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e1144">
+                     <did>
+                        <container type="report">33</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Nissan Automobile Company</title> (Nissan Jidosha K K). Dates of Survey: 24-25 November 1945.<lb/>
+                           Corporation Report No. XVIII (Engines).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], 1 November 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 33</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">v, 9 p.: illus., tables, diagrams, maps (one folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.07569176-8208-4a21-896d-b7249b191bdb"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/wu.89100062207">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e1170">
+                     <did>
+                        <container type="report">34</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Army Air Arsenal and Navy Air Depots</title>. Dates of Survey: 6 October-11 November 1945.<lb/>
+                           Corporation Report No. XIX (Airframes and Engines).
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], February 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 34</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 68 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.814ec681-9518-4718-badf-9c47b340b013"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324315">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e1196">
+                     <did>
+                        <container type="report">35</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Underground Production of Japanese Aircraft</title>. Dates of Survey: 23 October-25 November 1945.<lb/>
+                           Report No. XX.
+                           <imprint>[Washington]: Aircraft Division; [For sale by the U.S. Government Printing Office], March 1947.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 35</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 71 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.d12ece56-4b07-4994-8bd7-12f76fe516b6"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015080324323">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1222">
+               <did>
+                  <container type="report">36</container>
+                  <unittitle encodinganalog="245$a">Basic Materials Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1228">
+                  <did>
+                     <container type="report">36</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Coals and Metals in Japan's War Economy</title>, April 1947.
+                        <imprint>[Washington]: Basic Materials Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 36</physloc>
+                     <physloc label="Additional LC Call No.:">HD9556.J3U6 1947</physloc>
+                     <note>
+                        <p>Catalog Records: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/46032126">http://lccn.loc.gov/46032126</extref> and <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032126">http://lccn.loc.gov/47032126</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 215 p.: illus., tables, diagrams.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.f73c211c-31f7-4a96-8e0e-692f19c0b02e"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator" xlink:href="http://hdl.handle.net/2027/mdp.39015032388632">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1262">
+               <did>
+                  <container type="reports">37-39</container>
+                  <unittitle encodinganalog="245$a">Capital Goods, Equipment and Construction Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1268">
+                  <did>
+                     <container type="report">37</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Japanese Construction Industry</title>. Dates of Survey: 4 October 1945 to 30 November 1945.
+                        <imprint>Washington: Construction Section, Capital Equipment and Construction Branch; [For sale by the] U.S. Government Printing Office, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 37</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47031651">http://lccn.loc.gov/47031651</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 47 p.: illus., tables.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.85598903-cd6f-49a8-8982-a48fe36f3d9e"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000967138">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1297">
+                  <did>
+                     <container type="report">38</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Electrical Equipment</title>. Dates of Survey: 4 October 1945 to 30 November 1945.
+                        <imprint>Washington: Capital Equipment and Construction Division; [For sale by the] U.S. Government Printing Office, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 38</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/54041923">http://lccn.loc.gov/54041923</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">iv, 52 p.: illus., tables, diagrams, map.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.05616f38-1544-4871-96cd-0a49ca40929c"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000966839">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1326">
+                  <did>
+                     <container type="report">39</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Japanese Machine Building Industry</title>. Dates of Survey: 1 Oct. 1945-1 Dec. 1945.
+                        <imprint>[Washington]: Capital Equipment and Construction Division; [For sale by the U.S. Government Printing Office], 15 November 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 39</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/46027592">http://lccn.loc.gov/46027592</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vii, 41, [1] p.: illus., tables, diagrams, map.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.055c317a-38ff-4dda-9829-0ea5ec21c266"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/006828128">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1355">
+               <did>
+                  <container type="reports">40-41</container>
+                  <unittitle encodinganalog="245$a">Electric Power Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1361">
+                  <did>
+                     <container type="report">40</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Electric Power Industry of Japan</title>. Dates of Survey: 9 October 1945-3 December 1945.
+                        <imprint>[Washington]: Electric Power Division; [For sale by the U.S. Government Printing Office, 1946].</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 40</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/46027929">http://lccn.loc.gov/46027929</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vii, 158 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.83753ab4-34a8-4b82-ab42-f2fd10f233ae"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/005907473">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1390">
+                  <did>
+                     <container type="report">41</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Electric Power Industry of Japan (Plant Reports)</title>. Dates of Survey: 9 October-3 December 1945.
+                        <imprint>[Washington]: Electric Power Division; [For sale by the U.S. Government Printing Office], May 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 41</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47046466">http://lccn.loc.gov/47046466</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 233 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.09d01e66-e48e-482b-87ca-98d9e55c04c6"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://hdl.handle.net/2027/mdp.39015048952124?urlappend=%3Bseq=237">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1419">
+               <did>
+                  <container type="report">42</container>
+                  <unittitle encodinganalog="245$a">Manpower, Food and Civilian Supplies Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1425">
+                  <did>
+                     <container type="report">42</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Japanese Wartime Standard of Living and Utilization of Manpower</title>, January 1947.
+                        <imprint>[Washington]: Manpower, Food and Civilian Supplies Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 42</physloc>
+                     <physloc label="Additional LC Call No.:">HD7051.U5 1947</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032979">http://lccn.loc.gov/47032979</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">xi, 146 p.: illus., tables, diagrams.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1451">
+               <did>
+                  <container type="reports">43-48</container>
+                  <unittitle encodinganalog="245$a">Military Supplies Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1457">
+                  <did>
+                     <container type="report">43</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese War Production Industries</title>. Dates of Survey: October-November 1945.
+                        <imprint>[Washington]: Military Supplies Division; [For sale by the U.S. Government Printing Office], 15 November 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 43</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032981">http://lccn.loc.gov/47032981</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">iv, 23 p.: illus., tables.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.d7ddca8b-36ae-45ab-bf81-e125539ba017"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/001319568">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1486">
+                  <did>
+                     <container type="report">44</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Naval Ordnance</title>. Dates of Survey: October-November 1945.
+                        <imprint>[Washington]: Military Supplies Division; [For sale by the U.S. Government Printing Office], August 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 44</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47031643">http://lccn.loc.gov/47031643</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 30 p.: illus., tables, diagram.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.5205175c-7817-4217-8025-6802507badd7"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://hdl.handle.net/2027/mdp.39015048952124?urlappend=%3Bseq=521">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1515">
+                  <did>
+                     <container type="report">45</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Army Ordnance</title>. Dates of Survey: October-November 1945.
+                        <imprint>[Washington]: Military Supplies Division, December 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 45</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">iv, 31 p.: illus., tables, diagram.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1534">
+                  <did>
+                     <container type="report">46</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Naval Shipbuilding</title>. Dates of Survey: September-November 1945.
+                        <imprint>[Washington]: Military Supplies Division; [For sale by the U.S. Government Printing Office], 15 November 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 46</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032986">http://lccn.loc.gov/47032986</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 24 p.: illus., tables, diagram.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.34213af1-6dea-4b23-861d-2956330a59c9"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://hdl.handle.net/2027/mdp.39015048952124?urlappend=%3Bseq=557">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1563">
+                  <did>
+                     <container type="report">47</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Motor Vehicle Industry</title>. Dates of Survey: October-November, 1945.
+                        <imprint>[Washington]: Military Supplies Division; [For sale by the U.S. Government Printing Office], 1 November 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 47</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/46027967">http://lccn.loc.gov/46027967</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">[ii], 16 p.: illus., tables.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.d522d8e3-0dec-451c-b7eb-ecaa9cee69c8"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://hdl.handle.net/2027/mdp.39015048952124?urlappend=%3Bseq=589">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1592">
+                  <did>
+                     <container type="report">48</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Merchant Shipbuilding</title>, January 1947.
+                        <imprint>[Washington]: Military Supply Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 48</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032481">http://lccn.loc.gov/47032481</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 53 p.: illus., tables, diagrams.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.7c718c32-a934-4059-9786-9d3f5a8e238b"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/001623732">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1621">
+               <did>
+                  <container type="reports">49-52</container>
+                  <unittitle encodinganalog="245$a">Oil and Chemical Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1627">
+                  <did>
+                     <container type="report">49</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Chemicals in Japan's War</title>, February 1946.
+                        <imprint>[Washington]: Oil and Chemical Division, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 49</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/51000053">http://lccn.loc.gov/51000053</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">71 p.: illus., tables, maps.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.aedfd1b2-5d60-485d-8e35-f289d0b560b6"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://www.wwiiarchives.net/servlet/action/document/index/1494/0">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1656">
+                  <did>
+                     <container type="report">50</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Chemicals in Japan's War: Appendix to the Report</title>.
+                        <imprint>[Washington]: Oil and Chemical Division, [1946].</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 50</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/51000053">http://lccn.loc.gov/51000053</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">251 p.: illus., tables, maps.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1680">
+                  <did>
+                     <container type="report">51</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Oil in Japan's War</title>, February 1946.
+                        <imprint>[Washington]: Oil and Chemical Division, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 51</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/51015501">http://lccn.loc.gov/51015501</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">133 p.: illus., tables, maps.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1704">
+                  <did>
+                     <container type="report">52</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Oil in Japan's War: Appendix to the Report</title>, February 1946.
+                        <imprint>[Washington]: Oil and Chemical Division, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 52</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/51015501">http://lccn.loc.gov/51015501</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">283 p.: illus., tables, maps.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1728">
+               <did>
+                  <container type="report">53</container>
+                  <unittitle encodinganalog="245$a">Over-All Economic Effects Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1734">
+                  <did>
+                     <container type="report">53</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of Strategic Bombing on Japan's War Economy</title>, December 1946.
+                        <imprint>Washington: Over-All Economic Effects Division; [For sale by the] U.S. Government Printing Office, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 53</physloc>
+                     <physloc label="Additional LC Call No.:">D785.U57 v. 8</physloc>
+                     <physloc label="Available in TRS:">PB 61098</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032980">http://lccn.loc.gov/47032980</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">ix, 244 p.: illus., tables.</extent>
+                     </physdesc>
+                     <note>
+                        <p>Includes Appendix A: U.S. Economic Intelligence on Japan–Analysis and Comparison; Appendix B: Gross National Product of Japan and Its Components; and Appendix C: Statistical Sources.</p>
+                     </note>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.10cab868-34cc-4b41-bee9-05d0d6f92f39"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/001319567">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1770">
+               <did>
+                  <container type="report">54</container>
+                  <unittitle encodinganalog="245$a">Transportation Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1776">
+                  <did>
+                     <container type="report">54</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The War Against Japanese Transportation, 1941-1945</title>, May 1947.
+                        <imprint>[Washington]: Transportation Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 54</physloc>
+                     <physloc label="Additional LC Call No.:">D785.U57 v. 9</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/48045693">http://lccn.loc.gov/48045693</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">144 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.af2e6ffc-2b43-4e2b-b583-6bb35cc2d385"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000969343">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e1807">
+               <did>
+                  <container type="reports">55-60</container>
+                  <unittitle encodinganalog="245$a">Urban Areas Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1813">
+                  <did>
+                     <container type="report">55</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of Air Attack on Japanese Urban Economy</title>: Summary Report, March 1947.
+                        <imprint>[Washington]: Urban Areas Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 55</physloc>
+                     <physloc label="Additional LC Call No.:">D785.U57 v. 9</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032069">http://lccn.loc.gov/47032069</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">ix, 78 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.7505a7cf-2a2f-4b15-a85c-aa658f0df3c3"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/001892320">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1844">
+                  <did>
+                     <container type="report">56</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Effects of Air Attack on Urban Complex Tokyo-Kawasaki-Yokohama</title>, June 1947.
+                        <imprint>[Washington]: Urban Areas Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 56</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 64 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.565e45f7-30ea-4b6a-b4be-e370fae9dba7"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/001892321">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1868">
+                  <did>
+                     <container type="report">57</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of Air Attack on the City of Nagoya</title>, June 1947.
+                        <imprint>[Washington]: Urban Areas Division; [For sale by the U.S. Government Printing Office], 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 57</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47031634">http://lccn.loc.gov/47031634</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 89 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.c8e7b600-dc61-493b-9b59-90228508a443"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000815617">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1897">
+                  <did>
+                     <container type="report">58</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Effects of Air Attack on Osaka-Kobe-Kyoto</title>. Dates of Survey: November-December 1945.
+                        <imprint>[Washington]: Urban Areas Division; [For sale by the U.S. Government Printing Office], June 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 58</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47046467">http://lccn.loc.gov/47046467</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 275 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.66978116-9f1f-42de-8eb0-27eb1b3061c5"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://www.archive.org/details/effectsofairatta00unit">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1926">
+                  <did>
+                     <container type="report">59</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of Air Attack on the City of Nagasaki</title>. Dates of Survey: 15 November-1 December 1945.
+                        <imprint>[Washington]: Urban Areas Division, April 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 59</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 53 p.: illus., tables, diagrams, maps.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e1945">
+                  <did>
+                     <container type="report">60</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Effects of Air Attack on the City of Hiroshima</title>, June 1947.
+                        <imprint>[Washington]: Urban Areas Division, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 60</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/59040289">http://lccn.loc.gov/59040289</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 57 p.: illus., tables, maps (one folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd36e1969">
+            <did>
+               <container type="reports">61-108</container>
+               <unittitle id="military" encodinganalog="245$a">Military Studies</unittitle>
+            </did>
+            <c02 level="subseries" id="mferd36e1975">
+               <did>
+                  <container type="reports">61-71a</container>
+                  <unittitle encodinganalog="245$a">Military Analysis Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e1981">
+                  <did>
+                     <container type="report">61</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Air Forces Allied with the United States in the War Against Japan</title>, February 1947.
+                        <imprint>[Washington]: Military Analysis Division, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 61</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">iv, 19 p.: illus., tables.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2000">
+                  <did>
+                     <container type="report">62</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Air Power</title>, July 1946.
+                        <imprint>[Washington]: Military Analysis Division, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 62</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">viii, 83 p.: illus., maps, diagrams, tables (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2019">
+                  <did>
+                     <container type="report">63</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Air Weapons and Tactics</title>, January 1947.
+                        <imprint>[Washington]: Military Analysis Division, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 63</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 76 p.: illus., maps, diagrams, tables.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.51a8d8ac-fe8f-410d-a289-eb7ac88989fe"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://www.wwiiarchives.net/servlet/action/document/index/1496/0">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2043">
+                  <did>
+                     <container type="report">64</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effect of Air Action on Japanese Ground Army Logistics</title>. Dates of survey, 11 October 1945 to 15 February 1946.
+                        <imprint>[Washington]: Military Analysis Division, April 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 64</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vii, 192 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2062">
+                  <did>
+                     <container type="report">65</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Employment of Forces Under the Southwest Pacific Command</title>, February 1947.
+                        <imprint>[Washington]: Military Analysis Division, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 65</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 65 p.: illus., folded diagram.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.8d5a7945-b029-41e7-9346-19ca08056a97"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000806438">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2086">
+                  <did>
+                     <container type="report">66</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Strategic Air Operation of Very Heavy Bombardment in the War Against Japan (Twentieth Air Force)</title>: Final Report. Dates of Survey: 10 October 1945-29 November 1945. 
+                        <imprint>Washington: Military Analysis Division, Army and Army Air Section; [For sale by the] U.S. Government Printing Office, 1 September 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 66</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 39 p.: illus., tables, diagrams, maps.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2105">
+                  <did>
+                     <container type="report">67</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Air Operations in China, Burma, India - World War II</title>. Dates of Survey: 1 July 1946.
+                        <imprint>[Washington]: Military Analysis Division, March 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 67</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 107 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2124">
+                  <did>
+                     <container type="report">68</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Air Transport Command in the War Against Japan</title>, December 1946.
+                        <imprint>[Washington]: Military Analysis Division, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 68</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 18 p.: illus., tables, maps (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2143">
+                  <did>
+                     <container type="report">69</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Thirteenth Air Force in the War Against Japan</title>, 30 September 1946.
+                        <imprint>[Washington]: Military Analysis Division, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 69</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 25 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2162">
+                  <did>
+                     <container type="report">70</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Seventh and Eleventh Air Forces in the War Against Japan</title>. Dates of Survey: 7 December 1941-15 August 1945.
+                        <imprint>[Washington]: Military Analysis Division, May 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 70</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vii, 55 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2182">
+                  <did>
+                     <container type="report">71</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Fifth Air Force in the War Against Japan</title>, June 1947.
+                        <imprint>[Washington]: Military Analysis Division, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 71</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47046597">http://lccn.loc.gov/47046597</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 114 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.3a852261-a431-4e98-b50b-c44ce4d59c33"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000816407">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2211">
+                  <did>
+                     <container type="report">71a</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Air Campaigns of the Pacific War</title>, July 1947.
+                        <imprint>Washington: Military Analysis Division; For sale by the U.S. Government Printing Office, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 71a</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 75 p.: illus., tables, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.c41d1891-9007-48d9-94c4-f6b9fbb9b1f5"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000815955">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e2235">
+               <did>
+                  <container type="reports">72-89</container>
+                  <unittitle encodinganalog="245$a">Naval Analysis Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e2241">
+                  <did>
+                     <container type="report">72</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Interrogations of Japanese Officials</title>.
+                        <imprint>[Washington]: Naval Analysis Division, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 72</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/46026882">http://lccn.loc.gov/46026882</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">2 v. (xv, 576 p.): illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <note>
+                        <p>Vol. 1 includes "List of Interrogations" and "Index of Major Battles and Operations and Japanese Officials"; vol. 2 includes "Japanese Notes of Battles" and "Biographies of Interrogated Japanese Officials."</p>
+                        <p>"OPNAV-P-03-100"</p>
+                     </note>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.f22ad26b-2dce-4aac-84e1-e179ac1dae2a"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000816407">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2275">
+                  <did>
+                     <container type="report">73</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Campaigns of the Pacific War</title>.
+                        <imprint>[Washington]: Naval Analysis Division; [For sale by the U.S. Government Printing Office, 1946].</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 73</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/46027588">http://lccn.loc.gov/46027588</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">xv, 395 p.: illus., tables, diagrams, maps (one folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.0823cd0c-214e-49f4-a8d5-4acb304b4b2e"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000593662">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2304">
+                  <did>
+                     <container type="report">74</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Reduction of Wake Island</title>, 1 July 1946.
+                        <imprint>[Washington]: Naval Analysis Division, Marshalls-Gilberts-New Britain Party; [For sale by the U.S. Government Printing Office], 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 74</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/48046134">http://lccn.loc.gov/48046134</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">iii, 129 p.: illus., tables, diagrams, maps.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2328">
+                  <did>
+                     <container type="report">75</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Allied Campaign Against Rabaul</title>, 1 September 1946.
+                        <imprint>[Washington]: Naval Analysis Division, Marshalls-Gilberts-New Britain Party; [For sale by the U.S. Government Printing Office], 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 75</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/46027928">http://lccn.loc.gov/46027928</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">ix, 273 p.: illus., tables, diagrams, maps.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.c94a8095-d7e0-4149-b053-8282507ccec6"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000493474">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2357">
+                  <did>
+                     <container type="report">76</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The American Campaign Against Wotje, Maloelap, Mille, and Jaluit</title>. Dates of Survey: 5 October 1945-2 November 1945.
+                        <imprint>[Washington]: Naval Analysis Division, May 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 76</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">iv, 375 p.: illus., tables, diagrams, maps.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2376">
+                  <did>
+                     <container type="report">77</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Reduction of Truk</title>, February 1947.
+                        <imprint>Washington: Naval Analysis Division; For sale by the U.S. Government Printing Office, 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 77</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47032763">http://lccn.loc.gov/47032763</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 26 p.: illus., tables, folded map.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.b7a6a119-1d19-4f03-866b-0c77378831a6"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000816427">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2405">
+                  <did>
+                     <container type="report">78</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Offensive Mine Laying Campaign Against Japan</title>, 1 November 1946.
+                        <imprint>[Washington]: Naval Analysis Division, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 77</physloc>
+                     <physloc label="Reprinted in LC Call No.:">D767.2.U58 1969</physloc>
+                     <note>
+                        <p>Catalog Record (1969 reprint): <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/74605489">http://lccn.loc.gov/74605489</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 128 p.: illus., diagrams, tables, map.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="subseries" id="mferd36e2431">
+                  <did>
+                     <container type="report">79-89</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ships' bombardment of Japan--1945</title>: Report of Ships' Bombardment Survey Party.
+                        <imprint>[Washington: Ships' Bombardment Survey Party, 1946].</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 79-89</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/61034130">http://lccn.loc.gov/61034130</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">12 v. in 11: illus., diagrams, tables, map (some folded).</extent>
+                     </physdesc>
+                  </did>
+                  <c04 level="file" id="mferd36e2455">
+                     <did>
+                        <container type="report">79</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ships' bombardment of Japan--1945</title>. Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey: Contents, Introduction, Conclusions, General Summary. 
+                           <imprint>[Washington: Ships' Bombardment Survey Party, 1946].</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 79</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">vii, 7 p.: illus., map.</extent>
+                        </physdesc>
+                        <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                                id="magby240XD.gc013001.cfef2d32-667f-41e8-a2fd-509470f6d4be"
+                                xlink:type="extended">
+                           <daoloc xlink:type="locator"
+                                   xlink:href="http://www.wwiiarchives.net/servlet/action/document/index/1497/0">
+                              <daodesc>
+                                 <p>Digital content available</p>
+                              </daodesc>
+                           </daoloc>
+                        </daogrp>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2479">
+                     <did>
+                        <container type="report">80</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Study of Kamaishi Area--1945.</title> Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (A).
+                           <imprint>Washington: Navy Department, April 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 80</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iii, 184 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Kamaishi Naval Bombardments, 14 July and 9 August 1945. Enclosure (A).</title>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2503">
+                     <did>
+                        <container type="report">81</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Study of Hamamatsu Area--1945.</title> Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (B).
+                           <imprint>Washington: Navy Department, April 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 81</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">viii, 318 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Hamamatsu Naval Bombardment, 29-30 July 1945. Enclosure (B).</title>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2527">
+                     <did>
+                        <container type="report">82</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Study of Hitachi Area--1945.</title> Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (C).
+                           <imprint>Washington: Navy Department, April 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 82</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">viii, 319 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Hitachi Naval Bombardment, 17-18 July 1945. Enclosure (C).</title>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2551">
+                     <did>
+                        <container type="report">83</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Study of Hakodate Area--1945.</title> Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (D).
+                           <imprint>Washington: Navy Department, April 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 83</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iii, 39 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Hakodate Naval Air Strikes, 14-15 July 1945. Enclosure (D).</title>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2575">
+                     <did>
+                        <container type="report">84</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Study of Muroran Area--1945.</title> Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (E).
+                           <imprint>Washington: Navy Department, April 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 84</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iii, 140 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Muroran Naval Bombardment, 15 July 1945. Enclosure (E).</title>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2599">
+                     <did>
+                        <container type="report">85</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Study of Shimizu Area--1945.</title> Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (F).
+                           <imprint>Washington: Navy Department, [1946].</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 85</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">1 v. (various paging): illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Shimizu Naval Bombardment, 31 July 1945. Enclosure (F).</title>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2623">
+                     <did>
+                        <container type="report">86</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Study of Shionomisaki Area</title>: Ships' Bombardments of Japan, 1945. Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (G).<lb/>
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Study of Nojima Saki Area</title>: Ships' Bombardments of Japan, 1945. Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (H).
+                           <imprint>Washington: Navy Department, May 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 86</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iii, 29 p., iii, 13 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Shionomisaki Naval Bombardment, 24-25 July 1945; Nojima Saki Naval Bombardment, 18-19 July 1945. Enclosures (G) and (H).</title>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2652">
+                     <did>
+                        <container type="report">87-88</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Comments and Data on Effectiveness of Ammunition</title>: Ships' Bombardments of Japan, 1945. Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (I).<lb/>
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Comments and Data on Accuracy of Firemarms</title>: Ships' Bombardments of Japan, 1945. Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (J).
+                           <imprint>Washington: Navy Department, May 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 87-88</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iii, 34, iii, 59 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Comments and Data on Effectiveness of Ammunition and Accuracy of Firings</title>: Ships' Bombardments, July-August 1945. Enclosures (I) and (J).</p>
+                           <p>
+                              <emph>Not in LC collection.</emph>
+                           </p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2685">
+                     <did>
+                        <container type="report">89</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Effects of Surface Bombardments on Japanese War Potential</title>: Ships' Bombardments of Japan, 1945. Report of Ships' Bombardment Survey Party, U.S. Strategic Bombing Survey, Enclosure (K).
+                           <imprint>Washington: Navy Department, May 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 89</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">iv, 41 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Cover title: <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                                     encodinganalog="246$a">Effects of Surface Bombardments on Japanese War Potential</title>: Ships' Bombardments, July-August 1945. Enclosure (K).</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e2710">
+               <did>
+                  <container type="reports">90-96</container>
+                  <unittitle encodinganalog="245$a">Physical Damage Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e2716">
+                  <did>
+                     <container type="report">90</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Effects of the Incendiary Bomb Attacks on Japan</title>: A Report on Eight Cities. Dates of Survey: 3 October 1945-1 December 1945.
+                        <imprint>[Washington]: Physical Damage Division, April 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 90</physloc>
+                     <physloc label="Additional LC Call No.:">D785.U57 v. 10</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/49045689">http://lccn.loc.gov/49045689</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 240 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2742">
+                  <did>
+                     <container type="report">91</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of the Ten Thousand-Pound Bomb on Japanese Targets</title>: A Report on Nine Incidents. Dates of Survey: 20 October-16 November 1945.
+                        <imprint>[Washington]: Physical Damage Division, May 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 91</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 230 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2761">
+                  <did>
+                     <container type="report">92</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of the Atomic Bomb on Hiroshima, Japan</title>. Dates of Survey: 14 October-26 November 1945.
+                        <imprint>[Washington]: Physical Damage Division, May 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 92</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/55057769">http://lccn.loc.gov/55057769</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">3 v. (v. 1: vi, 120 p.; v. 2: vi, 635 p., v. 3: v, 341 p.): illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.01942b83-c26e-43b6-a51d-1dacc2c6aee9"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://archive.org/details/TheEffectsOfTheAtomicBombOnHiroshima">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2790">
+                  <did>
+                     <container type="report">93</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Effects of the Atomic Bomb on Nagasaki, Japan</title>. Dates of Survey: 13 October-20 November 1945.
+                        <imprint>[Washington]: Physical Damage Division, June 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 93</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/55057770">http://lccn.loc.gov/55057770</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">3 v. (v. 1: vi, 423 p.; v. 2: vi, 353 p., v. 3: v, 270 p.): illus., tables, diagrams, folded maps.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.efa17939-1c7b-46ba-b793-1c7f676ad706"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://archive.org/details/TheEffectsOfTheAtomicBombOnNagasakiJapan">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2819">
+                  <did>
+                     <container type="report">94</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Effects of the Four-Thousand-Pound Bomb on Japanese Targets</title>: A Report on Five Incidents. Dates of Survey: 19 October-16 November 1945.
+                        <imprint>[Washington]: Physical Damage Division, May 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 94</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 285 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.33a2c65f-084d-4e95-a74b-c6cbf1814f22"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://cgsc.contentdm.oclc.org/cdm/ref/collection/p4013coll11/id/1156">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2843">
+                  <did>
+                     <container type="report">95</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Effects of Two Thousand, One Thousand, and Five Hundred Pound Bombs on Japanese Targets</title>: A Report on Eight Incidents. Dates of Survey: 19 October-20 November 1945.
+                        <imprint>[Washington]: Physical Damage Division, April 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 95</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/52060971">http://lccn.loc.gov/52060971</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">iv, 280 p.: illus., tables, diagrams, maps (some folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd36e2867">
+                  <did>
+                     <container type="report">96</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">A Report on Physical Damage in Japan</title>: Summary Report.
+                        <imprint>[Washington]: Physical Damage Division, June 1947.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 96</physloc>
+                     <physloc label="Additional LC Call No.:">D785.U57 v. 10</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">v, 225 p.: illus., tables, diagrams, maps (one folded).</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd36e2888">
+               <did>
+                  <container type="reports">97-108</container>
+                  <unittitle encodinganalog="245$a">G-2 Division</unittitle>
+               </did>
+               <c03 level="file" id="mferd36e2894">
+                  <did>
+                     <container type="report">97</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Japanese Military and Naval Intelligence Division</title>. Dates of Survey: 1 November 1945 through 1 February 1946.
+                        <imprint>Washington: Japanese Intelligence Section, G-2; [For sale by the] U.S. Government Printing Office, April 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 97</physloc>
+                     <physdesc>
+                        <extent encodinganalog="300">vi, 127 p.: illus., tables, diagrams.</extent>
+                     </physdesc>
+                     <daogrp xmlns:xlink="http://www.w3.org/1999/xlink"
+                             id="magby240XD.gc013001.86eeefe7-643a-4c3e-9332-7cbed78d626f"
+                             xlink:type="extended">
+                        <daoloc xlink:type="locator"
+                                xlink:href="http://catalog.hathitrust.org/Record/000805868">
+                           <daodesc>
+                              <p>Digital content available</p>
+                           </daodesc>
+                        </daoloc>
+                     </daogrp>
+                  </did>
+               </c03>
+               <c03 level="subseries" id="mferd36e2918">
+                  <did>
+                     <container type="report">98-108</container>
+                     <unittitle encodinganalog="245$a">
+                        <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland</title>.
+                        <imprint>[Washington]: Photographic Intelligence Section, 1946.</imprint>
+                     </unittitle>
+                     <physloc label="LC Call No.:">D785.U63 no. 98-108</physloc>
+                     <note>
+                        <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                                   xlink:actuate="onRequest"
+                                   xlink:href="http://lccn.loc.gov/47031641">http://lccn.loc.gov/47031641</extref>
+                        </p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300">11 v.: illus., tables, diagrams, maps.</extent>
+                     </physdesc>
+                     <note>
+                        <p>"OPNAV P23-V2-120."</p>
+                     </note>
+                  </did>
+                  <c04 level="file" id="mferd36e2945">
+                     <did>
+                        <container type="report">98</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part One, Comprehensive Report</title>. Dates of Survey: 7 October 1945-1 May 1946.
+                           <imprint>Washington: Photographic Intelligence Section; [For sale by the] U.S. Government Printing Office, August 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 98</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">vii, 47 p.: illus., tables, diagrams, maps.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2964">
+                     <did>
+                        <container type="report">99</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Two, Airfields</title>. Dates of Survey: 7 October 1945-15 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 99</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">24 p.: illus., tables (some folded).</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e2983">
+                     <did>
+                        <container type="report">100</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Three, Computed Bomb Plotting</title>. Dates of Survey: 7 October 1945-1 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 100</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">44 p.: illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e3002">
+                     <did>
+                        <container type="report">101</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Four, Urban Area Analysis</title>. Dates of Survey: 7 October 1945-15 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 101</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">31 p.: illus., tables, diagrams, maps.</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e3021">
+                     <did>
+                        <container type="report">102</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Five, Camouflage, Concealment, and Deception</title>. Dates of Survey: 7 October 1945-15 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 102</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">24 p.: illus., maps (one folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Contains "vectograph exhibits," with Polaroid 3-D viewer in pocket on last page following text.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e3043">
+                     <did>
+                        <container type="report">103</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Six, Shipping</title>. Dates of Survey: 7 October 1945-1 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 103</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">19 p.: illus., tables, diagrams, maps (one folded).</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e3062">
+                     <did>
+                        <container type="report">104</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Seven, Electronics</title>. Dates of Survey: 7 October 1945-15 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 104</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">40 p.: illus., tables, diagrams, maps (one folded).</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e3081">
+                     <did>
+                        <container type="report">105</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Eight, Beach Intelligence</title>. Dates of Survey: 7 October 1945-1 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 105</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">24 p.: illus., tables, diagrams, maps (one folded).</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e3100">
+                     <did>
+                        <container type="report">106</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Nine, Coast and Anti-Aircraft Artillery</title>. Dates of Survey: 7 October 1945-15 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 106</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">20 p.: illus., tables, diagrams, maps (one folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Contains "vectograph exhibits," with Polaroid 3-D viewer in pocket on last page following text.</p>
+                        </note>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e3122">
+                     <did>
+                        <container type="report">107</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Ten, Roads and Railroads</title>. Dates of Survey: 7 October 1945-1 March 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 107</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">10 p.: illus., tables, diagrams, maps (one folded).</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file" id="mferd36e3142">
+                     <did>
+                        <container type="report">108</container>
+                        <unittitle encodinganalog="245$a">
+                           <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Evaluation of Photographic Intelligence in the Japanese Homeland. Part Eleven, Industrial Analysis</title>. Dates of Survey: 7 October 1945-15 May 1946.
+                           <imprint>[Washington]: Photographic Intelligence Section, June 1946.</imprint>
+                        </unittitle>
+                        <physloc label="LC Call No.:">D785.U63 no. 108</physloc>
+                        <physdesc>
+                           <extent encodinganalog="300">1 v. (various paging): illus., tables, diagrams, maps (some folded).</extent>
+                        </physdesc>
+                        <note>
+                           <p>Contains "vectograph exhibits," with Polaroid 3-D viewer in pocket on last page following text.</p>
+                        </note>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+      <bibliography id="mferd36e3164">
+         <head>Further Reading</head>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Biddle, Tami Davis. 
+            <title xlink:type="simple">Rhetoric and Reality in Air Warfare: The Evolution of British and American Ideas about Strategic Bombing, 1914-1945</title>.<lb/>
+            Princeton, N.J.: Princeton University Press, c2002. 406 p.<lb/>
+				LC Call Number: UG705.G7B54 2002<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/2001036865">http://lccn.loc.gov/2001036865</extref>
+         </bibref>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+            <title xlink:type="simple">Bombing Civilians: A Twentieth-Century History</title>. Edited by Yuki Tanaka and Marilyn B. Young.<lb/>
+				New York: New Press : Distributed by W.W. Norton, 2009. 291 p.<lb/>
+            LC Call Number: D431.B66 2009<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/2008027814">http://lccn.loc.gov/2008027814</extref>
+         </bibref>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Grayling, A. C. 
+            <title xlink:type="simple">Among the Dead Cities: The History and Moral Legacy of the WWII Bombing of Civilians in Germany and Japan</title>.<lb/>
+				New York: Walker and Co., 2006. 361 p.<lb/>
+            LC Call Number: D790.2.G73 2006<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/2005058597">http://lccn.loc.gov/2005058597</extref>
+         </bibref>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+            <title xlink:type="simple">A Guide to the Reports of The United States Strategic Bombing Survey</title>. Edited by Gordon Daniels.<lb/>
+            London: Offices of the Royal Historical Society, University College London, 1981. 115 p.<lb/>
+            LC Call Number: D785.U63 Suppl.<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/82187771">http://lccn.loc.gov/82187771</extref>
+         </bibref>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Knell, Hermann. 
+            <title xlink:type="simple" render="italic">To Destroy a City: Strategic Bombing and Its Human Consequences in World War II</title>.<lb/>
+				Cambridge, Mass.: Da Capo, 2003. 373 p.<lb/>				
+            LC Call Number: D757.9.W8K58 2003<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/2003544951">http://lccn.loc.gov/2003544951</extref>
+         </bibref>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">MacIsaac, David. 
+            <title xlink:type="simple">Strategic Bombing in World War Two: The Story of the United States Strategic Bombing Survey</title>.<lb/>
+				New York: Garland Pub. Co., 1976. 231 p.<lb/>
+            LC Call Number: D785.U573M3<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/75027037">http://lccn.loc.gov/75027037</extref>
+         </bibref>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Ross, Stewart Halsey. 
+            <title xlink:type="simple">Strategic Bombing by the United States in World War II: The Myths and the Facts</title>.<lb/>
+				Jefferson, N.C.: McFarland &amp; Co., c2003. 244 p.<lb/>
+            LC Call Number: D785.U57R67 2003<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/2002014698">http://lccn.loc.gov/2002014698</extref>
+         </bibref>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Sebald, Winfried Georg. 
+            <title xlink:type="simple">On the Natural History of Destruction.</title> Translated by Anthea Bell.<lb/>
+				New York: Modern Library, 2004. 202 p.<lb/>
+            LC Call Number: PT405.S4313 2004<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/2004269961">http://lccn.loc.gov/2004269961</extref>
+         </bibref>
+         <bibref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">Swift, Daniel. 
+            <title xlink:type="simple">Bomber County: the Poetry of a Lost Pilot's War</title>.<lb/>
+				New York: Farrar, Straus and Giroux, c2010. 269 p.<lb/>
+            LC Call Number: PR605.W66S95 2010<lb/>
+            Catalog Record: <extref xlink:type="simple" xlink:show="new" xlink:actuate="onRequest"
+                    xlink:href="http://lccn.loc.gov/2010023402">http://lccn.loc.gov/2010023402</extref>
+         </bibref>
+      </bibliography>
+   </archdesc>
+</ead>

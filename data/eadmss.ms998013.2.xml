@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ==========Schema Conversion:========== 
  Transformed with dtd2schema.06.xsl 
-Generated: Thu, 16 February 2012 11:12:29 AM EST
+Generated: Tue, 28 May 2013 11:17:16 AM EDT
 URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
  ===================================== -->
 <!-- Transformed with v1v2002_4.xsl -->
@@ -9,8 +9,8 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd4681e2">
-   <eadheader id="mferd4681e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd2611e2">
+   <eadheader id="mferd2611e3" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -64,6 +64,10 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
       </profiledesc>
       <revisiondesc>
          <change>
+            <date normal="2012-11" era="ce" calendar="gregorian">2012 November</date>
+            <item>Campbell McIlvaine info added</item>
+         </change>
+         <change>
             <date normal="2010-03" era="ce" calendar="gregorian">2010 March</date>
             <item>Title, controlaccess revised</item>
          </change>
@@ -74,7 +78,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
       </revisiondesc>
    </eadheader>
    <archdesc type="register" level="collection" relatedencoding="MARC21">
-      <did id="mferd4681e59">
+      <did id="mferd2611e64">
          <head>Collection Summary</head>
          <unittitle label="Title" encodinganalog="245$a">Alex. Brown
 		  &amp; Sons 
@@ -116,11 +120,11 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
 		  Alexander Brown in Baltimore, Md., circa 1800 which grew from a mercantile
 		  business into an international banking house. </abstract>
       </did>
-      <!--m2cUpdateNodeSet--><controlaccess id="mferd4681e107" altrender=":::F005=^20090615113748.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--m2cUpdateNodeSet--><controlaccess id="mferd2611e112" altrender=":::F005=^20090615113748.0^"><!--LN:282--><head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd4683e12">
+         <!--LN:285--><!--LN:289--><controlaccess id="mferd2613e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Brown%2C+Alexander%2C+1764-1834.^">Brown, Alexander, 1764-1834.</persname>
@@ -135,13 +139,13 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Brown%2C+John+A.%2C+1788-1872.^">Brown, John A., 1788-1872.</persname>
             <persname encodinganalog="600" role="subject" source="lcnaf"
-                      altrender=":::PWEBRECON=^Brown%2C+Stewart%2C+b.+1769.^">Brown, Stewart, b. 1769.</persname>
+                      altrender=":::PWEBRECON=^Brown%2C+Stewart%2C+1769-^">Brown, Stewart, 1769- </persname>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Brown%2C+William%2C+Sir%2C+1784-1864.^">Brown, William, Sir, 1784-1864.</persname>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Falls%2C+Moore.^">Falls, Moore.</persname>
          </controlaccess>
-         <controlaccess id="mferd4683e46">
+         <controlaccess id="mferd2613e46">
             <head>Organizations</head>
             <corpname encodinganalog="110$a" role="creator" source="lcnaf"
                       altrender=":::PWEBRECON=^Alex.+Brown+%26+Sons.^">Alex. Brown &amp; Sons.</corpname>
@@ -156,7 +160,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Stewart+Brown+%28Firm%29^">Stewart Brown (Firm)</corpname>
          </controlaccess>
-         <controlaccess id="mferd4683e71">
+         <controlaccess id="mferd2613e71">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Banks+and+banking%2C+International.^">Banks and banking, International.</subject>
@@ -175,7 +179,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Trading+companies.^">Trading companies.</subject>
          </controlaccess>
-         <controlaccess id="mferd4683e106">
+         <controlaccess id="mferd2613e106">
             <head>Places</head>
             <geogname encodinganalog="651" role="subject" source="lcsh"
                       altrender=":::PWEBRECON=^United+States+Economic+conditions+19th+century.^">United States--Economic conditions--19th century.</geogname>
@@ -187,45 +191,45 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                       altrender=":::PWEBRECON=^United+States+Social+life+and+customs+19th+century.^">United States--Social life and customs--19th century.</geogname>
          </controlaccess>
       </controlaccess>
-      <descgrp id="mferd4681e181" type="admininfo">
+      <descgrp id="mferd2611e186" type="admininfo">
          <head>Administrative Information</head>
-         <acqinfo id="mferd4681e184" encodinganalog="545">
+         <acqinfo id="mferd2611e189" encodinganalog="545">
             <head>Provenance</head>
             <p>The records of the firm of Alex. Brown &amp; Sons were given to the
 			 Library of Congress in 1954 by Benjamin H. Griswold III on behalf of the
 			 firm.</p>
          </acqinfo>
-         <processinfo id="mferd4681e189" encodinganalog="583">
+         <processinfo id="mferd2611e194" encodinganalog="583">
             <head>Processing History</head>
             <p>The records of Alex. Brown &amp; Sons were initially processed in
 			 1954; the collection description was revised in 2000. Containers 125, 198, and
 			 242 were microfilmed and returned to the firm in 1954.</p>
          </processinfo>
-         <userestrict id="mferd4681e194" encodinganalog="540">
+         <userestrict id="mferd2611e199" encodinganalog="540">
             <head>Copyright Status</head>
             <p>The status of copyright in the unpublished writings of Alex. Brown
 			 &amp; Sons is governed by the Copyright Law of the United States (Title 17,
 			 U.S.C.)</p>
          </userestrict>
-         <accessrestrict id="mferd4681e199" encodinganalog="506 0">
+         <accessrestrict id="mferd2611e204" encodinganalog="506 0">
             <head>Access and Restrictions</head>
             <p>The records of Alex. Brown &amp; Sons are open to research.
 		  Researchers are advised to contact the Manuscript Reading Room prior to
 		  visiting. Many collections are stored off-site and advance notice is needed to
 		  retrieve these items for research use.</p>
          </accessrestrict>
-         <altformavail id="mferd4681e204" type="530">
+         <altformavail id="mferd2611e209" type="530">
             <head>Microfilm</head>
             <p>A microfilm edition of Containers 125, 198, and 242 is available on one reel.  Consult reference staff in the Manuscript Division concerning availability for purchase or interlibrary loan. To promote preservation of the originals, researchers are required to consult the microfilm edition as available.</p>
          </altformavail>
-         <prefercite id="mferd4681e209" encodinganalog="524">
+         <prefercite id="mferd2611e214" encodinganalog="524">
             <head>Preferred Citation</head>
             <p>Researchers wishing to cite this collection should include the
 			 following information: Container number, Records of Alex. Brown &amp; Sons, Manuscript Division,
 			 Library of Congress, Washington, D.C.</p>
          </prefercite>
       </descgrp>
-      <bioghist id="mferd4681e214" encodinganalog="545">
+      <bioghist id="mferd2611e219" encodinganalog="545">
          <head>Organizational History</head>
          <chronlist>
             <listhead>
@@ -332,7 +336,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             </chronitem>
          </chronlist>
       </bioghist>
-      <scopecontent id="mferd4681e356" encodinganalog="520">
+      <scopecontent id="mferd2611e361" encodinganalog="520">
          <head>Scope and Content Note</head>
          <p>The records of 
 		  <corpname>Alex. Brown &amp; Sons</corpname> span the years 1796-1908,
@@ -408,34 +412,24 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
 		  letterpress books generally provide a continuous, daily record of the branch's
 		  outgoing correspondence with other offices in the organization and with the
 		  branch's out-of-town customers from 1800 to 1879. </p>
-         <p>Letterbooks, in the collection contain detailed information concerning
-		  political, civil, and military affairs affecting the firm. The 
-		  <ref xlink:type="simple" target="copy" xlink:show="replace"
-                 xlink:actuate="onRequest">Lettercopy Books</ref>
-		  series, consisting of letters sent, includes records of the 
-		  <corpname>Falls and Brown Company,</corpname> 1803-1804. The 
-		  <ref xlink:type="simple" target="press" xlink:show="replace"
-                 xlink:actuate="onRequest">Letterpress
-			 Books</ref> series is organized into three subseries. 
-		  <ref xlink:type="simple" target="seta" xlink:show="replace"
-                 xlink:actuate="onRequest">Set A</ref> includes
-		  records similar to those in the Lettercopy Books series and is distinguished
-		  from them chiefly by the copying method. 
-		  <ref xlink:type="simple" target="setb" xlink:show="replace"
-                 xlink:actuate="onRequest">Set B</ref> is
-		  comprised of letterpress copies of letters sent to 
-		  <corpname>Brown Shipley &amp; Company,</corpname> 
-		  
-            <geogname>London, England.</geogname> The letterpress copies in 
-		  <ref xlink:type="simple" target="setc" xlink:show="replace"
-                 xlink:actuate="onRequest">Set C</ref> are of
-		  letters sent to 
-		  <corpname>Brown Brothers &amp; Company,</corpname> 
-		  
-            <geogname>Boston,</geogname> 
-		  
-            <geogname>New York,</geogname> and 
-		  <geogname>Philadelphia</geogname> offices.</p>
+         <p>Letterbooks, in the collection contain detailed information concerning political, civil,
+            and military affairs affecting the firm. The <ref xlink:type="simple" target="copy" xlink:show="replace"
+                 xlink:actuate="onRequest">Lettercopy Books</ref> series, consisting of letters sent,
+            includes records of the <corpname>Falls and Brown Company,</corpname> 1803-1804, and of
+            Campbell McIlvaine &amp; Company, 1830-1837. The <ref xlink:type="simple" target="press" xlink:show="replace"
+                 xlink:actuate="onRequest">Letterpress Books</ref> series is organized into three subseries.
+               <ref xlink:type="simple" target="seta" xlink:show="replace"
+                 xlink:actuate="onRequest">Set A</ref> includes records
+            similar to those in the Lettercopy Books series and is distinguished from them chiefly
+            by the copying method. <ref xlink:type="simple" target="setb" xlink:show="replace"
+                 xlink:actuate="onRequest">Set B</ref>
+            is comprised of letterpress copies of letters sent to <corpname>Brown Shipley &amp;
+               Company,</corpname>
+            <geogname>London, England.</geogname> The letterpress copies in <ref xlink:type="simple" target="setc" xlink:show="replace"
+                 xlink:actuate="onRequest">Set C</ref> are of letters sent to <corpname>Brown
+               Brothers &amp; Company,</corpname>
+            <geogname>Boston,</geogname>
+            <geogname>New York,</geogname> and <geogname>Philadelphia</geogname> offices.</p>
          <p>The collection also includes financial records in a variety of
 		  formats. 
 		  <ref xlink:type="simple" target="daybooks" xlink:show="replace"
@@ -506,7 +500,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
 		  <geogname>Baltimore,</geogname> 1797-1810. These records are not
 		  necessarily noted specifically in the descriptions below</p>
       </scopecontent>
-      <arrangement id="mferd4681e578" encodinganalog="351$a">
+      <arrangement id="mferd2611e583" encodinganalog="351$a">
          <head>Organization of the Papers</head>
          <p>The collection is arranged in thirteen series:</p>
          <list type="simple">
@@ -595,7 +589,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                  xlink:title="MARC record for collection"
                  xlink:type="simple">http://lccn.loc.gov/mm81014019</extref>
       </otherfindaid>
-      <dsc id="mferd4681e650" type="combined">
+      <dsc id="mferd2611e655" type="combined">
          <head>Container List</head>
          <thead valign="bottom">
             <row>
@@ -603,7 +597,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd4681e659" level="series">
+         <c01 id="mferd2611e664" level="series">
             <did>
                <container type="box">1-40</container>
                <unittitle id="copy">Lettercopy Books, 
@@ -618,7 +612,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 id="mferd4681e674" level="file">
+            <c02 id="mferd2611e679" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle> 
@@ -628,7 +622,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e683" level="file">
+            <c02 id="mferd2611e688" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle> 
@@ -637,7 +631,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
 					 1804</unitdate> (Falls &amp; Brown)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e692" level="file">
+            <c02 id="mferd2611e697" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle> 
@@ -647,7 +641,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e701" level="file">
+            <c02 id="mferd2611e706" level="file">
                <did>
                   <container type="box">4</container>
                   <unittitle> 
@@ -657,7 +651,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e710" level="file">
+            <c02 id="mferd2611e715" level="file">
                <did>
                   <container type="box">5</container>
                   <unittitle> 
@@ -667,7 +661,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e719" level="file">
+            <c02 id="mferd2611e724" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle> 
@@ -677,7 +671,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e728" level="file">
+            <c02 id="mferd2611e733" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle> 
@@ -687,7 +681,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e737" level="file">
+            <c02 id="mferd2611e742" level="file">
                <did>
                   <container type="box">8</container>
                   <unittitle> 
@@ -697,7 +691,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e747" level="file">
+            <c02 id="mferd2611e752" level="file">
                <did>
                   <container type="box">9</container>
                   <unittitle> 
@@ -707,7 +701,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e756" level="file">
+            <c02 id="mferd2611e761" level="file">
                <did>
                   <container type="box">10</container>
                   <unittitle> 
@@ -717,7 +711,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e765" level="file">
+            <c02 id="mferd2611e770" level="file">
                <did>
                   <container type="box">11</container>
                   <unittitle> 
@@ -727,7 +721,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e774" level="file">
+            <c02 id="mferd2611e779" level="file">
                <did>
                   <container type="box">12</container>
                   <unittitle> 
@@ -737,17 +731,15 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e783" level="file">
+            <c02 id="mferd2611e788" level="file">
                <did>
                   <container type="box">13</container>
-                  <unittitle> 
-				  
+                  <unittitle>
                      <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">July 1830-June
-					 1832</unitdate> 
-                  </unittitle>
+                        1832</unitdate> (Campbell McIlvain &amp; Co.)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e792" level="file">
+            <c02 id="mferd2611e796" level="file">
                <did>
                   <container type="box">14</container>
                   <unittitle> 
@@ -757,7 +749,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e801" level="file">
+            <c02 id="mferd2611e805" level="file">
                <did>
                   <container type="box">15</container>
                   <unittitle> 
@@ -767,17 +759,15 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e810" level="file">
+            <c02 id="mferd2611e814" level="file">
                <did>
                   <container type="box">16</container>
-                  <unittitle> 
-				  
+                  <unittitle>
                      <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">June 1832-Jan.
-					 1834</unitdate> 
-                  </unittitle>
+                        1834</unitdate>  (Campbell McIlvain &amp; Co.)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e819" level="file">
+            <c02 id="mferd2611e822" level="file">
                <did>
                   <container type="box">17</container>
                   <unittitle> 
@@ -787,17 +777,15 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e828" level="file">
+            <c02 id="mferd2611e831" level="file">
                <did>
                   <container type="box">18</container>
-                  <unittitle> 
-				  
+                  <unittitle>
                      <unitdate type="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">Jan. 1835-Nov.
-					 1837</unitdate> 
-                  </unittitle>
+                        1837</unitdate>  (Campbell McIlvain &amp; Co.)</unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e837" level="file">
+            <c02 id="mferd2611e839" level="file">
                <did>
                   <container type="box">19</container>
                   <unittitle> 
@@ -807,7 +795,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e847" level="file">
+            <c02 id="mferd2611e849" level="file">
                <did>
                   <container type="box">20</container>
                   <unittitle> 
@@ -817,7 +805,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e856" level="file">
+            <c02 id="mferd2611e858" level="file">
                <did>
                   <container type="box">21</container>
                   <unittitle> 
@@ -827,7 +815,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e865" level="file">
+            <c02 id="mferd2611e867" level="file">
                <did>
                   <container type="box">22</container>
                   <unittitle> 
@@ -837,7 +825,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e874" level="file">
+            <c02 id="mferd2611e876" level="file">
                <did>
                   <container type="box">23</container>
                   <unittitle> 
@@ -847,7 +835,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e883" level="file">
+            <c02 id="mferd2611e885" level="file">
                <did>
                   <container type="box">24</container>
                   <unittitle> 
@@ -857,7 +845,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e892" level="file">
+            <c02 id="mferd2611e894" level="file">
                <did>
                   <container type="box">25</container>
                   <unittitle> 
@@ -867,7 +855,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e901" level="file">
+            <c02 id="mferd2611e903" level="file">
                <did>
                   <container type="box">26</container>
                   <unittitle> 
@@ -877,7 +865,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e910" level="file">
+            <c02 id="mferd2611e912" level="file">
                <did>
                   <container type="box">27</container>
                   <unittitle> 
@@ -887,7 +875,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e919" level="file">
+            <c02 id="mferd2611e921" level="file">
                <did>
                   <container type="box">28</container>
                   <unittitle> 
@@ -897,7 +885,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e928" level="file">
+            <c02 id="mferd2611e930" level="file">
                <did>
                   <container type="box">29</container>
                   <unittitle> 
@@ -907,7 +895,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e937" level="file">
+            <c02 id="mferd2611e939" level="file">
                <did>
                   <container type="box">30</container>
                   <unittitle> 
@@ -917,7 +905,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e947" level="file">
+            <c02 id="mferd2611e949" level="file">
                <did>
                   <container type="box">31</container>
                   <unittitle> 
@@ -927,7 +915,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e956" level="file">
+            <c02 id="mferd2611e958" level="file">
                <did>
                   <container type="box">32</container>
                   <unittitle> 
@@ -937,7 +925,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e965" level="file">
+            <c02 id="mferd2611e967" level="file">
                <did>
                   <container type="box">33</container>
                   <unittitle> 
@@ -947,7 +935,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e974" level="file">
+            <c02 id="mferd2611e976" level="file">
                <did>
                   <container type="box">34</container>
                   <unittitle> 
@@ -957,7 +945,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e983" level="file">
+            <c02 id="mferd2611e985" level="file">
                <did>
                   <container type="box">35</container>
                   <unittitle> 
@@ -967,7 +955,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e992" level="file">
+            <c02 id="mferd2611e994" level="file">
                <did>
                   <container type="box">36</container>
                   <unittitle> 
@@ -977,7 +965,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1001" level="file">
+            <c02 id="mferd2611e1003" level="file">
                <did>
                   <container type="box">37</container>
                   <unittitle> 
@@ -987,7 +975,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1010" level="file">
+            <c02 id="mferd2611e1012" level="file">
                <did>
                   <container type="box">38</container>
                   <unittitle> 
@@ -997,7 +985,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1019" level="file">
+            <c02 id="mferd2611e1021" level="file">
                <did>
                   <container type="box">39</container>
                   <unittitle> 
@@ -1007,7 +995,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1028" level="file">
+            <c02 id="mferd2611e1030" level="file">
                <did>
                   <container type="box">40</container>
                   <unittitle> 
@@ -1018,7 +1006,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e1037" level="series">
+         <c01 id="mferd2611e1039" level="series">
             <did>
                <container type="box">41-124</container>
                <unittitle id="press">Letterpress Books, 
@@ -1026,7 +1014,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                             calendar="gregorian">1841-1880</unitdate> 
                </unittitle>
             </did>
-            <c02 id="mferd4681e1046" level="subseries">
+            <c02 id="mferd2611e1048" level="subseries">
                <did>
                   <container type="box">41-78</container>
                   <unittitle id="seta">Set A, 
@@ -1041,7 +1029,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                <arrangement encodinganalog="351$b">
                   <p>Arranged chronologically.</p>
                </arrangement>
-               <c03 id="mferd4681e1061" level="file">
+               <c03 id="mferd2611e1063" level="file">
                   <did>
                      <container type="box">41</container>
                      <unittitle> 
@@ -1051,7 +1039,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1070" level="file">
+               <c03 id="mferd2611e1072" level="file">
                   <did>
                      <container type="box">42</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1061,7 +1049,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1079" level="file">
+               <c03 id="mferd2611e1081" level="file">
                   <did>
                      <container type="box">43</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1071,7 +1059,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1088" level="file">
+               <c03 id="mferd2611e1090" level="file">
                   <did>
                      <container type="box">44</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1081,7 +1069,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1097" level="file">
+               <c03 id="mferd2611e1099" level="file">
                   <did>
                      <container type="box">45</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1091,7 +1079,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1106" level="file">
+               <c03 id="mferd2611e1108" level="file">
                   <did>
                      <container type="box">46</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1101,7 +1089,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1115" level="file">
+               <c03 id="mferd2611e1117" level="file">
                   <did>
                      <container type="box">47</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1111,7 +1099,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1124" level="file">
+               <c03 id="mferd2611e1126" level="file">
                   <did>
                      <container type="box">48</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1121,7 +1109,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1134" level="file">
+               <c03 id="mferd2611e1136" level="file">
                   <did>
                      <container type="box">49</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1131,7 +1119,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1143" level="file">
+               <c03 id="mferd2611e1145" level="file">
                   <did>
                      <container type="box">50</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1141,7 +1129,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1152" level="file">
+               <c03 id="mferd2611e1154" level="file">
                   <did>
                      <container type="box">51</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1151,7 +1139,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1161" level="file">
+               <c03 id="mferd2611e1163" level="file">
                   <did>
                      <container type="box">52</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1161,7 +1149,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1170" level="file">
+               <c03 id="mferd2611e1172" level="file">
                   <did>
                      <container type="box">53</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1171,7 +1159,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1179" level="file">
+               <c03 id="mferd2611e1181" level="file">
                   <did>
                      <container type="box">54</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1181,7 +1169,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1188" level="file">
+               <c03 id="mferd2611e1190" level="file">
                   <did>
                      <container type="box">55</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1191,7 +1179,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1197" level="file">
+               <c03 id="mferd2611e1199" level="file">
                   <did>
                      <container type="box">56</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1201,7 +1189,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1206" level="file">
+               <c03 id="mferd2611e1208" level="file">
                   <did>
                      <container type="box">57</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1211,7 +1199,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1215" level="file">
+               <c03 id="mferd2611e1217" level="file">
                   <did>
                      <container type="box">58</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1221,7 +1209,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1224" level="file">
+               <c03 id="mferd2611e1226" level="file">
                   <did>
                      <container type="box">59</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1231,7 +1219,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1234" level="file">
+               <c03 id="mferd2611e1236" level="file">
                   <did>
                      <container type="box">60</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1241,7 +1229,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1243" level="file">
+               <c03 id="mferd2611e1245" level="file">
                   <did>
                      <container type="box">61</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1251,7 +1239,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1252" level="file">
+               <c03 id="mferd2611e1254" level="file">
                   <did>
                      <container type="box">62</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1261,7 +1249,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1261" level="file">
+               <c03 id="mferd2611e1263" level="file">
                   <did>
                      <container type="box">63</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1271,7 +1259,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1270" level="file">
+               <c03 id="mferd2611e1272" level="file">
                   <did>
                      <container type="box">64</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1281,7 +1269,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1279" level="file">
+               <c03 id="mferd2611e1281" level="file">
                   <did>
                      <container type="box">65</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1291,7 +1279,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1288" level="file">
+               <c03 id="mferd2611e1290" level="file">
                   <did>
                      <container type="box">66</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1301,7 +1289,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1297" level="file">
+               <c03 id="mferd2611e1299" level="file">
                   <did>
                      <container type="box">67</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1315,7 +1303,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd4681e1309" level="file">
+               <c03 id="mferd2611e1311" level="file">
                   <did>
                      <container type="box">68</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1325,7 +1313,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1318" level="file">
+               <c03 id="mferd2611e1320" level="file">
                   <did>
                      <container type="box">69</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1335,7 +1323,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1327" level="file">
+               <c03 id="mferd2611e1329" level="file">
                   <did>
                      <container type="box">70</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1345,7 +1333,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1337" level="file">
+               <c03 id="mferd2611e1339" level="file">
                   <did>
                      <container type="box">71</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1355,7 +1343,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1346" level="file">
+               <c03 id="mferd2611e1348" level="file">
                   <did>
                      <container type="box">72</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1365,7 +1353,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1355" level="file">
+               <c03 id="mferd2611e1357" level="file">
                   <did>
                      <container type="box">73</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1375,7 +1363,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1364" level="file">
+               <c03 id="mferd2611e1366" level="file">
                   <did>
                      <container type="box">74</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1385,7 +1373,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1373" level="file">
+               <c03 id="mferd2611e1375" level="file">
                   <did>
                      <container type="box">75</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1395,7 +1383,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1382" level="file">
+               <c03 id="mferd2611e1384" level="file">
                   <did>
                      <container type="box">76</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1405,7 +1393,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1391" level="file">
+               <c03 id="mferd2611e1393" level="file">
                   <did>
                      <container type="box">77</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1415,7 +1403,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1400" level="file">
+               <c03 id="mferd2611e1402" level="file">
                   <did>
                      <container type="box">78</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1426,7 +1414,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd4681e1409" level="subseries">
+            <c02 id="mferd2611e1411" level="subseries">
                <did>
                   <container type="box">79-102</container>
                   <unittitle id="setb" encodinganalog="245$a">Set B, 
@@ -1442,7 +1430,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                <arrangement encodinganalog="351$b">
                   <p>Arranged chronologically. </p>
                </arrangement>
-               <c03 id="mferd4681e1424" level="file">
+               <c03 id="mferd2611e1426" level="file">
                   <did>
                      <container type="box">79</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1452,7 +1440,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1433" level="file">
+               <c03 id="mferd2611e1435" level="file">
                   <did>
                      <container type="box">80</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1462,7 +1450,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1442" level="file">
+               <c03 id="mferd2611e1444" level="file">
                   <did>
                      <container type="box">81</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1472,7 +1460,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1451" level="file">
+               <c03 id="mferd2611e1453" level="file">
                   <did>
                      <container type="box">82</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1482,7 +1470,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1460" level="file">
+               <c03 id="mferd2611e1462" level="file">
                   <did>
                      <container type="box">83</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1492,7 +1480,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1469" level="file">
+               <c03 id="mferd2611e1471" level="file">
                   <did>
                      <container type="box">84</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1502,7 +1490,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1478" level="file">
+               <c03 id="mferd2611e1480" level="file">
                   <did>
                      <container type="box">85</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1512,7 +1500,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1487" level="file">
+               <c03 id="mferd2611e1489" level="file">
                   <did>
                      <container type="box">86</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1522,7 +1510,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1497" level="file">
+               <c03 id="mferd2611e1499" level="file">
                   <did>
                      <container type="box">87</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1532,7 +1520,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1506" level="file">
+               <c03 id="mferd2611e1508" level="file">
                   <did>
                      <container type="box">88</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1542,7 +1530,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1515" level="file">
+               <c03 id="mferd2611e1517" level="file">
                   <did>
                      <container type="box">89</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1552,7 +1540,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1524" level="file">
+               <c03 id="mferd2611e1526" level="file">
                   <did>
                      <container type="box">90</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1562,7 +1550,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1533" level="file">
+               <c03 id="mferd2611e1535" level="file">
                   <did>
                      <container type="box">91</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1572,7 +1560,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1542" level="file">
+               <c03 id="mferd2611e1544" level="file">
                   <did>
                      <container type="box">92</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1582,7 +1570,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1551" level="file">
+               <c03 id="mferd2611e1553" level="file">
                   <did>
                      <container type="box">93</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1592,7 +1580,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1560" level="file">
+               <c03 id="mferd2611e1562" level="file">
                   <did>
                      <container type="box">94</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1602,7 +1590,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1569" level="file">
+               <c03 id="mferd2611e1571" level="file">
                   <did>
                      <container type="box">95</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1612,7 +1600,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1578" level="file">
+               <c03 id="mferd2611e1580" level="file">
                   <did>
                      <container type="box">96</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1622,7 +1610,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1587" level="file">
+               <c03 id="mferd2611e1589" level="file">
                   <did>
                      <container type="box">97</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1632,7 +1620,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1597" level="file">
+               <c03 id="mferd2611e1599" level="file">
                   <did>
                      <container type="box">98</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1642,7 +1630,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1606" level="file">
+               <c03 id="mferd2611e1608" level="file">
                   <did>
                      <container type="box">99</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1652,7 +1640,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1615" level="file">
+               <c03 id="mferd2611e1617" level="file">
                   <did>
                      <container type="box">100</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1662,7 +1650,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1624" level="file">
+               <c03 id="mferd2611e1626" level="file">
                   <did>
                      <container type="box">101</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1672,7 +1660,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1633" level="file">
+               <c03 id="mferd2611e1635" level="file">
                   <did>
                      <container type="box">102</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1683,7 +1671,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd4681e1642" level="subseries">
+            <c02 id="mferd2611e1644" level="subseries">
                <did>
                   <container type="box">103-124</container>
                   <unittitle id="setc" encodinganalog="245$a">Set C, 
@@ -1699,7 +1687,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                <arrangement encodinganalog="351$b">
                   <p>Arranged chronologically.</p>
                </arrangement>
-               <c03 id="mferd4681e1657" level="file">
+               <c03 id="mferd2611e1659" level="file">
                   <did>
                      <container type="box">103</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1709,7 +1697,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1666" level="file">
+               <c03 id="mferd2611e1668" level="file">
                   <did>
                      <container type="box">104</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1719,7 +1707,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1675" level="file">
+               <c03 id="mferd2611e1677" level="file">
                   <did>
                      <container type="box">105</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1729,7 +1717,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1684" level="file">
+               <c03 id="mferd2611e1686" level="file">
                   <did>
                      <container type="box">106</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1739,7 +1727,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1693" level="file">
+               <c03 id="mferd2611e1695" level="file">
                   <did>
                      <container type="box">107</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1749,7 +1737,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1702" level="file">
+               <c03 id="mferd2611e1704" level="file">
                   <did>
                      <container type="box">108</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1759,7 +1747,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1711" level="file">
+               <c03 id="mferd2611e1713" level="file">
                   <did>
                      <container type="box">109</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1769,7 +1757,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1720" level="file">
+               <c03 id="mferd2611e1722" level="file">
                   <did>
                      <container type="box">110</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1779,7 +1767,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1730" level="file">
+               <c03 id="mferd2611e1732" level="file">
                   <did>
                      <container type="box">111</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1789,7 +1777,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1739" level="file">
+               <c03 id="mferd2611e1741" level="file">
                   <did>
                      <container type="box">112</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1799,7 +1787,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1748" level="file">
+               <c03 id="mferd2611e1750" level="file">
                   <did>
                      <container type="box">113</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1809,7 +1797,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1757" level="file">
+               <c03 id="mferd2611e1759" level="file">
                   <did>
                      <container type="box">114</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1819,7 +1807,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1766" level="file">
+               <c03 id="mferd2611e1768" level="file">
                   <did>
                      <container type="box">115</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1829,7 +1817,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1775" level="file">
+               <c03 id="mferd2611e1777" level="file">
                   <did>
                      <container type="box">116</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1839,7 +1827,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1784" level="file">
+               <c03 id="mferd2611e1786" level="file">
                   <did>
                      <container type="box">117</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1849,7 +1837,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1793" level="file">
+               <c03 id="mferd2611e1795" level="file">
                   <did>
                      <container type="box">118</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1859,7 +1847,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1802" level="file">
+               <c03 id="mferd2611e1804" level="file">
                   <did>
                      <container type="box">119</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1869,7 +1857,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1811" level="file">
+               <c03 id="mferd2611e1813" level="file">
                   <did>
                      <container type="box">120</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1879,7 +1867,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1820" level="file">
+               <c03 id="mferd2611e1822" level="file">
                   <did>
                      <container type="box">121</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1889,7 +1877,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1830" level="file">
+               <c03 id="mferd2611e1832" level="file">
                   <did>
                      <container type="box">122</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1899,7 +1887,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1839" level="file">
+               <c03 id="mferd2611e1841" level="file">
                   <did>
                      <container type="box">123</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1909,7 +1897,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e1848" level="file">
+               <c03 id="mferd2611e1850" level="file">
                   <did>
                      <container type="box">124</container>
                      <unittitle encodinganalog="245$a"> 
@@ -1921,7 +1909,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd4681e1857" level="series">
+         <c01 id="mferd2611e1859" level="series">
             <did>
                <container type="box">125-162</container>
                <unittitle id="daybooks" encodinganalog="245$a">Daybooks, 
@@ -1938,7 +1926,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by date of business transaction.</p>
             </arrangement>
-            <c02 id="mferd4681e1872" level="file">
+            <c02 id="mferd2611e1874" level="file">
                <did>
                   <container type="box">125</container>
                   <unittitle encodinganalog="245$a"> 
@@ -1950,7 +1938,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </note>
                </did>
             </c02>
-            <c02 id="mferd4681e1884" level="file">
+            <c02 id="mferd2611e1886" level="file">
                <did>
                   <container type="box">126</container>
                   <unittitle encodinganalog="245$a"> 
@@ -1959,7 +1947,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1893" level="file">
+            <c02 id="mferd2611e1895" level="file">
                <did>
                   <container type="box">127</container>
                   <unittitle encodinganalog="245$a"> 
@@ -1968,7 +1956,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1902" level="file">
+            <c02 id="mferd2611e1904" level="file">
                <did>
                   <container type="box">128</container>
                   <unittitle encodinganalog="245$a"> 
@@ -1977,7 +1965,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1911" level="file">
+            <c02 id="mferd2611e1913" level="file">
                <did>
                   <container type="box">129</container>
                   <unittitle encodinganalog="245$a"> 
@@ -1986,7 +1974,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1920" level="file">
+            <c02 id="mferd2611e1922" level="file">
                <did>
                   <container type="box">130</container>
                   <unittitle encodinganalog="245$a"> 
@@ -1995,7 +1983,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1929" level="file">
+            <c02 id="mferd2611e1931" level="file">
                <did>
                   <container type="box">131</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2004,7 +1992,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1938" level="file">
+            <c02 id="mferd2611e1940" level="file">
                <did>
                   <container type="box">132</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2013,7 +2001,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1948" level="file">
+            <c02 id="mferd2611e1950" level="file">
                <did>
                   <container type="box">133</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2022,7 +2010,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1957" level="file">
+            <c02 id="mferd2611e1959" level="file">
                <did>
                   <container type="box">134</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2031,7 +2019,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1966" level="file">
+            <c02 id="mferd2611e1968" level="file">
                <did>
                   <container type="box">135</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2040,7 +2028,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1975" level="file">
+            <c02 id="mferd2611e1977" level="file">
                <did>
                   <container type="box">136</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2049,7 +2037,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1984" level="file">
+            <c02 id="mferd2611e1986" level="file">
                <did>
                   <container type="box">137</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2058,7 +2046,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e1993" level="file">
+            <c02 id="mferd2611e1995" level="file">
                <did>
                   <container type="box">138</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2067,7 +2055,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2002" level="file">
+            <c02 id="mferd2611e2004" level="file">
                <did>
                   <container type="box">139</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2076,7 +2064,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2011" level="file">
+            <c02 id="mferd2611e2013" level="file">
                <did>
                   <container type="box">140</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2085,7 +2073,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2020" level="file">
+            <c02 id="mferd2611e2022" level="file">
                <did>
                   <container type="box">141</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2094,7 +2082,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2029" level="file">
+            <c02 id="mferd2611e2031" level="file">
                <did>
                   <container type="box">142</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2103,7 +2091,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2038" level="file">
+            <c02 id="mferd2611e2040" level="file">
                <did>
                   <container type="box">143</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2112,7 +2100,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2048" level="file">
+            <c02 id="mferd2611e2050" level="file">
                <did>
                   <container type="box">144</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2121,7 +2109,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2057" level="file">
+            <c02 id="mferd2611e2059" level="file">
                <did>
                   <container type="box">145</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2130,7 +2118,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2066" level="file">
+            <c02 id="mferd2611e2068" level="file">
                <did>
                   <container type="box">146</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2139,7 +2127,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2075" level="file">
+            <c02 id="mferd2611e2077" level="file">
                <did>
                   <container type="box">147</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2148,7 +2136,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2084" level="file">
+            <c02 id="mferd2611e2086" level="file">
                <did>
                   <container type="box">148</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2157,7 +2145,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2093" level="file">
+            <c02 id="mferd2611e2095" level="file">
                <did>
                   <container type="box">149</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2166,7 +2154,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2102" level="file">
+            <c02 id="mferd2611e2104" level="file">
                <did>
                   <container type="box">150</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2175,7 +2163,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2111" level="file">
+            <c02 id="mferd2611e2113" level="file">
                <did>
                   <container type="box">151</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2184,7 +2172,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2120" level="file">
+            <c02 id="mferd2611e2122" level="file">
                <did>
                   <container type="box">152</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2193,7 +2181,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2129" level="file">
+            <c02 id="mferd2611e2131" level="file">
                <did>
                   <container type="box">153</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2202,7 +2190,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2138" level="file">
+            <c02 id="mferd2611e2140" level="file">
                <did>
                   <container type="box">154</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2211,7 +2199,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2148" level="file">
+            <c02 id="mferd2611e2150" level="file">
                <did>
                   <container type="box">155</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2220,7 +2208,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2157" level="file">
+            <c02 id="mferd2611e2159" level="file">
                <did>
                   <container type="box">156</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2229,7 +2217,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2166" level="file">
+            <c02 id="mferd2611e2168" level="file">
                <did>
                   <container type="box">157</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2238,7 +2226,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2175" level="file">
+            <c02 id="mferd2611e2177" level="file">
                <did>
                   <container type="box">158</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2247,7 +2235,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2184" level="file">
+            <c02 id="mferd2611e2186" level="file">
                <did>
                   <container type="box">159</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2256,7 +2244,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2193" level="file">
+            <c02 id="mferd2611e2195" level="file">
                <did>
                   <container type="box">160</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2265,7 +2253,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2202" level="file">
+            <c02 id="mferd2611e2204" level="file">
                <did>
                   <container type="box">161</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2274,7 +2262,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2211" level="file">
+            <c02 id="mferd2611e2213" level="file">
                <did>
                   <container type="box">162</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2284,7 +2272,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e2220" level="series">
+         <c01 id="mferd2611e2222" level="series">
             <did>
                <container type="box">163-197</container>
                <unittitle id="cash" encodinganalog="245$a">Cashbooks, 
@@ -2300,7 +2288,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by date of business transaction.</p>
             </arrangement>
-            <c02 id="mferd4681e2235" level="file">
+            <c02 id="mferd2611e2237" level="file">
                <did>
                   <container type="box">163-164</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2310,7 +2298,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2244" level="file">
+            <c02 id="mferd2611e2246" level="file">
                <did>
                   <container type="box">165-166</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2319,7 +2307,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2253" level="file">
+            <c02 id="mferd2611e2255" level="file">
                <did>
                   <container type="box">167-8</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2328,7 +2316,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2262" level="file">
+            <c02 id="mferd2611e2264" level="file">
                <did>
                   <container type="box">169-70</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2337,7 +2325,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2271" level="file">
+            <c02 id="mferd2611e2273" level="file">
                <did>
                   <container type="box">171-2</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2346,7 +2334,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2280" level="file">
+            <c02 id="mferd2611e2282" level="file">
                <did>
                   <container type="box">173-4</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2355,7 +2343,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2289" level="file">
+            <c02 id="mferd2611e2291" level="file">
                <did>
                   <container type="box">175-6</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2364,7 +2352,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2298" level="file">
+            <c02 id="mferd2611e2300" level="file">
                <did>
                   <container type="box">177-8</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2373,7 +2361,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2308" level="file">
+            <c02 id="mferd2611e2310" level="file">
                <did>
                   <container type="box">179</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2382,7 +2370,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2317" level="file">
+            <c02 id="mferd2611e2319" level="file">
                <did>
                   <container type="box">180</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2391,7 +2379,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2326" level="file">
+            <c02 id="mferd2611e2328" level="file">
                <did>
                   <container type="box">181</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2400,7 +2388,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2335" level="file">
+            <c02 id="mferd2611e2337" level="file">
                <did>
                   <container type="box">182</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2409,7 +2397,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2344" level="file">
+            <c02 id="mferd2611e2346" level="file">
                <did>
                   <container type="box">183</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2418,7 +2406,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2353" level="file">
+            <c02 id="mferd2611e2355" level="file">
                <did>
                   <container type="box">184</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2427,7 +2415,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2362" level="file">
+            <c02 id="mferd2611e2364" level="file">
                <did>
                   <container type="box">185</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2436,7 +2424,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2371" level="file">
+            <c02 id="mferd2611e2373" level="file">
                <did>
                   <container type="box">186</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2445,7 +2433,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2380" level="file">
+            <c02 id="mferd2611e2382" level="file">
                <did>
                   <container type="box">187</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2454,7 +2442,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2389" level="file">
+            <c02 id="mferd2611e2391" level="file">
                <did>
                   <container type="box">188</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2463,7 +2451,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2398" level="file">
+            <c02 id="mferd2611e2400" level="file">
                <did>
                   <container type="box">189</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2472,7 +2460,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2408" level="file">
+            <c02 id="mferd2611e2410" level="file">
                <did>
                   <container type="box">190</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2481,7 +2469,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2417" level="file">
+            <c02 id="mferd2611e2419" level="file">
                <did>
                   <container type="box">191</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2490,7 +2478,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2426" level="file">
+            <c02 id="mferd2611e2428" level="file">
                <did>
                   <container type="box">192</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2499,7 +2487,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2435" level="file">
+            <c02 id="mferd2611e2437" level="file">
                <did>
                   <container type="box">193</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2508,7 +2496,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2444" level="file">
+            <c02 id="mferd2611e2446" level="file">
                <did>
                   <container type="box">194</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2517,7 +2505,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2453" level="file">
+            <c02 id="mferd2611e2455" level="file">
                <did>
                   <container type="box">195</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2526,7 +2514,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2462" level="file">
+            <c02 id="mferd2611e2464" level="file">
                <did>
                   <container type="box">196</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2535,7 +2523,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2471" level="file">
+            <c02 id="mferd2611e2473" level="file">
                <did>
                   <container type="box">197</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2545,7 +2533,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e2480" level="series">
+         <c01 id="mferd2611e2482" level="series">
             <did>
                <container type="box">198-222</container>
                <unittitle id="ledger" encodinganalog="245$a">Ledgers, 
@@ -2562,7 +2550,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 id="mferd4681e2495" level="file">
+            <c02 id="mferd2611e2497" level="file">
                <did>
                   <container type="box">198</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2574,7 +2562,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </note>
                </did>
             </c02>
-            <c02 id="mferd4681e2507" level="file">
+            <c02 id="mferd2611e2509" level="file">
                <did>
                   <container type="box">199</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2583,7 +2571,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2516" level="file">
+            <c02 id="mferd2611e2518" level="file">
                <did>
                   <container type="box">200</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2592,7 +2580,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2525" level="file">
+            <c02 id="mferd2611e2527" level="file">
                <did>
                   <container type="box">201</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2601,7 +2589,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2534" level="file">
+            <c02 id="mferd2611e2536" level="file">
                <did>
                   <container type="box">202</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2610,7 +2598,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2543" level="file">
+            <c02 id="mferd2611e2545" level="file">
                <did>
                   <container type="box">203</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2619,7 +2607,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2552" level="file">
+            <c02 id="mferd2611e2554" level="file">
                <did>
                   <container type="box">204</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2628,7 +2616,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2561" level="file">
+            <c02 id="mferd2611e2563" level="file">
                <did>
                   <container type="box">205</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2637,7 +2625,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2571" level="file">
+            <c02 id="mferd2611e2573" level="file">
                <did>
                   <container type="box">206</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2646,7 +2634,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2580" level="file">
+            <c02 id="mferd2611e2582" level="file">
                <did>
                   <container type="box">207</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2655,7 +2643,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2589" level="file">
+            <c02 id="mferd2611e2591" level="file">
                <did>
                   <container type="box">208</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2664,7 +2652,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2598" level="file">
+            <c02 id="mferd2611e2600" level="file">
                <did>
                   <container type="box">209</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2673,7 +2661,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2607" level="file">
+            <c02 id="mferd2611e2609" level="file">
                <did>
                   <container type="box">210</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2682,7 +2670,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2616" level="file">
+            <c02 id="mferd2611e2618" level="file">
                <did>
                   <container type="box">211</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2691,7 +2679,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2625" level="file">
+            <c02 id="mferd2611e2627" level="file">
                <did>
                   <container type="box">212</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2700,7 +2688,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2634" level="file">
+            <c02 id="mferd2611e2636" level="file">
                <did>
                   <container type="box">213</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2709,7 +2697,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2643" level="file">
+            <c02 id="mferd2611e2645" level="file">
                <did>
                   <container type="box">214</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2718,7 +2706,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2652" level="file">
+            <c02 id="mferd2611e2654" level="file">
                <did>
                   <container type="box">215</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2727,7 +2715,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2661" level="file">
+            <c02 id="mferd2611e2663" level="file">
                <did>
                   <container type="box">216</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2736,7 +2724,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2671" level="file">
+            <c02 id="mferd2611e2673" level="file">
                <did>
                   <container type="box">217</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2745,7 +2733,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2680" level="file">
+            <c02 id="mferd2611e2682" level="file">
                <did>
                   <container type="box">218</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2754,7 +2742,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2689" level="file">
+            <c02 id="mferd2611e2691" level="file">
                <did>
                   <container type="box">219</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2763,7 +2751,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2698" level="file">
+            <c02 id="mferd2611e2700" level="file">
                <did>
                   <container type="box">220</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2772,7 +2760,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2707" level="file">
+            <c02 id="mferd2611e2709" level="file">
                <did>
                   <container type="box">221</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2781,7 +2769,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2716" level="file">
+            <c02 id="mferd2611e2718" level="file">
                <did>
                   <container type="box">222</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2791,7 +2779,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e2725" level="series">
+         <c01 id="mferd2611e2727" level="series">
             <did>
                <container type="box">223-226</container>
                <unittitle id="sledger" encodinganalog="245$a">Sterling Ledgers, 
@@ -2810,7 +2798,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 id="mferd4681e2740" level="file">
+            <c02 id="mferd2611e2742" level="file">
                <did>
                   <container type="box">223</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2819,7 +2807,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2749" level="file">
+            <c02 id="mferd2611e2751" level="file">
                <did>
                   <container type="box">224</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2828,7 +2816,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2758" level="file">
+            <c02 id="mferd2611e2760" level="file">
                <did>
                   <container type="box">225</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2837,7 +2825,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2767" level="file">
+            <c02 id="mferd2611e2769" level="file">
                <did>
                   <container type="box">226</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2847,7 +2835,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e2776" level="series">
+         <c01 id="mferd2611e2778" level="series">
             <did>
                <container type="box">227-230</container>
                <unittitle id="ledgersb" encodinganalog="245$a">Ledger Sight Bills, 
@@ -2863,7 +2851,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by business transaction date.</p>
             </arrangement>
-            <c02 id="mferd4681e2791" level="file">
+            <c02 id="mferd2611e2793" level="file">
                <did>
                   <container type="box">227</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2872,7 +2860,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2800" level="file">
+            <c02 id="mferd2611e2802" level="file">
                <did>
                   <container type="box">228</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2881,7 +2869,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2809" level="file">
+            <c02 id="mferd2611e2811" level="file">
                <did>
                   <container type="box">229</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2890,7 +2878,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2818" level="file">
+            <c02 id="mferd2611e2820" level="file">
                <did>
                   <container type="box">230</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2900,7 +2888,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e2827" level="series">
+         <c01 id="mferd2611e2829" level="series">
             <did>
                <container type="box">231-237</container>
                <unittitle id="jrnls" encodinganalog="245$a">Journals, 
@@ -2916,7 +2904,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by business transaction date.</p>
             </arrangement>
-            <c02 id="mferd4681e2842" level="file">
+            <c02 id="mferd2611e2844" level="file">
                <did>
                   <container type="box">231</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2925,7 +2913,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2851" level="file">
+            <c02 id="mferd2611e2853" level="file">
                <did>
                   <container type="box">232</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2934,7 +2922,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2860" level="file">
+            <c02 id="mferd2611e2862" level="file">
                <did>
                   <container type="box">233</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2943,7 +2931,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2869" level="file">
+            <c02 id="mferd2611e2871" level="file">
                <did>
                   <container type="box">234</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2952,7 +2940,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2878" level="file">
+            <c02 id="mferd2611e2880" level="file">
                <did>
                   <container type="box">235</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2961,7 +2949,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2887" level="file">
+            <c02 id="mferd2611e2889" level="file">
                <did>
                   <container type="box">236</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2971,7 +2959,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2896" level="file">
+            <c02 id="mferd2611e2898" level="file">
                <did>
                   <container type="box">237</container>
                   <unittitle encodinganalog="245$a"> 
@@ -2982,7 +2970,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e2905" level="series">
+         <c01 id="mferd2611e2907" level="series">
             <did>
                <container type="box">238-241</container>
                <unittitle id="sales" encodinganalog="245$a">Sales Books, 
@@ -2998,7 +2986,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by business transaction date.</p>
             </arrangement>
-            <c02 id="mferd4681e2920" level="file">
+            <c02 id="mferd2611e2922" level="file">
                <did>
                   <container type="box">238</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3007,7 +2995,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2929" level="file">
+            <c02 id="mferd2611e2931" level="file">
                <did>
                   <container type="box">239</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3016,7 +3004,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2938" level="file">
+            <c02 id="mferd2611e2940" level="file">
                <did>
                   <container type="box">240</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3025,7 +3013,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e2947" level="file">
+            <c02 id="mferd2611e2949" level="file">
                <did>
                   <container type="box">241</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3035,7 +3023,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e2957" level="series">
+         <c01 id="mferd2611e2959" level="series">
             <did>
                <container type="box">242-243</container>
                <unittitle id="waste" encodinganalog="245$a">Waste Books, 
@@ -3051,7 +3039,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by date of business transaction. </p>
             </arrangement>
-            <c02 id="mferd4681e2972" level="file">
+            <c02 id="mferd2611e2974" level="file">
                <did>
                   <container type="box">242</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3064,7 +3052,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </note>
                </did>
             </c02>
-            <c02 id="mferd4681e2984" level="file">
+            <c02 id="mferd2611e2986" level="file">
                <did>
                   <container type="box">243</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3075,7 +3063,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e2993" level="series">
+         <c01 id="mferd2611e2995" level="series">
             <did>
                <container type="box">244-254</container>
                <unittitle id="accts" encodinganalog="245$a">Accounts Current, 
@@ -3092,7 +3080,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 id="mferd4681e3008" level="file">
+            <c02 id="mferd2611e3010" level="file">
                <did>
                   <container type="box">244</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3101,7 +3089,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3017" level="file">
+            <c02 id="mferd2611e3019" level="file">
                <did>
                   <container type="box">245</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3110,7 +3098,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3026" level="file">
+            <c02 id="mferd2611e3028" level="file">
                <did>
                   <container type="box">246</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3119,7 +3107,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3035" level="file">
+            <c02 id="mferd2611e3037" level="file">
                <did>
                   <container type="box">247</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3128,7 +3116,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3044" level="file">
+            <c02 id="mferd2611e3046" level="file">
                <did>
                   <container type="box">248</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3137,7 +3125,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3053" level="file">
+            <c02 id="mferd2611e3055" level="file">
                <did>
                   <container type="box">249</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3146,7 +3134,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3062" level="file">
+            <c02 id="mferd2611e3064" level="file">
                <did>
                   <container type="box">250</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3155,7 +3143,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3071" level="file">
+            <c02 id="mferd2611e3073" level="file">
                <did>
                   <container type="box">251</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3164,7 +3152,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3081" level="file">
+            <c02 id="mferd2611e3083" level="file">
                <did>
                   <container type="box">252</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3173,7 +3161,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3090" level="file">
+            <c02 id="mferd2611e3092" level="file">
                <did>
                   <container type="box">253</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3182,7 +3170,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3099" level="file">
+            <c02 id="mferd2611e3101" level="file">
                <did>
                   <container type="box">254</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3192,7 +3180,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e3108" level="series">
+         <c01 id="mferd2611e3110" level="series">
             <did>
                <container type="box">255-258</container>
                <unittitle id="blotters" encodinganalog="245$a">Blotters, 
@@ -3209,7 +3197,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically by date of business transaction.</p>
             </arrangement>
-            <c02 id="mferd4681e3123" level="file">
+            <c02 id="mferd2611e3125" level="file">
                <did>
                   <container type="box">255</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3218,7 +3206,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3132" level="file">
+            <c02 id="mferd2611e3134" level="file">
                <did>
                   <container type="box">256</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3227,7 +3215,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3141" level="file">
+            <c02 id="mferd2611e3143" level="file">
                <did>
                   <container type="box">257</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3236,7 +3224,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd4681e3150" level="file">
+            <c02 id="mferd2611e3152" level="file">
                <did>
                   <container type="box">258</container>
                   <unittitle encodinganalog="245$a"> 
@@ -3246,7 +3234,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                </did>
             </c02>
          </c01>
-         <c01 id="mferd4681e3159" level="series">
+         <c01 id="mferd2611e3161" level="series">
             <did>
                <container type="box">259-266</container>
                <unittitle id="misc" encodinganalog="245$a">Miscellany, 
@@ -3257,7 +3245,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
 				
                </unittitle>
             </did>
-            <c02 id="mferd4681e3168" level="subseries">
+            <c02 id="mferd2611e3170" level="subseries">
                <did>
                   <container type="box">259-261</container>
                   <unittitle id="union" encodinganalog="245$a">Union Railroad
@@ -3276,7 +3264,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   <p>Volumes are arranged as journals and ledgers and chronologically
 				  therein. </p>
                </arrangement>
-               <c03 id="mferd4681e3183" level="file">
+               <c03 id="mferd2611e3185" level="file">
                   <did>
                      <container type="box">259</container>
                      <unittitle encodinganalog="245$a">Journal, 
@@ -3284,7 +3272,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e3192" level="file">
+               <c03 id="mferd2611e3194" level="file">
                   <did>
                      <container type="box">260</container>
                      <unittitle encodinganalog="245$a">Ledger, 
@@ -3292,7 +3280,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd4681e3201" level="file">
+               <c03 id="mferd2611e3203" level="file">
                   <did>
                      <container type="box">261</container>
                      <unittitle encodinganalog="245$a">Ground rents, 
@@ -3301,7 +3289,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd4681e3210" level="subseries">
+            <c02 id="mferd2611e3212" level="subseries">
                <did>
                   <container type="box">262</container>
                   <unittitle id="credit" encodinganalog="245$a">Credit Rating Book, 
@@ -3317,7 +3305,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   <p>Arranged alphabetically by name of customer or client.</p>
                </arrangement>
             </c02>
-            <c02 id="mferd4681e3225" level="subseries">
+            <c02 id="mferd2611e3227" level="subseries">
                <did>
                   <container type="box">263</container>
                   <unittitle id="state" encodinganalog="245$a">Statements Book No.
@@ -3337,7 +3325,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
                   <p>Arranged chronologically.</p>
                </arrangement>
             </c02>
-            <c02 id="mferd4681e3240" level="subseries">
+            <c02 id="mferd2611e3242" level="subseries">
                <did>
                   <container type="box">264</container>
                   <unittitle id="aran" encodinganalog="245$a">Aransas Pass Harbor
@@ -3355,7 +3343,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
 				  Tex.</p>
                </scopecontent>
             </c02>
-            <c02 id="mferd4681e3252" level="subseries">
+            <c02 id="mferd2611e3254" level="subseries">
                <did>
                   <container type="box">265</container>
                   <unittitle id="fem" encodinganalog="245$a">Female Orphan Asylum
@@ -3371,7 +3359,7 @@ URL: http://hdl.loc.gov/loc.mss/eadmss.ms998013
 				  organization.</p>
                </scopecontent>
             </c02>
-            <c02 id="mferd4681e3264" level="subseries">
+            <c02 id="mferd2611e3266" level="subseries">
                <did>
                   <container type="box">266</container>
                   <unittitle id="sig" encodinganalog="245$a">Signature Book, 

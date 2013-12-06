@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Mon, 21 May 2012 08:51:33 AM EDT
+Generated: Mon, 17 June 2013 02:04:16 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu011018--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu011018--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu011018-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd17e2">
+     id="mferd181e2">
    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
               langencoding="iso639-2b"
-              id="mferd17e3">
+              id="mferd181e3">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.music/eadmus.mu011018"
              encodinganalog="856$u">
@@ -72,7 +72,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
       </revisiondesc>
    </eadheader>
    <archdesc level="collection" relatedencoding="MARC21" type="register">
-      <did id="mferd17e55">
+      <did id="mferd181e55">
          <head>Collection Summary</head>
          <unittitle label="Title" encodinganalog="245$a">Nikolay Karlovich Medtner Papers
 		  <unitdate label="Span Dates" type="inclusive" normal="1826/1954" encodinganalog="245$f"
@@ -107,7 +107,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <controlaccess id="mferd17e114">
+         <controlaccess id="mferd181e114">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Conus%2C+Leon+Correspondence.^">Conus, Leon--Correspondence.</persname>
@@ -158,14 +158,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Turcotte%2C+J.+G.%2C+abb%C3%A9+Correspondence.^">Turcotte, J. G., abbé--Correspondence.</persname>
          </controlaccess>
-         <controlaccess id="mferd17e167">
+         <controlaccess id="mferd181e167">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Composers+Russia.^">Composers--Russia.</subject>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
             <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Pianists+Russia.^">Pianists--Russia.</subject>
          </controlaccess>
-         <controlaccess id="mferd17e176">
+         <controlaccess id="mferd181e176">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Artifacts+%28Object+genre%29^">Artifacts (Object genre)</genreform>
@@ -178,25 +178,25 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                        altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo" id="mferd17e189">
+      <descgrp type="admininfo" id="mferd181e189">
          <head>Administrative Information</head>
-         <acqinfo encodinganalog="541" id="mferd17e192">
+         <acqinfo encodinganalog="541" id="mferd181e192">
             <head>Provenance</head>
             <p>Acquired in 1953 as a gift from Anna Mikhaĭlovna Bratenskaya Medtner (widow of Nikolay Medtner), with additional gifts by Sofiia Aleksandrovna Satina, Olga Conus (Konius), and Dr. Alfred J. Swan.</p>
          </acqinfo>
-         <accruals encodinganalog="584" id="mferd17e197">
+         <accruals encodinganalog="584" id="mferd181e197">
             <head>Accruals</head>
             <p>No further accruals are expected.</p>
          </accruals>
-         <processinfo encodinganalog="583" id="mferd17e202">
+         <processinfo encodinganalog="583" id="mferd181e202">
             <head>Processing History</head>
             <p>The Nikolay Karlovich Medtner Papers were processed by Patrick Domico and George Kipper in 2011. George Kipper coded the finding aid for EAD format in 2011.</p>
          </processinfo>
-         <separatedmaterial encodinganalog="544 0" id="mferd17e207">
+         <separatedmaterial encodinganalog="544 0" id="mferd181e207">
             <head>Other Repositories</head>
             <p>Institutions with significant Medtner holdings include: the Glinka Museum in Moscow (a large source of Medtner materials, especially pre-1921); British Library in London (six boxes of materials collected by Medtner pupil Edna Iles which includes manuscripts, correspondence, notes, and scores annotated in Medtner's hand); University of Leeds Special Collections Library in England (an unknown quantity of private papers, diaries, letters, photographs, ephemera and audio cassettes presumably related to Medtner's acquaintance with Richard Holt); University of Virginia Special Collections Library in Charlottesville, Va. (the Alfred Swan Papers includes correspondence, diaries, and other source materials for Swan's writings on Medtner); Library and Archives of Canada in Ottawa (the Alfred Laliberté fonds Collection contains significant correspondence, a few manuscripts, and other materials); and a privately owned archive recently acquired by Yevgeny Sudbin.</p>
          </separatedmaterial>
-         <relatedmaterial encodinganalog="544 1" id="mferd17e212">
+         <relatedmaterial encodinganalog="544 1" id="mferd181e212">
             <head>Related Material</head>
             <p>The Library of Congress Music Division holds numerous special collections that contain correspondence, music, or publications related to Nikolay Medtner. These include: the Rachmaninoff Archives (documents); the<archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
                         xlink:actuate="onRequest"
@@ -210,21 +210,21 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                         xlink:actuate="onRequest"
                         xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu011001">Boris Koutzen Collection</archref> (printed scores of Medtner's <title>Violin Sonata, op. 21</title> and <title>Nocturne, op. 16/1</title>, including performance annotations presumably by Koutzen).</p>
          </relatedmaterial>
-         <userestrict encodinganalog="540" id="mferd17e245">
+         <userestrict encodinganalog="540" id="mferd181e245">
             <head>Copyright Status</head>
             <p>Materials from the Nikolay Karlovich Medtner Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
          </userestrict>
-         <accessrestrict encodinganalog="506 0" id="mferd17e250">
+         <accessrestrict encodinganalog="506 0" id="mferd181e250">
             <head>Access and Restrictions</head>
             <p>The Nikolay Karlovich Medtner Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
             <p>Certain restrictions to use or copying of materials may apply.</p>
          </accessrestrict>
-         <prefercite encodinganalog="524" id="mferd17e257">
+         <prefercite encodinganalog="524" id="mferd181e257">
             <head>Preferred Citation</head>
             <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Nikolay Karlovich Medtner Papers, Music Division, Library of Congress, Washington, D.C.</p>
          </prefercite>
       </descgrp>
-      <bioghist encodinganalog="545" id="mferd17e262">
+      <bioghist encodinganalog="545" id="mferd181e262">
          <head>Biographical Note</head>
          <chronlist>
             <listhead>
@@ -333,7 +333,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             </chronitem>
          </chronlist>
       </bioghist>
-      <scopecontent encodinganalog="520" id="mferd17e422">
+      <scopecontent encodinganalog="520" id="mferd181e422">
          <head>Scope and Content Note</head>
          <p> The Nikolay Karlovich Medtner Papers contain letters, programs, clippings, photographs, scores, books, realia, and other items related to Medtner's family life and career as a concert pianist. These materials date from 1826-1954, with the majority dating from 1914-1954. The Correspondence series takes up nearly half the collection and consists of family and general correspondence written between 1914 and 1954, containing over 1,900 letters in Russian, German, English, and French. Family correspondence (1914-1936) consists of approximately 500 letters by Nikolay and/or wife Anna to Ėmiliĭ Karlovich Metner with over 400 letters in reply. The general correspondence (1921-1954) contains significant letters and transcripts to and from Sergei and Nataliia Rachmaninoff, Leon and Olga Conus, Sofiia Aleksandrovna Satina, Konstantin Klimov, Madeleine Laliberté (Mrs. Albert Laliberté), Bernard and Cecile Pinsonneault, Abbé J.G. Turcotte, and smaller holdings of letters by other musicians and admirers. This series also contains condolence letters sent to Anna upon Nikolay’s death and a large quantity of unidentified letters.</p>
          <p>The Programs series largely documents concerts given by Medtner in the U.S., Canada, Europe, and Russia between 1907 and 1946. There are also programs featuring Medtner’s works, presumably collected by the family. The Articles series (1910-1952) consists chiefly of newspaper clippings (often collected in scrapbooks, transcribed, and occasionally translated) and several longer articles written about Medtner. In addition, there is a brief article written by Medtner on the topic of musical inspiration. Aside from one photograph of Medtner himself, the Photography series is confined mostly to inscribed photographs of various musicians presented to Medtner, including two by Rachmaninoff.</p>
@@ -341,7 +341,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
          <p>The Music series consists of printed scores and three manuscripts in Medtner's hand: <title>Russian Round Dance, op. 58, no. 1</title>; a 1896 work entitled <title>Prelude, piano, E♭ minor</title>, dedicated to Anna (possibly reworked as Op. 14/1); and an early vocal piece entitled <title>Romance</title>, also dedicated to Anna (possibly reworked as Op. 3/1). Among the printed music holdings is a bound volume containing musical settings to Pushkin's texts by various composers compiled by V.A. Kiselev as well as a printed score to Arthur Lourié’s <title>Formes en l’air</title>, with a written dedication to Medtner initialed by Rachmaninoff.</p>
          <p>A few explanatory words regarding transliteration of the composer's surname: although the correct transliteration of the Russian-born composer's surname would be more precisely rendered according to the Library of Congress's transliteration system as "Metner," the composer himself favored the Germanic spelling of his name, "Medtner," in Roman script; the latter form, through which the composer gained renown in the West, has therefore been retained within this document. Conversely, the Library of Congress transliteration system has been adhered to in transliterating the name of the composer's brother, Ėmiliĭ Metner (who neither cultivated a career in the West, nor adopted the Germanic spelling of his surname). Alternate spellings for Russian names and titles that appear in this finding aid--including those defined by convention as well as standardized transliteration--have been included in an appendix to facilitate searching. A modified Library of Congress transliteration system, excluding ligatures and accent marks, has been adopted in this finding aid.</p>
       </scopecontent>
-      <arrangement encodinganalog="351$a" id="mferd17e453">
+      <arrangement encodinganalog="351$a" id="mferd181e453">
          <head>Organization of the Nikolay Karlovich Medtner Papers</head>
          <p>The Nikolay Karlovich Medtner Papers are organized in seven series:</p>
          <list>
@@ -396,7 +396,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                  xlink:title="MARC record for collection"
                  xlink:type="simple">http://lccn.loc.gov/2011570510</extref>
       </otherfindaid>
-      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd17e483" type="combined">
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd181e483" type="combined">
          <head>Container List</head>
          <thead valign="bottom">
             <row>
@@ -404,7 +404,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 level="series" id="mferd17e492">
+         <c01 level="series" id="mferd181e492">
             <did>
                <container type="box">1-5</container>
                <unittitle encodinganalog="245$a" id="corr">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1914/1954">1914-1954</unitdate>
@@ -416,12 +416,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             <arrangement encodinganalog="351$b">
                <p>The series is arranged into two subseries: the first contains correspondence between Medtner family members; the second contains correspondence by non-family members to Nikolay Medtner. Arranged alphabetically by correspondent's last name, and chronologically therein.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd17e506">
+            <c02 level="subseries" id="mferd181e506">
                <did>
                   <unittitle encodinganalog="245$a">Medtner Family, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1914-1951</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e512">
+               <c03 level="file" id="mferd181e512">
                   <did>
                      <container type="box-folder">1/1-17</container>
                      <unittitle encodinganalog="245$a">Ėmiliĭ to Nikolay and Anna, 
@@ -429,7 +429,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e520">
+               <c03 level="file" id="mferd181e520">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a">Anna to Ėmiliĭ, 
@@ -437,7 +437,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e528">
+               <c03 level="file" id="mferd181e528">
                   <did>
                      <container type="box-folder">2/2-15; 3/1-4</container>
                      <unittitle encodinganalog="245$a">Anna and Nikolay to Ėmiliĭ, 
@@ -445,7 +445,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e536">
+               <c03 level="file" id="mferd181e536">
                   <did>
                      <container type="box-folder">3/5-7</container>
                      <unittitle encodinganalog="245$a">Condolence letters/notes to Anna Medtner, 
@@ -454,13 +454,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </did>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e544">
+            <c02 level="subseries" id="mferd181e544">
                <did>
                   <unittitle encodinganalog="245$a">General, 
 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1921-1954</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e550">
+               <c03 level="file" id="mferd181e550">
                   <did>
                      <container type="box-folder">3/8</container>
                      <unittitle encodinganalog="245$a">Alexander, Arthur, 
@@ -468,7 +468,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e558">
+               <c03 level="file" id="mferd181e558">
                   <did>
                      <container type="box-folder">3/9</container>
                      <unittitle encodinganalog="245$a">Armin, George,  
@@ -476,7 +476,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e566">
+               <c03 level="file" id="mferd181e566">
                   <did>
                      <container type="box-folder">3/10</container>
                      <unittitle encodinganalog="245$a">Arnson, Lyuta, 
@@ -484,7 +484,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e574">
+               <c03 level="file" id="mferd181e574">
                   <did>
                      <container type="box-folder">3/11</container>
                      <unittitle encodinganalog="245$a">"A" miscellaneous,  
@@ -492,7 +492,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e582">
+               <c03 level="file" id="mferd181e582">
                   <did>
                      <container type="box-folder">3/12</container>
                      <unittitle encodinganalog="245$a">Bax, Arnold,  
@@ -500,7 +500,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e590">
+               <c03 level="file" id="mferd181e590">
                   <did>
                      <container type="box-folder">3/13</container>
                      <unittitle encodinganalog="245$a">Bentner, Marie Auguste,  
@@ -508,7 +508,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e598">
+               <c03 level="file" id="mferd181e598">
                   <did>
                      <container type="box-folder">3/14</container>
                      <unittitle encodinganalog="245$a">Bernhard, Isolda,  
@@ -516,7 +516,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e606">
+               <c03 level="file" id="mferd181e606">
                   <did>
                      <container type="box-folder">3/15</container>
                      <unittitle encodinganalog="245$a">Binstead, S.T. and Ann,  
@@ -524,7 +524,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e614">
+               <c03 level="file" id="mferd181e614">
                   <did>
                      <container type="box-folder">3/16</container>
                      <unittitle encodinganalog="245$a">Bloch, J. H.,  
@@ -532,7 +532,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e622">
+               <c03 level="file" id="mferd181e622">
                   <did>
                      <container type="box-folder">3/17</container>
                      <unittitle encodinganalog="245$a">Blom, Eric,  
@@ -540,7 +540,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e631">
+               <c03 level="file" id="mferd181e631">
                   <did>
                      <container type="box-folder">3/18</container>
                      <unittitle encodinganalog="245$a">Braithware, Sam Hartley,  
@@ -548,7 +548,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e639">
+               <c03 level="file" id="mferd181e639">
                   <did>
                      <container type="box-folder">3/19</container>
                      <unittitle encodinganalog="245$a">Braunstein, Albert,  
@@ -556,7 +556,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e647">
+               <c03 level="file" id="mferd181e647">
                   <did>
                      <container type="box-folder">3/20</container>
                      <unittitle encodinganalog="245$a">Bühler, Lenox,   
@@ -564,7 +564,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e655">
+               <c03 level="file" id="mferd181e655">
                   <did>
                      <container type="box-folder">3/21</container>
                      <unittitle encodinganalog="245$a">"B" miscellaneous,  
@@ -572,7 +572,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e663">
+               <c03 level="file" id="mferd181e663">
                   <did>
                      <container type="box-folder">3/22</container>
                      <unittitle encodinganalog="245$a">Catterall, Yvonne and Hugh,  
@@ -580,7 +580,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e671">
+               <c03 level="file" id="mferd181e671">
                   <did>
                      <container type="box-folder">3/23</container>
                      <unittitle encodinganalog="245$a">Chamberland, Albert,  
@@ -588,7 +588,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e679">
+               <c03 level="file" id="mferd181e679">
                   <did>
                      <container type="box-folder">3/24</container>
                      <unittitle encodinganalog="245$a">Chekhova, Vseniya,  
@@ -596,7 +596,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e687">
+               <c03 level="file" id="mferd181e687">
                   <did>
                      <container type="box-folder">3/25</container>
                      <unittitle encodinganalog="245$a">Cloutier, Leo,  
@@ -604,7 +604,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e695">
+               <c03 level="file" id="mferd181e695">
                   <did>
                      <container type="box-folder">3/26-30</container>
                      <unittitle encodinganalog="245$a">Conus, Leon and Olga,  
@@ -612,7 +612,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e703">
+               <c03 level="file" id="mferd181e703">
                   <did>
                      <container type="box-folder">4/1-3</container>
                      <unittitle encodinganalog="245$a">Conus, Olga,  
@@ -620,7 +620,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e711">
+               <c03 level="file" id="mferd181e711">
                   <did>
                      <container type="box-folder">4/4</container>
                      <unittitle encodinganalog="245$a">Conus, Sergei,  
@@ -628,7 +628,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e720">
+               <c03 level="file" id="mferd181e720">
                   <did>
                      <container type="box-folder">4/5</container>
                      <unittitle encodinganalog="245$a">Conus, Tatiana,  
@@ -636,7 +636,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e728">
+               <c03 level="file" id="mferd181e728">
                   <did>
                      <container type="box-folder">4/6</container>
                      <unittitle encodinganalog="245$a">"C" miscellaneous,  
@@ -644,7 +644,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e736">
+               <c03 level="file" id="mferd181e736">
                   <did>
                      <container type="box-folder">4/7</container>
                      <unittitle encodinganalog="245$a">Décarie, Annette,  
@@ -652,7 +652,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e744">
+               <c03 level="file" id="mferd181e744">
                   <did>
                      <container type="box-folder">4/8</container>
                      <unittitle encodinganalog="245$a">Decaux, Abel,  
@@ -660,7 +660,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e752">
+               <c03 level="file" id="mferd181e752">
                   <did>
                      <container type="box-folder">4/9</container>
                      <unittitle encodinganalog="245$a">De Jersey, Everal,  
@@ -668,7 +668,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e760">
+               <c03 level="file" id="mferd181e760">
                   <did>
                      <container type="box-folder">4/10</container>
                      <unittitle encodinganalog="245$a">Denissoff, J.,  
@@ -677,7 +677,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e768">
+               <c03 level="file" id="mferd181e768">
                   <did>
                      <container type="box-folder">4/11</container>
                      <unittitle encodinganalog="245$a">Dhami, Sadhu Singh,  
@@ -685,7 +685,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e776">
+               <c03 level="file" id="mferd181e776">
                   <did>
                      <container type="box-folder">4/12</container>
                      <unittitle encodinganalog="245$a">Dobrowen, Issay,  
@@ -693,7 +693,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e784">
+               <c03 level="file" id="mferd181e784">
                   <did>
                      <container type="box-folder">4/13</container>
                      <unittitle encodinganalog="245$a">Dobuzhinsky, Mstislav,  
@@ -701,7 +701,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e792">
+               <c03 level="file" id="mferd181e792">
                   <did>
                      <container type="box-folder">4/14</container>
                      <unittitle encodinganalog="245$a">Dupré, Marcel,  
@@ -709,7 +709,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e800">
+               <c03 level="file" id="mferd181e800">
                   <did>
                      <container type="box-folder">4/15</container>
                      <unittitle encodinganalog="245$a">"D" miscellaneous,  
@@ -717,7 +717,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e809">
+               <c03 level="file" id="mferd181e809">
                   <did>
                      <container type="box-folder">4/16</container>
                      <unittitle encodinganalog="245$a">"E" miscellaneous,  
@@ -725,7 +725,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e817">
+               <c03 level="file" id="mferd181e817">
                   <did>
                      <container type="box-folder">4/17</container>
                      <unittitle encodinganalog="245$a">Fortier, Florestine,  
@@ -733,7 +733,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e825">
+               <c03 level="file" id="mferd181e825">
                   <did>
                      <container type="box-folder">4/18</container>
                      <unittitle encodinganalog="245$a">"F" miscellaneous,  
@@ -741,7 +741,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e833">
+               <c03 level="file" id="mferd181e833">
                   <did>
                      <container type="box-folder">4/19</container>
                      <unittitle encodinganalog="245$a">Gedike, Aleksandr Fedorovich,  
@@ -749,7 +749,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e841">
+               <c03 level="file" id="mferd181e841">
                   <did>
                      <container type="box-folder">4/20</container>
                      <unittitle encodinganalog="245$a">Gélinas, Rosaire,  
@@ -757,7 +757,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e849">
+               <c03 level="file" id="mferd181e849">
                   <did>
                      <container type="box-folder">4/21</container>
                      <unittitle encodinganalog="245$a">Godowsky, Leopold,  
@@ -765,7 +765,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e857">
+               <c03 level="file" id="mferd181e857">
                   <did>
                      <container type="box-folder">4/22</container>
                      <unittitle encodinganalog="245$a">"G" miscellaneous,  
@@ -773,7 +773,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e865">
+               <c03 level="file" id="mferd181e865">
                   <did>
                      <container type="box-folder">4/23</container>
                      <unittitle encodinganalog="245$a">Harrison, Eric,  
@@ -781,7 +781,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e873">
+               <c03 level="file" id="mferd181e873">
                   <did>
                      <container type="box-folder">4/24</container>
                      <unittitle encodinganalog="245$a">Hervé, Henriette,  
@@ -789,7 +789,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e881">
+               <c03 level="file" id="mferd181e881">
                   <did>
                      <container type="box-folder">4/25</container>
                      <unittitle encodinganalog="245$a">Hill, Valentina,  
@@ -797,7 +797,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e889">
+               <c03 level="file" id="mferd181e889">
                   <did>
                      <container type="box-folder">4/26</container>
                      <unittitle encodinganalog="245$a">Holt, Richard,  
@@ -805,7 +805,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e898">
+               <c03 level="file" id="mferd181e898">
                   <did>
                      <container type="box-folder">4/27</container>
                      <unittitle encodinganalog="245$a">"H" miscellaneous,  
@@ -813,7 +813,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e906">
+               <c03 level="file" id="mferd181e906">
                   <did>
                      <container type="box-folder">4/28</container>
                      <unittitle encodinganalog="245$a">Iles, Edna,  
@@ -824,7 +824,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </note>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e917">
+               <c03 level="file" id="mferd181e917">
                   <did>
                      <container type="box-folder">4/29</container>
                      <unittitle encodinganalog="245$a">Jacobson, Myron,  
@@ -832,7 +832,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e925">
+               <c03 level="file" id="mferd181e925">
                   <did>
                      <container type="box-folder">4/30</container>
                      <unittitle encodinganalog="245$a">Jaya Chamaraja Wadiyar (Maharaja of Mysore),  
@@ -840,7 +840,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e933">
+               <c03 level="file" id="mferd181e933">
                   <did>
                      <container type="box-folder">4/31</container>
                      <unittitle encodinganalog="245$a">"J" miscellaneous,  
@@ -848,7 +848,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e941">
+               <c03 level="file" id="mferd181e941">
                   <did>
                      <container type="box-folder">4/32</container>
                      <unittitle encodinganalog="245$a">Kedroff, Nikolai,  
@@ -856,7 +856,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e949">
+               <c03 level="file" id="mferd181e949">
                   <did>
                      <container type="box-folder">4/33</container>
                      <unittitle encodinganalog="245$a">Klimov, Konstantin,  
@@ -864,7 +864,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e957">
+               <c03 level="file" id="mferd181e957">
                   <did>
                      <container type="box-folder">4/34</container>
                      <unittitle encodinganalog="245$a">Klimov, Konstantin,  
@@ -872,7 +872,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e965">
+               <c03 level="file" id="mferd181e965">
                   <did>
                      <container type="box-folder">4/35</container>
                      <unittitle encodinganalog="245$a">Knatchbule, Dora,  
@@ -880,7 +880,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e973">
+               <c03 level="file" id="mferd181e973">
                   <did>
                      <container type="box-folder">4/36</container>
                      <unittitle encodinganalog="245$a">"K" miscellaneous,  
@@ -888,7 +888,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e981">
+               <c03 level="file" id="mferd181e981">
                   <did>
                      <container type="box-folder">4/37</container>
                      <unittitle encodinganalog="245$a">Laliberté, Madeleine,  
@@ -896,7 +896,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e990">
+               <c03 level="file" id="mferd181e990">
                   <did>
                      <container type="box-folder">4/38</container>
                      <unittitle encodinganalog="245$a">Langlet, Nina Nikolaevna,  
@@ -904,7 +904,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e998">
+               <c03 level="file" id="mferd181e998">
                   <did>
                      <unittitle encodinganalog="245$a">Legge, Walter 
 							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
@@ -916,7 +916,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1008">
+               <c03 level="file" id="mferd181e1008">
                   <did>
                      <container type="box-folder">4/39</container>
                      <unittitle encodinganalog="245$a">"L" miscellaneous,  
@@ -924,7 +924,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1016">
+               <c03 level="file" id="mferd181e1016">
                   <did>
                      <container type="box-folder">4/40</container>
                      <unittitle encodinganalog="245$a">Marie-Stéphanie, Sœur,  
@@ -932,7 +932,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1024">
+               <c03 level="file" id="mferd181e1024">
                   <did>
                      <container type="box-folder">4/41</container>
                      <unittitle encodinganalog="245$a">Marx, Joseph,  
@@ -940,7 +940,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1032">
+               <c03 level="file" id="mferd181e1032">
                   <did>
                      <container type="box-folder">4/42</container>
                      <unittitle encodinganalog="245$a">Menzel, Richard,  
@@ -948,7 +948,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1040">
+               <c03 level="file" id="mferd181e1040">
                   <did>
                      <container type="box-folder">4/43</container>
                      <unittitle encodinganalog="245$a">Mettsel, Vladimir,  
@@ -956,7 +956,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1048">
+               <c03 level="file" id="mferd181e1048">
                   <did>
                      <container type="box-folder">4/44</container>
                      <unittitle encodinganalog="245$a">Moiseiwitsch, Benno,  
@@ -964,7 +964,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1056">
+               <c03 level="file" id="mferd181e1056">
                   <did>
                      <container type="box-folder">4/45</container>
                      <unittitle encodinganalog="245$a">Mutch, Isabel,  
@@ -972,7 +972,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1064">
+               <c03 level="file" id="mferd181e1064">
                   <did>
                      <container type="box-folder">4/46</container>
                      <unittitle encodinganalog="245$a">"M" miscellaneous,  
@@ -980,7 +980,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1072">
+               <c03 level="file" id="mferd181e1072">
                   <did>
                      <container type="box-folder">4/47</container>
                      <unittitle encodinganalog="245$a">Newman, Ernest,  
@@ -988,7 +988,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1081">
+               <c03 level="file" id="mferd181e1081">
                   <did>
                      <container type="box-folder">4/48</container>
                      <unittitle encodinganalog="245$a">"N" miscellaneous,  
@@ -996,7 +996,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1089">
+               <c03 level="file" id="mferd181e1089">
                   <did>
                      <container type="box-folder">4/49</container>
                      <unittitle encodinganalog="245$a">Olenina-d'Alʹgeĭm, M. A. (Mariia Alekseevna),  
@@ -1004,7 +1004,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1097">
+               <c03 level="file" id="mferd181e1097">
                   <did>
                      <container type="box-folder">4/50</container>
                      <unittitle encodinganalog="245$a">Orlov, G.,  
@@ -1012,7 +1012,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1105">
+               <c03 level="file" id="mferd181e1105">
                   <did>
                      <container type="box-folder">5/1</container>
                      <unittitle encodinganalog="245$a">Paĭchadze, Gavril Gregorevich,  
@@ -1020,7 +1020,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1113">
+               <c03 level="file" id="mferd181e1113">
                   <did>
                      <container type="box-folder">5/2</container>
                      <unittitle encodinganalog="245$a">Patience, Ernest,  
@@ -1028,7 +1028,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1121">
+               <c03 level="file" id="mferd181e1121">
                   <did>
                      <container type="box-folder">5/3</container>
                      <unittitle encodinganalog="245$a">Pinsonneault, Bernard,  
@@ -1036,7 +1036,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1129">
+               <c03 level="file" id="mferd181e1129">
                   <did>
                      <container type="box-folder">5/4</container>
                      <unittitle encodinganalog="245$a">Pinsonneault, Cécile,  
@@ -1044,7 +1044,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1137">
+               <c03 level="file" id="mferd181e1137">
                   <did>
                      <container type="box-folder">5/5</container>
                      <unittitle encodinganalog="245$a">"P" miscellaneous,  
@@ -1052,7 +1052,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1145">
+               <c03 level="file" id="mferd181e1145">
                   <did>
                      <container type="box-folder">5/6</container>
                      <unittitle encodinganalog="245$a">Rachmaninoff, Natalie,  
@@ -1060,7 +1060,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1153">
+               <c03 level="file" id="mferd181e1153">
                   <did>
                      <container type="box-folder">5/7-9</container>
                      <unittitle encodinganalog="245$a">Rachmaninoff, Sergei,  
@@ -1071,7 +1071,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      <p>Includes transcriptions of letters, undated letters, notes.</p>
                   </note>
                </c03>
-               <c03 level="file" id="mferd17e1164">
+               <c03 level="file" id="mferd181e1164">
                   <did>
                      <container type="box-folder">5/10</container>
                      <unittitle encodinganalog="245$a">Randle, Maud,  
@@ -1079,7 +1079,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1173">
+               <c03 level="file" id="mferd181e1173">
                   <did>
                      <container type="box-folder">5/11</container>
                      <unittitle encodinganalog="245$a">Ritchie, Margaret,  
@@ -1087,7 +1087,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1181">
+               <c03 level="file" id="mferd181e1181">
                   <did>
                      <container type="box-folder">5/12</container>
                      <unittitle encodinganalog="245$a">"R" miscellaneous,  
@@ -1095,7 +1095,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1189">
+               <c03 level="file" id="mferd181e1189">
                   <did>
                      <container type="box-folder">5/13</container>
                      <unittitle encodinganalog="245$a">Sabaniev, Alyota,  
@@ -1103,7 +1103,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1197">
+               <c03 level="file" id="mferd181e1197">
                   <did>
                      <container type="box-folder">5/14</container>
                      <unittitle encodinganalog="245$a">Sabline, E.,  
@@ -1111,7 +1111,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1205">
+               <c03 level="file" id="mferd181e1205">
                   <did>
                      <container type="box-folder">5/15</container>
                      <unittitle encodinganalog="245$a">Samofnikova, Natasha,  
@@ -1119,7 +1119,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1213">
+               <c03 level="file" id="mferd181e1213">
                   <did>
                      <container type="box-folder">5/16</container>
                      <unittitle encodinganalog="245$a">Satin, Vladimir Alexandrovich,  
@@ -1127,7 +1127,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1221">
+               <c03 level="file" id="mferd181e1221">
                   <did>
                      <container type="box-folder">5/17-18</container>
                      <unittitle encodinganalog="245$a">Satina, Sofiia Aleksandrovna,  
@@ -1135,7 +1135,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1229">
+               <c03 level="file" id="mferd181e1229">
                   <did>
                      <container type="box-folder">5/19</container>
                      <unittitle encodinganalog="245$a" id="edison">Schwarzkopf, Elizabeth,  
@@ -1146,7 +1146,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </note>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1240">
+               <c03 level="file" id="mferd181e1240">
                   <did>
                      <container type="box-folder">5/20</container>
                      <unittitle encodinganalog="245$a">Segovia, Andrés,  
@@ -1154,7 +1154,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1248">
+               <c03 level="file" id="mferd181e1248">
                   <did>
                      <container type="box-folder">5/21</container>
                      <unittitle encodinganalog="245$a">Smith, Cyril,  
@@ -1162,7 +1162,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1256">
+               <c03 level="file" id="mferd181e1256">
                   <did>
                      <container type="box-folder">5/22</container>
                      <unittitle encodinganalog="245$a">Sorabji, Kaikhosru Shapurji,  
@@ -1170,7 +1170,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1265">
+               <c03 level="file" id="mferd181e1265">
                   <did>
                      <container type="box-folder">5/23</container>
                      <unittitle encodinganalog="245$a">Stegmann, G. F.,  
@@ -1178,7 +1178,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1273">
+               <c03 level="file" id="mferd181e1273">
                   <did>
                      <container type="box-folder">5/24</container>
                      <unittitle encodinganalog="245$a">Stone, Christopher,  
@@ -1186,7 +1186,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1281">
+               <c03 level="file" id="mferd181e1281">
                   <did>
                      <container type="box-folder">5/25</container>
                      <unittitle encodinganalog="245$a">Swan, Alfred J.,  
@@ -1194,7 +1194,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1289">
+               <c03 level="file" id="mferd181e1289">
                   <did>
                      <container type="box-folder">5/26</container>
                      <unittitle encodinganalog="245$a">"S" miscellaneous,  
@@ -1202,7 +1202,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1297">
+               <c03 level="file" id="mferd181e1297">
                   <did>
                      <container type="box-folder">5/27</container>
                      <unittitle encodinganalog="245$a">Thompson, J. Antonio,  
@@ -1210,7 +1210,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1305">
+               <c03 level="file" id="mferd181e1305">
                   <did>
                      <container type="box-folder">5/28</container>
                      <unittitle encodinganalog="245$a">Turcotte, J. G., abbé,  
@@ -1218,7 +1218,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1313">
+               <c03 level="file" id="mferd181e1313">
                   <did>
                      <container type="box-folder">5/29</container>
                      <unittitle encodinganalog="245$a">"T" miscellaneous,  
@@ -1226,7 +1226,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1321">
+               <c03 level="file" id="mferd181e1321">
                   <did>
                      <container type="box-folder">5/30</container>
                      <unittitle encodinganalog="245$a">"V" miscellaneous,  
@@ -1234,7 +1234,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1329">
+               <c03 level="file" id="mferd181e1329">
                   <did>
                      <container type="box-folder">5/31</container>
                      <unittitle encodinganalog="245$a">Wolfman, J.,  
@@ -1242,7 +1242,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1337">
+               <c03 level="file" id="mferd181e1337">
                   <did>
                      <container type="box-folder">5/32</container>
                      <unittitle encodinganalog="245$a">Wolkonsky, Irina Rachmaninoff,  
@@ -1250,7 +1250,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1345">
+               <c03 level="file" id="mferd181e1345">
                   <did>
                      <container type="box-folder">5/33</container>
                      <unittitle encodinganalog="245$a">Wood, Henry J.,  
@@ -1258,7 +1258,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1354">
+               <c03 level="file" id="mferd181e1354">
                   <did>
                      <container type="box-folder">5/34</container>
                      <unittitle encodinganalog="245$a">Wüllner, Ludwig, 
@@ -1266,7 +1266,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1362">
+               <c03 level="file" id="mferd181e1362">
                   <did>
                      <container type="box-folder">5/35</container>
                      <unittitle encodinganalog="245$a">"W" miscellaneous,   
@@ -1274,7 +1274,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1370">
+               <c03 level="file" id="mferd181e1370">
                   <did>
                      <container type="box-folder">5/36</container>
                      <unittitle encodinganalog="245$a">Yasser, Joseph,  
@@ -1282,7 +1282,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1378">
+               <c03 level="file" id="mferd181e1378">
                   <did>
                      <container type="box-folder">5/37</container>
                      <unittitle encodinganalog="245$a">Zernova, Militsa,  
@@ -1290,7 +1290,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1386">
+               <c03 level="file" id="mferd181e1386">
                   <did>
                      <container type="box-folder">5/38</container>
                      <unittitle encodinganalog="245$a">Zhorzh, Sasha (?),  
@@ -1298,7 +1298,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1394">
+               <c03 level="file" id="mferd181e1394">
                   <did>
                      <container type="box-folder">5/39</container>
                      <unittitle encodinganalog="245$a">"X - Z" miscellaneous,  
@@ -1306,7 +1306,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1402">
+               <c03 level="file" id="mferd181e1402">
                   <did>
                      <container type="box-folder">5/40</container>
                      <unittitle encodinganalog="245$a">"Constance" (unidentified surname),  
@@ -1314,7 +1314,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1410">
+               <c03 level="file" id="mferd181e1410">
                   <did>
                      <container type="box-folder">5/41</container>
                      <unittitle encodinganalog="245$a">"Lelya (Lelia)" (unidentified surname),  
@@ -1322,7 +1322,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1418">
+               <c03 level="file" id="mferd181e1418">
                   <did>
                      <container type="box-folder">5/42</container>
                      <unittitle encodinganalog="245$a">Unidentifed (miscellaneous correspondence),  
@@ -1330,7 +1330,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1426">
+               <c03 level="file" id="mferd181e1426">
                   <did>
                      <container type="box-folder">5/43</container>
                      <unittitle encodinganalog="245$a">Unidentified (multiple signatures),  
@@ -1338,7 +1338,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1434">
+               <c03 level="file" id="mferd181e1434">
                   <did>
                      <container type="box-folder">5/44</container>
                      <unittitle encodinganalog="245$a">Unidentified (miscellaneous - various addresses),  
@@ -1346,7 +1346,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1443">
+               <c03 level="file" id="mferd181e1443">
                   <did>
                      <container type="box-folder">5/45</container>
                      <unittitle encodinganalog="245$a">Unidentified (notes by Nikolai or Anna Medtner) 
@@ -1354,7 +1354,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1451">
+               <c03 level="file" id="mferd181e1451">
                   <did>
                      <container type="box-folder">5/46</container>
                      <unittitle encodinganalog="245$a">Unidentified (letters written in a similar hand),  
@@ -1362,7 +1362,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd17e1459">
+               <c03 level="file" id="mferd181e1459">
                   <did>
                      <container type="box-folder">5/47</container>
                      <unittitle encodinganalog="245$a">Unidentified (with attributive annotations by Anna Medtner?), 
@@ -1372,7 +1372,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e1467">
+         <c01 level="series" id="mferd181e1467">
             <did>
                <container type="box">6</container>
                <unittitle encodinganalog="245$a" id="prog">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1907/1953">1907-1953</unitdate>
@@ -1384,13 +1384,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             <arrangement>
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd17e1481">
+            <c02 level="subseries" id="mferd181e1481">
                <did>
                   <unittitle encodinganalog="245$a">Concerts given by Medtner, 
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1907-1946 and undated</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e1487">
+               <c03 level="file" id="mferd181e1487">
                   <did>
                      <container type="box-folder">6/1-4</container>
                      <unittitle encodinganalog="245$a">
@@ -1402,13 +1402,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd17e1498">
+            <c02 level="subseries" id="mferd181e1498">
                <did>
                   <unittitle encodinganalog="245$a">Concerts of Medtner's works given by other musicians, 
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1920-1953 and undated</unitdate>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd17e1504">
+               <c03 level="file" id="mferd181e1504">
                   <did>
                      <container type="box-folder">6/5-8</container>
                      <unittitle encodinganalog="245$a">
@@ -1418,7 +1418,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e1512">
+         <c01 level="series" id="mferd181e1512">
             <did>
                <container type="box">7</container>
                <unittitle encodinganalog="245$a" id="arti">Articles, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1910/1952">1910-1952</unitdate>
@@ -1430,7 +1430,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by author's last name, and chronologically therein.</p>
             </arrangement>
-            <c02 level="file" id="mferd17e1526">
+            <c02 level="file" id="mferd181e1526">
                <did>
                   <container type="box-folder">7/1</container>
                   <unittitle encodinganalog="245$a">
@@ -1438,7 +1438,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1536">
+            <c02 level="file" id="mferd181e1536">
                <did>
                   <container type="box-folder">7/2</container>
                   <unittitle encodinganalog="245$a">
@@ -1449,7 +1449,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1552">
+            <c02 level="file" id="mferd181e1552">
                <did>
                   <container type="box-folder">7/3-12</container>
                   <unittitle encodinganalog="245$a">Clippings, 
@@ -1457,7 +1457,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1560">
+            <c02 level="file" id="mferd181e1560">
                <did>
                   <container type="box-folder">7/13</container>
                   <unittitle encodinganalog="245$a">Clippings. Unbound book of transcripts,
@@ -1469,7 +1469,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1571">
+            <c02 level="file" id="mferd181e1571">
                <did>
                   <container type="box-folder">7/14</container>
                   <unittitle encodinganalog="245$a">Clippings album, 
@@ -1477,7 +1477,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1579">
+            <c02 level="file" id="mferd181e1579">
                <did>
                   <container type="box-folder">7/15</container>
                   <unittitle encodinganalog="245$a">Clippings. Preservation photocopies, 
@@ -1485,7 +1485,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1587">
+            <c02 level="file" id="mferd181e1587">
                <did>
                   <container type="box-folder">7/16</container>
                   <unittitle encodinganalog="245$a">
@@ -1493,7 +1493,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1597">
+            <c02 level="file" id="mferd181e1597">
                <did>
                   <container type="box-folder">7/17</container>
                   <unittitle encodinganalog="245$a">
@@ -1504,7 +1504,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1611">
+            <c02 level="file" id="mferd181e1611">
                <did>
                   <container type="box-folder">7/18</container>
                   <unittitle encodinganalog="245$a">
@@ -1512,7 +1512,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1621">
+            <c02 level="file" id="mferd181e1621">
                <did>
                   <container type="box-folder">7/19</container>
                   <unittitle encodinganalog="245$a">
@@ -1523,7 +1523,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1634">
+            <c02 level="file" id="mferd181e1634">
                <did>
                   <container type="box-folder">7/20</container>
                   <unittitle encodinganalog="245$a">
@@ -1531,7 +1531,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1644">
+            <c02 level="file" id="mferd181e1644">
                <did>
                   <container type="box-folder">7/20</container>
                   <unittitle encodinganalog="245$a">
@@ -1539,7 +1539,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1654">
+            <c02 level="file" id="mferd181e1654">
                <did>
                   <container type="box-folder">7/21</container>
                   <unittitle encodinganalog="245$a">
@@ -1547,7 +1547,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1664">
+            <c02 level="file" id="mferd181e1664">
                <did>
                   <container type="box-folder">7/21</container>
                   <unittitle encodinganalog="245$a">
@@ -1555,7 +1555,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1674">
+            <c02 level="file" id="mferd181e1674">
                <did>
                   <container type="box-folder">7/21</container>
                   <unittitle encodinganalog="245$a">
@@ -1563,7 +1563,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1684">
+            <c02 level="file" id="mferd181e1684">
                <did>
                   <container type="box-folder">7/21</container>
                   <unittitle encodinganalog="245$a">
@@ -1574,7 +1574,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1697">
+            <c02 level="file" id="mferd181e1697">
                <did>
                   <container type="box-folder">7/22</container>
                   <unittitle encodinganalog="245$a">
@@ -1582,7 +1582,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1707">
+            <c02 level="file" id="mferd181e1707">
                <did>
                   <container type="box-folder">7/23</container>
                   <unittitle encodinganalog="245$a">
@@ -1591,7 +1591,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e1717">
+         <c01 level="series" id="mferd181e1717">
             <did>
                <container type="box">8</container>
                <unittitle encodinganalog="245$a" id="phot">Photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1922/1951">1922-1951, undated</unitdate>
@@ -1603,7 +1603,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by last name of individual, and chronologically therein.</p>
             </arrangement>
-            <c02 level="file" id="mferd17e1731">
+            <c02 level="file" id="mferd181e1731">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle encodinganalog="245$a">Armin, George, 
@@ -1614,7 +1614,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1742">
+            <c02 level="file" id="mferd181e1742">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle encodinganalog="245$a">Armin, George and Ludwig Wüllner, 
@@ -1625,7 +1625,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1753">
+            <c02 level="file" id="mferd181e1753">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle encodinganalog="245$a">Decaux, Abel, 
@@ -1636,7 +1636,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1764">
+            <c02 level="file" id="mferd181e1764">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle encodinganalog="245$a">Dobrowen, Issay,  
@@ -1647,7 +1647,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1775">
+            <c02 level="file" id="mferd181e1775">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle encodinganalog="245$a">Dupré, Marcel, 
@@ -1658,7 +1658,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1786">
+            <c02 level="file" id="mferd181e1786">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle encodinganalog="245$a">Dusseau, Jeanne, 
@@ -1669,7 +1669,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1797">
+            <c02 level="file" id="mferd181e1797">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle encodinganalog="245$a">Fortier, Florestine, 
@@ -1680,7 +1680,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1808">
+            <c02 level="file" id="mferd181e1808">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle encodinganalog="245$a">Fortier, Florestine and Leopold, 
@@ -1691,7 +1691,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1820">
+            <c02 level="file" id="mferd181e1820">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle encodinganalog="245$a">Katuar, G. (Georgiĭ), 
@@ -1702,7 +1702,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1831">
+            <c02 level="file" id="mferd181e1831">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle encodinganalog="245$a">Laliberté, Alfred, 
@@ -1713,7 +1713,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1842">
+            <c02 level="file" id="mferd181e1842">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle encodinganalog="245$a">Makushina, Tatiana,  
@@ -1724,7 +1724,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1853">
+            <c02 level="file" id="mferd181e1853">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle encodinganalog="245$a">Marx, Joseph, 
@@ -1735,7 +1735,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1864">
+            <c02 level="file" id="mferd181e1864">
                <did>
                   <container type="box-folder">8/2</container>
                   <unittitle encodinganalog="245$a">Medtner, Nikolay, 
@@ -1746,7 +1746,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1875">
+            <c02 level="file" id="mferd181e1875">
                <did>
                   <container type="box-folder">8/3</container>
                   <unittitle encodinganalog="245$a">Rachmaninoff, Sergei, 
@@ -1757,7 +1757,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1886">
+            <c02 level="file" id="mferd181e1886">
                <did>
                   <container type="box-folder">8/3</container>
                   <unittitle encodinganalog="245$a">Rachmaninoff, Sergei, 
@@ -1768,7 +1768,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1897">
+            <c02 level="file" id="mferd181e1897">
                <did>
                   <container type="box-folder">8/3</container>
                   <unittitle encodinganalog="245$a">Santagano, Elisabeth, 
@@ -1779,7 +1779,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1908">
+            <c02 level="file" id="mferd181e1908">
                <did>
                   <container type="box-folder">8/3</container>
                   <unittitle encodinganalog="245$a">Turcotte, J. G., abbé, 
@@ -1790,7 +1790,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1919">
+            <c02 level="file" id="mferd181e1919">
                <did>
                   <container type="box-folder">8/3</container>
                   <unittitle encodinganalog="245$a">Wüllner, Ludwig, 
@@ -1804,7 +1804,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1933">
+            <c02 level="file" id="mferd181e1933">
                <did>
                   <container type="box-folder">8/3</container>
                   <unittitle encodinganalog="245$a">Zimmermann, Wilhelm, 
@@ -1816,7 +1816,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e1944">
+         <c01 level="series" id="mferd181e1944">
             <did>
                <container type="box">8-9</container>
                <unittitle encodinganalog="245$a" id="misc">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1912/1951">1912-1951, undated</unitdate>
@@ -1828,7 +1828,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by subject, and chronologically therein.</p>
             </arrangement>
-            <c02 level="file" id="mferd17e1958">
+            <c02 level="file" id="mferd181e1958">
                <did>
                   <container type="box-folder">8/4</container>
                   <unittitle encodinganalog="245$a">Address presented to Nikolay Medtner upon his return to Russia, 
@@ -1842,7 +1842,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   <p>Includes the original copy with signatures and a typed translation.</p>
                </note>
             </c02>
-            <c02 level="file" id="mferd17e1972">
+            <c02 level="file" id="mferd181e1972">
                <did>
                   <container type="box-folder">8/5</container>
                   <unittitle encodinganalog="245$a">Humorous scroll, 
@@ -1853,7 +1853,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1983">
+            <c02 level="file" id="mferd181e1983">
                <did>
                   <container type="box-folder">8/6</container>
                   <unittitle encodinganalog="245$a">Medtner Society publications, 
@@ -1864,7 +1864,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e1994">
+            <c02 level="file" id="mferd181e1994">
                <did>
                   <container type="box-folder">8/7</container>
                   <unittitle encodinganalog="245$a">Musaget' catalogues, 
@@ -1875,7 +1875,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2005">
+            <c02 level="file" id="mferd181e2005">
                <did>
                   <container type="box-folder">8/8</container>
                   <unittitle encodinganalog="245$a">Royal Academy of Music. Diploma, 
@@ -1886,7 +1886,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2016">
+            <c02 level="file" id="mferd181e2016">
                <did>
                   <container type="box">9</container>
                   <unittitle encodinganalog="245$a">Plaster cast of Medtner's hands, 
@@ -1897,7 +1897,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2027">
+            <c02 level="file" id="mferd181e2027">
                <did>
                   <container type="Box: ">Consult Ref. Staff</container>
                   <unittitle encodinganalog="245$a">Bronze bust of Medtner executed by Czech sculptor, Karen Vogel, 
@@ -1909,7 +1909,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e2038">
+         <c01 level="series" id="mferd181e2038">
             <did>
                <container type="box">10</container>
                <unittitle encodinganalog="245$a" id="bks">Books, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1826/1948">1826-1948</unitdate>
@@ -1921,7 +1921,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by author.</p>
             </arrangement>
-            <c02 level="file" id="mferd17e2058">
+            <c02 level="file" id="mferd181e2058">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Drinker, Henry Sandwith. <title>English texts for the songs of Nicholas Medtner</title>. <imprint>n.p., 1946.</imprint>
@@ -1932,7 +1932,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2074">
+            <c02 level="file" id="mferd181e2074">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Gebhard, Friedrich Albert. <title>Dramatische Spiele</title>. <imprint>Queblinburg and Leipzig: G. Basse, 1826.</imprint>  
@@ -1943,7 +1943,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2091">
+            <c02 level="file" id="mferd181e2091">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Holt, Richard. <title>Medtner and his music: a tribute to a great Russian composer</title>. <imprint>London: Rimington, Van Wyck Ltd., 1948</imprint>
@@ -1954,7 +1954,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2107">
+            <c02 level="file" id="mferd181e2107">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">IAkovlev, Vasiliĭ. <title>[Nikolaĭ̆ Karlovich Metner]</title>. <imprint>Moscow: [Musik Sektion, Staats verlag], 1927.</imprint>
@@ -1968,7 +1968,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2126">
+            <c02 level="file" id="mferd181e2126">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Lermontov, Mikhail IUrʹevich. <title>Lirika</title>. <imprint>n.p., 1921.</imprint>
@@ -1982,7 +1982,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2145">
+            <c02 level="file" id="mferd181e2145">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Medtner, Nikolay Karlovich. <title>Muza i moda</title>. <imprint>Paris: Navarre, 1935.</imprint>   
@@ -1993,7 +1993,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2162">
+            <c02 level="file" id="mferd181e2162">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Metner, Ėmiliĭ Karlovich. <title>Modernizm i muzyka</title>. <imprint>Moskva: Musageť, 1912.</imprint>  
@@ -2004,7 +2004,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2179">
+            <c02 level="file" id="mferd181e2179">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Pushkin, Aleksandr Sergeevich. <title>[Unidentified collection of poems]</title>. <imprint>n.p., 1896.</imprint>
@@ -2014,7 +2014,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2194">
+            <c02 level="file" id="mferd181e2194">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Pushkin, Aleksandr Sergeevich. <title>[Unidentified collection of poems]</title>, volume 2. <imprint>n.p., 1921.</imprint>
@@ -2031,7 +2031,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2216">
+            <c02 level="file" id="mferd181e2216">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Tiutchev, F. I. (Fedor Ivanovich). <title>Stikhotvorenīi︠a︡</title>. <imprint>[Moskva: n.p., 1899.</imprint>
@@ -2048,7 +2048,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2238">
+            <c02 level="file" id="mferd181e2238">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">
@@ -2060,7 +2060,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd17e2252">
+         <c01 level="series" id="mferd181e2252">
             <did>
                <container type="box">11</container>
                <unittitle encodinganalog="245$a" id="mus">Music, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1896/1940">1896-circa 1940</unitdate>
@@ -2072,7 +2072,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by composer/compiler's last name.</p>
             </arrangement>
-            <c02 level="file" id="mferd17e2278">
+            <c02 level="file" id="mferd181e2278">
                <did>
                   <container type="box">11</container>
                   <unittitle encodinganalog="245$a">Kiselev, V. A. (Vasiliĭ Aleksandrovich), comp. <lb/>
@@ -2093,7 +2093,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2304">
+            <c02 level="file" id="mferd181e2304">
                <did>
                   <container type="box">11</container>
                   <unittitle encodinganalog="245$a">Lourié, Arthur. <lb/>
@@ -2111,7 +2111,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2327">
+            <c02 level="file" id="mferd181e2327">
                <did>
                   <container type="box">11</container>
                   <unittitle encodinganalog="245$a">Medtner, Nikolay Karlovich. <lb/>
@@ -2128,7 +2128,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2348">
+            <c02 level="file" id="mferd181e2348">
                <did>
                   <container type="box">11</container>
                   <unittitle encodinganalog="245$a">Medtner, Nikolay Karlovich. <lb/>
@@ -2148,7 +2148,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
                   </note>
                </did>
             </c02>
-            <c02 level="file" id="mferd17e2372">
+            <c02 level="file" id="mferd181e2372">
                <did>
                   <container type="box">11</container>
                   <unittitle encodinganalog="245$a">Medtner, Nikolay Karlovich. <lb/>
@@ -2167,7 +2167,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu011018
             </c02>
          </c01>
       </dsc>
-      <descgrp altrender="index" id="mferd17e2393">
+      <descgrp altrender="index" id="mferd181e2393">
          <head althead="Names">Alternate Forms of Names</head>
          <note>
             <p>(Alternate spellings for names in parentheses)</p>

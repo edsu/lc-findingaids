@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 19 August 2011 12:17:26 PM EDT
+Generated: Wed, 31 October 2012 04:12:11 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu004004--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu004004--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu004004-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd295e5">
-   <eadheader id="mferd295e6" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd206e5">
+   <eadheader id="mferd206e6" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -97,11 +97,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
          </repository>
          <abstract label="Summary" encodinganalog="520$a">Bradbury's secular music is represented by published vocal scores, some in photocopy, and probable holograph of Song of the South. Contains an album compiled by Bradbury in Europe (1847-1849) of autograph musical sketches by Franz Abt, Niels Gade, Joseph Joachim, Jenny Lind, Albert Lortzing, Giacomo Meyerbeer, Ignaz Moscheles, Clara Schumann, Robert Schumann, Louis Spohr, Richard Wagner, and others; sketches by Felix Mendelssohn, Walter Damrosch, and Ignace Paderewski added later. Photographs, clippings, printed and ms. music by other composers, correspondence, Bradbury's baton, etc. also are included.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd1735e100" altrender=":::F005=^20091218161949.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd1735e100" altrender=":::F005=^20091218161949.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd297e7">
+         <controlaccess id="mferd1737e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Abt%2C+Franz%2C+1819-1885+Autographs.^">Abt, Franz, 1819-1885--Autographs.</persname>
@@ -140,7 +141,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Wagner%2C+Richard%2C+1813-1883+Autographs.^">Wagner, Richard, 1813-1883--Autographs.</persname>
          </controlaccess>
-         <controlaccess id="mferd297e47">
+         <controlaccess id="mferd1737e75">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Musical+sketches.^">Musical sketches.</subject>
             <subject encodinganalog="650" source="lcsh"
@@ -148,7 +149,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Musicians+Correspondence.^">Musicians--Correspondence.</subject>
          </controlaccess>
-         <controlaccess id="mferd297e56">
+         <controlaccess id="mferd1737e90">
             <head>Titles</head>
             <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                    encodinganalog="246"
@@ -291,7 +292,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                <entry>Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd295e354" level="series">
+         <c01 id="mferd206e354" level="series">
             <did>
                <container type="box">2</container>
                <unittitle encodinganalog="245$a" id="CL1001">Biographical Materials</unittitle>
@@ -302,38 +303,38 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <arrangement encodinganalog="351$b">
                <p>Arrangement is alphabetical by title or subject.</p>
             </arrangement>
-            <c02 id="mferd295e366" level="file">
+            <c02 id="mferd206e366" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Anonymous.  Family Recollections.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e372" level="file">
+            <c02 id="mferd206e372" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Anonymous.  "Notes on a Musical Autograph Collection once Owned by William Batchelder Bradbury."</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e378" level="file">
+            <c02 id="mferd206e378" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Bradbury, William L. to [?].  Letter dated Sept. 28, 1928.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e384" level="file">
+            <c02 id="mferd206e384" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Marvin, Elma.  "William B. Bradbury: his life and times."  Unpublished biography, [photocopy]</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e390" level="file">
+            <c02 id="mferd206e390" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">William B. Bradbury, his life and times and some family history, unpublished biography, compiled by Elma Marvin</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd295e396" level="series">
+         <c01 id="mferd206e396" level="series">
             <did>
                <container type="box">1</container>
                <container type="box">3</container>
@@ -345,11 +346,11 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <arrangement encodinganalog="351$b">
                <p>Arrangment is alphabetical by composer and title.</p>
             </arrangement>
-            <c02 id="mferd295e410" level="subseries">
+            <c02 id="mferd206e410" level="subseries">
                <did>
                   <unittitle encodinganalog="245$a" id="CL10021001">Bradbury as Composer</unittitle>
                </did>
-               <c03 id="mferd295e414" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e414" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">3</container>
                      <unittitle encodinganalog="245$a">
@@ -358,7 +359,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                         <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Mason Brothers</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1856" era="ce" calendar="gregorian">1856</unitdate>. </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd295e432" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e432" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">1</container>
                      <unittitle encodinganalog="245$a">
@@ -376,7 +377,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd295e461" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e461" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">1</container>
                      <unittitle encodinganalog="245$a">
@@ -391,7 +392,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd295e487" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e487" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">1</container>
                      <unittitle encodinganalog="245$a">
@@ -406,7 +407,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd295e504" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e504" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">1</container>
                      <unittitle encodinganalog="245$a">
@@ -418,7 +419,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </physdesc>
                   </did>
                </c03>
-               <c03 id="mferd295e527" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e527" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">1</container>
                      <unittitle encodinganalog="245$a">
@@ -433,7 +434,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd295e553" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e553" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">1</container>
                      <unittitle encodinganalog="245$a">
@@ -448,7 +449,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd295e579" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e579" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">1</container>
                      <unittitle encodinganalog="245$a">
@@ -466,7 +467,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd295e608" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e608" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">1</container>
                      <unittitle encodinganalog="245$a">
@@ -479,12 +480,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd295e631" level="subseries">
+            <c02 id="mferd206e631" level="subseries">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a" id="CL10021002">Badbury as hymn writer</unittitle>
                </did>
-               <c03 id="mferd295e637" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e637" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">3</container>
                      <unittitle encodinganalog="245$a">
@@ -493,7 +494,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                         <geogname encodinganalog="260$a">New York </geogname>: <corpname encodinganalog="260$b">Biglow and Main</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1870" era="ce" calendar="gregorian">1870</unitdate>. </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd295e655" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e655" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">3</container>
                      <unittitle encodinganalog="245$a">
@@ -505,7 +506,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd295e676" level="file" altrender="xsl.fo_pdfspacer_mu">
+               <c03 id="mferd206e676" level="file" altrender="xsl.fo_pdfspacer_mu">
                   <did>
                      <container type="box">3</container>
                      <unittitle encodinganalog="245$a">
@@ -515,23 +516,23 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd295e694" level="subseries">
+            <c02 id="mferd206e694" level="subseries">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a" id="CL10021003">Other Composers and Arrangers</unittitle>
                </did>
-               <c03 id="mferd295e700" level="subseries">
+               <c03 id="mferd206e700" level="subseries">
                   <did>
                      <container type="box">3</container>
                      <unittitle encodinganalog="245$a" id="CL100210031001">By Composer</unittitle>
                   </did>
-                  <c04 id="mferd295e706" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd206e706" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <persname encodinganalog="100$a" role="arr" normal="Dyer, S. O.">Dyer, S. O.</persname>
                         </unittitle>
                      </did>
-                     <c05 id="mferd295e713" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <c05 id="mferd206e713" level="file" altrender="xsl.fo_pdfspacer_mu">
                         <did>
                            <container type="box">3</container>
                            <unittitle encodinganalog="245$a">
@@ -547,13 +548,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                         </did>
                      </c05>
                   </c04>
-                  <c04 id="mferd295e739" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd206e739" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <persname encodinganalog="100$a" role="cmp" normal="Mendelssohn, Felix">Mendelssohn, Felix</persname>
                         </unittitle>
                      </did>
-                     <c05 id="mferd295e746" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <c05 id="mferd206e746" level="file" altrender="xsl.fo_pdfspacer_mu">
                         <did>
                            <container type="box">3</container>
                            <unittitle encodinganalog="245$a">
@@ -576,7 +577,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                            </note>
                         </did>
                      </c05>
-                     <c05 id="mferd295e779" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <c05 id="mferd206e779" level="file" altrender="xsl.fo_pdfspacer_mu">
                         <did>
                            <container type="box">3</container>
                            <unittitle encodinganalog="245$a">
@@ -596,13 +597,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                         </did>
                      </c05>
                   </c04>
-                  <c04 id="mferd295e808" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd206e808" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <persname encodinganalog="100$a" role="cmp" normal="Mozart, W. A.">Mozart, W. A.</persname>
                         </unittitle>
                      </did>
-                     <c05 id="mferd295e815" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <c05 id="mferd206e815" level="file" altrender="xsl.fo_pdfspacer_mu">
                         <did>
                            <container type="box">3</container>
                            <unittitle encodinganalog="245$a">
@@ -616,13 +617,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                         </did>
                      </c05>
                   </c04>
-                  <c04 id="mferd295e838" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd206e838" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <persname encodinganalog="100$a" role="cmp" normal="Schubert, Franz">Schubert, Franz</persname>
                         </unittitle>
                      </did>
-                     <c05 id="mferd295e845" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <c05 id="mferd206e845" level="file" altrender="xsl.fo_pdfspacer_mu">
                         <did>
                            <container type="box">3</container>
                            <unittitle encodinganalog="245$a">
@@ -643,13 +644,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                         </did>
                      </c05>
                   </c04>
-                  <c04 id="mferd295e877" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd206e877" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <unittitle encodinganalog="245$a">
                            <persname encodinganalog="100$a" role="arr" normal="Wyman, B.">Wyman, B.</persname> and <persname encodinganalog="100$a" role="arr" normal="Newell, G. P.">G. P. Newell</persname>
                         </unittitle>
                      </did>
-                     <c05 id="mferd295e887" level="file" altrender="xsl.fo_pdfspacer_mu">
+                     <c05 id="mferd206e887" level="file" altrender="xsl.fo_pdfspacer_mu">
                         <did>
                            <container type="box">3</container>
                            <unittitle encodinganalog="245$a">
@@ -666,12 +667,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                      </c05>
                   </c04>
                </c03>
-               <c03 id="mferd295e913" level="subseries">
+               <c03 id="mferd206e913" level="subseries">
                   <did>
                      <container type="box">3</container>
                      <unittitle encodinganalog="245$a" id="CL100210031002">By Title</unittitle>
                   </did>
-                  <c04 id="mferd295e919" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd206e919" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box">3</container>
                         <unittitle encodinganalog="245$a">
@@ -680,7 +681,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                            <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Anson D. F. Randolph and Company</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1874" era="ce" calendar="gregorian">1874</unitdate>. </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd295e937" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd206e937" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box">3</container>
                         <unittitle encodinganalog="245$a">
@@ -689,7 +690,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                            <geogname encodinganalog="260$a">New York</geogname>: <corpname encodinganalog="260$b">Biglow and Main</corpname>, <unitdate encodinganalog="260$c" type="bulk" normal="1883" era="ce" calendar="gregorian">1883</unitdate>. </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd295e955" level="file" altrender="xsl.fo_pdfspacer_mu">
+                  <c04 id="mferd206e955" level="file" altrender="xsl.fo_pdfspacer_mu">
                      <did>
                         <container type="box">3</container>
                         <unittitle encodinganalog="245$a">
@@ -701,7 +702,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd295e973" level="series">
+         <c01 id="mferd206e973" level="series">
             <did>
                <container type="box">1</container>
                <container type="box">2</container>
@@ -715,20 +716,20 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <arrangement encodinganalog="351$b">
                <p>Arrangement is chronological by date.</p>
             </arrangement>
-            <c02 id="mferd295e990" level="file">
+            <c02 id="mferd206e990" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Bound holograph letterpress book with business correspondence, Feb. 1861-July 1862</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e996" level="file">
+            <c02 id="mferd206e996" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Pencil transcriptions of letterpress book in steno notebooks. Typed transcription of six letters from letterpress book</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd295e1002" level="series">
+         <c01 id="mferd206e1002" level="series">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a" id="CL1004">Album</unittitle>
@@ -739,14 +740,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <arrangement encodinganalog="351$b">
                <p>Arrangement is by format.</p>
             </arrangement>
-            <c02 id="mferd295e1014" level="file">
+            <c02 id="mferd206e1014" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Album containing holograph music sketches, one letter, and signatures of 19th-century composers and others; includes autographs of:  Franz Abt, C. F. Becker, Ferdinand Böhme, Walter Damrosch, Ferdinand David, Niels W. Gade, Greissiger, Susette Hauptmann, Hermann Huegeli, Joseph Joachim, C. Klingemann, Hermann Langer, Jenny Lind, Albert Lortzing, F. Mendel, Giacomo Meyerbeer, Ignaz Moscheles, Ignacy Jan Paderewski, A. F. Riccius, E. Friedr. Richter, Clara Schumann, Robert Schumann, J. Vogt, Richard Wagner, Ernst Ferdinand Wenzel, Carl Zöllner, and unidentified others. Typed transcription of a letter from Felix Mendelssohn-Bartholdy to Bradbury</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd295e1020" level="series">
+         <c01 id="mferd206e1020" level="series">
             <did>
                <container type="box">2</container>
                <unittitle encodinganalog="245$a" id="CL1005">Photographs</unittitle>
@@ -757,7 +758,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <arrangement encodinganalog="351$b">
                <p>Arrangement is alphabetical by subject.</p>
             </arrangement>
-            <c02 id="mferd295e1032" level="file">
+            <c02 id="mferd206e1032" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Photographs of William Bradbury, his wife, Ada Esther Fessender Bradbury, and his piano</unittitle>
@@ -767,7 +768,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
                </did>
             </c02>
          </c01>
-         <c01 id="mferd295e1041" level="series">
+         <c01 id="mferd206e1041" level="series">
             <did>
                <container type="box">2</container>
                <unittitle encodinganalog="245$a" id="CL1006">Clippings, <unitdate encodinganalog="245$f" type="inclusive" normal="1962" era="ce"
@@ -780,14 +781,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <arrangement encodinganalog="351$b">
                <p>Arrangement is chronological by date.</p>
             </arrangement>
-            <c02 id="mferd295e1056" level="file">
+            <c02 id="mferd206e1056" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Newspaper and magazine articles referring to Bradbury's piano</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd295e1062" level="series">
+         <c01 id="mferd206e1062" level="series">
             <did>
                <container type="box">1</container>
                <container type="box">2</container>
@@ -800,31 +801,31 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu004004
             <arrangement encodinganalog="351$b">
                <p>Arrangement is alphabetical by subject.</p>
             </arrangement>
-            <c02 id="mferd295e1078" level="file">
+            <c02 id="mferd206e1078" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">William B. Bradbury's baton</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e1084" level="file">
+            <c02 id="mferd206e1084" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Letter to the editors of <emph render="italic">The Evening Post</emph> by P. T. Barnum referring to expenses paid to Jenny Lind, 1871.  Typed from the newspaper clipping.</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e1093" level="file">
+            <c02 id="mferd206e1093" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Adams, John S. <emph render="italic">5000 Musical Terms: Complete Dictionary</emph>. Boston: Oliver Ditson, [1851]</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e1102" level="file">
+            <c02 id="mferd206e1102" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">Assorted opera librettos</unittitle>
                </did>
             </c02>
-            <c02 id="mferd295e1108" level="file">
+            <c02 id="mferd206e1108" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">Program, Esther, the Beautiful Queen, Riverside Polytechnic High School, Riverside, CA, 1930</unittitle>

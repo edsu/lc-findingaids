@@ -1,0 +1,2814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Tue, 28 May 2013 11:35:43 AM EDT
+URL: http://hdl.loc.gov/loc.rbc/eadrbc.rb010002
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.rbc/eadrbc.rb010002--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadrbc.rb010002--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": rb010002-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd41e2">
+   <eadheader id="mferd41e3" repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.rbc/eadrbc.rb010002"
+             encodinganalog="856$u">http://hdl.loc.gov/loc.rbc/eadrbc.rb010002</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>The Grenfell Press Archive</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Erin K. Davis with the assistance of David Kennaly and Jay Kempen under the direction of Meredith Shedd-Driskel</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                    <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/>Rare Book and Special Collections Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010 </date>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://www.loc.gov/rr/rarebook/contact.html">http://www.loc.gov/rr/rarebook/contact.html</extref>
+               </p>
+            </note>
+            <note id="lccnNote">
+               <p>Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/94242533"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/94242533</extref>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Elizabeth Gettins, Library of Congress, Rare Book and Special Collections Division,
+<date normal="2013" era="ce" calendar="gregorian">2013 </date>
+            </creation>
+         <langusage>Finding aid written in <language encodinganalog="041">English.</language>
+            </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd1e39">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">The Grenfell Press Archive
+<unitdate label="Span Dates" type="inclusive" normal="1913/2005" encodinganalog="245$f"
+                      era="ce"
+                      calendar="gregorian">1980-1996</unitdate>
+                <unitdate label="Bulk Dates" type="bulk" normal="1945/1990" encodinganalog="245$g"
+                      era="ce"
+                      calendar="gregorian">1982-1986</unitdate>
+         </unittitle>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">RB010002</unitid>
+         <origination label="Creator">
+                <corpname encodinganalog="110" source="lcnaf">Library of Congress. Rare Book and Special Collections Division</corpname>
+            </origination>
+         <physdesc label="Extent">
+                <extent encodinganalog="300">31 containers</extent>
+                <extent encodinganalog="300">Linear feet of shelf space occupied: 30 feet</extent>
+                <extent encodinganalog="300">Approximate number of items: 10,000</extent>
+            </physdesc>
+         <langmaterial label="Language">Collection material is primarily in <language encodinganalog="041" langcode="eng">English.</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                <corpname>
+               <subarea>Rare Book and Special Collections Division</subarea> Library of Congress</corpname>
+                <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            </repository>
+         <abstract label="Summary" encodinganalog="520$a">The collection is divided into five categories: Correspondence and Typescripts, Grenfell Press Publications, Miscellaneous Publications, and Oversize materials.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.94242533.10001" altrender=":::F005=^20130401173223.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd41e98">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Cole%2C+Peter%2C+1957-+Correspondence.^">Cole, Peter, 1957- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Creeley%2C+Robert%2C+1926-2005+Correspondence.^">Creeley, Robert, 1926-2005--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Davenport%2C+Guy+Correspondence.^">Davenport, Guy--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Dowell%2C+Coleman+Correspondence.^">Dowell, Coleman--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Duncan%2C+Robert+Edward%2C+1919-1988+Correspondence.^">Duncan, Robert Edward, 1919-1988--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gass%2C+William+H.%2C+1924-+Correspondence.^">Gass, William H., 1924- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hawkes%2C+John%2C+1925-1998+Correspondence.^">Hawkes, John, 1925-1998--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Howe%2C+Susan%2C+1937-+Correspondence.^">Howe, Susan, 1937- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Laughlin%2C+James%2C+1914-1997+Correspondence.^">Laughlin, James, 1914-1997--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Lauterbach%2C+Ann%2C+1942-+Correspondence.^">Lauterbach, Ann, 1942- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mathews%2C+Harry%2C+1930-+Correspondence.^">Mathews, Harry, 1930- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Miller%2C+Leslie%2C+1957-+Correspondence.^">Miller, Leslie, 1957- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Morrow%2C+Bradford%2C+1951-+Correspondence.^">Morrow, Bradford, 1951- --Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sorrentino%2C+Gilbert+Correspondence.^">Sorrentino, Gilbert--Correspondence.</persname>
+         </controlaccess>
+         <controlaccess id="mferd41e130">
+            <head>Organizations</head>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grenfell+Press+Archive+%28Library+of+Congress%29^">Grenfell Press Archive (Library of Congress) DLC</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grenfell+Press.^">Grenfell Press.</corpname>
+            <corpname encodinganalog="710$a" source="lcnaf"
+                      altrender=":::PWEBRECON=^Grenfell+Press.^">Grenfell Press.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd41e139">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Book+design+United+States+History+20th+century+Sources.^">Book design--United States--History--20th century--Sources.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Bookbinding+Specimens.^">Bookbinding--Specimens.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Paper+Specimens.^">Paper--Specimens.</subject>
+         </controlaccess>
+         <controlaccess id="mferd41e148">
+            <head>Places</head>
+            <geogname encodinganalog="651" role="subject" source="lcsh"
+                      altrender=":::PWEBRECON=^New+York+%28N.Y.%29+Imprints.^">New York (N.Y.)--Imprints.</geogname>
+         </controlaccess>
+         <controlaccess id="mferd41e153">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="rbpub"
+                       altrender=":::PWEBRECON=^Book+designers%27+mock-ups+%28Publishing%29^">Book designers' mock-ups (Publishing)</genreform>
+            <genreform encodinganalog="655" source="gmgpc" altrender=":::PWEBRECON=^Broadsides.^">Broadsides.</genreform>
+            <genreform encodinganalog="655" source="gmgpc" altrender=":::PWEBRECON=^Ephemera.^">Ephemera.</genreform>
+            <genreform encodinganalog="655" source="rbpri"
+                       altrender=":::PWEBRECON=^Page+proofs+%28Printing%29^">Page proofs (Printing)</genreform>
+            <genreform encodinganalog="655" source="gmgpc" altrender=":::PWEBRECON=^Trial+proofs.^">Trial proofs.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp id="mferd1e152" type="admininfo">
+         <head>Administrative Information</head>
+         <acqinfo id="mferd1e155" encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Grenfell Press Archive was purchased by the Library of Congress in 1993. This original purchase includes correspondence and production materials associated with the operation of the Grenfell Press from its beginning in 1979 through 1992. Also included are several published items that were lacking from the Rare Book Collection's almost complete holdings of Grenfell Press titles; these items have been cataloged separately and housed with the Grenfell Press Collection. The Grenfell Press Archive has been arranged chronologically in order that, as works continue to be published, additional installments may be acquired and the archive expanded.</p>
+         </acqinfo>
+         <processinfo id="mferd1e160" encodinganalog="583">
+            <head>Processing History</head>
+            <p>The archive was arranged and inventoried in the last quarter of 1994 by Erin Davis and David Kennaly under the direction of Meredith Shedd-Driskel.</p>
+         </processinfo>
+         <userestrict id="mferd1e165" encodinganalog="540">
+            <head>Copyright Status</head>
+            <p>The status of copyright in the unpublished writings within the Grenfell Press Archive in the custody of the Library of Congress is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+         </userestrict>
+         <accessrestrict id="mferd1e170" encodinganalog="506 0">
+            <head>Access and Restrictions</head>
+            <p>The records of the Grenfell Press materials are open to research. Researchers are advised to contact the Rare Book and Special Collections Reading Room prior to visiting. Many collections are stored off-site and advance notice is needed to retrieve these items for research use.</p>
+         </accessrestrict>
+         <prefercite id="mferd1e175" encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: Container number, Grenfell Press Archive, Rare Book and Special Collections Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <scopecontent id="mferd1e180" encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>Leslie Miller began her press in 1979 with the broadside Typefaces and the next year produced her first book with the same title. Over the next decade she has since collaborated with the authors Joyce Carol Oates, Guy Davenport, James Laughlin, Ann Lauterbach, John Hawkes, Gilbert Sorrentino, William S. Burroughs, William Gass, Harry Mathews, Bradford Morrow, and the artists Trevor Winkfield, Francesco Clemente, James Nares, Ellen Phelan, Joel Shapiro, and others. Initially the press produced fine press books, but in recent years it has moved successfully into the livre d'artiste category.</p>
+         <p>No aspect of bookmaking escapes Miller's intense interest, which is most unusual in a world where printmakers often care little about typography, typographers look upon binding as a distracting afterthought, and binders view all of it merely as a medium for their own form of expression. These fractured attitudes result in books that are interesting in particulars but defective as wholes. Miller has managed to transcend the limitations any one of these crafts might have imposed upon her vision, creating books that are thoroughly imaginative. The ideal of the press is to create a book that is a balanced and unified statement in which all of its integral parts illuminate one another.</p>
+         <p>- Larry Sullivan, Chief Rare Book and Special Collections Division</p>
+         <p>The Grenfell Press Archive, which chronicles the book production, publicity, and business transactions associated with the Grenfell Press, has been arranged broadly into three categories: correspondence and typescripts, material relating to the production of individual works published by the Grenfell Press, and material relating to miscellaneous publications designed (but not published) by the press. The section comprising correspondence and typescripts relates to general business matters of the press; correspondence relating specifically to the production of an individual work is grouped with the production materials for that work. These production materials have been arranged in chronological order by publication date of the item to which they relate and subarranged by type; for example, correspondence, followed by typescripts and paste-ups, material relating to illustration and binding, etc. The original 1993 purchase also includes several published items that were lacking from the Rare Book Collection's almost complete holdings of Grenfell Press titles; these items have been cataloged separately (a source note has been added to the cataloging record to identify them) and housed with the Grenfell Press Collection. Also, in order to connect the material in the archive generally to the resulting publications housed in the Grenfell Press Collection, the record number for each publication is noted in parentheses in this finding aid. An index of names (authors and artists) and titles of publications has also been provided, but it should be noted that the section comprising correspondence and typescripts has not been indexed.</p>
+         <p>
+            <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:show="replace"
+                 xlink:actuate="onRequest"
+                 target="series1">Correspondence and Typescripts (1981-1989)</ref> General business correspondence (1980-1994), miscellaneous typescripts and material relating to small projects (e.g., stationery, bookplates, etc.)</p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series2">Grenfell Press Publications (1980-1994)</ref> Correspondence associated with the production of a particular publication; production materials, including typescripts, proofs, paste-ups, binder's dummies, etc.; prospectuses and material relating to publicity. </p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series3">Miscellaneous Publications (1981-1991)</ref> Publications designed by the Grenfell Press, including work for New Directions, Callaway Editions, The Metropolitan Museum of Art, Targ Editions, Conjunctions Magazine, etc.</p>
+         <p>
+            <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series4">Pamphlets (</ref>series contains Pamphlets, short monographs, off prints, and photocopies, primarily of published materials, in English and west European languages. Many published by anarchist organizations, many with inscriptions. Arranged alphabetically by author/title.</p>
+         <p>The <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                 xlink:actuate="onRequest"
+                 xlink:show="replace"
+                 target="series4">Oversize (1983-1992)</ref> Oversize material organized and described according to the series, folders, and boxes from which the items were removed.</p>
+      </scopecontent>
+      <arrangement id="mferd1e221" encodinganalog="351$a">
+         <head>Arrangement of the Records</head>
+         <p>This collection is arranged in 4 series: </p>
+         <list>
+            <item>Correspondence and Typescripts, 1-6</item>
+            <item>Grenfell Press Publications, 7-19 </item>
+            <item>Miscellaneous Publications, 20-23</item>
+            <item>Oversize, 24-54</item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/94242533"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/94242533</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd1e235" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 id="mferd41e254" level="series">
+            <did>
+               <container type="box">1-6</container>
+               <unittitle encodinganalog="245$a" id="series1">Correspondence and Typescripts <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1922/1990">1981-1989</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence and typescripts of the Grenfell Press.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically.</p>
+            </arrangement>
+            <c02 id="mferd41e268" level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Abish, Walter and Cecil,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">3 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e277" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Typescript for Walter Abish, The Coming Ice Age, and one letter.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e281" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ablenas, Rob - Balakian, Nona,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">9 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e288" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Baldwin, Sarah - Berssenbrugge, Mei-Mei,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">10 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e295" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bertram Rota Ltd., Booksellers,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">7 items; also 2 catalogs.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e302" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Beyond Baroque Bookstore,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">1 item.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e309" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Blackstamps, also invoice, notes, material relating to illustrations.</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">2 items</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e316" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Block, David - Borneman, Bill,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">5 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e324" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Brainard, Joe,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">2 items</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e331" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Brawer, Jerome - Broomfield, Michael,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">11 items</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e338" level="file">
+               <did>
+                  <unittitle>Brown, John L. - Burton, David K.,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">9 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e345" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Busch, Frederick; also samples of stationery,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300"> 10 items</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e352" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cadmus Editions; also business card, logo, notes,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">11 items</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e359" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Califa Books; also invoices, one catalog.</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">4 items</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e366" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Campbell, Lee - Cleveland Institute of Art,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">6 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e373" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cobb, Hope - Cole, Morrill,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">10 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e380" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cooney, Seamus - Cooper, Jeffrey,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">7 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e387" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Corso, Gregory. Proposals for printing (Meriden-Stinehour Press), notes, receipt.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e391" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Corso, Gregory. Typescript for Gregory Corso, The Day After Humankind. (See also: Oversize: Folders).</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">(2 copies).</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e399" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Corso, Gregory. Typescript for Rene Richard, Painting in the Fog.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e403" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Crane, Joan - Day, Jean,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300"> 5 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e410" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">D'Offay, Anthony. Correspondence,</unittitle>
+               </did>
+               <c03 id="mferd41e414" level="file">
+                  <did>
+                     <unittitle>Leslie Miller to Anthony d'Offay, <date era="ce" calendar="gregorian"> 1989 </date>
+                            </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">1 item</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e424" level="file">
+                  <did>
+                     <unittitle>Fern Malouin (Meredian Printing), <date era="ce" calendar="gregorian"> 1981 </date> also, photocopy relating to exhibition (Fawbush Gallery), material relating to d'Offay stationery, (See Oversize).</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">1 item.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e434" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dogear Wryde Paper Pastime,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">2 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e441" level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle encodinganalog="245$a">Duce, Luciana - Fisher, Linda,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">13 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e450" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Fox, George K. - Gold, Joseph,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">14 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e457" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Goldschmid, Johanna - Gottlieb, Leonard,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">9 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e464" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Granary Books; also one catalog.</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">12 items</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e471" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Grauerholz, James - Hagedorn, Jessica,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">28 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e478" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hawkes, John, 10 items; Rosmarie (Burning Deck), 1985,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">2 items; leather covered boards.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e485" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Heisler, Elaine - Hollander, Susan,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">6 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e493" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Horowitz, Glenn - Howes, Barbara,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">2 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e500" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Irby, Ken; also typescript and printed poem.</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">2 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e507" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Jackson, Laura Riding, Keynes, Quentin,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">11 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e514" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Knight, Arthur - Krisilas, John G.,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">6 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e521" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kuhlmann, Edward - Leach, David,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">6 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e528" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lee C. Milazzo, Fine Books,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">7 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e535" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lepper, Gary M. - Marden, Brice,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">7 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e542" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">McComish, Philip - Monahan, P. Matthew,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">8 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e549" level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle encodinganalog="245$a">Morrow, Bradford.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e555" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Odlin, Reno W.,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">5 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e562" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ohannessian, Griselda - Paul, S.,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">8 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e570" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Penny Frank Dance Works - Pharos Books,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">9 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e577" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Phillips, Matt. Material relating to Moroccan Scenes, <date era="ce" calendar="gregorian"> (1983?). </date>
+                        </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e584" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Phillpot, Clive - Pomerantz, Marsha,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">2 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e591" level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle encodinganalog="245$a">Preiss, Byron.</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">14 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e600" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Quartermain, Peter,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">8 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e607" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Quesoda, Carmen - Renzi, Ralph,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">3 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e614" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rippon, Laurie and Peter.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e618" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rodney, Janet - Roth, David,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">8 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e625" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rummonds, Gabriel - Sharrard, Robert,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">14 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e632" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Shirley, Betsy,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">24 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e639" level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Shoemaker, Jack - Strider, Charles,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">11 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e649" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tarn, Nathaniel.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e653" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Targ, William - Vanacore, Frederick,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">14 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e660" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Vincent Fitz Gerald and Company - Yett, Daniel,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">16 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e667" level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous Correspondence,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">17 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e676" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Museums, Libraries, and other organizations,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">21 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e683" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">University Correspondence,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">47 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e690" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mailing list requests.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e694" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mailing/Correspondence lists.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e698" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Greeting Cards, announcements, etc.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e702" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous postcards,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">20 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e709" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous catalogues, guides, etc.</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e714" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ephemera,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">3 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 id="mferd41e721" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Posters,</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">2 items.</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 id="mferd41e728" level="series">
+            <did>
+               <container type="box">7-19</container>
+               <unittitle encodinganalog="245$a" id="series2">Grenfell Press Publications <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1923/2005">1980-1994</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence associated with the production of a particular publication; production materials, including typescripts, proofs, paste-ups, binder's dummies, etc.; prospectuses and material relating to publicity.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by subject.</p>
+            </arrangement>
+            <c02 id="mferd41e742" level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle encodinganalog="245$a">Typefaces, etc., (82-466167) <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1980.</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd41e750" level="file">
+                  <did>
+                     <unittitle>Prospectuses:</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e754" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Brooke, Susan. Stately Progress. (81-179619)</unittitle>
+               </did>
+               <c03 id="mferd41e758" level="file">
+                  <did>
+                     <unittitle>Prospectuses</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e762" level="file">
+               <did>
+                  <unittitle>Dowell, Coleman. The Silver Swanne, (85-229951) See also: Oversize: Broadside <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983.</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd41e768" level="file">
+                  <did>
+                     <unittitle>Correspondence, Coleman Dowell; envelope from Claudia Cohen, <unitdate>1982-83&gt;</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">8 items.</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e777" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts, incl. issue of AMBIT</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e781" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to initial, plus paper samples</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e785" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, title-pages and preliminaries</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e789" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Annotated proofs (layout), paper samples</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e793" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e797" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-ups</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e801" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paper samples</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e805" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paper samples, receipts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e809" level="file">
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e816" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed book (binder's dummy)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e820" level="file">
+                  <did>
+                     <unittitle>Material relating to prospectus, advertising, incl. 1 letter from Thorn Gunn</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e824" level="file">
+               <did>
+                  <unittitle> Davenport, Guy. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Bowmen of Shu, </title>
+                            <date era="ce" calendar="gregorian"> 1983. </date> Illustration by Guy Davenport, Henri Gaudier-Brzeska. (85-226899) See also: Oversize: Broadsides.</unittitle>
+               </did>
+               <c03 id="mferd41e834" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Guy Davenport, plus illustrations for Christmas card <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981-88 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(69 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e843" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Annotated typescript</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e847" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustrations <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Departure of the Argonaut, </title>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e854" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, text and illustrations</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e858" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to page layout 11-13. Paste-ups, incl. photocopy</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e862" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paper samples, letter from Leslie Miller, concerning printing <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e868" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to prospectus</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e872" level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle encodinganalog="245$a">Sobin, Gustav. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Ten Sham Haikus. </title> (95-119542) See also: Oversize: Broadsides<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983.</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd41e883" level="file">
+                  <did>
+                     <unittitle>Manuscript books, handmade by Sobin, sewn in Provencal paper</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e887" level="file">
+                  <did>
+                     <unittitle>Paste-ups and notes on production Broadsides</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e891" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-ups and notes on production</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e895" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e899" level="file">
+               <did>
+                  <unittitle>Laughlin, James. Lines for Ezra Pound and William Carlos Williams, (95-119457) <unitdate>1983</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd41e905" level="file">
+                  <did>
+                     <unittitle>Correspondence, James Laughlin, <date era="ce" calendar="gregorian"> 1983-1990 </date> Ann (Mrs. James Laughlin), <date era="ce" calendar="gregorian"> 1984 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e915" level="file">
+                  <did>
+                     <unittitle>
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Typescript, incl. 1 letter from James Laughlin, and invoice, </title>
+                                <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e924" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to drawing by Guy Davenport and sincerity ideogram, incl. 1 letter, Griselde?, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">dated without year</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e930" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up, mock-up, both in paper wrappers</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e934" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys, incl. 1 letter from James Laughlin, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e940" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paper samples</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e944" level="file">
+               <did>
+                  <unittitle>Lauterbach, Ann. <title>Sacred Weather. </title> Illustration by Louisa Chase. (85-229956) <date era="ce" calendar="gregorian"> 1984. </date> See also: Oversize Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e954" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Ann Lauterbach, <date era="ce" calendar="gregorian"> 1983-87 </date> Lee Milazzo, <date era="ce" calendar="gregorian"> undated </date> Leslie Miller to Louisa, <date era="ce" calendar="gregorian"> 1984 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e967" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e971" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, notes on production</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e975" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Type specimens</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e979" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e983" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e987" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dummy binding</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e991" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proof loose in paper boards</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e995" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Promotional material</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e999" level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle encodinganalog="245$a">
+                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Hawkes, John. Innocence in Extremis. </title> Illustration by T.L. Solein. (86-130293). See also: Oversize: Broadsides, Small Broadsides, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd41e1010" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Leslie Miller to T.L. Solein, <date era="ce" calendar="gregorian"> 1984-85; </date> Leslie Miller to T.L. Solein / verso: to J. Hawkes, <date era="ce" calendar="gregorian"> undated; </date> Rosmarie Waldrop (Burning Deck), <date era="ce" calendar="gregorian"> 1985 </date> Jack [John] Hawkes, <date era="ce" calendar="gregorian"> 1985; </date> clipping, invoice</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1026" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1030" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1034" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Original artwork by T.L. Solein</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1038" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1042" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1046" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Leather samples</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1051" level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle encodinganalog="245$a">Sorrentino, Gilbert. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Beehive Arranged on Humane Principles, </title> Illustration by David Storey. (86-189460) See also: Oversize: Broadsides, Small Broadsides <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985.</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd41e1062" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Correspondence, Gilbert Sorrentino, </title>
+                                <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(19 items) </extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1074" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1078" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes on production, type specimens, promotional material</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1082" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, materials relating to layout</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1086" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1090" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1094" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Gass, William. Culp, </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date> Illustration by Malcolm Morley. (85-174842) See also: Oversize: Broadsides, Small Broadsides</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">(19 items)</extent>
+                  </physdesc>
+               </did>
+               <c03 id="mferd41e1107" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="wpb">Correspondence, William Gass, War <date era="ce" calendar="gregorian"> 1983-85 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1114" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photocopy of paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1118" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to title-page</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1122" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, notes on lay-out, prospectus</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1126" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1130" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to prospectus (also forthcoming Paris Visit)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1134" level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">Duncan, Robert. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Paris Visit, </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date> Illustration by R.B. Kitaj. (85-229966) See also: Oversize: Broadsides, Small Broadsides, Folders, Large Folders</unittitle>
+               </did>
+               <c03 id="mferd41e1146" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, incl. Robert Duncan, <date era="ce" calendar="gregorian"> 1983-86; </date> Raymond Foye, <date era="ce" calendar="gregorian"> 1981-84; </date> R.B. Kitaj, <date era="ce" calendar="gregorian"> 1984-85; </date> Geoffrey Parton (Marlborough Fine Art), <date era="ce" calendar="gregorian"> 1984-85; </date> Stephen Stinehour (Meriden Gravure Co.), <date era="ce" calendar="gregorian"> 1984; </date> John Seliger, <date era="ce" calendar="gregorian"> 1984 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1169" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Published material relating to R.B. Kitaj </title>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1176" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1180" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paper samples, material relating to colophon, title-page</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1184" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1188" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-ups</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1192" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proof</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1196" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dummy binding</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1200" level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Laughlin, James. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The House of Light. </title>
+                            <date era="ce" calendar="gregorian"> 1986. </date> Illustration by Vanessa Jackson. (87-141345) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1212" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Vanessa Jackson, <date era="ce" calendar="gregorian"> 1986 </date>
+                            </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(4 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1222" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous notes and photocopies, invoice</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1226" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1230" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1234" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Paste-up </title>
+                            </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1241" level="file">
+               <did>
+                  <unittitle>Laughlin, James.Tabellae, <date era="ce" calendar="gregorian"> 1986. </date> Illustration by Vanessa Jackson. (87-131523) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1248" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, James Laughlin, <date era="ce" calendar="gregorian"> 1986-87 </date>
+                            </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(36 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1258" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Vanessa Jackson, <date era="ce" calendar="gregorian"> 1986 </date>
+                            </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(5 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1268" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts, incl. a letter from James Laughlin, <date era="ce" calendar="gregorian"> 1986, </date> and items with annotations by Leslie Miller</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1275" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1279" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to lay-out</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1283" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1287" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1291" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dummy copy (unsigned)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1295" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Promotional material, invoices</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1299" level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Cole. Peter. Rift, <date era="ce" calendar="gregorian"> 1986. </date> Illustration by Joel Shapiro. (87-176042) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1308" level="file">
+                  <did>
+                     <unittitle>Correspondence, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Peter Cole, </title>
+                                <date era="ce" calendar="gregorian"> 1986-87; </date>
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Kamine, </title>
+                                <date era="ce" calendar="gregorian"> dated without year; </date>
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Eli Gottlieb, </title>
+                                <date era="ce" calendar="gregorian"> 1986; </date>
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Joel Shapiro, </title>
+                                <date era="ce" calendar="gregorian"> 1986; </date>
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Michael, </title>
+                                <date era="ce" calendar="gregorian"> 1986 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1343" level="file">
+                  <did>
+                     <unittitle>Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1347" level="file">
+                  <did>
+                     <unittitle>Proofs, paper samples, notes</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1351" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1355" level="file">
+                  <did>
+                     <unittitle>Paste-ups</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1359" level="file">
+                  <did>
+                     <unittitle>Dummy bindings</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1363" level="file">
+                  <did>
+                     <unittitle>Proof, samples of binding structure</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1367" level="file">
+                  <did>
+                     <unittitle>Material relating to prospectus, publicity, incl. correspondence, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> John Ashbery, </title>
+                                <date era="ce" calendar="gregorian"> 1986; </date>
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Harold Bloom, </title>
+                                <date era="ce" calendar="gregorian"> 1986; </date>
+                                <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Cid Corman, </title>
+                                <date era="ce" calendar="gregorian"> 1986; </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1390" level="file">
+                  <did>
+                     <unittitle>Proof, samples of binding structure</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1394" level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e1400" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                            <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Burroughs, William. The Cat Inside. </title>
+                            <date era="ce" calendar="gregorian"> 1986. </date> Illustration by Brion Gysin. (87-205448) See also: Oversize: Broadsides, Folders, Large Folders</unittitle>
+               </did>
+               <c03 id="mferd41e1410" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> James Grauerholz (William Burroughs Communications), </title>
+                                <date era="ce" calendar="gregorian"> 1986 </date> (2 items, incl. Memorandum of Agreement); <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Brion Gysin, </title>
+                                <date era="ce" calendar="gregorian"> 1986 </date> (5 items); <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Andrew Wylie, </title>
+                                <date era="ce" calendar="gregorian"> 1985-86 </date> (3 items); <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Mr. Mueller, </title>
+                                <date era="ce" calendar="gregorian"> 1986 </date> (1 item); <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> James, </title>
+                                <date era="ce" calendar="gregorian"> 1986 </date> (1 item); <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Maria, </title>
+                                <date era="ce" calendar="gregorian"> undated </date> (1 item); also material relating to Brion Gysin, William Burroughs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1452" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1456" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photographs, work of Brion Gysin</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1460" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1464" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, notes, paper samples</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1468" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1472" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proof</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1476" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to prospectus</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1480" level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle encodinganalog="245$a">Mathews, Harry. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Singular Pleasures. </title>
+                            <date era="ce" calendar="gregorian"> 1988. </date> Illustration by Francesco Clemente. (94-235051) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1492" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Harry Mathews, <date era="ce" calendar="gregorian"> 1988 </date> (2 items); Michael Bixler, <date era="ce" calendar="gregorian"> undated </date> (1 item); Al Maschio, <date era="ce" calendar="gregorian"> 1988 </date> (1 item, with carbon)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1505" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Hiromi Katayama (Infusion, Ltd.), <date era="ce" calendar="gregorian"> 1988 </date> ; also invoice and advertisement</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(10 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1515" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1519" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes on production</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1523" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paper samples, proofs, notes, material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1527" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1531" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Folded sheets (no printing)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1535" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1539" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to promotion</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1543" level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle encodinganalog="245$a">Mathews, Harry. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Way Home, </title>
+                            <date era="ce" calendar="gregorian"> 1988. </date> Illustration by Trevor Winkfield. (94-235074) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1555" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Harry Matthews, <date era="ce" calendar="gregorian"> 1987-88 </date> (4 items); Robert Shapazian (Lapis Press), <date era="ce" calendar="gregorian"> 1987-88 </date> (5 items); Michael, <date era="ce" calendar="gregorian"> 1987 </date> (1 item); Claudia Cohen, <date era="ce" calendar="gregorian"> 1988 </date> (1 item); John Ashbery, <date era="ce" calendar="gregorian"> 1988 </date> (1 item); also material connected to prospectus</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1574" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1578" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes, proofs, cloth sample, information relating to Trevor Winkfield</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1582" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, paste-up, materials relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1586" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1590" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Morrow, Bradford. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Bestiary, </title>
+                            <date era="ce" calendar="gregorian"> 1990. </date> Illustration by Gregory Amenoff, Joe Andoe, James Brown, Vija Celmins, Louisa Chase, Eric Fischl, Jan Hashey, Michael Hurson, Mel Kendrick, James Nares, Ellen Phelan, Joel Shapiro, Kiki Smith, David Storey, Michelle Stuart, Richard Tuttle, Trevor Winkfield, Robin Winters. (92-107711) See also: Oversize: Broadsides, Folders</unittitle>
+               </did>
+               <c03 id="mferd41e1600" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date era="ce" calendar="gregorian"> 1988-89, </date> mostly to artists, invitations to participate</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1607" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes relating to production</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1611" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1616" level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle encodinganalog="245$a">Laughlin, James. Angelica. See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1622" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Linda, 1992 (1 item); James Laughlin, 1992-93 (40 items); letterpress copy of poem (William Butler Yeats)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1626" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1630" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photocopies of illustrations</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1634" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1638" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes, proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1642" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-ups, photocopies of paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1646" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proof</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1650" level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle encodinganalog="245$a">Howe, Susan. The Nonconformist's Memorial, <date era="ce" calendar="gregorian"> 1992. </date> Illustration by Robert Mangold. (93-228442) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1659" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Susan Howe, <date era="ce" calendar="gregorian"> 1990-93 </date>
+                            </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(16 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1669" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Robert Mangold, <date era="ce" calendar="gregorian"> 1991-92 </date>
+                            </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(5 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1679" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Agnes Martin, <date era="ce" calendar="gregorian"> 1991 </date> ; also photostat relating to Agnes Martin</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(1 item)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1689" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts, incl. one letter from Susan Howe, <date era="ce" calendar="gregorian"> 1991 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1696" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1700" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Biographical information relating to Susan Howe, Susan Mitchell DIA, Center for the Arts, Readings in Contemporary Poetry)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1704" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1708" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proof</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1712" level="file">
+               <did>
+                  <unittitle> Kittredge, William and Robert Helm. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Lost Cowboys. </title> See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1719" level="file">
+                  <did>
+                     <unittitle>Correspondence, Kathryn Clark, <date era="ce" calendar="gregorian"> 1992 </date> (1 item); May Castleberry, <date era="ce" calendar="gregorian"> 1992 </date>
+                            </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(1 item)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1732" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript, incl. one letter from William Kittredge to May Castleberry, <date era="ce" calendar="gregorian"> 1991 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1739" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes on production, proofs of publication information</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1743" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration, layout</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1747" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1751" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Creelev, Robert. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Life and Death. </title>
+                            <date era="ce" calendar="gregorian"> 1993. </date> Illustration by Francesco Clemente. (95-222436) See also: Oversize: Broadsides.</unittitle>
+               </did>
+               <c03 id="mferd41e1761" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Robert Creeley, <date era="ce" calendar="gregorian"> 1993-94 </date> (19 items); John Goodman, <date era="ce" calendar="gregorian"> 1993 </date> (3 items); Michael, <date era="ce" calendar="gregorian"> [1993] </date> (1 item); Peter Pettingill, <date era="ce" calendar="gregorian"> [1993] </date> (1 Item); Francesco Clemente, <date era="ce" calendar="gregorian"> [1993] </date> (1 item); Raymond <date era="ce" calendar="gregorian"> [1993] </date> (1 item)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1784" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts, proofs, notes.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1788" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, pasteup.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1792" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1796" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1800" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1804" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"One Dummy", 24 plus cover"</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1808" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dummy.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1812" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Life and Death. Catalogue "published by Gagosian Gallery ... On the occasion of Francisco Clemente: The Black Paintings, 16 November 1993 to 8 January 1994."</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd41e1816" level="series">
+            <did>
+               <unittitle encodinganalog="245$a" id="series3">Miscellaneous Publications</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Publications designed by the Grenfell Press, including work for New Directions, Callaway Editions, The Metropolitan Museum of Art, Targ Editions, Conjunctions Magazine, etc.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of material and therein by title.</p>
+            </arrangement>
+            <c02 id="mferd41e1826" level="file">
+               <did>
+                  <container type="box">20-23</container>
+                  <unittitle encodinganalog="245$a">Calvino, Italo. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Silent Mr. Palomar. </title> Targ Editions, <date era="ce" calendar="gregorian"> 1981. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e1838" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets Morrow, Bradford. Posthumes (Broadside poem). Santa Barbara: Cadmus Editions, <date era="ce" calendar="gregorian"> 1982. </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1845" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript, notes, etc., incl. correspondence, Guy Davenport, <date era="ce" calendar="gregorian"> 1982 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1852" level="file">
+               <did>
+                  <unittitle>Morrow, Bradford. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Preferences, </title>
+                            <date era="ce" calendar="gregorian"> 1983. </date> (94-235066)</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300">(2 items)</extent>
+                  </physdesc>
+               </did>
+               <c03 id="mferd41e1865" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1869" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1873" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1877" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mailer, Norman. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Last Night. </title> Targ Editions, <date era="ce" calendar="gregorian"> 1984. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e1887" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1891" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Morrow, Bradford. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> After a Charme, </title>
+                            <date era="ce" calendar="gregorian"> 1984. </date> (94-235070)</unittitle>
+               </did>
+               <c03 id="mferd41e1901" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript, proofs, notes</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1905" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1909" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1913" level="file">
+               <did>
+                  <unittitle>Michaux, Henri. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Ideograms in China, </title>
+                            <date era="ce" calendar="gregorian"> 1984. </date> (84-10006) See also: Oversize: Broadsides, Large Folders</unittitle>
+               </did>
+               <c03 id="mferd41e1923" level="file">
+                  <did>
+                     <unittitle>Copies of correspondence, Peter Glassgold (New Directions) to Gustaf Sobin, <date era="ce" calendar="gregorian"> 1984 </date> (1 item); Peggy Fox to Henri Michaux, <date era="ce" calendar="gregorian"> 1984 </date> (1 item, with Gustaf Sobin to Henri Michaux, <date era="ce" calendar="gregorian"> 1984, </date> 1 item); Henri Michaux (?) to Gustaf Sobin, <date era="ce" calendar="gregorian"> [1984?] </date> (1 item); Gustaf Sobin to Henri Michaux, <date era="ce" calendar="gregorian"> 1984 </date> (1 item)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1942" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts, incl. copy of galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1946" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to publication information, notes, invoice, proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1950" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to binding and slipcase</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1954" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dummy binding</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1958" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e1962" level="file">
+               <did>
+                  <container type="box">21</container>
+                  <unittitle encodinganalog="245$a">Targ, William. Abacus Now. Targ Editions, <date era="ce" calendar="gregorian"> 1984 </date> . See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e1971" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1975" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-ups, notes relating to layout, incl. 1 letter from William Targ, <date era="ce" calendar="gregorian"> 1989. </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1982" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustrations</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1986" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1990" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paper samples</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1994" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Materials relating to Targ prospectuses The Grenfell Press 1985 Catalog, 1985.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e1998" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts, paste-up, proofs</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2002" level="file">
+               <did>
+                  <unittitle>Morrow, Bradford. Kubler, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Come Sunday. </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date> (94-235085)</unittitle>
+               </did>
+               <c03 id="mferd41e2012" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2016" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2020" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs, galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2024" level="file">
+               <did>
+                  <unittitle>Morrow, Bradford. More Ways Than One, 1985. (94-235091)</unittitle>
+               </did>
+               <c03 id="mferd41e2028" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2033" level="file">
+               <did>
+                  <unittitle>Fisher, M.F.K. Spirits of the Valley. (86-131724) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e2037" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2041" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photocopy of corrected galleys, incl. one note from William Targ, <date era="ce" calendar="gregorian"> 1985; </date> photocopy of letter from M.F.K. Fisher, <date era="ce" calendar="gregorian"> 1985 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2051" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous material relating to production, incl. one letter from Sage Reynolds (Four Hands Design Studio), <date era="ce" calendar="gregorian"> 1985; </date> cost estimate, notes on layout, proofs, fabric sample, etc.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2058" level="file">
+                  <did>
+                     <unittitle>Paste-up</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2062" level="file">
+               <did>
+                  <unittitle>Greene, Graham. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Reflections on Travels with my Aunt. </title>
+                            <date era="ce" calendar="gregorian"> 1989. </date> See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e2072" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Arnie Rougow, 1987-89</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300">(4 items)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2079" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2083" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes on production, layout</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2087" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-up</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2091" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proof</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2095" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Text relating to prospectus</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2099" level="file">
+               <did>
+                  <container type="box">22</container>
+                  <unittitle encodinganalog="245$a">Rattray, David. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Out of the Dark. </title>
+                            <date era="ce" calendar="gregorian"> 1989. </date> (90-228872) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e2111" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript, notes relating to colophon</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2115" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes, sample of book structure, business card (Ted Cronin)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2119" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2123" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-ups</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2127" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Finished book.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2131" level="file">
+               <did>
+                  <unittitle>Oates, Joyce Carol. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Heat, </title>
+                            <date era="ce" calendar="gregorian"> 1989. </date> Illustration by Robert Gober. See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e2141" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2145" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes relating to production, binding, etc.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2149" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration, incl. one note from May, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2153" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paper samples (folded sheets, blank)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2157" level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle encodinganalog="245$a">Burroughs, William. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Ghost of Chance, </title>
+                            <date era="ce" calendar="gregorian"> 1990. </date> (92-183221) See also: Oversize: Broadsides</unittitle>
+               </did>
+               <c03 id="mferd41e2169" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, May (Whitney Museum of American Art), <date era="ce" calendar="gregorian"> 1990-91 </date> (3 items); Sue (?) (Allethaire Press), <date era="ce" calendar="gregorian"> undated </date> (1 item); Michael, <date era="ce" calendar="gregorian"> [1990?] </date> (1 item)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2182" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescripts</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2186" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2190" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paste-ups</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 id="mferd41e2194" level="series">
+            <did>
+               <container type="box">24-54</container>
+               <unittitle encodinganalog="245$a" id="series4">Oversize. Broadsides Correspondence and Typescripts <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1919/1991">1983-1992</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Oversize material organized and described according to the series, folders, and boxes from which the items were removed.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 id="mferd41e2208" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Laughlin, James. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Inn at Kirchstetten, </title>
+                            <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1988?</unitdate>
+                  </unittitle>
+               </did>
+               <c03 id="mferd41e2217" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="aah">Galleys, also one letter from Leslie Miller to James Laughlin, <date era="ce" calendar="gregorian"> 1988 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2224" level="file">
+               <did>
+                  <unittitle>Grenfell Press Publications Dowell, Coleman. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Silver Swanne. </title>
+                            <date era="ce" calendar="gregorian"> 1983. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2234" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2238" level="file">
+               <did>
+                  <unittitle>Davenport, Guy. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Bowmen of Shu, </title>
+                            <date era="ce" calendar="gregorian"> 1983. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2248" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2252" level="file">
+               <did>
+                  <unittitle>Sobin, Gustav. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Ten Sham Haikus. </title>
+                            <date era="ce" calendar="gregorian"> 1983. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2262" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2266" level="file">
+               <did>
+                  <unittitle>Lauterbach, Ann. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Sacred Weather, </title>
+                            <date era="ce" calendar="gregorian"> 1984. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2276" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="hd">Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2280" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2284" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Galley and typescript for <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> "Not that it could be finished" </title> Hawkes, John. Innocence in Extremis. 1985.</unittitle>
+               </did>
+               <c03 id="mferd41e2291" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2295" level="file">
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2301" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Laughlin, James. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The House of Light. </title>
+                            <date era="ce" calendar="gregorian"> 1986. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2311" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys, incl. one letter from James Laughlin, 1986 Laughlin, James. Tabellae, 1986.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2315" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2319" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2323" level="file">
+               <did>
+                  <container type="box">27</container>
+                  <unittitle encodinganalog="245$a">Sorrentino, Gilbert. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Beehive Arranged on Humane Principles. </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2335" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2339" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration, incl. proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2343" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2348" level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle encodinganalog="245$a">Gass, William. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Culp, </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2360" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2364" level="file">
+               <did>
+                  <unittitle>Duncan, Robert. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Paris Visit, </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2374" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys, incl. one letter from R.B. Kitaj <date era="ce" calendar="gregorian"> [1984?] </date> and photograph; one letter from Robert Duncan, <date era="ce" calendar="gregorian"> 1984 </date> Cole, Peter. Rjft, 1986.</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2384" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs (binding)</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2388" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2392" level="file">
+               <did>
+                  <container type="box">29</container>
+                  <unittitle encodinganalog="245$a">Burroughs, William. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Cat Inside, </title>
+                            <date era="ce" calendar="gregorian"> 1986. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2404" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2408" level="file">
+                  <did>
+                     <unittitle>Material relating to illustration, layout 5. Cloth boards</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2412" level="file">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2418" level="file">
+               <did>
+                  <container type="box">31</container>
+                  <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2424" level="file">
+               <did>
+                  <container type="box">32</container>
+                  <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2430" level="file">
+               <did>
+                  <container type="box">33</container>
+                  <unittitle encodinganalog="245$a">Mathews, Harry. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Singular Pleasures, </title>
+                            <date era="ce" calendar="gregorian"> 1988. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2442" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2446" level="file">
+               <did>
+                  <container type="box">33</container>
+                  <unittitle encodinganalog="245$a">Mathews, Harry. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Way Home. </title>
+                            <date era="ce" calendar="gregorian"> 1988. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2458" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2462" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2466" level="file">
+               <did>
+                  <container type="box">34</container>
+                  <unittitle encodinganalog="245$a">Morrow, Bradford. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Bestiary, </title>
+                            <date era="ce" calendar="gregorian"> 1990. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2478" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous publications</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2482" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2486" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous proofs, notes</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2490" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Plates (Snake, Hare, Mongoose, Lemming)</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2494" level="file">
+               <did>
+                  <container type="box">35</container>
+                  <unittitle encodinganalog="245$a">Elephant</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2501" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pig</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2505" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Snake</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2509" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Skunk</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2513" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Frog</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2517" level="file">
+               <did>
+                  <container type="box">36</container>
+                  <unittitle encodinganalog="245$a">Frog</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2523" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scorpion</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2527" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Starling</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2531" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Plankton</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2535" level="file">
+               <did>
+                  <container type="box">37</container>
+                  <unittitle encodinganalog="245$a">Tortoise</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2541" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hare</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2545" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Armadillo</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2550" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Opossum</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2554" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Owl</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2558" level="file">
+               <did>
+                  <container type="box">38</container>
+                  <unittitle encodinganalog="245$a">Anemone</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2564" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Beetle</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2568" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bee</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2572" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Trout</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2576" level="file">
+               <did>
+                  <container type="box">39</container>
+                  <unittitle encodinganalog="245$a">Lioness</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2582" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Firefly</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2586" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Canis</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2590" level="file">
+               <did>
+                  <container type="box">40</container>
+                  <unittitle encodinganalog="245$a">Earthworm</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2596" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">The Monkey Prince</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2601" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mussel</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2605" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Beaver</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2609" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hummingbird</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2613" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Unicorn</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2617" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bat</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2621" level="file">
+               <did>
+                  <container type="box">41</container>
+                  <unittitle encodinganalog="245$a">Laughlin, James. Angelica</unittitle>
+               </did>
+               <c03 id="mferd41e2627" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2631" level="file">
+               <did>
+                  <container type="box">42</container>
+                  <unittitle encodinganalog="245$a">Howe, Susan. The Nonconformist's Memorial, 1992.</unittitle>
+               </did>
+               <c03 id="mferd41e2637" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2641" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2645" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2649" level="file">
+               <did>
+                  <container type="box">43</container>
+                  <unittitle encodinganalog="245$a">Kittredge, William and Robert Helm. Lost Cowboys.</unittitle>
+               </did>
+               <c03 id="mferd41e2655" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2659" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proofs</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2663" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2667" level="file">
+               <did>
+                  <container type="box">44</container>
+                  <unittitle encodinganalog="245$a">Michaux, Henri. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Ideograms in China, </title>
+                            <date era="ce" calendar="gregorian"> 1984. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2679" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2683" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Targ, William. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Abacus Now, </title> Targ Editions, <date era="ce" calendar="gregorian"> 1984. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2693" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2697" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">The Grenfell Press <date era="ce" calendar="gregorian"> 1985 </date> Catalog. <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2707" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2712" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Fisher, M.F.K. Spirits of the Valley.</unittitle>
+               </did>
+               <c03 id="mferd41e2716" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2720" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Greene, Graham. Reflections on Travels with my Aunt, 1989.</unittitle>
+               </did>
+               <c03 id="mferd41e2724" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2728" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Material relating to frontispiece photograph, manuscript facsimile Rattray, David. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Out of the Dark. </title>
+                                <date era="ce" calendar="gregorian"> 1989. </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2738" level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2742" level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Oates, Joyce Carol. Heat, <date era="ce" calendar="gregorian"> 1989. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2749" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2753" level="file">
+               <did>
+                  <container type="box">45</container>
+                  <unittitle encodinganalog="245$a">Burroughs, William. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Ghost of Chance. </title>
+                            <date era="ce" calendar="gregorian"> 1990. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2765" level="file">
+                  <did>
+                     <unittitle>Galleys</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2769" level="file">
+                  <did>
+                     <unittitle>Notes relating to layout, typography, paper sample</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2773" level="file">
+                  <did>
+                     <unittitle>Material relating to illustration, incl. one note from Condo, <date era="ce" calendar="gregorian"> 1989 </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2780" level="file">
+                  <did>
+                     <unittitle>Proofs</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2784" level="file">
+               <did>
+                  <container type="box">46</container>
+                  <unittitle>Hawkes, John. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Innocence in Extremis. </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2796" level="file">
+                  <did>
+                     <unittitle>Unbound sheets</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2800" level="file">
+                  <did>
+                     <container type="box">47</container>
+                     <unittitle>Material relating to illustration Duncan, Robert. A Paris Visit. <date era="ce" calendar="gregorian"> 1985. </date>
+                            </unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2809" level="file">
+                  <did>
+                     <unittitle>Material relating to illustration</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2813" level="file">
+                  <did>
+                     <container type="box">48</container>
+                     <unittitle>Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2819" level="file">
+               <did>
+                  <container type="box">49</container>
+                  <unittitle>Sorrentino, Gilbert. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Beehive Arranged on Humane Principles. </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2831" level="file">
+                  <did>
+                     <unittitle>Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2835" level="file">
+               <did>
+                  <container type="box">50</container>
+                  <unittitle>Gass, William. Culp, <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2844" level="file">
+                  <did>
+                     <unittitle>Material relating to illustration, some typography</unittitle>
+                  </did>
+               </c03>
+               <c03 id="mferd41e2848" level="file">
+                  <did>
+                     <unittitle>Unbound sheets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 id="mferd41e2852" level="file">
+               <did>
+                  <container type="box">51</container>
+                  <unittitle>Material relating to D'Offay stationery; miscellaneous photographs, illustration material; ms. text of poem from Gregory Corso, <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Day After Humankind. </title> Grenfell Press Publications. Duncan, Robert. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Paris Visit, </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2867" level="file">
+               <did>
+                  <unittitle>Material relating to illustration Burroughs, William. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Cat Inside. </title>
+                            <date era="ce" calendar="gregorian"> 1986. </date>
+                        </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2877" level="file">
+               <did>
+                  <unittitle>Original artwork (possibly not for Cat Inside) Morrow, Bradford. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Bestiary. </title>
+                            <date era="ce" calendar="gregorian"> 1990. </date>
+                        </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2887" level="file">
+               <did>
+                  <unittitle>Miscellaneous unbound sheets 6-8. Proofs of preliminary matter</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2892" level="file">
+               <did>
+                  <container type="box">52</container>
+                  <unittitle>Whale</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2898" level="file">
+               <did>
+                  <unittitle>Lemming</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2902" level="file">
+               <did>
+                  <unittitle>Horse</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2906" level="file">
+               <did>
+                  <unittitle>Little Cock</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2910" level="file">
+               <did>
+                  <unittitle>Cheetah</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2914" level="file">
+               <did>
+                  <unittitle>Mongoose</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2918" level="file">
+               <did>
+                  <container type="box">53</container>
+                  <unittitle>Giraffe</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2924" level="file">
+               <did>
+                  <unittitle>Yak</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2928" level="file">
+               <did>
+                  <unittitle>Grouse</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2932" level="file">
+               <did>
+                  <unittitle>Miscellaneous proofs. Burroughs, William. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> The Cat Inside. </title>
+                            <date era="ce" calendar="gregorian"> 1986. </date>
+                        </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2942" level="file">
+               <did>
+                  <unittitle>Material relating to illustration Miscellaneous Publications. Michaux, Henri. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> Ideograms in China, </title>
+                            <date era="ce" calendar="gregorian"> 1984. </date>
+                        </unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2953" level="file">
+               <did>
+                  <unittitle>Material relating to illustration</unittitle>
+               </did>
+            </c02>
+            <c02 id="mferd41e2957" level="file">
+               <did>
+                  <container type="box">54</container>
+                  <unittitle>Grenfell Press Publications Duncan, Robert. <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"> A Paris Visit. </title>
+                            <date era="ce" calendar="gregorian"> 1985. </date>
+                        </unittitle>
+               </did>
+               <c03 id="mferd41e2969" level="file">
+                  <did>
+                     <unittitle>Material relating to illustration two broadsheets, (one dated December, <date era="ce" calendar="gregorian"> 1979 </date> and the other undated), showing the press's typeface</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

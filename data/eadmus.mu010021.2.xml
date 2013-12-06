@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 19 August 2011 12:17:20 PM EDT
+Generated: Wed, 31 October 2012 04:12:05 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010021--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010021--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010021-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd145e3">
-   <eadheader id="mferd145e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd105e3">
+   <eadheader id="mferd105e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -105,11 +105,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
          </repository>
          <abstract label="Summary" encodinganalog="520$a">Little is known about Mrs. Cameron (Harriet) Winslow or how she became acquainted with the influential French composer, conductor, and teacher, Nadia Boulanger. This collection consists of photographs, concert programs, and clippings related to Boulanger's career that Mrs. Winslow received from 1956 to 1964. Most of the items are signed, dated and contain simple messages from Boulanger.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd3775e95" altrender=":::F005=^20100707104714.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd3775e95" altrender=":::F005=^20100707104714.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd147e7">
+         <controlaccess id="mferd3777e12">
             <head>People</head>
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Blitzstein%2C+Marc.^">Blitzstein, Marc.</persname>
@@ -126,12 +127,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
             <persname encodinganalog="100" role="creator" source="lcnaf"
                       altrender=":::PWEBRECON=^Winslow%2C+Harriet.^">Winslow, Harriet.</persname>
          </controlaccess>
-         <controlaccess id="mferd147e24">
+         <controlaccess id="mferd3777e40">
             <head>Organizations</head>
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Conservatoire+am%C3%A9ricain+de+Fontainebleau.^">Conservatoire américain de Fontainebleau.</corpname>
          </controlaccess>
-         <controlaccess id="mferd147e29">
+         <controlaccess id="mferd3777e49">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Concert+programs.^">Concert programs.</subject>
             <subject encodinganalog="650" source="lcsh"
@@ -139,14 +140,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Women+conductors+%28Music%29+France.^">Women conductors (Music)--France.</subject>
          </controlaccess>
-         <controlaccess id="mferd147e38">
+         <controlaccess id="mferd3777e65">
             <head>Titles</head>
             <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                    encodinganalog="246"
                    source="lcnaf"
                    altrender=":::PWEBRECON=^Winslow+%2F+Boulanger+collection%2C+1956-1964^">Winslow / Boulanger collection, 1956-1964</title>
          </controlaccess>
-         <controlaccess id="mferd147e43">
+         <controlaccess id="mferd3777e74">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
@@ -216,14 +217,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd145e233" level="series">
+         <c01 id="mferd105e233" level="series">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a">Photographs,
 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1964</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd145e242" level="file">
+            <c02 id="mferd105e242" level="file">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle encodinganalog="245$a">Nadia Boulanger, alone,
@@ -234,7 +235,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd145e256" level="file">
+            <c02 id="mferd105e256" level="file">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle encodinganalog="245$a">Nadia Boulanger, with others,
@@ -245,7 +246,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd145e270" level="file">
+            <c02 id="mferd105e270" level="file">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle encodinganalog="245$a">Organ in Nadia Boulanger's apartment,
@@ -256,7 +257,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd145e284" level="file">
+            <c02 id="mferd105e284" level="file">
                <did>
                   <container type="box-folder">1/1</container>
                   <unittitle encodinganalog="245$a">Prince Rainier and Princess Grace of Monaco with children,
@@ -267,7 +268,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd145e298" level="file">
+            <c02 id="mferd105e298" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Souzay, Gérard  <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                           xlink:show="replace"
@@ -278,14 +279,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                </did>
             </c02>
          </c01>
-         <c01 id="mferd145e308" level="series">
+         <c01 id="mferd105e308" level="series">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a">Programs,
   				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1962</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd145e317" level="file">
+            <c02 id="mferd105e317" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">American Guild of Organists, Boston Chapter,
@@ -293,7 +294,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e326" level="file">
+            <c02 id="mferd105e326" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Association des concerts Lamoureux,
@@ -301,7 +302,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e335" level="file">
+            <c02 id="mferd105e335" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Bath Festival,
@@ -309,7 +310,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e344" level="file">
+            <c02 id="mferd105e344" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Composers' Showcase,
@@ -317,7 +318,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e353" level="file">
+            <c02 id="mferd105e353" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a" id="wb1">Conservatoire américain de Fontainebleau,
@@ -325,7 +326,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e362" level="file">
+            <c02 id="mferd105e362" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Dumbarton Oaks,
@@ -333,7 +334,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e371" level="file">
+            <c02 id="mferd105e371" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Festival Yehudi Menuhin,
@@ -341,7 +342,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e380" level="file">
+            <c02 id="mferd105e380" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Fondation Singer-Polignac,
@@ -349,7 +350,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e389" level="file">
+            <c02 id="mferd105e389" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Fontainebleau Schools (music and fine arts)
@@ -357,7 +358,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e398" level="file">
+            <c02 id="mferd105e398" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">King's Chapel, Boston,
@@ -365,7 +366,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e408" level="file">
+            <c02 id="mferd105e408" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Pine Manor Junior College,
@@ -373,7 +374,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e417" level="file">
+            <c02 id="mferd105e417" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Riyaseticumhur Senfoni Orkestrasi,
@@ -381,7 +382,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e426" level="file">
+            <c02 id="mferd105e426" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Tri-State Orchestral Composers Symposium,
@@ -389,7 +390,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd145e435" level="file">
+            <c02 id="mferd105e435" level="file">
                <did>
                   <container type="box-folder">1/2</container>
                   <unittitle encodinganalog="245$a">Union Interalliée,
@@ -398,14 +399,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010021
                </did>
             </c02>
          </c01>
-         <c01 id="mferd145e444" level="series">
+         <c01 id="mferd105e444" level="series">
             <did>
                <container type="box">1</container>
                <unittitle encodinganalog="245$a">Clippings,
 	 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1963, undated</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd145e453" level="file">
+            <c02 id="mferd105e453" level="file">
                <did>
                   <container type="box-folder">1/3</container>
                   <unittitle encodinganalog="245$a">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Thu, 14 July 2011 12:01:48 PM EDT
+Generated: Wed, 21 November 2012 01:13:39 PM EST
 URL: http://hdl.loc.gov/loc.music/eadmus.mu002010
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu002010--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu002010--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu002010-->
 
@@ -105,11 +105,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu002010
          </repository>
          <abstract label="Summary" encodinganalog="520$a">The collection consists of correspondence, concert and recital programs, church service programs, and related materials that were either collected by Warren himself or given to him by his students, colleagues and others in the New York City and throughout the United States. The letters in the collection, all addressed to Warren, are from a variety of sources, including Warren's pupils who later received some fame in their own right, for example William Crane Carl, Gerrit Smith, William C. Macfarlane, Frederick T. Steinway, and W.C. Hammond, and from colleagues and friends such as Dudley Buck, H. Clarence Eddy, H.E. Krehbiel, and Horatio Parker, Gustave Schirmer, and C. M. Widor. Among the programs in the collection are a chronological series (1874-1914) of church service bulletins that outline Warren's work at Holy Trinity Church and Grace Church in New York and First Presbyterian Church in East Orange, New Jersey; many of these items are annotated. The collection also contains important concert and recital programs from New York's major concert halls of the period. Noteworthy programs include those from: Carnegie Hall, featuring concerts of the Boston Symphony Orchestra, the Manuscript Society of New York, the Musical Art Society of New York, the Russian Symphony Society, and recitals by Paderewski; Chickering Hall, with programs featuring Hans von Bu ̈low, Vladimir de Pachmann, the Mendelssohn Glee Club, and the New York Vocal Union; and the Metropolitan Opera House, with performances by the Philharmonic Society of New York and the Damrosch Opera Company. Various other items are cataloged and classified separately: ML96.M97; ML96.L465; ML96.W36; and ML44.N3W17.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd6481e106" altrender=":::F005=^20090604131224.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd6481e106" altrender=":::F005=^20090604131224.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd3e7">
+         <controlaccess id="mferd6483e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Buck%2C+Dudley%2C+1839-1909+Correspondence.^">Buck, Dudley, 1839-1909--Correspondence.</persname>
@@ -140,7 +141,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu002010
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Widor%2C+Charles+Marie%2C+1844-1937+Correspondence.^">Widor, Charles Marie, 1844-1937--Correspondence.</persname>
          </controlaccess>
-         <controlaccess id="mferd3e39">
+         <controlaccess id="mferd6483e62">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Concert+programs.^">Concert programs.</subject>
             <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Opera+programs.^">Opera programs.</subject>

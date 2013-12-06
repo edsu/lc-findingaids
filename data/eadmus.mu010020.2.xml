@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Thu, 22 September 2011 12:12:16 PM EDT
+Generated: Wed, 21 November 2012 01:13:46 PM EST
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010020--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010020--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010020-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd200e3">
-   <eadheader id="mferd200e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd69e3">
+   <eadheader id="mferd69e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -107,11 +107,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
          </repository>
          <abstract label="Summary" encodinganalog="520$a">Ethel Lillian Voynich (1864-1960) was a social activist, novelist, translator, and composer. Voynich's musical compositions, based principally on sacred or poetic texts, are represented by holograph manuscript scores, sketches, lyric sheets, printed music, and notes. The remaining materials consist of subject files on musicological topics, research materials, and a handful of programs.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd6763e93" altrender=":::F005=^20100707130537.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd6763e93" altrender=":::F005=^20100707130537.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd202e7">
+         <controlaccess id="mferd6765e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Chomi%C5%84ski%2C+J%C3%B3zef+M.^">Chomiński, Józef M.</persname>
@@ -128,12 +129,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Voynich%2C+E.+L.+%28Ethel+Lillian%29%2C+1864-1960.+Selections.^">Voynich, E. L. (Ethel Lillian), 1864-1960. Musical works. Selections.</persname>
          </controlaccess>
-         <controlaccess id="mferd202e24">
+         <controlaccess id="mferd6765e40">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
          </controlaccess>
-         <controlaccess id="mferd202e29">
+         <controlaccess id="mferd6765e49">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
@@ -207,52 +208,52 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd200e255" level="series">
+         <c01 id="mferd69e255" level="series">
             <did>
                <container type="box">1-12</container>
                <unittitle encodinganalog="245$a">Music, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1916-1948</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd200e264" level="file">
+            <c02 id="mferd69e264" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Babylon (voices, chorus, orchestra)</unittitle>
                </did>
-               <c03 id="mferd200e268" level="file">
+               <c03 id="mferd69e268" level="file">
                   <did>
                      <container type="box-folder">12/1</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e274" level="file">
+               <c03 id="mferd69e274" level="file">
                   <did>
                      <container type="box-folder">7/1</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e280" level="file">
+               <c03 id="mferd69e280" level="file">
                   <did>
                      <container type="box">11</container>
                      <unittitle encodinganalog="245$a">Photocopied manuscript full score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e286" level="file">
+               <c03 id="mferd69e286" level="file">
                   <did>
                      <container type="box-folder">7/2</container>
                      <unittitle encodinganalog="245$a">Manuscript short score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e292" level="file">
+               <c03 id="mferd69e292" level="file">
                   <did>
                      <container type="box-folder">7/3</container>
                      <unittitle encodinganalog="245$a">Sketches and notes</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e298" level="file">
+            <c02 id="mferd69e298" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Blue Bunny's book (voice, piano)</unittitle>
                </did>
-               <c03 id="mferd200e302" level="file">
+               <c03 id="mferd69e302" level="file">
                   <did>
                      <container type="box-folder">1/1</container>
                      <unittitle encodinganalog="245$a">Manuscript piano-vocal score</unittitle>
@@ -262,44 +263,44 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e311" level="file">
+            <c02 id="mferd69e311" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Blue Bunny's influenza blues (voice, piano)</unittitle>
                </did>
-               <c03 id="mferd200e315" level="file">
+               <c03 id="mferd69e315" level="file">
                   <did>
                      <container type="box-folder">1/2</container>
                      <unittitle encodinganalog="245$a">Manuscript piano-vocal score</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e321" level="file">
+            <c02 id="mferd69e321" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Bunny dance (piano)</unittitle>
                </did>
-               <c03 id="mferd200e325" level="file">
+               <c03 id="mferd69e325" level="file">
                   <did>
                      <container type="box-folder">1/3</container>
                      <unittitle encodinganalog="245$a">Sketch</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e331" level="file">
+            <c02 id="mferd69e331" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Come near (voice, piano)</unittitle>
                </did>
-               <c03 id="mferd200e335" level="file">
+               <c03 id="mferd69e335" level="file">
                   <did>
                      <container type="box-folder">1/4</container>
                      <unittitle encodinganalog="245$a">2 manuscript piano-vocal scores</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e341" level="file">
+            <c02 id="mferd69e341" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The crossroads (voices, band)</unittitle>
                </did>
-               <c03 id="mferd200e345" level="file">
+               <c03 id="mferd69e345" level="file">
                   <did>
                      <container type="box-folder">1/5</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
@@ -309,11 +310,11 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e354" level="file">
+            <c02 id="mferd69e354" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Cubby lion's childhood (voice, piano)</unittitle>
                </did>
-               <c03 id="mferd200e358" level="file">
+               <c03 id="mferd69e358" level="file">
                   <did>
                      <container type="box-folder">1/6</container>
                      <unittitle encodinganalog="245$a">3 manuscript piano-vocal scores</unittitle>
@@ -323,14 +324,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e367" level="file">
+            <c02 id="mferd69e367" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Desire in Spring (voice, piano)</unittitle>
                   <note>
                      <p>Music: Ivor Gurney; text: Francis Ledwidge</p>
                   </note>
                </did>
-               <c03 id="mferd200e374" level="file">
+               <c03 id="mferd69e374" level="file">
                   <did>
                      <container type="box-folder">1/7</container>
                      <unittitle encodinganalog="245$a">Manuscript piano-vocal score in the hand of I. Gurney</unittitle>
@@ -340,14 +341,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e383" level="file">
+            <c02 id="mferd69e383" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Ego sum pastor bonus (voices)</unittitle>
                   <note>
                      <p>By Waclaw Szamotulski</p>
                   </note>
                </did>
-               <c03 id="mferd200e390" level="file">
+               <c03 id="mferd69e390" level="file">
                   <did>
                      <container type="box-folder">1/8</container>
                      <unittitle encodinganalog="245$a">Photocopied copyist manuscript vocal score</unittitle>
@@ -357,14 +358,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e399" level="file">
+            <c02 id="mferd69e399" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Epitaph in ballad form (voices, orchestra)</unittitle>
                   <note>
                      <p>Text: Francois Villon</p>
                   </note>
                </did>
-               <c03 id="mferd200e406" level="file">
+               <c03 id="mferd69e406" level="file">
                   <did>
                      <container type="box-folder">8/1</container>
                      <unittitle encodinganalog="245$a">3 manuscript full scores</unittitle>
@@ -373,21 +374,21 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e415" level="file">
+               <c03 id="mferd69e415" level="file">
                   <did>
                      <container type="box-folder">8/2</container>
                      <unittitle encodinganalog="245$a">Photocopied manuscript full score</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e422" level="file">
+            <c02 id="mferd69e422" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Five Elizabethan songs. Sleep (voice, piano)</unittitle>
                   <note>
                      <p>By Ivor Gurney</p>
                   </note>
                </did>
-               <c03 id="mferd200e429" level="file">
+               <c03 id="mferd69e429" level="file">
                   <did>
                      <container type="box-folder">1/9</container>
                      <unittitle encodinganalog="245$a">Printed piano-vocal score</unittitle>
@@ -397,7 +398,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e438" level="file">
+            <c02 id="mferd69e438" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="geoyh">Give ear, o ye heavens (voices, 8 parts) <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                           xlink:show="replace"
@@ -409,7 +410,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      <p>Text: Deuteronomy 32:1,2</p>
                   </note>
                </did>
-               <c03 id="mferd200e451" level="file">
+               <c03 id="mferd69e451" level="file">
                   <did>
                      <container type="box-folder">1/10</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
@@ -419,7 +420,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e460" level="file">
+            <c02 id="mferd69e460" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="tgn">The golden net (voices) <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                           xlink:show="replace"
@@ -431,13 +432,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      <p>Text: William Blake</p>
                   </note>
                </did>
-               <c03 id="mferd200e473" level="file">
+               <c03 id="mferd69e473" level="file">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a">4 manuscript vocal scores</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e479" level="file">
+               <c03 id="mferd69e479" level="file">
                   <did>
                      <container type="box-folder">2/2</container>
                      <unittitle encodinganalog="245$a">3 photocopied manuscript vocal scores</unittitle>
@@ -447,7 +448,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e488" level="file">
+            <c02 id="mferd69e488" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="isoam">I sing of a maiden (women's voices, 8 parts) <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                           xlink:show="replace"
@@ -459,7 +460,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      <p>Text: traditional, 15th century</p>
                   </note>
                </did>
-               <c03 id="mferd200e501" level="file">
+               <c03 id="mferd69e501" level="file">
                   <did>
                      <container type="box-folder">8/3</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
@@ -469,7 +470,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e510" level="file">
+            <c02 id="mferd69e510" level="file">
                <did>
                   <unittitle encodinganalog="245$a">I sing of a maiden (women's voices, 16 parts) <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                           xlink:show="replace"
@@ -481,7 +482,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      <p>Text: traditional, 15th century</p>
                   </note>
                </did>
-               <c03 id="mferd200e523" level="file">
+               <c03 id="mferd69e523" level="file">
                   <did>
                      <container type="box-folder">8/3</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
@@ -491,20 +492,20 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e532" level="file">
+            <c02 id="mferd69e532" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Jerusalem (voices, chorus, orchestra)</unittitle>
                   <note>
                      <p>Text: traditional hymn</p>
                   </note>
                </did>
-               <c03 id="mferd200e539" level="file">
+               <c03 id="mferd69e539" level="file">
                   <did>
                      <container type="box-folder">2/3</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e545" level="file">
+               <c03 id="mferd69e545" level="file">
                   <did>
                      <container type="box-folder">9/1</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
@@ -513,7 +514,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e554" level="file">
+               <c03 id="mferd69e554" level="file">
                   <did>
                      <container type="box-folder">2/4</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
@@ -522,7 +523,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e563" level="file">
+               <c03 id="mferd69e563" level="file">
                   <did>
                      <container type="box-folder">9/2</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
@@ -534,7 +535,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e575" level="file">
+               <c03 id="mferd69e575" level="file">
                   <did>
                      <container type="box-folder">9/3</container>
                      <unittitle encodinganalog="245$a">Photocopied manuscript full score</unittitle>
@@ -543,7 +544,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e584" level="file">
+               <c03 id="mferd69e584" level="file">
                   <did>
                      <container type="box-folder">9/4</container>
                      <unittitle encodinganalog="245$a">Photocopied manuscript full score</unittitle>
@@ -552,13 +553,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e593" level="file">
+               <c03 id="mferd69e593" level="file">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle encodinganalog="245$a">Manuscript short score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e599" level="file">
+               <c03 id="mferd69e599" level="file">
                   <did>
                      <container type="box-folder">2/6</container>
                      <unittitle encodinganalog="245$a">Manuscript piano-vocal score</unittitle>
@@ -567,27 +568,27 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e608" level="file">
+               <c03 id="mferd69e608" level="file">
                   <did>
                      <container type="box-folder">2/7</container>
                      <unittitle encodinganalog="245$a">Sketches</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e614" level="file">
+               <c03 id="mferd69e614" level="file">
                   <did>
                      <container type="box-folder">3/1</container>
                      <unittitle encodinganalog="245$a">Sketches</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e620" level="file">
+            <c02 id="mferd69e620" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Jerusalem (women's voices, orchestra)</unittitle>
                   <note>
                      <p>Text: traditional hymn</p>
                   </note>
                </did>
-               <c03 id="mferd200e627" level="file">
+               <c03 id="mferd69e627" level="file">
                   <did>
                      <container type="box-folder">2/8</container>
                      <unittitle encodinganalog="245$a">Manuscript short score</unittitle>
@@ -597,28 +598,28 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e636" level="file">
+            <c02 id="mferd69e636" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Lenten is come (women's voices, piano)</unittitle>
                   <note>
                      <p>Text: traditional</p>
                   </note>
                </did>
-               <c03 id="mferd200e643" level="file">
+               <c03 id="mferd69e643" level="file">
                   <did>
                      <container type="box-folder">3/2</container>
                      <unittitle encodinganalog="245$a">Printed piano-vocal score proof</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e649" level="file">
+            <c02 id="mferd69e649" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Little lamb (voice, piano)</unittitle>
                   <note>
                      <p>Music: Mary Wilkes; text: William Blake</p>
                   </note>
                </did>
-               <c03 id="mferd200e656" level="file">
+               <c03 id="mferd69e656" level="file">
                   <did>
                      <container type="box-folder">9/5</container>
                      <unittitle encodinganalog="245$a">Photocopied manuscript piano-vocal score</unittitle>
@@ -628,11 +629,11 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e665" level="file">
+            <c02 id="mferd69e665" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Little suite (woodwinds, harp)</unittitle>
                </did>
-               <c03 id="mferd200e669" level="file">
+               <c03 id="mferd69e669" level="file">
                   <did>
                      <container type="box-folder">3/3</container>
                      <unittitle encodinganalog="245$a">Manuscript score and parts</unittitle>
@@ -641,7 +642,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e678" level="file">
+               <c03 id="mferd69e678" level="file">
                   <did>
                      <container type="box-folder">9/6</container>
                      <unittitle encodinganalog="245$a">Manuscript score</unittitle>
@@ -651,28 +652,28 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e687" level="file">
+            <c02 id="mferd69e687" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Man octapartite (voices, double chorus, strings)</unittitle>
                   <note>
                      <p>Text: Irish traditional</p>
                   </note>
                </did>
-               <c03 id="mferd200e694" level="file">
+               <c03 id="mferd69e694" level="file">
                   <did>
                      <container type="box-folder">3/4</container>
                      <unittitle encodinganalog="245$a">Sketches and lyric sheets</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e701" level="file">
+            <c02 id="mferd69e701" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Mass in B Minor</unittitle>
                   <note>
                      <p>By J.S. Bach</p>
                   </note>
                </did>
-               <c03 id="mferd200e708" level="file">
+               <c03 id="mferd69e708" level="file">
                   <did>
                      <container type="box-folder">4/1</container>
                      <unittitle encodinganalog="245$a">Printed score</unittitle>
@@ -685,20 +686,20 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e720" level="file">
+            <c02 id="mferd69e720" level="file">
                <did>
                   <unittitle encodinganalog="245$a">O mortal folk (chorus)</unittitle>
                   <note>
                      <p>Text: Stephen Hawkes</p>
                   </note>
                </did>
-               <c03 id="mferd200e727" level="file">
+               <c03 id="mferd69e727" level="file">
                   <did>
                      <container type="box-folder">4/2</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e733" level="file">
+               <c03 id="mferd69e733" level="file">
                   <did>
                      <container type="box-folder">4/3</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
@@ -708,7 +709,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e742" level="file">
+            <c02 id="mferd69e742" level="file">
                <did>
                   <unittitle encodinganalog="245$a">On Wenlock Edge (voice, strings, piano)</unittitle>
                   <note>
@@ -718,7 +719,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      <p>Transcribed by Ivor Gurney</p>
                   </note>
                </did>
-               <c03 id="mferd200e752" level="file">
+               <c03 id="mferd69e752" level="file">
                   <did>
                      <container type="box-folder">4/4</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score in the hand of I. Gurney</unittitle>
@@ -728,14 +729,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e761" level="file">
+            <c02 id="mferd69e761" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Our lady sings (double chorus)</unittitle>
                   <note>
                      <p>Text: Jerusalem, my happy home</p>
                   </note>
                </did>
-               <c03 id="mferd200e768" level="file">
+               <c03 id="mferd69e768" level="file">
                   <did>
                      <container type="box-folder">4/5</container>
                      <unittitle encodinganalog="245$a">Printed vocal score</unittitle>
@@ -745,45 +746,45 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e777" level="file">
+            <c02 id="mferd69e777" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Pinky's Declaration of Independence (song for the 4th of July)</unittitle>
                </did>
-               <c03 id="mferd200e781" level="file">
+               <c03 id="mferd69e781" level="file">
                   <did>
                      <container type="box-folder">4/6</container>
                      <unittitle encodinganalog="245$a">Manuscript lead sheet</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e787" level="file">
+            <c02 id="mferd69e787" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The riders: symphonic cantata in 4 movements</unittitle>
                </did>
-               <c03 id="mferd200e791" level="file">
+               <c03 id="mferd69e791" level="file">
                   <did>
                      <container type="box-folder">4/7</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e797" level="file">
+               <c03 id="mferd69e797" level="file">
                   <did>
                      <container type="box-folder">5/1</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e803" level="file">
+               <c03 id="mferd69e803" level="file">
                   <did>
                      <container type="box-folder">5/2</container>
                      <unittitle encodinganalog="245$a">Parts</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e809" level="file">
+            <c02 id="mferd69e809" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Saltaire tunes</unittitle>
                </did>
-               <c03 id="mferd200e813" level="file">
+               <c03 id="mferd69e813" level="file">
                   <did>
                      <container type="box-folder">5/3</container>
                      <unittitle encodinganalog="245$a">Manuscript lead sheets</unittitle>
@@ -793,28 +794,28 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e822" level="file">
+            <c02 id="mferd69e822" level="file">
                <did>
                   <unittitle encodinganalog="245$a">So shuts the marigold (voices)</unittitle>
                   <note>
                      <p>Text: William Browne of Tavistock</p>
                   </note>
                </did>
-               <c03 id="mferd200e829" level="file">
+               <c03 id="mferd69e829" level="file">
                   <did>
                      <container type="box-folder">5/4</container>
                      <unittitle encodinganalog="245$a">3 manuscript vocal scores</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e835" level="file">
+            <c02 id="mferd69e835" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The submerged city: cantata for solo baritone, mixed choir, and orchestra</unittitle>
                   <note>
                      <p>Text: Aleksey Stepanovich Khomyakov</p>
                   </note>
                </did>
-               <c03 id="mferd200e842" level="file">
+               <c03 id="mferd69e842" level="file">
                   <did>
                      <container type="box-folder">10/1</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
@@ -823,19 +824,19 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e851" level="file">
+               <c03 id="mferd69e851" level="file">
                   <did>
                      <container type="box-folder">10/2</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e857" level="file">
+               <c03 id="mferd69e857" level="file">
                   <did>
                      <container type="box-folder">10/3</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e863" level="file">
+               <c03 id="mferd69e863" level="file">
                   <did>
                      <container type="box-folder">10/4</container>
                      <unittitle encodinganalog="245$a">Manuscript full score</unittitle>
@@ -844,7 +845,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd200e872" level="file">
+               <c03 id="mferd69e872" level="file">
                   <did>
                      <container type="box-folder">10/5</container>
                      <unittitle encodinganalog="245$a">Manuscript short score</unittitle>
@@ -854,63 +855,63 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e881" level="file">
+            <c02 id="mferd69e881" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Tollite portas (Lift up your heads) (voices)</unittitle>
                   <note>
                      <p>Text: William Byrd</p>
                   </note>
                </did>
-               <c03 id="mferd200e888" level="file">
+               <c03 id="mferd69e888" level="file">
                   <did>
                      <container type="box-folder">5/5</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score (English)</unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e894" level="file">
+               <c03 id="mferd69e894" level="file">
                   <did>
                      <container type="box-folder">5/5</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score (French)</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e900" level="file">
+            <c02 id="mferd69e900" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Unwelcome (voice, piano)</unittitle>
                   <note>
                      <p>Text: Mary Coleridge</p>
                   </note>
                </did>
-               <c03 id="mferd200e907" level="file">
+               <c03 id="mferd69e907" level="file">
                   <did>
                      <container type="box-folder">5/6</container>
                      <unittitle encodinganalog="245$a">2 manuscript piano-vocal scores</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e914" level="file">
+            <c02 id="mferd69e914" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Victimae paschali laudes (voices, organ)</unittitle>
                </did>
-               <c03 id="mferd200e918" level="file">
+               <c03 id="mferd69e918" level="file">
                   <did>
                      <container type="box-folder">5/7</container>
                      <unittitle encodinganalog="245$a">Manuscript score for voice and organ</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e924" level="file">
+            <c02 id="mferd69e924" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Wilfred's birthday song</unittitle>
                </did>
-               <c03 id="mferd200e928" level="file">
+               <c03 id="mferd69e928" level="file">
                   <did>
                      <container type="box-folder">5/8</container>
                      <unittitle encodinganalog="245$a">Manuscript lead sheet</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e934" level="file">
+            <c02 id="mferd69e934" level="file">
                <did>
                   <unittitle encodinganalog="245$a" id="wit">Who is this? <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                           xlink:show="replace"
@@ -919,7 +920,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                         <emph render="italic">see also </emph>The golden net</ref>
                   </unittitle>
                </did>
-               <c03 id="mferd200e944" level="file">
+               <c03 id="mferd69e944" level="file">
                   <did>
                      <container type="box-folder">5/9</container>
                      <unittitle encodinganalog="245$a">Manuscript vocal score</unittitle>
@@ -929,11 +930,11 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd200e953" level="file">
+            <c02 id="mferd69e953" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Unidentified</unittitle>
                </did>
-               <c03 id="mferd200e957" level="file">
+               <c03 id="mferd69e957" level="file">
                   <did>
                      <container type="box-folder">5/10</container>
                      <unittitle encodinganalog="245$a">Sketches</unittitle>
@@ -941,13 +942,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd200e963" level="series">
+         <c01 id="mferd69e963" level="series">
             <did>
                <container type="box">6, 13-14</container>
                <unittitle encodinganalog="245$a">Subject Files, <unitdate era="ce" calendar="gregorian">1937-1941</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd200e972" level="file">
+            <c02 id="mferd69e972" level="file">
                <did>
                   <container type="box-folder">6/1</container>
                   <unittitle encodinganalog="245$a">Chominski, Josef Michal, <unitdate era="ce" calendar="gregorian">1937-1941</unitdate>
@@ -957,86 +958,86 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </note>
                </did>
             </c02>
-            <c02 id="mferd200e984" level="file">
+            <c02 id="mferd69e984" level="file">
                <did>
                   <container type="box-folder">13/1</container>
                   <unittitle encodinganalog="245$a">Folk songs: Czeck</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e990" level="file">
+            <c02 id="mferd69e990" level="file">
                <did>
                   <container type="box-folder">13/2</container>
                   <unittitle encodinganalog="245$a">Folk songs: Polish</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e996" level="file">
+            <c02 id="mferd69e996" level="file">
                <did>
                   <container type="box-folder">13/3</container>
                   <unittitle encodinganalog="245$a">Folk songs: Russian</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1002" level="file">
+            <c02 id="mferd69e1002" level="file">
                <did>
                   <container type="box-folder">13/4</container>
                   <unittitle encodinganalog="245$a">Folk songs: Ukranian</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1008" level="file">
+            <c02 id="mferd69e1008" level="file">
                <did>
                   <container type="box-folder">13/5</container>
                   <unittitle encodinganalog="245$a">Folk songs: other than Slavonic</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1014" level="file">
+            <c02 id="mferd69e1014" level="file">
                <did>
                   <container type="box-folder">13/6</container>
                   <unittitle encodinganalog="245$a">Military music</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1020" level="file">
+            <c02 id="mferd69e1020" level="file">
                <did>
                   <container type="box-folder">6/2</container>
                   <unittitle encodinganalog="245$a">Musical diagrams: relationships to intervals</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1026" level="file">
+            <c02 id="mferd69e1026" level="file">
                <did>
                   <container type="box-folder">14/1-2</container>
                   <unittitle encodinganalog="245$a">Pius X School of Liturgical Music</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1032" level="file">
+            <c02 id="mferd69e1032" level="file">
                <did>
                   <container type="box-folder">14/3</container>
                   <unittitle encodinganalog="245$a">Polyphony: evolution of</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1039" level="file">
+            <c02 id="mferd69e1039" level="file">
                <did>
                   <container type="box-folder">14/4</container>
                   <unittitle encodinganalog="245$a">Polyphony: France, Netherlands, Germany, Spain</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1045" level="file">
+            <c02 id="mferd69e1045" level="file">
                <did>
                   <container type="box-folder">6/3</container>
                   <unittitle encodinganalog="245$a">Primitive, exotic, ancient music</unittitle>
                </did>
             </c02>
-            <c02 id="mferd200e1051" level="file">
+            <c02 id="mferd69e1051" level="file">
                <did>
                   <container type="box-folder">14/5</container>
                   <unittitle encodinganalog="245$a">Theoretical studies, nature, primitive</unittitle>
                </did>
             </c02>
          </c01>
-         <c01 id="mferd200e1057" level="series">
+         <c01 id="mferd69e1057" level="series">
             <did>
                <container type="box">6, 14</container>
                <unittitle encodinganalog="245$a">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1835-1946</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd200e1066" level="file">
+            <c02 id="mferd69e1066" level="file">
                <did>
                   <container type="box-folder">14/6</container>
                   <unittitle encodinganalog="245$a">Gurney, Ivor</unittitle>
@@ -1045,18 +1046,18 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010020
                   </note>
                </did>
             </c02>
-            <c02 id="mferd200e1075" level="file">
+            <c02 id="mferd69e1075" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Programs</unittitle>
                </did>
-               <c03 id="mferd200e1079" level="file">
+               <c03 id="mferd69e1079" level="file">
                   <did>
                      <container type="box-folder">14/7</container>
                      <unittitle encodinganalog="245$a">Miscellaneous programs, <unitdate era="ce" calendar="gregorian">1932-1946</unitdate>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd200e1088" level="file">
+               <c03 id="mferd69e1088" level="file">
                   <did>
                      <container type="box-folder">6/4</container>
                      <unittitle encodinganalog="245$a">Theatre Royal, Covent Garden, 1835 July 3</unittitle>

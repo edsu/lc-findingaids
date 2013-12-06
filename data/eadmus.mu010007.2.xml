@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Thu, 22 September 2011 12:12:15 PM EDT
+Generated: Wed, 21 November 2012 01:13:46 PM EST
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010007--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010007--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010007-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd182e3">
-   <eadheader id="mferd182e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd61e3">
+   <eadheader id="mferd61e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -100,11 +100,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
          <abstract label="Summary" encodinganalog="520$a">This collection consists of works commissioned by the United States Information Agency and other materials related to the organization’s Artistic Ambassador Program. It includes holograph music manuscripts, sketches, performance reviews, biographical materials, and administrative documents.       
 	 	</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd3325e87" altrender=":::F005=^20100408090206.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd3325e87" altrender=":::F005=^20100408090206.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd184e7">
+         <controlaccess id="mferd3327e12">
             <head>People</head>
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Bacon%2C+Ernst%2C+1898-1990.^">Bacon, Ernst, 1898-1990.</persname>
@@ -122,7 +123,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Mayer%2C+William%2C+1925-^">Mayer, William, 1925- </persname>
             <persname encodinganalog="700" source="lcnaf"
-                      altrender=":::PWEBRECON=^Muczynski%2C+Robert%2C+1929-2010.^">Muczynski, Robert, 1929-2010.</persname>
+                      altrender=":::PWEBRECON=^Muczynski%2C+Robert%2C+1929-^">Muczynski, Robert, 1929- </persname>
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Perle%2C+George%2C+1915-2009.^">Perle, George, 1915-2009.</persname>
             <persname encodinganalog="700" source="lcnaf"
@@ -134,7 +135,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
             <persname encodinganalog="700" source="lcnaf"
                       altrender=":::PWEBRECON=^Smit%2C+Leo%2C+1921-1999.^">Smit, Leo, 1921-1999.</persname>
          </controlaccess>
-         <controlaccess id="mferd184e39">
+         <controlaccess id="mferd3327e62">
             <head>Organizations</head>
             <corpname encodinganalog="110$a" role="creator" source="lcnaf"
                       altrender=":::PWEBRECON=^United+States+Information+Agency.+Artistic+Ambassador+Program.^">United States Information Agency. <subarea encodinganalog="110$b">Artistic Ambassador Program.</subarea>
@@ -143,21 +144,21 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                       altrender=":::PWEBRECON=^United+States+Information+Agency.+Artistic+Ambassador+Program.^">United States Information Agency. <subarea encodinganalog="610$b">Artistic Ambassador Program.</subarea>
             </corpname>
          </controlaccess>
-         <controlaccess id="mferd184e52">
+         <controlaccess id="mferd3327e80">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Music+Commissioning.^">Music--Commissioning.</subject>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
          </controlaccess>
-         <controlaccess id="mferd184e59">
+         <controlaccess id="mferd3327e93">
             <head>Titles</head>
             <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
                    encodinganalog="246"
                    source="lcnaf"
                    altrender=":::PWEBRECON=^United+States+Information+Agency+Artistic+Ambassador+Program+musical+commissions%2C+1973-1988^">United States Information Agency Artistic Ambassador Program musical commissions, 1973-1988</title>
          </controlaccess>
-         <controlaccess id="mferd184e64">
+         <controlaccess id="mferd3327e102">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
@@ -233,14 +234,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd182e263" level="series">
+         <c01 id="mferd61e263" level="series">
             <did>
                <container type="box">1-2, OV</container>
                <unittitle encodinganalog="245$a">Music Manuscripts, 
 	 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973-1987</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd182e272" level="file">
+            <c02 id="mferd61e272" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Bacon, Ernst<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -249,7 +250,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e284" level="file">
+               <c03 id="mferd61e284" level="file">
                   <did>
                      <container type="box-folder">1/1</container>
                      <unittitle encodinganalog="245$a">The Gunnison River<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -258,7 +259,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e294" level="file">
+            <c02 id="mferd61e294" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Dello Joio, Norman<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -267,7 +268,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e306" level="file">
+               <c03 id="mferd61e306" level="file">
                   <did>
                      <container type="box-folder">1/2</container>
                      <unittitle encodinganalog="245$a">Introduction and fantasies on a chorale tune<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -276,7 +277,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e315" level="file">
+            <c02 id="mferd61e315" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Finney, Ralph<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -285,7 +286,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e327" level="file">
+               <c03 id="mferd61e327" level="file">
                   <did>
                      <container type="box-folder">1/3</container>
                      <unittitle encodinganalog="245$a">Narrative in retrospect, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
@@ -294,7 +295,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e337" level="file">
+            <c02 id="mferd61e337" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Foss, Lukas<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -303,7 +304,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e349" level="file">
+               <c03 id="mferd61e349" level="file">
                   <did>
                      <container type="box-folder">1/4</container>
                      <unittitle encodinganalog="245$a">Fanfare, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973</unitdate>
@@ -314,7 +315,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd182e363" level="file">
+               <c03 id="mferd61e363" level="file">
                   <did>
                      <container type="box-folder">1/5</container>
                      <unittitle encodinganalog="245$a">Central Park reel, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1987</unitdate>
@@ -326,7 +327,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e376" level="file">
+            <c02 id="mferd61e376" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Gould, Morton<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -335,7 +336,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e388" level="file">
+               <c03 id="mferd61e388" level="file">
                   <did>
                      <container type="box-folder">1/6</container>
                      <unittitle encodinganalog="245$a">Patterns for piano, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
@@ -344,7 +345,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e398" level="file">
+            <c02 id="mferd61e398" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">Hoiby, Lee<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -353,7 +354,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e410" level="file">
+               <c03 id="mferd61e410" level="file">
                   <did>
                      <container type="box-folder">1/7</container>
                      <unittitle encodinganalog="245$a">Ballade, op. 41, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
@@ -362,7 +363,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e420" level="file">
+            <c02 id="mferd61e420" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Lees, Benjamin<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -371,7 +372,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e432" level="file">
+               <c03 id="mferd61e432" level="file">
                   <did>
                      <container type="box-folder">2/1</container>
                      <unittitle encodinganalog="245$a">Tableau, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1986</unitdate>
@@ -380,7 +381,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e442" level="file">
+            <c02 id="mferd61e442" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Mayer, William<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -389,7 +390,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e454" level="file">
+               <c03 id="mferd61e454" level="file">
                   <did>
                      <container type="box-folder">2/2</container>
                      <unittitle encodinganalog="245$a">Abandoned bells, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">n.d.</unitdate>
@@ -398,7 +399,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e464" level="file">
+            <c02 id="mferd61e464" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Muczynski, Robert<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -407,7 +408,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e476" level="file">
+               <c03 id="mferd61e476" level="file">
                   <did>
                      <container type="box-folder">2/3</container>
                      <unittitle encodinganalog="245$a">Dream cycle : op. 44, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983</unitdate>
@@ -419,7 +420,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e489" level="file">
+            <c02 id="mferd61e489" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Perle, George<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -428,7 +429,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e501" level="file">
+               <c03 id="mferd61e501" level="file">
                   <did>
                      <container type="box-folder">2/4</container>
                      <unittitle encodinganalog="245$a">Six new etudes, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985</unitdate>
@@ -440,7 +441,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e515" level="file">
+            <c02 id="mferd61e515" level="file">
                <did>
                   <container type="box">OV 1</container>
                   <unittitle encodinganalog="245$a">Rochberg, George<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -449,7 +450,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e527" level="file">
+               <c03 id="mferd61e527" level="file">
                   <did>
                      <container type="box-folder">OV 1/1</container>
                      <unittitle encodinganalog="245$a">Short sonatas, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1984</unitdate>
@@ -461,7 +462,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e540" level="file">
+            <c02 id="mferd61e540" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">Siegmeister, Elie<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -470,7 +471,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e552" level="file">
+               <c03 id="mferd61e552" level="file">
                   <did>
                      <container type="box-folder">2/5</container>
                      <unittitle encodinganalog="245$a">From these shores, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1986</unitdate>
@@ -482,7 +483,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd182e565" level="file">
+            <c02 id="mferd61e565" level="file">
                <did>
                   <container type="box">OV 1</container>
                   <unittitle encodinganalog="245$a">Smit, Leo<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -491,7 +492,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      <extent/>
                   </physdesc>
                </did>
-               <c03 id="mferd182e577" level="file">
+               <c03 id="mferd61e577" level="file">
                   <did>
                      <container type="box-folder">OV 1/2</container>
                      <unittitle encodinganalog="245$a">Symphony of dances and songs, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1981</unitdate>
@@ -505,7 +506,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd182e593" level="file">
+               <c03 id="mferd61e593" level="file">
                   <did>
                      <container type="box-folder">2/6</container>
                      <unittitle encodinganalog="245$a">Dance card, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1985</unitdate>
@@ -518,13 +519,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd182e606" level="series">
+         <c01 id="mferd61e606" level="series">
             <did>
                <container type="box">3</container>
                <unittitle encodinganalog="245$a">Research Materials, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1988 </unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd182e615" level="file">
+            <c02 id="mferd61e615" level="file">
                <did>
                   <container type="box-folder">3/1</container>
                   <unittitle encodinganalog="245$a">USIA file, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1983-1984</unitdate>
@@ -534,7 +535,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010007
                   </note>
                </did>
             </c02>
-            <c02 id="mferd182e630" level="file">
+            <c02 id="mferd61e630" level="file">
                <did>
                   <container type="box-folder">3/2</container>
                   <unittitle encodinganalog="245$a">USIA file, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1982-1988</unitdate>

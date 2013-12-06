@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Fri, 19 August 2011 12:17:24 PM EDT
+Generated: Wed, 31 October 2012 04:12:08 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010016--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010016--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010016-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd211e3">
-   <eadheader id="mferd211e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd145e3">
+   <eadheader id="mferd145e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -99,11 +99,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
          </repository>
          <abstract label="Summary" encodinganalog="520$a">Alma Gluck was a Romanian-born American soprano and voice teacher. This collection principally consists of scrapbooks related to her professional career. It also includes photographs, annotated sheet music, correspondence, clippings, and other assorted materials.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd2305e88" altrender=":::F005=^20100720020353.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd2305e88" altrender=":::F005=^20100720020353.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd213e7">
+         <controlaccess id="mferd2307e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Gluck%2C+Alma%2C+1884-1938+Archives.^">Gluck, Alma, 1884-1938--Archives.</persname>
@@ -120,14 +121,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Zimbalist%2C+Efrem.^">Zimbalist, Efrem.</persname>
          </controlaccess>
-         <controlaccess id="mferd213e24">
+         <controlaccess id="mferd2307e40">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Operas+Excerpts+Vocal+scores+with+piano.^">Operas--Excerpts--Vocal scores with piano.</subject>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Sopranos+%28Singers%29+United+States.^">Sopranos (Singers)--United States.</subject>
          </controlaccess>
-         <controlaccess id="mferd213e31">
+         <controlaccess id="mferd2307e52">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
@@ -291,13 +292,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd211e333" level="series">
+         <c01 id="mferd145e333" level="series">
             <did>
                <container type="box">1-7</container>
                <unittitle encodinganalog="245$a">Scrapbooks, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1909-1917</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd211e342" level="file">
+            <c02 id="mferd145e342" level="file">
                <did>
                   <container type="box">1</container>
                   <unittitle encodinganalog="245$a">
@@ -308,7 +309,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e356" level="file">
+            <c02 id="mferd145e356" level="file">
                <did>
                   <container type="box">2</container>
                   <unittitle encodinganalog="245$a">
@@ -319,7 +320,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e370" level="file">
+            <c02 id="mferd145e370" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">
@@ -330,7 +331,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e384" level="file">
+            <c02 id="mferd145e384" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">
@@ -341,7 +342,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e398" level="file">
+            <c02 id="mferd145e398" level="file">
                <did>
                   <container type="box">3</container>
                   <unittitle encodinganalog="245$a">
@@ -352,7 +353,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e412" level="file">
+            <c02 id="mferd145e412" level="file">
                <did>
                   <container type="box">4</container>
                   <unittitle encodinganalog="245$a">
@@ -363,7 +364,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e426" level="file">
+            <c02 id="mferd145e426" level="file">
                <did>
                   <container type="box">4</container>
                   <unittitle encodinganalog="245$a">
@@ -374,7 +375,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e440" level="file">
+            <c02 id="mferd145e440" level="file">
                <did>
                   <container type="box">4</container>
                   <unittitle encodinganalog="245$a">
@@ -385,7 +386,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e454" level="file">
+            <c02 id="mferd145e454" level="file">
                <did>
                   <container type="box">5</container>
                   <unittitle encodinganalog="245$a">
@@ -396,7 +397,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e468" level="file">
+            <c02 id="mferd145e468" level="file">
                <did>
                   <container type="box">6</container>
                   <unittitle encodinganalog="245$a">
@@ -407,7 +408,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e483" level="file">
+            <c02 id="mferd145e483" level="file">
                <did>
                   <container type="box">7</container>
                   <unittitle encodinganalog="245$a">
@@ -419,13 +420,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                </did>
             </c02>
          </c01>
-         <c01 id="mferd211e497" level="series">
+         <c01 id="mferd145e497" level="series">
             <did>
                <container type="box">8</container>
                <unittitle encodinganalog="245$a">Photographs, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1902-1928</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd211e506" level="file">
+            <c02 id="mferd145e506" level="file">
                <did>
                   <container type="box-folder">8/1</container>
                   <unittitle encodinganalog="245$a">
@@ -435,7 +436,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e519" level="file">
+            <c02 id="mferd145e519" level="file">
                <did>
                   <container type="box-folder">8/2-3</container>
                   <unittitle encodinganalog="245$a">
@@ -448,7 +449,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </note>
                </did>
             </c02>
-            <c02 id="mferd211e535" level="file">
+            <c02 id="mferd145e535" level="file">
                <did>
                   <container type="box-folder">8/4</container>
                   <unittitle encodinganalog="245$a">
@@ -461,7 +462,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </note>
                </did>
             </c02>
-            <c02 id="mferd211e551" level="file">
+            <c02 id="mferd145e551" level="file">
                <did>
                   <container type="box-folder">8/5</container>
                   <unittitle encodinganalog="245$a">
@@ -472,13 +473,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                </did>
             </c02>
          </c01>
-         <c01 id="mferd211e564" level="series">
+         <c01 id="mferd145e564" level="series">
             <did>
                <container type="box">8-9</container>
                <unittitle encodinganalog="245$a">Music, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1900s-1920s</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd211e573" level="file">
+            <c02 id="mferd145e573" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Beethoven, Ludwig van<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
@@ -486,7 +487,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      <extent encodinganalog="300$a"/>
                   </physdesc>
                </did>
-               <c03 id="mferd211e583" level="file">
+               <c03 id="mferd145e583" level="file">
                   <did>
                      <container type="box-folder">8/6</container>
                      <unittitle encodinganalog="245$a">Adelaide<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -496,7 +497,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd211e594" level="file">
+               <c03 id="mferd145e594" level="file">
                   <did>
                      <container type="box-folder">8/6</container>
                      <unittitle encodinganalog="245$a">Loin de ma tombe obscure<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -504,26 +505,26 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e602" level="file">
+            <c02 id="mferd145e602" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Brahms, Johannes<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd211e608" level="file">
+               <c03 id="mferd145e608" level="file">
                   <did>
                      <container type="box-folder">8/7</container>
                      <unittitle encodinganalog="245$a">Dort in den Weiden<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd211e616" level="file">
+               <c03 id="mferd145e616" level="file">
                   <did>
                      <container type="box-folder">8/7</container>
                      <unittitle encodinganalog="245$a">O liebliche Wagen<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd211e624" level="file">
+               <c03 id="mferd145e624" level="file">
                   <did>
                      <container type="box-folder">8/7</container>
                      <unittitle encodinganalog="245$a">Vorschneller Schwur<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -534,7 +535,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e635" level="file">
+            <c02 id="mferd145e635" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Haydn, Joseph<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
@@ -542,7 +543,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      <extent encodinganalog="300$a"/>
                   </physdesc>
                </did>
-               <c03 id="mferd211e645" level="file">
+               <c03 id="mferd145e645" level="file">
                   <did>
                      <container type="box-folder">8/8</container>
                      <unittitle encodinganalog="245$a">La vie<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -550,7 +551,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e653" level="file">
+            <c02 id="mferd145e653" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Lehmann, Liza<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
@@ -558,7 +559,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      <extent encodinganalog="300$a"/>
                   </physdesc>
                </did>
-               <c03 id="mferd211e663" level="file">
+               <c03 id="mferd145e663" level="file">
                   <did>
                      <container type="box-folder">8/9</container>
                      <unittitle encodinganalog="245$a">In a Persian garden<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -570,7 +571,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e676" level="file">
+            <c02 id="mferd145e676" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Lully, Jean Baptiste<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
@@ -578,7 +579,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      <extent encodinganalog="300$a"/>
                   </physdesc>
                </did>
-               <c03 id="mferd211e686" level="file">
+               <c03 id="mferd145e686" level="file">
                   <did>
                      <container type="box-folder">8/10</container>
                      <unittitle encodinganalog="245$a">Amadis. Bois apais redouble ton ombre<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -589,12 +590,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e697" level="file">
+            <c02 id="mferd145e697" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Martini, Jean Paul Egide<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd211e703" level="file">
+               <c03 id="mferd145e703" level="file">
                   <did>
                      <container type="box-folder">8/10</container>
                      <unittitle encodinganalog="245$a">Plaisir d'amour<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -605,12 +606,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e714" level="file">
+            <c02 id="mferd145e714" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Méhul, Etienne Nicolas<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd211e720" level="file">
+               <c03 id="mferd145e720" level="file">
                   <did>
                      <container type="box-folder">8/11</container>
                      <unittitle encodinganalog="245$a">Joseph. Air de Joseph<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -618,12 +619,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e728" level="file">
+            <c02 id="mferd145e728" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Monsigny, Pierre-Alexandre<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd211e734" level="file">
+               <c03 id="mferd145e734" level="file">
                   <did>
                      <container type="box-folder">8/11</container>
                      <unittitle encodinganalog="245$a">O ma tendre musette<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -634,7 +635,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e746" level="file">
+            <c02 id="mferd145e746" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Mozart, Wolfgang Amadeus<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
@@ -642,7 +643,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      <extent encodinganalog="300$a"/>
                   </physdesc>
                </did>
-               <c03 id="mferd211e756" level="file">
+               <c03 id="mferd145e756" level="file">
                   <did>
                      <container type="box-folder">9/1</container>
                      <unittitle encodinganalog="245$a">Alleluia<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -652,7 +653,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd211e767" level="file">
+               <c03 id="mferd145e767" level="file">
                   <did>
                      <container type="box-folder">9/2</container>
                      <unittitle encodinganalog="245$a">Cosi fan tutte<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -662,7 +663,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd211e778" level="file">
+               <c03 id="mferd145e778" level="file">
                   <did>
                      <container type="box-folder">9/3</container>
                      <unittitle encodinganalog="245$a">Idomeneo. Zeffiretti lusinghieri<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -672,7 +673,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd211e789" level="file">
+               <c03 id="mferd145e789" level="file">
                   <did>
                      <container type="box-folder">9/4</container>
                      <unittitle encodinganalog="245$a">Lieder<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -685,7 +686,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd211e803" level="file">
+               <c03 id="mferd145e803" level="file">
                   <did>
                      <container type="box-folder">9/5</container>
                      <unittitle encodinganalog="245$a">Lieder<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -699,7 +700,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e817" level="file">
+            <c02 id="mferd145e817" level="file">
                <did>
                   <container type="box-folder">9/6</container>
                   <unittitle encodinganalog="245$a">My favorite songs: Alma Gluck<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -709,12 +710,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e830" level="file">
+            <c02 id="mferd145e830" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Rosa, Salvator<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd211e836" level="file">
+               <c03 id="mferd145e836" level="file">
                   <did>
                      <container type="box-folder">9/7</container>
                      <unittitle encodinganalog="245$a">Only smile, I will ask nothing more<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -725,33 +726,33 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e848" level="file">
+            <c02 id="mferd145e848" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Schubert, Franz<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd211e854" level="file">
+               <c03 id="mferd145e854" level="file">
                   <did>
                      <container type="box-folder">9/8</container>
                      <unittitle encodinganalog="245$a">Die Forelle<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd211e862" level="file">
+               <c03 id="mferd145e862" level="file">
                   <did>
                      <container type="box-folder">9/8</container>
                      <unittitle encodinganalog="245$a">Heidenröslein<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd211e870" level="file">
+               <c03 id="mferd145e870" level="file">
                   <did>
                      <container type="box-folder">9/9</container>
                      <unittitle encodinganalog="245$a">Der Lindenbaum<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd211e878" level="file">
+               <c03 id="mferd145e878" level="file">
                   <did>
                      <container type="box-folder">9/9</container>
                      <unittitle encodinganalog="245$a">Die Post<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -761,7 +762,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd211e889" level="file">
+               <c03 id="mferd145e889" level="file">
                   <did>
                      <container type="box-folder">9/9</container>
                      <unittitle encodinganalog="245$a">An Sylvia<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -772,19 +773,19 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e900" level="file">
+            <c02 id="mferd145e900" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Schumann, Robert<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd211e906" level="file">
+               <c03 id="mferd145e906" level="file">
                   <did>
                      <container type="box-folder">9/10</container>
                      <unittitle encodinganalog="245$a">Auftrage<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd211e914" level="file">
+               <c03 id="mferd145e914" level="file">
                   <did>
                      <container type="box-folder">9/10</container>
                      <unittitle encodinganalog="245$a">Er ist's<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -794,7 +795,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd211e925" level="file">
+               <c03 id="mferd145e925" level="file">
                   <did>
                      <container type="box-folder">9/10</container>
                      <unittitle encodinganalog="245$a">Frühlingsnacht<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -804,14 +805,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd211e936" level="file">
+               <c03 id="mferd145e936" level="file">
                   <did>
                      <container type="box-folder">9/11</container>
                      <unittitle encodinganalog="245$a">Intermezzo<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd211e944" level="file">
+               <c03 id="mferd145e944" level="file">
                   <did>
                      <container type="box-folder">9/11</container>
                      <unittitle encodinganalog="245$a">Der Nussbaum<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -822,12 +823,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e955" level="file">
+            <c02 id="mferd145e955" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Strauss, Richard<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd211e961" level="file">
+               <c03 id="mferd145e961" level="file">
                   <did>
                      <container type="box-folder">9/12</container>
                      <unittitle encodinganalog="245$a">Du meines Herzens Krönelein<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -835,7 +836,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd211e969" level="file">
+            <c02 id="mferd145e969" level="file">
                <did>
                   <container type="box-folder">9/13</container>
                   <unittitle encodinganalog="245$a">Tunebook<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -848,13 +849,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                </did>
             </c02>
          </c01>
-         <c01 id="mferd211e984" level="series">
+         <c01 id="mferd145e984" level="series">
             <did>
                <container type="box">10</container>
                <unittitle encodinganalog="245$a">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1913-1940</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd211e993" level="file">
+            <c02 id="mferd145e993" level="file">
                <did>
                   <container type="box-folder">10/1</container>
                   <unittitle encodinganalog="245$a">Alma Gluck Zimbalist Memorial performance, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940 November 23</unitdate>
@@ -864,14 +865,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </note>
                </did>
             </c02>
-            <c02 id="mferd211e1005" level="file">
+            <c02 id="mferd145e1005" level="file">
                <did>
                   <container type="box-folder">10/2</container>
                   <unittitle encodinganalog="245$a">Articles about AG, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1913, 1938-1939, undated</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd211e1014" level="file">
+            <c02 id="mferd145e1014" level="file">
                <did>
                   <container type="box-folder">10/3</container>
                   <unittitle encodinganalog="245$a">Letter from AG to Marcia Davenport, undated<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -879,7 +880,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   <physdesc>Holograph manuscript, in ink; [1] p.</physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e1024" level="file">
+            <c02 id="mferd145e1024" level="file">
                <did>
                   <container type="box-folder">10/3</container>
                   <unittitle encodinganalog="245$a">Letter from [Uncle] Dan Froham to AG, April 15<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -890,7 +891,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </note>
                </did>
             </c02>
-            <c02 id="mferd211e1037" level="file">
+            <c02 id="mferd145e1037" level="file">
                <did>
                   <container type="box-folder">10/4</container>
                   <unittitle encodinganalog="245$a">Marcia Davenport materials, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932, undated</unitdate>
@@ -898,14 +899,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   <physdesc>Articles and reviews related to her biography on Mozart</physdesc>
                </did>
             </c02>
-            <c02 id="mferd211e1048" level="file">
+            <c02 id="mferd145e1048" level="file">
                <did>
                   <container type="box-folder">10/5</container>
                   <unittitle encodinganalog="245$a">Obituaries, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939, undated</unitdate>
                   </unittitle>
                </did>
             </c02>
-            <c02 id="mferd211e1057" level="file">
+            <c02 id="mferd145e1057" level="file">
                <did>
                   <container type="box-folder">10/6</container>
                   <unittitle encodinganalog="245$a">Sympathy notes and cards regarding death of AG<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -915,7 +916,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010016
                   </note>
                </did>
             </c02>
-            <c02 id="mferd211e1068" level="file">
+            <c02 id="mferd145e1068" level="file">
                <did>
                   <container type="box">10</container>
                   <unittitle encodinganalog="245$a">Davenport, Marcia. Mozart. New York : Charles Scribner's Sons, 1932<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Thu, 22 September 2011 12:12:16 PM EDT
+Generated: Mon, 17 June 2013 02:04:14 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010030--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010030--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010030-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd194e3">
-   <eadheader id="mferd194e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd156e3">
+   <eadheader id="mferd156e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -96,11 +96,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
          </repository>
          <abstract label="Summary" encodinganalog="520$a">Billy May (1916-2004) was an American arranger, composer, musician, and bandleader. The collection chiefly consists of holograph or photocopied manuscript scores, parts, lead sheets, and manuscript sketches. Additional materials include printed scores, part changes, film cues, and a handful of counterpoint exercises.</abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd151e84" altrender=":::F005=^20101202020259.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd151e84" altrender=":::F005=^20101202020259.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd196e7">
+         <controlaccess id="mferd153e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Barnet%2C+Charlie.^">Barnet, Charlie.</persname>
@@ -114,7 +115,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Sinatra%2C+Frank%2C+1915-1998.^">Sinatra, Frank, 1915-1998.</persname>
          </controlaccess>
-         <controlaccess id="mferd196e22">
+         <controlaccess id="mferd153e37">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Arrangers+%28Musicians%29+United+States.^">Arrangers (Musicians)--United States.</subject>
@@ -281,20 +282,20 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd194e359" level="series">
+         <c01 id="mferd156e359" level="series">
             <did>
                <container type="box">1-16</container>
                <unittitle encodinganalog="245$a">Music,
 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939-1995</unitdate>
                </unittitle>
             </did>
-            <c02 id="mferd194e368" level="file">
+            <c02 id="mferd156e368" level="file">
                <did>
                   <unittitle encodinganalog="245$a">All of me 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e374" level="file">
+               <c03 id="mferd156e374" level="file">
                   <did>
                      <container type="box">5/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -302,7 +303,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e382" level="file">
+               <c03 id="mferd156e382" level="file">
                   <did>
                      <container type="box">1/1-2</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -311,13 +312,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e390" level="file">
+            <c02 id="mferd156e390" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Always 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e396" level="file">
+               <c03 id="mferd156e396" level="file">
                   <did>
                      <container type="box">5/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -326,7 +327,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e404" level="file">
+            <c02 id="mferd156e404" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Angel eyes 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -335,7 +336,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Nat King Cole</p>
                   </note>
                </did>
-               <c03 id="mferd194e413" level="file">
+               <c03 id="mferd156e413" level="file">
                   <did>
                      <container type="box">5/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -344,7 +345,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e421" level="file">
+            <c02 id="mferd156e421" level="file">
                <did>
                   <unittitle id="bm04" encodinganalog="245$a">Aviation suite 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -353,7 +354,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>Other title: Wings over Manhattan</p>
                   </note>
                </did>
-               <c03 id="mferd194e430" level="file">
+               <c03 id="mferd156e430" level="file">
                   <did>
                      <container type="box">5/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -361,7 +362,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e438" level="file">
+               <c03 id="mferd156e438" level="file">
                   <did>
                      <container type="box">5/4</container>
                      <unittitle encodinganalog="245$a">Short score 
@@ -370,7 +371,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e446" level="file">
+            <c02 id="mferd156e446" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Back Bay shuffle 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -379,7 +380,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Artie Shaw</p>
                   </note>
                </did>
-               <c03 id="mferd194e455" level="file">
+               <c03 id="mferd156e455" level="file">
                   <did>
                      <container type="box">5/5-6</container>
                      <unittitle encodinganalog="245$a">Scores
@@ -391,13 +392,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e466" level="file">
+            <c02 id="mferd156e466" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Be my love 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e472" level="file">
+               <c03 id="mferd156e472" level="file">
                   <did>
                      <container type="box">1/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -406,7 +407,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e480" level="file">
+            <c02 id="mferd156e480" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The beat goes on 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -415,7 +416,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Charlie Barnet</p>
                   </note>
                </did>
-               <c03 id="mferd194e489" level="file">
+               <c03 id="mferd156e489" level="file">
                   <did>
                      <container type="box">5/7</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -424,13 +425,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e497" level="file">
+            <c02 id="mferd156e497" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Beer barrel polka 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e503" level="file">
+               <c03 id="mferd156e503" level="file">
                   <did>
                      <container type="box">5/8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -439,13 +440,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e511" level="file">
+            <c02 id="mferd156e511" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Blonde again 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e517" level="file">
+               <c03 id="mferd156e517" level="file">
                   <did>
                      <container type="box">5/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -453,7 +454,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e525" level="file">
+               <c03 id="mferd156e525" level="file">
                   <did>
                      <container type="box">5/9</container>
                      <unittitle encodinganalog="245$a">Lead sheet 
@@ -462,13 +463,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e533" level="file">
+            <c02 id="mferd156e533" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Blue and all alone 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e539" level="file">
+               <c03 id="mferd156e539" level="file">
                   <did>
                      <container type="box">5/10</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -476,7 +477,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e547" level="file">
+               <c03 id="mferd156e547" level="file">
                   <did>
                      <container type="box">5/10</container>
                      <unittitle encodinganalog="245$a">Lead sheet 
@@ -485,7 +486,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e556" level="file">
+            <c02 id="mferd156e556" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Blue suede shoes
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -500,13 +501,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </note>
                </did>
             </c02>
-            <c02 id="mferd194e571" level="file">
+            <c02 id="mferd156e571" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Blues medley 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e577" level="file">
+               <c03 id="mferd156e577" level="file">
                   <did>
                      <container type="box">16/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -514,7 +515,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e585" level="file">
+               <c03 id="mferd156e585" level="file">
                   <did>
                      <container type="box">16/1</container>
                      <unittitle encodinganalog="245$a">Short score/sketch 
@@ -523,13 +524,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e593" level="file">
+            <c02 id="mferd156e593" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Bouncing runners 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e599" level="file">
+               <c03 id="mferd156e599" level="file">
                   <did>
                      <container type="box">5/11</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -538,7 +539,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e607" level="file">
+            <c02 id="mferd156e607" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Call me 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -547,7 +548,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Charlie Barnet</p>
                   </note>
                </did>
-               <c03 id="mferd194e616" level="file">
+               <c03 id="mferd156e616" level="file">
                   <did>
                      <container type="box">5/12</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -556,13 +557,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e624" level="file">
+            <c02 id="mferd156e624" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Can't I 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e630" level="file">
+               <c03 id="mferd156e630" level="file">
                   <did>
                      <container type="box">5/13</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -571,7 +572,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e638" level="file">
+            <c02 id="mferd156e638" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Carnival 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -580,7 +581,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Harry James</p>
                   </note>
                </did>
-               <c03 id="mferd194e647" level="file">
+               <c03 id="mferd156e647" level="file">
                   <did>
                      <container type="box">5/14</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -589,7 +590,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e655" level="file">
+            <c02 id="mferd156e655" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Cartoon medley
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -598,7 +599,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For the Boston Pops</p>
                   </note>
                </did>
-               <c03 id="mferd194e664" level="file">
+               <c03 id="mferd156e664" level="file">
                   <did>
                      <container type="box">16/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -606,7 +607,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e672" level="file">
+               <c03 id="mferd156e672" level="file">
                   <did>
                      <container type="box">16/2</container>
                      <unittitle encodinganalog="245$a">Short score/sketch 
@@ -615,13 +616,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e680" level="file">
+            <c02 id="mferd156e680" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Charmaine 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e686" level="file">
+               <c03 id="mferd156e686" level="file">
                   <did>
                      <container type="box">5/15</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -629,7 +630,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e694" level="file">
+               <c03 id="mferd156e694" level="file">
                   <did>
                      <container type="box">5/15</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -638,7 +639,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e702" level="file">
+            <c02 id="mferd156e702" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Cheek to cheek 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -647,7 +648,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Glenn Miller</p>
                   </note>
                </did>
-               <c03 id="mferd194e711" level="file">
+               <c03 id="mferd156e711" level="file">
                   <did>
                      <container type="box">5/16</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -659,7 +660,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e722" level="file">
+            <c02 id="mferd156e722" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Cherokee 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -668,7 +669,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Charlie Barnet</p>
                   </note>
                </did>
-               <c03 id="mferd194e731" level="file">
+               <c03 id="mferd156e731" level="file">
                   <did>
                      <container type="box">5/17</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -677,13 +678,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e739" level="file">
+            <c02 id="mferd156e739" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Chicago 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e745" level="file">
+               <c03 id="mferd156e745" level="file">
                   <did>
                      <container type="box">6/1</container>
                      <unittitle encodinganalog="245$a">Scores
@@ -691,7 +692,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e753" level="file">
+               <c03 id="mferd156e753" level="file">
                   <did>
                      <container type="box">6/1</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -703,13 +704,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e765" level="file">
+            <c02 id="mferd156e765" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Children of the night 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e771" level="file">
+               <c03 id="mferd156e771" level="file">
                   <did>
                      <container type="box">6/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -718,7 +719,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e779" level="file">
+            <c02 id="mferd156e779" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Christmas medley 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -727,7 +728,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For the Boston Pops</p>
                   </note>
                </did>
-               <c03 id="mferd194e788" level="file">
+               <c03 id="mferd156e788" level="file">
                   <did>
                      <container type="box">6/3</container>
                      <unittitle encodinganalog="245$a">Short score/sketch 
@@ -736,13 +737,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e796" level="file">
+            <c02 id="mferd156e796" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Cocktails for two 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e802" level="file">
+               <c03 id="mferd156e802" level="file">
                   <did>
                      <container type="box">6/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -751,7 +752,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e810" level="file">
+            <c02 id="mferd156e810" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Come fly with me 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -760,7 +761,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Frank Sinatra</p>
                   </note>
                </did>
-               <c03 id="mferd194e819" level="file">
+               <c03 id="mferd156e819" level="file">
                   <did>
                      <container type="box">6/5-6</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -768,7 +769,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e827" level="file">
+               <c03 id="mferd156e827" level="file">
                   <did>
                      <container type="box">6/6</container>
                      <unittitle encodinganalog="245$a">Piano-conductor score 
@@ -777,13 +778,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e835" level="file">
+            <c02 id="mferd156e835" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Come rain or come shine 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e841" level="file">
+               <c03 id="mferd156e841" level="file">
                   <did>
                      <container type="box">6/7</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -791,7 +792,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e849" level="file">
+               <c03 id="mferd156e849" level="file">
                   <did>
                      <container type="box">6/7</container>
                      <unittitle encodinganalog="245$a">Horn-double bass score 
@@ -799,7 +800,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e857" level="file">
+               <c03 id="mferd156e857" level="file">
                   <did>
                      <container type="box">6/7</container>
                      <unittitle encodinganalog="245$a">Wind and string parts 
@@ -808,7 +809,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e865" level="file">
+            <c02 id="mferd156e865" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Come together 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -817,7 +818,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Charlie Barnet</p>
                   </note>
                </did>
-               <c03 id="mferd194e874" level="file">
+               <c03 id="mferd156e874" level="file">
                   <did>
                      <container type="box">6/8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -826,13 +827,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e882" level="file">
+            <c02 id="mferd156e882" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Concentrate 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e888" level="file">
+               <c03 id="mferd156e888" level="file">
                   <did>
                      <container type="box">1/4</container>
                      <unittitle encodinganalog="245$a">Short score/sketch 
@@ -841,7 +842,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e896" level="file">
+            <c02 id="mferd156e896" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Congratulate me 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -850,7 +851,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Jack Lemmon</p>
                   </note>
                </did>
-               <c03 id="mferd194e905" level="file">
+               <c03 id="mferd156e905" level="file">
                   <did>
                      <container type="box">6/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -859,13 +860,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e913" level="file">
+            <c02 id="mferd156e913" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Cool water 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e919" level="file">
+               <c03 id="mferd156e919" level="file">
                   <did>
                      <container type="box">6/10</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -874,13 +875,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e927" level="file">
+            <c02 id="mferd156e927" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Dance of the hours 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e933" level="file">
+               <c03 id="mferd156e933" level="file">
                   <did>
                      <container type="box">6/11-12</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -889,13 +890,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e941" level="file">
+            <c02 id="mferd156e941" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Dancing on the ceiling 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e947" level="file">
+               <c03 id="mferd156e947" level="file">
                   <did>
                      <container type="box">6/13</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -903,7 +904,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e955" level="file">
+               <c03 id="mferd156e955" level="file">
                   <did>
                      <container type="box">6/13</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -912,13 +913,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e964" level="file">
+            <c02 id="mferd156e964" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Dat dere 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e970" level="file">
+               <c03 id="mferd156e970" level="file">
                   <did>
                      <container type="box">6/14</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -938,13 +939,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e990" level="file">
+            <c02 id="mferd156e990" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Desert song 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e996" level="file">
+               <c03 id="mferd156e996" level="file">
                   <did>
                      <container type="box">6/15</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -953,7 +954,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1004" level="file">
+            <c02 id="mferd156e1004" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Dichter und Bauer 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -968,7 +969,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </note>
                </did>
             </c02>
-            <c02 id="mferd194e1019" level="file">
+            <c02 id="mferd156e1019" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Do nothin' 'till you hear from me  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -977,7 +978,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Diane Schuur</p>
                   </note>
                </did>
-               <c03 id="mferd194e1028" level="file">
+               <c03 id="mferd156e1028" level="file">
                   <did>
                      <container type="box">6/16</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -986,7 +987,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1036" level="file">
+            <c02 id="mferd156e1036" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Do you know what it means to miss New Orleans? 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -995,7 +996,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For the Canadian Brass</p>
                   </note>
                </did>
-               <c03 id="mferd194e1045" level="file">
+               <c03 id="mferd156e1045" level="file">
                   <did>
                      <container type="box">6/17</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1007,13 +1008,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1056" level="file">
+            <c02 id="mferd156e1056" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Don't be that way 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1062" level="file">
+               <c03 id="mferd156e1062" level="file">
                   <did>
                      <container type="box">6/18</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1022,13 +1023,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1070" level="file">
+            <c02 id="mferd156e1070" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Easy street 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1076" level="file">
+               <c03 id="mferd156e1076" level="file">
                   <did>
                      <container type="box">6/19</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1037,7 +1038,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1084" level="file">
+            <c02 id="mferd156e1084" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Easy to love  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1046,7 +1047,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Diane Schuur</p>
                   </note>
                </did>
-               <c03 id="mferd194e1093" level="file">
+               <c03 id="mferd156e1093" level="file">
                   <did>
                      <container type="box">6/20</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1055,7 +1056,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1101" level="file">
+            <c02 id="mferd156e1101" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Ebb tide 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1064,7 +1065,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Charlie Barnet</p>
                   </note>
                </did>
-               <c03 id="mferd194e1110" level="file">
+               <c03 id="mferd156e1110" level="file">
                   <did>
                      <container type="box">6/21</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1073,13 +1074,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1118" level="file">
+            <c02 id="mferd156e1118" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Es ist genug  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1124" level="file">
+               <c03 id="mferd156e1124" level="file">
                   <did>
                      <container type="box">1/5</container>
                      <unittitle encodinganalog="245$a">Brass parts 
@@ -1088,13 +1089,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1132" level="file">
+            <c02 id="mferd156e1132" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Fat man boogie 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1138" level="file">
+               <c03 id="mferd156e1138" level="file">
                   <did>
                      <container type="box">7/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1103,13 +1104,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1147" level="file">
+            <c02 id="mferd156e1147" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Filet of soul 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1153" level="file">
+               <c03 id="mferd156e1153" level="file">
                   <did>
                      <container type="box">7/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1118,13 +1119,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1161" level="file">
+            <c02 id="mferd156e1161" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Finale--G minor symphony (Mozart)	 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1167" level="file">
+               <c03 id="mferd156e1167" level="file">
                   <did>
                      <container type="box">7/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1133,13 +1134,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1175" level="file">
+            <c02 id="mferd156e1175" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Fingers 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1181" level="file">
+               <c03 id="mferd156e1181" level="file">
                   <did>
                      <container type="box">7/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1148,13 +1149,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1189" level="file">
+            <c02 id="mferd156e1189" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Five foot two 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1195" level="file">
+               <c03 id="mferd156e1195" level="file">
                   <did>
                      <container type="box">7/5</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -1162,7 +1163,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e1203" level="file">
+               <c03 id="mferd156e1203" level="file">
                   <did>
                      <container type="box">7/5</container>
                      <unittitle encodinganalog="245$a">Wind parts
@@ -1174,7 +1175,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1214" level="file">
+            <c02 id="mferd156e1214" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Frank Sinatra medley 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1189,7 +1190,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </note>
                </did>
             </c02>
-            <c02 id="mferd194e1229" level="file">
+            <c02 id="mferd156e1229" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Front page rag 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1198,7 +1199,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>From <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">The Front Page</title> (film, 1974). </p>
                   </note>
                </did>
-               <c03 id="mferd194e1241" level="file">
+               <c03 id="mferd156e1241" level="file">
                   <did>
                      <container type="box">7/7-8</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -1209,7 +1210,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e1252" level="file">
+               <c03 id="mferd156e1252" level="file">
                   <did>
                      <container type="box">1/6-9</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -1218,13 +1219,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1260" level="file">
+            <c02 id="mferd156e1260" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Frenesi 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1266" level="file">
+               <c03 id="mferd156e1266" level="file">
                   <did>
                      <container type="box">7/6</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1233,7 +1234,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1274" level="file">
+            <c02 id="mferd156e1274" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Gin and tonic 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1248,7 +1249,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </note>
                </did>
             </c02>
-            <c02 id="mferd194e1289" level="file">
+            <c02 id="mferd156e1289" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The girl from Ipanema 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1257,7 +1258,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Charlie Barnet</p>
                   </note>
                </did>
-               <c03 id="mferd194e1298" level="file">
+               <c03 id="mferd156e1298" level="file">
                   <did>
                      <container type="box">7/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1266,13 +1267,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1306" level="file">
+            <c02 id="mferd156e1306" level="file">
                <did>
                   <unittitle encodinganalog="245$a">A handful of stars 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1312" level="file">
+               <c03 id="mferd156e1312" level="file">
                   <did>
                      <container type="box">1/10</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -1281,7 +1282,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1320" level="file">
+            <c02 id="mferd156e1320" level="file">
                <did>
                   <unittitle encodinganalog="245$a">A hard day's night 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1290,7 +1291,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Charlie Barnet</p>
                   </note>
                </did>
-               <c03 id="mferd194e1329" level="file">
+               <c03 id="mferd156e1329" level="file">
                   <did>
                      <container type="box">7/10</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1299,13 +1300,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1338" level="file">
+            <c02 id="mferd156e1338" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Hello out there, hello 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1344" level="file">
+               <c03 id="mferd156e1344" level="file">
                   <did>
                      <container type="box">7/11</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1314,13 +1315,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1352" level="file">
+            <c02 id="mferd156e1352" level="file">
                <did>
                   <unittitle encodinganalog="245$a">High noon 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1358" level="file">
+               <c03 id="mferd156e1358" level="file">
                   <did>
                      <container type="box">7/12</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1329,13 +1330,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1366" level="file">
+            <c02 id="mferd156e1366" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Honest and truly 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1372" level="file">
+               <c03 id="mferd156e1372" level="file">
                   <did>
                      <container type="box">7/13</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1344,13 +1345,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1380" level="file">
+            <c02 id="mferd156e1380" level="file">
                <did>
                   <unittitle encodinganalog="245$a">How deep is the ocean? 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1386" level="file">
+               <c03 id="mferd156e1386" level="file">
                   <did>
                      <container type="box">7/14</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1359,13 +1360,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1394" level="file">
+            <c02 id="mferd156e1394" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Huguette waltz  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1400" level="file">
+               <c03 id="mferd156e1400" level="file">
                   <did>
                      <container type="box">8/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1374,13 +1375,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1408" level="file">
+            <c02 id="mferd156e1408" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Hungarian dance no. 5 (Brahms) 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1414" level="file">
+               <c03 id="mferd156e1414" level="file">
                   <did>
                      <container type="box">8/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1389,13 +1390,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1422" level="file">
+            <c02 id="mferd156e1422" level="file">
                <did>
                   <unittitle encodinganalog="245$a">I can't believe (you're in love with me) 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1428" level="file">
+               <c03 id="mferd156e1428" level="file">
                   <did>
                      <container type="box">8/3-4</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -1407,13 +1408,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1439" level="file">
+            <c02 id="mferd156e1439" level="file">
                <did>
                   <unittitle encodinganalog="245$a">I concentrate on you 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1445" level="file">
+               <c03 id="mferd156e1445" level="file">
                   <did>
                      <container type="box">8/5</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1422,13 +1423,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1453" level="file">
+            <c02 id="mferd156e1453" level="file">
                <did>
                   <unittitle encodinganalog="245$a">I don't know where I'm goin' (but I'm glad you come along)  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1459" level="file">
+               <c03 id="mferd156e1459" level="file">
                   <did>
                      <container type="box">8/6</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1439,7 +1440,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e1470" level="file">
+               <c03 id="mferd156e1470" level="file">
                   <did>
                      <container type="box">8/6</container>
                      <unittitle encodinganalog="245$a">Lyric sheets
@@ -1448,13 +1449,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1478" level="file">
+            <c02 id="mferd156e1478" level="file">
                <did>
                   <unittitle encodinganalog="245$a">I guess I'll have to change my plans 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1484" level="file">
+               <c03 id="mferd156e1484" level="file">
                   <did>
                      <container type="box">8/7</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1462,7 +1463,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e1492" level="file">
+               <c03 id="mferd156e1492" level="file">
                   <did>
                      <container type="box">8/7</container>
                      <unittitle encodinganalog="245$a">Parts
@@ -1471,13 +1472,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1500" level="file">
+            <c02 id="mferd156e1500" level="file">
                <did>
                   <unittitle encodinganalog="245$a">I taut I saw a puddy tat 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1506" level="file">
+               <c03 id="mferd156e1506" level="file">
                   <did>
                      <container type="box">2/1</container>
                      <unittitle encodinganalog="245$a">Piano part
@@ -1485,7 +1486,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e1514" level="file">
+               <c03 id="mferd156e1514" level="file">
                   <did>
                      <container type="box">2/1</container>
                      <unittitle encodinganalog="245$a">Lead sheet 
@@ -1494,13 +1495,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1523" level="file">
+            <c02 id="mferd156e1523" level="file">
                <did>
                   <unittitle encodinganalog="245$a">I'll see you again 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1529" level="file">
+               <c03 id="mferd156e1529" level="file">
                   <did>
                      <container type="box">8/8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1509,13 +1510,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1537" level="file">
+            <c02 id="mferd156e1537" level="file">
                <did>
                   <unittitle encodinganalog="245$a">In the mood disco 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1543" level="file">
+               <c03 id="mferd156e1543" level="file">
                   <did>
                      <container type="box">8/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1524,13 +1525,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1551" level="file">
+            <c02 id="mferd156e1551" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Italian street song  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1557" level="file">
+               <c03 id="mferd156e1557" level="file">
                   <did>
                      <container type="box">8/10</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1539,7 +1540,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1565" level="file">
+            <c02 id="mferd156e1565" level="file">
                <did>
                   <unittitle encodinganalog="245$a">It's easy to remember 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1548,7 +1549,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>Arrangement by Gil Evans for the Billy May Orchestra</p>
                   </note>
                </did>
-               <c03 id="mferd194e1574" level="file">
+               <c03 id="mferd156e1574" level="file">
                   <did>
                      <container type="box">8/11</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1557,13 +1558,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1582" level="file">
+            <c02 id="mferd156e1582" level="file">
                <did>
                   <unittitle encodinganalog="245$a">I've got you under my skin 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1588" level="file">
+               <c03 id="mferd156e1588" level="file">
                   <did>
                      <container type="box">8/12</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1572,13 +1573,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1596" level="file">
+            <c02 id="mferd156e1596" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Joanna 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1602" level="file">
+               <c03 id="mferd156e1602" level="file">
                   <did>
                      <container type="box">2/2</container>
                      <unittitle encodinganalog="245$a">Short score/sketch 
@@ -1587,13 +1588,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1610" level="file">
+            <c02 id="mferd156e1610" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Jornal do Brasil 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1616" level="file">
+               <c03 id="mferd156e1616" level="file">
                   <did>
                      <container type="box">8/13</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1602,13 +1603,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1624" level="file">
+            <c02 id="mferd156e1624" level="file">
                <did>
                   <unittitle encodinganalog="245$a">King David 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1630" level="file">
+               <c03 id="mferd156e1630" level="file">
                   <did>
                      <container type="box">2/3</container>
                      <unittitle encodinganalog="245$a">Brass parts 
@@ -1617,13 +1618,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1638" level="file">
+            <c02 id="mferd156e1638" level="file">
                <did>
                   <unittitle encodinganalog="245$a">A kiss to build a dream on 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1644" level="file">
+               <c03 id="mferd156e1644" level="file">
                   <did>
                      <container type="box">2/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1632,13 +1633,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1652" level="file">
+            <c02 id="mferd156e1652" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Late, late show 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1658" level="file">
+               <c03 id="mferd156e1658" level="file">
                   <did>
                      <container type="box">8/14</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1647,13 +1648,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1666" level="file">
+            <c02 id="mferd156e1666" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Lean baby  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1672" level="file">
+               <c03 id="mferd156e1672" level="file">
                   <did>
                      <container type="box">8/15</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1661,7 +1662,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e1680" level="file">
+               <c03 id="mferd156e1680" level="file">
                   <did>
                      <container type="box">2/5-6, 8/15</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -1670,13 +1671,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1689" level="file">
+            <c02 id="mferd156e1689" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Little mo' 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1695" level="file">
+               <c03 id="mferd156e1695" level="file">
                   <did>
                      <container type="box">8/16</container>
                      <unittitle encodinganalog="245$a">Short score/sketch 
@@ -1691,13 +1692,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1709" level="file">
+            <c02 id="mferd156e1709" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Long hair mambo 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1715" level="file">
+               <c03 id="mferd156e1715" level="file">
                   <did>
                      <container type="box">8/17</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1706,13 +1707,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1723" level="file">
+            <c02 id="mferd156e1723" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Love is just around the corner  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1729" level="file">
+               <c03 id="mferd156e1729" level="file">
                   <did>
                      <container type="box">8/18</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1721,13 +1722,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1737" level="file">
+            <c02 id="mferd156e1737" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Love wise 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1743" level="file">
+               <c03 id="mferd156e1743" level="file">
                   <did>
                      <container type="box">8/19</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1735,7 +1736,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e1751" level="file">
+               <c03 id="mferd156e1751" level="file">
                   <did>
                      <container type="box">8/19</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -1744,13 +1745,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1759" level="file">
+            <c02 id="mferd156e1759" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Lover 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1765" level="file">
+               <c03 id="mferd156e1765" level="file">
                   <did>
                      <container type="box">8/20</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1759,13 +1760,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1773" level="file">
+            <c02 id="mferd156e1773" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Lover come back to me  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1779" level="file">
+               <c03 id="mferd156e1779" level="file">
                   <did>
                      <container type="box">9/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1773,7 +1774,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e1787" level="file">
+               <c03 id="mferd156e1787" level="file">
                   <did>
                      <container type="box">9/2</container>
                      <unittitle encodinganalog="245$a">Parts
@@ -1782,13 +1783,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1795" level="file">
+            <c02 id="mferd156e1795" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Lullaby in rhythm 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1801" level="file">
+               <c03 id="mferd156e1801" level="file">
                   <did>
                      <container type="box">9/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1797,13 +1798,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1809" level="file">
+            <c02 id="mferd156e1809" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Lulu's back in town 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1815" level="file">
+               <c03 id="mferd156e1815" level="file">
                   <did>
                      <container type="box">9/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1812,13 +1813,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1823" level="file">
+            <c02 id="mferd156e1823" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Mad about the boy 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1829" level="file">
+               <c03 id="mferd156e1829" level="file">
                   <did>
                      <container type="box">9/5</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1827,13 +1828,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1837" level="file">
+            <c02 id="mferd156e1837" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The man I love 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1843" level="file">
+               <c03 id="mferd156e1843" level="file">
                   <did>
                      <container type="box">9/6</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1842,13 +1843,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1851" level="file">
+            <c02 id="mferd156e1851" level="file">
                <did>
                   <unittitle encodinganalog="245$a">March of the toys  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1857" level="file">
+               <c03 id="mferd156e1857" level="file">
                   <did>
                      <container type="box">9/7</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1860,13 +1861,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1869" level="file">
+            <c02 id="mferd156e1869" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Melody in F 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1875" level="file">
+               <c03 id="mferd156e1875" level="file">
                   <did>
                      <container type="box">9/8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1875,13 +1876,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1883" level="file">
+            <c02 id="mferd156e1883" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Michelle 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1889" level="file">
+               <c03 id="mferd156e1889" level="file">
                   <did>
                      <container type="box">9/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1890,13 +1891,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1897" level="file">
+            <c02 id="mferd156e1897" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Miles behind 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1903" level="file">
+               <c03 id="mferd156e1903" level="file">
                   <did>
                      <container type="box">9/10</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1905,13 +1906,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1911" level="file">
+            <c02 id="mferd156e1911" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Minuet (Paderewski) 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1917" level="file">
+               <c03 id="mferd156e1917" level="file">
                   <did>
                      <container type="box">9/11</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1920,13 +1921,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1925" level="file">
+            <c02 id="mferd156e1925" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Minuet in G 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1931" level="file">
+               <c03 id="mferd156e1931" level="file">
                   <did>
                      <container type="box">9/12</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1935,13 +1936,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1939" level="file">
+            <c02 id="mferd156e1939" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Moanin' 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1945" level="file">
+               <c03 id="mferd156e1945" level="file">
                   <did>
                      <container type="box">9/13</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1950,13 +1951,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1953" level="file">
+            <c02 id="mferd156e1953" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Morning sunrise 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1959" level="file">
+               <c03 id="mferd156e1959" level="file">
                   <did>
                      <container type="box">9/14</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1965,7 +1966,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1967" level="file">
+            <c02 id="mferd156e1967" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Music to watch girls by 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -1974,7 +1975,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Charlie Barnet</p>
                   </note>
                </did>
-               <c03 id="mferd194e1976" level="file">
+               <c03 id="mferd156e1976" level="file">
                   <did>
                      <container type="box">9/15</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1983,13 +1984,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1984" level="file">
+            <c02 id="mferd156e1984" level="file">
                <did>
                   <unittitle encodinganalog="245$a">My last affair 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e1990" level="file">
+               <c03 id="mferd156e1990" level="file">
                   <did>
                      <container type="box">9/16</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -1998,7 +1999,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e1998" level="file">
+            <c02 id="mferd156e1998" level="file">
                <did>
                   <unittitle id="bm05" encodinganalog="245$a">My little suede shoes 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2007,7 +2008,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>Other title: Blue suede shoes</p>
                   </note>
                </did>
-               <c03 id="mferd194e2007" level="file">
+               <c03 id="mferd156e2007" level="file">
                   <did>
                      <container type="box">9/17</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2016,13 +2017,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2015" level="file">
+            <c02 id="mferd156e2015" level="file">
                <did>
                   <unittitle encodinganalog="245$a">My old flame 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2021" level="file">
+               <c03 id="mferd156e2021" level="file">
                   <did>
                      <container type="box">2/7</container>
                      <unittitle encodinganalog="245$a">Short score/sketch 
@@ -2031,13 +2032,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2030" level="file">
+            <c02 id="mferd156e2030" level="file">
                <did>
                   <unittitle encodinganalog="245$a">My silent love 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2036" level="file">
+               <c03 id="mferd156e2036" level="file">
                   <did>
                      <container type="box">10/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2045,7 +2046,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2044" level="file">
+               <c03 id="mferd156e2044" level="file">
                   <did>
                      <container type="box">10/1</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -2054,7 +2055,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2052" level="file">
+            <c02 id="mferd156e2052" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Nancy 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2063,7 +2064,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Al Hirt</p>
                   </note>
                </did>
-               <c03 id="mferd194e2061" level="file">
+               <c03 id="mferd156e2061" level="file">
                   <did>
                      <container type="box">10/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2072,13 +2073,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2069" level="file">
+            <c02 id="mferd156e2069" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Nelson [i.e. D.D. Nelson] tunes 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2075" level="file">
+               <c03 id="mferd156e2075" level="file">
                   <did>
                      <container type="box">2/8</container>
                      <unittitle encodinganalog="245$a">Lead sheets 
@@ -2090,13 +2091,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2086" level="file">
+            <c02 id="mferd156e2086" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Nova amor 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2092" level="file">
+               <c03 id="mferd156e2092" level="file">
                   <did>
                      <container type="box">10/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2105,7 +2106,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2100" level="file">
+            <c02 id="mferd156e2100" level="file">
                <did>
                   <unittitle id="bm02" encodinganalog="245$a">Nutty squirrels 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2114,7 +2115,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>Other title: Uh! Oh!</p>
                   </note>
                </did>
-               <c03 id="mferd194e2109" level="file">
+               <c03 id="mferd156e2109" level="file">
                   <did>
                      <container type="box">10/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2123,13 +2124,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2117" level="file">
+            <c02 id="mferd156e2117" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Oh by jingo 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2123" level="file">
+               <c03 id="mferd156e2123" level="file">
                   <did>
                      <container type="box">10/5</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2140,7 +2141,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2134" level="file">
+               <c03 id="mferd156e2134" level="file">
                   <did>
                      <container type="box">2/9</container>
                      <unittitle encodinganalog="245$a">Wind and brass parts 
@@ -2149,13 +2150,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2142" level="file">
+            <c02 id="mferd156e2142" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Old Cayucos 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2148" level="file">
+               <c03 id="mferd156e2148" level="file">
                   <did>
                      <container type="box">10/6</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2163,7 +2164,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2156" level="file">
+               <c03 id="mferd156e2156" level="file">
                   <did>
                      <container type="box">10/6</container>
                      <unittitle encodinganalog="245$a">Lead sheet 
@@ -2172,13 +2173,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2164" level="file">
+            <c02 id="mferd156e2164" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Old gold--Theme 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2170" level="file">
+               <c03 id="mferd156e2170" level="file">
                   <did>
                      <container type="box">2/10</container>
                      <unittitle encodinganalog="245$a">Piano score 
@@ -2187,13 +2188,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2178" level="file">
+            <c02 id="mferd156e2178" level="file">
                <did>
                   <unittitle encodinganalog="245$a">One kiss 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2184" level="file">
+               <c03 id="mferd156e2184" level="file">
                   <did>
                      <container type="box">10/7</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2202,13 +2203,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2192" level="file">
+            <c02 id="mferd156e2192" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Opportunity rag 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2198" level="file">
+               <c03 id="mferd156e2198" level="file">
                   <did>
                      <container type="box">10/8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2216,7 +2217,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2206" level="file">
+               <c03 id="mferd156e2206" level="file">
                   <did>
                      <container type="box">10/8</container>
                      <unittitle encodinganalog="245$a">Lead sheet 
@@ -2225,13 +2226,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2214" level="file">
+            <c02 id="mferd156e2214" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Opus one 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2220" level="file">
+               <c03 id="mferd156e2220" level="file">
                   <did>
                      <container type="box">2/11</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2240,13 +2241,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2229" level="file">
+            <c02 id="mferd156e2229" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Orchids 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2235" level="file">
+               <c03 id="mferd156e2235" level="file">
                   <did>
                      <container type="box">10/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2255,7 +2256,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2243" level="file">
+            <c02 id="mferd156e2243" level="file">
                <did>
                   <unittitle id="bm01" encodinganalog="245$a">Overture '88 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2267,7 +2268,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>Other title: Frank Sinatra medley</p>
                   </note>
                </did>
-               <c03 id="mferd194e2255" level="file">
+               <c03 id="mferd156e2255" level="file">
                   <did>
                      <container type="box">10/10</container>
                      <unittitle encodinganalog="245$a">Score
@@ -2278,7 +2279,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2266" level="file">
+               <c03 id="mferd156e2266" level="file">
                   <did>
                      <container type="box">10/10</container>
                      <unittitle encodinganalog="245$a">Piano-conductor score
@@ -2287,7 +2288,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2274" level="file">
+            <c02 id="mferd156e2274" level="file">
                <did>
                   <unittitle id="bm03" encodinganalog="245$a">Ozzie's tune 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2296,7 +2297,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>Other title: Gin and tonic</p>
                   </note>
                </did>
-               <c03 id="mferd194e2283" level="file">
+               <c03 id="mferd156e2283" level="file">
                   <did>
                      <container type="box">11/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2305,13 +2306,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2291" level="file">
+            <c02 id="mferd156e2291" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Panama 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2297" level="file">
+               <c03 id="mferd156e2297" level="file">
                   <did>
                      <container type="box">11/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2322,7 +2323,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2308" level="file">
+               <c03 id="mferd156e2308" level="file">
                   <did>
                      <container type="box">2/12-13</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -2334,13 +2335,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2319" level="file">
+            <c02 id="mferd156e2319" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Perfidia 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2325" level="file">
+               <c03 id="mferd156e2325" level="file">
                   <did>
                      <container type="box">11/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2348,7 +2349,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2333" level="file">
+               <c03 id="mferd156e2333" level="file">
                   <did>
                      <container type="box">11/3</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -2357,13 +2358,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2341" level="file">
+            <c02 id="mferd156e2341" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Persian market 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2347" level="file">
+               <c03 id="mferd156e2347" level="file">
                   <did>
                      <container type="box">11/4</container>
                      <unittitle encodinganalog="245$a">Score
@@ -2374,7 +2375,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2358" level="file">
+               <c03 id="mferd156e2358" level="file">
                   <did>
                      <container type="box">3/1-2</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -2383,13 +2384,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2366" level="file">
+            <c02 id="mferd156e2366" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Pick yourself up 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2372" level="file">
+               <c03 id="mferd156e2372" level="file">
                   <did>
                      <container type="box">11/5</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2398,13 +2399,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2380" level="file">
+            <c02 id="mferd156e2380" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Playboy's theme 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2386" level="file">
+               <c03 id="mferd156e2386" level="file">
                   <did>
                      <container type="box">11/6</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2413,7 +2414,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2394" level="file">
+            <c02 id="mferd156e2394" level="file">
                <did>
                   <unittitle id="bm06" encodinganalog="245$a">Poet and peasant 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2422,7 +2423,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>Other title: Dichter und Bauer</p>
                   </note>
                </did>
-               <c03 id="mferd194e2403" level="file">
+               <c03 id="mferd156e2403" level="file">
                   <did>
                      <container type="box">11/7-8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2431,13 +2432,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2411" level="file">
+            <c02 id="mferd156e2411" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The preacher 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2417" level="file">
+               <c03 id="mferd156e2417" level="file">
                   <did>
                      <container type="box">11/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2446,13 +2447,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2425" level="file">
+            <c02 id="mferd156e2425" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Pretty playthings 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2431" level="file">
+               <c03 id="mferd156e2431" level="file">
                   <did>
                      <container type="box">11/10</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2460,7 +2461,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2439" level="file">
+               <c03 id="mferd156e2439" level="file">
                   <did>
                      <container type="box">11/10</container>
                      <unittitle encodinganalog="245$a">Lead sheet 
@@ -2469,7 +2470,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2448" level="file">
+            <c02 id="mferd156e2448" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Purple 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2478,7 +2479,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Frank Sinatra</p>
                   </note>
                </did>
-               <c03 id="mferd194e2457" level="file">
+               <c03 id="mferd156e2457" level="file">
                   <did>
                      <container type="box">11/11</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2489,7 +2490,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2468" level="file">
+               <c03 id="mferd156e2468" level="file">
                   <did>
                      <container type="box">11/11</container>
                      <unittitle encodinganalog="245$a">Condensed score 
@@ -2498,13 +2499,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2476" level="file">
+            <c02 id="mferd156e2476" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Quiet hours 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2482" level="file">
+               <c03 id="mferd156e2482" level="file">
                   <did>
                      <container type="box">11/12</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2513,7 +2514,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2490" level="file">
+            <c02 id="mferd156e2490" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Reunion song 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2522,7 +2523,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>From <title xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">American Reunion</title> (film, 1976)</p>
                   </note>
                </did>
-               <c03 id="mferd194e2502" level="file">
+               <c03 id="mferd156e2502" level="file">
                   <did>
                      <container type="box">11/13</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2534,13 +2535,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2513" level="file">
+            <c02 id="mferd156e2513" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Riverboat shuffle 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2519" level="file">
+               <c03 id="mferd156e2519" level="file">
                   <did>
                      <container type="box">11/14</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2549,13 +2550,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2527" level="file">
+            <c02 id="mferd156e2527" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Rose Marie 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2533" level="file">
+               <c03 id="mferd156e2533" level="file">
                   <did>
                      <container type="box">11/15</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2564,13 +2565,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2541" level="file">
+            <c02 id="mferd156e2541" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Santa Lucia 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2547" level="file">
+               <c03 id="mferd156e2547" level="file">
                   <did>
                      <container type="box">12/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2579,13 +2580,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2555" level="file">
+            <c02 id="mferd156e2555" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Say it isn't so 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2561" level="file">
+               <c03 id="mferd156e2561" level="file">
                   <did>
                      <container type="box">12/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2593,7 +2594,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2569" level="file">
+               <c03 id="mferd156e2569" level="file">
                   <did>
                      <container type="box">4/1-2</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -2602,13 +2603,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2577" level="file">
+            <c02 id="mferd156e2577" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The second chase 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2583" level="file">
+               <c03 id="mferd156e2583" level="file">
                   <did>
                      <container type="box">12/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2617,13 +2618,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2591" level="file">
+            <c02 id="mferd156e2591" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Serenade--Student Prince 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2597" level="file">
+               <c03 id="mferd156e2597" level="file">
                   <did>
                      <container type="box">12/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2632,13 +2633,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2605" level="file">
+            <c02 id="mferd156e2605" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Sergeants Three (film, 1962) 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2611" level="file">
+               <c03 id="mferd156e2611" level="file">
                   <did>
                      <container type="box">12/5-7</container>
                      <unittitle encodinganalog="245$a">Short scores 
@@ -2647,7 +2648,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2619" level="file">
+            <c02 id="mferd156e2619" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The setting sun 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2656,7 +2657,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Ella Fitzgerald</p>
                   </note>
                </did>
-               <c03 id="mferd194e2628" level="file">
+               <c03 id="mferd156e2628" level="file">
                   <did>
                      <container type="box">12/8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2664,7 +2665,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2636" level="file">
+               <c03 id="mferd156e2636" level="file">
                   <did>
                      <container type="box">12/8</container>
                      <unittitle encodinganalog="245$a">Piano-conductor score 
@@ -2673,13 +2674,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2645" level="file">
+            <c02 id="mferd156e2645" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The shadow of your smile 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2651" level="file">
+               <c03 id="mferd156e2651" level="file">
                   <did>
                      <container type="box">4/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2687,7 +2688,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2659" level="file">
+               <c03 id="mferd156e2659" level="file">
                   <did>
                      <container type="box">4/3</container>
                      <unittitle encodinganalog="245$a">Short score/sketch 
@@ -2696,13 +2697,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2667" level="file">
+            <c02 id="mferd156e2667" level="file">
                <did>
                   <unittitle encodinganalog="245$a">She didn't say yes  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2673" level="file">
+               <c03 id="mferd156e2673" level="file">
                   <did>
                      <container type="box">12/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2711,13 +2712,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2681" level="file">
+            <c02 id="mferd156e2681" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The sheik of Araby 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2687" level="file">
+               <c03 id="mferd156e2687" level="file">
                   <did>
                      <container type="box">12/10</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2726,13 +2727,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2695" level="file">
+            <c02 id="mferd156e2695" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Shiny stockings 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2701" level="file">
+               <c03 id="mferd156e2701" level="file">
                   <did>
                      <container type="box">13/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2741,13 +2742,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2709" level="file">
+            <c02 id="mferd156e2709" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Silvery cloud 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2715" level="file">
+               <c03 id="mferd156e2715" level="file">
                   <did>
                      <container type="box">13/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2756,13 +2757,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2723" level="file">
+            <c02 id="mferd156e2723" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Skyliner 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2729" level="file">
+               <c03 id="mferd156e2729" level="file">
                   <did>
                      <container type="box">13/3-4</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -2774,13 +2775,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2740" level="file">
+            <c02 id="mferd156e2740" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Softly, as I leave you 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2746" level="file">
+               <c03 id="mferd156e2746" level="file">
                   <did>
                      <container type="box">13/5</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2789,13 +2790,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2754" level="file">
+            <c02 id="mferd156e2754" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Solving the riddle  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2760" level="file">
+               <c03 id="mferd156e2760" level="file">
                   <did>
                      <container type="box">13/6</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2803,7 +2804,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2768" level="file">
+               <c03 id="mferd156e2768" level="file">
                   <did>
                      <container type="box">13/6</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -2812,13 +2813,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2776" level="file">
+            <c02 id="mferd156e2776" level="file">
                <did>
                   <unittitle encodinganalog="245$a">The song is you 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2782" level="file">
+               <c03 id="mferd156e2782" level="file">
                   <did>
                      <container type="box">13/7</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2827,13 +2828,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2790" level="file">
+            <c02 id="mferd156e2790" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Sooper sloop 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2796" level="file">
+               <c03 id="mferd156e2796" level="file">
                   <did>
                      <container type="box">13/8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2842,13 +2843,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2804" level="file">
+            <c02 id="mferd156e2804" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Sorta blues 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2810" level="file">
+               <c03 id="mferd156e2810" level="file">
                   <did>
                      <container type="box">13/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2857,7 +2858,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2819" level="file">
+            <c02 id="mferd156e2819" level="file">
                <did>
                   <unittitle encodinganalog="245$a">South Rampart Street parade 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -2866,7 +2867,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Al Hirt</p>
                   </note>
                </did>
-               <c03 id="mferd194e2828" level="file">
+               <c03 id="mferd156e2828" level="file">
                   <did>
                      <container type="box">13/10</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -2877,7 +2878,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2839" level="file">
+               <c03 id="mferd156e2839" level="file">
                   <did>
                      <container type="box">3/3-4</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -2886,13 +2887,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2847" level="file">
+            <c02 id="mferd156e2847" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Star eyes 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2853" level="file">
+               <c03 id="mferd156e2853" level="file">
                   <did>
                      <container type="box">13/11</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2901,13 +2902,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2861" level="file">
+            <c02 id="mferd156e2861" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Strangers in the night 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2867" level="file">
+               <c03 id="mferd156e2867" level="file">
                   <did>
                      <container type="box">13/12</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2915,7 +2916,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2875" level="file">
+               <c03 id="mferd156e2875" level="file">
                   <did>
                      <container type="box">13/12</container>
                      <unittitle encodinganalog="245$a">Parts
@@ -2924,13 +2925,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2883" level="file">
+            <c02 id="mferd156e2883" level="file">
                <did>
                   <unittitle id="bm07" encodinganalog="245$a">Studies and sketches 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2889" level="file">
+               <c03 id="mferd156e2889" level="file">
                   <did>
                      <container type="box">4/4</container>
                      <unittitle encodinganalog="245$a">Exercises and miscellaneous sketches 
@@ -2941,7 +2942,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2900" level="file">
+               <c03 id="mferd156e2900" level="file">
                   <did>
                      <container type="box">4/5</container>
                      <unittitle encodinganalog="245$a">Counterpoint exercises 
@@ -2949,7 +2950,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e2908" level="file">
+               <c03 id="mferd156e2908" level="file">
                   <did>
                      <container type="box">4/6</container>
                      <unittitle encodinganalog="245$a">Exercises and miscellaneous sketches 
@@ -2960,7 +2961,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2919" level="file">
+               <c03 id="mferd156e2919" level="file">
                   <did>
                      <container type="box">4/7</container>
                      <unittitle encodinganalog="245$a">Exercises and miscellaneous sketches 
@@ -2971,7 +2972,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2930" level="file">
+               <c03 id="mferd156e2930" level="file">
                   <did>
                      <container type="box">4/8</container>
                      <unittitle encodinganalog="245$a">Counterpoint exercises 
@@ -2980,13 +2981,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2938" level="file">
+            <c02 id="mferd156e2938" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Sunset colors 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2944" level="file">
+               <c03 id="mferd156e2944" level="file">
                   <did>
                      <container type="box">13/13</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -2995,7 +2996,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2952" level="file">
+            <c02 id="mferd156e2952" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Take the A train 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -3004,7 +3005,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For Glenn Miller</p>
                   </note>
                </did>
-               <c03 id="mferd194e2961" level="file">
+               <c03 id="mferd156e2961" level="file">
                   <did>
                      <container type="box">14/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3013,13 +3014,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2969" level="file">
+            <c02 id="mferd156e2969" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Tenderly 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e2975" level="file">
+               <c03 id="mferd156e2975" level="file">
                   <did>
                      <container type="box">14/2-3</container>
                      <unittitle encodinganalog="245$a">Scores 
@@ -3030,7 +3031,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd194e2986" level="file">
+               <c03 id="mferd156e2986" level="file">
                   <did>
                      <container type="box">14/2</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -3039,13 +3040,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e2994" level="file">
+            <c02 id="mferd156e2994" level="file">
                <did>
                   <unittitle encodinganalog="245$a">That old black magic 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3000" level="file">
+               <c03 id="mferd156e3000" level="file">
                   <did>
                      <container type="box">4/9</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -3054,13 +3055,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3008" level="file">
+            <c02 id="mferd156e3008" level="file">
                <did>
                   <unittitle encodinganalog="245$a">There is no greater love 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3014" level="file">
+               <c03 id="mferd156e3014" level="file">
                   <did>
                      <container type="box">14/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3069,13 +3070,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3022" level="file">
+            <c02 id="mferd156e3022" level="file">
                <did>
                   <unittitle encodinganalog="245$a">These are the good old days 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3028" level="file">
+               <c03 id="mferd156e3028" level="file">
                   <did>
                      <container type="box">14/5</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3083,7 +3084,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e3036" level="file">
+               <c03 id="mferd156e3036" level="file">
                   <did>
                      <container type="box">14/5</container>
                      <unittitle encodinganalog="245$a">Lead sheet 
@@ -3092,13 +3093,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3044" level="file">
+            <c02 id="mferd156e3044" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Thou swell 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3050" level="file">
+               <c03 id="mferd156e3050" level="file">
                   <did>
                      <container type="box">14/6</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3107,13 +3108,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3059" level="file">
+            <c02 id="mferd156e3059" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Turk's tune 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3065" level="file">
+               <c03 id="mferd156e3065" level="file">
                   <did>
                      <container type="box">14/7</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3122,7 +3123,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3073" level="file">
+            <c02 id="mferd156e3073" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Twelve days of Christmas 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -3131,7 +3132,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      <p>For the Boston Pops</p>
                   </note>
                </did>
-               <c03 id="mferd194e3082" level="file">
+               <c03 id="mferd156e3082" level="file">
                   <did>
                      <container type="box">16/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3140,7 +3141,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3090" level="file">
+            <c02 id="mferd156e3090" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Uh! Oh!
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -3155,13 +3156,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </note>
                </did>
             </c02>
-            <c02 id="mferd194e3105" level="file">
+            <c02 id="mferd156e3105" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Unforgettable 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3111" level="file">
+               <c03 id="mferd156e3111" level="file">
                   <did>
                      <container type="box">14/8</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3170,13 +3171,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3119" level="file">
+            <c02 id="mferd156e3119" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Vilia 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3125" level="file">
+               <c03 id="mferd156e3125" level="file">
                   <did>
                      <container type="box">14/9</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3185,13 +3186,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3133" level="file">
+            <c02 id="mferd156e3133" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Violin concerto (Tchaikovsky) 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3139" level="file">
+               <c03 id="mferd156e3139" level="file">
                   <did>
                      <container type="box">14/10</container>
                      <unittitle encodinganalog="245$a">Violin and trumpet parts 
@@ -3200,13 +3201,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3147" level="file">
+            <c02 id="mferd156e3147" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Waltzing Matilda 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3153" level="file">
+               <c03 id="mferd156e3153" level="file">
                   <did>
                      <container type="box">14/11</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3218,13 +3219,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3164" level="file">
+            <c02 id="mferd156e3164" level="file">
                <did>
                   <unittitle encodinganalog="245$a">When I take my sugar to tea 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3170" level="file">
+               <c03 id="mferd156e3170" level="file">
                   <did>
                      <container type="box">14/12</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3233,13 +3234,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3178" level="file">
+            <c02 id="mferd156e3178" level="file">
                <did>
                   <unittitle encodinganalog="245$a">When my sugar walks down the street  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3184" level="file">
+               <c03 id="mferd156e3184" level="file">
                   <did>
                      <container type="box">14/13</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3248,13 +3249,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3192" level="file">
+            <c02 id="mferd156e3192" level="file">
                <did>
                   <unittitle encodinganalog="245$a">When the saints go marching in 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3198" level="file">
+               <c03 id="mferd156e3198" level="file">
                   <did>
                      <container type="box">14/14</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3262,7 +3263,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e3206" level="file">
+               <c03 id="mferd156e3206" level="file">
                   <did>
                      <container type="box">14/14</container>
                      <unittitle encodinganalog="245$a">Short scores/sketches 
@@ -3277,13 +3278,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3220" level="file">
+            <c02 id="mferd156e3220" level="file">
                <did>
                   <unittitle encodinganalog="245$a">When your lover has gone  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3226" level="file">
+               <c03 id="mferd156e3226" level="file">
                   <did>
                      <container type="box">15/1</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3292,13 +3293,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3235" level="file">
+            <c02 id="mferd156e3235" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Whisper not 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3241" level="file">
+               <c03 id="mferd156e3241" level="file">
                   <did>
                      <container type="box">15/2</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3307,7 +3308,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3249" level="file">
+            <c02 id="mferd156e3249" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Wings over Manhattan 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
@@ -3322,13 +3323,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </note>
                </did>
             </c02>
-            <c02 id="mferd194e3264" level="file">
+            <c02 id="mferd156e3264" level="file">
                <did>
                   <unittitle encodinganalog="245$a">You ain't makin' it 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3270" level="file">
+               <c03 id="mferd156e3270" level="file">
                   <did>
                      <container type="box">15/3</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3337,13 +3338,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3278" level="file">
+            <c02 id="mferd156e3278" level="file">
                <did>
                   <unittitle encodinganalog="245$a">You and the night and the music  
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3284" level="file">
+               <c03 id="mferd156e3284" level="file">
                   <did>
                      <container type="box">15/4</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3351,7 +3352,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e3292" level="file">
+               <c03 id="mferd156e3292" level="file">
                   <did>
                      <container type="box">15/4</container>
                      <unittitle encodinganalog="245$a">Parts
@@ -3360,13 +3361,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3300" level="file">
+            <c02 id="mferd156e3300" level="file">
                <did>
                   <unittitle encodinganalog="245$a">You may swing 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3306" level="file">
+               <c03 id="mferd156e3306" level="file">
                   <did>
                      <container type="box">15/5</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3375,13 +3376,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3314" level="file">
+            <c02 id="mferd156e3314" level="file">
                <did>
                   <unittitle encodinganalog="245$a">You stepped out of a dream 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3320" level="file">
+               <c03 id="mferd156e3320" level="file">
                   <did>
                      <container type="box">4/10</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3390,13 +3391,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3328" level="file">
+            <c02 id="mferd156e3328" level="file">
                <did>
                   <unittitle encodinganalog="245$a">You'd be so nice to come home to 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3334" level="file">
+               <c03 id="mferd156e3334" level="file">
                   <did>
                      <container type="box">15/6</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3405,13 +3406,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3342" level="file">
+            <c02 id="mferd156e3342" level="file">
                <did>
                   <unittitle encodinganalog="245$a">You're the top 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3348" level="file">
+               <c03 id="mferd156e3348" level="file">
                   <did>
                      <container type="box">15/7</container>
                      <unittitle encodinganalog="245$a">Score 
@@ -3419,7 +3420,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                      </unittitle>
                   </did>
                </c03>
-               <c03 id="mferd194e3356" level="file">
+               <c03 id="mferd156e3356" level="file">
                   <did>
                      <container type="box">15/7</container>
                      <unittitle encodinganalog="245$a">Parts 
@@ -3428,13 +3429,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010030
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd194e3364" level="file">
+            <c02 id="mferd156e3364" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Unidentified 
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd194e3370" level="file">
+               <c03 id="mferd156e3370" level="file">
                   <did>
                      <container type="box">15/8</container>
                      <unittitle encodinganalog="245$a">Score fragment 

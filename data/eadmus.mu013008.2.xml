@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Thu, 31 October 2013 08:11:27 AM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu013008
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu013008--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu013008--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu013008-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd26e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd26e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu013008"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu013008</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Mildred Spiegel Zucker Collection of Leonard Bernstein Correspondence and Related Materials</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress<lb/>
+            </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2013" encodinganalog="260$c">2013</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2013568038"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2013568038</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2013">2013</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd26e49">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Mildred Spiegel Zucker Collection of Leonard Bernstein Correspondence and Related Materials<unitdate label="Span Dates" type="inclusive" normal="1936/1991" encodinganalog="245$f"
+                      datechar="creation">1936-1991</unitdate>
+            <unitdate label="Bulk Dates" type="bulk" normal="1936/1951" encodinganalog="245$g"
+                      datechar="creation">(bulk 1936-1951)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.Z83</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Zucker, Mildred Spiegel, 1916- </persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">135 items</extent>
+		          <extent encodinganalog="300">1 container</extent>
+		          <extent encodinganalog="300">0.5 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Music teacher Mildred Spiegel Zucker was a childhood friend of Leonard Bernstein's, with whom she maintained a lifelong friendship. The collection mostly consists of correspondence that Bernstein sent to Zucker dating from his time as a counselor at Camp Onata, as a student at the Curtis Institute of Music, and during the beginning of his career in New York.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2013568038.10001"
+                     altrender=":::F005=^20130912020628.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd26e98">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bernstein%2C+Leonard%2C+1918-1990+Correspondence.^">Bernstein, Leonard, 1918-1990--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Bernstein%2C+Leonard%2C+1918-1990.^">Bernstein, Leonard, 1918-1990.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Copland%2C+Aaron%2C+1900-1990.^">Copland, Aaron, 1900-1990.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gebhard%2C+Heinrich%2C+1878-1963+Correspondence.^">Gebhard, Heinrich, 1878-1963--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Green%2C+Adolph.^">Green, Adolph.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Koussevitzky%2C+Serge%2C+1874-1951.^">Koussevitzky, Serge, 1874-1951.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mitropoulos%2C+Dimitri%2C+1896-1960.^">Mitropoulos, Dimitri, 1896-1960.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Peyser%2C+Joan+Correspondence.^">Peyser, Joan--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Vengerova%2C+Isabelle.^">Vengerova, Isabelle.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Zucker%2C+Mildred+Spiegel%2C+1916-^">Zucker, Mildred Spiegel, 1916- </persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Zucker%2C+Mildred+Spiegel%2C+1916-^">Zucker, Mildred Spiegel, 1916- </persname>
+         </controlaccess>
+         <controlaccess id="mferd26e124">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Curtis+Institute+of+Music.^">Curtis Institute of Music.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd26e129">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Conservatories+of+music+Pennsylvania+Philadelphia.^">Conservatories of music--Pennsylvania--Philadelphia.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+teachers+United+States.^">Music teachers--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Instruction+and+study.^">Music--Instruction and study.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Women+music+teachers+United+States.^">Women music teachers--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd26e140">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd26e145">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd26e148">
+            <head>Provenance</head>
+            <p>Gift, Mildred Spiegel Zucker, 2013.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd26e153">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd26e158">
+            <head>Processing History</head>
+            <p>The Mildred Spiegel Zucker Collection of Leonard Bernstein Correspondence and Related Materials was processed by Mark Horowitz in 2013. Janet McKinney coded the finding aid for EAD format in 2013.</p>
+         </processinfo>
+         <relatedmaterial encodinganalog="544 1" id="mferd26e163">
+            <head>Related Material</head>
+            <p>Correspondence from and pertaining to Mildred Spiegel Zucker can be found in the Library of Congress Music Division's <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                        xlink:actuate="onRequest"
+                        xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu998001">Leonard Bernstein Collection</archref> (ML31.B49).</p>
+         </relatedmaterial>
+         <userestrict encodinganalog="540" id="mferd26e171">
+            <head>Copyright Status</head>
+            <p>Materials from the Mildred Spiegel Zucker Collection of Leonard Bernstein Correspondence and Related Materials are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd26e176">
+            <head>Access and Restrictions</head>
+            <p>The Mildred Spiegel Zucker Collection of Leonard Bernstein Correspondence and Related Materials is open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd26e183">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Mildred Spiegel Zucker Collection of Leonard Bernstein Correspondence and Related Materials, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd26e188">
+         <head>Biographical Note</head>
+         <p>Mildred Spiegel was born <date>June 12, 1916</date>, in Boston, Massachussetts. She studied piano and music theory at the Julia Lubit Pianoforte School and with Heinrich Gebhard. As a member of the Madison Trio, a group she formed with Dorothy Rosenberg (violin) and Sara Kruskall (cello), Spiegel performed throughout New England. After graduating with honors from the Julia Lubit School, Spiegel taught at the school for thirteen years. In 1951, she took a sabbatical and traveled to Israel, a destination suggested by Bernstein. After her marriage to Zvi (Harry) Zucker in Israel, the Zuckers moved to the United States where Mildred continued giving private music lessons, as well as teaching in the music departments of Lowell State University and the Westchester Conservatory. She and her husband settled in White Plains, New York where she now resides. Her husband passed away in 2012. Spiegel met Leonard Bernstein when he was fifteen, and it was she who recommended that he study with Gebhard. For years, she and Bernstein met every week to play piano duets at the Harvard Musical Society, and every weekend for six years to attend the Boston Symphony. They remained life-long friends.</p>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd26e196">
+         <head>Scope and Content Note</head>
+         <p>The collection includes postcards, letters, telegrams and cards that Leonard Bernstein sent his childhood friend, Mildred Spiegel, later Mildred Spiegel Zucker. The correspondence dates from Bernstein’s time as a counselor at Camp Onata, as a student at the Curtis Institute of Music, and during the beginning of his career in New York. He discusses his family, friends, teachers and mentors, as well as his feelings about music and his future in it. The collection also includes some correspondence with mutual friends, Bernstein biographers, and Bernstein’s business associates. In addition, there is a biographical essay and notes about Zucker’s relationship with Bernstein.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd26e201">
+         <head>Organization of the Mildred Spiegel Zucker Collection of Leonard Bernstein Correspondence and Related Materials</head>
+         <p>The Mildred Spiegel Zucker Collection of Leonard Bernstein Correspondence and Related Materials is organized in one series: </p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="corr">Correspondence, 1936-1991</ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2013568038"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2013568038</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd26e213" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd26e222">
+            <did>
+               <container type="box">1</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1936/1991">1936-1991, undated</unitdate>
+               </unittitle>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

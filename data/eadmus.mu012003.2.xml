@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Wed, 28 March 2012 12:48:48 PM EDT
+Generated: Mon, 17 June 2013 02:04:20 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu012003
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu012003--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu012003--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu012003-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd37e2">
+     id="mferd221e2">
    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
               langencoding="iso639-2b"
-              id="mferd37e3">
+              id="mferd221e3">
       <eadid mainagencycode="US-DLC" countrycode="US"
              identifier="hdl:loc.music/eadmus.mu012003"
              encodinganalog="856$u">
@@ -65,7 +65,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu012003
       </profiledesc>
    </eadheader>
    <archdesc level="collection" relatedencoding="MARC21" type="register">
-      <did id="mferd37e49">
+      <did id="mferd221e49">
          <head>Collection Summary</head>
          <unittitle label="Title" encodinganalog="245$a">George Crumb Papers<unitdate label="Span Dates" type="inclusive" normal="1956/2011" encodinganalog="245$f"
                       datechar="creation">1956-2011</unitdate> 
@@ -100,7 +100,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu012003
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <controlaccess id="mferd37e99">
+         <controlaccess id="mferd221e99">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Burge%2C+David%2C+1930-+Correspondence.^">Burge, David, 1930- --Correspondence.</persname>
@@ -120,19 +120,19 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu012003
                       altrender=":::PWEBRECON=^Crumb%2C+George.^">Crumb, George.</persname>
             <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Crumb%2C+George.^">Crumb, George. Selections.</persname>
          </controlaccess>
-         <controlaccess id="mferd37e120">
+         <controlaccess id="mferd221e120">
             <head>Organizations</head>
             <corpname encodinganalog="610$a" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^C.F.+Peters+%28Firm%29+Correspondence.^">C.F. Peters (Firm)--Correspondence.</corpname>
          </controlaccess>
-         <controlaccess id="mferd37e125">
+         <controlaccess id="mferd221e125">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Composers+United+States.^">Composers--United States.</subject>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
          </controlaccess>
-         <controlaccess id="mferd37e132">
+         <controlaccess id="mferd221e132">
             <head>Form/Genre</head>
             <genreform encodinganalog="655" source="aat"
                        altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
@@ -145,21 +145,21 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu012003
             <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo" id="mferd37e147">
+      <descgrp type="admininfo" id="mferd221e147">
          <head>Administrative Information</head>
-         <acqinfo encodinganalog="541" id="mferd37e150">
+         <acqinfo encodinganalog="541" id="mferd221e150">
             <head>Provenance</head>
             <p>Gift, George Crumb, 2011.</p>
          </acqinfo>
-         <accruals encodinganalog="584" id="mferd37e155">
+         <accruals encodinganalog="584" id="mferd221e155">
             <head>Accruals</head>
             <p>Further accruals are expected.</p>
          </accruals>
-         <processinfo encodinganalog="583" id="mferd37e160">
+         <processinfo encodinganalog="583" id="mferd221e160">
             <head>Processing History</head>
             <p>The George Crumb Papers were processed by Christopher Hartten in January 2012. Christopher Hartten coded the finding aid for EAD format in 2012.</p>
          </processinfo>
-         <relatedmaterial encodinganalog="544 1" id="mferd37e165">
+         <relatedmaterial encodinganalog="544 1" id="mferd221e165">
             <head>Related Material</head>
             <p>The following Library of Congress Music Division collections contain correspondence or music by Crumb: <archref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
                         xlink:actuate="onRequest"
@@ -169,22 +169,22 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu012003
                         xlink:actuate="onRequest"
                         xlink:href="http://hdl.loc.gov/loc.music/eadmus.mu003012">Moldenhaur Archives at the Library of Congress (ML31.M6)</archref>. Crumb's holograph score for <title>Ancient Voices of Children</title> (ML29.c93 no.1 &lt;case&gt;) is in the Elizabeth Sprague Coolidge Foundation Collection. His score for <title>Madrigals, Books 1-2</title> (ML30.3c.C79 no.1 &lt;case&gt;) is in the Serge Koussevitzky Music Foundation Collection. </p>
          </relatedmaterial>
-         <userestrict encodinganalog="540" id="mferd37e185">
+         <userestrict encodinganalog="540" id="mferd221e185">
             <head>Copyright Status</head>
             <p>Materials from the George Crumb Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
          </userestrict>
-         <accessrestrict encodinganalog="506 0" id="mferd37e190">
+         <accessrestrict encodinganalog="506 0" id="mferd221e190">
             <head>Access and Restrictions</head>
             <p>The George Crumb Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
             <p>Certain restrictions to use or copying of materials may apply.</p>
          </accessrestrict>
-         <prefercite encodinganalog="524" id="mferd37e197">
+         <prefercite encodinganalog="524" id="mferd221e197">
             <head>Preferred Citation</head>
             <p>Researchers wishing to cite this collection should include the
 following information: [item, date, container number], George Crumb Papers, Music Division, Library of Congress, Washington, D.C. </p>
          </prefercite>
       </descgrp>
-      <bioghist encodinganalog="545" id="mferd37e202">
+      <bioghist encodinganalog="545" id="mferd221e202">
          <head>Biographical Note</head>
          <chronlist>
             <listhead>
@@ -335,13 +335,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
             </chronitem>
          </chronlist>
       </bioghist>
-      <scopecontent encodinganalog="520" id="mferd37e443">
+      <scopecontent encodinganalog="520" id="mferd221e443">
          <head>Scope and Content Note</head>
          <p>The George Crumb Papers span the period 1956 to 2011, with the majority of the materials dating from 1965 to 2003. The collection consists of holograph manuscript scores and sketches, correspondence and business papers, and a series of meticulously assembled scrapbooks chronicling Crumb's distinguished career as a composer. </p>
          <p>The music materials represent works composed exclusively from 1959 to the present day, beginning with Crumb's <title>Variazioni</title>, his dissertational submission to the University of Michigan. They include inked score paste-ups for publication, pencil scores and sketches, drafts, annotated photo-reproductions, and several score transparencies. Crumb's final copy scores are inked with extraordinary precision and reflect the influence of his father's skills as a copyist and Ross Lee Finney's pedagogy. Most contain extensive patches of inked-over whiteout and pasted insertions. Notable scores include the Pulitzer Prize-winning <title>Echoes of Time and the River</title>, <title>Ancient Voices of Children</title>, <title>Black Angels</title>, <title>Five Pieces for Piano</title>, <title>A Haunted Landscape</title>, <title>Lux Aeterna</title>, <title>Madrigals</title>, <title>Makrokosmos</title>, <title>Mundis Canis</title>, <title>Star-Child</title>, and <title>Vox Balaenae</title>. Additionally, the collection includes several sketchbooks with materials to numerous compositions, currently identified only as volumes "A" through "C". A more comprehensive list of their contents will be available at a later time.</p>
          <p>Business papers consist chiefly of letters, telegrams, contracts, programs, and other documents from 1956 to 2011. Included is university and publisher correspondence, student inquiries, and letters from various colleagues and friends, such as David Burge. The scrapbooks comprise seven custom bound volumes of clippings, programs, photographs, interviews, posters, and other materials that detail Crumb's musical accomplishments from roughly 1963 to 2001. These are assembled with the same meticulous care as the composer's scores and include hundreds of performance reviews from both American and international newspapers.</p>
       </scopecontent>
-      <arrangement encodinganalog="351$a" id="mferd37e490">
+      <arrangement encodinganalog="351$a" id="mferd221e490">
          <head>Organization of the George Crumb Papers</head>
          <p>The George Crumb Papers are organized in three series: </p>
          <list>
@@ -369,7 +369,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                  xlink:title="MARC record for collection"
                  xlink:type="simple">http://lccn.loc.gov/2012562132</extref>
       </otherfindaid>
-      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd37e508" type="combined">
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd221e508" type="combined">
          <head>Container List</head>
          <thead valign="bottom">
             <row>
@@ -377,7 +377,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 level="series" id="mferd37e517">
+         <c01 level="series" id="mferd221e517">
             <did>
                <container type="box">1-10</container>
                <unittitle encodinganalog="245$a" id="mus">Music, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1959/2003">1959-2003</unitdate>
@@ -389,19 +389,19 @@ following information: [item, date, container number], George Crumb Papers, Musi
             <arrangement encodinganalog="351$b">
                <p>Arranged alphabetically by title of work. Cross references are provided for components of multi-volume works with distinctive titles, namely <title>Makrokosmos</title>, <title>Images</title>, and <title>American Songbook</title>.</p>
             </arrangement>
-            <c02 level="subseries" id="mferd37e540">
+            <c02 level="subseries" id="mferd221e540">
                <did>
                   <unittitle encodinganalog="245$a">Instrumental
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd37e545">
+               <c03 level="file" id="mferd221e545">
                   <did>
                      <unittitle encodinganalog="245$a" id="gc3">Black angels: Images I: thirteen images from the dark land: for electric string quartet,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e551">
+                  <c04 level="file" id="mferd221e551">
                      <did>
                         <container type="box-folder">10/1</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -409,7 +409,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e558">
+                  <c04 level="file" id="mferd221e558">
                      <did>
                         <container type="box-folder">1/1</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -418,13 +418,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e565">
+               <c03 level="file" id="mferd221e565">
                   <did>
                      <unittitle encodinganalog="245$a" id="gc1">Celestial mechanics: Makrokosmos IV: cosmic dances for amplified piano, four hands,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e571">
+                  <c04 level="file" id="mferd221e571">
                      <did>
                         <container type="box-folder">10/2</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -432,7 +432,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e578">
+                  <c04 level="file" id="mferd221e578">
                      <did>
                         <container type="box-folder">1/2</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score
@@ -441,13 +441,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e585">
+               <c03 level="file" id="mferd221e585">
                   <did>
                      <unittitle encodinganalog="245$a" id="gc4">Dream sequence: Images II: for violin, cello, piano, and percussion (and offstage "glass harmonica"),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e591">
+                  <c04 level="file" id="mferd221e591">
                      <did>
                         <container type="box-folder">10/3</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -455,7 +455,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e598">
+                  <c04 level="file" id="mferd221e598">
                      <did>
                         <container type="box-folder">1/3</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -464,13 +464,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e605">
+               <c03 level="file" id="mferd221e605">
                   <did>
                      <unittitle encodinganalog="245$a">Easter dawning: for carillon, 
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1991</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e611">
+                  <c04 level="file" id="mferd221e611">
                      <did>
                         <container type="box-folder">1/4</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score
@@ -481,7 +481,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e621">
+                  <c04 level="file" id="mferd221e621">
                      <did>
                         <container type="box-folder">1/4</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -492,7 +492,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e631">
+                  <c04 level="file" id="mferd221e631">
                      <did>
                         <container type="box-folder">1/5</container>
                         <unittitle encodinganalog="245$a">Sketches and drafts
@@ -504,13 +504,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e641">
+               <c03 level="file" id="mferd221e641">
                   <did>
                      <unittitle encodinganalog="245$a">Echoes of time and the river: Echoes II: four processionals for orchestra,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e647">
+                  <c04 level="file" id="mferd221e647">
                      <did>
                         <container type="box-folder">1/6-8</container>
                         <unittitle encodinganalog="245$a">Sketches 
@@ -519,13 +519,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e654">
+               <c03 level="file" id="mferd221e654">
                   <did>
                      <unittitle encodinganalog="245$a">Eine kleine Mitternachtmusik (A little midnight music): ruminations on a tune of Thelonius Monk: for amplified piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">2001</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e660">
+                  <c04 level="file" id="mferd221e660">
                      <did>
                         <container type="box-folder">2/1</container>
                         <unittitle encodinganalog="245$a">Sketches and drafts
@@ -534,13 +534,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e667">
+               <c03 level="file" id="mferd221e667">
                   <did>
                      <unittitle encodinganalog="245$a">Eleven echoes of autumn: Echoes I: for violin, alto  flute, clarinet, and piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1965</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e673">
+                  <c04 level="file" id="mferd221e673">
                      <did>
                         <container type="box-folder">10/4</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -548,7 +548,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e680">
+                  <c04 level="file" id="mferd221e680">
                      <did>
                         <container type="box-folder">2/2</container>
                         <unittitle encodinganalog="245$a">Sketches and drafts
@@ -557,13 +557,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e687">
+               <c03 level="file" id="mferd221e687">
                   <did>
                      <unittitle encodinganalog="245$a">Five pieces for piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1962</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e693">
+                  <c04 level="file" id="mferd221e693">
                      <did>
                         <container type="box-folder">2/3</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -572,13 +572,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e700">
+               <c03 level="file" id="mferd221e700">
                   <did>
                      <unittitle encodinganalog="245$a" id="gc5">Four nocturnes: Night music II: for violin and piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e706">
+                  <c04 level="file" id="mferd221e706">
                      <did>
                         <container type="box-folder">2/4</container>
                         <unittitle encodinganalog="245$a">2 holograph manuscript score paste-ups
@@ -586,7 +586,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e713">
+                  <c04 level="file" id="mferd221e713">
                      <did>
                         <container type="box-folder">2/5</container>
                         <unittitle encodinganalog="245$a">Printed holograph manuscript score transparency 
@@ -594,7 +594,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e720">
+                  <c04 level="file" id="mferd221e720">
                      <did>
                         <container type="box-folder">2/6</container>
                         <unittitle encodinganalog="245$a">Photocopied holograph manuscript score
@@ -605,7 +605,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e730">
+                  <c04 level="file" id="mferd221e730">
                      <did>
                         <container type="box-folder">2/6</container>
                         <unittitle encodinganalog="245$a">Sketches and drafts 
@@ -614,13 +614,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e737">
+               <c03 level="file" id="mferd221e737">
                   <did>
                      <unittitle encodinganalog="245$a">Gnomic variations: for piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1981</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e743">
+                  <c04 level="file" id="mferd221e743">
                      <did>
                         <container type="box-folder">2/7</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -628,7 +628,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e750">
+                  <c04 level="file" id="mferd221e750">
                      <did>
                         <container type="box-folder">2/7</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score
@@ -639,7 +639,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e760">
+                  <c04 level="file" id="mferd221e760">
                      <did>
                         <container type="box-folder">2/8</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -648,13 +648,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e768">
+               <c03 level="file" id="mferd221e768">
                   <did>
                      <unittitle encodinganalog="245$a">A haunted landscape: for orchestra,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e774">
+                  <c04 level="file" id="mferd221e774">
                      <did>
                         <container type="box-folder">2/9</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -662,7 +662,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e781">
+                  <c04 level="file" id="mferd221e781">
                      <did>
                         <container type="box-folder">2/10</container>
                         <unittitle encodinganalog="245$a">Photocopied holograph manuscript score
@@ -673,7 +673,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e791">
+                  <c04 level="file" id="mferd221e791">
                      <did>
                         <container type="box-folder">3/1-3</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -682,13 +682,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e798">
+               <c03 level="file" id="mferd221e798">
                   <did>
                      <unittitle encodinganalog="245$a">An idyll for the misbegotten: amplified piano and percussion, 3 players,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e804">
+                  <c04 level="file" id="mferd221e804">
                      <did>
                         <container type="box-folder">3/4</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -696,7 +696,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e811">
+                  <c04 level="file" id="mferd221e811">
                      <did>
                         <container type="box-folder">3/5</container>
                         <unittitle encodinganalog="245$a">Sketches and drafts
@@ -705,7 +705,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e818">
+               <c03 level="file" id="mferd221e818">
                   <did>
                      <unittitle encodinganalog="245$a">Images I<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                         <lb/>
@@ -716,7 +716,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd37e828">
+               <c03 level="file" id="mferd221e828">
                   <did>
                      <unittitle encodinganalog="245$a">Images II<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                         <lb/>
@@ -727,13 +727,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd37e838">
+               <c03 level="file" id="mferd221e838">
                   <did>
                      <unittitle encodinganalog="245$a">A little suite for Christmas: A.D. 1979: for piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1980</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e844">
+                  <c04 level="file" id="mferd221e844">
                      <did>
                         <container type="box-folder">3/6-7</container>
                         <unittitle encodinganalog="245$a">2 holograph manuscript score paste-ups
@@ -741,7 +741,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e851">
+                  <c04 level="file" id="mferd221e851">
                      <did>
                         <container type="box-folder">3/7</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -750,13 +750,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e858">
+               <c03 level="file" id="mferd221e858">
                   <did>
                      <unittitle encodinganalog="245$a">Makrokosmos I: twelve fantasy-pieces after the Zodiac: for amplified piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e864">
+                  <c04 level="file" id="mferd221e864">
                      <did>
                         <container type="box-folder">3/8</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -764,7 +764,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e871">
+                  <c04 level="file" id="mferd221e871">
                      <did>
                         <container type="box-folder">3/9</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -773,13 +773,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e878">
+               <c03 level="file" id="mferd221e878">
                   <did>
                      <unittitle encodinganalog="245$a">Makrokosmos II: twelve fantasy-pieces after the Zodiac: for amplified piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e884">
+                  <c04 level="file" id="mferd221e884">
                      <did>
                         <container type="box-folder">4/1</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -787,7 +787,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e891">
+                  <c04 level="file" id="mferd221e891">
                      <did>
                         <container type="box-folder">4/2</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -796,7 +796,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e898">
+               <c03 level="file" id="mferd221e898">
                   <did>
                      <unittitle encodinganalog="245$a">Makrokosmos III<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                         <lb/>
@@ -807,7 +807,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd37e908">
+               <c03 level="file" id="mferd221e908">
                   <did>
                      <unittitle encodinganalog="245$a">Makrokosmos IV<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                         <lb/>
@@ -818,13 +818,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd37e918">
+               <c03 level="file" id="mferd221e918">
                   <did>
                      <unittitle encodinganalog="245$a">Mundus canis (A dog's world): five humoresques for guitar and percussion (one player),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1997</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e924">
+                  <c04 level="file" id="mferd221e924">
                      <did>
                         <container type="box-folder">4/3</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -832,7 +832,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e931">
+                  <c04 level="file" id="mferd221e931">
                      <did>
                         <container type="box-folder">4/3</container>
                         <unittitle encodinganalog="245$a">Sketches and drafts
@@ -841,13 +841,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e938">
+               <c03 level="file" id="mferd221e938">
                   <did>
                      <unittitle encodinganalog="245$a" id="gc2">Music for a summer evening: Makrokosmos III: for two amplified pianos and percussion (two players),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e944">
+                  <c04 level="file" id="mferd221e944">
                      <did>
                         <container type="box-folder">10/5</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -856,7 +856,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e952">
+               <c03 level="file" id="mferd221e952">
                   <did>
                      <unittitle encodinganalog="245$a">Night music II<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                         <lb/>
@@ -867,13 +867,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd37e962">
+               <c03 level="file" id="mferd221e962">
                   <did>
                      <unittitle encodinganalog="245$a">Otherworldly resonances: six tableaux for two amplified pianos, book II,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">2002</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e968">
+                  <c04 level="file" id="mferd221e968">
                      <did>
                         <container type="box-folder">4/4-5</container>
                         <unittitle encodinganalog="245$a">2 holograph manuscript score paste-ups
@@ -884,7 +884,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e978">
+                  <c04 level="file" id="mferd221e978">
                      <did>
                         <container type="box-folder">4/6</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -896,13 +896,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e988">
+               <c03 level="file" id="mferd221e988">
                   <did>
                      <unittitle encodinganalog="245$a">Pastoral drone: for organ,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e994">
+                  <c04 level="file" id="mferd221e994">
                      <did>
                         <container type="box-folder">4/7</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -911,13 +911,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1001">
+               <c03 level="file" id="mferd221e1001">
                   <did>
                      <unittitle encodinganalog="245$a">Processional (piano),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1007">
+                  <c04 level="file" id="mferd221e1007">
                      <did>
                         <container type="box-folder">4/8</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -925,7 +925,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1014">
+                  <c04 level="file" id="mferd221e1014">
                      <did>
                         <container type="box-folder">4/8</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -934,13 +934,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1021">
+               <c03 level="file" id="mferd221e1021">
                   <did>
                      <unittitle encodinganalog="245$a">Quest: for guitar, soprano saxophone, harp, contrabass, and percussion (two players),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1027">
+                  <c04 level="file" id="mferd221e1027">
                      <did>
                         <container type="box-folder">4/9</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -948,7 +948,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1034">
+                  <c04 level="file" id="mferd221e1034">
                      <did>
                         <container type="box-folder">4/10</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -957,13 +957,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1041">
+               <c03 level="file" id="mferd221e1041">
                   <did>
                      <unittitle encodinganalog="245$a">Variazioni: for large orchestra,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1959</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1047">
+                  <c04 level="file" id="mferd221e1047">
                      <did>
                         <container type="box-folder">4/11</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -971,7 +971,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1054">
+                  <c04 level="file" id="mferd221e1054">
                      <did>
                         <container type="box-folder">5/1-3</container>
                         <unittitle encodinganalog="245$a">2 photocopied holograph manuscript score paste-ups
@@ -980,13 +980,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1061">
+               <c03 level="file" id="mferd221e1061">
                   <did>
                      <unittitle encodinganalog="245$a">Vox balaenae (Voice of the whale): for three masked players: electric flute, electric cello, electric piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1067">
+                  <c04 level="file" id="mferd221e1067">
                      <did>
                         <container type="box-folder">5/4</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -995,13 +995,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1074">
+               <c03 level="file" id="mferd221e1074">
                   <did>
                      <unittitle encodinganalog="245$a">Zeitgeist: six tableaux for two amplified pianos, book I, 
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1987</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1080">
+                  <c04 level="file" id="mferd221e1080">
                      <did>
                         <container type="box-folder">5/5</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1009,7 +1009,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1087">
+                  <c04 level="file" id="mferd221e1087">
                      <did>
                         <container type="box-folder">5/6</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -1019,13 +1019,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </c04>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd37e1094">
+            <c02 level="subseries" id="mferd221e1094">
                <did>
                   <unittitle encodinganalog="245$a">Vocal
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd37e1099">
+               <c03 level="file" id="mferd221e1099">
                   <did>
                      <unittitle encodinganalog="245$a">American songbook, 
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">2002-2007</unitdate>
@@ -1056,7 +1056,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </note>
                   </did>
                </c03>
-               <c03 level="file" id="mferd37e1123">
+               <c03 level="file" id="mferd221e1123">
                   <did>
                      <unittitle encodinganalog="245$a">Ancient voices of children: for soprano, boy soprano, oboe, mandolin, harp, electric piano (and toy piano), and percussion (three players), 
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970</unitdate>
@@ -1065,7 +1065,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         <p>Commissioned by the Elizabeth Sprague Coolidge Foundation in the Library of Congress</p>
                      </note>
                   </did>
-                  <c04 level="file" id="mferd37e1132">
+                  <c04 level="file" id="mferd221e1132">
                      <did>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
 	 							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
@@ -1080,13 +1080,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1145">
+               <c03 level="file" id="mferd221e1145">
                   <did>
                      <unittitle encodinganalog="245$a">Apparition: elegiac songs and vocalises for soprano and amplified piano (on texts from Walt Whitman's "When lilacs last in the dooryard bloom'd"), 
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1151">
+                  <c04 level="file" id="mferd221e1151">
                      <did>
                         <container type="box-folder">5/7</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1094,7 +1094,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1158">
+                  <c04 level="file" id="mferd221e1158">
                      <did>
                         <container type="box-folder">5/8</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score 
@@ -1102,7 +1102,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1165">
+                  <c04 level="file" id="mferd221e1165">
                      <did>
                         <container type="box-folder">5/9</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -1111,13 +1111,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1172">
+               <c03 level="file" id="mferd221e1172">
                   <did>
                      <unittitle encodinganalog="245$a">Federico's little songs for children: for soprano, flute (also piccolo, alto flute, and bass flute), and harp,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1178">
+                  <c04 level="file" id="mferd221e1178">
                      <did>
                         <container type="box-folder">5/10</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score
@@ -1125,7 +1125,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1185">
+                  <c04 level="file" id="mferd221e1185">
                      <did>
                         <container type="box-folder">5/11</container>
                         <unittitle encodinganalog="245$a">Photocopied holograph manuscript score
@@ -1136,7 +1136,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1195">
+                  <c04 level="file" id="mferd221e1195">
                      <did>
                         <container type="box-folder">5/11</container>
                         <unittitle encodinganalog="245$a">Sketches and drafts
@@ -1145,13 +1145,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1202">
+               <c03 level="file" id="mferd221e1202">
                   <did>
                      <unittitle encodinganalog="245$a" id="gc7">A journey beyond time: American songbook II: songs of despair and hope: a cycle of Afro-American spirituals for voice, percussion quartet, and amplified piano, 2003
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1207">
+                  <c04 level="file" id="mferd221e1207">
                      <did>
                         <container type="box-folder">6/1</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1160,13 +1160,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1214">
+               <c03 level="file" id="mferd221e1214">
                   <did>
                      <unittitle encodinganalog="245$a">Lux aeterna: for five masked musicians (soprano, bass flute (and soprano recorder), sitar, and two percussionists),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1220">
+                  <c04 level="file" id="mferd221e1220">
                      <did>
                         <container type="box-folder">6/2</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1174,7 +1174,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1227">
+                  <c04 level="file" id="mferd221e1227">
                      <did>
                         <container type="box-folder">6/3</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1185,7 +1185,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1237">
+                  <c04 level="file" id="mferd221e1237">
                      <did>
                         <container type="box-folder">6/4</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -1194,13 +1194,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1244">
+               <c03 level="file" id="mferd221e1244">
                   <did>
                      <unittitle encodinganalog="245$a">Madrigals (soprano, various instruments),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1965-1969</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1250">
+                  <c04 level="file" id="mferd221e1250">
                      <did>
                         <container type="box-folder">6/5</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1208,7 +1208,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1257">
+                  <c04 level="file" id="mferd221e1257">
                      <did>
                         <container type="box-folder">6/6</container>
                         <unittitle encodinganalog="245$a">Photocopied holograph manuscript score
@@ -1219,7 +1219,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1267">
+                  <c04 level="file" id="mferd221e1267">
                      <did>
                         <container type="box-folder">6/7</container>
                         <unittitle encodinganalog="245$a">Performance instructions paste-up
@@ -1227,7 +1227,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1274">
+                  <c04 level="file" id="mferd221e1274">
                      <did>
                         <unittitle encodinganalog="245$a">2 holograph manuscript scores
 	 							<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
@@ -1247,7 +1247,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </note>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1293">
+                  <c04 level="file" id="mferd221e1293">
                      <did>
                         <container type="box-folder">6/8</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -1256,13 +1256,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1300">
+               <c03 level="file" id="mferd221e1300">
                   <did>
                      <unittitle encodinganalog="245$a">Night music I: for soprano, piano (and celesta), and percussion (two players),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1963</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1306">
+                  <c04 level="file" id="mferd221e1306">
                      <did>
                         <container type="box-folder">7/1</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1270,7 +1270,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1313">
+                  <c04 level="file" id="mferd221e1313">
                      <did>
                         <container type="box-folder">7/2</container>
                         <unittitle encodinganalog="245$a">Printed holograph manuscript score transparency
@@ -1278,7 +1278,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1320">
+                  <c04 level="file" id="mferd221e1320">
                      <did>
                         <container type="box-folder">7/3-4</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -1287,13 +1287,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1327">
+               <c03 level="file" id="mferd221e1327">
                   <did>
                      <unittitle encodinganalog="245$a">Night of the four moons: for alto, alto flute (doubling piccolo), banjo, electric cello, and percussion (one player),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1969</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1333">
+                  <c04 level="file" id="mferd221e1333">
                      <did>
                         <container type="box-folder">10/6</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1301,7 +1301,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1340">
+                  <c04 level="file" id="mferd221e1340">
                      <did>
                         <container type="box-folder">7/5</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -1310,13 +1310,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1347">
+               <c03 level="file" id="mferd221e1347">
                   <did>
                      <unittitle encodinganalog="245$a" id="gc6">The river of life: American songbook I: songs of joy and sorrow: a cycle of hymns, spirituals, and revival tunes for voice, percussion quartet, and amplified piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">2003</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1353">
+                  <c04 level="file" id="mferd221e1353">
                      <did>
                         <container type="box-folder">7/6</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1325,13 +1325,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1361">
+               <c03 level="file" id="mferd221e1361">
                   <did>
                      <unittitle encodinganalog="245$a">The sleeper: for mezzo-soprano and piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1367">
+                  <c04 level="file" id="mferd221e1367">
                      <did>
                         <container type="box-folder">7/7</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1339,7 +1339,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1374">
+                  <c04 level="file" id="mferd221e1374">
                      <did>
                         <container type="box-folder">7/7</container>
                         <unittitle encodinganalog="245$a">Sketches and drafts
@@ -1348,13 +1348,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1381">
+               <c03 level="file" id="mferd221e1381">
                   <did>
                      <unittitle encodinganalog="245$a">Songs, drones, and refrains of death: a cycle of poems by Federico García Lorca: for baritone, electric guitar, electric contrabass, electric piano (and electric harpsichord), and percussion (two players),
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1968</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1387">
+                  <c04 level="file" id="mferd221e1387">
                      <did>
                         <container type="box-folder">10/7</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1362,7 +1362,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1394">
+                  <c04 level="file" id="mferd221e1394">
                      <did>
                         <container type="box-folder">7/8-9</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -1371,13 +1371,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1401">
+               <c03 level="file" id="mferd221e1401">
                   <did>
                      <unittitle encodinganalog="245$a">Star-child: a parable for soprano, antiphonal children's voices, male speaking choir (and bell ringers), and large orchestra,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1977</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1407">
+                  <c04 level="file" id="mferd221e1407">
                      <did>
                         <container type="box-folder">10/8</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1385,7 +1385,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 level="file" id="mferd37e1414">
+                  <c04 level="file" id="mferd221e1414">
                      <did>
                         <container type="box-folder">8/1-2</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -1394,13 +1394,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </did>
                   </c04>
                </c03>
-               <c03 level="file" id="mferd37e1421">
+               <c03 level="file" id="mferd221e1421">
                   <did>
                      <unittitle encodinganalog="245$a" id="gc8">Unto the hills: American songbook III: songs of sadness, yearning, and innocence: a cycle of Appalachian folk songs for voice, percussion quartet, and amplified piano,
 	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">2002</unitdate>
                      </unittitle>
                   </did>
-                  <c04 level="file" id="mferd37e1427">
+                  <c04 level="file" id="mferd221e1427">
                      <did>
                         <container type="box-folder">8/3</container>
                         <unittitle encodinganalog="245$a">Holograph manuscript score paste-up
@@ -1410,13 +1410,13 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </c04>
                </c03>
             </c02>
-            <c02 level="subseries" id="mferd37e1434">
+            <c02 level="subseries" id="mferd221e1434">
                <did>
                   <unittitle encodinganalog="245$a">Sketchbooks
 	 					<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
                   </unittitle>
                </did>
-               <c03 level="file" id="mferd37e1439">
+               <c03 level="file" id="mferd221e1439">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Sketchbook "A",
@@ -1424,7 +1424,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd37e1447">
+               <c03 level="file" id="mferd221e1447">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Sketchbook "B",
@@ -1432,7 +1432,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                      </unittitle>
                   </did>
                </c03>
-               <c03 level="file" id="mferd37e1455">
+               <c03 level="file" id="mferd221e1455">
                   <did>
                      <container type="box">9</container>
                      <unittitle encodinganalog="245$a">Sketchbook "C",
@@ -1442,7 +1442,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                </c03>
             </c02>
          </c01>
-         <c01 level="series" id="mferd37e1463">
+         <c01 level="series" id="mferd221e1463">
             <did>
                <container type="box">11-28</container>
                <unittitle encodinganalog="245$a" id="buspa">Business Papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1956/2011">1956-2011</unitdate>
@@ -1454,7 +1454,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
             <arrangement encodinganalog="351$b">
                <p>Arranged chronologically.</p>
             </arrangement>
-            <c02 level="file" id="mferd37e1477">
+            <c02 level="file" id="mferd221e1477">
                <did>
                   <container type="box-folder">11/1-10</container>
                   <unittitle encodinganalog="245$a">
@@ -1462,7 +1462,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1485">
+            <c02 level="file" id="mferd221e1485">
                <did>
                   <container type="box-folder">12/1-9</container>
                   <unittitle encodinganalog="245$a">
@@ -1470,7 +1470,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1493">
+            <c02 level="file" id="mferd221e1493">
                <did>
                   <container type="box-folder">13/1-11</container>
                   <unittitle encodinganalog="245$a">
@@ -1478,7 +1478,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1501">
+            <c02 level="file" id="mferd221e1501">
                <did>
                   <container type="box-folder">14/1-8</container>
                   <unittitle encodinganalog="245$a">
@@ -1486,7 +1486,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1509">
+            <c02 level="file" id="mferd221e1509">
                <did>
                   <container type="box-folder">15/1-9</container>
                   <unittitle encodinganalog="245$a">
@@ -1494,7 +1494,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1517">
+            <c02 level="file" id="mferd221e1517">
                <did>
                   <container type="box-folder">16/1-9</container>
                   <unittitle encodinganalog="245$a">
@@ -1502,7 +1502,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1525">
+            <c02 level="file" id="mferd221e1525">
                <did>
                   <container type="box-folder">17/1-9</container>
                   <unittitle encodinganalog="245$a">
@@ -1510,7 +1510,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1533">
+            <c02 level="file" id="mferd221e1533">
                <did>
                   <container type="box-folder">18/1-11</container>
                   <unittitle encodinganalog="245$a">
@@ -1518,7 +1518,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1542">
+            <c02 level="file" id="mferd221e1542">
                <did>
                   <container type="box-folder">19/1-8</container>
                   <unittitle encodinganalog="245$a">
@@ -1526,7 +1526,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1550">
+            <c02 level="file" id="mferd221e1550">
                <did>
                   <container type="box-folder">20/1-10</container>
                   <unittitle encodinganalog="245$a">
@@ -1534,7 +1534,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1558">
+            <c02 level="file" id="mferd221e1558">
                <did>
                   <container type="box-folder">21/1-12</container>
                   <unittitle encodinganalog="245$a">
@@ -1542,7 +1542,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1566">
+            <c02 level="file" id="mferd221e1566">
                <did>
                   <container type="box-folder">22/1-17</container>
                   <unittitle encodinganalog="245$a">
@@ -1550,7 +1550,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1574">
+            <c02 level="file" id="mferd221e1574">
                <did>
                   <container type="box-folder">23/1-13</container>
                   <unittitle encodinganalog="245$a">
@@ -1558,7 +1558,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1582">
+            <c02 level="file" id="mferd221e1582">
                <did>
                   <container type="box-folder">24/1-11</container>
                   <unittitle encodinganalog="245$a">
@@ -1566,7 +1566,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1590">
+            <c02 level="file" id="mferd221e1590">
                <did>
                   <container type="box-folder">25/1-14</container>
                   <unittitle encodinganalog="245$a">
@@ -1574,7 +1574,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1598">
+            <c02 level="file" id="mferd221e1598">
                <did>
                   <container type="box-folder">26/1-13</container>
                   <unittitle encodinganalog="245$a">
@@ -1582,7 +1582,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1606">
+            <c02 level="file" id="mferd221e1606">
                <did>
                   <container type="box-folder">27/1-10</container>
                   <unittitle encodinganalog="245$a">
@@ -1590,7 +1590,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1614">
+            <c02 level="file" id="mferd221e1614">
                <did>
                   <container type="box-folder">28/1-3</container>
                   <unittitle encodinganalog="245$a">
@@ -1599,7 +1599,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                </did>
             </c02>
          </c01>
-         <c01 level="series" id="mferd37e1622">
+         <c01 level="series" id="mferd221e1622">
             <did>
                <container type="box">29-35</container>
                <unittitle encodinganalog="245$a" id="scrap">Scrapbooks, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1963/2001">1963-2001</unitdate>
@@ -1611,7 +1611,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
             <arrangement encodinganalog="351$b">
                <p>Arranged numerically by volume number. Volumes are roughly chronological in content order, but may contain miscellaneous items within several years of the dates specified.</p>
             </arrangement>
-            <c02 level="file" id="mferd37e1636">
+            <c02 level="file" id="mferd221e1636">
                <did>
                   <container type="box">29</container>
                   <unittitle encodinganalog="245$a">Volume I: 
@@ -1619,7 +1619,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1644">
+            <c02 level="file" id="mferd221e1644">
                <did>
                   <container type="box">30</container>
                   <unittitle encodinganalog="245$a">Volume II: 
@@ -1627,7 +1627,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1652">
+            <c02 level="file" id="mferd221e1652">
                <did>
                   <container type="box">31</container>
                   <unittitle encodinganalog="245$a">Volume III: 
@@ -1635,7 +1635,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1660">
+            <c02 level="file" id="mferd221e1660">
                <did>
                   <container type="box">32</container>
                   <unittitle encodinganalog="245$a">Volume IV: 
@@ -1643,7 +1643,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1668">
+            <c02 level="file" id="mferd221e1668">
                <did>
                   <container type="box">33</container>
                   <unittitle encodinganalog="245$a">Volume V: 
@@ -1651,7 +1651,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1676">
+            <c02 level="file" id="mferd221e1676">
                <did>
                   <container type="box">34</container>
                   <unittitle encodinganalog="245$a">Volume VI: 
@@ -1659,7 +1659,7 @@ following information: [item, date, container number], George Crumb Papers, Musi
                   </unittitle>
                </did>
             </c02>
-            <c02 level="file" id="mferd37e1684">
+            <c02 level="file" id="mferd221e1684">
                <did>
                   <container type="box">35</container>
                   <unittitle encodinganalog="245$a">Volume VII: 

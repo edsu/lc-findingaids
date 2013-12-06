@@ -1,0 +1,1941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Mon, 18 November 2013 01:14:35 PM EST
+URL: http://hdl.loc.gov/loc.music/eadmus.mu011006
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu011006--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu011006--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu011006-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd16e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd16e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu011006"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu011006</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Merle Montgomery Papers
+		  </titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c">2011</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2011570500"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2011570500</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2011">2011</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd16e48">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Merle Montgomery Papers
+		  <unitdate label="Span Dates" type="inclusive" normal="1904/1983" encodinganalog="245$f"
+                      datechar="creation">circa 1904-1983</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1960/1980" encodinganalog="245$g"
+                      datechar="creation">(bulk 1960-1980)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.M63</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Montgomery, Merle, 1904-1986</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">5093 items</extent>
+		          <extent encodinganalog="300">18 containers</extent>
+		          <extent encodinganalog="300">7.5 linear feet</extent>		  
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language> 
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Merle Montgomery was a music educator, composer, author, editor, administrator, translator, lecturer, and concert pianist. The collection primarily contains business papers and materials related to Montgomery's career and her leadership roles in various music, educational, and arts organizations, including Carl Fischer Inc., Mu Phi Epsilon, National Federation of Music Clubs, and the National Music Council. In addition, the collection includes personal and professional correspondence, biographical materials, photographs, programs, clippings, promotional and publicity materials, and publications.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2011570500.10001"
+                     altrender=":::F005=^20110614013539.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd16e99">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hanson%2C+Howard%2C+1896-1981%2C+Scribner+music+library.^">Hanson, Howard, 1896-1981, ed. Scribner music library.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kramer%2C+A.+Walter+%28Arthur+Walter%29%2C+1890-1969+Correspondence.^">Kramer, A. Walter (Arthur Walter), 1890-1969--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Kramer%2C+A.+Walter+%28Arthur+Walter%29%2C+1890-1969.^">Kramer, A. Walter (Arthur Walter), 1890-1969.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Montgomery%2C+Merle%2C+1904-1986+Archives.^">Montgomery, Merle, 1904-1986--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Montgomery%2C+Merle%2C+1904-1986+Correspondence.^">Montgomery, Merle, 1904-1986--Correspondence.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Montgomery%2C+Merle%2C+1904-1986+Photographs.^">Montgomery, Merle, 1904-1986--Photographs.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Montgomery%2C+Merle%2C+1904-1986.^">Montgomery, Merle, 1904-1986.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Montgomery%2C+Merle%2C+1904-1986.^">Montgomery, Merle, 1904-1986.</persname>
+         </controlaccess>
+         <controlaccess id="mferd16e118">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Carl+Fischer+Inc.^">Carl Fischer Inc.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Eastman+School+of+Music.^">Eastman School of Music.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^International+Music+Council.^">International Music Council.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Mu+Phi+Epsilon.^">Mu Phi Epsilon.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Musicians+Club+of+New+York.^">Musicians Club of New York.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^National+Federation+of+Music+Clubs.^">National Federation of Music Clubs.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^National+Federation+of+Music+Clubs.+Junior+Division.^">National Federation of Music Clubs. <subarea encodinganalog="610$b">Junior Division.</subarea>
+  			       </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^National+Music+Council+%28U.S.%29^">National Music Council (U.S.)</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^New+York+City+Opera.+Guild.^">New York City Opera. <subarea encodinganalog="610$b">Guild.</subarea>
+  			       </corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^New+York+Federation+of+Music+Clubs.^">New York Federation of Music Clubs.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^New+York+Philomusica+Chamber+Ensemble.^">New York Philomusica Chamber Ensemble.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^University+of+Rochester+Alumni+and+alumnae.^">University of Rochester--Alumni and alumnae.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^University+of+Rochester.^">University of Rochester.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd16e154">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Arts+administrators+United+States.^">Arts administrators--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+in+education.^">Music in education.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+patronage+United+States.^">Music patronage--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+publishers+United+States.^">Music publishers--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+publishing+United+States.^">Music publishing--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Instruction+and+study+United+States.^">Music--Instruction and study--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+International+cooperation.^">Music--International cooperation.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+Societies%2C+etc.+United+States.^">Music--Societies, etc.--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Music+United+States+20th+century.^">Music--United States--20th century.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musicians+Photographs.^">Musicians--Photographs.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Women+composers+United+States.^">Women composers--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Women+music+teachers+United+States.^">Women music teachers--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd16e182">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Financial+records.^">Financial records.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Newsletters.^">Newsletters.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Promotional+materials.^">Promotional materials.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd16e199">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd16e202">
+            <head>Provenance</head>
+            <p>Gift; Merle Montgomery; 1978</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd16e207">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd16e212">
+            <head>Processing History</head>
+            <p>The Merle Montgomery Papers were processed by Nancy Seeger in 2010-2011. She created and coded the finding aid for EAD format in 2011.</p>
+         </processinfo>
+         <relatedmaterial encodinganalog="544 1" id="mferd16e217">
+            <head>Related Material</head>
+            <p>The Library of Congress Music Division holds the National Music Council Collection.</p>
+         </relatedmaterial>
+         <userestrict encodinganalog="540" id="mferd16e222">
+            <head>Copyright Status</head>
+            <p>Materials from the Merle Montgomery Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd16e227">
+            <head>Access and Restrictions</head>
+            <p>The Merle Montgomery Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <prefercite encodinganalog="524" id="mferd16e234">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Merle Montgomery Papers, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd16e239">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date>1904, May 15</date>
+               <event>Born Merle Campbell, Davidson, Okla.</event>
+            </chronitem>
+            <chronitem>
+               <date>1924</date>
+               <eventgrp>
+                  <event>Married Pleasant Parx Montgomery (died 1929)</event>
+                  <event>BFA, Piano, University of Oklahoma, Norman, Okla.</event>
+                  <event/>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>circa 1924</date>
+               <event>Adopted son Milton</event>
+            </chronitem>
+            <chronitem>
+               <date>1929-1931</date>
+               <event>Studied privately with Nadia Boulanger and Isidore Philipp</event>
+            </chronitem>
+            <chronitem>
+               <date>1929-1933 (Summers)</date>
+               <event>Studied at the American Conservatory of Music, Fontainebleau, France</event>
+            </chronitem>
+            <chronitem>
+               <date>1931-1933</date>
+               <event>Extension teacher, Music Theory, University of Oklahoma, Norman, Okla.</event>
+            </chronitem>
+            <chronitem>
+               <date>1933</date>
+               <event>Diploma, American Conservatory of Music, Fontainebleau, France</event>
+            </chronitem>
+            <chronitem>
+               <date>1933-1934</date>
+               <event>Private teacher, Oklahoma City, Okla.</event>
+            </chronitem>
+            <chronitem>
+               <date>1934-1938</date>
+               <event>Head, Piano and Theory, Southwestern Oklahoma College, Weatherford, Okla.</event>
+            </chronitem>
+            <chronitem>
+               <date>1936</date>
+               <event>Composed <title>17 Songs for Children</title>. Chicago, Ill.: Scott Foresman and Co.</event>
+            </chronitem>
+            <chronitem>
+               <date>1937</date>
+               <event>M.M., Music Theory, Eastman School of Music, Rochester, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <date>1938-1943</date>
+               <event>Assistant state supervisor and state supervisor, Federal Music Project for Oklahoma</event>
+            </chronitem>
+            <chronitem>
+               <date>1939</date>
+               <eventgrp>
+                  <event>Composed <title>Song for Child</title> for <title>Jack and Jill Magazine</title>
+                  </event>
+                  <event>Composed <title>8 Songs for Children</title>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1940</date>
+               <event>Editor, <title>Oklahoma Music News</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1943-1945</date>
+               <event>Teacher, Piano and Theory, Eastman School of Music, Rochester, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <date>circa 1945-1954</date>
+               <event>Lecturer for Schillinger System of Musical Composition and national educational representative, Carl Fischer Inc., New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <date>1946-1948</date>
+               <eventgrp>
+                  <event>Completed dissertation <title>A Comparative Analysis [and translation] of Vincent D'Indy's "Cours de Composition Musicale"</title>
+                  </event>
+                  <event>Ph.D., Eastman School of Music, Rochester, N.Y.</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1951-1953</date>
+               <event>President, New York Alumni Chapter of Mu Phi Epsilon</event>
+            </chronitem>
+            <chronitem>
+               <date>circa 1955</date>
+               <event>Producer, writer, and host, <title>Let's Go to Musicland!</title> (series of thirteen fifteen-minute films), University of Oklahoma Educational Service Division</event>
+            </chronitem>
+            <chronitem>
+               <date>1956</date>
+               <event>Selected Oklahoma Woman of the Year by Soroptimist International of Oklahoma</event>
+            </chronitem>
+            <chronitem>
+               <date>1956-1966</date>
+               <eventgrp>
+                  <event>Assistant manager and educational consultant, Music Department, Oxford University Press, New York, N.Y.</event>
+                  <event>Teacher, piano and music theory, Turtle Bay Music School and Westchester Conservatory, N.Y.</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1957</date>
+               <event>Married A. Walter Kramer (died 1969)</event>
+            </chronitem>
+            <chronitem>
+               <date>circa 1958</date>
+               <event>Published <title>Music Theory Papers</title>. New York: C. Fischer</event>
+            </chronitem>
+            <chronitem>
+               <date>1958-1960</date>
+               <event>President, New York Federation of Music Clubs</event>
+            </chronitem>
+            <chronitem>
+               <date>1959</date>
+               <event>Published <title>Music Composition Papers</title>. New York: C. Fischer</event>
+            </chronitem>
+            <chronitem>
+               <date>circa 1963-circa 1972</date>
+               <event>Compiler, editor, two volumes in the <title>Scribner Music Library</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1964</date>
+               <eventgrp>
+                  <event>Named Outstanding Alumna for Distinguished Service, University of Rochester</event>
+                  <event>Elected to Trustees' Council of Alumni Advisors, University of Rochester</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1964-1966</date>
+               <event>National vice-president in charge of public relations and governor of Atlantic Province, Mu Phi Epsilon</event>
+            </chronitem>
+            <chronitem>
+               <date>circa 1965</date>
+               <event>Charter member, New York City Opera Guild</event>
+            </chronitem>
+            <chronitem>
+               <date>1967</date>
+               <event>Received National Citation from Mu Phi Epsilon</event>
+            </chronitem>
+            <chronitem>
+               <date>1967-1971</date>
+               <eventgrp>
+                  <event>Coordinator of symphonic repertoire and vice-president in charge of public relations, Carl Fischer Inc.</event>
+                  <event>Manager, Ford Foundation Recording-Publication Program, Carl Fischer Inc.</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1971</date>
+               <event>Founding member, Board of Directors, New York Philomusica Chamber Ensemble</event>
+            </chronitem>
+            <chronitem>
+               <date>1971-1975</date>
+               <event>President, National Federation of Music Clubs</event>
+            </chronitem>
+            <chronitem>
+               <date>1974</date>
+               <event>Elizabeth Mathias Award from Mu Phi Epsilon</event>
+            </chronitem>
+            <chronitem>
+               <date>1975-1976</date>
+               <event>Chairperson, Bicentennial Parade of American Music, National Music Council</event>
+            </chronitem>
+            <chronitem>
+               <date>1975-1979</date>
+               <event>President, National Music Council</event>
+            </chronitem>
+            <chronitem>
+               <date>1976</date>
+               <event>Inducted into the Oklahoma Hall of Fame</event>
+            </chronitem>
+            <chronitem>
+               <date>1977</date>
+               <event>Given Distinguished Service Citation, University of Oklahoma</event>
+            </chronitem>
+            <chronitem>
+               <date>circa 1977</date>
+               <event>Vice-president, Musicians Club of New York</event>
+            </chronitem>
+            <chronitem>
+               <date>1979-1980</date>
+               <event>Project director, National Black Music Colloquium and Competition</event>
+            </chronitem>
+            <chronitem>
+               <date>circa 1982</date>
+               <event>National Federation of Music Clubs representative to the United Nations</event>
+            </chronitem>
+            <chronitem>
+               <date>1986, Aug. 25</date>
+               <event>Died, Chantilly, Va.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd16e505">
+         <head>Scope and Content Note</head>
+         <p>The papers of Merle Montgomery (1904-1986) span the years 1904-1983, with the bulk of the material dating from 1960 to 1980. The papers highlight Montgomery's career and leadership roles in several organizations, programs, and projects in support of music, education and the arts. The collection chronicles her presidencies with the National Federation of Music Clubs from 1971-1975 and the National Music Council from 1975-1979, her career with music publishing firm Carl Fischer Inc., from the mid-1940s to 1971, her management of the Bicentennial Parade of American Music, her scholarly work on the <title>Scribner Music Library</title>, from around 1961 to 1972, and more. There is a small amount of personal material, including correspondence with family and friends, photographs, and biographical documents and clippings. The papers are organized into the following series: Correspondence, Biographical Materials, Business Papers, Photographs, Promotional Materials, Programs, Clippings, Publications, and Miscellany.</p>
+         <p>The Correspondence series, circa 1929-1981, contains professional and personal letters to and from Merle Montgomery relating to her business activities and personal life. The series is divided into two subseries: Professional and Personal. The Professional subseries, 1933-1981, spans her entire career and relates to her activities in music education and publishing, the various music, arts, and cultural organizations, projects, and programs which she led, the mentoring of students and young musicians, and other professional activities. This subseries contains items from the composers Nadia Boulanger, Aaron Copland, Morton Gould, John La Montaine, William Schuman, Louise Talma, and Virgil Thomson. The Personal subseries, circa 1929-1981, includes letters from Montgomery's second husband, A. Walter Kramer, dating from before their marriage up until shortly before his death. There is also correspondence to and from Montgomery's mother, including letters from Merle regarding her studies in Europe in the 1930s. In addition, there are letters from Montgomery's son, her siblings, and numerous friends and extended family.</p>
+         <p>The Biographical Materials series, 1931-1981, contains a variety of materials by and about Merle Montgomery. There are biographical sketches and press releases from a variety of sources which detail her work history and professional accomplishments. In addition, this series contains biographical sketches of her second husband, A. Walter Kramer. The series also contains clippings about Montgomery and her family, some personal business papers, and several awards and citations that she received. The writings by Montgomery include drafts of speeches and published articles.</p>
+         <p>The Business Papers series, 1942-1983, is the largest series in the collection. It contains papers relating to Merle Montgomery's career and leadership roles in many local and national organizations, projects, and programs. The series is divided into eleven subseries: Carl Fischer Inc., Ford Foundation Recording-Publication Project, Let's Go to Musicland!, Mu Phi Epsilon, Musicians Club of New York, National Federation of Music Clubs, National Music Council, New York City Opera Guild, New York Philomusica Chamber Ensemble, Scribner Music Library, and University of Rochester.</p>
+         <p>The Carl Fischer Inc. subseries, 1947-1978, covers both of Montgomery's stints with the music publishing firm and includes correspondence with composers and others concerning various Fischer projects, internal reports and memoranda, publicity and promotional materials, and newsletters. The Ford Foundation Recording-Publication Project, 1966-1972, was a Carl Fischer project which Montgomery continued to manage even after she left Fischer to become president of the National Federation of Music Clubs. This subseries contains correspondence, including a detailed letter to the Ford Foundation discussing the cancellation of the project, applications, and other miscellaneous project papers.</p>
+         <p>The Let's Go to Musicland! subseries, 1953-1966, relates to a series of thirteen 15-minute films that Montgomery, wrote, produced and hosted for the University of Oklahoma Educational Service Division. The series introduced children to the fundamentals of music and was based on material from her <title>Music Theory Papers</title>. Materials include correspondence detailing the origins and progress of the project, promotional materials, and a partial script.</p>
+         <p>The Mu Phi Epsilon subseries, circa 1952-1983, contains materials relating to Montgomery's long association with the organization. In addition to national vice-president in charge of public relations and governor of the Atlantic Province, Montgomery was chairman of the board for the Memorial Foundation, editor of <title>Who's Who in MɸE</title>, and president of the New York Alumni chapter. The subseries includes Memorial Foundation documents, promotional items, directories and yearbooks, and reports.</p>
+         <p>Montgomery was an active member of the Musicians Club of New York, serving as vice president and chairman of the performance committee. The Musicians Club of New York subseries, 1949-1981, contains general materials about the organization as well as correspondence and items which detail Montgomery's activities, such as promoting music in hospitals and old-age homes and supporting young musicians through the Young Artists Awards.</p>
+         <p>The National Federation of Music Clubs (NFMC) series, 1954-1981, is the largest subseries in the Business Papers series. Montgomery had a thirty-year association with the organization, beginning around 1953 when she was named local chairman of the national convention, up until 1982 when she was NFMC representative to the United Nations. Over the years, she held numerous positions, with the Oklahoma and New York state clubs as well as the national organization. She was president of both the New York Federation of Music Clubs (1958-1960) and the National Federation of Music Clubs (1971-1975). The subseries spans Montgomery's association with the NFMC and includes such documents as correspondence; convention materials; financial documents; meeting agendas, reports and minutes; and publicity and promotional materials. In addition, there are materials documenting particular initiatives, including junior festivals, scholarships, the International Year of the Child, the Parade of American Music, American women composers, Opera for Youth, and the Wolf Trap American University Program for the Performing Arts. This subseries also includes a significant amount of New York Federation of Music Clubs materials. </p>
+         <p>The National Music Council subseries, 1966-1981, also contains materials relating to the International Music Council. Montgomery was president of the National Music Council from 1975 to 1979 and board chairman and delegate to four International Music Council conventions. Included in this subseries are materials chronicling the Bicentennial Parade of American Music, for which Montgomery was the project manager. This nation-wide project featured concerts at the Kennedy Center showcasing composers from all fifty states, a thirteen-week series of radio programs broadcasting the works of states' composers, and plaques placed at various historical sites relating to American music. In addition, this subseries includes materials about a proposed international festival of music that was being planned by Montgomery and Iain Turpie from 1974 to 1980. There are also internal documents, correspondence, promotional materials, and clippings.</p>
+         <p>The New York City Opera Guild subseries, 1966-1983, features correspondence, publicity materials, newsletters, and other internal documents such as membership lists and committee meeting minutes. Montgomery was a charter member and vice-president of the New York City Opera Guild.</p>
+         <p>The New York Philomusica Chamber Ensemble subseries, 1970-1982, relates to the federated chamber ensemble directed by A. Robert Johnson. Montgomery was a member of the founding board of directors in 1971. Materials include internal business papers, promotional and publicity materials, correspondence, and reviews of their concerts.</p>
+         <p>The Scribner Music Library subseries, circa 1961-1972, contains materials relating to the two volumes that Montgomery edited for the <title>Scribner Music Library</title> series. She compiled and edited <title>Volume One for Beginners</title> and <title>Volume Four, A Century of Piano Music</title>. Volume one contained 207 compositions--of which 186 were original and unpublished at the time--by forty American composers. Volume four featured piano music from the second half of the nineteenth century and the first half of the twentieth century and included sixty-two compositions by forty-seven composers. The subseries contains planning documents, correspondence, drafts and proofs of the copy, reviews, and some publicity materials.</p>
+         <p>The University of Rochester subseries, 1942-1981, primarily documents Montgomery's alumni activities and membership in the Trustee's Council of Alumni Advisors. It includes alumni papers, internal council documents, correspondence, and materials relating to the Eastman School of Music. </p>
+         <p>The Photographs series, circa 1904-circa 1980, contains color and black and white photographs, both candid and posed, of Merle Montgomery alone and with colleagues and family. Most of the photographs were taken during Montgomery's later years and show her at various parties and professional functions. There are also a few family pictures and some publicity shots of Montgomery. In addition, this series includes several publicity shots of musicians and performers.</p>
+         <p>The Promotional Materials series, circa 1960-circa 1980, contains promotional and publicity material, such as brochures, pamphlets, and informational literature, on various music, educational, arts, and cultural organizations and programs. These materials span Montgomery's career and reflect her interests and her many professional and personal activities. This series also contains publicity and promotional materials on musicians, performers, composers and conductors, many of whom Montgomery promoted through her professional organizations. These materials may also include photographs and correspondence.</p>
+         <p>The Programs series, 1931, circa 1960-circa 1980, contains programs for various music and cultural performances and events. Many of these programs describe events that were produced or sponsored by organizations in which Montgomery was involved.</p>
+         <p>The Clippings series, circa 1960-circa 1980, contains newspaper and magazine clippings about topics, organizations, programs, and people related to Merle Montgomery's professional life and interests. Many clippings are taken from official publications belonging to organizations in which Montgomery was actively involved.</p>
+         <p>The Publications series, 1956-1981, contains a small amount of music, educational, cultural, and arts publications that relate to Montgomery's professional interests. </p>
+         <p>The Miscellany series, circa 1956-1981, contains various items, including speeches (by others), complete and partial narratives (unidentified) (draft and final), articles, brochures, catalogs, librettos, and materials on education.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd16e567">
+         <head>Organization of the Merle Montgomery Papers</head>
+         <p>The Merle Montgomery Papers are organized in nine series: </p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="corr">Correspondence, circa 1929-1981</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="bioma">Biographical Materials, 1931-1981</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="buspa">Business Papers, 1942-1983</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="photo">Photographs, circa 1904-circa 1980</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="proma">Promotional Materials, circa 1960-circa 1980</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="prog">Programs, 1931, circa 1960-circa 1980</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="clip">Clippings, circa 1960-circa 1980</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="publi">Publications, 1956-1981</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="misc">Miscellany, circa 1956-1981</ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn.loc.gov/2011570500"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2011570500</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd16e603" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd16e612">
+            <did>
+               <container type="box">1-2</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence, 
+			 	<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1929/1981">circa 1929-1981</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence to and from colleagues, associates, friends, family members, businesses, and organizations relating to professional and personal activities. Includes telegrams, postcards, greeting cards, invitations, and announcements. Some correspondence has accompanying material.</p>
+            </scopecontent>
+            <c02 level="subseries" id="mferd16e623">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle encodinganalog="245$a">Professional, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1933/1981">1933-1981</unitdate>
+                  </unittitle>
+               </did>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by name of person or organization.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e634">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a">A-B</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e640">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a">C-D</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e646">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a">E-G</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e652">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a">H-K</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e658">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a">L-R</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e664">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a">S-T</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e670">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a">U-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e676">
+               <did>
+                  <container type="box">1-2</container>
+                  <unittitle encodinganalog="245$a">Personal, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1929/1981">circa 1929-1981</unitdate>
+                  </unittitle>
+               </did>
+               <c03 level="file" id="mferd16e684">
+                  <did>
+                     <container type="box-folder">1/8</container>
+                     <unittitle encodinganalog="245$a">Letters from Merle Montgomery, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e692">
+                  <did>
+                     <container type="box-folder">1/9-10</container>
+                     <unittitle encodinganalog="245$a">Letters from Merle Montgomery, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e703">
+                  <did>
+                     <container type="box-folder">1/11</container>
+                     <unittitle encodinganalog="245$a">Letters from A. Walter Kramer, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1951-1971</unitdate>
+                     </unittitle>
+                     <note encodinganalog="500$a">
+                        <p>Includes two items written by Merle Montgomery to Kramer and a 1971 letter to M. Montgomery from Kramer's music publisher.</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e714">
+                  <did>
+                     <container type="box-folder">1/12</container>
+                     <unittitle encodinganalog="245$a">Letters from A. Walter Kramer, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e722">
+                  <did>
+                     <container type="box-folder">2/1</container>
+                     <unittitle encodinganalog="245$a">Family, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1931, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e730">
+                  <did>
+                     <container type="box-folder">2/2</container>
+                     <unittitle encodinganalog="245$a">Family, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1972, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e738">
+                  <did>
+                     <container type="box-folder">2/3</container>
+                     <unittitle encodinganalog="245$a">Family, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e746">
+                  <did>
+                     <container type="box-folder">2/4</container>
+                     <unittitle encodinganalog="245$a">Unidentified family and friends, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1929-1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e754">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">Unidentified family and friends, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e762">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a">Unidentified family and friends, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e771">
+                  <did>
+                     <container type="box-folder">2/7</container>
+                     <unittitle encodinganalog="245$a">Unidentified family and friends, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1935-1981, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e779">
+                  <did>
+                     <container type="box-folder">2/8</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous family, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1972, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd16e787">
+            <did>
+               <container type="box">2-3</container>
+               <unittitle encodinganalog="245$a" id="bioma">Biographical Materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1931/1981">1931-1981</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Clippings, biographical sketches, resumés, press releases, correspondence, personal business papers, awards, citations, writings, items about spouse A. Walter Kramer and other family members, programs, and Montgomery's passport.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd16e798">
+               <did>
+                  <container type="box-folder">2/9</container>
+                  <unittitle encodinganalog="245$a">Biographies, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1941-1971, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e806">
+               <did>
+                  <container type="box-folder">2/10-11</container>
+                  <unittitle encodinganalog="245$a">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1948-1980, undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e817">
+               <did>
+                  <container type="box-folder">2/12</container>
+                  <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e825">
+               <did>
+                  <container type="box-folder">2/13</container>
+                  <unittitle encodinganalog="245$a">A. Walter Kramer materials<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e835">
+               <did>
+                  <container type="box-folder">3/1</container>
+                  <unittitle encodinganalog="245$a">Awards and citations, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1943-1981, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e843">
+               <did>
+                  <container type="box-folder">3/2</container>
+                  <unittitle encodinganalog="245$a">Business papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1965-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e851">
+               <did>
+                  <container type="box-folder">3/3</container>
+                  <unittitle encodinganalog="245$a">Family materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1931-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e859">
+               <did>
+                  <container type="box-folder">3/4</container>
+                  <unittitle encodinganalog="245$a">Writings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e865">
+               <did>
+                  <container type="box-folder">3/5-6</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd16e874">
+            <did>
+               <container type="box">3-14</container>
+               <unittitle encodinganalog="245$a" id="buspa">Business Papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1942/1983">1942-1983</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, agendas, reports, meeting minutes, memos, convention programs, financial documents, brochures, publicity and promotional materials, by-laws, membership lists, newsletters, articles, and clippings.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by organization or program.</p>
+            </arrangement>
+            <c02 level="subseries" id="mferd16e888">
+               <did>
+                  <container type="box">3-4</container>
+                  <unittitle encodinganalog="245$a">Carl Fischer Inc., <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1978</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Newsletters, publicity materials, news releases, announcements, programs, invitations, brochures, catalogs, memoranda, clippings, correspondence, rental and pricing lists, financial papers, company histories, reports, drafts, and miscellaneous project documents.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e902">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle encodinganalog="245$a">Brochures and catalogs</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e911">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e920">
+                  <did>
+                     <container type="box-folder">3/9</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1971</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e931">
+                  <did>
+                     <container type="box-folder">3/10</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1978, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e942">
+                  <did>
+                     <container type="box-folder">3/11</container>
+                     <unittitle encodinganalog="245$a">Financial papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1968-1971</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e953">
+                  <did>
+                     <container type="box-folder">3/12</container>
+                     <unittitle encodinganalog="245$a">Memoranda, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1971, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e964">
+                  <did>
+                     <container type="box-folder">4/1</container>
+                     <unittitle encodinganalog="245$a">News releases, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1957-1971, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e975">
+                  <did>
+                     <container type="box-folder">4/2</container>
+                     <unittitle encodinganalog="245$a">Newsletters, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1972</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e987">
+                  <did>
+                     <container type="box-folder">4/3</container>
+                     <unittitle encodinganalog="245$a">Rental lists</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e996">
+                  <did>
+                     <container type="box-folder">4/4</container>
+                     <unittitle encodinganalog="245$a">Reports, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1970</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1007">
+                  <did>
+                     <container type="box-folder">4/5</container>
+                     <unittitle encodinganalog="245$a">Schillinger material, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1947-1964</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1018">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1027">
+               <did>
+                  <container type="box">4-5</container>
+                  <unittitle encodinganalog="245$a">Ford Foundation Recording-Publication Project, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1972</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, lists of composers and musical pieces, price lists, narratives about composers and musical pieces, application forms, miscellaneous project papers.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1041">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a">Application forms</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1050">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1059">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a">Narratives</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1068">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1077">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle encodinganalog="245$a">Let's Go to Musicland! <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1966</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Scripts, outlines, continuities, drafts of scripts, promotional materials, correspondence, clippings, planning documents, negatives.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1091">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1966</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1102">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a">Planning documents</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1111">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a">Promotional materials</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1120">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a">Release forms</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1129">
+                  <did>
+                     <container type="box-folder">5/7</container>
+                     <unittitle encodinganalog="245$a">Scripts</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1138">
+                  <did>
+                     <container type="box-folder">5/8</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1147">
+               <did>
+                  <container type="box">5-6</container>
+                  <unittitle encodinganalog="245$a">Mu Phi Epsilon, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1952-1983</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, reports, directories, procedural rules, brochures, newsletters, member lists, promotional materials, clippings, programs, leaflets.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1161">
+                  <did>
+                     <container type="box-folder">5/9</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1170">
+                  <did>
+                     <container type="box-folder">5/10</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1963-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1181">
+                  <did>
+                     <container type="box-folder">5/11</container>
+                     <unittitle encodinganalog="245$a">Directories, brochures, yearbooks,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1952-1983</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1192">
+                  <did>
+                     <container type="box-folder">5/12</container>
+                     <unittitle encodinganalog="245$a">Memorial Foundation document, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1978</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1203">
+                  <did>
+                     <container type="box-folder">5/13</container>
+                     <unittitle encodinganalog="245$a">New York World's Fair documents, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964-1965</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1214">
+                  <did>
+                     <container type="box-folder">5/14</container>
+                     <unittitle encodinganalog="245$a">Newsletters, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960, 1972, 1980</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1225">
+                  <did>
+                     <container type="box-folder">5/15</container>
+                     <unittitle encodinganalog="245$a">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1981, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1236">
+                  <did>
+                     <container type="box-folder">5/16</container>
+                     <unittitle encodinganalog="245$a">Reports, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1982</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1248">
+                  <did>
+                     <container type="box-folder">6/1</container>
+                     <unittitle encodinganalog="245$a">Resumé material, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1977</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1259">
+                  <did>
+                     <container type="box-folder">6/2-3</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous papers</unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1268">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle encodinganalog="245$a">Musicians Club of New York, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1981</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, reports, by-laws, meeting minutes, brochures, newsletters, member lists, promotional and publicity materials, programs, certificate of incorporation.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1282">
+                  <did>
+                     <container type="box-folder">6/4</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1968-1977</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1293">
+                  <did>
+                     <container type="box-folder">6/5</container>
+                     <unittitle encodinganalog="245$a">Promotional materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1304">
+                  <did>
+                     <container type="box-folder">6/6</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1949-1978</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1315">
+               <did>
+                  <container type="box">6-10</container>
+                  <unittitle encodinganalog="245$a">National Federation of Music Clubs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1981</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, by-laws, convention materials, financial documents, memoranda, applications, meeting agendas, reports, minutes, publicity and promotional materials, reviews, newsletters, programs, articles, clippings.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials or name of initiative and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1329">
+                  <did>
+                     <container type="box-folder">6/7-11</container>
+                     <unittitle encodinganalog="245$a">American Women Composers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1980, undated</unitdate>
+                     </unittitle>
+                     <note encodinganalog="500$a">
+                        <p>This material also includes documents relating to various women's issues, including League of Women Composers, International Women's Year, laws and bills regarding women, and women in the arts.</p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1343">
+                  <did>
+                     <container type="box-folder">6/12-16</container>
+                     <unittitle encodinganalog="245$a">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-circa 1980</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1354">
+                  <did>
+                     <container type="box-folder">7/1</container>
+                     <unittitle encodinganalog="245$a">Convention materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1963-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1364">
+                  <did>
+                     <container type="box-folder">7/2-5</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1375">
+                  <did>
+                     <container type="box-folder">7/6-7</container>
+                     <unittitle encodinganalog="245$a">Financial materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942-1979, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1386">
+                  <did>
+                     <container type="box-folder">7/8</container>
+                     <unittitle encodinganalog="245$a">International Year of the Child, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1397">
+                  <did>
+                     <container type="box-folder">7/9-13--8/1-5</container>
+                     <unittitle encodinganalog="245$a">Junior activities, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(10 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1408">
+                  <did>
+                     <container type="box-folder">8/6-19</container>
+                     <unittitle encodinganalog="245$a">New York Federation of Music Clubs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1420">
+                  <did>
+                     <container type="box-folder">9/1-5</container>
+                     <unittitle encodinganalog="245$a">Opera for Youth, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1977-1979</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1431">
+                  <did>
+                     <container type="box-folder">9/6-7</container>
+                     <unittitle encodinganalog="245$a">Parade of American Music materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1974</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1442">
+                  <did>
+                     <container type="box-folder">9/8</container>
+                     <unittitle encodinganalog="245$a">Plan of work, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1969</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1453">
+                  <did>
+                     <container type="box-folder">9/9-10</container>
+                     <unittitle encodinganalog="245$a">Publications, brochures
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1463">
+                  <did>
+                     <container type="box-folder">9/11</container>
+                     <unittitle encodinganalog="245$a">Publicity materials
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1473">
+                  <did>
+                     <container type="box-folder">10/1-2</container>
+                     <unittitle encodinganalog="245$a">Reports, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1962-1982, undated</unitdate>
+                     </unittitle>
+                     <note encodinganalog="500$a">
+                        <p>Includes by-laws.</p>
+                     </note>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1487">
+                  <did>
+                     <container type="box-folder">10/3-5</container>
+                     <unittitle encodinganalog="245$a">Wolf Trap American University Program for the Performing Arts, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1974</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1498">
+                  <did>
+                     <container type="box-folder">10/6-10</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1981, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1509">
+               <did>
+                  <container type="box">10-12</container>
+                  <unittitle encodinganalog="245$a">National Music Council, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1981</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, reports, meeting minutes and agendas, brochures, newsletters, member lists, promotional and publicity materials, programs, clippings.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials or name of initiative and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1526">
+                  <did>
+                     <container type="box-folder">10/11-13</container>
+                     <unittitle encodinganalog="245$a">Bicentennial Parade of American Music,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973-1977</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1537">
+                  <did>
+                     <container type="box-folder">10/14</container>
+                     <unittitle encodinganalog="245$a">Clippings
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1547">
+                  <did>
+                     <container type="box-folder">10/15</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1558">
+                  <did>
+                     <container type="box-folder">11/1-2</container>
+                     <unittitle encodinganalog="245$a">International arts festivals, correspondence,	<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1980</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1569">
+                  <did>
+                     <container type="box-folder">11/3</container>
+                     <unittitle encodinganalog="245$a">International arts festivals, planning documents, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1978-1980</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1580">
+                  <did>
+                     <container type="box-folder">12/1</container>
+                     <unittitle encodinganalog="245$a">Meeting minutes and agendas, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1977</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1591">
+                  <did>
+                     <container type="box-folder">12/2</container>
+                     <unittitle encodinganalog="245$a">Programs and brochures, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1979</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1602">
+                  <did>
+                     <container type="box-folder">12/3-4</container>
+                     <unittitle encodinganalog="245$a">Promotional materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1975-1982</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1614">
+                  <did>
+                     <container type="box-folder">12/5</container>
+                     <unittitle encodinganalog="245$a">Reports, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1980-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1625">
+                  <did>
+                     <container type="box-folder">12/6</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1635">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">New York City Opera Guild, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1983</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, by-laws, meeting minutes, newsletters, membership lists, promotional and publicity materials, handbook, financial documents, clippings.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1652">
+                  <did>
+                     <container type="box-folder">12/7</container>
+                     <unittitle encodinganalog="245$a">Clippings
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1662">
+                  <did>
+                     <container type="box-folder">12/8</container>
+                     <unittitle encodinganalog="245$a">Publications, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1967-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1673">
+                  <did>
+                     <container type="box-folder">12/9-10</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1966-1983</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1685">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle encodinganalog="245$a">New York Philomusica Chamber Ensemble, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1982</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, brochures, promotional and publicity materials, program outlines, drafts of various materials, programs, miscellaneous business papers, clippings.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1702">
+                  <did>
+                     <container type="box-folder">12/11</container>
+                     <unittitle encodinganalog="245$a">Brochures and programs
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1712">
+                  <did>
+                     <container type="box-folder">12/12</container>
+                     <unittitle encodinganalog="245$a">Business papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972-1980</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1723">
+                  <did>
+                     <container type="box-folder">12/13</container>
+                     <unittitle encodinganalog="245$a">Clippings<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1733">
+                  <did>
+                     <container type="box-folder">12/14</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1970-1982</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1744">
+                  <did>
+                     <container type="box-folder">12/15</container>
+                     <unittitle encodinganalog="245$a">Promotional materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1977</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1755">
+                  <did>
+                     <container type="box-folder">12/16</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous papers,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1765">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle encodinganalog="245$a">Scribner Music Library, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1961-1972</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, proofs, drafts, lists of composers and compositions, memos, copies of agreements, reviews, promotional and publicity materials.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1782">
+                  <did>
+                     <container type="box-folder">13/1-6</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1961-1972</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1793">
+                  <did>
+                     <container type="box-folder">13/7-10</container>
+                     <unittitle encodinganalog="245$a">Proofs and drafts
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian"/>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1803">
+                  <did>
+                     <container type="box-folder">13/11</container>
+                     <unittitle encodinganalog="245$a">Publicity materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964-1965</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1814">
+                  <did>
+                     <container type="box-folder">13/12-13</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa 1960-circa 1969</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a">(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries" id="mferd16e1825">
+               <did>
+                  <container type="box">13-14</container>
+                  <unittitle encodinganalog="245$a">University of Rochester, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942-1981</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, reports, by-laws, meeting minutes and agendas, memos, brochures, newsletters, member lists, promotional and publicity materials, programs, investment reports.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of materials or name of initiative and chronologically therein.</p>
+               </arrangement>
+               <c03 level="file" id="mferd16e1842">
+                  <did>
+                     <container type="box-folder">13/14</container>
+                     <unittitle encodinganalog="245$a">Alumni papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1972</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1853">
+                  <did>
+                     <container type="box-folder">13/15</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1954-1976</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1864">
+                  <did>
+                     <container type="box-folder">13/16</container>
+                     <unittitle encodinganalog="245$a">Eastman School of Music 50th Anniversary Festival materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1971-1972</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1875">
+                  <did>
+                     <container type="box-folder">13/17</container>
+                     <unittitle encodinganalog="245$a">Eastman School of Music miscellaneous materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1942-1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1886">
+                  <did>
+                     <container type="box-folder">14/1</container>
+                     <unittitle encodinganalog="245$a">Presser International Symposium on Support for the Arts materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1972</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1897">
+                  <did>
+                     <container type="box-folder">14/2</container>
+                     <unittitle encodinganalog="245$a">Trustees' Council papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1963-1974</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1907">
+                  <did>
+                     <container type="box-folder">14/3</container>
+                     <unittitle encodinganalog="245$a">Trustees' Council papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974-1979</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1917">
+                  <did>
+                     <container type="box-folder">14/4</container>
+                     <unittitle encodinganalog="245$a">University of Rochester miscellaneous materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1964-1977</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd16e1929">
+                  <did>
+                     <container type="box-folder">14/5</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents,
+	 						<unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1978</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent encodinganalog="300$a"/>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd16e1940">
+            <did>
+               <container type="box">14</container>
+               <unittitle encodinganalog="245$a" id="photo">Photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1900/1980">circa 1904-circa 1980</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Color and black and white photographic prints of Merle Montgomery, her family, colleagues, and friends.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd16e1951">
+               <did>
+                  <container type="box-folder">14/6-8</container>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd16e1960">
+            <did>
+               <container type="box">15-16</container>
+               <unittitle encodinganalog="245$a" id="proma">Promotional Materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1960/1980">circa 1960-circa 1980</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Brochures, pamphlets, publicity material, and informational literature on various music, educational, arts, and cultural organizations and programs. This series also contains publicity and promotional materials on musicians, performers, composers, and conductors which may include photographs and correspondence.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged in two groups: alphabetically by name of organization or program, and alphabetically by name of person.</p>
+            </arrangement>
+            <c02 level="file" id="mferd16e1974">
+               <did>
+                  <container type="box-folder">15/1</container>
+                  <unittitle encodinganalog="245$a">Organizations, AD-AM</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e1980">
+               <did>
+                  <container type="box-folder">15/2</container>
+                  <unittitle encodinganalog="245$a">Organizations, AM-CHA</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e1986">
+               <did>
+                  <container type="box-folder">15/3</container>
+                  <unittitle encodinganalog="245$a">Organizations, CHO-LE</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e1992">
+               <did>
+                  <container type="box-folder">15/4</container>
+                  <unittitle encodinganalog="245$a">Organizations, LI-MUS</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e1998">
+               <did>
+                  <container type="box-folder">15/5</container>
+                  <unittitle encodinganalog="245$a">Organizations, MUS-OP</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e2004">
+               <did>
+                  <container type="box-folder">16/1</container>
+                  <unittitle encodinganalog="245$a">Organizations, PE-WO</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e2010">
+               <did>
+                  <container type="box-folder">16/2</container>
+                  <unittitle encodinganalog="245$a">People, A-HAN</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e2016">
+               <did>
+                  <container type="box-folder">16/3</container>
+                  <unittitle encodinganalog="245$a">People, HAP-O</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e2023">
+               <did>
+                  <container type="box-folder">16/4</container>
+                  <unittitle encodinganalog="245$a">People, P-TH</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd16e2029">
+               <did>
+                  <container type="box-folder">16/5</container>
+                  <unittitle encodinganalog="245$a">People, TR-Z, miscellaneous</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd16e2035">
+            <did>
+               <container type="box">16-17</container>
+               <unittitle encodinganalog="245$a" id="prog">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1931/1980">1931, circa 1960-circa 1980</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Programs for various music and cultural performances and events. These may include events produced by organizations in which Montgomery was involved.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd16e2046">
+               <did>
+                  <container type="box-folder">16/6-8, 17/1</container>
+                  <unittitle encodinganalog="245$a">Programs</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd16e2055">
+            <did>
+               <container type="box">17</container>
+               <unittitle encodinganalog="245$a" id="clip">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1960/1980">circa 1960-circa 1980</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Newspaper and magazine clippings about topics, organizations, programs, and people of interest to Merle Montgomery.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd16e2066">
+               <did>
+                  <container type="box-folder">17/2-5</container>
+                  <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd16e2075">
+            <did>
+               <container type="box">17</container>
+               <unittitle encodinganalog="245$a" id="publi">Publications, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1956/1981">1956-1981</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Miscellaneous music, educational, cultural, and arts publications.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd16e2086">
+               <did>
+                  <container type="box-folder">17/6</container>
+                  <unittitle encodinganalog="245$a">Publications</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a"/>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd16e2095">
+            <did>
+               <container type="box">18</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1956/1981">circa 1956-1981</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Miscellaneous papers, including speeches (by others), complete and partial narratives (draft and final), articles, brochures, catalogs, librettos, and materials on education.</p>
+            </scopecontent>
+            <c02 level="file" id="mferd16e2106">
+               <did>
+                  <container type="box-folder">18/1-7</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  <physdesc>
+                     <extent encodinganalog="300$a">(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ========== Enhanced: ========== 
  Transformed with schema2schema.06_mfer.xsl 
-Generated: Thu, 22 September 2011 12:12:16 PM EDT
+Generated: Mon, 17 June 2013 02:04:12 PM EDT
 URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
  ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu010011--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu010011--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu010011-->
 
 <ead xmlns="urn:isbn:1-931666-22-9"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
-     id="mferd188e3">
-   <eadheader id="mferd188e4" repositoryencoding="iso15511" relatedencoding="MARC21"
+     id="mferd141e3">
+   <eadheader id="mferd141e4" repositoryencoding="iso15511" relatedencoding="MARC21"
               countryencoding="iso3166-1"
               scriptencoding="iso15924"
               dateencoding="iso8601"
@@ -95,11 +95,12 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
          </repository>
          <abstract label="Summary" encodinganalog="520$a">This collection principally consists of holograph music manuscripts, sketches, and printed scores by Austrian composer Ludwig Zenk. </abstract>
       </did>
-      <!--ead:controlaccess template--><!--ead:controlaccess template: when--><controlaccess id="mferd3769e87" altrender=":::F005=^20100430020836.0^"><!--LN:282--><head>Selected Search Terms</head>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="mferd3769e87" altrender=":::F005=^20100430020836.0^">
+         <head>Selected Search Terms</head>
          <note>
             <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
          </note>
-         <!--LN:285--><!--LN:289--><controlaccess id="mferd190e7">
+         <controlaccess id="mferd3771e12">
             <head>People</head>
             <persname encodinganalog="600" role="subject" source="lcnaf"
                       altrender=":::PWEBRECON=^Zenk%2C+Ludwig+Manuscripts.^">Zenk, Ludwig--Manuscripts.</persname>
@@ -107,7 +108,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                       altrender=":::PWEBRECON=^Zenk%2C+Ludwig.^">Zenk, Ludwig.</persname>
             <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Zenk%2C+Ludwig.^">Zenk, Ludwig. Selections.</persname>
          </controlaccess>
-         <controlaccess id="mferd190e16">
+         <controlaccess id="mferd3771e27">
             <head>Subjects</head>
             <subject encodinganalog="650" source="lcsh"
                      altrender=":::PWEBRECON=^Music+Manuscripts.^">Music--Manuscripts.</subject>
@@ -176,26 +177,26 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                <entry morerows="0">Contents</entry>
             </row>
          </thead>
-         <c01 id="mferd188e216" level="series">
+         <c01 id="mferd141e216" level="series">
             <did>
                <container type="box">1-2</container>
                <unittitle encodinganalog="245$a">Music Manuscripts
 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                </unittitle>
             </did>
-            <c02 id="mferd188e224" level="file">
+            <c02 id="mferd141e224" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Works with opus number
 				  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd188e230" level="file">
+               <c03 id="mferd141e230" level="file">
                   <did>
                      <unittitle encodinganalog="245$a">Op. 1: Klaviersonate No. 1
 		  				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
-                  <c04 id="mferd188e236" level="file">
+                  <c04 id="mferd141e236" level="file">
                      <did>
                         <container type="box-folder">1/1</container>
                         <unittitle encodinganalog="245$a">Score; 26 p.
@@ -203,7 +204,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e244" level="file">
+                  <c04 id="mferd141e244" level="file">
                      <did>
                         <container type="box-folder">1/2</container>
                         <unittitle encodinganalog="245$a">Score; 36 p.
@@ -211,7 +212,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e252" level="file">
+                  <c04 id="mferd141e252" level="file">
                      <did>
                         <container type="box-folder">1/3</container>
                         <unittitle encodinganalog="245$a">Sketches and tone rows
@@ -219,7 +220,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e260" level="file">
+                  <c04 id="mferd141e260" level="file">
                      <did>
                         <container type="box-folder">1/4</container>
                         <unittitle encodinganalog="245$a">Printed score with annotations
@@ -228,13 +229,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd188e268" level="file">
+               <c03 id="mferd141e268" level="file">
                   <did>
                      <unittitle encodinganalog="245$a">Op. 2: Streichquartette No. 1
 		  				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
-                  <c04 id="mferd188e274" level="file">
+                  <c04 id="mferd141e274" level="file">
                      <did>
                         <container type="box-folder">1/5</container>
                         <unittitle encodinganalog="245$a">Score
@@ -242,7 +243,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e282" level="file">
+                  <c04 id="mferd141e282" level="file">
                      <did>
                         <container type="box-folder">1/6</container>
                         <unittitle encodinganalog="245$a">Parts
@@ -253,7 +254,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </note>
                      </did>
                   </c04>
-                  <c04 id="mferd188e293" level="file">
+                  <c04 id="mferd141e293" level="file">
                      <did>
                         <container type="box-folder">1/7</container>
                         <unittitle encodinganalog="245$a">Sketches of first movement
@@ -261,7 +262,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e301" level="file">
+                  <c04 id="mferd141e301" level="file">
                      <did>
                         <container type="box-folder">1/7</container>
                         <unittitle encodinganalog="245$a">Sketches and tone rows
@@ -280,13 +281,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd188e321" level="file">
+               <c03 id="mferd141e321" level="file">
                   <did>
                      <unittitle encodinganalog="245$a">Op. 3: 3 Lieder nach Trakl
 		  				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
-                  <c04 id="mferd188e327" level="file">
+                  <c04 id="mferd141e327" level="file">
                      <did>
                         <container type="box-folder">1/8</container>
                         <unittitle encodinganalog="245$a">Piano-vocal score
@@ -294,7 +295,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e335" level="file">
+                  <c04 id="mferd141e335" level="file">
                      <did>
                         <container type="box-folder">1/9</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -303,13 +304,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd188e343" level="file">
+               <c03 id="mferd141e343" level="file">
                   <did>
                      <unittitle encodinganalog="245$a">Op. 4: Klaviersonate No. 2
 		  				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
-                  <c04 id="mferd188e349" level="file">
+                  <c04 id="mferd141e349" level="file">
                      <did>
                         <container type="box-folder">2/1</container>
                         <unittitle encodinganalog="245$a">Score
@@ -317,7 +318,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e357" level="file">
+                  <c04 id="mferd141e357" level="file">
                      <did>
                         <container type="box-folder">2/2</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -325,7 +326,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e365" level="file">
+                  <c04 id="mferd141e365" level="file">
                      <did>
                         <container type="box-folder">2/2</container>
                         <unittitle encodinganalog="245$a">Sketches and tone rows
@@ -334,13 +335,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd188e373" level="file">
+               <c03 id="mferd141e373" level="file">
                   <did>
                      <unittitle encodinganalog="245$a">Op. 5: 4 Lieder nach Berthold Viertel
 		  				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
-                  <c04 id="mferd188e379" level="file">
+                  <c04 id="mferd141e379" level="file">
                      <did>
                         <container type="box-folder">2/3</container>
                         <unittitle encodinganalog="245$a">Piano-vocal score
@@ -348,7 +349,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e387" level="file">
+                  <c04 id="mferd141e387" level="file">
                      <did>
                         <container type="box-folder">2/3</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -357,13 +358,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd188e395" level="file">
+               <c03 id="mferd141e395" level="file">
                   <did>
                      <unittitle encodinganalog="245$a">Op. 6: 2 Chöre nach Johannes Klay
 		  				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
-                  <c04 id="mferd188e401" level="file">
+                  <c04 id="mferd141e401" level="file">
                      <did>
                         <container type="box-folder">2/4</container>
                         <unittitle encodinganalog="245$a">Vocal score
@@ -371,7 +372,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e409" level="file">
+                  <c04 id="mferd141e409" level="file">
                      <did>
                         <container type="box-folder">2/4</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -380,13 +381,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </did>
                   </c04>
                </c03>
-               <c03 id="mferd188e417" level="file">
+               <c03 id="mferd141e417" level="file">
                   <did>
                      <unittitle encodinganalog="245$a">Op. 9: Trakl Lieder
 		  				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                      </unittitle>
                   </did>
-                  <c04 id="mferd188e423" level="file">
+                  <c04 id="mferd141e423" level="file">
                      <did>
                         <container type="box-folder">2/5</container>
                         <unittitle encodinganalog="245$a">Piano-vocal score
@@ -394,7 +395,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e431" level="file">
+                  <c04 id="mferd141e431" level="file">
                      <did>
                         <container type="box-folder">2/5</container>
                         <unittitle encodinganalog="245$a">Vocal parts for songs nos. 1-8
@@ -402,7 +403,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                         </unittitle>
                      </did>
                   </c04>
-                  <c04 id="mferd188e439" level="file">
+                  <c04 id="mferd141e439" level="file">
                      <did>
                         <container type="box-folder">2/6</container>
                         <unittitle encodinganalog="245$a">Sketches
@@ -412,13 +413,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                   </c04>
                </c03>
             </c02>
-            <c02 id="mferd188e447" level="file">
+            <c02 id="mferd141e447" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Works without opus number
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd188e453" level="file">
+               <c03 id="mferd141e453" level="file">
                   <did>
                      <container type="box-folder">2/7</container>
                      <unittitle encodinganalog="245$a">Messe
@@ -427,7 +428,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      <physdesc>Sketches for Kyrie, Gloria, and Agnus Dei</physdesc>
                   </did>
                </c03>
-               <c03 id="mferd188e463" level="file">
+               <c03 id="mferd141e463" level="file">
                   <did>
                      <container type="box-folder">2/8</container>
                      <unittitle encodinganalog="245$a">Trio for clarinet, viola, and piano
@@ -436,7 +437,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      <physdesc>Sketches</physdesc>
                   </did>
                </c03>
-               <c03 id="mferd188e473" level="file">
+               <c03 id="mferd141e473" level="file">
                   <did>
                      <container type="box-folder">2/9</container>
                      <unittitle encodinganalog="245$a">Unidentified work for orchestra
@@ -445,7 +446,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      <physdesc>Sketches</physdesc>
                   </did>
                </c03>
-               <c03 id="mferd188e483" level="file">
+               <c03 id="mferd141e483" level="file">
                   <did>
                      <container type="box-folder">2/10</container>
                      <unittitle encodinganalog="245$a">Verklärter Herbst
@@ -455,13 +456,13 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                   </did>
                </c03>
             </c02>
-            <c02 id="mferd188e493" level="file">
+            <c02 id="mferd141e493" level="file">
                <did>
                   <unittitle encodinganalog="245$a">Miscellaneous sketches
 						<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                   </unittitle>
                </did>
-               <c03 id="mferd188e499" level="file">
+               <c03 id="mferd141e499" level="file">
                   <did>
                      <container type="box-folder">3/1</container>
                      <unittitle encodinganalog="245$a">Black sketchbook, undated
@@ -472,7 +473,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd188e510" level="file">
+               <c03 id="mferd141e510" level="file">
                   <did>
                      <container type="box-folder">3/2</container>
                      <unittitle encodinganalog="245$a" id="lz01">Purple sketchbook, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1933 </unitdate>
@@ -482,7 +483,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd188e522" level="file">
+               <c03 id="mferd141e522" level="file">
                   <did>
                      <container type="box-folder">3/3</container>
                      <unittitle encodinganalog="245$a" id="lz02">Tan sketchbook, <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934</unitdate>
@@ -492,7 +493,7 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                      </note>
                   </did>
                </c03>
-               <c03 id="mferd188e534" level="file">
+               <c03 id="mferd141e534" level="file">
                   <did>
                      <container type="box-folder">3/4</container>
                      <unittitle encodinganalog="245$a">Unidentified sketches and tone rows
@@ -502,14 +503,14 @@ URL: http://hdl.loc.gov/loc.music/eadmus.mu010011
                </c03>
             </c02>
          </c01>
-         <c01 id="mferd188e542" level="series">
+         <c01 id="mferd141e542" level="series">
             <did>
                <container type="box">3</container>
                <unittitle encodinganalog="245$a">Miscellaneous Materials
 	 				<unitdate encodinganalog="245$f" era="ce" calendar="gregorian"/>
                </unittitle>
             </did>
-            <c02 id="mferd188e550" level="file">
+            <c02 id="mferd141e550" level="file">
                <did>
                   <container type="box-folder">3/5</container>
                   <unittitle encodinganalog="245$a">Two photographs of unidentified sculpted bust and second prize certificate from the 1947 Gesellschaft der Musikfreunde competition</unittitle>

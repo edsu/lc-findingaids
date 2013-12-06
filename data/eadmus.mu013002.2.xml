@@ -1,0 +1,2264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ========== Enhanced: ========== 
+ Transformed with schema2schema.06_mfer.xsl 
+Generated: Sat, 31 August 2013 11:34:48 AM EDT
+URL: http://hdl.loc.gov/loc.music/eadmus.mu013002
+ ===================================== --><!--name="eadidNode" select="normalize-space(//ead:eadid[1])": http://hdl.loc.gov/loc.music/eadmus.mu013002--><!--name="eadidIdentifier" select="substring-after(//ead:eadid/@identifier, '/')": eadmus.mu013002--><!--name="eadidId" select="substring-after($eadidIdentifier, '.')": mu013002-->
+
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     id="mferd46e2">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21"
+              countryencoding="iso3166-1"
+              scriptencoding="iso15924"
+              dateencoding="iso8601"
+              langencoding="iso639-2b"
+              id="mferd46e3">
+      <eadid mainagencycode="US-DLC" countrycode="US"
+             identifier="hdl:loc.music/eadmus.mu013002"
+             encodinganalog="856$u">
+		http://hdl.loc.gov/loc.music/eadmus.mu013002</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Howard Ashman Papers</titleproper>
+            <author encodinganalog="245$c">Processed by the Music Division of the Library of Congress</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+				           <extptr xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="embed"
+                       xlink:actuate="onLoad"
+                       xlink:href="http://lcweb2.loc.gov/xmlcommon/lcseal.jpg"/> Music Division, Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c">2011</date>
+         </publicationstmt>
+         <seriesstmt>
+            <titleproper>Guides to Special Collections in the Music Division of the Library of Congress</titleproper>
+         </seriesstmt>
+         <notestmt>
+            <note>
+               <p>Contact information: <extref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:show="new"
+                          xlink:actuate="onRequest"
+                          xlink:href="http://hdl.loc.gov/loc.music/perform.contact">
+	  				http://hdl.loc.gov/loc.music/perform.contact</extref>
+	  			         </p>
+            </note>
+            <note id="lccnNote">
+               <p> Catalog Record: <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xlink:href="http://lccn.loc.gov/2012563812"
+                          xlink:actuate="onRequest"
+                          xlink:title="MARC record for collection"
+                          xlink:type="simple">http://lccn.loc.gov/2012563812</extref>
+	  			         </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Finding aid encoded by Library of Congress Music Division,
+		<date normal="2012">2012</date>
+         </creation>
+         <langusage>Finding aid written in <language langcode="eng" encodinganalog="041">English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2013-08" era="ce" calendar="gregorian">2013 August</date>
+            <item>This finding aid was updated by Janet McKinney in 2013 to include additional materials.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <archdesc level="collection" relatedencoding="MARC21" type="register">
+      <did id="mferd46e54">
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Howard Ashman Papers
+		  <unitdate label="Span Dates" type="inclusive" normal="1973/2010" encodinganalog="245$f"
+                      datechar="creation">1973-2010</unitdate> 
+		          <unitdate label="Bulk Dates" type="bulk" normal="1982/1991" encodinganalog="245$g"
+                      datechar="creation">(bulk 1982-1991)</unitdate>
+		       </unittitle>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">ML31.A75</unitid>
+         <origination label="Creator"> 
+		          <persname encodinganalog="100" source="lcnaf">Ashman, Howard</persname>
+         </origination>
+         <physdesc label="Extent">
+		          <extent encodinganalog="300">2,250 items</extent>
+		          <extent encodinganalog="300">31 containers</extent>
+		          <extent encodinganalog="300">16 linear feet</extent>
+		       </physdesc>
+         <langmaterial label="Language" encodinganalog="546">Collection material in
+		<language encodinganalog="041" langcode="eng">English</language>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <subarea>Music Division</subarea> Library of
+			 Congress</corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Howard Ashman (1950-1991) was a lyricist, librettist, playwright and director. The papers chiefly consist of materials from his work, including his collaborations with composer Alan Menken, such as <title>Little Shop of Horrors</title> and the Disney animated musicals <title>The Little Mermaid</title>, <title>Beauty and the Beast</title>, and <title>Aladdin</title>. Materials include scripts, piano-conductor scores, correspondence, business papers, photographs, scrapbooks, posters, clippings, notes, research materials, programs, promotional materials, writings, drawings, sketches, storyboards, address and date books, and memorial tributes.</abstract>
+      </did>
+      <!--ead:controlaccess template--><!--ead:controlaccess template: otherwise--><controlaccess id="ead.controlaccess_m.2012563812.10001"
+                     altrender=":::F005=^20130719105048.0^">
+         <head>Selected Search Terms</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically therein.</p>
+         </note>
+         <controlaccess id="mferd46e116">
+            <head>People</head>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ashman%2C+Howard+Archives.^">Ashman, Howard--Archives.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ashman%2C+Howard+Correspondence.^">Ashman, Howard--Correspondence.</persname>
+            <persname encodinganalog="100" role="creator" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ashman%2C+Howard.^">Ashman, Howard.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Ashman%2C+Howard.^">Ashman, Howard.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Gillespie%2C+Sarah+Ashman+Correspondence.^">Gillespie, Sarah Ashman--Correspondence.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hamlisch%2C+Marvin.^">Hamlisch, Marvin.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Hamlisch%2C+Marvin.^">Hamlisch, Marvin. Smile.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Mann%2C+Barry.^">Mann, Barry.</persname>
+            <persname encodinganalog="600" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Menken%2C+Alan.^">Menken, Alan.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Menken%2C+Alan.^">Menken, Alan.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Menken%2C+Alan.^">Menken, Alan. Aladdin.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Menken%2C+Alan.^">Menken, Alan. Beauty and the beast (Motion picture music)</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Menken%2C+Alan.^">Menken, Alan. God bless you, Mr. Rosewater.</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Menken%2C+Alan.^">Menken, Alan. Little mermaid (Motion picture music)</persname>
+            <persname encodinganalog="700" source="lcnaf" altrender=":::PWEBRECON=^Menken%2C+Alan.^">Menken, Alan. Little shop of horrors.</persname>
+            <persname encodinganalog="700" source="lcnaf"
+                      altrender=":::PWEBRECON=^Sheffer%2C+Jonathan.^">Sheffer, Jonathan.</persname>
+         </controlaccess>
+         <controlaccess id="mferd46e152">
+            <head>Organizations</head>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^Walt+Disney+Company.^">Walt Disney Company.</corpname>
+            <corpname encodinganalog="610$a" role="subject" source="lcnaf"
+                      altrender=":::PWEBRECON=^WPA+Theater.^">WPA Theater.</corpname>
+         </controlaccess>
+         <controlaccess id="mferd46e159">
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Animated+films+United+States.^">Animated films--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Drama+20th+century.^">Drama--20th century.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Dramatists%2C+American+20th+century.^">Dramatists, American--20th century.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Librettists+United+States.^">Librettists--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Lyricists+United+States.^">Lyricists--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Motion+picture+music+Excerpts+Scores.^">Motion picture music--Excerpts--Scores.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Motion+pictures+United+States.^">Motion pictures--United States.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Musical+films.^">Musical films.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musical+theater+United+States+20th+century.^">Musical theater--United States--20th century.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musicals+Librettos.^">Musicals--Librettos.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Musicals+Production+and+direction.^">Musicals--Production and direction.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Musicals+Scores.^">Musicals--Scores.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Musicals.^">Musicals.</subject>
+            <subject encodinganalog="650" source="lcsh" altrender=":::PWEBRECON=^Songs+Texts.^">Songs--Texts.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Storyboards+United+States.^">Storyboards--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Theater+United+States.^">Theater--United States.</subject>
+            <subject encodinganalog="650" source="lcsh"
+                     altrender=":::PWEBRECON=^Theatrical+producers+and+directors+United+States.^">Theatrical producers and directors--United States.</subject>
+         </controlaccess>
+         <controlaccess id="mferd46e197">
+            <head>Titles</head>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" encodinganalog="630"
+                   xlink:role="subject"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^Aladdin+%28Motion+picture%29^">Aladdin (Motion picture)</title>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" encodinganalog="630"
+                   xlink:role="subject"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^Beauty+and+the+beast+%28Motion+picture+%3A+1991%29^">Beauty and the beast (Motion picture : 1991)</title>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" encodinganalog="630"
+                   xlink:role="subject"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^Little+mermaid+%28Motion+picture%29^">Little mermaid (Motion picture)</title>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" encodinganalog="630"
+                   xlink:role="subject"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^Little+shop+of+horrors+%28Motion+picture+%3A+1986%29^">Little shop of horrors (Motion picture : 1986)</title>
+            <title xmlns:xlink="http://www.w3.org/1999/xlink" encodinganalog="630"
+                   xlink:role="subject"
+                   source="lcnaf"
+                   altrender=":::PWEBRECON=^Little+shop+of+horrors+%28Musical+play%29^">Little shop of horrors (Musical play)</title>
+         </controlaccess>
+         <controlaccess id="mferd46e210">
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Appointment+books.^">Appointment books.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Clippings+%28Information+artifacts%29^">Clippings (Information artifacts)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Correspondence.^">Correspondence.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Drawings+%28Visual+works%29^">Drawings (Visual works)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Financial+records.^">Financial records.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Notes.^">Notes.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Photographic+prints.^">Photographic prints.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Posters.^">Posters.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Programs+%28Documents%29^">Programs (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Promotional+materials.^">Promotional materials.</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Scrapbooks.^">Scrapbooks.</genreform>
+            <genreform encodinganalog="655" source="aat"
+                       altrender=":::PWEBRECON=^Scripts+%28Documents%29^">Scripts (Documents)</genreform>
+            <genreform encodinganalog="655" source="aat" altrender=":::PWEBRECON=^Sketches.^">Sketches.</genreform>
+         </controlaccess>
+      </controlaccess>
+      <descgrp type="admininfo" id="mferd46e240">
+         <head>Administrative Information</head>
+         <acqinfo encodinganalog="541" id="mferd46e243">
+            <head>Provenance</head>
+            <p>Gift of Sarah Ashman Gillespie (sister) and William Lauch (partner); 2008, 2011, and 2013.</p>
+         </acqinfo>
+         <accruals encodinganalog="584" id="mferd46e248">
+            <head>Accruals</head>
+            <p>No further accruals are expected.</p>
+         </accruals>
+         <processinfo encodinganalog="583" id="mferd46e253">
+            <head>Processing History</head>
+            <p>The Howard Ashman Papers were processed by Amy Lauder, Janet McKinney, Shannon Pahl, and Mai Young in 2011 and 2013. Janet McKinney coded the finding aid for EAD format in 2012 and 2013.</p>
+         </processinfo>
+         <separatedmaterial encodinganalog="544 0" id="mferd46e258">
+            <head>Transfers</head>
+            <p>Audiovisual materials have been transferred to the Library of Congress Motion Picture, Broadcasting and Recorded Sound Division. An inventory of this material is available in the Music Division's collection file.</p>
+         </separatedmaterial>
+         <userestrict encodinganalog="540" id="mferd46e263">
+            <head>Copyright Status</head>
+            <p>Materials from the Howard Ashman Papers are governed by the Copyright Law of the United States (Title 17, U.S.C.) and other applicable international copyright laws.</p>
+         </userestrict>
+         <accessrestrict encodinganalog="506 0" id="mferd46e268">
+            <head>Access and Restrictions</head>
+            <p>The Howard Ashman Papers are open to research. Researchers are advised to contact the Music Division prior to visiting in order to determine whether the desired materials will be available at that time.</p>
+            <p>Certain restrictions to use or copying of materials may apply.</p>
+         </accessrestrict>
+         <altformavail encodinganalog="530" id="mferd46e275">
+            <head>Electronic Files</head>
+            <p>Electronic files were received as part of the Howard Ashman Papers. Consult reference staff in the Performing Arts Reading Room for more information.</p>
+         </altformavail>
+         <prefercite encodinganalog="524" id="mferd46e280">
+            <head>Preferred Citation</head>
+            <p>Researchers wishing to cite this collection should include the following information: [item, date, container number], Howard Ashman Papers, Music Division, Library of Congress, Washington, D.C. </p>
+         </prefercite>
+      </descgrp>
+      <bioghist encodinganalog="545" id="mferd46e285">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <date>1950, May 17</date>
+               <event>Born, Baltimore, Maryland to Shirley and Raymond Ashman</event>
+            </chronitem>
+            <chronitem>
+               <date>1973</date>
+               <event>MFA, Indiana University, Bloomington, Ind.</event>
+            </chronitem>
+            <chronitem>
+               <date>1976</date>
+               <event>
+                  <title>The Confirmation</title>, a play by Ashman, produced at Princeton's McCarter Theater</event>
+            </chronitem>
+            <chronitem>
+               <date>1977</date>
+               <event>Became artistic director, WPA Theatre, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <date>1979</date>
+               <event>Adapted and directed Kurt Vonnegut's <title>God Bless You, Mr. Rosewater</title>, his first collaboration with Alan Menken</event>
+            </chronitem>
+            <chronitem>
+               <date>1982</date>
+               <event>Premiere of <title>Little Shop of Horrors</title>, book, lyrics, and direction by Ashman and music by Menken</event>
+            </chronitem>
+            <chronitem>
+               <date>1983</date>
+               <event>Won New York Drama Critics' Circle Award for Best Musical, Drama Desk Award for Outstanding Musical and Outstanding Lyrics, and Outer Critics Circle Award for Best Off Broadway Musical for <title>Little Shop of Horrors</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1984 Feb.</date>
+               <event>Met life partner William Lauch</event>
+            </chronitem>
+            <chronitem>
+               <date>1986</date>
+               <eventgrp>
+                  <event>Premiere of <title>Smile</title>, with book, lyrics, and direction by Ashman and music by Marvin Hamlisch</event>
+                  <event>Film version of <title>Little Shop of Horrors</title> released, with screenplay by Ashman</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1988</date>
+               <event>
+                  <title>Oliver &amp; Company</title> released; Ashman contributed lyrics to "Once Upon a Time in New York City" with music by Barry Mann; his first collaboration with Disney</event>
+            </chronitem>
+            <chronitem>
+               <date>1989 Nov.</date>
+               <event>
+                  <title>The Little Mermaid</title> released, with lyrics by Ashman and music by Menken</event>
+            </chronitem>
+            <chronitem>
+               <date>1990</date>
+               <event>Received Academy Award for Best Original Song and Golden Globe Award for Best Original Song for "Under the Sea" from <title>The Little Mermaid</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1991 Feb.</date>
+               <event>Received Grammys for Best Recording for Children for <title>The Little Mermaid</title> and Best Song Written Specifically for a Motion Picture or Television for "Under the Sea" from <title>The Little Mermaid</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1991, Mar. 14</date>
+               <event>Died from complications from AIDS, New York City</event>
+            </chronitem>
+            <chronitem>
+               <date>1991 Nov.</date>
+               <event>
+                  <title>Beauty and the Beast</title> released, with lyrics by Ashman and music by Menken</event>
+            </chronitem>
+            <chronitem>
+               <date>1992</date>
+               <eventgrp>
+                  <event>Received Academy Award and Golden Globe Award for Best Original Song for "Beauty and the Beast" from <title>Beauty and the Beast</title>
+                  </event>
+                  <event>
+                     <title>Aladdin</title> released, with lyrics by Ashman and Tim Rice, music by Menken</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date>1993 Feb.</date>
+               <event>Received Grammys for Best Album for Children for <title>Beauty and the Beast</title> and Best Song Written Specifically for a Motion Picture or Television for "Beauty and the Beast" from <title>Beauty and the Beast</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>1994 Apr.</date>
+               <event>Premiere of staged musical <title>Beauty and the Beast</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date>2001</date>
+               <event>Named a Disney Legend</event>
+            </chronitem>
+            <chronitem>
+               <date>2003, Oct. 2</date>
+               <event>
+                  <title>Little Shop of Horrors</title> revival opened</event>
+            </chronitem>
+            <chronitem>
+               <date>2008</date>
+               <eventgrp>
+                  <event>Premiere of staged musical <title>The Little Mermaid</title>
+                  </event>
+                  <event>
+                     <title>Howard Sings Ashman</title> released on PS Classics</event>
+               </eventgrp>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520" id="mferd46e455">
+         <head>Scope and Content Note</head>
+         <p>The Howard Ashman Papers span the period 1973-2010, with the majority of the materials dating from 1982-1991. Materials include scripts, piano-conductor scores, correspondence, business papers, photographs, scrapbooks, posters, clippings, notes, research materials, programs, promotional materials, writings, drawings, sketches, storyboards, biographical materials, address and date books, and memorial tributes.</p>
+         <p>The Project Files include materials for stage and film works and are arranged alphabetically by project name. When known, the original production information has been provided. In the case of <title>Little Shop of Horrors</title> where the musical was subsequently filmed, the materials for the film have been included with the stage materials. Project files consist of scripts and script fragments arranged chronologically, scores, notes, research materials, business papers, correspondence, programs, and clippings.</p>
+         <p>Biographical Materials include early writings and school project materials, address and date books, and memorial tributes. The correspondence consists chiefly of personal letters received by Ashman throughout his career, get-well wishes during his illness, and condolence letters to his sister Sarah after Ashman's death.</p>
+         <p>The Miscellany series contains general clippings, writings by others, and a few uncategorized items. The writings by others primarily contain plays or musicals in draft form, some of which are annotated. A list of unannotated published scripts that were not retained is kept in the collections file in the Library of Congress Music Division.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a" id="mferd46e469">
+         <head>Organization of the Howard Ashman Papers</head>
+         <p>The Howard Ashman Papers are organized in three series:</p>
+         <list>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="profi">Project Files, 1973-2010</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="bioma">Biographical Materials, 1973-1993</ref>
+            </item>
+            <item>
+               <ref xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"
+                    xlink:show="replace"
+                    xlink:actuate="onRequest"
+                    target="misc">Miscellany, 1981-1993</ref>
+            </item>
+         </list>
+      </arrangement>
+      <otherfindaid encodinganalog="555$a" id="lccnURI">
+         <extref xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="http://lccn/loc.gov/2012563812"
+                 xlink:actuate="onRequest"
+                 xlink:title="MARC record for collection"
+                 xlink:type="simple">http://lccn.loc.gov/2012563812</extref>
+      </otherfindaid>
+      <!--$otherfindiaidTestCheck: yes--><dsc id="mferd46e487" type="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series" id="mferd46e496">
+            <did>
+               <container type="box">1-20, 27-31</container>
+               <container type="mapcase">3</container>
+               <unittitle encodinganalog="245$a" id="profi">Project Files, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1973/2010">1973-2010</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd46e506">
+               <did>
+                  <unittitle encodinganalog="245$a">Aladdin</unittitle>
+                  <note encodinganalog="500">
+                     <p>Film, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1992</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Music by Alan Menken, lyrics by Howard Ashman; additional lyrics by Tim Rice</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e518">
+                  <did>
+                     <container type="box-folder">30/1</container>
+                     <unittitle encodinganalog="245$a">Original treatment, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988 Jan. 19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e526">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988 July 6</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e534">
+                  <did>
+                     <container type="box-folder">1/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988 July 6</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e542">
+                  <did>
+                     <container type="box-folder">1/2</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 July 15</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e550">
+                  <did>
+                     <container type="box-folder">1/3</container>
+                     <unittitle encodinganalog="245$a">Script, partial, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 Aug. 26</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e558">
+                  <did>
+                     <container type="box-folder">1/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 Oct. 22</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e566">
+                  <did>
+                     <container type="box-folder">1/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 Dec. 16</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e574">
+                  <did>
+                     <container type="box-folder">1/6</container>
+                     <unittitle encodinganalog="245$a">Notes, outlines, research materials</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e580">
+                  <did>
+                     <container type="box-folder">1/7</container>
+                     <unittitle encodinganalog="245$a">Drawings, sketches</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e586">
+                  <did>
+                     <container type="box-folder">28/1-2</container>
+                     <unittitle encodinganalog="245$a">Storyboards</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e593">
+                  <did>
+                     <container type="box-folder">1/8</container>
+                     <unittitle encodinganalog="245$a">Business papers</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e599">
+                  <did>
+                     <container type="box-folder">1/9-2/4</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e605">
+                  <did>
+                     <container type="mapcase-drawer">3/15</container>
+                     <unittitle encodinganalog="245$a">Poster</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e611">
+                  <did>
+                     <container type="box-folder">30/2</container>
+                     <unittitle encodinganalog="245$a">Awards</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e617">
+                  <did>
+                     <container type="box-folder">2/5</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e623">
+               <did>
+                  <unittitle encodinganalog="245$a">Beauty and the Beast</unittitle>
+                  <note encodinganalog="500">
+                     <p>Film, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1991</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Music by Alan Menken, lyrics by Howard Ashman</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e635">
+                  <did>
+                     <container type="box-folder">2/6</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988 Sept. 16</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e643">
+                  <did>
+                     <container type="box-folder">2/7</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988 Nov. 29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e651">
+                  <did>
+                     <container type="box-folder">2/8</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989 June 19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e659">
+                  <did>
+                     <container type="box-folder">2/9</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989 June 19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e667">
+                  <did>
+                     <container type="box-folder">2/10</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 Feb. 27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e675">
+                  <did>
+                     <container type="box-folder">3/1</container>
+                     <unittitle encodinganalog="245$a">Script, Act IIA revisions, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 Mar. 12</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e683">
+                  <did>
+                     <container type="box-folder">3/2</container>
+                     <unittitle encodinganalog="245$a">Script, Act IIA revisions, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 Apr. 5</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e691">
+                  <did>
+                     <container type="box-folder">3/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 June 29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e699">
+                  <did>
+                     <container type="box-folder">3/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1990 Dec. 14</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e707">
+                  <did>
+                     <container type="box-folder">3/5-6</container>
+                     <unittitle encodinganalog="245$a">Notes, outlines, research materials</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e714">
+                  <did>
+                     <container type="box-folder">3/7</container>
+                     <unittitle encodinganalog="245$a">Notebook</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e720">
+                  <did>
+                     <container type="box-folder">30/3</container>
+                     <unittitle encodinganalog="245$a">"Be our guest" vocal score</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e726">
+                  <did>
+                     <container type="box-folder">3/8</container>
+                     <unittitle encodinganalog="245$a">Awards</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e732">
+                  <did>
+                     <container type="box-folder">4/1-4/5</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e738">
+                  <did>
+                     <container type="box-folder">4/6</container>
+                     <unittitle encodinganalog="245$a">Programs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e744">
+                  <did>
+                     <container type="mapcase-drawer">3/15</container>
+                     <unittitle encodinganalog="245$a">Christmas card signed by crew</unittitle>
+                     <note encodinganalog="500">
+                        <p>Reproduction included</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e753">
+                  <did>
+                     <container type="box-folder">4/7</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e759">
+               <did>
+                  <unittitle encodinganalog="245$a">Breaking up</unittitle>
+                  <note encodinganalog="500">
+                     <p>Play, unproduced, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982</unitdate>
+                     </p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e768">
+                  <did>
+                     <container type="box-folder">4/8</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982 Mar. 9</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e776">
+                  <did>
+                     <container type="box-folder">4/9</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982 Apr. 28</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e784">
+                  <did>
+                     <container type="box-folder">4/10</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982 May 3</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e792">
+               <did>
+                  <unittitle encodinganalog="245$a">The confirmation</unittitle>
+                  <note encodinganalog="500">
+                     <p>Play, McCarter Theater, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976</unitdate>
+                     </p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e801">
+                  <did>
+                     <container type="box-folder">5/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976 Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e809">
+                  <did>
+                     <container type="box-folder">5/2</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976 Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e817">
+                  <did>
+                     <container type="box-folder">5/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1977 Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e825">
+                  <did>
+                     <container type="box-folder">5/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1980 Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e833">
+                  <did>
+                     <container type="box-folder">5/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1980 Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e841">
+                  <did>
+                     <container type="box-folder">5/6</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1980 Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e849">
+                  <did>
+                     <container type="box-folder">5/7</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e855">
+                  <did>
+                     <container type="box-folder">5/8</container>
+                     <unittitle encodinganalog="245$a">Sketch</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e861">
+                  <did>
+                     <container type="box-folder">5/9</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e867">
+                  <did>
+                     <container type="box-folder">30/4</container>
+                     <unittitle encodinganalog="245$a">Programs</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e873">
+               <did>
+                  <unittitle encodinganalog="245$a">Dreamstuff</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical, WPA Theater, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Book by Howard Ashman, music by Marsha Malamet, lyrics by Dennis Green</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e885">
+                  <did>
+                     <container type="box-folder">5/10</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e893">
+                  <did>
+                     <container type="box-folder">30/5</container>
+                     <unittitle encodinganalog="245$a">Programs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e899">
+                  <did>
+                     <container type="box-folder">5/11</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e905">
+               <did>
+                  <unittitle encodinganalog="245$a">God bless you, Mr. Rosewater</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical, WPA Theater, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Book, lyrics and direction by Howard Ashman, music by Alan Menken</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e917">
+                  <did>
+                     <container type="box-folder">6/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979 Apr. 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e925">
+                  <did>
+                     <container type="box-folder">6/2</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979 Apr. 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e933">
+                  <did>
+                     <container type="box-folder">6/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979 Sep. 4</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e941">
+                  <did>
+                     <container type="box-folder">6/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979 Sep. 4</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e949">
+                  <did>
+                     <container type="box-folder">6/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1994 Sep. 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e957">
+                  <did>
+                     <container type="box-folder">6/6</container>
+                     <unittitle encodinganalog="245$a">Script fragments, outline, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e963">
+                  <did>
+                     <container type="box-folder">6/7</container>
+                     <unittitle encodinganalog="245$a">Script fragments, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e969">
+                  <did>
+                     <container type="box-folder">6/8-9</container>
+                     <unittitle encodinganalog="245$a">Production script, schedule, notes, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e977">
+                  <did>
+                     <container type="box-folder">30/6</container>
+                     <unittitle encodinganalog="245$a">"Thirty miles-Look who's here" vocal score</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e983">
+                  <did>
+                     <container type="box-folder">6/10</container>
+                     <unittitle encodinganalog="245$a">Correspondence: Vonnegut, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e992">
+                  <did>
+                     <container type="box-folder">30/7</container>
+                     <unittitle encodinganalog="245$a">Programs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e998">
+                  <did>
+                     <container type="box-folder">6/11</container>
+                     <unittitle encodinganalog="245$a">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1006">
+                  <did>
+                     <container type="box-folder">6/12</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1012">
+               <did>
+                  <unittitle encodinganalog="245$a">Hundreds of hats</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical revue, WPA Theater, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1995</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Lyrics by Howard Ashman, music by Alan Menken, Jonathan Sheffer, Marvin Hamlisch, and Barry Mann</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1024">
+                  <did>
+                     <container type="box-folder">7/1</container>
+                     <unittitle encodinganalog="245$a">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1995</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1032">
+                  <did>
+                     <container type="box-folder">7/2</container>
+                     <unittitle encodinganalog="245$a">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1995</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1040">
+               <did>
+                  <unittitle encodinganalog="245$a">I, Tina</unittitle>
+                  <note encodinganalog="500">
+                     <p>Screenplay, unproduced, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989</unitdate>
+                     </p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1049">
+                  <did>
+                     <container type="box-folder">7/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989 Apr.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1057">
+                  <did>
+                     <container type="box-folder">7/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989 Apr.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1065">
+                  <did>
+                     <container type="box-folder">7/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989 Apr.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1073">
+                  <did>
+                     <container type="box-folder">7/6</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989 Aug.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1081">
+                  <did>
+                     <container type="box-folder">7/7</container>
+                     <unittitle encodinganalog="245$a">Notes, outlines, research materials</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1087">
+                  <did>
+                     <container type="box-folder">7/8</container>
+                     <unittitle encodinganalog="245$a">Business papers, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989 Apr.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1095">
+                  <did>
+                     <container type="box-folder">7/9</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989 Apr.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1103">
+               <did>
+                  <unittitle encodinganalog="245$a">July from a winter window</unittitle>
+                  <note encodinganalog="500">
+                     <p>Play, unproduced, undated</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1110">
+                  <did>
+                     <container type="box-folder">7/10</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1116">
+               <did>
+                  <unittitle encodinganalog="245$a">The laughing Joan</unittitle>
+                  <note encodinganalog="500">
+                     <p>Play, unproduced, undated</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1123">
+                  <did>
+                     <container type="box-folder">7/11</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1130">
+               <did>
+                  <unittitle encodinganalog="245$a">The little mermaid</unittitle>
+                  <note encodinganalog="500">
+                     <p>Film, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1989</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Music by Alan Menken, lyrics by Howard Ashman</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1142">
+                  <did>
+                     <container type="box-folder">8/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Aug. 21</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1150">
+                  <did>
+                     <container type="box-folder">8/2</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Sep. 5</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1158">
+                  <did>
+                     <container type="box-folder">8/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Sep. 5</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1166">
+                  <did>
+                     <container type="box-folder">8/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1987 Mar. 12</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1174">
+                  <did>
+                     <container type="box-folder">8/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1987 July 9</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1182">
+                  <did>
+                     <container type="box-folder">30/8</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1987 July 9</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1190">
+                  <did>
+                     <container type="box-folder">30/9</container>
+                     <unittitle encodinganalog="245$a">Script, Musical, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">2006 Feb. 20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1198">
+                  <did>
+                     <container type="box-folder">30/10</container>
+                     <unittitle encodinganalog="245$a">Script, Musical, Greek, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">2006</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1206">
+                  <did>
+                     <container type="box-folder">30/11</container>
+                     <unittitle encodinganalog="245$a">Script, Musical, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">2007 June 25</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1214">
+                  <did>
+                     <container type="box-folder">8/6-8</container>
+                     <unittitle encodinganalog="245$a">Notes, outlines, research materials</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1221">
+                  <did>
+                     <container type="box-folder">30/12</container>
+                     <unittitle encodinganalog="245$a">Production budget</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1227">
+                  <did>
+                     <container type="box-folder">27/1</container>
+                     <unittitle encodinganalog="245$a">Drawing of Sebastian</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1233">
+                  <did>
+                     <container type="box-folder">28/3-4</container>
+                     <unittitle encodinganalog="245$a">Storyboards</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1239">
+                  <did>
+                     <container type="box-folder">8/9-10</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986-1991</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1247">
+                  <did>
+                     <container type="box-folder">8/11</container>
+                     <unittitle encodinganalog="245$a">Photographs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1253">
+                  <did>
+                     <container type="box-folder">30/13</container>
+                     <unittitle encodinganalog="245$a">Programs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1259">
+                  <did>
+                     <container type="box-folder">30/14</container>
+                     <unittitle encodinganalog="245$a">Promotional materials</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1265">
+                  <did>
+                     <container type="box-folder">9/1-6</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1271">
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle encodinganalog="245$a">Stuffed animal Sebastian</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1277">
+                  <did>
+                     <container type="box-folder">9/7</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1283">
+               <did>
+                  <unittitle encodinganalog="245$a">Little shop of horrors</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical, WPA Theater, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982</unitdate>; Film, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Book, lyrics, and direction by Howard Ashman, music by Alan Menken</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1298">
+                  <did>
+                     <container type="box-folder">10/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1306">
+                  <did>
+                     <container type="box-folder">10/2</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1314">
+                  <did>
+                     <container type="box-folder">10/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1322">
+                  <did>
+                     <container type="box-folder">31/1</container>
+                     <unittitle encodinganalog="245$a">Script with letter and photographs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982 Dec. 25</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1330">
+                  <did>
+                     <container type="box-folder">10/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983 Dec.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1338">
+                  <did>
+                     <container type="box-folder">10/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983 Dec.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1346">
+                  <did>
+                     <container type="box-folder">10/6</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984 Feb.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1354">
+                  <did>
+                     <container type="box-folder">10/7</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984 Nov.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1362">
+                  <did>
+                     <container type="box-folder">10/8</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984 Dec.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1370">
+                  <did>
+                     <container type="box-folder">11/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Jan. 15</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1379">
+                  <did>
+                     <container type="box-folder">11/2</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Jan. 17</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1387">
+                  <did>
+                     <container type="box-folder">11/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Feb. 14</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1395">
+                  <did>
+                     <container type="box-folder">11/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 July 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1403">
+                  <did>
+                     <container type="box-folder">11/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Sep. 27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1411">
+                  <did>
+                     <container type="box-folder">11/6</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                     <note encodinganalog="500">
+                        <p>Includes callback notes</p>
+                     </note>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1420">
+                  <did>
+                     <container type="box-folder">11/7</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1426">
+                  <did>
+                     <container type="box-folder">11/8</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1432">
+                  <did>
+                     <container type="box-folder">12/1</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1438">
+                  <did>
+                     <container type="box-folder">12/2</container>
+                     <unittitle encodinganalog="245$a">Script, French, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984 Feb.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1446">
+                  <did>
+                     <container type="box-folder">12/3</container>
+                     <unittitle encodinganalog="245$a">Script, French, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1452">
+                  <did>
+                     <container type="box-folder">12/4</container>
+                     <unittitle encodinganalog="245$a">Script, French, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1459">
+                  <did>
+                     <container type="box-folder">12/5</container>
+                     <unittitle encodinganalog="245$a">Script, French, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1465">
+                  <did>
+                     <container type="box-folder">12/6</container>
+                     <unittitle encodinganalog="245$a">Script, French, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1471">
+                  <did>
+                     <container type="box-folder">12/7</container>
+                     <unittitle encodinganalog="245$a">Script, Italian, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988 July 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1479">
+                  <did>
+                     <container type="box-folder">12/8</container>
+                     <unittitle encodinganalog="245$a">Script, Italian, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1485">
+                  <did>
+                     <container type="box-folder">12/9</container>
+                     <unittitle encodinganalog="245$a">Script, Swedish, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1491">
+                  <did>
+                     <container type="box-folder">12/10</container>
+                     <unittitle encodinganalog="245$a">Script fragments</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1497">
+                  <did>
+                     <container type="box-folder">13/1</container>
+                     <unittitle encodinganalog="245$a">Storyboard: Epilogue, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Jan. 8</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1505">
+                  <did>
+                     <container type="box-folder">13/2</container>
+                     <unittitle encodinganalog="245$a">Storyboard: Git it, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Aug. 5</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1513">
+                  <did>
+                     <container type="box-folder">13/3</container>
+                     <unittitle encodinganalog="245$a">Storyboard: Mean green mother, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Oct. 2</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1521">
+                  <did>
+                     <container type="box-folder">13/4</container>
+                     <unittitle encodinganalog="245$a">Storyboard: The meek shall inherit</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1527">
+                  <did>
+                     <container type="box-folder">13/5</container>
+                     <unittitle encodinganalog="245$a">Storyboard: Suppertime, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Aug. 28</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1536">
+                  <did>
+                     <container type="box-folder">27/2-3, 31/2</container>
+                     <unittitle encodinganalog="245$a">Piano-conductor scores</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1542">
+                  <did>
+                     <container type="box-folder">13/6</container>
+                     <unittitle encodinganalog="245$a">Notes, outlines, research materials</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1548">
+                  <did>
+                     <container type="box-folder">13/7</container>
+                     <unittitle encodinganalog="245$a">Drawings, sketches</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1554">
+                  <did>
+                     <container type="box-folder">13/8</container>
+                     <unittitle encodinganalog="245$a">Business papers</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1560">
+                  <did>
+                     <container type="box-folder">13/9</container>
+                     <unittitle encodinganalog="245$a">Business papers, international</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1566">
+                  <did>
+                     <container type="box-folder">13/10</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982-1989</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1574">
+                  <did>
+                     <container type="box-folder">13/11, 27/4, 31/3</container>
+                     <unittitle encodinganalog="245$a">Photographs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1580">
+                  <did>
+                     <container type="mapcase-drawer">3/15</container>
+                     <unittitle encodinganalog="245$a">Posters, international</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1586">
+                  <did>
+                     <container type="box-folder">13/12</container>
+                     <unittitle encodinganalog="245$a">Programs, US, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986-2005</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1594">
+                  <did>
+                     <container type="box-folder">13/13</container>
+                     <unittitle encodinganalog="245$a">Programs, International, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984-1986</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1602">
+                  <did>
+                     <container type="box-folder">14/1</container>
+                     <unittitle encodinganalog="245$a">Programs, International, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1987-2010</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1611">
+                  <did>
+                     <container type="box-folder">14/2</container>
+                     <unittitle encodinganalog="245$a">Programs, International, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1617">
+                  <did>
+                     <container type="box-folder">14/3</container>
+                     <unittitle encodinganalog="245$a">Programs, international, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1623">
+                  <did>
+                     <container type="box-folder">14/4-6</container>
+                     <unittitle encodinganalog="245$a">Drama Desk Award Scrapbook, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1982-1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1631">
+                  <did>
+                     <container type="box-folder">14/7</container>
+                     <unittitle encodinganalog="245$a">Theatre publications, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983-1992</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1639">
+                  <did>
+                     <container type="box-folder">15/1-2</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1645">
+                  <did>
+                     <container type="box-folder">15/3</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1651">
+               <did>
+                  <unittitle encodinganalog="245$a">Mud season</unittitle>
+                  <note encodinganalog="500">
+                     <p>Play, Direct Theater, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1974</unitdate>
+                     </p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1660">
+                  <did>
+                     <container type="box-folder">15/4</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1666">
+               <did>
+                  <unittitle encodinganalog="245$a">Oliver &amp; Company</unittitle>
+                  <note encodinganalog="500">
+                     <p>Film, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>"Once upon a time in New York City"-lyrics by Howard Ashman, music by Barry Mann</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1678">
+                  <did>
+                     <container type="box-folder">15/5</container>
+                     <unittitle encodinganalog="245$a">Lyric sheets</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1684">
+                  <did>
+                     <container type="box-folder">15/6</container>
+                     <unittitle encodinganalog="245$a">Clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1988</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1692">
+               <did>
+                  <unittitle encodinganalog="245$a">The other room</unittitle>
+                  <note encodinganalog="500">
+                     <p>Play, unproduced, undated</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1699">
+                  <did>
+                     <container type="box-folder">15/7</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1705">
+               <did>
+                  <unittitle encodinganalog="245$a">Out of this world</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical, unproduced, undated</p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Music and lyrics by Cole Porter, new book by Howard Ashman</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1715">
+                  <did>
+                     <container type="box-folder">15/8</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1721">
+               <did>
+                  <unittitle encodinganalog="245$a">The people in Paul's room</unittitle>
+                  <note encodinganalog="500">
+                     <p>Play, unproduced, undated</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1728">
+                  <did>
+                     <container type="box-folder">15/9</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1734">
+               <did>
+                  <unittitle encodinganalog="245$a">The pier</unittitle>
+                  <note encodinganalog="500">
+                     <p>Play, unproduced, undated</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1741">
+                  <did>
+                     <container type="box-folder">15/10</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1747">
+               <did>
+                  <unittitle encodinganalog="245$a">Pope Joan</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical, unproduced, undated</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1754">
+                  <did>
+                     <container type="box-folder">15/11</container>
+                     <unittitle encodinganalog="245$a">Script fragments</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1760">
+                  <did>
+                     <container type="box-folder">15/12</container>
+                     <unittitle encodinganalog="245$a">Notes, outlines, research materials</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1766">
+               <did>
+                  <unittitle encodinganalog="245$a">The raspberry girl and blue</unittitle>
+                  <note encodinganalog="500">
+                     <p>Short story, undated</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1773">
+                  <did>
+                     <container type="box-folder">15/13</container>
+                     <unittitle encodinganalog="245$a">Draft, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1779">
+               <did>
+                  <unittitle encodinganalog="245$a">Smile</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical, Lunt-Fontanne Theater, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Book, lyrics, and direction by Howard Ashman, music by Marvin Hamlisch</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1791">
+                  <did>
+                     <container type="box-folder">16/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1983 July 7</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1799">
+                  <did>
+                     <container type="box-folder">16/2</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984 Oct. 4</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1807">
+                  <did>
+                     <container type="box-folder">16/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984 Oct. 16</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1815">
+                  <did>
+                     <container type="box-folder">16/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1984 Dec. 27</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1823">
+                  <did>
+                     <container type="box-folder">16/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Sept. 12</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1831">
+                  <did>
+                     <container type="box-folder">16/6</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1985 Dec. 9</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1839">
+                  <did>
+                     <container type="box-folder">16/7</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Mar.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1847">
+                  <did>
+                     <container type="box-folder">16/8</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Apr.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1855">
+                  <did>
+                     <container type="box-folder">16/9</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1863">
+                  <did>
+                     <container type="box-folder">17/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1872">
+                  <did>
+                     <container type="box-folder">17/2</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Aug.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1880">
+                  <did>
+                     <container type="box-folder">17/3</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Aug.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1888">
+                  <did>
+                     <container type="box-folder">17/4</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Sep.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1896">
+                  <did>
+                     <container type="box-folder">17/5</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986 Sep. 13</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1904">
+                  <did>
+                     <container type="box-folder">17/6</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1910">
+                  <did>
+                     <container type="box-folder">17/7</container>
+                     <unittitle encodinganalog="245$a">Script fragments</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1916">
+                  <did>
+                     <container type="box-folder">27/5</container>
+                     <unittitle encodinganalog="245$a">Piano-conductor score</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1922">
+                  <did>
+                     <container type="box-folder">18/1</container>
+                     <unittitle encodinganalog="245$a">Notes, outlines, research materials</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1928">
+                  <did>
+                     <container type="box-folder">18/2</container>
+                     <unittitle encodinganalog="245$a">Business papers</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1934">
+                  <did>
+                     <container type="box-folder">18/3</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986-2010</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1942">
+                  <did>
+                     <container type="box-folder">18/4</container>
+                     <unittitle encodinganalog="245$a">Photographs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1949">
+                  <did>
+                     <container type="box-folder">18/5</container>
+                     <unittitle encodinganalog="245$a">Programs, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1986-2010</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e1958">
+               <did>
+                  <unittitle encodinganalog="245$a">The snow queen</unittitle>
+                  <note encodinganalog="500">
+                     <p>Children's musical, Indiana University, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
+                     </p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e1967">
+                  <did>
+                     <container type="box-folder">18/6</container>
+                     <unittitle encodinganalog="245$a">Masters thesis, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1975">
+                  <did>
+                     <container type="box-folder">19/1</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1983">
+                  <did>
+                     <container type="box-folder">19/2</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1989">
+                  <did>
+                     <container type="box-folder">19/3</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e1995">
+                  <did>
+                     <container type="box-folder">19/4</container>
+                     <unittitle encodinganalog="245$a">Lighting design, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2003">
+                  <did>
+                     <container type="box-folder">19/5</container>
+                     <unittitle encodinganalog="245$a">Scrapbook</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2009">
+                  <did>
+                     <container type="box-folder">19/6</container>
+                     <unittitle encodinganalog="245$a">Clippings, miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e2015">
+               <did>
+                  <unittitle encodinganalog="245$a">The spurgeons</unittitle>
+                  <note encodinganalog="500">
+                     <p>Episode one: "The ballad of Avery Mills"- unproduced television script by Howard Ashman, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1981</unitdate>
+                     </p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e2024">
+                  <did>
+                     <container type="box-folder">19/7</container>
+                     <unittitle encodinganalog="245$a">Script, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1981 Apr. 7</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2032">
+                  <did>
+                     <container type="box-folder">19/8</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e2038">
+               <did>
+                  <unittitle encodinganalog="245$a">A survivor's guide to New York</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical, unproduced, undated</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e2045">
+                  <did>
+                     <container type="box-folder">19/9</container>
+                     <unittitle encodinganalog="245$a">Script fragments</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2051">
+                  <did>
+                     <container type="box-folder">19/10</container>
+                     <unittitle encodinganalog="245$a">Notes, outlines, research materials</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e2057">
+               <did>
+                  <unittitle encodinganalog="245$a">The vagabond king</unittitle>
+                  <note encodinganalog="500">
+                     <p>Musical, Miller Theater, Houston, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1979</unitdate>
+                     </p>
+                  </note>
+                  <note encodinganalog="500">
+                     <p>Music by Rudolf Friml, book and lyrics by Brian Hooker, Russell Janney, and W.H. Post, book adapted by Bill Gile, additional lyrics by Howard Ashman, musical adaptation by John L. DeMain</p>
+                  </note>
+               </did>
+               <c03 level="file" id="mferd46e2069">
+                  <did>
+                     <container type="box-folder">19/11</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2075">
+                  <did>
+                     <container type="box-folder">19/12</container>
+                     <unittitle encodinganalog="245$a">Script, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2081">
+                  <did>
+                     <container type="box-folder">19/13</container>
+                     <unittitle encodinganalog="245$a">Piano-conductor score</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2087">
+                  <did>
+                     <container type="box-folder">20/2</container>
+                     <unittitle encodinganalog="245$a">Programs</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd46e2093">
+            <did>
+               <container type="box">20-21, 25-26, 31</container>
+               <unittitle encodinganalog="245$a" id="bioma">Biographical Materials, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1973/1993">1973-1993</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd46e2101">
+               <did>
+                  <container type="box-folder">20/3, 31/4</container>
+                  <unittitle encodinganalog="245$a">Early writings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2107">
+               <did>
+                  <container type="box-folder">20/4, 31/5</container>
+                  <unittitle encodinganalog="245$a">Early programs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2113">
+               <did>
+                  <container type="box-folder">31/6</container>
+                  <unittitle encodinganalog="245$a">Certificates, reports</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2119">
+               <did>
+                  <container type="box-folder">20/5</container>
+                  <unittitle encodinganalog="245$a">School project</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2125">
+               <did>
+                  <container type="box-folder">20/6</container>
+                  <unittitle encodinganalog="245$a">Masters diploma</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2131">
+               <did>
+                  <container type="box-folder">20/7, 31/7-8</container>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2137">
+               <did>
+                  <container type="box-folder">20/8, 31/9</container>
+                  <unittitle encodinganalog="245$a">Correspondence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1960-1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2145">
+               <did>
+                  <container type="box-folder">20/9</container>
+                  <unittitle encodinganalog="245$a">Correspondence: Sarah Gillespie, 1971-1990</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2151">
+               <did>
+                  <container type="box-folder">20/10-11</container>
+                  <unittitle encodinganalog="245$a">Correspondence: get well, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2159">
+               <did>
+                  <container type="box-folder">21/1-2</container>
+                  <unittitle encodinganalog="245$a">Correspondence: condolence, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1991</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2168">
+               <did>
+                  <container type="box-folder">31/10</container>
+                  <unittitle encodinganalog="245$a">Correspondence: family, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1992-2001</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2176">
+               <did>
+                  <container type="box-folder">21/3</container>
+                  <unittitle encodinganalog="245$a">Obituary/memorial clippings, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1991-1993</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2184">
+               <did>
+                  <container type="box-folder">21/4-5</container>
+                  <unittitle encodinganalog="245$a">Memorials/tributes</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2190">
+               <did>
+                  <container type="box-folder">31/11</container>
+                  <unittitle encodinganalog="245$a">Memorial, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1991 May 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2198">
+               <did>
+                  <container type="box-folder">21/6, 31/12</container>
+                  <unittitle encodinganalog="245$a">Clippings, general</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2204">
+               <did>
+                  <container type="box-folder">31/13</container>
+                  <unittitle encodinganalog="245$a">Clippings, WPA</unittitle>
+                  <note encodinganalog="500">
+                     <p>Originally housed in an album</p>
+                  </note>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2213">
+               <did>
+                  <container type="box">25</container>
+                  <unittitle encodinganalog="245$a">Address books</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2219">
+               <did>
+                  <container type="box">26</container>
+                  <unittitle encodinganalog="245$a">Date books</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series" id="mferd46e2225">
+            <did>
+               <container type="box">21-24</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1981/1993">1981-1993</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file" id="mferd46e2233">
+               <did>
+                  <unittitle encodinganalog="245$a">Writings by others</unittitle>
+               </did>
+               <c03 level="file" id="mferd46e2237">
+                  <did>
+                     <container type="box-folder">21/7</container>
+                     <unittitle encodinganalog="245$a">Albee, Edward. <title>The ballad of the sad cafe</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2245">
+                  <did>
+                     <container type="box-folder">21/8</container>
+                     <unittitle encodinganalog="245$a">Allensworth, Carl. <title>Viva progresso</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2253">
+                  <did>
+                     <container type="box-folder">21/9</container>
+                     <unittitle encodinganalog="245$a">Birkin, Andrew. <title>Street smart aka East side story</title>. <unitdate>1988 Feb. 29</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2264">
+                  <did>
+                     <container type="box-folder">21/10</container>
+                     <unittitle encodinganalog="245$a">Bolotin, Craig and Patricia Resnick. <title>Straight talk</title>. <unitdate>1986 Dec. 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2275">
+                  <did>
+                     <container type="box-folder">22/1</container>
+                     <unittitle encodinganalog="245$a">Boublil, Alain and Claude Michel Schonberg. <title>Tears of stone</title>. <unitdate>1987</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2286">
+                  <did>
+                     <container type="box-folder">22/2</container>
+                     <unittitle encodinganalog="245$a">Carter, Judy. <title>Shiva</title>. <unitdate>1988</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2297">
+                  <did>
+                     <container type="box-folder">22/3</container>
+                     <unittitle encodinganalog="245$a">Columbus, Chris. <title>Heartbreak hotel</title>. <unitdate>1988 Jan. 15</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2308">
+                  <did>
+                     <container type="box-folder">22/4</container>
+                     <unittitle encodinganalog="245$a">Ephron, Nora and Delia. <title>This is your life</title>. <unitdate>1990 Feb. 5</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2319">
+                  <did>
+                     <container type="box-folder">22/5</container>
+                     <unittitle encodinganalog="245$a">Ephron, Nora and Roy Blount. <title>Murder at Elaine's</title>. <unitdate>1989</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2330">
+                  <did>
+                     <container type="box-folder">22/6</container>
+                     <unittitle encodinganalog="245$a">Eyen, Tom. <title>Dreamgirls</title>. <unitdate>1981 Dec. 20</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2342">
+                  <did>
+                     <container type="box-folder">22/7</container>
+                     <unittitle encodinganalog="245$a">Eyen, Tom. <title>Dreamgirls</title>. <unitdate>1989 Oct.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2353">
+                  <did>
+                     <container type="box-folder">22/8</container>
+                     <unittitle encodinganalog="245$a">Feiffer, Jules. <title>Harry, the rat with women</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2361">
+                  <did>
+                     <container type="box-folder">22/9</container>
+                     <unittitle encodinganalog="245$a">Frandsen, Erik. <title>Song of Singapore</title>. <unitdate>1987</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2372">
+                  <did>
+                     <container type="box-folder">23/1</container>
+                     <unittitle encodinganalog="245$a">Geoghan, Jim. <title>Only kidding</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2380">
+                  <did>
+                     <container type="box-folder">23/2</container>
+                     <unittitle encodinganalog="245$a">Goluboff, Bryan. <title>In-betweens</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2388">
+                  <did>
+                     <container type="box-folder">23/3</container>
+                     <unittitle encodinganalog="245$a">Hotchner, AE and Cy Coleman. <title>Let 'em rot!</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2396">
+                  <did>
+                     <container type="box-folder">23/4</container>
+                     <unittitle encodinganalog="245$a">Innaurato, Albert. <title>Fatty at the opera</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2404">
+                  <did>
+                     <container type="box-folder">23/5</container>
+                     <unittitle encodinganalog="245$a">Kemp, Barry and Mark Ganzel. <title>Dad's a dog</title>. <unitdate>1990 Jan. 12</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2415">
+                  <did>
+                     <container type="box-folder">23/6</container>
+                     <unittitle encodinganalog="245$a">Lanier, Kate. <title>What's love got to do with it?</title>. <unitdate>1993</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2426">
+                  <did>
+                     <container type="box-folder">23/7</container>
+                     <unittitle encodinganalog="245$a">Leonardo, Joe and David Zippel. <title>Going Hollywood</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2434">
+                  <did>
+                     <container type="box-folder">23/8</container>
+                     <unittitle encodinganalog="245$a">Renick, Kyle. <title>To Russia with love</title>. <unitdate>1990 Nov. 10</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2446">
+                  <did>
+                     <container type="box-folder">23/9</container>
+                     <unittitle encodinganalog="245$a">Schrader, Paul and Mardik Martin. <title>Raging bull</title>. <unitdate>1979 Feb. 1</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2457">
+                  <did>
+                     <container type="box-folder">24/1</container>
+                     <unittitle encodinganalog="245$a">Sibley, Brian and P. L. Travers. <title>Mary Poppins comes back</title>. <unitdate>1989 Oct.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2468">
+                  <did>
+                     <container type="box-folder">24/2</container>
+                     <unittitle encodinganalog="245$a">Smith, Steven Scott. <title>The microscopic world</title>. <unitdate>1994</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2479">
+                  <did>
+                     <container type="box-folder">24/3</container>
+                     <unittitle encodinganalog="245$a">Spencer, David and Alan Menken. <title>The honeymooners</title>. <unitdate>1988 Jan. 2</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2490">
+                  <did>
+                     <container type="box-folder">24/4</container>
+                     <unittitle encodinganalog="245$a">Swicord, Robin. <title>Night magic</title>. <unitdate>1990 Apr. 17</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2501">
+                  <did>
+                     <container type="box-folder">24/5</container>
+                     <unittitle encodinganalog="245$a">Tzudiker, Bob and Noni White. <title>Newsies</title>. <unitdate>1990 Sept. 19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2512">
+                  <did>
+                     <container type="box-folder">24/6</container>
+                     <unittitle encodinganalog="245$a">Tzudiker, Bob and Noni White. <title>Newsies</title>. <unitdate>1990 Oct. 9</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file" id="mferd46e2523">
+                  <did>
+                     <container type="box-folder">24/7</container>
+                     <unittitle encodinganalog="245$a">Waters, John. <title>Cry-baby</title>. <unitdate>1988</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file" id="mferd46e2534">
+               <did>
+                  <container type="box-folder">28/5</container>
+                  <unittitle encodinganalog="245$a">Bill Schorr comic strip</unittitle>
+               </did>
+            </c02>
+            <c02 level="file" id="mferd46e2540">
+               <did>
+                  <container type="box-folder">24/8</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

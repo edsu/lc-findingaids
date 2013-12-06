@@ -17,7 +17,7 @@ ns = {
 };
 
 function main() {
-  //scrape('http://findingaids.loc.gov/source/main', findCollections);
+  scrape('http://findingaids.loc.gov/source/main', findCollections);
   generateFeed();
 }
 
